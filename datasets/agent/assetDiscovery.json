@@ -1,0 +1,82 @@
+[
+    {
+      "qid": "1kC3mP2v",
+      "query": "what assets are being discussed on twitter",
+      "level": 1,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "Qw8zKjHc",
+      "query": "what have had the most mindshare gain over the last 24 hours",
+      "level": 1,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "bN4xMfDg",
+      "query": "what assets have had the highest growth in new traders in the last 4 hours",
+      "level": 1,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "uE6aLvPo",
+      "query": "what assets (over $50k in 30d revenue) have had the highest growth in revenue in the last 30 days",
+      "level": 2,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "9pRtYn3s",
+      "query": "what projects are trending on base and solana",
+      "level": 1,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": ["ecosystems"]
+    }, 
+    {
+      "qid": "1nBhTz6c",
+      "query": "give me the top 3 memecoin plays on solana",
+      "level": 1,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": ["memecoins"]
+    },
+    {
+      "qid": "ZoQl3gKr",
+      "query": "pull recent crypto content and research over the last 7 days -- what are the most intersting assets being discussed and why",
+      "level": 2,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "Lv7tMn3h",
+      "query": "what are the most trending crypto consumer products and why",
+      "level": 2,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": ["consumer"]
+    },
+    {
+      "qid": "4gXsKr6e",
+      "query": "using quant metrics, find the most promising small cap to middle cap projects with the best technical setup, catalysts, and narrative sustainability potential",
+      "level": 2,
+      "categories": ["asset_discovery"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "yC2pJu8i",
+      "query": "what have been the top projects to raise over the last 30 days",
+      "level": 2,
+      "categories": ["asset_discovery"],
+      "tags": ["fundraising"],
+      "sectors": null
+    }
+]

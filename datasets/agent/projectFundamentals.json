@@ -1,0 +1,42 @@
+[
+    {
+      "qid": "f9zR4tK6m",
+      "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+      "level": 1,
+      "categories": ["project_fundamentals"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "xUm8wAp5",
+      "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+      "level": 1,
+      "categories": ["project_fundamentals"],
+      "tags": null,
+      "sectors": ["ecosystems"]
+    },
+    {
+      "qid": "Hv2eCj7d",
+      "query": "What defi protocols have the best valuation (P/S)?",
+      "level": 1,
+      "categories": ["project_fundamentals"],
+      "tags": null,
+      "sectors": null
+    },
+    {
+      "qid": "Rq9dHf1b",
+      "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+      "level": 2,
+      "categories": ["project_fundamentals"],
+      "tags": null,
+      "sectors": ["defi"]
+    },
+    {
+      "qid": "mZ5aNo7w",
+      "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+      "level": 2,
+      "categories": ["project_fundamentals"],
+      "tags": null,
+      "sectors": null
+    }
+]

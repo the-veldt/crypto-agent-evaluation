@@ -1,0 +1,58 @@
+[
+    {
+      "qid": "8zR4tK6m",
+      "query": "what are the latest catalysts for solana",
+      "level": 1,
+      "categories": ["asset_analysis"],
+      "tags": ["large_cap"],
+      "sectors": ["ecosystems"]
+    }, 
+    {
+      "qid": "V7kXm2Lq",
+      "query": "create a valuation analysis for Pendle",
+      "level": 2,
+      "categories": ["asset_analysis"],
+      "tags": ["middle_market"],
+      "sectors": ["defi"]
+    },
+    {
+      "qid": "8gAoUp4e",
+      "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+      "level": 2,
+      "categories": ["asset_analysis"],
+      "tags": ["large_cap"],
+      "sectors": ["defi", "derivatives"]
+    },
+    {
+      "qid": "YjS6mHt2",
+      "query": "of the memecoins with the highest mindshare growth, which assets have the best catalysts and narrative sustainability potential?",
+      "level": 2,
+      "categories": ["asset_analysis"],
+      "tags": null,
+      "sectors": ["memecoins"] 
+    },
+    {
+      "qid": "Zr7gKo2m",
+      "query": "give a breakdown of the tokenomics of Jito",
+      "level": 2,
+      "categories": ["asset_analysis"],
+      "tags": ["middle_market", "tokenomics"],
+      "sectors": ["defi"] 
+    },
+    {
+      "qid": "yB8iWa9n",
+      "query": "build and compare the investment case for Solana versus Ethereum",
+      "level": 2,
+      "categories": ["asset_analysis"],
+      "tags": ["large_cap"],
+      "sectors": ["ecosystems"] 
+    },
+    {
+      "qid": "5vJqLt3p",
+      "query": "analyze the tokenomics, moats, and market landscape of token launchpads - which projects are poised for market share growth and why",
+      "level": 3,
+      "categories": ["asset_analysis"],
+      "tags": ["middle_market"],
+      "sectors": ["launchpad"] 
+    }
+]

@@ -1,0 +1,50 @@
+[
+      {
+        "qid": "FxJq5yBk",
+        "query": "what are the key trends across ethereum, base, and solana",
+        "level": 1,
+        "categories": ["trend_discovery"],
+        "tags": null,
+        "sectors": ["ecosystems"]
+      }, 
+      {
+        "qid": "WcL3oMz8",
+        "query": "Looking at the latest content, what are the latest narratives and trends in crypto",
+        "level": 1,
+        "categories": ["trend_discovery"],
+        "tags": null,
+        "sectors": null
+      },
+      {
+        "qid": "mT3dZi9w",
+        "query": "what is the leading narrative or 'meta' in crypto, what assets are driving it, and why? Analyze the TAM, sustainability, and moat-like characteristics of the narrative",
+        "level": 2,
+        "categories": ["trend_discovery"],
+        "tags": null,
+        "sectors": null
+      },
+      {
+        "qid": "Tk3lWx4s",
+        "query": "pull the top latest tweets in crypto - what are the key discussions, projects, and narratives? Assess the sentiment and importance of each",
+        "level": 2,
+        "categories": ["trend_discovery"],
+        "tags": null,
+        "sectors": null
+      },
+      {
+        "qid": "6vGjYc2o",
+        "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+        "level": 3,
+        "categories": ["trend_discovery"],
+        "tags": null,
+        "sectors": null
+      },
+      {
+        "qid": "Bp8eUi9n",
+        "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+        "level": 3,
+        "categories": ["trend_discovery"],
+        "tags": null,
+        "sectors": null
+      }
+]

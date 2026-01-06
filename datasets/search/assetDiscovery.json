@@ -1,0 +1,26 @@
+[
+  {
+    "qid": "7kX9mP2v",
+    "query": "what are the top trending assets on Solana",
+    "level": 1,
+    "categories": ["asset_discovery"],
+    "tags": null,
+    "sectors": ["ecosystems"]
+  },
+  {
+    "qid": "3nQ8wL5x",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": ["asset_discovery"],
+    "tags": null,
+    "sectors": null
+  },
+  {
+    "qid": "9zR4tK6m",
+    "query": "what Base assets are trending on twitter",
+    "level": 2,
+    "categories": ["asset_discovery"],
+    "tags": null,
+    "sectors": ["ecosystems"]
+  }
+]

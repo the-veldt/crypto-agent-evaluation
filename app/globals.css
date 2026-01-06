@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Model provider colors */
+  --color-droyd: #DEB67C;
+  --color-openai: #4285F4;
+  --color-google: #34A853;
+  --color-anthropic: #CD9B7A;
 }
 
 @theme inline {

@@ -1,0 +1,42 @@
+[
+    {
+      "qid": "2kC3mP2v",
+      "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+      "level": 1,
+      "categories": ["trend_analysis"],
+      "tags": null,
+      "sectors": ["ai"]
+    },
+    {
+      "qid": "4tSfYb9k",
+      "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+      "level": 1,
+      "categories": ["trend_analysis"],
+      "tags": null,
+      "sectors": ["ecosystems"]
+    },
+    {
+      "qid": "WcY3oXz8",
+      "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+      "level": 2,
+      "categories": ["trend_analysis"],
+      "tags": null,
+      "sectors": ["defi"]
+    },
+    {
+      "qid": "1hLtAm5q",
+      "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+      "level": 3,
+      "categories": ["trend_analysis"],
+      "tags": null,
+      "sectors": ["derivatives"]
+    },
+    {
+      "qid": "Dw4kSv6j",
+      "query": "Compare the top trends, narratives, and 'metas' in crypto - Analyze the TAM, sustainability, and moat-like characteristics of the narrative. Which trends have the most investiability (liquid and private market)?",
+      "level": 3,
+      "categories": ["trend_analysis"],
+      "tags": null,
+      "sectors": null
+    }
+]

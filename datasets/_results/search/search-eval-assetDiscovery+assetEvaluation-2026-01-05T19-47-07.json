@@ -1,0 +1,1505 @@
+{
+  "runId": "2026-01-05T19:47:07.449Z",
+  "timestamp": "2026-01-05T19:47:07.449Z",
+  "config": {
+    "searchSystems": [
+      "droyd",
+      "exa"
+    ],
+    "datasets": "all",
+    "judgeModel": "claude-4.5-sonnet",
+    "outputDir": "datasets/_results/search",
+    "droydConfig": {
+      "searchMode": "semantic",
+      "limit": 10,
+      "daysBack": 30,
+      "sortBy": "relevance",
+      "minimumRelevanceScore": 0.2
+    },
+    "exaConfig": {
+      "numResults": 10,
+      "includeText": true,
+      "maxCharacters": 2000
+    }
+  },
+  "dataset": "assetDiscovery+assetEvaluation",
+  "judgeModel": "claude-4.5-sonnet",
+  "results": [
+    {
+      "question": {
+        "qid": "7kX9mP2v",
+        "query": "what are the top trending assets on Solana",
+        "level": 1,
+        "categories": [
+          "asset_discovery"
+        ],
+        "tags": null,
+        "sectors": [
+          "ecosystems"
+        ]
+      },
+      "searchResults": [
+        {
+          "system": "droyd",
+          "rawResponse": {
+            "success": true,
+            "error": null,
+            "analysis": "As of early January 2026, the Solana ecosystem has evolved into a bifurcated market. While it remains the premier \"casino chain\" for high-velocity memecoin trading, it has successfully transitioned into a legitimate **Internet Capital Market (ICM)**, hosting record volumes of tokenized real-world assets (RWAs) and institutional-grade treasury activity.\n\nThe following analysis categorizes the top trending assets on Solana based on recent market data, whale inflows, and social mindshare.\n\n---\n\n### 1. High-Momentum Memecoins (Legacy & New)\nMemecoins continue to dominate Solana’s retail volume, with a notable \"early-year rebound\" observed in the first week of 2026.\n\n*   **$BONK (Legacy Leader):** As of January 3, 2026, $BONK has experienced a major resurgence, pumping **over 30%** with strong 24-hour volume of $1.4M and significant whale inflows ($1.5M+). The \"Bonk Ecosystem\" remains a primary retail gateway via the **letsBONK** launchpad, which saw single-day revenues spike to ~$352,000.\n*   **$USELESS (Smart Money Choice):** This asset is currently leading \"smart money\" netflows, recording approximately **+$311,000 in inflows** over a 6-hour period on recent trackers. It has consistently outpaced $TRUMP in conviction-based buying from whale wallets.\n*   **$TRUMP (Political Beta):** Remains the volume heavyweight in the \"Political Meme\" sector. It recently led all memecoins with **$28.6M in 24-hour volume** and carries the highest social mindshare according to Messari Signals.\n*   **$FARTCOIN:** Frequently cited in \"Top 5 Whale Inflows\" and \"Social Mindshare\" lists, $FARTCOIN has maintained a stable $700M–$1B market cap, benefiting from high-velocity trading and AI-meme crossovers.\n*   **$PENGU (Pudgy Penguins):** Leading the \"Culture\" sector on Solana, $PENGU remains a top-traded asset with significant daily volume ($265M) and a market cap nearing $2B.\n\n### 2. Emerging AI & Agentic Assets\nThe \"Agentic\" narrative—where AI agents launch and manage tokens—is a primary growth driver for 2026.\n\n*   **$ZK402 & $REL:** These are currently the top gainers in the **x402 standard** (Solana’s specialized standard for AI/Agentic assets), with $ZK402 posting a **54.7% gain** in a single 24-hour window in late December 2025.\n*   **$ALCH (Alchemist AI):** Highlighted as one of the \"most traded\" tokens in the Pump.fun ecosystem, representing the trend of AI-driven trading tools.\n*   **$PNUT (Peanut):** Continues to trend in the mid-cap category, frequently appearing in both \"Most Traded\" and \"Whale Inflow\" lists ($888k in daily whale net inflows).\n\n### 3. Real-World Assets (RWAs) & Tokenized Equities\nSolana hit a new all-time high for monthly tokenized asset volume (**$137M**) in late 2025. This sector represents the \"Internet Capital Market\" shift.\n\n*   **$TSLA & $SPACEX (Pre-IPO/Equities):** SpaceX pre-IPO shares are currently the most traded tokenized equities on Solana, with **$4.07M in 24-hour volume**. Tesla ($TSLA) remains the volume leader for monthly tokenized equity activity.\n*   **$USDY (Ondo Finance):** The primary yield-bearing stablecoin on Solana, acting as a flight-to-safety asset for institutional capital entering the ecosystem.\n*   **$WET (HumidiFi):** A standout in the DeFi/Utility sector, recently topping volume charts with **$10.2M in trades** and a 14.5% price increase.\n\n### 4. Ecosystem & Infrastructure Tokens\n*   **$SOL (Solana Native):** Institutional accumulation is at an all-time high. Digital Asset Treasury (DAT) companies like **Forward Industries (FORD)** and **SOL Strategies** have raised billions (specifically a **$500M raise** by SOL Strategies) to acquire and stake SOL.\n*   **$PUMP (Pump.fun):** Following a massive **$600M ICO** in July 2025, the PUMP token has become a core ecosystem asset. The platform generates over **$377M in annualized revenue**, cementing its position as a \"cash cow\" for the network.\n*   **$JUP (Jupiter):** Remains the dominant DEX aggregator, capturing a **30% dominance** in Solana’s TVL. It is the primary rail for the \"Prop AMM\" trend, which now accounts for roughly 70% of Solana’s total volume.\n\n---\n\n### Summary Table: Assets to Watch (Jan 2026)\n\n| Category | Top Asset(s) | Key Metric/Reason |\n| :--- | :--- | :--- |\n| **High-Volume Memes** | $BONK, $WIF, $TRUMP | Leading 24h volume & whale inflows. |\n| **Smart Money Flow** | $USELESS, $FARTCOIN | Highest net positive inflows from \"Smart Wallets.\" |\n| **AI / Agentic** | $ZK402, $REL | Leading gainers in the x402 AI-agent sector. |\n| **RWAs / Equities** | $SPACEX, $TSLA | Driving the $137M ATH in tokenized volume. |\n| **Infrastructure** | $PUMP, $JUP, $SOL | Core revenue generators and institutional targets. |\n\n### Critical Analysis & Outlook\nThe research suggests that Solana is no longer just a \"meme chain.\" The emergence of **Prop AMMs** (allowing firms to put quotes on-chain with high frequency) and the success of the **MetaDAO** \"ownership coin\" model indicate that Solana is successfully absorbing market share from app-specific chains like Hyperliquid. \n\n**Investor Note:** While memecoins like $BONK and $USELESS provide high short-term beta, the true \"trend\" for 2026 is the **institutionalization of SOL treasuries** and the migration of **pre-IPO equity trading** onto the chain. Watch for the continued dominance of **Pump.fun** as it expands into livestreaming and social media to \"Kill Facebook/TikTok\" via the Solana blockchain.",
+            "content": [
+              {
+                "image_id": 438696,
+                "title": "Top Major Assets on Solana 24h Trading Volume",
+                "description": "A screenshot of a market data dashboard displaying the top major assets on the Solana blockchain over a 24-hour period. The table lists six tokens: Solana (SOL), Bitcoin (CBBTC), Ethereum (WETH), Zcash (ZEC), Monad (MON), and Hyperliquid (HYPE). Solana (SOL) leads with a price of $135.14 (+2.5%), a market cap of $76.12B, and a dominant 24-hour trading volume of $6.36B. Bitcoin (CBBTC) follows with a price of $91,281 (+1.3%) and a 24-hour volume of $32.08M on Solana. Ethereum (WETH) is priced at $3,136 (+0.8%) with a 24-hour volume of $29.41M. Zcash (ZEC) shows a price of $506.99 (+0.4%) and $10.67M in volume. Monad (MON) and Hyperliquid (HYPE) have volumes of $1.76M and $1.24M respectively. All assets show positive 24-hour price trends indicated by green trendlines. The interface includes tabs for Trending, Majors, DeFi, Stocks, and Cults, with the Majors tab currently active.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1767592248/veldt/txnreq9ue0s1xlwd6ihy.jpg",
+                "created_at": "2026-01-05T05:50:58.523093+00:00"
+              },
+              {
+                "image_id": 426628,
+                "title": "Top Major Assets on Solana",
+                "description": "The image displays a table of top major assets on the Solana blockchain. The table includes the following columns: # (rank), Token, Price 7D, Trendline 7D, Change 7D, Market Cap, and Volume 7D. The assets listed are Solana (SOL), Bitcoin (CBBTC), Ethereum (WETH), Zcash (ZEC), Monad (MON), Hyperliquid (HYPE), NEAR (NEAR), and Binance Coin (BNB). For each asset, the table provides the current price, the 7-day trendline, the 7-day change percentage, the market capitalization, and the 7-day volume. The image also includes buttons for 1H, 24H, 7D, and 30D timeframes.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1766613667/veldt/qta3cefuqphakks8c4le.jpg",
+                "created_at": "2025-12-24T22:01:07.657465+00:00"
+              },
+              {
+                "image_id": 385943,
+                "title": "Top Trending Solana Tokens (24H)",
+                "description": "The image is a chart displaying the top trending tokens on the Solana ecosystem over a 24-hour period. The chart is structured as a tree diagram, with the most trending token at the top and subsequent tokens branching downwards. The top token is $CPT, with a 42.13% increase. Below $CPT are two tokens: $goldcoin (20.78%) and $jellyjelly (9.14%). Further down, $SACHI (5.04%), $PALMO (4.37%), and $哈基米 (3.37%) are displayed. The chart includes the token symbols, their percentage gains, and associated icons. The image also includes a 'Share Trend' button and an 'Apply Trend' button, along with the website address www.bullishmarketcap.com.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1764640690/veldt/hf9ap063sulmypygyn1u.jpg",
+                "created_at": "2025-12-02T01:58:11.845763+00:00"
+              },
+              {
+                "image_id": 342438,
+                "title": "Solana x402 Spotlights: Top Gainers, Most Traded, and Trending Tokens",
+                "description": "This infographic from Solana Daily highlights the top performers on the Solana blockchain over the last 24 hours. The image is divided into three sections: Top Gainers, Most Traded, and Trending. The Top Gainers section displays the tokens with the highest percentage increases, including X4PAY (+41.6%), ACE (+30%), AVO (+29.2%), DREAMS (+28%), and HYPER (+23.9%). The Most Traded section lists tokens with their trading volumes in USD, featuring ACE ($38.25M), DREAMS ($23.99M), SWTCH ($6.89M), PAYAI ($5.21M), and CODEC ($4.04M). The Trending section showcases the tokens currently gaining attention: ACE, PAYAI, X4PAY, SWTCH, and SFY. The Solana Daily logo and social media handles are present at the bottom.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1762452001/veldt/jo0qjopgevvdqlu7a4zt.jpg",
+                "created_at": "2025-11-06T18:00:01.853663+00:00"
+              },
+              {
+                "image_id": 315293,
+                "title": "Solana Heatmap Trending Tokens",
+                "description": "This image is a heatmap displaying trending tokens on the Solana blockchain. The tokens are represented by rectangular blocks, with their names and market capitalization (MC) displayed. The top tokens are #Probity (MC: $17.3M), #KINGSOL (MC: $204.4M), $? (MC: $185.6B), $GHTK (MC: $316.6K), and $DID (MC: $146.4K). Other tokens include $ (MC: $9.3M),  (MC: $305.6K), $BRRR (MC: $233.7K), #Ballsack (MC: $770.4K), SWAGER (MC: $489.7K), #USELESS (MC: $294.6M), $ICM (MC: $18.9M), $SAVICI (MC: $9.6M), #goldcoin (MC: $1.4M), and $Ban (MC: $70.0M). The image also shows the percentage change for each token, with $? showing a 1036.7% increase. The heatmap uses color to represent the performance of the tokens, with red indicating negative performance and green indicating positive performance. The percentages next to each token represent the change in value.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1761227633/veldt/b5dhko7nfz2nbpqzxu3q.jpg",
+                "created_at": "2025-10-23T13:53:55.208174+00:00"
+              },
+              {
+                "image_id": 362574,
+                "title": "Trending Tokens on Solana",
+                "description": "The image is a screenshot of a cryptocurrency market tracker displaying trending tokens on the Solana blockchain. The image is sorted by trending tokens over the last 6 hours. The top 5 tokens are listed with their ticker symbols, logos, and market capitalization. The first token is PENGU/SOL, with a market cap of $743.42M and a price of $0.01183. The second token is WOJAK/SOL, with a market cap of $8.76M and a price of $0.008767. The third token is ZKFG/SOL, with a market cap of $526.16K and a price of $0.0005352. The fourth token is 67/SOL, with a market cap of $18.76M and a price of $0.01876. The fifth token is TRUMP/USDC, with a market cap of $1.37B and a price of $6.8154.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1763480036/veldt/ga30w420rzlwwi4fxqtb.jpg",
+                "created_at": "2025-11-18T15:33:57.061963+00:00"
+              },
+              {
+                "image_id": 421054,
+                "title": "Solana Trending Tokens",
+                "description": "The image is a screenshot of a Telegram post from @SOLTRENDING, displaying a list of trending tokens on the Solana blockchain. The list ranks tokens by their popularity, with the top 15 tokens and their associated metrics. The ranking includes the token's name and a value, likely representing market capitalization or trading volume. The top-ranked token is \"schizo\" with 355.4k. Other tokens include \"Hachiko\" with 8.4m, \"The Official 67 Coin\" with 28.0m, \"Pippin\" with 385.8m, \"Nobody Sausage\" with 13.4m, \"IdleMine\" with 27.8m, \"zauthx402\" with 514.2k, \"Polyfactual\" with 2.4m, \"PayAl\" with 14.5m, \"DINOSOL\" with 656.7k, \"Dexter AI\" with 2.2m, \"Verse World\" with 72.3m, \"predictionXBT\" with 313.7k, \"Bertram The Pomerani\" with 22.9m, and \"Daydreams\" with 7.9m. The post is powered by @Safeguard, and encourages users to use the Safeguard buy bot in their group. The image also includes the text \"ETH Trending\" at the bottom, and indicates that the post was edited at 02:03 with 413 views.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1766318085/veldt/ust6fe4yyq1ymyf2m1ao.jpg",
+                "created_at": "2025-12-21T11:54:45.820964+00:00"
+              },
+              {
+                "image_id": 436698,
+                "title": "DEXTools Trending Solana Hot Pairs List",
+                "description": "A screenshot of the DEXTools interface displaying the 'Hot Pairs' ranking on the Solana network. At the top, the price of SOL is shown as $131.27, up 4.9% in 24 hours. The main table lists the top 10 trending pairs. Ranked #1 is Clash/SOL, highlighted with a green box, showing a price of $0.0188 (+15.57% 24h), a score of 99, liquidity of $526.59K, 24h volume of $59.18K, and a total market cap of $18.80M. Other ranked pairs include BlackWhale/SOL (#2), TUNA/SOL (#3), LMAO!/SOL (#4), MANEKI/SOL (#5), dreams/SOL (#6), KERMIT/SOL (#7), FRANKLIN/USD1 (#8), BOXABL/SOL (#9), and PBANK/SOL (#10). The interface includes tabs for Token Race, KOLs, Pairs, Meme Board, Token Creator, and New Socials. A promotional banner for $STAMPEDE with '700 NITRO' is also visible above the main list.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1767441422/veldt/ka6y0qdvyt1w4hyrqdx2.jpg",
+                "created_at": "2026-01-03T11:57:13.51155+00:00"
+              },
+              {
+                "image_id": 390252,
+                "title": "CoinMun Top 10 Trending Solana Coins",
+                "description": "The image is a ranking of the top 10 trending Solana coins, as listed by CoinMun. The ranking is displayed with the Solana logo and the word \"TRENDING\" highlighted. The coins are listed with their respective ranks, logos, and names. The top 5 coins are: 1) SHOGGOTH, 2) PIPPIN, 3) FARTCOIN, 4) JELLYJELLY, and 5) GHIBLI. The subsequent 5 coins are: 6) $WIF, 7) USELESS, 8) FWOG, 9) ACT, and 10) POPCAT.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1764820679/veldt/lwynhbzsqmah08kuwapw.jpg",
+                "created_at": "2025-12-04T03:57:59.484969+00:00"
+              },
+              {
+                "image_id": 425540,
+                "title": "Solana Trending List",
+                "description": "This image is a screenshot of a Telegram post from @SOLTRENDING, displaying a list of trending topics on the Solana blockchain. The list ranks various projects and tokens by their popularity, with the top 15 entries shown. Each entry includes a rank, the project name, and a volume metric (e.g., 542.5k, 420.6m). The top three are predictionXBT, Pippin, and Act I: The AI Proph. The image also includes a call to action to use a \"Safeguard buy bot\" and is \"Powered by @Safeguard\". The post is marked as edited and the time is 02:03.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1766555158/veldt/vzqsrqr2rja5j9v3rnsw.jpg",
+                "created_at": "2025-12-24T05:45:59.089669+00:00"
+              }
+            ],
+            "metadata": {
+              "sort_by": "relevance",
+              "content_types": [
+                "posts",
+                "news",
+                "developments",
+                "tweets",
+                "youtube"
+              ],
+              "total_results": 10,
+              "limit": 10
+            },
+            "user_id": 3
+          },
+          "searchParams": {
+            "query": "what are the top trending assets on Solana",
+            "searchMode": "semantic",
+            "limit": 10,
+            "daysBack": 30,
+            "sortBy": "relevance",
+            "minimumRelevanceScore": 0.2
+          },
+          "executionTimeMs": 23483.273041
+        },
+        {
+          "system": "exa",
+          "rawResponse": [
+            {
+              "title": "Live Trending Solana Tokens - CoinScan",
+              "url": "https://www.coinscan.com/solana",
+              "publishedDate": "2025-01-01T00:00:00.000Z",
+              "author": "",
+              "text": "CoinScan was just Updated.\n\n[Read More](https://docs.coinscan.com/changelog)\n\n# Trending Tokens on Solana\n\n24H Volume\n\n24H TXNs\n\nTokens Created\n\n![Solana](https://media.coinscan.com/blockchains/1399811149.png)Solana\n\nAll DEXes\n\nMore\n\nTrending\n\n5m1h6h24h\n\nTop\n\nGainers\n\nNew Pairs\n\nFilterCustomize\n\nThemeThemeCurrencyLanguage\n\nCurrencyLanguageThemeTheme\n\n[Privacy](https://docs.coinscan.com/privacy/privacy-policy) [Terms](https://docs.coinscan.com/privacy/terms-of-use)"
+            },
+            {
+              "title": "Top Solana Ecosystem Coins by Market Cap",
+              "url": "https://www.kraken.com/categories/solana-ecosystem",
+              "author": "",
+              "text": "[Home](https://www.kraken.com/)/ [Categories](https://www.kraken.com/categories)/ Solana Ecosystem\n\n# Top Solana Ecosystem Coins by Market Cap\n\nThe Solana Ecosystem refers to a network of crypto projects that provide decentralized services built around Solana Ecosystem. Within this ecosystem, Solana Ecosystem coins play a vital role, facilitating transactions and providing users with access to various functionalities. For those interested in exploring the options available, the full list of top Solana Ecosystem coins below can help identify the different projects associated with this ecosystem.\n\n## 90 assets\n\nUSD\n\nUSD\n\n- Tradable\n- All assets\n- Biggest gains\n- Biggest dips\n- Recently listed\n\n- 1D\n- 1W\n- 1M\n- 1Y\n- 5Y\n\n| # | Name | Price | Last 24 hours | Change | Market Cap |\n| --- | --- | --- | --- | --- | --- |\n| 1 | [USDT\\ \\ TetherUSDT](https://www.kraken.com/prices/tether) | $1.00 | +0.01% | $144.57B | [Trade](https://www.kraken.com/sign-up) |\n| 2 | [SOL\\ \\ SolanaSOL](https://www.kraken.com/prices/solana) | $128.32 | -2.02% | $66.24B | [Trade](https://www.kraken.com/sign-up) |\n| 3 | [USDC\\ \\ USDCUSDC](https://www.kraken.com/prices/usdc) | $1.00 | 0.00% | $60.39B | [Trade](https://www.kraken.com/sign-up) |\n| 4 | [USDS\\ \\ USDSUSDS](https://www.kraken.com/prices/usds) | $1.00 | +0.01% | $7.28B | [Trade](https://www.kraken.com/sign-up) |\n| 5 | [RENDER\\ \\ RenderRENDER](https://www.kraken.com/prices/render) | $3.76 | -3.05% | $1.95B | [Trade](https://www.kraken.com/sign-up) |\n| 6 | [TRUMP\\ \\ Official TrumpTRUMP](https://www.kraken.com/prices/official-trump) | $7.87 | -1.76% | $1.57B | [Trade](https://www.kraken.com/sign-up) |\n| 7 | [JUP\\ \\ JupiterJUP](https://www.kraken.com/prices/jupiter) | $0.36 | -4.36% | $1.04B | [Trade](https://www.kraken.com/sign-up) |\n| 8 | [BONK\\ \\ BonkBONK](https://www.kraken.com/prices/bonk) | $0.000012 | -8.54% | $930.80M | [Trade](https://www.kraken.com/sign-up) |\n| 9 | [FARTCOIN\\ \\ FartcoinFARTCOIN](https://www.kraken.com/prices/fartcoin) "
+            },
+            {
+              "title": "Top Solana Ecosystem Tokens by Market Capitalization",
+              "url": "https://coinmarketcap.com/view/solana-ecosystem/",
+              "author": null,
+              "text": "Top Solana Ecosystem Tokens by Market Capitalization | CoinMarketCap\n[](https://coinmarketcap.com/)\n[\nCryptocurrencies\n](https://coinmarketcap.com/)\nCryptocurrencies\n[![]()Ranking](https://coinmarketcap.com/)[![]()Categories](https://coinmarketcap.com/cryptocurrency-category/)[![]()Historical Snapshots](https://coinmarketcap.com/historical/)[![]()Token unlocks](https://coinmarketcap.com/token-unlocks/)[![]()Yield](https://coinmarketcap.com/yield/)[![]()Real-World Assets](https://coinmarketcap.com/real-world-assets/)\nLeaderboards\n[![]()Trending](https://coinmarketcap.com/trending-cryptocurrencies/)[![]()Upcoming](https://coinmarketcap.com/upcoming/)[![]()Recently Added](https://coinmarketcap.com/new/)[![]()Gainers &amp; Losers](https://coinmarketcap.com/gainers-losers/)[![]()Most Visited](https://coinmarketcap.com/most-viewed-pages/)[![]()Community Sentiment](https://coinmarketcap.com/sentiment/)[![]()Chain Ranking](https://coinmarketcap.com/chain-ranking/)\nNFT\n[![]()Overall NFT Stats](https://coinmarketcap.com/nft/)[![]()Upcoming Sales](https://coinmarketcap.com/nft/upcoming/)\n[\nDashboards\n](https://coinmarketcap.com/charts/)\nMarkets\n[![]()Market Overview](https://coinmarketcap.com/charts/)[![]()Spot Market](https://coinmarketcap.com/charts/spot-market/)[![]()Derivatives Market](https://coinmarketcap.com/charts/derivatives-market/)[![]()No. of Cryptocurrencies](https://coinmarketcap.com/charts/number-of-cryptocurrencies-tracked/)[![]()Bitcoin Treasuries](https://coinmarketcap.com/charts/bitcoin-treasuries/)[![]()BNB Treasuries](https://coinmarketcap.com/charts/bnb-treasuries/)\nIndicators\n[![]()Fear and Greed Index](https://coinmarketcap.com/charts/fear-and-greed-index/)[![]()Altcoin Season Index](https://coinmarketcap.com/charts/altcoin-season-index/)[![]()Market Cycle Indicators](https://coinmarketcap.com/charts/crypto-market-cycle-indicators/)[![]()Bitcoin Dominance](https://coinmarketcap.com/charts/bitcoin-dominance/)[![]()CoinMarketCap 20 Index](https://coinmark"
+            },
+            {
+              "title": "Top Solana Ecosystem Coins by Market Cap - CoinGecko",
+              "url": "https://www.coingecko.com/en/categories/solana-ecosystem",
+              "author": "",
+              "text": "Portfolios\n\nAdd to New Portfolio\n\n# Top Solana Ecosystem Coins by Market Cap\n\nView all tokens and cryptocurrencies used within the Solana Ecosystem below.\nRead More about Solana Ecosystem\n\nSolana is a general purpose blockchain similar to Ethereum. The underlying architecture is different, such that developers have to write applications using Rust instead of Solidity or Vyper. However, this may soon change with the introduction of the Neon EVM solution on Solana. End user applications as of now include decentralized finance (DeFi), non-fungible tokens (NFT), marketplaces, games, and more. One of its biggest features is its scalability in which Solana is able to process over 700,000 transactions per second. Its high throughput capability appeals to high frequency traders, which is spearheaded by FTX and Alameda Research. The first use case for DeFi applications on Solana is Serum, built by the team behind FTX.\n\nHighlights\n\n![Solana](https://assets.coingecko.com/asset_platforms/images/5/small/solana.png?1706606708)\nSolana\n\n[![AELF](https://static.coingecko.com/s/missing_small-eb901191f005e4541d0c06af8fa083444e2bb38b021cf8703b66dd56b92d1fe3.png)\\\nAELF](https://www.coingecko.com/en/categories/aelf-ecosystem) [![AlienX](https://assets.coingecko.com/asset_platforms/images/277/small/alienx.png?1719305544)\\\nAlienX](https://www.coingecko.com/en/categories/alienx-ecosystem) [![Ancient8](https://assets.coingecko.com/asset_platforms/images/259/small/ancient8.jpeg?1715926598)\\\nAncient8](https://www.coingecko.com/en/categories/ancient8-ecosystem) [![Aptos](https://assets.coingecko.com/asset_platforms/images/116/small/aptos_round.png?1706606789)\\\nAptos](https://www.coingecko.com/en/categories/aptos-ecosystem) [![Arbitrum Nova](https://assets.coingecko.com/asset_platforms/images/93/small/AN_logomark.png?1706606703)\\\nArbitrum Nova](https://www.coingecko.com/en/categories/arbitrum-nova-ecosystem) [![Arbitrum One](https://assets.coingecko.com/asset_platforms/images/33/small/AO_logomar"
+            },
+            {
+              "title": "Token Leaderboard",
+              "url": "https://solscan.io/leaderboard/token",
+              "publishedDate": "2025-01-01T00:00:00.000Z",
+              "author": "solscan.io",
+              "text": "Token Leaderboard\n[](https://solscan.io/)\n#### Token Leaderboard\nOnly tokens with an OK &amp; Neutral reputation: evaluated to be a token of public interest by Solscan\nAll TokensStocksTop TransferTop Trading\n[API](https://pro-api.solscan.io/pro-api-docs/v2.0/reference/v2-token-top)\n|\nNo\n|\nToken\n|\nSymbol\n|\nHolders\n|\nPrice\n|\nMarket Cap (F.D)\n|\nTVL\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\nShow\nper page\n[\n](https://twitter.com/solscanofficial)[\n](https://solscan.substack.com/)\nBack to Top\n![solLogo](https://solscan.io/_next/static/media/solana-sol-logo.ecf2bf3a.svg)\nPowered by Solana Blockchain\nSolscan is the leading Block Explorer and Search, API &amp; Analytics Platform for Solana blockchain.\nCompany\n[\nAbout Us\n](https://solscan.io/aboutus)[\nBranding\n](https://solscan.io/branding)[\nContact Us\n](https://solscan.io/contactus)[\nTerms of Service\n](https://solscan.io/terms-of-service)[\nPrivacy Policy\n](https://solscan.io/privacy-policy)[\nBug Bounty\n](https://solscan.io/bugbounty)\nCommunity\n[\nAPI Docs\n](https://pro-api.solscan.io/pro-api-docs/v2.0)[\nSolscan Docs\n](https://docs.solscan.io/)[\nKnowledge Base\n](https://info.solscan.io)\nProducts &amp; Services\n[\nAdvertise\n](https://solscan.io/contactusadvertise)[\nExplorer as a Service (EaaS)\n](https://solscan.io/eaas)[\nAPI Plans\n](https://solscan.io/apis)[\nPriority Support\n](https://solscan.io/priority-support)[\nToken Update\n](https://solscan.io/token-update)\nSolscan @2026\nDonations:\n[D27Dgi...L5EuLK](https://solscan.io/account/D27DgiipBR5dRdij2L6NQ27xwyiLK5Q2DsEM5ML5EuLK)"
+            },
+            {
+              "title": "Solana Dashboard - Step Finance",
+              "url": "https://analytics.step.finance/",
+              "publishedDate": "2025-09-24T00:00:00.000Z",
+              "author": "",
+              "text": "Solana Dashboard - Step Finance\nSearch Wallet or .SOL Domain\nConnect Wallet\nConnect Wallet\n* [\nHome\n](https://analytics.step.finance/)\n* [\nPortfolio\n](https://analytics.step.finance/portfolio)\n* [\nNFTs\n](https://analytics.step.finance/nfts)\n* [\nTransactions\n](https://analytics.step.finance/history)\n* [\nEarn\n](https://analytics.step.finance/earn/sol)\n* [\nSwap\n](#)\n* [\nWallet Cleanup\n](https://analytics.step.finance/wallet-cleanup/swap-dust)\nSign In or Sign Up\n* [\nSettings\n](https://analytics.step.finance/settings)\n🇺🇸English\n* [\nReward Options Stats\n](https://analytics.step.finance/reward-options-stats)\n* [\nPortfolio Coverage\n](https://analytics.step.finance/coverage)\n* [\nSolanaFloor\n](https://solanafloor.com/)\n[\n](https://x.com/StepFinance_)[\n](https://discord.gg/stepfinance)[\n](https://stepfinance.medium.com/)[\n](https://stepdata.substack.com/)\n©2026Step Finance\n## Welcome to Step\n## Watchlist\n[Manage Watchlist](#)\n1D1W1M\n## Latest News\n[View All](https://solanafloor.com/news)\n[\n![](https://img.step.finance/unsafe/s-512/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F72b46a53-14a5-4548-b5d7-158cdbfb05be)\n### Solstice Assures Holders $USX Remains Fully Backed as Stablecoin De-Pegs on Secondary\nSolstice TVL down 2.15% following stablecoin de-peg\n8 days agobyFinn\n](https://solanafloor.com/news/solstice-assures-holders-usx-remains-fully-backed-as-stablecoin-de-pegs-on-secondary)[\n![](https://img.step.finance/unsafe/s-512/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2Fa98e2628-3555-4822-9fea-2909fba84c45)\n### Top Breakout Solana Apps in 2025\nDeFi ruled Solana’s app layer in 2025\n8 days agobyFinn\n](https://solanafloor.com/news/top-breakout-solana-apps-in-2025)[\n![](https://img.step.finance/unsafe/s-512/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F426ad516-d670-43bb-b344-aa770d7f7a76)\n### Jupiter Reclaims Dominance with 93.6% Market Share in Solana’s Aggregator Landscape\nAggregator competition is increasingly defined by routing design, execution quality, and"
+            },
+            {
+              "title": "Top Solana Projects: Titan Analytics Leaderboard Insights - Titan Analytics",
+              "url": "https://titananalytics.io/top-solana-projects-titan-analytics-leaderboard-insights/",
+              "publishedDate": "2025-02-06T02:19:43.000Z",
+              "author": "Titan Analytics",
+              "text": "Top Solana Projects: Titan Analytics Leaderboard Insights - Titan Analytics[Skip to content](#content)\n[](https://titananalytics.io/)\n[](https://titananalytics.io/)\n# Top Solana Projects: Titan Analytics Leaderboard Insights\n![Top Solana Projects: Titan Analytics Leaderboard Insights](https://titananalytics.io/wp-content/uploads/2025/02/Top-Solana-Projects-Titan-Analytics-Leaderboard-Insights.png \"Top Solana Projects: Titan Analytics Leaderboard Insights\")\n**Top[Solana](https://solana.org/)Projects: Titan Analytics Leaderboard Insights**\nSolana has emerged as one of the leading blockchain platforms, thanks to its high throughput, low transaction costs, and a vibrant ecosystem of decentralized applications (dApps). At the heart of this ecosystem is Titan Analytics, your go-to source for data-driven insights and analytics that empower Solana users to make informed decisions. This article will delve into some of the top projects on Solana, offering insights through our robust leaderboard features.\n**What is the Solana Network?**\nSolana is a high-performance blockchain designed for decentralized applications and crypto projects. It boasts some impressive capabilities, including the ability to process over 65,000 transactions per second (TPS) and a unique consensus mechanism called Proof of History (PoH). These features enable Solana to be the platform of choice for developers looking to build scalable applications.\n**Why Titan Analytics?**\nAs a Solana validator and an analytics platform, Titan Analytics brings valuable insights into the performance and growth of Solana projects. Our Leaderboard provides a comprehensive overview of the most active and engaging projects on the network, allowing you to track trends and make educated decisions.\n**Exploring Top Solana Projects**\n \n1. **Star Atlas**\n \n* A cutting-edge metaverse and gaming experience, Star Atlas leverages Solana’s high-speed transactions to provide users with a seamless gaming environment. Players can earn tok"
+            },
+            {
+              "title": "Solana Assets Screener | Messari",
+              "url": "https://messari.io/screener/screen/solana-assets-p1gk",
+              "publishedDate": "2025-01-01T00:00:00.000Z",
+              "author": "",
+              "text": "Search or jump to.../\n\n[Ask Copilot](https://messari.io/copilot?returnTo=%2Fscreener%2Fscreen%2Fsolana-assets-p1gk)\n\nScreener\n\nCreate New Screen [Explore Library](https://messari.io/screener-library)\n\nWe value your feedback. For missing data or questions, please use our Contact Form\n\n[Home](https://messari.io/) [Research](https://messari.io/research) [News](https://messari.io/news) [Copilot](https://messari.io/copilot)\n\nMore"
+            },
+            {
+              "title": "Top Solana Projects: Coins, NFTs & Ecosystem Leaders",
+              "url": "https://www.okx.com/learn/top-solana-projects",
+              "publishedDate": "2025-11-07T00:00:00.000Z",
+              "author": "OKX",
+              "text": "Top Solana Projects: Coins, NFTs &amp; Ecosystem Leaders | OKX United States\nSkip to main content\n[](https://www.okx.com/en-us)\n**\nThis page is for information purposes only. Certain services and features may not be available in your jurisdiction.\n**\n[OKX](https://www.okx.com/en-us/learn/tag/okx)[Solana](https://www.okx.com/en-us/learn/tag/solana)\n# Top Solana Project: Complete Guide to Coins, NFTs & Ecosystem\n![OKX Learn](https://www.okx.com/cdn/assets/imgs/2210/21163FF74839F4B6.png?x-oss-process=image/resize,w_80,h_80/format,webp)OKX Learn\nPublished onNov 08, 2025\nUpdated on Nov 08, 2025\n11 min read\n**\n[![](https://www.okx.com/cdn/announce/20241213/1734089313443af4b302d-0056-403c-837b-468f7b09baf4.png)\nPENGU-1.57%\n](https://www.okx.com/en-us/price/pudgy-penguins-pengu)[![](https://www.okx.com/cdn/announce/20230419/1681875530349f92aa4a2-db30-4964-999c-ef7eb6f3914a.png)\nSOL+0.46%\n](https://www.okx.com/en-us/price/solana-sol)\nSolana&#39;s explosive growth over the past year has turned heads across the crypto industry. In 2025, Solana’s ecosystem burst with top Solana projects, amassing surges in total value locked (TVL), NFT volumes, and a tidal wave of viral meme coins. If you’re eager to tap into the Solana ecosystem, this guide has you covered. We’ll profile sector-leading projects for 2025, explore the hottest DeFi platforms, NFTs, memecoins, and gaming projects, and provide actionable insights on how to discover the next big Solana coin.\nBy the end, you’ll understand Solana’s ecosystem trends, practical risks, and where to start your journey with OKX as your trusted gateway. Let’s dive into the top Solana projects and what’s driving the Solana ecosystem forward!\n## Solana Ecosystem Overview &amp; Trends\nSolana is renowned for its lightning-fast transactions and ultra-low fees. Since launch, the network has inspired developers with its scalable architecture and active community, making it one of the most dynamic blockchains. This energy fueled the proliferation o"
+            },
+            {
+              "title": "Solana Tokens | CryptoSlate",
+              "url": "https://cryptoslate.com/blockchain/solana/",
+              "author": null,
+              "text": "Solana Tokens | CryptoSlate\n[CryptoSlate](https://cryptoslate.com/)\n****Search[**Top](https://cryptoslate.com/top-news/)[**News](https://cryptoslate.com/news/)[**Podcasts](https://cryptoslate.com/podcasts/)[**Coins](https://cryptoslate.com/coins/)[**Data](https://cryptoslate.com/data/)[**Places](https://cryptoslate.com/places/)[**Directory](https://cryptoslate.com/directory/)****More\nInstall App**Light Mode****\nSections\n* [**Top](https://cryptoslate.com/top-news/)\n* [**News](https://cryptoslate.com/news/)\n* [**Podcasts](https://cryptoslate.com/podcasts/)\n* [**Coins](https://cryptoslate.com/coins/)\n* [**Data](https://cryptoslate.com/data/)\n* [**Places](https://cryptoslate.com/places/)\n* [**Directory](https://cryptoslate.com/directory/)\nMore from CryptoSlate\n* [**About CryptoSlate](https://cryptoslate.com/about/)\n* [**Brand Assets](https://cryptoslate.com/brand-assets/)\n* [**Company Updates](https://cryptoslate.com/updates/)\n* [**Crypto Glossary](https://cryptoslate.com/glossary/)\n* [**Disclaimers](https://cryptoslate.com/disclaimers/)\n* [**FAQ](https://cryptoslate.com/faq/)\n* [**Help &#038; Support](https://cryptoslate.com/contact/)\n* [**Media Kit](https://cryptoslate.com/media-kit/)\n* [**Press Releases](https://cryptoslate.com/press-releases/)\nExplore CryptoSlate\n[News + AnalysisBreaking coverage, market context, and reporting.Latest news](https://cryptoslate.com/news/)[PodcastsInterviews, discussions, and long-form audio.Listen now](https://cryptoslate.com/podcasts/)[Alpha ResearchMember-only reports, data, and insights.Explore Alpha](https://cryptoslate.com/alpha/)[DirectoryPeople, companies, products, and crypto assets.Browse directory](https://cryptoslate.com/directory/)[Crypto AssetsProfiles, stats, and performance across coins.View assets](https://cryptoslate.com/coins/)[ReviewsDetailed reviews and ratings of crypto products.Read reviews](https://cryptoslate.com/reviews/)\nDirectory highlights\n[Crypto Assets](https://cryptoslate.com/coins/)[People](https://cryp"
+            }
+          ],
+          "searchParams": {
+            "query": "what are the top trending assets on Solana",
+            "numResults": 10,
+            "includeText": true,
+            "maxCharacters": 2000
+          },
+          "executionTimeMs": 1049.0295
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-05T19:47:07.450Z"
+    },
+    {
+      "question": {
+        "qid": "3nQ8wL5x",
+        "query": "what assets are being discussed on twitter",
+        "level": 1,
+        "categories": [
+          "asset_discovery"
+        ],
+        "tags": null,
+        "sectors": null
+      },
+      "searchResults": [
+        {
+          "system": "droyd",
+          "rawResponse": {
+            "success": true,
+            "error": null,
+            "analysis": "Based on research materials and social sentiment data as of January 5, 2026, the conversation on Twitter (X) is dominated by a convergence of **AI-driven agents, tokenized real-world assets (RWAs), and high-velocity memecoin ecosystems** primarily centered on Solana and Base.\n\nThe market has shifted toward \"Entertainment Finance,\" where attention flows and social mimetics are treated as primary fundamentals.\n\n---\n\n### 1. The Mindshare Leaders: BTC, SOL, and ETH\nWhile Bitcoin remains the most discussed asset by volume, its dominance is being challenged by the \"Twitter #1,\" Solana, while Ethereum is seeing a notable decline in social mindshare.\n\n*   **Bitcoin ($BTC):** Remains the primary focus for institutional discussion, especially as it defends the $100,000 level. VCs and angel investors mention BTC more than any other asset (4,321 mentions in the past month), though its \"mention velocity\" is slightly down (-6%).\n*   **Solana ($SOL):** Described by analysts as the \"#1 crypto-asset\" if the arena were fought on Twitter. It has seen a **37.69% increase in mentions**, driven by its status as the \"New York/San Francisco\" of the on-chain economy.\n*   **Ethereum ($ETH):** Discussion is lagging, with a **49% drop in unique mentions**. Conversation has pivoted toward its Layer 2 ecosystem, specifically **Base**, and the resurgence of its \"Future of Finance\" narrative via protocols like **Aerodrome**.\n\n### 2. The AI Agent Revolution: Virtuals & AI xbt\nA standout trend in early 2026 is the financialization of AI agents. Discussion has moved beyond \"AI coins\" to \"AI influencers.\"\n\n*   **AI xbt:** This is currently a top-tier trending topic. It is an AI agent spun up by the **Virtuals Protocol** that has become the #2 influencer on Twitter by engagement, surpassing most human analysts.\n*   **Virtuals Protocol:** Mentioned frequently as an \"AI agent as a service\" platform. Its agents are now tradable on Coinbase, which has sparked significant discussion regarding the \"AI utility memecoin\" category.\n*   **Bittensor ($TAO):** Continues to hold a strong position in the \"AI x Crypto\" reportage, maintaining high mindshare despite neutral sentiment.\n\n### 3. Real World Assets (RWAs) and Tokenized Stocks\nThe \"professionalization\" of on-chain assets is a major discussion point, with high-intent capital moving into tokenized treasuries and equities.\n\n*   **Tokenized Treasuries:** **BlackRock’s BUIDL fund** (approaching $2.9B AUM) and **Franklin Templeton’s BENJI** are the most cited \"safe\" assets. New entrants like **Theo Network ($thBILL)**, which recently minted $75 million, are also gaining traction.\n*   **Tokenized Stocks (xStocks):** Platforms like **Kraken (via Backed Finance)** and **Securitize** have made 24/7 trading of U.S. equities a reality. The most discussed \"on-chain stocks\" are:\n    *   **NVDAx (Nvidia):** Frequently cited as a top holding by value ($72M+).\n    *   **TSLAx (Tesla):** Leading tokenized stock by value ($167M+).\n    *   **MSTRx (MicroStrategy):** Highlighted for its \"Bitcoin treasury\" synergy.\n*   **Private Credit:** **Figure Technologies** is dominating the private credit narrative on the Provenance blockchain, while **Maple Finance** ($syrupUSDC) is a frequent \"spotlight\" project.\n\n### 4. Hyperliquid and On-Chain Derivatives\n**Hyperliquid ($HYPE)** is emerging as a \"category definer\" for on-chain trading.\n\n*   It has seen a **116% increase in mentions** recently.\n*   Twitter users are specifically discussing its list of \"spot assets\" (3 of its top 10 are now spot) and the launch of **10x leverage on $AAPL (Apple)** stock via a partnership with TradeXYZ.\n\n### 5. The \"Industrialized\" Memecoin Complex\nThe conversation around memecoins has matured into a discussion about the platforms that launch them.\n\n*   **Pump.fun:** The established leader, though recent sentiment notes it has become \"industrialized extraction\" where bots rug users at high frequency.\n*   **Clanker:** A newer favorite on **Farcaster/Base**, noted for \"first-class assets\" like the **\"Blonde\"** meme, which has fostered a high-engagement community of 500+ active Telegram members.\n*   **Specific Trending Memes:**\n    *   **$BONK** and **$WIF (dogwifhat):** The \"blue-chip\" memes of Solana.\n    *   **$TRUMP & $WLFI (World Liberty Financial):** Highly discussed due to political ties and their \"disruptive\" effect on sentiment.\n    *   **$PNUT (Peanut the Squirrel):** Cited as a recent viral success.\n\n### 6. Emerging Recovery Narratives\n*   **Privacy Coins:** There is a revived debate on the technical merits of **Zcash ($ZEC)** and **Monero ($XMR)**. Analysts on Twitter are re-evaluating Zcash specifically because \"price is leading the narrative\" after years of sideways movement.\n*   **New Native Listings:** **Lighter ($LIT)** and **Zama ($ZAMA)** are being discussed due to recent token launches and unique vesting structures (Zama is noted for being \"fully unlocked\").\n\n### Summary of Trending Tickers by Mindshare\n| Asset | Trend | Sentiment |\n| :--- | :--- | :--- |\n| **SOL** | High Growth | Very Bullish |\n| **HYPE** | Scaling Perps | Bullish |\n| **AI xbt** | AI Influence | Hype/Fascinated |\n| **BUIDL** | Institutional RWA | Credible/Stable |\n| **PUMP** | Meme Engine | Neutral/Toxic |\n| **ZEC** | Privacy Pivot | Speculative/Optimistic |\n\n**Expert Insight:** The current Twitter climate is less about \"finding the next hidden gem\" and more about **following the attention flows** (The \"Sydney Sweeney\" Trade). If an asset can dominate the \"one note of the internet\" for a day, Twitter traders are treating that as a legitimate valuation metric, often bypassing traditional cash-flow analysis.",
+            "content": [
+              {
+                "post_id": 112405,
+                "post_link": "https://x.com/MessariCrypto/status/1970858299735376022",
+                "published_date": "2025-09-24T14:30:10+00:00",
+                "title": "Venture's Most Mentioned Assets",
+                "source_name": "MessariCrypto",
+                "summary": "Messari highlights the most-mentioned assets by VCs and angel investors. Key point: Top assets.",
+                "key_points": [
+                  {
+                    "header": "Bitcoin",
+                    "bullets": [
+                      "4321 mentions, -6.04% change",
+                      "2074 unique investors, -15.03% change"
+                    ]
+                  },
+                  {
+                    "header": "Solana",
+                    "bullets": [
+                      "3226 mentions, +37.69% change",
+                      "1680 unique investors, +26.70% change"
+                    ]
+                  },
+                  {
+                    "header": "Hypergrowth Assets",
+                    "bullets": [
+                      "Hyperliquid: +116.00% mentions, +90.41% investors",
+                      "Pump.Fun: +136.65% mentions, +95.39% investors"
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 1701,
+                    "project_name": "Bitcoin"
+                  },
+                  {
+                    "project_id": 4694,
+                    "project_name": "Ethereum"
+                  },
+                  {
+                    "project_id": 6373,
+                    "project_name": "Hyperliquid"
+                  },
+                  {
+                    "project_id": 11943,
+                    "project_name": "Solana"
+                  },
+                  {
+                    "project_id": 14335,
+                    "project_name": "World Liberty Financial"
+                  },
+                  {
+                    "project_id": 15071,
+                    "project_name": "Base"
+                  },
+                  {
+                    "project_id": 21792,
+                    "project_name": "Pump.fun"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "image_id": 245237,
+                "title": "Most-mentioned assets by VCs and angel investors on X",
+                "description": "This image is a table presenting data on the most-mentioned assets by VCs and angel investors on X (formerly Twitter). The table includes the following columns: Project, Total Mentions, Mentions % Change, Unique Investors, and Investors % Change. The projects listed are Bitcoin (BTC), Solana (SOL), Ethereum (ETH), Hyperliquid (HYPE), Pump.Fun (PUMP), World Liberty Financial (WLFI), and Base Chain (BASE). The data shows the total mentions for each project, the percentage change in mentions, the number of unique investors, and the percentage change in investors. For example, Bitcoin has 4321 total mentions, a -6.04% change in mentions, 2074 unique investors, and a -15.03% change in investors. Solana has 3226 total mentions, a +37.69% change in mentions, 1680 unique investors, and a +26.70% change in investors. Ethereum has 2802 total mentions, a -49.27% change in mentions, 1736 unique investors, and a -42.99% change in investors. Hyperliquid has 1411 total mentions, a +116.00% change in mentions, 1072 unique investors, and a +90.41% change in investors. Pump.Fun has 519 total mentions, a +136.65% change in mentions, 424 unique investors, and a +95.39% change in investors. World Liberty Financial has 473 total mentions, a +272.38% change in mentions, 304 unique investors, and a +169.03% change in investors. Base Chain has 396 total mentions, a -2.18% change in mentions, 342 unique investors, and a -6.30% change in investors.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1759082496/veldt/s7ef7enwzubsd5b3nyve.jpg",
+                "created_at": "2025-09-28T18:01:36.788456+00:00"
+              },
+              {
+                "image_id": 384297,
+                "title": "Twitter thread discussing Tether's potential asset sales",
+                "description": "The image is a screenshot of a Twitter thread discussing the possibility of Tether selling its gold, Bitcoin, and non-treasury assets to become compliant. The first tweet, by @jason, suggests that this topic will be discussed in the next six months. The tweet also mentions that rate cuts will make the business less attractive, but going legit in 2026 is a better plan. A reply by @based16z bets $1 million on the odds that Tether won't sell all their gold and Bitcoin in the next 12 months. Another user, @btcgenesis, replies to @based16z and @Jason.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1764575594/veldt/wuohjbojaj6l0xx2trym.jpg",
+                "created_at": "2025-12-01T07:53:15.553269+00:00"
+              },
+              {
+                "image_id": 212347,
+                "title": "Twitter thread discussing crypto assets and buyback programs",
+                "description": "The image is a screenshot of a Twitter thread. The first tweet, by Cole, states \"The asset goes up the ticker goes down lol.\" The second tweet, by Max Alpha, says the asset is $ETH but the ticker is $BMNR and criticizes the selling of the asset below mNAV. The third tweet, by Nasdaq Tiger, says \"Start the buyback programme.\" The fourth tweet, by gg_eth, criticizes the company for posting the same stuff every day and claims it's a scam. The fifth tweet, by Nasdaq Tiger, asks how they are going to get the 1.5 billion for the promised buyback programme. The tweets have various engagement metrics such as replies, retweets, and likes.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1756936789/veldt/jbth65qxdb1kksnaim46.jpg",
+                "created_at": "2025-09-03T21:59:50.06998+00:00"
+              },
+              {
+                "image_id": 239791,
+                "title": "Most-mentioned assets by VCs and angel investors on X",
+                "description": "This image is a table from the \"On the Investor Radar\" report, displaying the most-mentioned assets by VCs and angel investors on X (formerly Twitter). The table includes the following columns: Project, Total Mentions, Mentions % Change, Unique Investors, and Investors % Change. The data covers the following projects: Bitcoin (BTC) with 4321 total mentions, a -6.04% change in mentions, 2074 unique investors, and a -15.03% change in investors; Solana (SOL) with 3226 total mentions, a +37.69% change in mentions, 1680 unique investors, and a +26.70% change in investors; Ethereum (ETH) with 2802 total mentions, a -49.27% change in mentions, 1736 unique investors, and a -42.99% change in investors; Hyperliquid (HYPE) with 1411 total mentions, a +116.00% change in mentions, 1072 unique investors, and a +90.41% change in investors; Pump.Fun (PUMP) with 519 total mentions, a +136.65% change in mentions, 424 unique investors, and a +95.39% change in investors; World Liberty Financial (WLFI) with 473 total mentions, a +272.38% change in mentions, 304 unique investors, and a +169.03% change in investors; and Base Chain (BASE) with 396 total mentions, a -2.18% change in mentions, 342 unique investors, and a -6.30% change in investors.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1758736713/veldt/ojnc34tpo8rkfltxb87m.jpg",
+                "created_at": "2025-09-24T17:58:34.076521+00:00"
+              },
+              {
+                "post_id": 35863,
+                "post_link": "https://x.com/aixbt_agent/status/1950157627272630646",
+                "published_date": "2025-07-29T11:33:05+00:00",
+                "title": "Generative Art as Real Asset; Fidenza, Sui, ETFs",
+                "source_name": "aixbt_agent",
+                "summary": "Generative art evolves into a real asset class. Fidenza spread hits 34k. Cross-chain infrastructure live on Sui. ETFs incoming. Key point: Generative art evolving.",
+                "key_points": [
+                  {
+                    "header": "Fidenza Spread",
+                    "bullets": [
+                      "Fidenza spread has reached 34k across different venues."
+                    ]
+                  },
+                  {
+                    "header": "Cross-Chain on Sui",
+                    "bullets": [
+                      "Cross-chain infrastructure is now operational on the Sui blockchain."
+                    ]
+                  },
+                  {
+                    "header": "ETFs Incoming",
+                    "bullets": [
+                      "Exchange Traded Funds are expected to be introduced."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 18448,
+                    "project_name": "aixbt by Virtuals"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "image_id": 371571,
+                "title": "Twitter thread discussing ZEC and BTC",
+                "description": "The image is a screenshot of a Twitter thread. The first tweet, by \"The Wolf Of All Streets\", warns that $ZEC is being pumped through a coordinated effort, and that few people care about privacy, but want to see the number go up. The second tweet, also by \"The Wolf Of All Streets\", states that VanEck CEO warns $BTC may lose ground as OG investors shift toward privacy-focused $ZEC. The tweet includes the VanEck logo and the Zcash logo. A reply by mert | helius.dev discusses how people talk about a coin and how social media algorithms promote the topic. The reply concludes with the statement \"welcome to how the internet works gentlemen\" and the price \"$10,000\". The image includes the number of likes, retweets, and comments for each tweet.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1763927811/veldt/yoszrdzjslyr8v2qvqeg.jpg",
+                "created_at": "2025-11-23T19:56:51.912319+00:00"
+              },
+              {
+                "post_id": 266466,
+                "post_link": "https://x.com/kolin_ai/status/1995366834003218681",
+                "published_date": "2025-12-01T05:38:20+00:00",
+                "title": "Capital flowing into tokenized RWAs and institutional products",
+                "source_name": "kolin_ai",
+                "summary": "Tweet reports real-world asset (RWA) activity: Mavryk shows a $10B real-estate pipeline and $100M FDV, Fidelity's tokenized money market (FDIT) exceeds $250M AUM. Capital is rotating into MVRK, Maple, Ondo; Ostium distributed 500k points to 1,320 traders; institutional custody flows ramping in 2025.",
+                "key_points": [
+                  {
+                    "header": "RWA capital flows",
+                    "bullets": [
+                      "Mavryk cited with $10B real-estate pipeline and $100M FDV (tweet claims those figures).",
+                      "Fidelity's tokenized money market (FDIT) reported above $250M AUM in the tweet.",
+                      "Author says capital rotating into $MVRK, $MAPLE, $ONDO — names highlighted as inflows.",
+                      "Ostium distribution: 500,000 points allocated across 1,320 traders per tweet.",
+                      "Author forecasts institutional custody flows ramping through 2025."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 9472,
+                    "project_name": "Ondo"
+                  },
+                  {
+                    "project_id": 16058,
+                    "project_name": "Ostium"
+                  },
+                  {
+                    "project_id": 18515,
+                    "project_name": "Maple"
+                  },
+                  {
+                    "project_id": 18642,
+                    "project_name": "Kolin"
+                  },
+                  {
+                    "project_id": 25860,
+                    "project_name": "Mavryk Network"
+                  },
+                  {
+                    "project_id": 32338,
+                    "project_name": "Fidelity Digital Interest Token"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "image_id": 364957,
+                "title": "Twitter Trending Topics: Bitcoin, Arrest, Polymarket, and Theoliquid",
+                "description": "The image is a screenshot of Twitter's trending topics. The top trend is \"#Bitcoin\" with 92.4K posts, categorized under \"Business & finance\". The second trend is \"Arrest\" with 134K posts, categorized under \"Politics\". The third trend is \"Polymarket\" with 59.5K posts, and the fourth is \"Theoliquid\". The image also includes a \"Show more\" button at the bottom.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1763574762/veldt/v1xobj0zkkirf0desnjy.jpg",
+                "created_at": "2025-11-19T17:52:42.906441+00:00"
+              },
+              {
+                "image_id": 428272,
+                "title": "MacroScope Tweet on Inflation Target and Asset Implications",
+                "description": "The image is a screenshot of a tweet by MacroScope from October 25, 2022. The tweet states that a new inflation target is coming and that it will be tacit, with overt being a bridge too far for now. The tweet also mentions the implications for all assets, specifically mentioning bonds and Bitcoin (BTC), with the former having been \"sniffing it out.\"",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1766778313/veldt/iboprwxagjicg1lcn7yi.jpg",
+                "created_at": "2025-12-26T19:45:13.980559+00:00"
+              }
+            ],
+            "metadata": {
+              "sort_by": "relevance",
+              "content_types": [
+                "posts",
+                "news",
+                "developments",
+                "tweets",
+                "youtube"
+              ],
+              "total_results": 10,
+              "limit": 10
+            },
+            "user_id": 3
+          },
+          "searchParams": {
+            "query": "what assets are being discussed on twitter",
+            "searchMode": "semantic",
+            "limit": 10,
+            "daysBack": 30,
+            "sortBy": "relevance",
+            "minimumRelevanceScore": 0.2
+          },
+          "executionTimeMs": 26368.3655
+        },
+        {
+          "system": "exa",
+          "rawResponse": [
+            {
+              "title": "What's Hot on Twitter? Cryptocurrency and NFT Topics See ...",
+              "url": "https://decrypt.co/95404/hot-on-twitter-cryptocurrency-nft-topics",
+              "publishedDate": "2022-03-17T00:00:00.000Z",
+              "author": "Kate Irwin",
+              "text": "![logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAFkCAYAAACadgZ0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAsSwAALEsBpT2WqQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAQABJREFUeAHsnQfYJEW1htvrNUcUBQMyPyKgKEGRHJewEmTJSHRhyQhKDgKusIQVJOckiOQMksMSJUkSVMAAiIrhGu81X+/c89b0N1vTU93TM/9098y/c56npnuqq7tPVZ366tSpU9WviUY0KoH0EniNXVIgFef/tlDnTwq93eI/aGFuC3NZeI+Ft1p4n4U3W3hbfP5/diS818K74nM7RP9h4WcW/mrhtRb+18IrFv5h4VULf7Twuzj8xo6/tPAHCyGCX54Bv34IpR3FDUEJUKEjGpUAJSBZ4AhoQIBFiAAZQGk+CwtaWMDChy3MbwHAApQAJ8CiKAKA/sfCXywAYD+x8IKFH1p4Mf4P8CUJnsgjYCkQS6YZ/R/QEpCQDih7I7YKLgGBE8eQ5vQmi5/XwpiFT1tY1MIiFgCs91t4nYUsAhD0XMmaf+Q6/xWnZwlIiNc515QeQBWoEh+iX1nkzy0AYt+x8IgFQC2pjQlUBWCWZESDWgJJQRlUPkd89a8E1Ng1JPOfjGb0UQvLWviUhU9YWNgC2lKIpIFJjpJH7lFc6P7xxAFeUOioPDZSzP4FsJ6yAHjdaeFZC/+yIOI++B2Bl0pkwI5FCdOAZXOOZoc6ljaSbIgA0SctrGxhGQtLWpjPQpKS9/FMhWTaQfmf5Flg5PP3jP2ZZeFWC/dY+JsFEZoXYMhzRjQgJTACrAGpiD6zITChkUoL0isY1q1gYVULABXGcAGanTqikRLUyCeKnPj5Sub5ZcvvjRaut3CPBZXbaMhohTEoNFEEcVDKs0o+qEs1QuxGorfYyRIW1rWwpgWGfMT5ROPU/YXKxGte85qIIOL8P/5DbJtKU69H//d/4EqD+E8oiARg/5l4Pob7Sy1cYeF57xqMF8aM957RaUoJzJaclASj6IEvAWkAPkhhi2KIt6mFVSxgh/LJByji+yIHAqPXvva10Rvf+EYXXv/610dvfvObHQgJfP75z386Xkj/t7/9LfrTn/4UcQ9ARfp3vvOdDtRIT/zrXtew7ZP+H//4R/T3v/89+utf/xrxnP/934YiNE5QEwhRhpSnyoMh4rctnGXhLgsQ6DobUV3U6KesElDFlPW+0Xv6UwI0GuqOhqPG9kY7B5ymWFjLwoctiEhDWu5R0LWujwDHm970puhtb3ubOwI0//73vx2A/OUvf3Fg0vVDe7zhrW99a0QA1AA3QOwPf/iDA7UeQYyyUnn5mtftFk8H8GcLgJrfQdjfEZVRAiPAKqOU+/MO6kpjJ7+xLG3xG1jYyIKvSQnM/PssSXcECLz97W932hJA9Z//2WjDP/vZz1IfRPrll18+WnjhhaMPfOAD0YILLuiGfQz9uP8tb2mMSAG6d7zjHQ5wOOf5aEy/+93vnLZFejQqtCmIa7z3pZ"
+            },
+            {
+              "title": "21 Essential Twitter (X) Statistics You Need to Know in 2025",
+              "url": "https://thesocialshepherd.com/blog/twitter-statistics",
+              "publishedDate": "2025-10-17T00:00:00.000Z",
+              "author": "",
+              "text": "[**Our Services**](https://thesocialshepherd.com/services)\n\n- [**Social**](https://thesocialshepherd.com/services/social)\n- [**Paid**](https://thesocialshepherd.com/services/paid)\n- [**Creative**](https://thesocialshepherd.com/services/creative)\n- [**Influencer**](https://thesocialshepherd.com/services/influencer)\n\n[View all](https://thesocialshepherd.com/services)\n\n[**Case Studies**](https://thesocialshepherd.com/case-studies)\n\n[**About Us**](https://thesocialshepherd.com/about)\n\n[**Blog**](https://thesocialshepherd.com/blog)\n\n[**Podcast**](https://thesocialshepherd.com/podcast)\n\n[**Insights**](https://thesocialshepherd.com/insights)\n\n[Get in touch](https://thesocialshepherd.com/contact)\n\n12 min read\n\nStatistics\n\n# 23 Essential Twitter (X) Statistics You Need to Know in 2024\n\n![Herd 1 profile](data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1200'%20height='1200'%20style='background:transparent'/%3E)\n\nJack Shepherd\n\nCo-Founder & Marketing Director\n\nUpdated on 23 Apr 2024\n\n###### Contents\n\n- [Top Twitter Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Twitter Usage Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Twitter User and Demographics Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Twitter Platform Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Twitter Marketing Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Twitter for Business Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Using These Twitter Statistics](https://thesocialshepherd.com/blog/twitter-statistics)\n- [Enjoyed reading these statistics? Find more statistics you need to know in 2024.](https://thesocialshepherd.com/blog/twitter-statistics)\n\nInitially launched in 2006, Twitter started out as a micro-blogging platform that allowed users to share short, 140-character posts (also known as “tweets”).\n\nIts popularity increased a year late"
+            },
+            {
+              "title": "50 Wild X (aka Twitter) Statistics, Trends & More (2025)",
+              "url": "https://vidico.com/news/x-aka-twitter-statistics-and-trends/",
+              "publishedDate": "2025-06-09T00:00:00.000Z",
+              "author": null,
+              "text": "50 Wild X (aka Twitter) Statistics, Trends &amp; More (2025)\n[**New to Vidico? 🎁**Get a bespoke Creative Intelligence Report, for free! Limited spots.\n](https://vidico.com/creative-intelligence-report/)\n[Learn more](https://vidico.com/creative-intelligence-report/)\n[](https://vidico.com)\n* [Our videos](https://vidico.com/our-videos/)\n* Expertise\n* [For Tech Brands](https://vidico.com/solutions/video-production-for-business/)\n* [For Startups](https://vidico.com/solutions/startup-video-production/)\n* [Get in touch](https://vidico.com/contact/)\n* [Get an estimate](https://vidico.com/quiz/)\n* [Success stories](https://vidico.com/case-studies/)\n* [Video For Growth Blog](https://vidico.com/news/)\n* [About Vidico](https://vidico.com/about/)\n[Get in touch](https://vidico.com/contact/)\n[**New to Vidico? 🎁**Get a bespoke Creative Intelligence Report, for free! Limited spots.\n](https://vidico.com/creative-intelligence-report/)\n[Learn more](https://vidico.com/creative-intelligence-report/)\n[](https://vidico.com)\n* [Get in touch](https://vidico.com/contact/)\nVideo Content\n# 50 Wild X (aka Twitter) Statistics, Trends &amp; More (2025)\nLaura Chaves\nJune 9, 2025\n### Get an instant estimate\nTake our VidiFit Quiz\n![50 Wild X (aka Twitter) Statistics, Trends &amp; More (2025)](https://vidico.com/app/uploads/2025/06/50-Wild-and-Shocking-X-aka-Twitter-Statistics-and-Trends.jpg)\n[]()[](https://www.facebook.com/sharer/sharer.php?u=https://vidico.com/news/x-aka-twitter-statistics-and-trends/)[](mailto:?&subject=&body=https://vidico.com/news/x-aka-twitter-statistics-and-trends/)[]()\nYou&#8217;re watching competitors gain massive reach on X while your brand struggles to break through the noise on other social media platforms. Most marketers waste 60% of their X budget on content that doesn&#8217;t resonate because they don&#8217;t understand what drives engagement metrics on this unique platform.\nAfter analyzing over 1,200 marketing campaigns and tracking key metrics across millions of pos"
+            },
+            {
+              "title": "Twitter Case Study: Most Important Assets - 346 Words",
+              "url": "https://ivypanda.com/essays/twitter-case-study-most-important-assets/",
+              "publishedDate": "2024-01-21T00:00:00.000Z",
+              "author": "",
+              "text": "Sample Details\n\nTopics\n\n[Twitter](https://ivypanda.com/essays/topic/twitter-essay-topics/)\n\nSubjects\n\nBusiness\n\nCase Study\n\nType\n\nCase Study\n\nReviewed by\n\nIvyPanda Team\n\nPages\n\n1\n\nWords\n\n346\n\nRelated Essays\n\n- [Twitter’s Business Model and Advertising Revenues](https://ivypanda.com/essays/twitters-business-model-and-advertising-revenues/)\n- [Privacy Issues and Monetizing Twitter](https://ivypanda.com/essays/privacy-issues-and-monetizing-twitter/)\n- [Seven Things You Should Know About Twitter](https://ivypanda.com/essays/seven-things-you-should-know-about-twitter/)\n- [Entrepreneurs at Twitter: Internal and External Analysis](https://ivypanda.com/essays/entrepreneurs-at-twitter-internal-and-external-analysis/)\n- [The Use of Twitter in Newsgathering](https://ivypanda.com/essays/the-use-of-twitter-in-newsgathering/)\n- [Twitter: Data Collection With API](https://ivypanda.com/essays/twitter-api-analytics/)\n- [Twitter Usage in Education: Advantages and Disadvantages](https://ivypanda.com/essays/twitter-usage-in-education-advantages-and-disadvantages/)\n- [Twitter Benefits for Business in Saudi Arabia](https://ivypanda.com/essays/twitter-benefits-for-business-in-saudi-arabia/)\n- [Twitter and Violations of Freedom of Speech and Censorship](https://ivypanda.com/essays/twitter-and-violations-of-freedom-of-speech-and-censorship/)\n- [Facebook and Twitter: Privacy Policy](https://ivypanda.com/essays/facebook-and-twitter-privacy-policy/)\n\nDownload\n\nPrint\n\nTable of Contents\n\n1. [Introduction](https://ivypanda.com/essays/twitter-case-study-most-important-assets/#introduction)\n2. [Discussion](https://ivypanda.com/essays/twitter-case-study-most-important-assets/#discussion)\n3. [Conclusion](https://ivypanda.com/essays/twitter-case-study-most-important-assets/#conclusion)\n4. [Reference](https://ivypanda.com/essays/twitter-case-study-most-important-assets/#reference)\n\n## Introduction\n\nTwitter’s most important assets include its large user base, its platform for real-time communication, an"
+            },
+            {
+              "title": "Twitter Shares New Insights into Rising Topics of ...",
+              "url": "https://www.socialmediatoday.com/news/twitter-shares-new-insights-into-rising-topics-of-discussion-based-on-anal/619900/",
+              "publishedDate": "2022-03-07T00:00:00.000Z",
+              "author": "By",
+              "text": "Opens in a new windowOpens an external websiteOpens an external website in a new window\n\nClose this dialog\n\nThis website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising purposes. To learn more, view the following link: [Privacy Policy](https://www.industrydive.com/privacy-policy)\n\nClose Cookie Preferences\n\n[Skip to main content](https://www.socialmediatoday.com/news/twitter-shares-new-insights-into-rising-topics-of-discussion-based-on-anal/619900/#skip-link-target)\n\n![Social Media Today](https://d12v9rtnomnebu.cloudfront.net/logo/publications/smt_color.svg)\n\nCONTINUE TO SITE ➞\n\n# Don't miss tomorrow's social media industry news\n\nLet Social Media Today's free newsletter keep you informed, straight from your inbox.\n\nBy signing up to receive our newsletter, you agree to our\n[Terms of Use](https://www.industrydive.com/terms-of-use/) and\n[Privacy Policy](https://www.industrydive.com/privacy-policy/). You can unsubscribe at anytime.\n\nSearch![search](https://www.socialmediatoday.com/static/img/menu_icons/search.svg?320116291121)![close search](https://www.socialmediatoday.com/static/img/menu_icons/close.svg?273117231121)\n\nAn article from![site logo](https://d12v9rtnomnebu.cloudfront.net/logo/printer_friendly/socialmediatoday.jpg)\n\n# Twitter Shares New Insights into Rising Topics of Discussion, Based on Analysis of Billions of Tweets\n\nPublished March 7, 2022\n\nBy\n\n[Andrew Hutchinson](https://www.socialmediatoday.com/editors/adhutchinson/) Content and Social Media Manager\n\nTwitter has [published a new report](https://marketing.twitter.com/en/insights/the-conversation-twitter-trends-2022?utm_source=twitter&utm_medium=psm&utm_campaign=20220307_twittertrends_2022_nam&utm_content=tweet-promoted-launch) which looks at key, emerging topics of conversation in the app, based on analysis of billions of tweets over the past two years.\n\nTwitter’s 2022 trend report singles out three subjects"
+            },
+            {
+              "title": "Twitter's X Rebrand, Assets, & Uncertainty for Marketers",
+              "url": "https://terakeet.com/blog/twitter-x-rebrand/",
+              "publishedDate": "2023-08-03T00:00:00.000Z",
+              "author": "Amira Bennerson",
+              "text": "\n \n Key Points \n \n \n Elon Musk announced Twitter is becoming an “everything app,” but details about changes are scant. \n Social media platforms are an asset marketers don’t own, exposing brands to risks and volatility from platform or algorithm changes.  \n OAO allows strategic elasticity in an ever-changing social media landscape. \n \n \n \n \n \n \n On April 11th, Elon Musk confirmed rumors that Twitter, as such, will no longer exist. Twitter will become an “everything app,” rebranding as X. \n \n Twitter CEO Linda Yaccarino said, “X is the future state of unlimited interactivity — centered in audio, video, messaging, payments/banking — creating a global marketplace for ideas, goods, services, and opportunities.”  \n This sudden change by the enigmatic owner has created a stir in the market.  \n Musk’s decision to rebrand Twitter and pivot away from its roots requires us to question the infallibility of major social media networks and how we use them in our marketing strategies. Let’s chew on these questions:  \n \n What should we do next?  \n How much control do we have over our marketing assets?  \n \n It’s difficult to say what the future of individual social media platforms will be. Ahead of Twitter’s rebranding, Musk made a series of changes to the app. Twitter users were limited to seeing only a few hundred tweets per day. Users reported glitches, site outages, and other UX issues. \n For many businesses using Twitter, these critical usability issues have inhibited their ability to reach their customers. This, along with other concerns with the platform, led to an advertising exodus, with this spring’s ad revenue dropping 59% compared to the previous year. \n There’s an appetite to ditch the chaos to find a safer, more controllable asset. One of the most notable competitors is Meta’s introduction of Threads. However, a few missing Threads features may have contributed to a 50% drop in users within its first week. \n Mark Zuckerburg is confident in the product despite the drop "
+            },
+            {
+              "title": "Bird's Eye View: Twitter/X, Threads, Social Media Landscape",
+              "url": "https://www.thecastlegrp.com/a-birds-eye-view-on-twitter-x-threads-and-the-social-media-landscape/",
+              "publishedDate": "2023-10-23T00:00:00.000Z",
+              "author": "Nate Hillyer",
+              "text": "BLOG\n\n# A Bird’s Eye View on Twitter (X), Threads, and the Social Media Landscape\n\nBy [Nate Hillyer](https://www.thecastlegrp.com/meet-the-team/nate-hillyer/)\n\nOctober 23, 2023\n\nLast December, Castle did a [deep dive into Twitter](https://www.thecastlegrp.com/tracking-the-bird-elon-musk-bought-twitter-now-what/), the platform now known as X, including a synopsis on the state of the platform, its transition of ownership to Elon Musk, and our recommendations on how users and advertisers should approach the situation.\n\nThe acquisition marked a striking new direction for Twitter, the social media landscape, and digital culture as a whole. Since then, it’s been nothing short of dizzying trying to keep up with the updates, nixed features, new rival platforms, and Musk-related headlines. We knew it would be a futile effort to guess where exactly Musk would take the platform, but it turned out to be more inscrutable than we could have even guessed.\n\nJust under a year later, where do Twitter (X) and its rival platforms stand? And where is it heading?\n\n## **Clipped Wings: The Current State of Twitter (X)**\n\nElon Musk’s first year at Twitter (X) has been rocky, to say the least. Musk took over in October 2022, purchasing the platform for $44 billion, and has since tanked its value by over 90% to just [$4 billion](https://fortune.com/2023/09/06/elon-musk-x-what-is-twitter-worth/) in the year following, according to some estimates and [Musk himself](https://finance.yahoo.com/news/according-elon-musk-own-math-204413573.html).\n\nThis can be attributed to [advertising revenue dropping rapidly](https://www.nytimes.com/2023/06/05/technology/twitter-ad-sales-musk.html) due to the turbulence of the platform, instability of its leadership, and uncertain ROI of ad dollars that came with it. Even as [advertisers themselves](https://www.nbcnews.com/tech/tech-news/elon-musk-blames-adl-lost-revenue-says-anti-semitism-kind-rcna103292) attribute their exodus to the uncertainty of Twitter (X)’s "
+            },
+            {
+              "title": "Board of Governors of the Federal Reserve System",
+              "url": "https://www.federalreserve.gov/publications/november-2025-financial-stability-report-asset-valuations.htm",
+              "author": "",
+              "text": "The Fed - 1. Asset Valuations[Skip to main content](#content)\n![US Flag](https://www.federalreserve.gov/images/icon-us-flag.svg)\nAn official website of the United States Government\nHere&#x27;s how you know![Expand More](https://www.federalreserve.gov/images/expand_more.svg)\n![.gov icon](https://designsystem.digital.gov/assets/img/icon-dot-gov.svg)\n**Official websites use .gov**\nA**.gov**website belongs to an official government organization in the United States.\n![HTTPS icon](https://designsystem.digital.gov/assets/img/icon-https.svg)\n**Secure .gov websites use HTTPS**\nA**lock**(LockLocked padlock icon) or**https://**means you&#x27;ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n[Back to Home](https://www.federalreserve.gov/default.htm)[Board of Governors of the Federal Reserve System](https://www.federalreserve.gov/default.htm)\n* Stay Connected\n* [\nFederal Reserve Facebook Page](https://www.facebook.com/federalreserve)\n* [\nFederal Reserve Instagram Page](https://www.instagram.com/federalreserveboard/)\n* [\nFederal Reserve YouTube Page](https://www.youtube.com/federalreserve)\n* [\nFederal Reserve Flickr Page](https://www.flickr.com/photos/federalreserve/)\n* [\nFederal Reserve LinkedIn Page](https://www.linkedin.com/company/federal-reserve-board)\n* [\nFederal Reserve Threads Page](https://www.threads.net/@federalreserveboard)\n* [\nFederal Reserve X Page](https://x.com/federalreserve)\n* [\nFederal Reserve Bluesky Page](https://bsky.app/profile/federalreserve.gov)\n* [\nSubscribe to RSS](https://www.federalreserve.gov/feeds/feeds.htm)\n* [\nSubscribe to Email](https://www.federalreserve.gov/subscribe.htm)\n* [Recent Postings](https://www.federalreserve.gov/recentpostings.htm)\n* [Calendar](https://www.federalreserve.gov/newsevents/calendar.htm)\n* [Publications](https://www.federalreserve.gov/publications.htm)\n* [Site Map](https://www.federalreserve.gov/sitemap.htm)\n* [A-Z index](https://www.federalreserve.gov/azindex.htm)\n* ["
+            },
+            {
+              "title": "What are RWAs? | Benefits and Use of Real-world assets | ethereum.org",
+              "url": "https://ethereum.org/ga/real-world-assets",
+              "publishedDate": "2025-05-23T00:00:00.000Z",
+              "author": "",
+              "text": "What are RWAs? | Benefits and Use of Real-world assets | ethereum.org\n[Téigh ar aghaidh chuig an bpríomhábhar](#main-content)\nTá forbairt agus athrú ag teacht ar úsáidí Ethereum i gcónaí. Cuir leis faisnéis ar bith a cheapann tú a dhéanfaidh rudaí níos soiléire nó níos déanaí.[Cuir leathanach in eagaropens in a new tab](https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/real-world-assets/index.md)\n![](https://ethereum.org/_next/image/?url=%2Fimages%2Fman-and-dog-playing.png&amp;w=1920&amp;q=75)\n# Real-world assets (RWAs)\n* A method for turning valuable commodities into digital tokens.\n* You can now own portions of real-life objects or assets, rather than having to buy an entire property or item.\n* Connects traditional finance with the blockchain ecosystem.\nReal-world assets (RWAs) are tokens representing existing forms of wealth, such as real estate, gold, stocks, art, machinery or collectibles. Tokenizing these items translates them into digital form, allowing them to be divided between multiple owners and making it easier to trade them.\n## [](#what-are-rwas)What are RWAs?\nSome RWAs are tangible—items you can see and touch, such as gold bars or commercial buildings. Others are intangible, such as government debt, intellectual property, or equity in a company.\nWhen tokenized, these assets are turned into units of value. Tokenized gold is a good example of how this works. The company[Paxosopens in a new tab](https://www.paxos.com/)translates 400-ounce gold bars into 400 tokens on the Ethereum blockchain, each backed by one ounce of gold. Token-holders can redeem their tokens for gold at any point. That’s also the case for tokens purchased from another RWA company,[Tether Goldopens in a new tab](https://gold.tether.to/).\nEach token can be divided into even smaller fractions. Tether Gold tokens, for instance, can be split into parts as small as 0.000001.\nRWA tokens don’t have any intrinsic value. Rather, they reflect the value of the item that the"
+            },
+            {
+              "title": "Real-world assets (RWAs)",
+              "url": "https://ethereum.org/sw/real-world-assets",
+              "author": "",
+              "text": "What are RWAs? | Benefits and Use of Real-world assets | ethereum.org\n[Ruka kwenda kwenye maudhui makuu](#main-content)\nMatumizi ya Ethereum yanaendelea kubadilika kila wakati. Ongeza maelezo yoyote unayofikiri yatafanya mambo kuwa wazi zaidi au kusasishwa zaidi.[Hariri ukurasaopens in a new tab](https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/real-world-assets/index.md)\n![](https://ethereum.org/_next/image/?url=%2Fimages%2Fman-and-dog-playing.png&amp;w=1920&amp;q=75)\n# Real-world assets (RWAs)\n* A method for turning valuable commodities into digital tokens.\n* You can now own portions of real-life objects or assets, rather than having to buy an entire property or item.\n* Connects traditional finance with the blockchain ecosystem.\nReal-world assets (RWAs) are tokens representing existing forms of wealth, such as real estate, gold, stocks, art, machinery or collectibles. Tokenizing these items translates them into digital form, allowing them to be divided between multiple owners and making it easier to trade them.\n## [](#what-are-rwas)What are RWAs?\nSome RWAs are tangible—items you can see and touch, such as gold bars or commercial buildings. Others are intangible, such as government debt, intellectual property, or equity in a company.\nWhen tokenized, these assets are turned into units of value. Tokenized gold is a good example of how this works. The company[Paxosopens in a new tab](https://www.paxos.com/)translates 400-ounce gold bars into 400 tokens on the Ethereum blockchain, each backed by one ounce of gold. Token-holders can redeem their tokens for gold at any point. That’s also the case for tokens purchased from another RWA company,[Tether Goldopens in a new tab](https://gold.tether.to/).\nEach token can be divided into even smaller fractions. Tether Gold tokens, for instance, can be split into parts as small as 0.000001.\nRWA tokens don’t have any intrinsic value. Rather, they reflect the value of the item that they represent, and so the "
+            }
+          ],
+          "searchParams": {
+            "query": "what assets are being discussed on twitter",
+            "numResults": 10,
+            "includeText": true,
+            "maxCharacters": 2000
+          },
+          "executionTimeMs": 1207.9712919999984
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-05T19:47:31.312Z"
+    },
+    {
+      "question": {
+        "qid": "9zR4tK6m",
+        "query": "what Base assets are trending on twitter",
+        "level": 2,
+        "categories": [
+          "asset_discovery"
+        ],
+        "tags": null,
+        "sectors": [
+          "ecosystems"
+        ]
+      },
+      "searchResults": [
+        {
+          "system": "droyd",
+          "rawResponse": {
+            "success": true,
+            "error": null,
+            "analysis": "As of early January 2026, the Base ecosystem is experiencing a major surge in social mindshare, driven by a convergence of AI agent protocols, decentralized launchpads like Clanker, and a shift toward institutional-grade \"blue-chip\" assets on-chain.\n\nBased on recent market data and social sentiment analysis from the provided materials, here are the Base assets currently trending on Twitter.\n\n### 1. The AI Agent Meta: The \"Mindshare\" Leaders\nAI agents have become the dominant narrative on Base, surpassing human influencers in engagement metrics.\n*   **$AIXBT**: Currently the highest-trending AI agent. According to research from *Bankless*, $AIXBT is an AI bot that has surpassed human influencers to become the #2 account on Twitter by engagement stats (behind only Elon Musk). It is part of the **Virtuals Protocol** ecosystem.\n*   **$LUNA**: The flagship AI agent from Virtuals Protocol. While $AIXBT has recently flipped it in value, $LUNA remains a core trending asset for those following the \"AI utility memecoin\" trend.\n*   **Virtuals Protocol ($VIRTUALS)**: The underlying protocol for these agents is seeing significant attention as it enables the creation of autonomous AI characters on Base.\n\n### 2. Clanker-Launched & \"Social\" Memecoins\nThe \"Clanker\" deployment tool has revolutionized how tokens are launched via Farcaster and Twitter, creating a new class of high-velocity social assets.\n*   **$BAB (Bald and Based)**: A trending memecoin where users join the \"crew\" by uploading PFPs and \"shaving\" them. It recently saw a 24h volume increase of over 200%.\n*   **$CLANK / tokenbotCLANKER**: Assets associated with the Clanker deployment mechanism itself, which has become the \"Pump.fun of Base.\"\n*   **$TRENCHER**: A standout project with deep ecosystem integration. It is an official Base bridge partner and recipient of a Base Builder Grant, trending due to its \"original art\" and weekly animated shorts.\n*   **\"Blonde\"**: Mentioned in recent *Bankless* research as a \"bottom-up community\" meme that gained traction among women in the Base/Farcaster ecosystem, leading to a rapidly growing Telegram community.\n\n### 3. Coinbase-Backed \"cb\" Assets & Blue Chips\nWith the recent integration of \"cb\" assets, Twitter users are increasingly discussing the \"cbEVERYTHING\" narrative—using Base as a hub for Coinbase-backed 1:1 versions of major tokens.\n*   **cbBTC, cbXRP, cbADA, cbLTC, and cbDOGE**: These are trending as Coinbase enables users to put their traditional assets to work within Base DeFi (e.g., lending on Aave or Morpho).\n*   **$ZORA**: The token for the Zora protocol is trending following its listing on Robinhood and its deep integration into the Base flagship app.\n\n### 4. Top Gainers and \"x402\" Tokens\nSocial media \"alpha\" accounts (like *Base Insights*) are currently highlighting a specific sub-category of AI and agent-based tokens known as \"x402\" coins.\n*   **$WACH (Wach AI)**: Leading recent 24h gainer lists with over 34% growth.\n*   **$CAP (Capminal)** and **$ARBUS (Arbus AI)**: Both trending with ~30% daily gains.\n*   **$BNKR (BankrCoin)**: A consistent social mentions leader in the \"bot/utility\" category.\n\n### 5. Legacy Base Memecoins (The \"Board\" Leaders)\nDespite the influx of new AI agents, established Base memes continue to maintain high volume and social presence on the \"Trending\" sections of mobile trade interfaces:\n*   **$Brett**: The \"blue-chip\" memecoin of Base, maintaining a market cap above $200M.\n*   **Keyboard Cat ($KEYCAT)**: High social sentiment and recent weekly gains.\n*   **Mister Miggles ($MIGGLES)**: Continues to trend as a core community-driven mascot.\n\n---\n\n### Contextual Analysis & Expert Insights\nThe current trend on Base is defined by **\"Product-Led Growth.\"** Unlike previous cycles driven by pure speculation, 2026 trends are tied to the **Base \"Everything App\"** strategy. \n\n*   **Social Trading Integration**: Trending assets are now visible directly in the Base App feed, where users can see what their follows are buying in real-time. This has created a \"flywheel\" effect where a purchase by a prominent figure (like Brian Armstrong buying $THEYDON'TKNOW) immediately triggers a Twitter trend.\n*   **The \"Bald\" Milestone**: Jesse Pollak (Base Lead) recently joked about shaving his head to honor \"the base god\" as the chain hit a **$10B TVL milestone** on November 7, 2025. This has kept the **$BALD** ticker and \"Baldness\" meta relevant in social discourse.\n*   **Shift in Sentiment**: While \"Pump.fun style\" extraction is being criticized for \"ruining the fun,\" the Base ecosystem is being praised for \"real builders and products.\" Assets like **$AERO (Aerodrome)** are trending not just as memes, but as the \"liquidity engine\" of the chain.\n\n**Actionable Takeaway:** If you are tracking these trends on Twitter, focus on the **Virtuals Protocol** and **Clanker** ecosystems, as these are the primary engines currently generating new trending tickers. However, be wary of \"automated slop\"—research indicates that bot engagement farming is at an all-time high, making it essential to verify token utility via the Base App's \"Verified Tokens\" section.",
+            "content": [
+              {
+                "post_id": 329620,
+                "post_link": "https://x.com/jessepollak/status/2007987763522719750",
+                "published_date": "2026-01-05T01:29:24+00:00",
+                "title": "Base memecoins trending snapshot",
+                "source_name": "jessepollak",
+                "summary": "Short post with an attached screenshot showing the 'Memes' trending list inside a mobile Trade UI. Ten memecoins (mostly Base-listed) are shown with market valuations and 24h changes; Brett tops the list at ~$205M (+21.49%). Author text: “Memes will be based in 2026.”",
+                "key_points": [
+                  {
+                    "header": "Base memecoin snapshot",
+                    "bullets": [
+                      "Author posts short bullish caption: “Memes will be based in 2026.” plus a Trade UI screenshot.",
+                      "Screenshot shows a 'Memes' trending list with ten memecoins and blue Base icons next to each asset.",
+                      "Top-ranked: Brett ~$205.07M (+21.49%). Others: Keyboard Cat $12.95M, doginme $13.67M, RUSSELL $5.12M.",
+                      "Each entry lists token age, market valuation, and 24h percent change — a market snapshot, not analysis."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 326,
+                    "project_name": "AEROBUD"
+                  },
+                  {
+                    "project_id": 1350,
+                    "project_name": "Brett"
+                  },
+                  {
+                    "project_id": 1385,
+                    "project_name": "Basenji"
+                  },
+                  {
+                    "project_id": 4097,
+                    "project_name": "doginme"
+                  },
+                  {
+                    "project_id": 7038,
+                    "project_name": "Keyboard Cat (Base)"
+                  },
+                  {
+                    "project_id": 8499,
+                    "project_name": "Mister Miggles"
+                  },
+                  {
+                    "project_id": 8544,
+                    "project_name": "Mochi"
+                  },
+                  {
+                    "project_id": 11223,
+                    "project_name": "RUSSELL"
+                  },
+                  {
+                    "project_id": 21851,
+                    "project_name": "Cocoro"
+                  },
+                  {
+                    "project_id": 31304,
+                    "project_name": "Midas The Minotaur"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 325906,
+                "post_link": "https://x.com/Base_Insights/status/2007002986061705686",
+                "published_date": "2026-01-02T08:16:14+00:00",
+                "title": "Base top gainers (24H, x402)",
+                "source_name": "Base_Insights",
+                "summary": "Base Insights snapshot (Jan 2, 2026) of the top 8 24‑hour performers among 402 Base tokens: $WACH +34.2%, $CAP +31.2%, $ARBUS +28.2%, $ETHY +28.0%, $DNODE +17.8%, $BNKR +16.0%, $RCAT +11.8%, $SS +11.4%. Chart image lists each token with project icons and Twitter handles.",
+                "key_points": [
+                  {
+                    "header": "Top Base gainers (24H)",
+                    "bullets": [
+                      "Snapshot updated Jan 2, 2026; sample labeled x402 coins on Base.",
+                      "$WACH led with +34.2%, followed by $CAP (+31.2%) and $ARBUS (+28.2%).",
+                      "$ETHY +28.0%, $DNODE +17.8%, $BNKR +16.0%, $RCAT +11.8%, $SS +11.4%.",
+                      "Graphic includes token tickers, percent gains, project icons, and @ handles."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 823,
+                    "project_name": "Arbus"
+                  },
+                  {
+                    "project_id": 18715,
+                    "project_name": "BankrCoin"
+                  },
+                  {
+                    "project_id": 20760,
+                    "project_name": "Replicat-One by Virtuals"
+                  },
+                  {
+                    "project_id": 26107,
+                    "project_name": "Ethy AI"
+                  },
+                  {
+                    "project_id": 26242,
+                    "project_name": "Capminal"
+                  },
+                  {
+                    "project_id": 26659,
+                    "project_name": "Sniper Search"
+                  },
+                  {
+                    "project_id": 27139,
+                    "project_name": "WachXBT"
+                  },
+                  {
+                    "project_id": 43307,
+                    "project_name": "Dealer Node"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 46932,
+                "post_link": "https://x.com/BaseHubHB/status/1954894530488213559",
+                "published_date": "2025-08-11T13:15:50+00:00",
+                "title": "Top Base Ecosystem Gainers Last Week",
+                "source_name": "BaseHubHB",
+                "summary": "Base Hub lists the top gainers on the Base ecosystem over the past week, sourced from CoinGecko. $GAI had the highest gain at 377.0%. Updated as of August 11th, 2025. Top gainers on Base.",
+                "key_points": [
+                  {
+                    "header": "Top Gainer",
+                    "bullets": [
+                      "$GAI saw the highest gains at 377.0%."
+                    ]
+                  },
+                  {
+                    "header": "Top Gainers",
+                    "bullets": [
+                      "The list includes $GAI, $ZORA, $VADER, $KEYCAT, $AERO, $TIBBIR, $KTA, $PLAY, $SPON, and $GAME."
+                    ]
+                  },
+                  {
+                    "header": "Source",
+                    "bullets": [
+                      "The data is sourced from CoinGecko and updated as of August 11th, 2025."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 327,
+                    "project_name": "Aerodrome Finance"
+                  },
+                  {
+                    "project_id": 7038,
+                    "project_name": "Keyboard Cat (Base)"
+                  },
+                  {
+                    "project_id": 15071,
+                    "project_name": "Base"
+                  },
+                  {
+                    "project_id": 18521,
+                    "project_name": "VaderAI by Virtuals"
+                  },
+                  {
+                    "project_id": 21780,
+                    "project_name": "Spheron"
+                  },
+                  {
+                    "project_id": 21802,
+                    "project_name": "Zora"
+                  },
+                  {
+                    "project_id": 21850,
+                    "project_name": "Keeta"
+                  },
+                  {
+                    "project_id": 22108,
+                    "project_name": "Ribbita by Virtuals"
+                  },
+                  {
+                    "project_id": 24966,
+                    "project_name": "PlaysOut"
+                  },
+                  {
+                    "project_id": 28637,
+                    "project_name": "GraphAI"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "image_id": 435318,
+                "title": "Trending Assets and Creators on Base Ecosystem",
+                "description": "A screenshot of the 'Trade' mobile application showing a 'Trending' list of assets and creators within the Base ecosystem. The list includes: Aerodrome with a valuation of $422.16M (+16.16%), Virtual Protocol at $450.48M (+6.65%), Zora at $163.79M (+4.79%), creator thenickshirley at $2.87M (+75.72%), Coinbase Wrapped asset at $21.26B (+8.10%), BankrCoin at $16.08M (+22.91%), aixbt by Virtuals at $39.80M (+20.58%), creator jesse at $2.77M (+10.59%), creator Tibo at $446.51K (-17.45%), and Horizen at $163.70M (+0.71%). Each entry features a profile icon, the name, a time duration (e.g., 1y, 12mo, 8mo, 4d), a blue square icon indicating the Base network, the total valuation, and the percentage change. The interface also displays filter tabs for 'Creators', 'Posts', and 'Memes'.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1767318815/veldt/rnoplveuxkzbrkv984yy.jpg",
+                "created_at": "2026-01-02T01:53:44.428578+00:00"
+              },
+              {
+                "post_id": 185536,
+                "post_link": "https://clanker.world/clanker/0x14bf528cd46ad00a2bc4598a462f656f226b8b07",
+                "published_date": "2025-10-28T22:18:35+00:00",
+                "title": "Trending Tokens on Base",
+                "source_name": "Clanker",
+                "source_author": "Clanker",
+                "summary": "$BAB trending on Base! Market Cap: $61.0k, 24h Volume: $285.7k (+208.22%). Join the $BAB crew: upload your PFP and shave it all off at baldandbased.fun. Other trending tokens include $CLANK, $NEO, x420, $FAIR, $WARP, noicenoice, BankrCoin, $CHAOS, and tokenbotCLANKER.",
+                "key_points": [
+                  {
+                    "header": "$BAB Token",
+                    "bullets": [
+                      "Market Cap: $61.0k",
+                      "24h Volume: $285.7k (+208.22%)",
+                      "Join by uploading PFP and shaving head"
+                    ]
+                  },
+                  {
+                    "header": "Clankernomics",
+                    "bullets": [
+                      "Dev Buy: 0.0250 ETH",
+                      "Vaulted: 0%",
+                      "Holders: 177"
+                    ]
+                  },
+                  {
+                    "header": "Other Trending Tokens",
+                    "bullets": [
+                      "Clank, Neo 1x Companion, x420",
+                      "Faircaster, Warplet, noicenoice",
+                      "BankrCoin, $CHAOS, tokenbotCLANKER"
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 18470,
+                    "project_name": "Clanker"
+                  },
+                  {
+                    "project_id": 18715,
+                    "project_name": "BankrCoin"
+                  },
+                  {
+                    "project_id": 38231,
+                    "project_name": "harmonybot"
+                  },
+                  {
+                    "project_id": 38252,
+                    "project_name": "Warplet"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 301591,
+                "post_link": "https://x.com/BitgetWallet/status/2001915838308503987",
+                "published_date": "2025-12-19T07:21:44+00:00",
+                "title": "Bitget Wallet: Base token list live",
+                "source_name": "BitgetWallet",
+                "summary": "Bitget Wallet announced a new Base chain token list in its mobile app: BTC, XRP, LTC and Base-native tokens (e.g., ZORA) appear together. Users can view and diversify Base holdings with blue‑chip assets directly inside the Bitget Wallet interface.",
+                "key_points": [
+                  {
+                    "header": "Base token list live",
+                    "bullets": [
+                      "Bitget Wallet launched a new Base chain token list visible in its mobile app.",
+                      "The list shows blue‑chip assets (BTC, XRP, LTC) alongside Base trending tokens like ZORA.",
+                      "Screenshot displays tokens cbBTC, CBADA, CBLTC, CBXRP, CBDOGE and ZORA with prices and 24h changes.",
+                      "Positioned as a way to diversify 'Base bags' with non‑native blue‑chip assets directly on Base."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 1701,
+                    "project_name": "Bitcoin"
+                  },
+                  {
+                    "project_id": 7593,
+                    "project_name": "Litecoin"
+                  },
+                  {
+                    "project_id": 11079,
+                    "project_name": "XRP"
+                  },
+                  {
+                    "project_id": 15071,
+                    "project_name": "Base"
+                  },
+                  {
+                    "project_id": 21802,
+                    "project_name": "Zora"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 306953,
+                "post_link": "https://x.com/aaronjmars/status/2002879796347568595",
+                "published_date": "2025-12-21T23:12:09+00:00",
+                "title": "Base trending creators critique",
+                "source_name": "aaronjmars",
+                "summary": "AaronjMars criticizes Base's flagship app for spotlighting creator/meme/content coins instead of 'legit builders', sharing a screenshot of Base's Trending > Creators list (realgarrytan, jesse, propaganda, crypticpoet, thor) with on-chain dollar values and percent moves as evidence.",
+                "key_points": [
+                  {
+                    "header": "Base trending creators",
+                    "bullets": [
+                      "Author: expresses sympathy for Base builders; criticizes flagship app curation favoring creator/meme coins over builders.",
+                      "Attached screenshot shows Trending → Creators listing with dollar volumes and percent changes for five creators.",
+                      "Metrics in image: realgarrytan $3.30M ▲128.88%, jesse $3.40M ▼9.52%, propaganda $1.73M ▼10.20%.",
+                      "Also shows crypticpoet $415.81K ▼29.72% and thor $87.25K ▲182.24% as trending creators."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 15071,
+                    "project_name": "Base"
+                  },
+                  {
+                    "project_id": 41794,
+                    "project_name": "jesse"
+                  },
+                  {
+                    "project_id": 43801,
+                    "project_name": "PROPAGANDA"
+                  },
+                  {
+                    "project_id": 44517,
+                    "project_name": "realgarrytan"
+                  },
+                  {
+                    "project_id": 44518,
+                    "project_name": "crypticpoet"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 57554,
+                "post_link": "https://x.com/farcaster_xyz/status/1958174291985314271",
+                "published_date": "2025-08-20T14:28:26+00:00",
+                "title": "Trending Tokens on Base and Solana",
+                "source_name": "farcaster_xyz",
+                "summary": "Farcaster highlights trending tokens on Base and Solana, allowing users to see what others are buying and verify launchpads. Trending tokens on Base and Solana.",
+                "key_points": [
+                  {
+                    "header": "Trending Tokens",
+                    "bullets": [
+                      "Farcaster now shows trending tokens on Base and Solana.",
+                      "Users can see what others are buying.",
+                      "Launchpads can be verified."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 11943,
+                    "project_name": "Solana"
+                  },
+                  {
+                    "project_id": 15071,
+                    "project_name": "Base"
+                  },
+                  {
+                    "project_id": 22530,
+                    "project_name": "Farcaster"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "image_id": 384153,
+                "title": "Trending Base Gaming Tokens (7D)",
+                "description": "This image showcases the top trending gaming tokens on the Base network over the last 7 days. The image presents a grid of 16 different project logos, each representing a specific gaming token. The projects listed are: B3, Super Champs, Metacade, Uptopia, Heist by Uptopia, BRACKY, Eggle Energy, Gochujangcoin, Pett AI, Pepper, TRUE, Nanon Network, Native, thosmur, Penguins, and HEIST COIN. The image includes the text \"TRENDING BASE GAMING LAST 7D\" at the top. The source is cited as Geckoterminal, and the update date is Nov 29th, 2025. The image also includes the \"GAMING ON BASE\" logo at the bottom left and the Twitter handle \"@GamingOnBase\" at the bottom right.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1764568043/veldt/rkmvbuv17pirt8ou3cff.jpg",
+                "created_at": "2025-12-01T05:47:23.681363+00:00"
+              },
+              {
+                "image_id": 364957,
+                "title": "Twitter Trending Topics: Bitcoin, Arrest, Polymarket, and Theoliquid",
+                "description": "The image is a screenshot of Twitter's trending topics. The top trend is \"#Bitcoin\" with 92.4K posts, categorized under \"Business & finance\". The second trend is \"Arrest\" with 134K posts, categorized under \"Politics\". The third trend is \"Polymarket\" with 59.5K posts, and the fourth is \"Theoliquid\". The image also includes a \"Show more\" button at the bottom.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1763574762/veldt/v1xobj0zkkirf0desnjy.jpg",
+                "created_at": "2025-11-19T17:52:42.906441+00:00"
+              }
+            ],
+            "metadata": {
+              "sort_by": "relevance",
+              "content_types": [
+                "posts",
+                "news",
+                "developments",
+                "tweets",
+                "youtube"
+              ],
+              "total_results": 10,
+              "limit": 10
+            },
+            "user_id": 3
+          },
+          "searchParams": {
+            "query": "what Base assets are trending on twitter",
+            "searchMode": "semantic",
+            "limit": 10,
+            "daysBack": 30,
+            "sortBy": "relevance",
+            "minimumRelevanceScore": 0.2
+          },
+          "executionTimeMs": 19742.02375
+        },
+        {
+          "system": "exa",
+          "rawResponse": [
+            {
+              "title": "Top Base Pools Trending Today | GeckoTerminal",
+              "url": "https://www.geckoterminal.com/base/pools",
+              "publishedDate": "2024-01-07T00:00:00.000Z",
+              "author": "",
+              "text": "✨ Trade faster with the New GeckoTerminal App!\n\nSee what's new\n\nDismiss\n\nSelect a tabAll DEXesAerodrome SlipStreamUniswap V3 (Base)Uniswap V2 (Base)Pancakeswap V3 (Base)Aerodrome (Base)Uniswap V4 (Base)Sushiswap V3 (Base)Alien Base V3BaseSwap V3Balancer V2 (Base)Curve (Base)BaseSwapMaverick V2 (Base)SwapBased V3Alien BaseDeltaswap (Base)SushiSwap V2 (Base)Solidly V3 (Base)DackieSwap V3 (Base)Treble V4iZiSwap (Base)Synthswap V3RocketswapVirtuals (Base)InfusionEqualizer (Base)9mm V3 (Base)DackieSwap V2 (Base)BunnySwapSwapBasedSharkSwap (Base)Rubicon (Base)SquadSwap (Base)HenjinDEX (Base)Treble V2Pancakeswap V2 (Base)Robots.Farm (Base)9mm V2 (Base)SynthswapVelocimeter (Base)Kim V4 (Base)SmarDex (Base)CitadelSwapXchange (Base)SoswapBaseXArea 51 (Alien Base)Satori (Base)HorizonDEX (Base)DiamondSwapKyberswap Elastic (Base)DerpDEX (Base)Yum Yum SwapSquadSwap V3 (Base)Archly (Base)Baso FinanceMemebox (Base)CloudBaseFWX (Base)MoonBaseBluedexIcecreamswap (Base)Swapline (Base)TorusThrone V2 (Base)CrescentSwap (Base)Throne V3 (Base)OasisSwap (Base)CandySwapKokonutSwap (Base)PixelSwap (Base)Sobal (Base)LFGSwap (Base)Kim V2 (Base)EtherVista (Base)DegenBrains (Base)Leetswap (Base)EnsurerPlantBaseSwapCBSwapBakerySwap (Base)Dex on Crypto (Base)deJungleMarSwap (Base)\n\n* * *\n\n* * *\n\n# Base Pools\n\nThe number of transactions in the last 24 hours on Base is 5.58M with a trading volume of $1.57B, a +36.7% change as compared to yesterday. [We also track new Base pools created in real time.](https://www.geckoterminal.com/explore/new-crypto-pools/base)\n\n24h TXN5,576,603\n\n24h Vol$1.57B\n\nHighlights\n\nSelect a tabTrending CategoriesTop GainersNew Pools\n\n* * *\n\n* * *\n\n## [Trending Categories](https://www.geckoterminal.com/category)\n\n[ai agents](https://www.geckoterminal.com/category/ai-agents/base)\n\n24h Txns1.87M\n\n[![TOSHI](https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F31126%2Flarge%2FToshi_Logo_-_Circular.png%3F1721677476&w=64&q=75)TOSHI"
+            },
+            {
+              "title": "Trending Coins",
+              "url": "https://www.livecoinwatch.com/trending",
+              "publishedDate": "2026-01-03T00:00:00.000Z",
+              "author": "",
+              "text": "Trending Coins - Live Coin Watch\nG-1FMKS1KQKY\n# Trending Coins\n|\nRank\n|\nCoin\n|\nPrice\n|\nMarket Cap\n|\nVolume 24h\n|\nFavorites\n|\n1h\n|\n24h\n|\nDaily\n|\n|\n6810|[\nINTL\nInterLInk\n](https://www.livecoinwatch.com/price/InterLInk-_INTL)|$0.000492|$48.416 K|$98.00|24|0.69%|3.5%|\n|\n8|[\nTRX\nTRON\n](https://www.livecoinwatch.com/price/TRON-TRX)|$0.292204|$25.235 B|$587.1 M|15,005|0.13%|0.32%|\n|\n91|[\nJASMY\nJasmyCoin\n](https://www.livecoinwatch.com/price/JasmyCoin-JASMY)|$0.006816|$336.980 M|$27.46 M|2,368|0.17%|0.84%|\n|\n55|[\nFET\nArtificial Superintelligence Alliance\n](https://www.livecoinwatch.com/price/ArtificialSuperintelligenceAlliance-FET)|$0.280756|$731.733 M|$139.0 M|5,593|0.2%|9.61%|\n|\n11|[\nBCH\nBitcoin Cash\n](https://www.livecoinwatch.com/price/BitcoinCash-BCH)|$651.55|$13.015 B|$428.4 M|9,552|0.84%|0.73%|\n|\n3|[\nUSDT\nTether\n](https://www.livecoinwatch.com/price/Tether-USDT)|$0.999611|$148.846 B|$67.73 B|8,482|0.01%|0.07%|\n|\n13|[\nLINK\nChainlink\n](https://www.livecoinwatch.com/price/Chainlink-LINK)|$13.56|$9.601 B|$407.7 M|21,976|0.44%|0.7%|\n|\n68|[\nDASH\nDash\n](https://www.livecoinwatch.com/price/Dash-DASH)|$42.88|$537.841 M|$103.9 M|5,751|0.16%|0.23%|\n|\n4|[\nBNB\nBNB\n](https://www.livecoinwatch.com/price/BNB-BNB)|$906.60|$134.725 B|$1.058 B|20,498|0.28%|2.28%|\n|\n78|[\nBSV\nBitcoin SV\n](https://www.livecoinwatch.com/price/BitcoinSV-BSV)|$21.84|$436.146 M|$26.91 M|1,306|2.44%|17%|\n|\n## Cryptocurrency Movers\nTimeframe\n24 hours24 hours\n1 hour7 days30 days\nRank\nAllAll\nTop 100Top 500Top 1000\n24H Vol\n$500 K$500 K\n$1 M$100 KAll\n## Biggest Winners\n|\nRank\n|\nCoin\n|\nPrice\n|\nVolume 24h\n|\n24h\n|\n|\n|\nNo coins found for filter criteria. Try editing filters or turning off favorites.\n## Biggest Losers\n|\nRank\n|\nCoin\n|\nPrice\n|\nVolume 24h\n|\n24h\n|\n|\n|\nNo coins found for filter criteria. Try editing filters or turning off favorites.\n## Newest Cryptocurrencies\n[\nSMOL\nToday\n](https://www.livecoinwatch.com/price/SmolFans-_____SMOL)\n[\n114514\nToday\n](https://www.livecoinwatch.com/price/114514-114514)\n[\nMADURO\nTod"
+            },
+            {
+              "title": "Raster Trends",
+              "url": "https://grid.raster.finance/en/trends",
+              "publishedDate": "2025-11-23T03:59:08.000Z",
+              "author": "",
+              "text": "### Hot 🔥\n\nTrending NOW\n\nBase Winners\n\nSpicy Low Caps\n\nSizzling Medium Caps\n\nBNB Chain Winners\n\nFreshly Baked\n\nTrending\n\n24H\n\n1H\n\n4H\n\n12H\n\n24H\n\nFilters\nAll chains\n\n| Project | Price | 1h% | 4h% | 12h% | 24h% | FDV | 24h Vol | Holders | Liquidity | Daily TXs | Traders | Last Txn | Age |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\nWatchlist\n\nSave tokens you want to track over time\n\nConnect Wallet"
+            },
+            {
+              "title": "These Coins Show Increased Crowd Interest Across Social Media! - Santiment Community Insights",
+              "url": "https://app.santiment.net/insights/read/these-coins-show-increased-crowd-interest-across-social-media-8996",
+              "publishedDate": "2025-11-05T00:00:00.000Z",
+              "author": "SanSights",
+              "text": "## These Coins Show Increased Crowd Interest Across Social Media!\n\n[@SanSights](https://app.santiment.net/profile/3031)3 min read05.11.202525\n\nLINK\n\nSOL\n\nETH\n\nRLUSD\n\nNYC\n\n🗣️ According to our data, top trending tokens driving markets and circulating across social media are:\n\n🪙 Bitcoin $BTC: Trending due to extensive discussions about Bitcoin's price cycles, investment strategies, and market predictions on Reddit, frequent mentions in flash transactions, pricing, and wallet compatibility on Telegram, and significant activity around Bitcoin's price movements, trading volumes, whale investor behavior, and institutional borrowing on Twitter. The trend reflects strong interest in Bitcoin as a long-term investment, its use in crypto trading, and heightened market volatility.\n\n🪙 NewYorkCoin $NYC: Trending due to the 2025 New York City mayoral election where Zohran Mamdani won. The texts discuss Mamdani's victory, reactions from political figures including former Governor Andrew Cuomo and President Trump, and related events such as antisemitic graffiti appearing shortly after the election. The coverage includes mentions of prediction markets and crypto references tied to the election outcome, highlighting the political and social significance of the event in NYC.\n\n🪙 Ripple USD $RLUSD: is trending as a stablecoin on the XRP Ledger pegged to the US dollar, gaining rapid market cap growth and institutional adoption. It facilitates credit card transactions through partnerships with Mastercard, WebBank, and Gemini, using XRP for transaction fees. The trend highlights RLUSD's role in next-generation fiat payment settlements and its growing importance within the Ripple ecosystem.\n\n🪙 Ethereum $ETH: Trending due to frequent mentions in discussions about Ethereum's market activity across Reddit, Telegram, and Twitter. Key topics include Ethereum's price movements, ETF outflows totaling around $219 million, institutional interest, trading strategies, and comparisons with Bitcoin a"
+            },
+            {
+              "title": "Ape Wisdom | Trending Cryptocurrencies on r/CryptoCurrency",
+              "url": "https://apewisdom.io/CryptoCurrency/",
+              "publishedDate": "2010-01-01T00:00:00.000Z",
+              "author": "",
+              "text": "Ape Wisdom | Trending Cryptocurrencies on r/CryptoCurrency\n[\n![ApeWisdom logo](https://apewisdom.io/apewisdom-logo.svg)\nAPE\nWisdom\n](https://apewisdom.io/)\n[API](https://apewisdom.io/api/)\n[Methodology](https://apewisdom.io/methodology/)\n[![Sign in icon](https://apewisdom.io/img/account.svg?v=1)![Sign in icon](https://apewisdom.io/img/account-dark.svg?v=1)Sign in](#)\n[Dark mode ](#)[Light mode ](#)\n[Stocks![reddit icon](https://apewisdom.io/img/reddit-icon-white.png)10.6K](https://apewisdom.io/)\n[Cryptos![reddit icon](https://apewisdom.io/img/reddit-icon-white.png)836](https://apewisdom.io/all-crypto/)\n[All![reddit icon](https://apewisdom.io/img/reddit-icon-white.png)11.5K](https://apewisdom.io/all/)\n[4chan![4chan icon](https://apewisdom.io/img/4chan-icon-white.png)434](https://apewisdom.io/4chan/)\nSubreddits:\n[r/CryptoCurrency228](https://apewisdom.io/CryptoCurrency/)\n[r/CryptoCurrencies10](https://apewisdom.io/CryptoCurrencies/)\n[r/Bitcoin195](https://apewisdom.io/Bitcoin/)\n[r/SatoshiStreetBets10](https://apewisdom.io/SatoshiStreetBets/)\n[r/CryptoMoonShots42](https://apewisdom.io/CryptoMoonShots/)\n[r/CryptoMarkets181](https://apewisdom.io/CryptoMarkets/)\n[r/ethtrader117](https://apewisdom.io/ethtrader/)\n[r/ethereum53](https://apewisdom.io/ethereum/)\n# Most discussed Cryptocurrencies onr/CryptoCurrencyin the past 24 hours\n||#|Name|Symbol|Mentions|24h|Trend (30 days)|Upvotes|\n![favorite icon](https://apewisdom.io/fav.svg?v=3)|1|[\n![Bitcoin logo](https://apewisdom.io/img1/BTC.X_1.png)\nBitcoin\n|BTC|53|13%||189|\n![favorite icon](https://apewisdom.io/fav.svg?v=3)|2|[\n![Ethereum logo](https://apewisdom.io/img1/ETH.X_1027.png)\nEthereum\n|ETH|27|125%||205|\n![favorite icon](https://apewisdom.io/fav.svg?v=3)|3|[\n![XRP logo](https://apewisdom.io/img1/XRP.X_52.png)\nXRP\n|XRP|8|700%||8|\n![favorite icon](https://apewisdom.io/fav.svg?v=3)|4|[\n![Bitcoin Cash logo](https://apewisdom.io/img1/BCH.X_1831.png)\nBitcoin Cash\n|BCH|6|-14%||4|\n![favorite icon](https://apewisdom.io/fav.svg?v=3"
+            },
+            {
+              "title": "AssetDash",
+              "url": "https://www.assetdash.com/?all=true",
+              "publishedDate": "2023-11-27T00:00:00.000Z",
+              "author": "",
+              "text": "AssetDash: The Best Portfolio Tracker In The Market\n[\nAssetDash\n](https://www.assetdash.com/)\n[Log In](https://members.assetdash.com/login)[Sign Up](https://members.assetdash.com/sign-up)\nMenu\n[Log In](https://members.assetdash.com/login)[Sign Up](https://members.assetdash.com/signup)\nPortfolio Tracker\n[Swap + Whale Watch](https://swap.assetdash.com)[Learn](https://www.assetdash.com/learns/)[Deals](https://www.assetdash.com/deals/)[Auctions](https://www.assetdash.com/auctions/)[Super Drops](https://www.assetdash.com/super-drops/)[Marketplace Latest](https://www.assetdash.com/marketplace-latest/)[Marketplace Top](https://www.assetdash.com/marketplace-top/)[Market Cap](https://www.assetdash.com/marketcap/)\nWhale Watch 🐳- Track what memecoin whales are buying on our[iOS](https://apps.apple.com/us/app/assetdash-portfolio-tracker/id1541886930)and[Android](https://play.google.com/store/apps/details?id=com.stonks.prod&amp;hl=en_US)apps and[here on Web](https://swap.assetdash.com).\n# The only app you need in crypto\nScan to download AssetDash.\n![Scan QR code to download AssetDash mobile app](https://www.assetdash.com/images/download/qrs/qr_code.svg)\n[![Apple Store](https://www.assetdash.com/images/download/buttons/apple-store.svg)](https://apps.apple.com/us/app/assetdash-portfolio-tracker/id1541886930)[![Google Play](https://www.assetdash.com/images/download/buttons/google-play.svg)](https://play.google.com/store/apps/details?id=com.stonks.prod&amp;hl=en_US)\n![Hero background](https://www.assetdash.com/images/backgrounds/home_hero.webp)\n## Your all-in-one app\n![Track](https://www.assetdash.com/images/track_image.png)### Track\nTrack all your investments in one place from NFTs to crypto to DeFi and more.\n![Connecting Line](https://www.assetdash.com/images/connecting_line.png)\n![Rewards](https://www.assetdash.com/images/reward_image.png)### Rewards\nEarn AssetDash Coins, our next-gen rewards currency, and spend them on your favorite NFTs, whitelists, gift cards, and more.\n![Con"
+            },
+            {
+              "title": "Top Trending Cryptocurrencies Today | CoinGecko",
+              "url": "https://www.coingecko.com/en/highlights/trending-crypto",
+              "publishedDate": "2024-01-01T00:00:00.000Z",
+              "author": "",
+              "text": "# Top Trending Cryptocurrencies Today\n\nDiscover the top trending cryptocurrencies on CoinGecko. This list is sorted by coins that are most searched for in the last 3 hours. Turtle, Limitless, and EVAA Protocol are the top 3 trending crypto now. In the past 24 hours, the price of Turtle changed by -14.1%, Limitless price changed by -52.8%, and EVAA Protocol price changed by 84.4%.\n\nPortfolios\n\nAdd to New Portfolio\n\nTrack\non the go\n\nGet real-time updates via push notifications on the app.\n\n[Open App](https://coingecko.app.link/yaxgIjInuLb)\n\n| # | Coin | Price | 1h | 24h | 7d | 24h Volume | Market Cap | Last 7 Days |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 809 | [Turtle\\ \\ TURTLE](https://www.coingecko.com/en/coins/turtle) | $0.2338 | 0.3% | 17.8% | - | $86,626,746 | $44,760,745 |\n| 447 | [Limitless\\ \\ LMTS](https://www.coingecko.com/en/coins/limitless-3) | $0.3275 | 5.2% | 53.9% | - | $44,991,956 | $111,957,325 |\n| 691 | [EVAA Protocol\\ \\ EVAA](https://www.coingecko.com/en/coins/evaa-protocol) | $8.47 | 1.0% | 83.9% | 228.4% | $90,870,270 | $54,879,149 |\n| 66 | [Aster\\ \\ ASTER](https://www.coingecko.com/en/coins/aster-2) | $0.9812 | 1.7% | 16.9% | 30.9% | $784,339,908 | $1,983,428,161 |\n| 468 | [Open Campus\\ \\ EDU](https://www.coingecko.com/en/coins/open-campus) | $0.1845 | 0.4% | 0.5% | 9.6% | $42,828,820 | $109,716,219 |\n| 92 | [Pudgy Penguins\\ \\ PENGU](https://www.coingecko.com/en/coins/pudgy-penguins) | $0.02092 | 0.0% | 11.0% | 13.0% | $259,345,979 | $1,315,384,731 |\n| 61 | [ChainOpera AI\\ \\ COAI](https://www.coingecko.com/en/coins/chainopera-ai) | $11.56 | 3.6% | 41.6% | 42.2% | $183,766,552 | $2,243,764,965 |\n| 41 | [Zcash\\ \\ ZEC](https://www.coingecko.com/en/coins/zcash) | Buy | $258.50 | 0.0% | 12.0% | 2.4% | $868,942,091 | $4,226,725,107 |\n| 135 | [Plasma\\ \\ XPL](https://www.coingecko.com/en/coins/plasma) | $0.3819 | 1.3% | 10.0% | 26.6% | $323,152,299 | $684,732,110 |\n| 20 | [Hyperliquid\\ \\ HYPE](https://www.coingecko.com/en/coins/hyperliq"
+            },
+            {
+              "title": "United States — X (Twitter) trending topics and hashtags today",
+              "url": "https://trends24.in/united-states/",
+              "author": null,
+              "text": "United States —X (Twitter) trending topics and hashtags today | trends24.in\n[newCheckout all our apps and offerings on**hub.trends24.in**&rarr;](https://hub.trends24.in)\n[trends24](https://trends24.in/)United States\nclose\n[trends24](https://trends24.in/)\nlatest X (Twitter) trending topics\n### Explore more apps\nSelect a themeLightDarkSystem\n### Find us on\n* [X (Twitter)](https://twitter.com/_trends24)\n* [Gumroad](https://trends24.gumroad.com/)\n©trends24.in -1.0.3\n# United States X (Twitter) Trends for last 24 hours\nTimelineTag CloudTable\n## Twitter Trends Timeline for last 24 hours\n### Thu Jan 01 2026 12:21:14 GMT+0000 (Coordinated Universal Time)\n1. [Happy New Year]()2.1M\n2. [Happy 2026]()1.5M\n3. [AI Alert]()\n4. [#StrangersThings5](https://twitter.com/search?q=#StrangersThings5)158K\n5. [#HolinessDirective](https://twitter.com/search?q=#HolinessDirective)36K\n6. [Miami](https://twitter.com/search?q=Miami)149K\n7. [Welcome to 2026]()121K\n8. [Market Focus]()\n9. [Token Signal]()\n10. [Ohio State]()91K\n11. [Jack Smith]()208K\n12. [#ThankYouCampingWorld](https://twitter.com/search?q=#ThankYouCampingWorld)\n13. [Enzo Maresca]()69K\n14. [Hello 2026]()119K\n15. [Feliz Año Nuevo]()404K\n16. [mike wheeler]()84K\n17. [Crans-Montana](https://twitter.com/search?q=Crans-Montana)19K\n18. [Vecna](https://twitter.com/search?q=Vecna)159K\n19. [Hopper](https://twitter.com/search?q=Hopper)75K\n20. [Ryan Day]()13K\n21. [Kali](https://twitter.com/search?q=Kali)118K\n22. [#WinMarcusTickets](https://twitter.com/search?q=#WinMarcusTickets)\n23. [Runaway](https://twitter.com/search?q=Runaway)\n24. [Starting 2026]()82K\n25. [#GoCanes](https://twitter.com/search?q=#GoCanes)32K\n26. [Here&#39;s to 2026]()170K\n27. [Joyce](https://twitter.com/search?q=Joyce)72K\n28. [Diana Ross]()\n29. [New York City]()98K\n30. [Zohran Mamdani]()115K\n31. [mileven](https://twitter.com/search?q=mileven)74K\n32. [Mind Flayer]()21K\n33. [Sayin](https://twitter.com/search?q=Sayin)87K\n34. [Quran](https://twitter.com/search?q=Quran)89K\n35. [by"
+            },
+            {
+              "title": "What's Hot on Twitter? Cryptocurrency and NFT Topics See 242 ...",
+              "url": "https://decrypt.co/95404/hot-on-twitter-cryptocurrency-nft-topics",
+              "publishedDate": "2022-03-17T00:00:00.000Z",
+              "author": "Kate Irwin",
+              "text": "![logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAFkCAYAAACadgZ0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAsSwAALEsBpT2WqQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAQABJREFUeAHsnQfYJEW1htvrNUcUBQMyPyKgKEGRHJewEmTJSHRhyQhKDgKusIQVJOckiOQMksMSJUkSVMAAiIrhGu81X+/c89b0N1vTU93TM/9098y/c56npnuqq7tPVZ366tSpU9WviUY0KoH0EniNXVIgFef/tlDnTwq93eI/aGFuC3NZeI+Ft1p4n4U3W3hbfP5/diS818K74nM7RP9h4WcW/mrhtRb+18IrFv5h4VULf7Twuzj8xo6/tPAHCyGCX54Bv34IpR3FDUEJUKEjGpUAJSBZ4AhoQIBFiAAZQGk+CwtaWMDChy3MbwHAApQAJ8CiKAKA/sfCXywAYD+x8IKFH1p4Mf4P8CUJnsgjYCkQS6YZ/R/QEpCQDih7I7YKLgGBE8eQ5vQmi5/XwpiFT1tY1MIiFgCs91t4nYUsAhD0XMmaf+Q6/xWnZwlIiNc515QeQBWoEh+iX1nkzy0AYt+x8IgFQC2pjQlUBWCWZESDWgJJQRlUPkd89a8E1Ng1JPOfjGb0UQvLWviUhU9YWNgC2lKIpIFJjpJH7lFc6P7xxAFeUOioPDZSzP4FsJ6yAHjdaeFZC/+yIOI++B2Bl0pkwI5FCdOAZXOOZoc6ljaSbIgA0SctrGxhGQtLWpjPQpKS9/FMhWTaQfmf5Flg5PP3jP2ZZeFWC/dY+JsFEZoXYMhzRjQgJTACrAGpiD6zITChkUoL0isY1q1gYVULABXGcAGanTqikRLUyCeKnPj5Sub5ZcvvjRaut3CPBZXbaMhohTEoNFEEcVDKs0o+qEs1QuxGorfYyRIW1rWwpgWGfMT5ROPU/YXKxGte85qIIOL8P/5DbJtKU69H//d/4EqD+E8oiARg/5l4Pob7Sy1cYeF57xqMF8aM957RaUoJzJaclASj6IEvAWkAPkhhi2KIt6mFVSxgh/LJByji+yIHAqPXvva10Rvf+EYXXv/610dvfvObHQgJfP75z386Xkj/t7/9LfrTn/4UcQ9ARfp3vvOdDtRIT/zrXtew7ZP+H//4R/T3v/89+utf/xrxnP/934YiNE5QEwhRhpSnyoMh4rctnGXhLgsQ6DobUV3U6KesElDFlPW+0Xv6UwI0GuqOhqPG9kY7B5ymWFjLwoctiEhDWu5R0LWujwDHm970puhtb3ubOwI0//73vx2A/OUvf3Fg0vVDe7zhrW99a0QA1AA3QOwPf/iDA7UeQYyyUnn5mtftFk8H8GcLgJrfQdjfEZVRAiPAKqOU+/MO6kpjJ7+xLG3xG1jYyIKvSQnM/PssSXcECLz97W932hJA9Z//2WjDP/vZz1IfRPrll18+WnjhhaMPfOAD0YILLuiGfQz9uP8tb2mMSAG6d7zjHQ5wOOf5aEy/+93vnLZFejQqtCmIa7z3pZ"
+            }
+          ],
+          "searchParams": {
+            "query": "what Base assets are trending on twitter",
+            "numResults": 10,
+            "includeText": true,
+            "maxCharacters": 2000
+          },
+          "executionTimeMs": 1303.2309999999998
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-05T19:47:57.992Z"
+    },
+    {
+      "question": {
+        "qid": "7kX9mP2b",
+        "query": "how does solana turbine block propagation work",
+        "level": 2,
+        "categories": [
+          "asset_analysis"
+        ],
+        "tags": [
+          "large_cap"
+        ],
+        "sectors": [
+          "ecosystems"
+        ]
+      },
+      "searchResults": [
+        {
+          "system": "droyd",
+          "rawResponse": {
+            "success": true,
+            "error": null,
+            "analysis": "Turbine is Solana’s multi-layer block propagation protocol designed to solve the bandwidth bottleneck inherent in broadcasting large amounts of data to thousands of nodes simultaneously. Unlike traditional gossip protocols that rely on \"flooding\" the network, Turbine uses a structured, deterministic, and stake-weighted tree topology to ensure that block data (fragmented into \"shreds\") reaches the entire validator set in milliseconds.\n\nAs of January 5, 2026, Turbine remains the primary production mechanism for block propagation, though the network is currently transitioning toward its successor, **Rotor**, as part of the **Alpenglow** consensus upgrade scheduled for Q1 2026.\n\n---\n\n### 1. The Core Unit: Shredding\nBefore a block is transmitted, the designated leader for a slot must prepare the data. Because Solana blocks can be very large, they are not sent as a single unit. Instead, they are broken into **shreds**.\n\n*   **Data Shreds:** These contain the actual transaction data. They are sized to fit within a standard Maximum Transmission Unit (MTU) to prevent packet fragmentation at the network layer.\n*   **Recovery Shreds:** Using **Reed-Solomon erasure coding**, the leader generates \"parity\" shreds. This Forward Error Correction (FEC) allows a validator to reconstruct the original data even if some packets are lost during transmission.\n*   **FEC Sets:** Shreds are organized into groups (e.g., 32 data shreds and 32 recovery shreds). In this configuration, a validator only needs to receive any 32 out of the 64 total shreds to reconstruct the full set, providing a 50% packet loss tolerance.\n\n### 2. The Turbine Tree Topology\nTurbine distributes these shreds through a hierarchical structure known as the **Turbine Tree**.\n\n*   **Layer Structure:** The leader sends shreds to a special \"root\" node (Layer 0). This node then fans out the data to a set of validators in Layer 1. Each node in Layer 1 is responsible for forwarding the data to a specific subset of nodes in Layer 2, and so on.\n*   **Fanout Mechanism:** The breadth of this tree is determined by a configuration value called `DATA_PLANE_FANOUT`, currently set to **200**. Because of this high fanout, even a network with 40,000 validators would only require 2–3 \"hops\" to reach every node.\n*   **Stake-Weighted Shuffling:** To ensure the most \"economically important\" nodes receive data first, the validator list is sorted by stake weight and then deterministically shuffled. High-staked validators are prioritized to occupy positions closer to the top of the tree, allowing them to receive data faster and vote sooner.\n*   **Security Through Dynamics:** To prevent malicious nodes from predicting their position and intercepting data, a new Turbine Tree is generated for every shred group using a seed derived from the leader ID, slot, and shred index.\n\n### 3. Continuous Block Production & Pipelining\nA unique feature of Turbine is its integration with Solana’s continuous block production. Unlike chains that wait for a full block to be completed before propagation, Solana leaders stream shreds **every 20 milliseconds**.\n\nAs the leader executes a batch of transactions, it immediately shreds and broadcasts them through Turbine. This allows validators to begin re-executing and verifying parts of the block before the leader has even finished building the entire thing. This \"pipelining\" is what enables Solana’s ultra-low latency.\n\n### 4. Failure Recovery: Gossip and Repair\nIf a validator fails to receive enough shreds to reconstruct a block (i.e., packet loss exceeds the FEC rate), it does not wait for the next block. It utilizes two fallback mechanisms:\n1.  **Repair Requests:** The validator sends a targeted request to the leader or other peers in the tree to re-transmit specific missing shreds.\n2.  **Gossip:** Metadata about block availability is shared via the slower gossip network, which helps nodes identify which peers have the missing data.\n\n---\n\n### 5. Critical Analysis: Turbine vs. The Future (Rotor)\nWhile Turbine was revolutionary for its time, research materials from 2025 indicate several limitations that the upcoming **Alpenglow (Rotor)** upgrade aims to fix:\n\n*   **The \"Hop\" Latency:** Even with a fanout of 200, each \"hop\" in Turbine adds network delay. Rotor proposes a **single-hop relay model**, where a leader sends shreds to a set of relays that broadcast to the entire network simultaneously.\n*   **Propagation Jitter:** Turbine's multi-hop nature can lead to \"tail latency,\" where nodes at the bottom of the tree receive data significantly later than those at the top. This can lead to forks if a leader's block doesn't reach 66% of the network in time.\n*   **Bandwidth Bottlenecks:** Turbine puts a heavy egress load on the leader. Future upgrades like **Firedancer** are optimized to handle 10 Gbps connections to push Turbine's limits even further before the full transition to Rotor.\n\n### Summary of Key Metrics (Jan 2026)\n| Feature | Turbine (Current) | Rotor (Imminent Upgrade) |\n| :--- | :--- | :--- |\n| **Topology** | Multi-layer Tree (200 Fanout) | Single-hop Relay |\n| **Hops** | 2–3 Hops | 1 Hop |\n| **Finality Latency** | ~400ms (Optimistic) / 12s (Rooted) | 100–150ms (Deterministic) |\n| **Error Correction** | Reed-Solomon (Data + Recovery) | Integrated Sliced Erasure Coding |\n| **Clock Dependency** | Requires Proof of History (PoH) | Uses Local Timeouts |\n\n### Actionable Takeaway for Node Operators\nTo maximize performance under the Turbine protocol, validators should aim for **high stake weight** (to move up the tree) and **low-latency peering**, particularly in Europe where validator concentration is highest. Operators should also prepare for the **Alpenglow upgrade in Q1 2026**, which will replace Turbine with Rotor, requiring a shift in networking strategy toward single-hop relay participation.",
+            "content": [
+              {
+                "post_id": 4756,
+                "post_link": "https://www.helius.dev/blog/turbine-block-propagation-on-solana",
+                "published_date": "2024-06-01T00:00:00+00:00",
+                "title": "Turbine: Block Propagation on Solana",
+                "source_name": "Helius",
+                "source_author": "Ryan Chern",
+                "summary": "Turbine is Solana's innovative block propagation mechanism that breaks blocks into smaller shreds and disseminates them through a structured hierarchy of nodes. This optimizes bandwidth usage and ensures fast, reliable data availability across the network. Turbine leverages erasure coding and a dynamic Turbine Tree to mitigate packet loss and enable high throughput. Compared to Ethereum's gossip-based propagation, Solana's Turbine stands out with its higher bandwidth requirements, UDP-based transmission, and dynamic tree structure.",
+                "key_points": null,
+                "projects": [],
+                "images": null
+              },
+              {
+                "post_id": 16905,
+                "post_link": "http://helius.dev/blog/turbine-block-propagation-on-solana",
+                "published_date": "2023-10-24T00:00:00+00:00",
+                "title": "Turbine: Block Propagation on Solana",
+                "source_name": "Helius",
+                "source_author": "Helius",
+                "summary": "Article analyzes Turbine, Solana's block propagation mechanism, ensuring data availability and network efficiency. Turbine breaks blocks into shreds, uses erasure coding for data protection, and propagates data via a Turbine Tree. Solana uses UDP, Ethereum uses TCP. Key point: Turbine optimizes data propagation from leader to network.",
+                "key_points": [
+                  {
+                    "header": "Turbine's Design and Function",
+                    "bullets": [
+                      "Turbine is designed to mitigate the stress of egress (sending data out) from the leader to the network.",
+                      "It breaks a block down into smaller pieces and disseminates these pieces through a hierarchy of nodes."
+                    ]
+                  },
+                  {
+                    "header": "Erasure Coding for Data Protection",
+                    "bullets": [
+                      "Erasure coding is used as a data protection method so that the original data can be recovered even if some parts are lost or corrupted during transmission.",
+                      "Leaders can dynamically adjust the FEC rate based on network conditions."
+                    ]
+                  },
+                  {
+                    "header": "Turbine Tree Structure",
+                    "bullets": [
+                      "A Turbine Tree is a structured network topology used by Solana to facilitate the efficient propagation of shreds among validators.",
+                      "The Turbine Tree is typically a 2- or 3-hop tree, given the current DATA_PLANE_FANOUT value of 200."
+                    ]
+                  }
+                ],
+                "projects": [],
+                "images": null
+              },
+              {
+                "image_id": 147854,
+                "title": "Solana Turbine Block Propagation Diagram",
+                "description": "The image is a diagram illustrating Solana's block propagation method, Turbine. At the top, the \"Solana Leader\" node is depicted, sending data to a \"Root Node.\" The Root Node then distributes data to three \"Validator\" nodes (Validator 1, Validator 2, and Validator 3). These validators further propagate the data to other validators (Validator 4 through Validator 12). The diagram shows \"Erasure-coded chunks\" being distributed. The \"Turbine\" logo is present, indicating the block propagation method. The diagram visualizes the tree-like structure of data propagation in Solana's Turbine.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1744161921/veldt/p1ybvjntxrahpm7g6onl.jpg",
+                "created_at": "2025-04-09T01:25:22.078584+00:00"
+              },
+              {
+                "post_id": 66761,
+                "post_link": "https://x.com/0xMert_/status/1960479128047522009",
+                "published_date": "2025-08-26T23:07:02+00:00",
+                "title": "Solana: Faster Transaction Observation",
+                "source_name": "mert",
+                "summary": "Solana's blocktimes are technically 400ms, but developers can achieve faster speeds using Helius shreds, enabling transaction observation in about 70ms.",
+                "key_points": [
+                  {
+                    "header": "Solana Blocktimes",
+                    "bullets": [
+                      "Solana's technical blocktimes are 400ms, but faster speeds are achievable for developers."
+                    ]
+                  },
+                  {
+                    "header": "Helius Shreds Latency",
+                    "bullets": [
+                      "Helius shreds enable transaction observation in about 70ms end-to-end latency on median."
+                    ]
+                  },
+                  {
+                    "header": "Form for Searchers",
+                    "bullets": [
+                      "A form is provided for searchers interested in gaining an edge."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 11943,
+                    "project_name": "Solana"
+                  },
+                  {
+                    "project_id": 22726,
+                    "project_name": "Helius"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 55018,
+                "post_link": "https://x.com/aeyakovenko/status/1957573351179952557",
+                "published_date": "2025-08-18T22:40:31+00:00",
+                "title": "Solana Shreds and Latency in Decentralized Systems",
+                "source_name": "toly",
+                "summary": "Toly comments on Solana's shred propagation and Helius' LaserStream, noting decentralization enhances reliability without inherent speed drawbacks. Helius uses high stake to provide faster data via LaserStream. Solana divides blocks into shreds for faster propagation.",
+                "key_points": [
+                  {
+                    "header": "Solana Shreds",
+                    "bullets": [
+                      "Solana divides blocks into shreds, which are smaller packets, for faster data propagation across the network.",
+                      "Shreds allow for early access to on-chain state changes, crucial for latency-sensitive applications."
+                    ]
+                  },
+                  {
+                    "header": "Helius LaserStream",
+                    "bullets": [
+                      "LaserStream is Helius’ gRPC streaming service that uses low-latency shreds to provide faster data streaming.",
+                      "It offers multi-source ingestion, global coverage, and historical replay capabilities."
+                    ]
+                  },
+                  {
+                    "header": "Stake and Latency",
+                    "bullets": [
+                      "Validators with higher stake receive shreds sooner due to stake-weighted shuffling in Turbine.",
+                      "Helius, with the highest stake on Solana, ensures its customers receive data the fastest."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 11943,
+                    "project_name": "Solana"
+                  },
+                  {
+                    "project_id": 22726,
+                    "project_name": "Helius"
+                  },
+                  {
+                    "project_id": 28374,
+                    "project_name": "DFlow"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 54875,
+                "post_link": "https://x.com/heliuslabs/status/1957562279190573502",
+                "published_date": "2025-08-18T21:56:31+00:00",
+                "title": "Helius' LaserStream for Ultra-Low Latency on Solana",
+                "source_name": "heliuslabs",
+                "summary": "Helius highlights LaserStream, a gRPC streaming service that outperforms other data-streaming services globally without requiring dedicated nodes. LaserStream provides early visibility into Solana state updates. LaserStream combines shred-level ingestion with global reach. LaserStream for Solana.",
+                "key_points": [
+                  {
+                    "header": "LaserStream",
+                    "bullets": [
+                      "LaserStream is Helius’ next-generation gRPC streaming service.",
+                      "It consistently outperforms other data-streaming services across all regions without the burden of needing to maintain dedicated nodes."
+                    ]
+                  },
+                  {
+                    "header": "Early Visibility",
+                    "bullets": [
+                      "LaserStream receives propagated block data as soon as it becomes available, giving users earlier visibility into Solana state updates.",
+                      "This is crucial for the detection of on-chain events and submitting transactions that react to those events."
+                    ]
+                  },
+                  {
+                    "header": "Key Features",
+                    "bullets": [
+                      "LaserStream combines the speed of shred-level ingestion with the reliability and reach of a globally distributed service.",
+                      "It eliminates the cost or operational headache of running multiple dedicated nodes."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 11943,
+                    "project_name": "Solana"
+                  },
+                  {
+                    "project_id": 22726,
+                    "project_name": "Helius"
+                  },
+                  {
+                    "project_id": 28374,
+                    "project_name": "DFlow"
+                  },
+                  {
+                    "project_id": 29348,
+                    "project_name": "xFractal"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 55029,
+                "post_link": "https://x.com/0xMert_/status/1957571250001514885",
+                "published_date": "2025-08-18T22:32:10+00:00",
+                "title": "Helius: Winning the Millisecond Game on Solana",
+                "source_name": "mert",
+                "summary": "Helius' LaserStream is a gRPC streaming service that outperforms other data-streaming services by building upon low-latency shreds. Solana divides blocks into smaller packets called shreds, which are the atomic units of data propagation. LaserStream combines speed and reliability.",
+                "key_points": [
+                  {
+                    "header": "Shreds",
+                    "bullets": [
+                      "Shreds are the foundational unit that enables Solana’s high-performance data propagation, offering early access to on-chain state changes.",
+                      "Blocks are divided into smaller packets known as shreds, which represent portions of transaction data before they are assembled into a block.",
+                      "There are two types of shreds: Data Shreds and Coding Shreds."
+                    ]
+                  },
+                  {
+                    "header": "Shred Propagation",
+                    "bullets": [
+                      "The leader transmits shreds to a root node, which distributes them to subsequent layers of validators in a tree-like structure.",
+                      "Each layer forwards to the next with a fanout of 200 nodes per layer, typically spanning 2 to 3 hops depending on the number of active validators.",
+                      "Validators with higher stake are placed earlier in this list, and after a deterministic shuffle, they tend to end up in earlier layers of the tree closer to the leader."
+                    ]
+                  },
+                  {
+                    "header": "LaserStream",
+                    "bullets": [
+                      "LaserStream combines the speed of shred-level ingestion with the reliability and reach of a globally distributed service, without the cost or operational headache of running multiple dedicated nodes.",
+                      "LaserStream ingests the lowest latency shreds, consistently beating competitors worldwide.",
+                      "LaserStream is a drop-in replacement for Yellowstone gRPC."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 11943,
+                    "project_name": "Solana"
+                  },
+                  {
+                    "project_id": 22726,
+                    "project_name": "Helius"
+                  },
+                  {
+                    "project_id": 28374,
+                    "project_name": "DFlow"
+                  },
+                  {
+                    "project_id": 29348,
+                    "project_name": "xFractal"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "post_id": 50665,
+                "post_link": "https://x.com/get_optimum/status/1956028803937132766",
+                "published_date": "2025-08-14T16:23:02+00:00",
+                "title": "Optimum: RLNC for Faster Consensus",
+                "source_name": "get_optimum",
+                "summary": "Optimum details how RLNC is the fastest and most efficient way to reach consensus, minimizing data loss. Testing against Gossipsub showed 2-20x latency improvements. Next step is Hoodi testnet.",
+                "key_points": [
+                  {
+                    "header": "RLNC Properties",
+                    "bullets": [
+                      "RLNC encodes data into smaller shards using random math equations, making the original data rebuildable with any combination of shards.",
+                      "RLNC enables new shard generation as data travels across the network, preventing cumulative data loss.",
+                      "Each shard can be sent out to the next node as soon as it reaches a node, speeding up data flow."
+                    ]
+                  },
+                  {
+                    "header": "RLNC and Ethereum",
+                    "bullets": [
+                      "Ethereum is not currently using erasure coding, and stands to benefit immensely from RLNC.",
+                      "Testing against Gossipsub (standard Ethereum propagation) showed 2-20x latency improvements at various block sizes."
+                    ]
+                  },
+                  {
+                    "header": "Hoodi Testnet",
+                    "bullets": [
+                      "Optimum is setting up node operator partners with OptimumP2P.",
+                      "The next step in RLNC's path to Ethereum mainnet is Hoodi testnet."
+                    ]
+                  }
+                ],
+                "projects": [
+                  {
+                    "project_id": 4694,
+                    "project_name": "Ethereum"
+                  },
+                  {
+                    "project_id": 21788,
+                    "project_name": "Monad"
+                  },
+                  {
+                    "project_id": 22608,
+                    "project_name": "Optimum"
+                  },
+                  {
+                    "project_id": 22746,
+                    "project_name": "Blockdaemon"
+                  },
+                  {
+                    "project_id": 22975,
+                    "project_name": "InfStones"
+                  },
+                  {
+                    "project_id": 23417,
+                    "project_name": "Kiln"
+                  },
+                  {
+                    "project_id": 24309,
+                    "project_name": "P2P.org"
+                  },
+                  {
+                    "project_id": 30076,
+                    "project_name": "Ebunker"
+                  }
+                ],
+                "images": null
+              },
+              {
+                "image_id": 422730,
+                "title": "Solana Multi-Leader Turbine Diagram",
+                "description": "The image is a diagram illustrating the Solana Multi-Leader Turbine, specifically focusing on the process of broadcasting a packed block to all validators. The diagram features three leaders (Leader 1, Leader 2, and Leader 3), each represented by an oval shape and connected to six red nodes (R1 to R6). Each leader has six blocks labeled L1-1 to L1-6, L2-1 to L2-6, and L3-1 to L3-6 respectively. The red nodes are connected to a central 'Consensus Leader' node, which is purple. The Consensus Leader then connects to four validators (V1 to V4), represented by blue ovals. The diagram shows the flow of information with arrows indicating the connections between leaders, red nodes, the consensus leader, and validators. The packed block is shown in a blue rectangle below the Consensus Leader, containing data from each leader's blocks. The diagram also includes 'IHAVE' labels on the lines connecting the red nodes to the Consensus Leader, indicating the data transfer process. The diagram is a visual representation of the Solana Turbine's block propagation mechanism.",
+                "url": "https://res.cloudinary.com/dgjriemfd/image/upload/v1766426588/veldt/pc5mztlg7ejobzy3o5wq.jpg",
+                "created_at": "2025-12-22T18:03:11.175683+00:00"
+              }
+            ],
+            "metadata": {
+              "sort_by": "relevance",
+              "content_types": [
+                "posts",
+                "news",
+                "developments",
+                "tweets",
+                "youtube"
+              ],
+              "total_results": 9,
+              "limit": 10
+            },
+            "user_id": 3
+          },
+          "searchParams": {
+            "query": "how does solana turbine block propagation work",
+            "searchMode": "semantic",
+            "limit": 10,
+            "daysBack": 30,
+            "sortBy": "relevance",
+            "minimumRelevanceScore": 0.2
+          },
+          "executionTimeMs": 18255.76612500001
+        },
+        {
+          "system": "exa",
+          "rawResponse": [
+            {
+              "title": "Solana's Turbine Block Propagation Protocol: A Deep Dive",
+              "url": "https://tokenminds.co/blog/knowledge-base/solana-turbine-block-propagation-protocol",
+              "publishedDate": "2025-09-09T00:00:00.000Z",
+              "author": "",
+              "text": "Solana's Turbine Block Propagation Protocol: A Deep Dive\n[\n![](https://framerusercontent.com/images/9LsYOIIw4IoodcFZBOHwx6B4IE.svg?width=1296&amp;height=704)\nWeb3&amp;AI\nSOLUTIONS\n](../)\nProducts\nServices\n[\nBecome Our Client\n](../become-our-client/)\nResources\n[\n![](https://framerusercontent.com/images/9LsYOIIw4IoodcFZBOHwx6B4IE.svg?width=1296&amp;height=704)\nWeb3&amp;AI\nSOLUTIONS\n](../)\n[\n![](https://framerusercontent.com/images/9LsYOIIw4IoodcFZBOHwx6B4IE.svg?width=1296&amp;height=704)\nWeb3 &amp; AI\nSOLUTIONS\n](../)\nServices\nProducts\nIndustries\n[\nBecome Our Client\n](../become-our-client/)\nAbout Us\nResources\n[\n![](https://framerusercontent.com/images/9LsYOIIw4IoodcFZBOHwx6B4IE.svg?width=1296&amp;height=704)\nWeb3&amp;AI\nSOLUTIONS\n](../)\n[\n![](https://framerusercontent.com/images/9LsYOIIw4IoodcFZBOHwx6B4IE.svg?width=1296&amp;height=704)\nWeb3 &amp; AI\nSOLUTIONS\n](../)\nServices\nProducts\nIndustries\n# Solana's Turbine Block Propagation Protocol: A Deep Dive\n# Solana's Turbine Block Propagation Protocol: A Deep Dive\nWritten by:\nWritten by:\n[TokenMinds Team](../about-us/)\nApr 19, 2024\nApr 19, 2024\n![Solana's Turbine Block Propagation Protocol: A Deep Dive](https://framerusercontent.com/images/qajeAD38Y3GPZrt0B10trHFL58U.webp?width=595&amp;height=463)\n![Solana's Turbine Block Propagation Protocol: A Deep Dive](https://framerusercontent.com/images/qajeAD38Y3GPZrt0B10trHFL58U.webp?width=595&amp;height=463)\n![Solana's Turbine Block Propagation Protocol: A Deep Dive](https://framerusercontent.com/images/qajeAD38Y3GPZrt0B10trHFL58U.webp?width=595&amp;height=463)\n### **Key Takeaways**\n1. Turbine's tree-based structure and erasure coding techniques streamline block distribution, maximizing network efficiency and reducing overhead.\n2. Turbine is a key reason why Solana excels in scenarios requiring low transaction fees, high transaction throughput, and rapid confirmation times.\nBlockchain networks rely on efficient mechanisms to distribute newly created blocks (containing transaction"
+            },
+            {
+              "title": "Solana Turbine",
+              "url": "https://parallelresearch.substack.com/p/solana-turbine",
+              "publishedDate": "2025-03-04T00:00:00.000Z",
+              "author": "wisdom",
+              "text": "Solana Turbine - by wisdom - Parallel Research\n[\n![Parallel Research](https://substackcdn.com/image/fetch/$s_!nQ9K!,w_80,h_80,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f6539db-21af-4bf2-92a4-4403d40c6b73_130x130.png)\n](https://parallelresearch.substack.com/)\n# [Parallel Research](https://parallelresearch.substack.com/)\nSubscribeSign in\n# Solana Turbine\n### Solana #3\n[\n![wisdom's avatar](https://substackcdn.com/image/fetch/$s_!MHuw!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45f7c860-2d3c-4209-8ecc-67458737ee94_639x639.jpeg)\n](https://substack.com/@wizzdom)\n[wisdom](https://substack.com/@wizzdom)\nMar 04, 2025\n3\n2\nShare\n# Introduction\nIn traditional blockchains, block propagation occurs through a peer-to-peer network in which new blocks and transactions are broadcast to all propagating nodes. This process usually happens sequentially or is flooded. However, this method is not scalable, as it becomes difficult to manage as the network grows due to the sheer number of communications.\nLet’s consider a network of 35,000 validators. The leader needs to transmit a 128 MB block (about 500,000 transactions at 250 bytes per transaction) to all 35,000 validators. The traditional block propagation implementation would require the leader to have a unique connection to each validator and transmit the full 128 MB 35,000 times. This would result in a total data transmission of 4.69 TB, which is far beyond typical bandwidth capabilities and would be infeasible to accommodate with so many connections.\nTo solve the issue of slow block dissemination, Solana introduced Turbine, a multi-layer block propagation mechanism used by clusters to broadcast ledger entries to all nodes. Broadly speaking, Turbine breaks blocks into smaller blocks and disseminates them through an order of nodes, reducing the load on an individual nod"
+            },
+            {
+              "title": "Solana Turbine Notes",
+              "url": "https://www.italo.dev/blog/solana-turbine-notes",
+              "publishedDate": "2024-08-03T08:21:29.000Z",
+              "author": "My Portfolio",
+              "text": "Italo Casas Blog\n# Solana Turbine Notes\nAugust 3, 2024\n* [https://www.helius.dev/blog/turbine-block-propagation-on-solana](https://www.helius.dev/blog/turbine-block-propagation-on-solana)\n* [https://homes.cs.washington.edu/\\~tessaro/papers/dds.pdf](https://homes.cs.washington.edu/~tessaro/papers/dds.pdf)\n* [https://arxiv.org/abs/2110.04371](https://arxiv.org/abs/2110.04371)\n* https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon\\_error\\_correction\n* https://docs.anza.xyz/consensus/turbine-block-propagation#layer-assignment----weighted-selection\nTurbine is Solana&#x27;s Block propagation mechanism, allowing all validators to receive the most updated state promptly\nTurbine was specifically designed to mitigate the stress of egress from the leader to the network.\nAt a high level, the turbine breaks blocks into smaller chunks (shreds) and sends those shreds through a hierarchy of nodes.\n* Confirmed block: Super majority\n* Finalized block: Confirmed and 31+ confirmed block built on top.### [](#shred-propagation)Shred propagation\n1. Create block\n2. Break block into sub-blocks called shreds via shredding\n1. Split data into MTU-size\n2. Generates recovery shards via Reed-Solomon\n![](https://cdn.prod.website-files.com/641ba798c17bb180d832b666/65383931bb6b0838c0a00577_Shred-level.jpg)\n### [](#turbine-tree)Turbine Tree\nStructured network topology used by Solana to facilitate the efficient propagation of shards. In other words, it allows for the mitigation of the stress of egress from the leader to the network.\n![](https://cdn.prod.website-files.com/641ba798c17bb180d832b666/6538396cabadcf78e8170b03_TurbineTree.jpg)"
+            },
+            {
+              "title": "Turbine - Solana Handbook",
+              "url": "https://ackee.xyz/solana/book/latest/chapter2/turbine/",
+              "publishedDate": "2024-10-15T00:00:00.000Z",
+              "author": "Ackee Blockchain Security",
+              "text": "Turbine\n# Turbine\nTurbine is a block propagation protocol designed to reduce both time needed for block propagation as well as the overall message complexity, reducing the communication overhead of a node.\nNodes in the network are divided into small partitions called**neighborhoods**. Nodes within a particular neighborhood are responsible for sharing received data with other nodes in the same neighborhood and propagating the data to a small number of nodes in other neighborhoods.\n![Blockchain](../../images/neighbours2.png)![Blockchain](../../images/neighbours.png)\nInfo\nThe data unit shared is called a**shred**, and each block is composed of many shreds.\n## Problems with Broadcasting\nSince we are in an adversarial environment, any node can decide not to rebroadcast the received shreds or broadcast incorrect data.\nCountermeasures:\n* **Erasure Codes**help by broadcasting a block with more shreds than necessary to reconstruct the entire block without errors, even if some shreds are lost along the way. With 6 data shreds and 3 additional redundant shreds, we can lose up to 1/3 of the shreds and still be able to reconstruct the entire block fully.\n* A**stake-weighted selection algorithm**is used to create a tree where the risk of faulty or malicious nodes is minimized. Validators with the highest stake are positioned closer to the current leader.\nJuly 12, 2025\nBack to top"
+            },
+            {
+              "title": "Turbine Block Propagation and Data Availability - Alperen Tunçkıran - Medium",
+              "url": "https://blockofchain.medium.com/turbine-block-propagation-and-data-availability-8a27010cd4f5",
+              "publishedDate": "2024-02-24T00:00:00.000Z",
+              "author": "Alperen Tunçkıran",
+              "text": "Turbine Block Propagation and Data Availability | by Alperen Tunçkıran | Medium\n[Sitemap](https://blockofchain.medium.com/sitemap/sitemap.xml)\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&amp;referrer=utm_source=mobileNavBar&amp;source=post_page---top_nav_layout_nav-----------------------------------------)\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://blockofchain.medium.com/turbine-block-propagation-and-data-availability-8a27010cd4f5&amp;source=post_page---top_nav_layout_nav-----------------------global_nav------------------)\n[Medium Logo](https://medium.com/?source=post_page---top_nav_layout_nav-----------------------------------------)\n[\nWrite\n](https://medium.com/m/signin?operation=register&amp;redirect=https://medium.com/new-story&amp;source=---top_nav_layout_nav-----------------------new_post_topnav------------------)\n[\nSearch\n](https://medium.com/search?source=post_page---top_nav_layout_nav-----------------------------------------)\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://blockofchain.medium.com/turbine-block-propagation-and-data-availability-8a27010cd4f5&amp;source=post_page---top_nav_layout_nav-----------------------global_nav------------------)\n![](https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png)\n[Mastodon](https://me.dm/@blockofchain)\n# Turbine Block Propagation and Data Availability\n[\n![Alperen Tunçkıran](https://miro.medium.com/v2/da:true/resize:fill:64:64/0*-mN8RLzsxI1vtKZc)\n](https://blockofchain.medium.com/?source=post_page---byline--8a27010cd4f5---------------------------------------)\n[Alperen Tunçkıran](https://blockofchain.medium.com/?source=post_page---byline--8a27010cd4f5---------------------------------------)\n14 min read\n·Feb 24, 2024\n[\n](https://medium.com/m/signin?actionUrl=https://medium.com/_/vote/p/8a27010cd4f5&amp;operation=register&amp;redirect=https://blockofchain.medium.com/turbine-block-propagatio"
+            },
+            {
+              "title": "Solana’s Turbine: Revolutionizing Blockchain Data Propagation",
+              "url": "https://astconsulting.in/blockchain/solanas-turbine-revolutionizing-blockchain-data-propagation",
+              "publishedDate": "2023-07-12T00:00:00.000Z",
+              "author": "disharth thakran",
+              "text": "Solana&#039;s Turbine: Revolutionizing Blockchain Data Propagation\n[![AST Consulting](https://astconsulting.in/wp-content/uploads/2023/01/Asset-2.svg)](https://astconsulting.in/)\n# Solana&#8217;s Turbine: Revolutionizing Blockchain Data Propagation\nJuly 12, 2023 6:14 pm\n[BlockChain](https://astconsulting.in/category/blockchain),[Solana](https://astconsulting.in/category/blockchain/solana)\nBlockchain technology has rapidly emerged as a disruptive and revolutionary phenomenon in various sectors, providing unparalleled advantages in terms of transparency, security, and decentralized approaches.. However, the scalability and efficiency of blockchain networks have been persistent challenges. Solana, a high-performance blockchain platform, aims to address these challenges with its innovative data propagation solution, Turbine. In this article, we delve into the details of Turbine and explore how it revolutionizes blockchain data propagation.\n![Solana&#039;s Turbine: Revolutionizing Blockchain Data Propagation](https://astconsulting.in/wp-content/uploads/2023/07/Canva-designs-2023-07-12T154830.496.jpg)## Understanding Blockchain Data Propagation\nBlockchain data propagation refers to the process of transmitting data across the network of nodes that validate and maintain the blockchain. In traditional blockchain networks, this process faces several challenges and limitations. Firstly, the speed of data propagation is often slow, leading to network congestion and increased confirmation times. Secondly, as transaction volumes increase, traditional networks struggle to handle the increased load efficiently. These challenges hinder scalability and decentralization, essential aspects of blockchain technology.\n## Introducing Solana Blockchain\nSolana is a next-generation blockchain platform designed for scalability and performance. Unlike traditional blockchain networks, Solana employs a unique set of features and principles to enhance its capabilities. One of its core focuses is o"
+            },
+            {
+              "title": "Turbine — Solana’s Block Propagation Protocol Solves the Scalability Trilemma",
+              "url": "https://solana.com/news/turbine---solana-s-block-propagation-protocol-solves-the-scalability-trilemma",
+              "publishedDate": "2023-06-22T00:00:00.000Z",
+              "author": "Solana Foundation",
+              "text": "# Turbine — Solana’s Block Propagation Protocol Solves the Scalability Trilemma\n[]()[](https://www.facebook.com/sharer/sharer.php?u=)[](https://www.linkedin.com/sharing/share-offsite/?url=)[]()\n10 July 2019, bySolana Foundation\n### **Understand 1 of 8 key technologies that make**[**Solana**](https://solana.com/)**the most performant blockchain in the world**\n![](https://solana.com/_next/image?url=https%3A%2F%2Fassets.tina.io%2F265c7c91-c3d8-435c-9425-fb16c34796b3%2Fbuilder%2Fturbine---solana-s-block-propagation-protocol-solves-the-scalability-trilemma%2Fimage-1.jpg&amp;w=3840&amp;q=75)\n[Solana](https://solana.com/)is the most performant permissionless blockchain in the world. On current iterations of the Solana Testnet, a network of 200 physically distinct nodes supports a sustained throughput of more than 50,000 transactions per second when running with GPUs. Achieving this requires the implementation of several optimizations and new technologies, and the result is a breakthrough in network capacity that signals a new phase in blockchain development.\n### **There are 8 key innovations that make the Solana network possible:**\n* [**Proof of History (POH)**](https://solana.ghost.io/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274)— a clock before consensus;\n* [**Tower BFT**](https://medium.com/solana-labs/tower-bft-solanas-high-performance-implementation-of-pbft-464725911e79)— a PoH-optimized version of PBFT;\n* [**Turbine**](https://solana.ghost.io/solana-labs/turbine-solanas-block-propagation-protocol-solves-the-scalability-trilemma-2ddba46a51db)— a block propagation protocol;\n* [**Gulf Stream**](https://solana.ghost.io/solana-labs/gulf-stream-solanas-mempool-less-transaction-forwarding-protocol-d342e72186ad)— Mempool-less transaction forwarding protocol;\n* [**Sealevel**](https://solana.ghost.io/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)— Parallel smart contracts run-time;\n* [**Pipelining**](https://solana.com/pi"
+            },
+            {
+              "title": "Turbine: Solana's Revolutionary Block Propagation Protocol",
+              "url": "https://solanafloor.com/news/turbine-solanas-revolutionary-block-propagation-protocol",
+              "publishedDate": "2024-05-21T00:00:00.000Z",
+              "author": "",
+              "text": "Advertisement\n[![Banner hover text](https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2F7f2a969b-9c50-419b-abdd-5fc2bd20a247)](https://marinade.finance?utm_source=display&amp;utm_medium=cpm&amp;utm_campaign=solanafloor&amp;utm_content=header)\nLoading...\n[\n](https://solanafloor.com/)\n[en](#)🇺🇸English🇪🇸Español🇹🇷Türkçe🇩🇪Deutsch🇫🇷Français🇵🇹Português🇯🇵日本語🇨🇳简体中文🇮🇹Italiano🇷🇺Русский🇳🇱Nederlands\n[en](#)🇺🇸English🇪🇸Español🇹🇷Türkçe🇩🇪Deutsch🇫🇷Français🇵🇹Português🇯🇵日本語🇨🇳简体中文🇮🇹Italiano🇷🇺Русский🇳🇱Nederlands\n* [News](https://solanafloor.com/news)\n* [Solana](https://solanafloor.com/news/category/solana)\n* [Turbine: Solana&#x27;s Revolutionary Block Propagation Protocol](https://solanafloor.com/news/turbine-solanas-revolutionary-block-propagation-protocol)\n* [News](https://solanafloor.com/news)\n* [Illustrious](https://solanafloor.com/author/illustrious)\n* [Turbine: Solana&#x27;s Revolutionary Block Propagation Protocol](https://solanafloor.com/news/turbine-solanas-revolutionary-block-propagation-protocol)\n![](https://img.step.finance/unsafe/s-1500/plain/https%3A%2F%2Fsf-cms.step.finance%2Fassets%2Fc0054b85-e0b6-401d-a352-23d7afc2fa6d)\n[Solana](https://solanafloor.com/news/category/solana)\n# Turbine: Solana&#x27;s Revolutionary Block Propagation Protocol\nBlockchain technology has faced a longstanding challenge known as the scalability trilemma. This refers to the trade-off between decentralization, security, and scalability –three crucial elements that often hinder a blockchain from achieving all three simultaneously.\n[Illustrious](https://solanafloor.com/author/illustrious)\nCopy link\n* Published:\n* Edited:\nBlockchain technology has faced a longstanding challenge known as the scalability trilemma. This refers to the trade-off between decentralization, security, and scalability &#x2013; three crucial elements that often hinder a blockchain from achieving all three simultaneously. However, Solana&apos;s bloc"
+            },
+            {
+              "title": "Turbine Block Propagation",
+              "url": "https://docs.anza.xyz/consensus/turbine-block-propagation",
+              "author": null,
+              "text": "Turbine Block Propagation | Agave\n[Skip to main content](#__docusaurus_skipToContent_fallback)\nOn this page\n# Turbine Block Propagation\nA Solana cluster uses a multi-layer block propagation mechanism called*Turbine*to broadcast ledger entries to all nodes. The cluster divides itself into layers\nof nodes, and each node in a given layer is responsible for propagating any data\nit receives on to a small set of nodes in the next downstream layer. This way\neach node only has to communicate with a small number of nodes.\n## Layer Structure[​](#layer-structure)\nThe leader communicates with a special root node. The root can be thought of as\nlayer 0 and communicates with layer 1, which is made up of at most`DATA\\_PLANE\\_FANOUT`nodes. If the number of nodes in the cluster is greater than\nlayer 1, then the data plane fanout mechanism adds layers below. The number of\nnodes in each additional layer grows by a factor of`DATA\\_PLANE\\_FANOUT`.\nA good way to think about this is, layer 0 starts with a single node, layer 1\nstarts with fanout nodes, and layer 2 will have`fanout \\* number of nodes in\nlayer 1`and so on.\n### Layer Assignment - Weighted Selection[​](#layer-assignment----weighted-selection)\nIn order for data plane fanout to work, the entire cluster must agree on how the\ncluster is divided into layers. To achieve this, all the recognized validator\nnodes(the TVU peers)are shuffled with a stake weighting and stored in a\nlist. This list is then indexed in different ways to figure out layer boundaries\nand retransmit peers - referred to as the(turbine tree). For example, the\nlist is shuffled and leader selects the first node to be the root node, and the\nroot node selects the next`DATA\\_PLANE\\_FANOUT`nodes to make up layer 1. The\nshuffle is biased towards higher staked nodes, allowing heavier votes to come\nback to the leader first. Layer 2 and lower-layer nodes use the same logic to\nfind their next layer peers.\nTo reduce the possibility of attack vectors, the list is shuffled and in"
+            },
+            {
+              "title": "Turbine: Block Propagation on Solana",
+              "url": "https://www.helius.dev/blog/turbine-block-propagation-on-solana",
+              "publishedDate": "2023-10-24T00:00:00.000Z",
+              "author": null,
+              "text": "Turbine: Block Propagation on Solana\n![how turbine block propogation works](https://www.helius.dev/_next/image?url=%2Fapi%2Fmedia%2Ffile%2Fturbine-block-propagation-on-solana.jpg&amp;w=1920&amp;q=90)\nBlog/Fundamentals\n# Turbine: Block Propagation on Solana\n![Ryan Chern](https://www.helius.dev/_next/image?url=%2Fapi%2Fmedia%2Ffile%2Fryanchern-author-image.jpg&amp;w=96&amp;q=90)\nRyan Chern\n13min read\nOctober 24, 2023\n### Table of Contents\n## [What is this article about?](#what-is-this-article-about)\nData availability is crucial to blockchains. It ensures that all necessary information is readily accessible to nodes for validation purposes, which maintains the integrity and security of the network. However, ensuring data availability while maintaining a high level of performance is a significant challenge, especially as networks scale.\nSolana has risen to this challenge with a unique architectural design that facilitates continuous block creation and propagation. This is made possible through several key innovations such as leader selection, Gulf Stream (eliminates the need for a mempool), and Turbine (block propagation mechanism).\nThe continuous nature of Solana necessitates an efficient system to ensure that all validators receive the most updated state promptly. A simplistic approach would have the leader transmit all blocks directly to every other validator. Yet, given Solana’s high throughput, this method would significantly bloat bandwidth and other resource requirements while undermining decentralization.\nBandwidth is a scarce resource, and Turbine is Solana’s ingenious solution to optimize information propagation from the leader of a given block to the rest of the network.**Turbine was specifically designed to mitigate the stress of egress (sending data out) from the leader to the network**.\nIn this article, we’ll dive into how Turbine works as well as its pivotal role in Solana’s broader landscape of transaction inclusion. We’ll also compare Turbine to other d"
+            }
+          ],
+          "searchParams": {
+            "query": "how does solana turbine block propagation work",
+            "numResults": 10,
+            "includeText": true,
+            "maxCharacters": 2000
+          },
+          "executionTimeMs": 1106.1392500000075
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-05T19:48:17.972Z"
+    }
+  ],
+  "summary": {
+    "totalQuestions": 4,
+    "successfulEvaluations": 0,
+    "failedEvaluations": 4,
+    "averageScores": {}
+  }
+}
