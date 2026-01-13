@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "Lv7tMn3h",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Lv7tMn3h",
+    "query": "what are the most trending crypto consumer products and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "consumer"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 495
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "Short answer — here are the consumer crypto products that have been hottest recently, and why each is gaining traction.\n\n1) Mobile & Web3 wallets (custodial + non‑custodial)\n- What: Coinbase/Trust/MetaMask/Phantom-style apps, smart‑contract wallets, self‑custody UX (account abstraction, social recovery).\n- Why: wallets are the gateway to all crypto activity — improved UX, built‑in swaps, NFTs, cards and dApp access make them everyday apps. Growing downloads and active users across 2024–25 show retail revival.\n\n2) Crypto payment cards & in‑wallet spending\n- What: Visa/Mastercard crypto cards (Coinbase Card, MetaMask Card, Crypto.com card integrations).\n- Why: let consumers spend crypto or earn onchain rewards at normal merchants — lowers friction for real‑world use and normalizes crypto as a payment medium.\n\n3) Layer‑2 / “cheap gas” wallets & payment rails\n- What: zk‑rollup wallets, L2 bridges and gasless meta‑transaction products.\n- Why: massively lower transaction fees and faster confirmations make micro‑payments, games and consumer dApps feasible. Better UX (one‑click onboarding, fiat on‑ramps) drives adoption.\n\n4) NFT marketplaces & consumer NFT products\n- What: OpenSea/Blur-like marketplaces, PFP projects, music/collectible platforms, NFT utility integrations.\n- Why: digital ownership, social signaling and new creator monetization have kept NFTs as a mainstream consumer product (both speculation and utility use cases).\n\n5) Web3 social / creator platforms & social tokens\n- What: creator marketplaces, tokenized fan memberships, paid communities, onchain tipping and profile token products.\n- Why: creators can monetize directly; fans get tradable membership/royalties. The creator economy + transferable social value is a powerful pull.\n\n6) Web3 gaming / GameFi / play‑to‑earn experiences\n- What: blockchain games with onchain assets and marketplaces, virtual goods and interoperable items.\n- Why: players value true ownership and secondary markets; P2E reward mechanics and NFTs drive retention and spending when gas/UX barriers are low.\n\n7) Hardware wallets & consumer security tools\n- What: Ledger/Trezor, mobile hardware keys, easy‑onboarding multisig solutions.\n- Why: as retail holds more value onchain, security and offline keys are in demand. Simpler UX and integration with wallets reduced the barrier to using hardware.\n\n8) Tokenized real‑world assets & fractionalization apps\n- What: tokenized real estate, art, and alternative assets with fractional trading.\n- Why: broadens investment access and liquidity for traditionally illiquid consumer assets — attracts mainstream users looking for new investment types.\n\n9) Decentralized identity & username ecosystems\n- What: ENS, Lens and identity/profile layers that map a user to onchain identity and payments.\n- Why: makes sending/receiving crypto and building social presence simpler; powers better discovery and cross‑app identity.\n\n10) Consumer DeFi / savings & yield products (stablecoin apps)\n- What: apps that offer yield, savings, staking or programmable payments using stablecoins and simple interfaces.\n- Why: people chase higher yields and flexible savings options; stablecoins also enable everyday crypto payments without volatility.\n\nCross‑cutting reasons these products are trending\n- UX improvements (account abstraction, fiat rails, one‑click onboarding).\n- Lower transaction costs via L2s and better infrastructure.\n- Real‑world utility (cards, payments, commerce, creator monetization).\n- Financial incentives: yield, rewards, and speculative upside still attract retail.\n- Network effects and social signaling (PFPs, social tokens, gaming communities).\n- Regulation and institutional infrastructure (ETFs, custody) that lend legitimacy.\n- New tech combos — e.g., AI + onchain data — creating novel consumer uses.\n\nIf you want, I can:\n- Drill into adoption metrics or top projects in each category.\n- Provide region‑specific trends (US vs APAC vs LATAM).\n- Build a short competitor map for any single product type (wallets, cards, NFTs, etc.). Which would you like next?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 8348
+        }
+      }
+    ],
+    "finalAnswer": "Short answer — here are the consumer crypto products that have been hottest recently, and why each is gaining traction.\n\n1) Mobile & Web3 wallets (custodial + non‑custodial)\n- What: Coinbase/Trust/MetaMask/Phantom-style apps, smart‑contract wallets, self‑custody UX (account abstraction, social recovery).\n- Why: wallets are the gateway to all crypto activity — improved UX, built‑in swaps, NFTs, cards and dApp access make them everyday apps. Growing downloads and active users across 2024–25 show retail revival.\n\n2) Crypto payment cards & in‑wallet spending\n- What: Visa/Mastercard crypto cards (Coinbase Card, MetaMask Card, Crypto.com card integrations).\n- Why: let consumers spend crypto or earn onchain rewards at normal merchants — lowers friction for real‑world use and normalizes crypto as a payment medium.\n\n3) Layer‑2 / “cheap gas” wallets & payment rails\n- What: zk‑rollup wallets, L2 bridges and gasless meta‑transaction products.\n- Why: massively lower transaction fees and faster confirmations make micro‑payments, games and consumer dApps feasible. Better UX (one‑click onboarding, fiat on‑ramps) drives adoption.\n\n4) NFT marketplaces & consumer NFT products\n- What: OpenSea/Blur-like marketplaces, PFP projects, music/collectible platforms, NFT utility integrations.\n- Why: digital ownership, social signaling and new creator monetization have kept NFTs as a mainstream consumer product (both speculation and utility use cases).\n\n5) Web3 social / creator platforms & social tokens\n- What: creator marketplaces, tokenized fan memberships, paid communities, onchain tipping and profile token products.\n- Why: creators can monetize directly; fans get tradable membership/royalties. The creator economy + transferable social value is a powerful pull.\n\n6) Web3 gaming / GameFi / play‑to‑earn experiences\n- What: blockchain games with onchain assets and marketplaces, virtual goods and interoperable items.\n- Why: players value true ownership and secondary markets; P2E reward mechanics and NFTs drive retention and spending when gas/UX barriers are low.\n\n7) Hardware wallets & consumer security tools\n- What: Ledger/Trezor, mobile hardware keys, easy‑onboarding multisig solutions.\n- Why: as retail holds more value onchain, security and offline keys are in demand. Simpler UX and integration with wallets reduced the barrier to using hardware.\n\n8) Tokenized real‑world assets & fractionalization apps\n- What: tokenized real estate, art, and alternative assets with fractional trading.\n- Why: broadens investment access and liquidity for traditionally illiquid consumer assets — attracts mainstream users looking for new investment types.\n\n9) Decentralized identity & username ecosystems\n- What: ENS, Lens and identity/profile layers that map a user to onchain identity and payments.\n- Why: makes sending/receiving crypto and building social presence simpler; powers better discovery and cross‑app identity.\n\n10) Consumer DeFi / savings & yield products (stablecoin apps)\n- What: apps that offer yield, savings, staking or programmable payments using stablecoins and simple interfaces.\n- Why: people chase higher yields and flexible savings options; stablecoins also enable everyday crypto payments without volatility.\n\nCross‑cutting reasons these products are trending\n- UX improvements (account abstraction, fiat rails, one‑click onboarding).\n- Lower transaction costs via L2s and better infrastructure.\n- Real‑world utility (cards, payments, commerce, creator monetization).\n- Financial incentives: yield, rewards, and speculative upside still attract retail.\n- Network effects and social signaling (PFPs, social tokens, gaming communities).\n- Regulation and institutional infrastructure (ETFs, custody) that lend legitimacy.\n- New tech combos — e.g., AI + onchain data — creating novel consumer uses.\n\nIf you want, I can:\n- Drill into adoption metrics or top projects in each category.\n- Provide region‑specific trends (US vs APAC vs LATAM).\n- Build a short competitor map for any single product type (wallets, cards, NFTs, etc.). Which would you like next?",
+    "executionTimeMs": 39360,
+    "totalTokens": 8843,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "trending crypto consumer products 2026 wallets NFTs payment cards GameFi social tokens",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-12",
+          "includeDomains": [],
+          "maxCharacters": 1200
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "most popular crypto apps 2025 consumer adoption wallets exchanges mobile apps NFT marketplaces",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-12",
+          "includeDomains": [],
+          "maxCharacters": 1200
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto consumer products trends why are users adopting hardware wallets crypto debit cards web3 social apps 2025 2026",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-12",
+          "includeDomains": [],
+          "maxCharacters": 1200
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "Lv7tMn3h",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Lv7tMn3h",
+    "query": "what are the most trending crypto consumer products and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "consumer"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Trending Crypto Consumer Products and Narratives\n\nThe most trending crypto consumer products and narratives are centered on **Memecoins and NFTs**, the rapid growth of **Crypto Commerce (spending on physical goods)**, and the emergence of **Web3 Engagement Platforms** [^1][^2][^3].\n\n## 1. Memecoins and NFTs (Digital Consumer Products)\n\nMemecoins and Non-Fungible Tokens (NFTs) are considered consumer crypto's first product-market fit (PMF) [^2].\n\n### Key Trends and Drivers:\n*   **Market Revival and Volatility:** The memecoin market is showing signs of revival in early 2026, with some projects reaching high valuations [^1]. This resurgence is characterized by extreme volatility, as seen in the alleged \"rug pull\" of the $NYC memecoin launched by former NYC Mayor Eric Adams, which crashed 80% within hours [^1].\n*   **Sophisticated Trading Infrastructure:** The volatility and market patterns of memecoin trading are driving demand for more sophisticated infrastructure [^1]. Platforms like MemeMax_Fi have emerged to offer specialized trading features, including 50x leverage, perpetual contracts, and the ability to go long or short, aiming to bring structure to the market [^1].\n*   **NFTs and Merchandise:** NFT projects are achieving mainstream consumer success by focusing on physical products. For example, Pudgy Penguins secured a seven-day advertising slot on the Las Vegas Sphere by promoting its merchandise and entertainment, generating an estimated $10 million in toy sales in its first year (2023) [^4]. This strategy avoids direct promotion of crypto or tokens, which is often restricted by venues [^4].\n*   **Narrative-Driven Trading:** Memecoins like Pepe, Popcat, and MOG are topping charts, signaling a broad resurgence of interest in the sector [^5].\n\n## 2. Crypto Commerce and Payments (Real-World Spending)\n\nCrypto is increasingly being used as a functional commerce layer for everyday spending, driven primarily by stablecoins [^6][^3].\n\n### Key Trends and Drivers:\n*   **Shift to Habitual Spending:** Crypto shopping is evolving from experimental use to habitual consumer behavior [^7]. The UQUID Crypto Shopping Report 2025 showed a 58% repeat purchase rate, significantly higher than the 28–31% average for Web2 e-commerce [^7][^8]. The average time between purchases also decreased by over 25% across all user segments [^7][^8].\n*   **Physical Goods Surge:** Gross Merchandise Volume (GMV) for physical products surged by 283% in 2025, marking a major shift beyond digital goods [^9][^6][^3].\n*   **Top Spending Categories:** The top product categories driving this commerce include [^9][^6]:\n    *   **Technology & Gadgets** (e.g., AI devices, wearables)\n    *   **Fashion & Lifestyle** (e.g., sustainable apparel, streetwear)\n    *   **Health & Wellness** (e.g., beauty tech, home fitness gear)\n    *   **Home & Living** (e.g., smart devices)\n    *   **Toys & Gifts**\n*   **Stablecoin Dominance:** Stablecoins, particularly USDT, powered 92% of transactions, cementing their role as the primary spending currency, especially in emerging markets for inflation hedging and daily consumption [^10][^3].\n*   **Embedded Commerce:** Telegram mini-apps drove 40% of traffic for one major crypto shopping platform, highlighting the rise of embedded commerce outside traditional browsers [^10][^3].\n*   **Institutional Integration:** Major financial players are integrating crypto payments. Stripe partnered with Crypto.com to allow users to spend crypto directly at Stripe-powered merchants [^11]. Klarna launched its stablecoin, KlarnaUSD, and partnered with Privy to explore crypto wallet solutions, aiming to integrate crypto into the financial lives of everyday users [^12].\n\n## 3. Web3 Engagement and Reward Systems\n\nNew platforms are focusing on consumer engagement by rewarding users for content creation and participation.\n\n*   **Wallchain Quacks:** Wallchain is a social engagement platform where users earn \"Quacks\" as rewards for creating quality content and discussing crypto projects [^13]. This system encourages thoughtful content creation and genuine interaction, with users anticipating a future Token Generation Event (TGE) [^13].\n*   **Web3 Distribution Layers:** Power Protocol is expanding its Web3 distribution and engagement layer to support consumer applications by integrating reward, reputation, and competitive systems to improve engagement and retention [^14]. Its flagship title, Fableborne, attracted over 380,000 players during its public beta [^14].\n\n## Other Emerging Consumer Trends\n\n*   **AI Agents in Commerce:** Traditional retailers like Walmart and Google are integrating AI-driven shopping into the Gemini assistant, enabling direct purchasing within the AI model. This strategic shift toward \"agentic commerce\" aims to streamline the consumer journey from discovery to delivery [^15].\n*   **Privacy Coins:** Privacy-focused cryptocurrencies like Monero (XMR) and Zcash (ZEC) are seeing a surge in demand, driven by increasing concerns over financial privacy and surveillance [^16][^17].\n*   **Event Contracts:** The CFTC has issued no-action relief to allow exchanges like Bitnomial to offer event contracts, which are binary and bounded swaps referencing digital assets and financial outcomes [^18]. This expands the range of consumer-facing financial products in the crypto space.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

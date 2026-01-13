@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "Dw4kSv6j",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Dw4kSv6j",
+    "query": "Compare the top trends, narratives, and 'metas' in crypto - Analyze the TAM, sustainability, and moat-like characteristics of the narrative. Which trends have the most investiability (liquid and private market)?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 867
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 4520
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11153
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 18223
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 24579
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "Below is a concise, comparative framework of the leading crypto “trends / narratives / metas” today, plus a practical assessment of TAM, sustainability (risk profile & runway), “moat-like” defensibility, and where the best investability sits (public / liquid tokens vs. private / venture opportunities). I use market signals from 2024–25 (TVL, institutional flows, RWA issuance, protocol adoption) to give order-of-magnitude context; if you want, I can attach direct data links for any trend.\n\nTop crypto trends (ranked, with analysis)\n\n1) Layer‑2 scaling (rollups: Arbitrum / Optimism / Base + zk‑rollups / zkEVMs)\n- TAM: Very large — L2 TVL reached tens of billions (Ethereum L2s collectively ~$40–50B+ in fast growth periods). Addressable market = essentially all on‑chain application activity and settlement cost reduction; long runway as on‑chain activity expands.\n- Sustainability: High technical utility (clear near‑term demand for cheaper transactions); regulatory risk limited (inherits Ethereum security); competition intense (optimistic vs zk; DA/DA providers).\n- Moat: Strong for winners with developer ecosystems, user liquidity, DA choice and low fees. Network effects (apps ↔ users ↔ liquidity) matter; data‑availability & sequencer economics form additional moats.\n- Investability: Excellent in both public and private markets. Public: tokens (ARB, OP, Base‑related tokens, some zk projects) are liquid. Private: tooling, infra (sequencers, data‑availability services, MEV protection) have many VC rounds and late‑stage opportunities.\n\n2) Liquid staking & restaking (LSTs, LSDs, restaking platforms like EigenLayer / liquid staking services like Lido)\n- TAM: Material — liquid staking TVL measured in tens of billions (Lido ~ $20–30B range historically); restaking attracted multi‑billion interest quickly.\n- Sustainability: Liquid staking is sustainable as PoS networks persist; restaking is powerful capital efficiency but adds complex systemic risk vectors (slashing dependencies, correlated exposures).\n- Moat: Protocol integrations (stETH integrations across DeFi), custody & validator operator credibility, and security audits provide moats. Restaking moats hinge on trust, capital‑efficiency economics, and operator set.\n- Investability: Very investable. Public: Lido (token LDO) and derivative tokens, good liquidity. Private: validator infra, custody vendors, LSD composability tools, restaking startups — active venture market.\n\n3) Real‑World Asset tokenization (RWAs: tokenized treasuries, funds, private credit, real estate)\n- TAM: Enormous theoretical TAM (traditional financial assets >>$100T). On‑chain RWA market scaled from billions to multiple tens of billions in 2024–25 (tokenized treasuries / funds, fiat‑backed stablecoins saw major growth).\n- Sustainability: High long‑term potential but regulatory / operational complexity dominates (KYC, custody, legal wrappers, redemption mechanics). Adoption by regulated institutions improves sustainability.\n- Moat: Firms that solve legal/compliance, custody, redemption, custodial banking rails, and distribution to institutional clients will have the strongest moats. Protocol moats weaker than incumbents with regulatory relationships.\n- Investability: Strong in private markets (institutional product builders, custody, compliance, tokenization platforms). Public token investability is growing (tokenized treasuries, gov‑bond backed tokens, some stablecoins) but liquidity and secondary markets vary.\n\n4) Zero‑knowledge cryptography (zk proofs, zkEVMs, privacy zk apps)\n- TAM: Large for scaling and privacy use cases (L2 market, privacy-preserving data validation, confidential computation). zk tech underpins next wave of scalable, private dApps.\n- Sustainability: High technical defensibility; wide developer adoption required to realize TAM. Complexity slows productization; high research moat.\n- Moat: Strong technical moat for teams with cryptography expertise and production deployments; integration with developer tooling and infra matters.\n- Investability: Best via private rounds (protocols, prover infra, tooling); some public tokens exist but many projects are early/venture‑funded.\n\n5) Oracles & middleware (Chainlink, decentralized price feeds, verifiable data)\n- TAM: Necessary infra across DeFi, RWA, derivatives — high recurring revenue potential. Oracles remain essential for composability.\n- Sustainability: Durable demand; regulatory risk low relative to consumer apps. Centralized alternatives exist but decentralization is valuable in finance.\n- Moat: Network effect (data providers, node operators, integrations) creates high moat for incumbents like Chainlink‑style providers.\n- Investability: Good public token routes (e.g., Chainlink historically liquid). Private: specialized oracle services, attestation, indexation, and RWA data tooling are VC‑active.\n\n6) DeFi primitives & trading infra (AMMs, perps, on‑chain derivatives, MEV mitigation)\n- TAM: Large within crypto trading and capital markets; perps and margin markets attract high fees and volume.\n- Sustainability: Durable but cyclical and competitive. Regulatory scrutiny on derivatives and margin can increase.\n- Moat: Liquidity, UX, collateral integrations, and risk‑management teams form moats. Protocol revenue models matter.\n- Investability: Public tokens often liquid (DEX tokens, margin/exchange tokens); private: trading infra, custody, risk analytics, and compliance remain attractive.\n\n7) MEV, private mempools, block‑building & sequencer economics\n- TAM: Niche but high value (captures a slice of network fees and arbitrage). Important as on‑chain value grows.\n- Sustainability: Useful economics, but sometimes adversarial (regulatory scrutiny, market fairness concerns). Technical complexity high.\n- Moat: Proprietary execution tech, relationships with validators/relayers, front‑end integration create moats.\n- Investability: Mostly private / specialized trading firms and infra startups; some public tokens linked to MEV solutions exist but liquidity limited.\n\n8) Interoperability & bridges (IBC, cross‑chain messaging, wrapping)\n- TAM: Significant — cross‑chain liquidity and messaging are key for multi‑chain UX and composability.\n- Sustainability: Historically high hack risk (bridges have been attacked); DA and security models improving (IBC, authenticated messaging).\n- Moat: Security, audits, diversified validators, and strong partnerships form moats. Bridges without unique security posture struggle.\n- Investability: Selective — private opportunities in highly secure bridging solutions and IBC infrastructure; public tokens exist but are riskier.\n\n9) NFTs, gaming, social tokens & on‑chain identity\n- TAM: Consumer TAM is large but monetization historically uneven. Gaming and tokenized ownership show promise if retention/utility improves.\n- Sustainability: Mixed — hits-driven, depends on UX, distribution, IP partnerships, and off‑chain adoption. Many consumer cycles.\n- Moat: IP, community, gameplay, and cross‑platform composability are moats; platform rollups for games may form technical moats.\n- Investability: Good private VC opportunities (studios, middleware, live game ops); public token liquidity is often volatile and speculative.\n\n10) Privacy & regulatory compliance tech (privacy layers, regulated on‑chain privacy)\n- TAM: Important for certain users and use cases (payments, enterprise). Regulatory tension is the main limiter.\n- Sustainability: High technical value but regulatory headwinds can limit mainstream adoption (especially in regulated finance and fiat rails).\n- Moat: Strong crypto/privacy research teams and “compliance‑friendly” privacy designs are differentiated.\n- Investability: Better through private R&D and enterprise privacy solutions than public tokens due to regulatory sensitivity.\n\nWhich trends offer the most investability (liquid public market vs private market)?\n\n- Best for liquid public investing (tokens with good secondary markets):\n  1. L2 rollups (ARB, OP, Base ecosystem tokens)\n  2. Large oracles / middleware tokens (Chainlink)\n  3. Liquid staking / Lido (LDO and staked token derivatives)\n  4. Major DeFi & DEX tokens (where volume & revenue exist)\n\n- Best for private / venture investing (deal flow, equity, large upside if adopted):\n  1. RWA infrastructure: tokenization platforms, custodian banks, legal‑wrapper tooling\n  2. zk prover infrastructure, tooling, and specialized L2 startups\n  3. Sequencer, DA, and data availability infrastructure for scaling\n  4. Custody, compliance, custody‑bank rails connecting fiat ↔ crypto for institutional flows\n  5. Game studios and middleware for web3 gaming (studio equity is typical)\n\n- “Both” (liquid tokens plus active private markets):\n  - Liquid staking ecosystem (large public tokens and many private validator / staking infra deals)\n  - Some L2 ecosystems (token + many startups building on top)\n  - Oracles & indexers (public tokens + enterprise partnerships and private tooling)\n\nRisks & sustainability caveats (what to watch)\n- Regulatory: Stablecoins, RWA interfaces with securities/AML/KYC, privacy tech, and centralized intermediaries face evolving regulation.\n- Concentration: Lido / major staking providers or large sequencers create centralization risk — regulators or protocol governance could act.\n- Security: Bridges, L2 OP models, and new primitives (restaking) have complex failure modes; systemic events can cascade.\n- Economics: Some narratives (restaking, meme layers) may rely on yield stacking that compresses over time as supply/demand equilibrates.\n\nPractical portfolio posture (high level)\n- Core infra (L2, oracles, liquid staking) = higher weighting for public liquid exposure and private VC allocations.\n- Institutional & compliance (RWA, custody, tokenized treasuries) = heavier on private VC / growth equity; optional public exposure through tokenized products.\n- Higher risk / alpha (zk primitives, restaking, MEV, gaming) = smaller, research‑intensive positions, often in early‑stage or selective token plays.\n\nNext steps I can do for you (pick one):\n- Deep dive into 3–5 specific trends you care about (show key protocols, metrics: TVL, fees, developer growth, security incidents).\n- Produce a “public token watchlist” and liquidity metrics for L2s, oracles, staking tokens.\n- Build an investability checklist (technical, legal, go‑to‑market, tokenomics) you can use for diligence.\n\nWhich of the trends above do you want me to expand on (or do you want the accompanying data sources / recent TVL & market figures)?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 33782
+        }
+      }
+    ],
+    "finalAnswer": "Below is a concise, comparative framework of the leading crypto “trends / narratives / metas” today, plus a practical assessment of TAM, sustainability (risk profile & runway), “moat-like” defensibility, and where the best investability sits (public / liquid tokens vs. private / venture opportunities). I use market signals from 2024–25 (TVL, institutional flows, RWA issuance, protocol adoption) to give order-of-magnitude context; if you want, I can attach direct data links for any trend.\n\nTop crypto trends (ranked, with analysis)\n\n1) Layer‑2 scaling (rollups: Arbitrum / Optimism / Base + zk‑rollups / zkEVMs)\n- TAM: Very large — L2 TVL reached tens of billions (Ethereum L2s collectively ~$40–50B+ in fast growth periods). Addressable market = essentially all on‑chain application activity and settlement cost reduction; long runway as on‑chain activity expands.\n- Sustainability: High technical utility (clear near‑term demand for cheaper transactions); regulatory risk limited (inherits Ethereum security); competition intense (optimistic vs zk; DA/DA providers).\n- Moat: Strong for winners with developer ecosystems, user liquidity, DA choice and low fees. Network effects (apps ↔ users ↔ liquidity) matter; data‑availability & sequencer economics form additional moats.\n- Investability: Excellent in both public and private markets. Public: tokens (ARB, OP, Base‑related tokens, some zk projects) are liquid. Private: tooling, infra (sequencers, data‑availability services, MEV protection) have many VC rounds and late‑stage opportunities.\n\n2) Liquid staking & restaking (LSTs, LSDs, restaking platforms like EigenLayer / liquid staking services like Lido)\n- TAM: Material — liquid staking TVL measured in tens of billions (Lido ~ $20–30B range historically); restaking attracted multi‑billion interest quickly.\n- Sustainability: Liquid staking is sustainable as PoS networks persist; restaking is powerful capital efficiency but adds complex systemic risk vectors (slashing dependencies, correlated exposures).\n- Moat: Protocol integrations (stETH integrations across DeFi), custody & validator operator credibility, and security audits provide moats. Restaking moats hinge on trust, capital‑efficiency economics, and operator set.\n- Investability: Very investable. Public: Lido (token LDO) and derivative tokens, good liquidity. Private: validator infra, custody vendors, LSD composability tools, restaking startups — active venture market.\n\n3) Real‑World Asset tokenization (RWAs: tokenized treasuries, funds, private credit, real estate)\n- TAM: Enormous theoretical TAM (traditional financial assets >>$100T). On‑chain RWA market scaled from billions to multiple tens of billions in 2024–25 (tokenized treasuries / funds, fiat‑backed stablecoins saw major growth).\n- Sustainability: High long‑term potential but regulatory / operational complexity dominates (KYC, custody, legal wrappers, redemption mechanics). Adoption by regulated institutions improves sustainability.\n- Moat: Firms that solve legal/compliance, custody, redemption, custodial banking rails, and distribution to institutional clients will have the strongest moats. Protocol moats weaker than incumbents with regulatory relationships.\n- Investability: Strong in private markets (institutional product builders, custody, compliance, tokenization platforms). Public token investability is growing (tokenized treasuries, gov‑bond backed tokens, some stablecoins) but liquidity and secondary markets vary.\n\n4) Zero‑knowledge cryptography (zk proofs, zkEVMs, privacy zk apps)\n- TAM: Large for scaling and privacy use cases (L2 market, privacy-preserving data validation, confidential computation). zk tech underpins next wave of scalable, private dApps.\n- Sustainability: High technical defensibility; wide developer adoption required to realize TAM. Complexity slows productization; high research moat.\n- Moat: Strong technical moat for teams with cryptography expertise and production deployments; integration with developer tooling and infra matters.\n- Investability: Best via private rounds (protocols, prover infra, tooling); some public tokens exist but many projects are early/venture‑funded.\n\n5) Oracles & middleware (Chainlink, decentralized price feeds, verifiable data)\n- TAM: Necessary infra across DeFi, RWA, derivatives — high recurring revenue potential. Oracles remain essential for composability.\n- Sustainability: Durable demand; regulatory risk low relative to consumer apps. Centralized alternatives exist but decentralization is valuable in finance.\n- Moat: Network effect (data providers, node operators, integrations) creates high moat for incumbents like Chainlink‑style providers.\n- Investability: Good public token routes (e.g., Chainlink historically liquid). Private: specialized oracle services, attestation, indexation, and RWA data tooling are VC‑active.\n\n6) DeFi primitives & trading infra (AMMs, perps, on‑chain derivatives, MEV mitigation)\n- TAM: Large within crypto trading and capital markets; perps and margin markets attract high fees and volume.\n- Sustainability: Durable but cyclical and competitive. Regulatory scrutiny on derivatives and margin can increase.\n- Moat: Liquidity, UX, collateral integrations, and risk‑management teams form moats. Protocol revenue models matter.\n- Investability: Public tokens often liquid (DEX tokens, margin/exchange tokens); private: trading infra, custody, risk analytics, and compliance remain attractive.\n\n7) MEV, private mempools, block‑building & sequencer economics\n- TAM: Niche but high value (captures a slice of network fees and arbitrage). Important as on‑chain value grows.\n- Sustainability: Useful economics, but sometimes adversarial (regulatory scrutiny, market fairness concerns). Technical complexity high.\n- Moat: Proprietary execution tech, relationships with validators/relayers, front‑end integration create moats.\n- Investability: Mostly private / specialized trading firms and infra startups; some public tokens linked to MEV solutions exist but liquidity limited.\n\n8) Interoperability & bridges (IBC, cross‑chain messaging, wrapping)\n- TAM: Significant — cross‑chain liquidity and messaging are key for multi‑chain UX and composability.\n- Sustainability: Historically high hack risk (bridges have been attacked); DA and security models improving (IBC, authenticated messaging).\n- Moat: Security, audits, diversified validators, and strong partnerships form moats. Bridges without unique security posture struggle.\n- Investability: Selective — private opportunities in highly secure bridging solutions and IBC infrastructure; public tokens exist but are riskier.\n\n9) NFTs, gaming, social tokens & on‑chain identity\n- TAM: Consumer TAM is large but monetization historically uneven. Gaming and tokenized ownership show promise if retention/utility improves.\n- Sustainability: Mixed — hits-driven, depends on UX, distribution, IP partnerships, and off‑chain adoption. Many consumer cycles.\n- Moat: IP, community, gameplay, and cross‑platform composability are moats; platform rollups for games may form technical moats.\n- Investability: Good private VC opportunities (studios, middleware, live game ops); public token liquidity is often volatile and speculative.\n\n10) Privacy & regulatory compliance tech (privacy layers, regulated on‑chain privacy)\n- TAM: Important for certain users and use cases (payments, enterprise). Regulatory tension is the main limiter.\n- Sustainability: High technical value but regulatory headwinds can limit mainstream adoption (especially in regulated finance and fiat rails).\n- Moat: Strong crypto/privacy research teams and “compliance‑friendly” privacy designs are differentiated.\n- Investability: Better through private R&D and enterprise privacy solutions than public tokens due to regulatory sensitivity.\n\nWhich trends offer the most investability (liquid public market vs private market)?\n\n- Best for liquid public investing (tokens with good secondary markets):\n  1. L2 rollups (ARB, OP, Base ecosystem tokens)\n  2. Large oracles / middleware tokens (Chainlink)\n  3. Liquid staking / Lido (LDO and staked token derivatives)\n  4. Major DeFi & DEX tokens (where volume & revenue exist)\n\n- Best for private / venture investing (deal flow, equity, large upside if adopted):\n  1. RWA infrastructure: tokenization platforms, custodian banks, legal‑wrapper tooling\n  2. zk prover infrastructure, tooling, and specialized L2 startups\n  3. Sequencer, DA, and data availability infrastructure for scaling\n  4. Custody, compliance, custody‑bank rails connecting fiat ↔ crypto for institutional flows\n  5. Game studios and middleware for web3 gaming (studio equity is typical)\n\n- “Both” (liquid tokens plus active private markets):\n  - Liquid staking ecosystem (large public tokens and many private validator / staking infra deals)\n  - Some L2 ecosystems (token + many startups building on top)\n  - Oracles & indexers (public tokens + enterprise partnerships and private tooling)\n\nRisks & sustainability caveats (what to watch)\n- Regulatory: Stablecoins, RWA interfaces with securities/AML/KYC, privacy tech, and centralized intermediaries face evolving regulation.\n- Concentration: Lido / major staking providers or large sequencers create centralization risk — regulators or protocol governance could act.\n- Security: Bridges, L2 OP models, and new primitives (restaking) have complex failure modes; systemic events can cascade.\n- Economics: Some narratives (restaking, meme layers) may rely on yield stacking that compresses over time as supply/demand equilibrates.\n\nPractical portfolio posture (high level)\n- Core infra (L2, oracles, liquid staking) = higher weighting for public liquid exposure and private VC allocations.\n- Institutional & compliance (RWA, custody, tokenized treasuries) = heavier on private VC / growth equity; optional public exposure through tokenized products.\n- Higher risk / alpha (zk primitives, restaking, MEV, gaming) = smaller, research‑intensive positions, often in early‑stage or selective token plays.\n\nNext steps I can do for you (pick one):\n- Deep dive into 3–5 specific trends you care about (show key protocols, metrics: TVL, fees, developer growth, security incidents).\n- Produce a “public token watchlist” and liquidity metrics for L2s, oracles, staking tokens.\n- Build an investability checklist (technical, legal, go‑to‑market, tokenomics) you can use for diligence.\n\nWhich of the trends above do you want me to expand on (or do you want the accompanying data sources / recent TVL & market figures)?",
+    "executionTimeMs": 64922,
+    "totalTokens": 93124,
+    "stepCount": 6,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto trends 2025 zk rollups layer 2 market size TVL 2024 zkEVM market size",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "EigenLayer restaking adoption 2024 2025 market size EigenLayer TVL restaking tokens",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Layer 2 TVL Arbitrum Optimism zk-rollup TVL 2024 2025 TVL by chain 2024 Arbitrum TVL 2025",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "liquid staking market size Lido TVL 2024 2025 Lido TVL 2024 TVL Lido 2025 market share liquid staking tokens TVL",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "real world asset tokenization crypto market size RWA 2024 2025 On-chain RWA market size Aave RWA Centrifuge 2024 2025 TVL",
+          "numResults": 10,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

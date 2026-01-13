@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, here's what I can tell you about assets being discussed on Twitter:\n\n## TL;DR\n\nThe data shows **Bitcoin (BTC)**, **Litecoin (LTC)**, and **Dogecoin (DOGE)** are currently trending in crypto discussions, but Twitter search results were limited due to technical constraints. Social sentiment data from alternative sources reveals these three assets are generating significant conversation.\n\n## Trending Crypto Assets on Social Media\n\n| Rank | Asset | Symbol | Primary Discussion Topics |\n|------|-------|--------|---------------------------|\n| 1 | Litecoin | LTC | Market performance, utility, trading activity, and whether it's functionally obsolete vs undervalued |\n| 2 | Bitcoin | BTC | Price stagnation ($89K-94K range), institutional accumulation, and payment method discussions |\n| 3 | Dogecoin | DOGE | Recent price movements, potential 50% crash predictions, and merge-mining relationship with Litecoin |\n\n## Key Discussion Themes\n\n### Litecoin (LTC)\n- **Bullish arguments**: Viewed as undervalued with strong fundamentals and all-time high usage metrics\n- **Bearish arguments**: Considered functionally obsolete with minimal development and lack of compelling narrative\n- Discussion spans Reddit, Telegram, and Twitter platforms\n\n### Bitcoin (BTC) \n- **Range-bound trading** between $89,000-$94,000 generating frustration among traders\n- **Institutional accumulation** continues with notable purchases like Michael Saylor's company buying 13,600 BTC (~$1.25B)\n- Mentioned alongside USDT, ETH, and TRX in payment method contexts\n\n### Dogecoin (DOGE)\n- **Sharp price decline** of approximately 90 satoshis over two weeks\n- **Crash predictions** warning of potential 50% drop to two-year lows\n- **Merge-mining synergy** with Litecoin providing network security benefits\n\n## Limitations & Data Gaps\n\nThe Twitter API searches returned limited results due to:\n- Technical search query errors\n- Low engagement thresholds filtering out most content\n- Possible API restrictions or rate limiting\n\n## Recommendation\n\n**For deeper Twitter sentiment analysis**, use Deep Research mode to:\n- Access real-time Twitter trending data with proper engagement metrics\n- Analyze specific influencer discussions and sentiment patterns\n- Get comprehensive social media coverage across multiple platforms\n\n**Next step**: Start a new conversation and select **Deep Research** mode for comprehensive Twitter sentiment analysis.\n\n*Note: Current data is sourced from social sentiment platforms rather than direct Twitter API results due to technical constraints.*",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "WcY3oXz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcY3oXz8",
+    "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+    "level": 2,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nAave, Uniswap, Pendle, Kamino, and Morpho are leading the current DeFi narrative shift, with Aave and Pendle gaining the most mindshare due to innovation in lending, RWA integration, and yield tokenization. The focus is shifting toward protocol sustainability, modularity, and real-world asset (RWA) adoption, with Solana-based protocols like Kamino and Avici also capturing attention for their rapid growth and new liquidity models.  \n───\n\nNarrative Leaders & Mindshare Gainers\n\nAave remains the dominant force in DeFi lending, now controlling over half of all DeFi lending TVL for the first time since 2020, a clear sign of its \"gravity well\" status in the sector. The upcoming Aave v4 upgrade is a major narrative driver, promising innovations in risk management and the introduction of more dynamic, pooled, and isolated collateral markets. Its Horizon RWA Market has already surpassed $600M in deposits, highlighting the protocol's successful push into real-world assets and institutional DeFi adoption. The protocol's ability to evolve and integrate new features while maintaining security has kept it at the center of DeFi discussions (DefiLlama, Telegram).\n\nUniswap is regaining mindshare (+28% daily) as the leading DEX, with renewed focus on governance, cross-chain expansion, and fee structure debates. Its consistent presence in the top mindshare tokens reflects its foundational role in DeFi trading infrastructure and the ongoing importance of DEX liquidity (Uniswap).\n\nPendle stands out for its role in the yield tokenization narrative, enabling users to trade future yield and making DeFi yields more accessible and composable. Pendle’s mindshare has surged (+34% daily), propelled by its integration with restaking and liquid staking protocols, and its ability to attract both DeFi-native and institutional participants (Pendle).\n\nKamino and Avici (both on Solana) are rapidly gaining traction, especially among retail and DeFi-native users. Kamino's modular liquidity and lending infrastructure, combined with its aggressive expansion and point-farming incentives, have driven a 167% jump in mindshare. Avici, while more volatile, is part of the \"Neo Finance\" movement, which emphasizes seamless, consumer-facing DeFi products and yield-bearing stablecoins (Kamino, Avici).\n\nMorpho continues to be mentioned as an innovative lending protocol, though less is available on its recent performance compared to the above leaders.\n\nWhy These Protocols Are Gaining Mindshare\n\n- Protocol Upgrades & Innovation: Major upgrades (Aave v4, Lido v3, Uniswap governance) are fueling discussions about sustainability, risk management, and composability (DLNews).\n- RWA & Yield Tokenization: Integration of real-world assets and new yield primitives (Pendle, Aave’s RWA market) are expanding DeFi’s appeal to institutions and mainstream users (Tweet).\n- Solana DeFi Momentum: Kamino and Avici exemplify Solana’s resurgence, with high throughput and user-friendly products attracting both new and seasoned DeFi users.\n- Consumer DeFi & Modularity: The biggest 2026 narrative is \"consumer-DeFi\"—products that abstract away blockchain complexity, letting users bank and save on-chain without technical barriers (Tweet).\n- Sustainability & Incentive Redesign: Protocols are rethinking incentives and liquidity mining (e.g., Katana Flywheel) to ensure long-term sustainability over unsustainable yield farming (Katana).\n\nBroader DeFi Narrative Trends\n\n- DeFi is no longer just about decentralization—teams are prioritizing execution, product-market fit, and sustainable economics.\n- RWA and DeFi are converging, with protocols like Aave, Pendle, and PinLinkAi blending on-chain transparency with off-chain financial products (Tweet).\n- Yield-bearing stablecoins and unified liquidity layers (e.g., ORBT, Kamino) are becoming central to the \"Neo Finance\" movement (Telegram).\n- US regulatory clarity is a major overhang, with the Senate crypto bill expected to catalyze the next market move (Coindesk).\n\nConclusion\n\nAave, Uniswap, Pendle, Kamino, and Avici are currently leading the DeFi narrative shift, driven by innovation in lending, RWA, yield tokenization, and modular liquidity. The sector is evolving toward sustainability, institutional adoption, and seamless user experiences, with Solana-based protocols and yield-focused products gaining particular traction. The next major catalyst will be the outcome of US regulatory developments.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

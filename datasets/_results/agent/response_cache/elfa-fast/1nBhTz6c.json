@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe top 3 memecoin plays on Solana are Pudgy Penguins ($PENGU), Fartcoin ($FARTCOIN), and Bonk ($BONK), based on Elfa AI's current meme token leaderboard by mindshare, with $PENGU leading at 15.92% (up 16.57%) and strong bullish sentiment.\n\n───\n\nLeaderboard Analysis\nElfa AI's meme token leaderboard (1d timeframe) ranks Solana memecoins by mindshare and call activity. The top Solana entries show high engagement from social mentions and smart accounts:\n\n- 1. Pudgy Penguins ($PENGU): Contract 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv, price $0.01256. Leads with 15.92% mindshare (+16.57%), 133 total mentions (12 smart), 56 bullish. 5 long calls (1 smart).\n- 2. Fartcoin ($FARTCOIN): Contract 9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump, price $0.39956. 12.51% mindshare (+21.47%), 104 mentions (15 smart), 51 bullish. Strongest call growth with 8 long calls (4 smart, +60%).\n- 3. Bonk ($BONK): Contract DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263, price $0.00000993. 5.72% mindshare (-32.47%), recently highlighted in Solana meme rebound discussions with +58.7% price gain.\n\nThese stand out due to mindshare dominance, smart account interest, and bullish sentiment. Recent tweets confirm Solana meme sector momentum, including BONK's rebound (CoinMarketCap).\n\nOther Mentions\nTokens like $TROLL (3.41% mindshare, +62.65%) and $BUTTCOIN show activity but rank lower. Trending discussions note high Solana meme volume (~24k new coins/day), though competition is fierce.\n\nMindshare reflects current hype; monitor for call hit rates and price action, as memes are volatile.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

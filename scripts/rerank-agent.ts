@@ -4,7 +4,7 @@ import { config } from 'dotenv';
 import { readFile, writeFile } from 'fs/promises';
 import { basename } from 'path';
 import { modelMap } from '../lib/agents/agentFactory/models.js';
-import { rerankEvaluationResults } from '../lib/evaluation/agent/rerankAgentResults.js';
+import { rerankEvaluationResults } from '../lib/evaluation/agent/rerankAgentResultsV1.js';
 import type { EvaluationRunResult } from '../lib/evaluation/agent/types.js';
 
 config({ path: '.env.local' });

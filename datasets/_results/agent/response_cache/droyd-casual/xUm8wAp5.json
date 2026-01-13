@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "xUm8wAp5",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "xUm8wAp5",
+    "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"1JxtJQqeAIb0HJis\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare the top 10 projects by revenue on Solana over the past 30 days and provide growth trends.\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EssGCsgGAXLI2nx8qri2ILFAmE/uAAh2GhnTvnMWDubBLfnBZUTQjVs2DrAH429yrUUWP7dznrjpx6+M2DQqZJ5fuWhUMwq6WjWKLCsOWmXeaKqpBgz/ORfk5g2hjyhJUoidgh0PXOj8Dj9OZQYclkUXmjSUcnwHQeMj92nGKUkdFyWDnQSzupsh30joKHmivjJQKe+TMf+KO19GxFqR7Bsb5ikDSFyTnK99itKf2USymT3ZFwYBUSO5t8Ania4bfflcMLGq1xGmn4NsqyXwxOtkiXv/gkUmgNIEx2Vjv6Ec1dt8P7uPq+xBftue9nn3tvyz7hbUo+1Kd2dZMqoNXjI5JSepOpzFN8YiPL1nBrzx7o+ALvaI4ZUDTsKQHV5mper2POzW3XKSZJ3MNYvbFw5MQVWbhY3YbEsMcceREu5lFv6AO6jflW6G3DSs1LLNPKlBFLJxZR7k0dJ/KsgZQzGA5QDt+6b1zQt1cesyU392ZwP1zcdniWD7C02gsH6ooC8YJXMXSXSmNTa7QETKpivblgKDcVGHwFHMPBAftOxAq9y+xD8lxS+oYykHLfGukW1iuwBlaekdy6pemSri2YsoPQGCBFIu6eBVR/yPzEYuXpUuKB3/8BADqN1KzqyRxdvU8WdRnPjvprCiOmzjnSHuac57F7Ic2OA90FOFz6mhJZdHhH/X2kNSvLOzfkFUyG8mj9IoncPHSRhnyI62Engzo0GxBTepgFHq2Rm+1ow3MCylxxJK30PuRYk8lczrnD6OJ6W/OTL03WDKXkBzz243S4T69+TpNHCQtW6gwGr1B7e0NYtboT+GFh8ghWv6tTKBCi6cMEXydumZTQcddUFaWph5wWn6iR4jcuZgendfQsb/qNTPoduYaJYVNZoyGTI4qXsEO7hbI9n0VCRlwka5HgcarbWV4a/jV2MjNFVmqydE9OL72l5Qk0hiDwOW94F8g+S6VFa2muswmvOManO4+Z/6E5VaTN+ybIRavSuFpgGVOoWGRoy3nSZRbXrD5cNQbMGWo+LTq+vuW7PfXA4nJnNLQoVvPE4M3X4WW0B4XnBQQL5HfyWgRMOcMfOruj7DoFBOvgBptMkc1CEjnfLbCpcJUX3Pp2+f6Hck\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"TfMhGlephmAi1fII\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"project_ids\": [\n        13803,\n        13778,\n        13801,\n        11847,\n        13723\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Eu8FCuwFAXLI2nws6fO+7QkGplpmVPuDoU9lxs13hmMx8rtS5igNpT7DjYr3MT03e4aIoc8wV9MLv3Vq8vK02d6VtmzpbIuEc6dlBBOMasgxbt7Aeyk4mtg5xgtmE9feY667vLhCdQ57GmDbe7WtXdqg/wVCNDT2q6CaWwoXlrUdGB0O49rlEIwMBW+Mb1hL0wMHjr3/jWVv9M8p7dSUuhpfmK7C9ZO4tfa99EI3AOzVASUULt1oF+i+ehPXNRwU46VQ2Dj4BNj4toOK6j2UFt0SMB7VlVmAjpbpKZoYBDl4blx9o9RDSVIjUEPISr4Vefv8jZDZi+NpL+NSX34gP76sP6pvsL2cEbvI8OJdPgWMWXP6fRblxSXcpMs0XwtWBigw+6dCzBfcwKZvjl74saI8usgv9H6LsPcG6Roy++XLj8AYJnEnVc5ZMsZBwNk/sJQrgEfDh9EwJINlwQNurwiBX++tfvEeny3T0+LR5ZbjdR+Q+uJEedm1vrbB+x9bmVUXfbGktt3Jfp+7h7XzF/uwjFCHR4TOqb8eoTLDzBCJwl0RhV+mszWoHou6ksiVWm2vhhUdmdhZ+WeWzswOg5vHQ7r8+ypixyuroS9P5Ua/ZlJJLUkRKJEkw1FU0FifrETgaULux2QH8bIFM46d9po8XFxtbWqYd8u4BRVzrh8j7rJUdZbH4ff73/OExm4AGJZjZXC4qFcuV6J+lcSOxuYiH6zuDGnruZYkZUtYf9RElEsEa7vHC70JjiggCPrNKR8zlaUY1NQbya4TOjoAke35LnzCj60xZ9axkR7mM9DHXTBqFZ2A52kjge7L1UTqffD5uM8mWdDgpJ3PGvq8k7ZcoMcX+SCNY9bG37I3/+5K5yB5srX0oMPpffROomv0rPhcUJxeUNzubGnLRhoDVFnwchtQrcz0yDLniPpN6X1MkFu9frKDuKDvz+/ogLEe2G102f+X7uFqZnwhyOAJeDMSgTkKKu6Z5NvEquRKnIJ2dQ==\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"1iT9oo8TetIT0RLQ\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"catalysts for revenue growth Solana projects Pump.fun Jupiter Meteora Axiom Phantom Raydium\",\n      \"days_back\": 30\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EqoECqcEAXLI2nwR5anA87aWTONu8xH79kq6YpQ2fDGDc2zka+PhWc590Rd3GImWKpi7zjfg5HHfqriQ03qdhjQqAoq4MtrRWaEx4DBvHKd8IiGH5Z+q31ZBqeX/cSLdV4sR5zxKGm0SHo4dKCNf9Ple4NVYcMqC5MZ8Euzoi4gQUI686ELnZWv5OnTktUya67b6fols2HQ1iwoLcdBl6/3PhtZSsQAAt9S85N0j8h716EFNTSHeHSFFxyAVoPSwlVQ0DphaqMz4ZlK7D6V4Xqxya9aTirS51n3XoajLPotJCbZ/dCbv94Bgh4fCRxFYDcC/77pXIV4Y1PDNJCyB7JkKtntqM+q7azy/ln856jeWG12UyEDMhljAyYXvxo9rBzWzHTAO0Fh6yLbjC78m2xqy88KspxveqtE3/hb/FcXMPfC1DKpCNnAn5MN1YXCwFcjKbZGupoVQzS2waG3i3abdFInloCStaOXwhuwBcrKrO9FDv1gi7IIqkaESmwS9R5QahTRHTdN90IiFwvf8P6DuWU0yXC9w1PBmwsml/kXMD3SmK9Pp5tFitqppcdOr37neX6vndTW+/v8HqRYEjjPXeCa0XgAJFIM+yI+vu09BeKn47iXvDjgGx8WIderp64fQ9Z8pNS7NZQMcmGsgrwF2rUgFzdHU3nozZnzugvCLdqmpSZP2utdA9W+pnrh+zDFzkQa1b5g1YNCx90+uuS/Cll+oxblPdvEY8lo=\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 4,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The Solana ecosystem is currently characterized by a structural shift I call the **\\\"Application Inversion.\\\"** For the first time, DApps are capturing significantly more value than the underlying L1, with applications generating roughly **$3.50 in revenue for every $1 produced by the network**. In 2025, Solana DApps hit a record **$2.38 billion in revenue**, a 64% YoY increase, driven by vertical integration and the rise of \\\"super-apps.\\\"\\n\\n### 1. Pump.fun ($585M Revenue in 2025)\\nPump.fun remains the undisputed revenue king, but its 2026 growth isn't just about memecoin launches—it’s about **capturing the entire lifecycle**.\\n\\n*   **Vertical Integration (PumpSwap):** By launching its own internal AMM, Pump.fun now keeps 84% of its revenue rather than migrating liquidity to Raydium. It captures a 1% bonding curve fee plus an ongoing 0.3% swap fee post-graduation.\\n*   **The Terminal Pivot:** Through the acquisition of Padre (rebranded as **Terminal**), the project successfully pivoted into high-frequency trading execution, generating $1.6M in its first full month by targeting advanced \\\"runners.\\\"\\n\\n### 2. Axiom ($365M Revenue in 2025)\\nAxiom has established itself as a revenue powerhouse by monetizing the **\\\"Attention Layer\\\"** and professional-grade trading needs.\\n\\n*   **The Rebate Flywheel:** Axiom recycles ~36% of its fees back to traders as SOL cashback. This creates a reflexive loop where volume drives rebates, which in turn fuels more volume.\\n*   **Priority Fee Arbitrage:** Axiom Extracts hidden margins by \\\"over-tipping\\\" on priority fees to ensure transaction landing speed, effectively taxing users who prioritize execution over cost.\\n\\n### 3. Phantom ($336M Revenue in 2025)\\nPhantom dominates the distribution layer, capturing **88% of all wallet-generated revenue** on Solana.\\n\\n*   **In-Wallet Swap Moat:** The 0.85% swap fee is a massive cash cow. Even as users shift to mobile, the convenience of in-wallet swaps remains a high-retention revenue driver.\\n*   **Neo-Banking Pivot:** The launch of the **CASH** stablecoin and debit card (via Bridge) allows Phantom to act as a closed-loop financial ecosystem, capturing yield and on-ramp fees from non-crypto natives.\\n\\n### 4. Jupiter ($140M+ Revenue in 2025)\\nJupiter has successfully transitioned from an aggregator into a comprehensive financial hub with diversified streams.\\n\\n*   **Perp & Lending Dominance:** Perpetuals remain the core driver, but the launch of **Jupiter Lend** (reaching $702M TVL by late 2025) added a critical secondary stream.\\n*   **Native Stablecoin (jupUSD):** Partnering with Ethena to launch jupUSD allows Jupiter to capture yield from underlying collateral and integrate its own unit of account across its product suite.\\n\\n### 5. Raydium ($154M Revenue in 2025)\\nAfter initially losing share to Pump.fun, Raydium reclaimed its position as the **\\\"global liquidity solution\\\"** for Solana.\\n\\n*   **RWA & Tokenized Stocks:** A major 2026 catalyst is the partnership with StockX to offer tokenized equities (e.g., Nvidia, Tesla), opening a non-crypto-correlated revenue stream that has already seen $250M+ in volume.\\n*   **LaunchLab:** Its integration with the Bonk community has made LaunchLab the primary destination for tokens \\\"graduating\\\" from high-volatility launchpads.\\n\\n### 6. Meteora ($110M Revenue in 2025)\\nMeteora is the primary beneficiary of the **Prop AMM** (Programmable AMM) trend, focusing on institutional-grade efficiency.\\n\\n*   **Dynamic Liquidity (DLMM):** Meteora’s DLMM allows LPs to earn higher fees during periods of extreme volatility, nearly tripling revenue in the latter half of 2025.\\n*   **Alpha Vaults:** This 2026 catalyst allows projects to conduct fair-price raises directly on Meteora, capturing fees from initial offerings that previously bypassed the protocol.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The Solana ecosystem is currently characterized by a structural shift I call the **\"Application Inversion.\"** For the first time, DApps are capturing significantly more value than the underlying L1, with applications generating roughly **$3.50 in revenue for every $1 produced by the network**. In 2025, Solana DApps hit a record **$2.38 billion in revenue**, a 64% YoY increase, driven by vertical integration and the rise of \"super-apps.\"\n\n### 1. Pump.fun ($585M Revenue in 2025)\nPump.fun remains the undisputed revenue king, but its 2026 growth isn't just about memecoin launches—it’s about **capturing the entire lifecycle**.\n\n*   **Vertical Integration (PumpSwap):** By launching its own internal AMM, Pump.fun now keeps 84% of its revenue rather than migrating liquidity to Raydium. It captures a 1% bonding curve fee plus an ongoing 0.3% swap fee post-graduation.\n*   **The Terminal Pivot:** Through the acquisition of Padre (rebranded as **Terminal**), the project successfully pivoted into high-frequency trading execution, generating $1.6M in its first full month by targeting advanced \"runners.\"\n\n### 2. Axiom ($365M Revenue in 2025)\nAxiom has established itself as a revenue powerhouse by monetizing the **\"Attention Layer\"** and professional-grade trading needs.\n\n*   **The Rebate Flywheel:** Axiom recycles ~36% of its fees back to traders as SOL cashback. This creates a reflexive loop where volume drives rebates, which in turn fuels more volume.\n*   **Priority Fee Arbitrage:** Axiom Extracts hidden margins by \"over-tipping\" on priority fees to ensure transaction landing speed, effectively taxing users who prioritize execution over cost.\n\n### 3. Phantom ($336M Revenue in 2025)\nPhantom dominates the distribution layer, capturing **88% of all wallet-generated revenue** on Solana.\n\n*   **In-Wallet Swap Moat:** The 0.85% swap fee is a massive cash cow. Even as users shift to mobile, the convenience of in-wallet swaps remains a high-retention revenue driver.\n*   **Neo-Banking Pivot:** The launch of the **CASH** stablecoin and debit card (via Bridge) allows Phantom to act as a closed-loop financial ecosystem, capturing yield and on-ramp fees from non-crypto natives.\n\n### 4. Jupiter ($140M+ Revenue in 2025)\nJupiter has successfully transitioned from an aggregator into a comprehensive financial hub with diversified streams.\n\n*   **Perp & Lending Dominance:** Perpetuals remain the core driver, but the launch of **Jupiter Lend** (reaching $702M TVL by late 2025) added a critical secondary stream.\n*   **Native Stablecoin (jupUSD):** Partnering with Ethena to launch jupUSD allows Jupiter to capture yield from underlying collateral and integrate its own unit of account across its product suite.\n\n### 5. Raydium ($154M Revenue in 2025)\nAfter initially losing share to Pump.fun, Raydium reclaimed its position as the **\"global liquidity solution\"** for Solana.\n\n*   **RWA & Tokenized Stocks:** A major 2026 catalyst is the partnership with StockX to offer tokenized equities (e.g., Nvidia, Tesla), opening a non-crypto-correlated revenue stream that has already seen $250M+ in volume.\n*   **LaunchLab:** Its integration with the Bonk community has made LaunchLab the primary destination for tokens \"graduating\" from high-volatility launchpads.\n\n### 6. Meteora ($110M Revenue in 2025)\nMeteora is the primary beneficiary of the **Prop AMM** (Programmable AMM) trend, focusing on institutional-grade efficiency.\n\n*   **Dynamic Liquidity (DLMM):** Meteora’s DLMM allows LPs to earn higher fees during periods of extreme volatility, nearly tripling revenue in the latter half of 2025.\n*   **Alpha Vaults:** This 2026 catalyst allows projects to conduct fair-price raises directly on Meteora, capturing fees from initial offerings that previously bypassed the protocol.",
+    "executionTimeMs": 117080,
+    "stepCount": 4,
+    "toolCalls": [
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare the top 10 projects by revenue on Solana over the past 30 days and provide growth trends."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "project_ids": [
+            13803,
+            13778,
+            13801,
+            11847,
+            13723
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "catalysts for revenue growth Solana projects Pump.fun Jupiter Meteora Axiom Phantom Raydium",
+          "days_back": 30
+        }
+      }
+    ],
+    "totalTokens": 82212
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

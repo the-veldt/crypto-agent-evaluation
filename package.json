@@ -9,8 +9,12 @@
     "lint": "eslint",
     "eval:search": "tsx scripts/eval-search.ts",
     "eval:agent": "tsx scripts/eval-agent.ts",
+    "eval:agent:v1": "tsx scripts/eval-agent-v1.ts",
+    "eval:agent:v2": "tsx scripts/eval-agent.ts",
     "rerank:agent": "tsx scripts/rerank-agent.ts",
-    "strip:raw": "tsx scripts/strip-raw-response.ts"
+    "strip:raw": "tsx scripts/strip-raw-response.ts",
+    "cache:responses": "tsx scripts/cache-responses.ts",
+    "convert:third-party": "tsx scripts/convert-third-party-results.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.2",

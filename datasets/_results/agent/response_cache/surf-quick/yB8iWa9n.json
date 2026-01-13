@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "yB8iWa9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yB8iWa9n",
+    "query": "build and compare the investment case for Solana versus Ethereum",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Investment Case Comparison: Solana (SOL) vs Ethereum (ETH)\n\n**Ethereum edges as the safer, institutional blue-chip with superior market dominance and ecosystem scale; Solana offers higher growth potential as a high-throughput challenger with explosive DeFi/meme activity and ETF momentum.** ETH's $384B MCAP (4.7x SOL's $81B) reflects maturity, but SOL's recent ETF inflows (+$46M 7d vs ETH outflows) and on-chain surge signal upside. Both up ~12-15% since late Dec 2025, but SOL's volatility suits risk-tolerant investors.\n\n### Key Metrics (as of 2026-01-13 UTC)\n\n| Metric | Ethereum (ETH) | Solana (SOL) | Edge |\n|--------|----------------|--------------|------|\n| **Price** | **$3,178** (+1.65% 24h) | **$143** (-0.01% 24h) | ETH (stability) |\n| **MCAP (Rank)** | **$384B (#2)** | **$81B (#6)** | ETH |\n| **FDV** | ~$384B (uncapped supply) | **$89B** | SOL (lower multiple) |\n| **TVL (DeFi)** | ~$60B L1 + $100B+ L2s (est. total ecosystem >$160B) | **$9.1B** (+0.8% 24h) | ETH |\n| **Daily Active Addresses** | ~500K-1M (L1; millions via L2s) | **3M** | SOL |\n| **Daily Tx** | ~1M (L1; 10M+ L2s) | **75M** | SOL |\n| **24h Fees** | ~$5-10M (variable) | **$1M** | ETH (revenue) |\n| **DEX Vol (24h)** | ~$3-5B (Uniswap etc.) | **$4.2B** (+17% DEX/CEX) | Tie |\n| **Exchange Reserves** | **16.5M ETH (~$51B)**, slight decline | N/A | ETH (less sell pressure) |\n| **Listings** | All majors (Binance, Coinbase, etc.) | 10 majors (70 pairs, SPOT/PERP) | Tie |\n| **Dev Activity** | Highest globally (~10K+ monthly) | **4,590 total** (1,306 full-time) | ETH |\n\n**Price Performance (2025-12-29 to 2026-01-13, daily close):**\n- ETH: $2,948 → **$3,090** (+5%; peaked $3,300)\n- SOL: $125 → **$139** (+11%; peaked $142)\n\n| Date Range | ETH % Change | SOL % Change |\n|------------|--------------|--------------|\n| 7d | +6% | +5% |\n| 14d | +12% | +11% |\n\n### Fundamentals & Catalysts\n\n**Ethereum Strengths:**\n- **Institutional Backbone**: Live spot ETFs ($113M inflows 24h prior); Lido stETH #9 MCAP.\n- **Ecosystem Depth**: L2s (Base, Arbitrum) drive scale; Dencun upgrade boosted cheap tx.\n- **Revenue Model**: High fees → burn/deflation; ARPU/AFPU strong per TokenTerminal.\n- **Risks**: L1 congestion; competition from L2s/L1s.\n\n**Solana Strengths:**\n- **Performance Edge**: 2s tx, near-zero fees → tokenized stocks/RWAs beating ETH ($50 vs free).\n- **Growth Momentum**: Stablecoins $13B; Perps $1.5B vol; memecoin/DeFi boom.\n- **ETF Tailwinds**: Pending apps (VanEck, Bitwise); +$5M 24h / +$46M 7d inflows vs ETH/BTC outflows.\n- **Risks**: Outage history; higher centralization (validator concentration).\n\n**Social Sentiment (Twitter, since 2026-01-01, min 50 likes):**\n- Bullish SOL: \"SOL inflows while ETH outflows\" (7.7K views); \"Institutions choosing SOL over ETH\" (2.7K views).\n- Neutral/bearish ETH: Tied to broader outflows.\n\n### Valuation & Opportunity\n- **ETH**: Trades at premium (P/S ~20x fees); undervalued vs TradFi if L2 adoption accelerates.\n- **SOL**: Cheaper entry (FDV/MCAP 1.1x); 5x upside to ETH ratio if TVL share grows.\n- **Risk-Adjusted**: ETH for HODL (staking ~4%); SOL for traders (beta play).\n\n**Bottom Line**: Allocate 70/30 ETH/SOL for balanced exposure. Monitor SOL ETF approvals (Q1 2026?) and ETH Prague upgrade for breakouts. ETH wins long-term dominance; SOL for 2-3x near-term alpha.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

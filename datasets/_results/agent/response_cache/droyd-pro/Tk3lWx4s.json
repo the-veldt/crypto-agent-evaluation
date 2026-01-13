@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "Tk3lWx4s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Tk3lWx4s",
+    "query": "pull the top latest tweets in crypto - what are the key discussions, projects, and narratives? Assess the sentiment and importance of each",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_zYUjM9aygb7VhcoqFqdjS24z\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"tweets\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 3,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0640b52baaacb8b1006966bbcf1e448196a2f7794d141a1f11\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Celestia KZG vs ZODA encoding benchmark](https://res.cloudinary.com/dgjriemfd/image/upload/v1768326788/veldt/nlcz8xwvvzx1xkoizbzq.jpg)\\n\\n## Key discussions, projects, narratives (latest top crypto tweets)\\n\\n- **Ethereum ossification + “walkaway test” (Ethereum)**  \\n  Vitalik frames Ethereum’s north star as being usable even if users “walk away” from ongoing vendor upgrades. Concrete buckets: **quantum resistance**, **ZK-EVM + PeerDAS scaling**, **durable state (partial statelessness/state expiry)**, **account abstraction**, **DoS-hardened gas**, **censorship-resistant block building**, and **long-horizon PoS economics**.  \\n  **Sentiment:** constructive, long-term bullish on protocol discipline.  \\n  **Importance:** **High** — this is core roadmap framing that influences research priorities, client teams, and downstream narratives around L1 credibility.\\n\\n- **Polygon goes vertical: regulated payments stack (Polygon, Coinme, Sequence/Trails)**  \\n  Polygon announces acquisitions to build an “**Open Money Stack**”: **U.S.-regulated fiat movement (48 states)** + **50k fiat locations** + embedded wallets + **1-click crosschain orchestration** (Trails). This is Polygon repositioning from “scaling tech” to **payments infrastructure** and distribution.  \\n  **Sentiment:** positive from Polygon-aligned accounts; market will demand integration/timeline clarity.  \\n  **Importance:** **High** — vertical integration is a direct bet against fragmented UX; if executed, it’s one of the cleaner “stablecoin rails” plays.\\n\\n- **Celestia pushes DA throughput marketing hard (Celestia / Fibre)**  \\n  Fibre is pitched as **“1Tb/s blockspace”** with a **ZODA-based DA encoder** and an **881× encoding speed** benchmark vs KZG. The narrative is “post-throughput era” where DA enables non-crypto markets (ads, AI, RWAs, micropayments).  \\n  **Sentiment:** bullish/aspirational; skepticism around what’s benchmark vs production constraints.  \\n  **Importance:** **Medium-High** — reinforces modular DA arms race; real impact depends on verifiable mainnet throughput + cost curve.\\n\\n- **Base/Solana bridging metrics under scrutiny (Base, Aerodrome, SOL)**  \\n  Onchain analysis claims **LP-churning/wash volume** is dominating bridged SOL activity on Base, with addresses cycling liquidity for emissions and inflating volume/adoption optics.  \\n  **Sentiment:** negative/accusatory; credibility hinges on methodology but the mechanic is plausible.  \\n  **Importance:** **Medium** — damages narrative-driven growth metrics; relevant for anyone underwriting Base DEX volume or “Solana-on-Base” traction.\\n\\n![Solana on Base wash trading dashboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1768269231/veldt/gjm3tfzbcfpy3c1c6kiz.jpg)\\n\\n## Macro/regulatory tape that’s bleeding into crypto\\n\\n- **CPI softer core print (macro risk-on impulse)**  \\n  Core CPI **0.2% vs 0.3% expected** shows up as “futures jumping.”  \\n  **Sentiment:** positive for risk.  \\n  **Importance:** **Medium** — short-term beta fuel, not a crypto-native driver.\\n\\n- **Stablecoin rewards edging toward legality (US policy / Coinbase beneficiary)**  \\n  A Senate Banking panel proposal would allow some **stablecoin “rewards” via loyalty/incentive programs**.  \\n  **Sentiment:** bullish for stablecoins/CEX distribution.  \\n  **Importance:** **High** — if this survives, it unlocks a mainstream UX loop (hold stablecoin → earn) without forcing users into DeFi wrappers.\\n\\n- **Pyth token value-accrual gets clearer (Pyth)**  \\n  Pyth Reserve: **33% of treasury funds deployed monthly to buy PYTH** and move it into reserve.  \\n  **Sentiment:** positive; “real buyback loop” resonance.  \\n  **Importance:** **Medium-High** — credible token mechanics matter in oracles where product value is otherwise abstract.\\n\\n- **Prediction markets back in the spotlight (Polymarket, Kalshi)**  \\n  Record weekend volumes: **Kalshi $837M**, and Polymarket sports ~**55%** of volume.  \\n  **Sentiment:** bullish usage, but also “are we just a sports book?” tension.  \\n  **Importance:** **High** — sustained volume is the clearest signal of product-market fit in consumer crypto right now.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0640b52baaacb8b1006966bbd208b08196b1c18c2adfb358b8\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Celestia KZG vs ZODA encoding benchmark](https://res.cloudinary.com/dgjriemfd/image/upload/v1768326788/veldt/nlcz8xwvvzx1xkoizbzq.jpg)\n\n## Key discussions, projects, narratives (latest top crypto tweets)\n\n- **Ethereum ossification + “walkaway test” (Ethereum)**  \n  Vitalik frames Ethereum’s north star as being usable even if users “walk away” from ongoing vendor upgrades. Concrete buckets: **quantum resistance**, **ZK-EVM + PeerDAS scaling**, **durable state (partial statelessness/state expiry)**, **account abstraction**, **DoS-hardened gas**, **censorship-resistant block building**, and **long-horizon PoS economics**.  \n  **Sentiment:** constructive, long-term bullish on protocol discipline.  \n  **Importance:** **High** — this is core roadmap framing that influences research priorities, client teams, and downstream narratives around L1 credibility.\n\n- **Polygon goes vertical: regulated payments stack (Polygon, Coinme, Sequence/Trails)**  \n  Polygon announces acquisitions to build an “**Open Money Stack**”: **U.S.-regulated fiat movement (48 states)** + **50k fiat locations** + embedded wallets + **1-click crosschain orchestration** (Trails). This is Polygon repositioning from “scaling tech” to **payments infrastructure** and distribution.  \n  **Sentiment:** positive from Polygon-aligned accounts; market will demand integration/timeline clarity.  \n  **Importance:** **High** — vertical integration is a direct bet against fragmented UX; if executed, it’s one of the cleaner “stablecoin rails” plays.\n\n- **Celestia pushes DA throughput marketing hard (Celestia / Fibre)**  \n  Fibre is pitched as **“1Tb/s blockspace”** with a **ZODA-based DA encoder** and an **881× encoding speed** benchmark vs KZG. The narrative is “post-throughput era” where DA enables non-crypto markets (ads, AI, RWAs, micropayments).  \n  **Sentiment:** bullish/aspirational; skepticism around what’s benchmark vs production constraints.  \n  **Importance:** **Medium-High** — reinforces modular DA arms race; real impact depends on verifiable mainnet throughput + cost curve.\n\n- **Base/Solana bridging metrics under scrutiny (Base, Aerodrome, SOL)**  \n  Onchain analysis claims **LP-churning/wash volume** is dominating bridged SOL activity on Base, with addresses cycling liquidity for emissions and inflating volume/adoption optics.  \n  **Sentiment:** negative/accusatory; credibility hinges on methodology but the mechanic is plausible.  \n  **Importance:** **Medium** — damages narrative-driven growth metrics; relevant for anyone underwriting Base DEX volume or “Solana-on-Base” traction.\n\n![Solana on Base wash trading dashboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1768269231/veldt/gjm3tfzbcfpy3c1c6kiz.jpg)\n\n## Macro/regulatory tape that’s bleeding into crypto\n\n- **CPI softer core print (macro risk-on impulse)**  \n  Core CPI **0.2% vs 0.3% expected** shows up as “futures jumping.”  \n  **Sentiment:** positive for risk.  \n  **Importance:** **Medium** — short-term beta fuel, not a crypto-native driver.\n\n- **Stablecoin rewards edging toward legality (US policy / Coinbase beneficiary)**  \n  A Senate Banking panel proposal would allow some **stablecoin “rewards” via loyalty/incentive programs**.  \n  **Sentiment:** bullish for stablecoins/CEX distribution.  \n  **Importance:** **High** — if this survives, it unlocks a mainstream UX loop (hold stablecoin → earn) without forcing users into DeFi wrappers.\n\n- **Pyth token value-accrual gets clearer (Pyth)**  \n  Pyth Reserve: **33% of treasury funds deployed monthly to buy PYTH** and move it into reserve.  \n  **Sentiment:** positive; “real buyback loop” resonance.  \n  **Importance:** **Medium-High** — credible token mechanics matter in oracles where product value is otherwise abstract.\n\n- **Prediction markets back in the spotlight (Polymarket, Kalshi)**  \n  Record weekend volumes: **Kalshi $837M**, and Polymarket sports ~**55%** of volume.  \n  **Sentiment:** bullish usage, but also “are we just a sports book?” tension.  \n  **Importance:** **High** — sustained volume is the clearest signal of product-market fit in consumer crypto right now.",
+    "executionTimeMs": 36568,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "tweets"
+          ],
+          "limit": 30,
+          "days_back": 3,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 41808
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

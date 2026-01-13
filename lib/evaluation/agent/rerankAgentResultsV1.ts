@@ -7,7 +7,7 @@ import type {
   QuestionEvaluationResult,
   EvaluationRunResult,
 } from './types';
-import { calculateSummary } from './runAgentEvaluation';
+import { calculateSummary } from './runAgentEvaluationV1';
 
 // Schema for a single agent's evaluation
 const agentEvaluationSchema = z.object({

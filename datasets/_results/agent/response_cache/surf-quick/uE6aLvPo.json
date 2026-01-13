@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "uE6aLvPo",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "uE6aLvPo",
+    "query": "what assets (over $50k in 30d revenue) have had the highest growth in revenue in the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, I can provide insights on protocols with significant revenue, but I cannot identify the specific assets with the highest revenue growth over $50k in the last 30 days due to limited current revenue growth data.\n\n## TL;DR\n\nThe data shows major revenue generators but lacks specific 30-day growth metrics for assets over $50k revenue. Tether, Circle, and Tron lead in absolute revenue, while Sky (formerly MakerDAO) shows the strongest growth momentum among top protocols.\n\n## What I Can Answer Confidently\n\nHere's what the revenue data shows:\n\n- **Tether** leads with $418.4M 30d revenue (though declining -5.7%)\n- **Circle** follows with $202.6M 30d revenue (declining -3.2%) \n- **Tron** ranks third with $201.7M 30d revenue (declining -1.5%)\n- **Sky (MakerDAO)** shows the strongest growth at +31.5% with $33.2M 30d revenue\n\n| Protocol | 30d Revenue | Growth Trend | Revenue Level |\n|----------|-------------|--------------|---------------|\n| Tether | $418.4M | -5.7% | Highest |\n| Circle | $202.6M | -3.2% | Very High |\n| Tron | $201.7M | -1.5% | Very High |\n| Sky | $33.2M | +31.5% | High Growth |\n\n## Analysis of Available Information\n\n### Confirmed Revenue Leaders\n\nThe top revenue-generating protocols are dominated by stablecoin issuers and established blockchain networks. [Token Terminal](https://tokenterminal.com/explorer/metrics/revenue) data shows Tether maintaining the top position with $418.4M in 30-day revenue, followed closely by Circle ($202.6M) and Tron ($201.7M). However, all three show negative growth trends in the recent period.\n\n### Growth Standout\n\nAmong the top revenue generators, **Sky (formerly MakerDAO)** demonstrates the strongest positive momentum with +31.5% growth and $33.2M in 30-day revenue. This represents the most significant growth story among major revenue-generating protocols.\n\n## What's Missing\n\nTo give you a complete picture of assets with the highest revenue growth over $50k, I'd need:\n\n- **Specific 30-day growth percentages** for all protocols exceeding $50k revenue\n- **Current revenue data** with daily granularity to calculate exact growth rates\n- **Comprehensive coverage** of smaller protocols that might be experiencing rapid growth\n- **Time-series revenue data** to calculate precise month-over-month growth percentages\n\nThese gaps prevent me from identifying the absolute highest growth assets meeting your $50k revenue threshold, as the available data shows overall trends but lacks the specific growth rate calculations for all qualifying protocols.\n\n## Recommendation\n\n**For deeper insight**, use Deep Research to gather:\n\n- Complete 30-day revenue growth metrics for all protocols\n- Daily revenue time series for precise growth calculations\n- Coverage of emerging protocols that may be experiencing rapid revenue expansion\n- Comparative analysis of growth rates across different protocol categories\n\nThis will provide the comprehensive answer you're looking for regarding the highest revenue growth assets.\n\n**Next step**: Start a new conversation and select **Deep Research** mode (ASK can't launch Deep Research directly from here).",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

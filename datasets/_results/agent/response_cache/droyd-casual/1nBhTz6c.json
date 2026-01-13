@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"jJq3KtVyQZxVcGpD\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending Solana memecoins with high trader growth and good liquidity. Focus on projects with strong social momentum or high technical scores.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EogJCoUJAXLI2nzbvgpKdU0ShZVJJ3Krf+edNs7lKC8DvSMJ+SeoL4JgbFVoF2krhMQNqyAlLY5fvT+mVudtpTBRaL4QW/Wb8aGIfgwKhu/VUzq64aj55o2sRfOahCtkzDsIh7pTyaJfHQlz8u4wTpO7Tc9lO/SDQs6RYxStrkOupKIzMld90eQqirL4bpLjN2CgPggyMrR/KAkXybPLjx0MpsM6eXqLSSWImT5UVyYWosEsL1AC9b1dRINRjZlXgQWhoKBohWlvwvr0AEwvPkkkPSjIcDpIfnTV2M3+4xvZZzHwDj3EczM+jeouugl07w14ZJkXn4KNV5/rXsJetpo1SoNTM5e5mWDhoRJVA9IQLy78leqAd6sYdnywIIEKbConaDswWLQ5eOGZLyIZgWtCjrIhmChqiXtYU4WOxYDAPi3awC41tOjutN0X6EQiXS9pjuxR3CV7aXTWcw0yGYcCjyrFmGyn054Tc/ZwzdcU/CIEU9rnlVqFxmcdfcJBPcYPeAdifucpY12wuVf00Bc0T09We/aTwBIfUsAYPmQcOpWokpnqG1Aoo/bwQ6UQmq7FnYOxIjcHRGSXf4I/FIRsUynmQY897V2UpM3Xs7YvOAMvwEdkOhmreQwYz0E1VFGQg6EouKvy+bCt8TatcsOLdH6H16IZ9C7WTLQLO8ttHEBWTJi9YyL+X5oxWvff2F3rnDtZeGHsaibnPc526uJK+M/tytUjTY7uwnMv2OlEt6kCfRs49co3m+8F1+PAyFMviMwDgi/4Rz9rT970q2C7nIUYs7rQVcCPXsbyKJo70gIutlMXXWc5MSens1d+V+swoRK4ag1nbyUND+VlFO1bQka7Dkw1Fgvhi1W+4eqk5fKSOdM8C9pK1ucOea0p3Xh6ALd0equhP2l63m9mlgS+RRUdz0EzDrnxQnkDQeGkj7LfAGuAJd+1+t0ZLglmGFvjpOx4UVfGB4tHvTEWWRgrWfWayiFMrXA6O44MGXa8th1PfLhv5NYAI66i37Fz0OAbqiT5owurouhsyOA/P0HY9WIV4JNWJtHdYJ4O3xkG8rcbEj6zgSSeT/D3IZE8xDQnYPaiF82sUaAAxMFwHb7Oyru64AaBIVRO5ovhSJTjXbtJCkYNNjwjkKE9JP9VJG6zGztM5M3r4Tf5PQPfTRSQB4IiPUPJwMBeVG6vRtopvEBM7wiqVYQYp+MV/jA3CF0k4vGTofjGllq2JwlHcNviQJnEYDMIpt9VlADcawHtOZJzhSdzXiUvCvOiJRQuDd95+isj5W904hnaYCg4mZSOxbPDgbwucO5Tbv67PzxHv0CVhqLqnK0zvGbv5awmP9FYvf+Q210G/1iIijeUWw9nraTobsBvAGpuKPI2Lgqqmm9fabtHXYyjPUvLGvfDW5e1ahhBUT8ka9YVQDI8zODANfRnpdBzvPOoGRhkrBiH4TE9G3vnAUadi5Fgy4o6pTxQcfILGbhGVLn/84S2AzRwzEKHF3pUjI5yNWjuoUrrZSkBGxoVzltucMqOTYnH9SuIofZ0o3/rjis=\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"LvV1qS2otNdA9hBX\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [\n        520\n      ]\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"FC2uMTr5ltxGrh30\",\n    \"toolName\": \"getAgentTrades\",\n    \"input\": {\n      \"scope\": \"all_platform\",\n      \"hours_back\": 72,\n      \"limit\": 10\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"kb1M1Y5BhUVAxCXe\",\n    \"toolName\": \"getWatchlist\",\n    \"input\": {\n      \"scope\": \"combined\",\n      \"limit\": 15\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"OyMWlz0oypKs7jzt\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"project_ids\": [\n        23676,\n        43211,\n        44887\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"1W0DRYOPu4GIIzIv\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Fartcoin\",\n        \"White Whale\"\n      ],\n      \"search_type\": \"name\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Solana’s memecoin market is shifting toward \\\"functional culture\\\"—projects that blend viral narratives with actual product traction or institutional infrastructure. While the **Pump.fun** velocity continues to drive thousands of micro-cap launches daily, the high-conviction plays are currently found in the AI agent and creator-led sectors.\\n\\n### 1. Claude-Mem ($CMEM)\\nClaude-Mem is the leading \\\"product-market fit\\\" play in the AI meme sector. Unlike purely speculative tokens, $CMEM is a community-initiated fair launch supporting a plugin that provides persistent memory for **Claude Code**. The project’s GitHub repository recently hit **#1 on GitHub Trending** with over 12,000 stars, signaling massive developer mindshare.\\n\\n*   **Momentum**: The token has seen a **+114% 7d price change** and remains in a **BULLISH_MEDIUM** technical regime. \\n*   **Catalyst**: The recent release of **v9.0.2** (removing hook dependencies) and the \\\"Ralph-Mem\\\" endless mode concept are driving expectations for a 90% reduction in compute costs for AI agents.\\n*   **Onchain Data**: $CMEM maintains high volume-to-market-cap ratios on Meteora, with a 1% trading fee directly supporting project development.\\n\\n### 2. Trencher ($trencher)\\nTrencher is the top \\\"artist-led\\\" culture play on Solana, centered around the character work of artist **Grizzle**. It represents a successful transition from a simple Solana meme to a cross-chain brand, recently receiving a **Base Builder Grant** and bridging liquidity to the Base network.\\n\\n*   **Setup**: The token is currently in a technical breakout, trading **above its upper Bollinger Band** with a **+235% surge in unique traders** over the last 4 hours.\\n*   **Catalyst**: A major roadmap livestream is scheduled for tonight (7pm EST) to discuss community grants, airdrops, and limited-edition merchandise.\\n*   **Strategy**: This is a classic \\\"momentum + personality\\\" play. The high engagement on social channels and the airdrop utility for the top 1,000 holders create a strong supply sink.\\n\\n### 3. Fartcoin ($FARTCOIN)\\nWhile $FARTCOIN is an established leader in the AI-agent meme cycle, it remains a top play due to its rapidly expanding institutional and infrastructure footprint. It has evolved from a Terminal of Truths-linked joke into a core asset for the \\\"AI-God\\\" narrative.\\n\\n*   **Infrastructure**: **Synthetix** recently added a leveraged FARTCOIN market (up to 25x), and its ticker was purchased on **Hyperliquid** for ~**$43,900** (1,795 HYPE).\\n*   **Sentiment**: Mindshare has surged **+5.45% in the last 24 hours**, outperforming established peers like BONK in relative attention growth.\\n*   **Technicals**: Currently sitting in the **upper quartile of its Bollinger Bands** with a **BULLISH_WEAK** momentum score on the daily chart, suggesting it is consolidating for its next leg rather than being overheated.\\n\\n### Market Context & Risks\\nThe Solana ecosystem is currently grappling with high-profile \\\"drain\\\" incidents, such as the **NYC Token** rug pull which saw **$3.4M USDC** removed by centralized reserves minutes after launch. Stick to tokens with transparent supply mechanics—like the community-locked supply in **Claude-Mem** or the artist-vetted distribution of **Trencher**—to avoid centralized liquidity risks.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Solana’s memecoin market is shifting toward \"functional culture\"—projects that blend viral narratives with actual product traction or institutional infrastructure. While the **Pump.fun** velocity continues to drive thousands of micro-cap launches daily, the high-conviction plays are currently found in the AI agent and creator-led sectors.\n\n### 1. Claude-Mem ($CMEM)\nClaude-Mem is the leading \"product-market fit\" play in the AI meme sector. Unlike purely speculative tokens, $CMEM is a community-initiated fair launch supporting a plugin that provides persistent memory for **Claude Code**. The project’s GitHub repository recently hit **#1 on GitHub Trending** with over 12,000 stars, signaling massive developer mindshare.\n\n*   **Momentum**: The token has seen a **+114% 7d price change** and remains in a **BULLISH_MEDIUM** technical regime. \n*   **Catalyst**: The recent release of **v9.0.2** (removing hook dependencies) and the \"Ralph-Mem\" endless mode concept are driving expectations for a 90% reduction in compute costs for AI agents.\n*   **Onchain Data**: $CMEM maintains high volume-to-market-cap ratios on Meteora, with a 1% trading fee directly supporting project development.\n\n### 2. Trencher ($trencher)\nTrencher is the top \"artist-led\" culture play on Solana, centered around the character work of artist **Grizzle**. It represents a successful transition from a simple Solana meme to a cross-chain brand, recently receiving a **Base Builder Grant** and bridging liquidity to the Base network.\n\n*   **Setup**: The token is currently in a technical breakout, trading **above its upper Bollinger Band** with a **+235% surge in unique traders** over the last 4 hours.\n*   **Catalyst**: A major roadmap livestream is scheduled for tonight (7pm EST) to discuss community grants, airdrops, and limited-edition merchandise.\n*   **Strategy**: This is a classic \"momentum + personality\" play. The high engagement on social channels and the airdrop utility for the top 1,000 holders create a strong supply sink.\n\n### 3. Fartcoin ($FARTCOIN)\nWhile $FARTCOIN is an established leader in the AI-agent meme cycle, it remains a top play due to its rapidly expanding institutional and infrastructure footprint. It has evolved from a Terminal of Truths-linked joke into a core asset for the \"AI-God\" narrative.\n\n*   **Infrastructure**: **Synthetix** recently added a leveraged FARTCOIN market (up to 25x), and its ticker was purchased on **Hyperliquid** for ~**$43,900** (1,795 HYPE).\n*   **Sentiment**: Mindshare has surged **+5.45% in the last 24 hours**, outperforming established peers like BONK in relative attention growth.\n*   **Technicals**: Currently sitting in the **upper quartile of its Bollinger Bands** with a **BULLISH_WEAK** momentum score on the daily chart, suggesting it is consolidating for its next leg rather than being overheated.\n\n### Market Context & Risks\nThe Solana ecosystem is currently grappling with high-profile \"drain\" incidents, such as the **NYC Token** rug pull which saw **$3.4M USDC** removed by centralized reserves minutes after launch. Stick to tokens with transparent supply mechanics—like the community-locked supply in **Claude-Mem** or the artist-vetted distribution of **Trencher**—to avoid centralized liquidity risks.",
+    "executionTimeMs": 26249,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending Solana memecoins with high trader growth and good liquidity. Focus on projects with strong social momentum or high technical scores.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [
+            520
+          ]
+        }
+      },
+      {
+        "toolName": "getAgentTrades",
+        "parameters": {
+          "scope": "all_platform",
+          "hours_back": 72,
+          "limit": 10
+        }
+      },
+      {
+        "toolName": "getWatchlist",
+        "parameters": {
+          "scope": "combined",
+          "limit": 15
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "project_ids": [
+            23676,
+            43211,
+            44887
+          ]
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Fartcoin",
+            "White Whale"
+          ],
+          "search_type": "name"
+        }
+      }
+    ],
+    "totalTokens": 147236
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

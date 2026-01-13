@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "4tSfYb9k",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4tSfYb9k",
+    "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_BVe4h2uo11RJIQDP4LBy6GND\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        15071\n      ],\n      \"category_ids\": [],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_08725b040431359a006966bd7d5bd8819e8001c3a16254e802\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_4zkWcV0ZlMZNQvMz7A7obA7G\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Solana core trends last 30 days: memecoins, DeFi, consumer apps, infra, payments, restaking, MEV, token extensions, compressed NFTs\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_08725b040431359a006966bd7d8b68819ea52b91934b8566c3\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_Iu7wRJNDaOEy2Df9rpzJxlbb\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Base core trends last 30 days: onchain apps, Coinbase distribution, Farcaster, DeFi, L2 infra, account abstraction, smart wallets, sequencer, MEV, appchains\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        15071\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_08725b040431359a006966bd7f70e4819e80ca5dc016aaf2c0\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Messari Solana Ecosystem Map September 2025](https://res.cloudinary.com/dgjriemfd/image/upload/v1768233162/veldt/rguhhxmuabwo3r3xr2le.jpg)\\n\\n## Core trends: Solana vs Base (what’s actually driving activity)\\n\\n**Solana = execution layer + speculative throughput + app-fee extraction.** The center of gravity is still **trading microstructure**: Jupiter/Raydium/terminals capturing routing and fees, plus episodic memecoin liquidity that stress-tests infra and keeps retail cycling. Recent signal: launchpad volumes **spiked to ~$228M/day (Jan 3)** with a fast share shift (letsbonk overtaking Pump.fun that day). Under the hood, Solana’s “ICM” push is about making this flow more institution-grade (prop AMMs, tokenized assets), while upgrades like **Frankendancer staking penetration (~20.9%)** aim at reliability and latency edges.\\n\\n**Base = distribution layer + app surface area + institutional-friendly rails.** The dominant trend is Coinbase turning Base into a **super-app substrate**: Base App rollout (mini-app distribution, smart-wallet UX, spend permissions) plus **stablecoin/BTC rails** and a growing “onchain commerce” stack. DeFi is consolidating around fewer venues (Aerodrome/Uniswap/Morpho), and the chain leans into **cross-chain mobility** (CCIP, integrator bridges) and **payments primitives** (including privacy payments now live via Hinkal).\\n\\n## Sustainability + moat: who has the deeper defensibility?\\n\\n**Base’s moat is structurally stronger** because it’s rooted in **distribution + compliant onramps + identity/wallet UX**. A chain that can push users from a top-3 consumer finance app (Coinbase) into embedded onchain flows has a defensible funnel that doesn’t require constant speculative mania. The clearest “moat-like” characteristics on Base:\\n- **Default stablecoin venue** for Coinbase retail + institutional initiatives (USDC-heavy liquidity, JPMD-style assets showing up).\\n- **Smart Wallet / spend permissions / mini-app container** creates switching costs at the UX layer, not the chain layer.\\n- **Cross-chain liquidity plumbing** (CCIP, bridges) makes Base a hub for inventory rebalancing.\\n\\n**Solana’s moat is an execution advantage**: cheap, fast settlement enabling onchain markets that feel closer to CEX performance. The defensible piece is **market structure + liquidity density** (aggregators/terminals + local fee markets). The weaker part is that a big slice of activity is **reflexive and episodic** (memecoin cycles, launch risks like the recent NYC token liquidity drain episode), which makes growth spikier and more sentiment-dependent.\\n\\n![Base Chain Protocol Fees Surge Driven by Uniswap and Aerodrome](chart_id:592)\\n\\n**My call:** Base is **more sustainable** (distribution + rails compound), Solana is **more resilient as a venue** (best execution attracts flow back quickly) but less predictable because the marginal user is more speculation-driven and launch-quality varies.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_08725b040431359a006966bd985828819eb35a5a854920c7d2\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Messari Solana Ecosystem Map September 2025](https://res.cloudinary.com/dgjriemfd/image/upload/v1768233162/veldt/rguhhxmuabwo3r3xr2le.jpg)\n\n## Core trends: Solana vs Base (what’s actually driving activity)\n\n**Solana = execution layer + speculative throughput + app-fee extraction.** The center of gravity is still **trading microstructure**: Jupiter/Raydium/terminals capturing routing and fees, plus episodic memecoin liquidity that stress-tests infra and keeps retail cycling. Recent signal: launchpad volumes **spiked to ~$228M/day (Jan 3)** with a fast share shift (letsbonk overtaking Pump.fun that day). Under the hood, Solana’s “ICM” push is about making this flow more institution-grade (prop AMMs, tokenized assets), while upgrades like **Frankendancer staking penetration (~20.9%)** aim at reliability and latency edges.\n\n**Base = distribution layer + app surface area + institutional-friendly rails.** The dominant trend is Coinbase turning Base into a **super-app substrate**: Base App rollout (mini-app distribution, smart-wallet UX, spend permissions) plus **stablecoin/BTC rails** and a growing “onchain commerce” stack. DeFi is consolidating around fewer venues (Aerodrome/Uniswap/Morpho), and the chain leans into **cross-chain mobility** (CCIP, integrator bridges) and **payments primitives** (including privacy payments now live via Hinkal).\n\n## Sustainability + moat: who has the deeper defensibility?\n\n**Base’s moat is structurally stronger** because it’s rooted in **distribution + compliant onramps + identity/wallet UX**. A chain that can push users from a top-3 consumer finance app (Coinbase) into embedded onchain flows has a defensible funnel that doesn’t require constant speculative mania. The clearest “moat-like” characteristics on Base:\n- **Default stablecoin venue** for Coinbase retail + institutional initiatives (USDC-heavy liquidity, JPMD-style assets showing up).\n- **Smart Wallet / spend permissions / mini-app container** creates switching costs at the UX layer, not the chain layer.\n- **Cross-chain liquidity plumbing** (CCIP, bridges) makes Base a hub for inventory rebalancing.\n\n**Solana’s moat is an execution advantage**: cheap, fast settlement enabling onchain markets that feel closer to CEX performance. The defensible piece is **market structure + liquidity density** (aggregators/terminals + local fee markets). The weaker part is that a big slice of activity is **reflexive and episodic** (memecoin cycles, launch risks like the recent NYC token liquidity drain episode), which makes growth spikier and more sentiment-dependent.\n\n![Base Chain Protocol Fees Surge Driven by Uniswap and Aerodrome](chart_id:592)\n\n**My call:** Base is **more sustainable** (distribution + rails compound), Solana is **more resilient as a venue** (best execution attracts flow back quickly) but less predictable because the marginal user is more speculation-driven and launch-quality varies.",
+    "executionTimeMs": 44191,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            15071
+          ],
+          "category_ids": [],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Solana core trends last 30 days: memecoins, DeFi, consumer apps, infra, payments, restaking, MEV, token extensions, compressed NFTs",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Base core trends last 30 days: onchain apps, Coinbase distribution, Farcaster, DeFi, L2 infra, account abstraction, smart wallets, sequencer, MEV, appchains",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            15071
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 45870
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "6vGjYc2o",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "6vGjYc2o",
+    "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_uYHwtr3ebfxMKnbgZ21XqJxd\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"List tokens with market cap >= $20m with the greatest price increase over the last 24h. Exclude stablecoins and wrapped assets. Prefer liquid listings (>=$250k liquidity) and meaningful volume (>=$2m 24h). Return top 25 across all chains.\",\n      \"sort_by\": \"price_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0feabd83fcb6d1a2006966bc337a9081a095a13a0ea134ce9b\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_vKtWHG0i8V538fOcQSvs6w4Y\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"catalysts driving 24h top gainers ARC jellyjelly CARDS bonk pyth fin wojak\",\n      \"content_types\": [\n        \"news\",\n        \"tweets\",\n        \"posts\",\n        \"developments\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": [\n        18533,\n        18687,\n        25416,\n        2038,\n        10656,\n        45663,\n        39548,\n        18651\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0feabd83fcb6d1a2006966bc39c1cc81a0bce866a9656b4401\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Collector Crypt Financial Metrics and Revenue Chart](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320552/veldt/bh2sduajq4crrvgxs8ki.jpg)\\n\\n### 24h top gainers (min $20m mcap) — what’s actually driving them\\nThe clean read: **this is a Solana-led risk-on tape + “token has a reason to exist today” catalysts.** Most of the leaders are either (a) **memecoins with fresh distribution/flow hooks**, or (b) **consumer/collectibles with measurable revenue**, or (c) **infra with explicit value-accrual mechanics**.\\n\\nTop movers from the screen (24h price change, approximate):\\n- **FIN (Ethereum)**: **+41,714%** (looks like an extreme microstructure event: **129 holders, ~$244k vol**, no sells recorded) — treat as an outlier, not a narrative basket signal  \\n- **ARC (Solana, AI agents/framework)**: **+43%**, **$5.1m vol**, **1,573 traders**, very strong trader growth  \\n- **CARDS (Solana, tokenized collectibles)**: **+21%**, **$3.7m vol**, heavy mindshare jump  \\n- **WOJAK (Solana meme)**: **+21%**, **$3.1m vol**  \\n- **JELLYJELLY (Solana, SocialFi)**: **+20%**, **$4.1m vol**, huge trades/volume acceleration  \\n- Then a cluster of **Solana large memes / consumer**: **MELANIA, BONK, FARTCOIN, POPCAT, WIF, PENGU** in the **+7–16%** zone\\n\\n### Central sector/theme\\n**Consumer + culture on Solana**, with two sub-themes:\\n1) **“Meme as distribution”**: large, liquid memes catching flows via new listings, gamified staking/locking, or institutional-ish attention.\\n2) **“Real revenue consumer rails”**: projects with **clear revenue narratives** (collectibles marketplaces, app-store distribution, prediction-market integrations).\\n\\n### Catalysts actually showing up in the data\\n- **Explicit value-accrual loops** (infra)  \\n  Pyth’s current bid is fundamentally different from “oracle hype”: **Pyth Pro monetization + PYTH Reserve buyback policy (33% of treasury deployed monthly to buy PYTH)** turns usage into **mechanical bid**. That’s a narrative institutions can repeat without sounding like cope.\\n\\n- **Consumer revenue / “cash-flow multiple” pitch** (collectibles)  \\n  CARDS is getting framed as **mispriced vs annualized revenue** (the chart above shows **~$35M annualized fees/revenue** levels being circulated). Add the fresh integration momentum (ApeChain collectibles pack-ripping) and the trade becomes “**RWA/collectibles infra with real numbers**,” not an NFT flyer.\\n\\n- **New utility hooks that force positioning** (memes + SocialFi)  \\n  BONK has multiple concurrent hooks: **locking competitions/leaderboards** (sinks supply, creates deadlines), plus third-party integrations (privacy pool, etc.).  \\n  JellyJelly’s Predict partnership turns posts into markets with **creator revenue-share** — that’s a very “consumer crypto” catalyst: **new primitive + distribution via creators**, which reliably spikes velocity.\\n\\nNet: **one dominant sector (Solana consumer/culture)**, but the catalysts split into **mechanical buy pressure (buybacks/locking)** and **credible “real business” narratives (revenue charts + integrations)**.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0feabd83fcb6d1a2006966bc405f3481a09e5244c4c26fcf56\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Collector Crypt Financial Metrics and Revenue Chart](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320552/veldt/bh2sduajq4crrvgxs8ki.jpg)\n\n### 24h top gainers (min $20m mcap) — what’s actually driving them\nThe clean read: **this is a Solana-led risk-on tape + “token has a reason to exist today” catalysts.** Most of the leaders are either (a) **memecoins with fresh distribution/flow hooks**, or (b) **consumer/collectibles with measurable revenue**, or (c) **infra with explicit value-accrual mechanics**.\n\nTop movers from the screen (24h price change, approximate):\n- **FIN (Ethereum)**: **+41,714%** (looks like an extreme microstructure event: **129 holders, ~$244k vol**, no sells recorded) — treat as an outlier, not a narrative basket signal  \n- **ARC (Solana, AI agents/framework)**: **+43%**, **$5.1m vol**, **1,573 traders**, very strong trader growth  \n- **CARDS (Solana, tokenized collectibles)**: **+21%**, **$3.7m vol**, heavy mindshare jump  \n- **WOJAK (Solana meme)**: **+21%**, **$3.1m vol**  \n- **JELLYJELLY (Solana, SocialFi)**: **+20%**, **$4.1m vol**, huge trades/volume acceleration  \n- Then a cluster of **Solana large memes / consumer**: **MELANIA, BONK, FARTCOIN, POPCAT, WIF, PENGU** in the **+7–16%** zone\n\n### Central sector/theme\n**Consumer + culture on Solana**, with two sub-themes:\n1) **“Meme as distribution”**: large, liquid memes catching flows via new listings, gamified staking/locking, or institutional-ish attention.\n2) **“Real revenue consumer rails”**: projects with **clear revenue narratives** (collectibles marketplaces, app-store distribution, prediction-market integrations).\n\n### Catalysts actually showing up in the data\n- **Explicit value-accrual loops** (infra)  \n  Pyth’s current bid is fundamentally different from “oracle hype”: **Pyth Pro monetization + PYTH Reserve buyback policy (33% of treasury deployed monthly to buy PYTH)** turns usage into **mechanical bid**. That’s a narrative institutions can repeat without sounding like cope.\n\n- **Consumer revenue / “cash-flow multiple” pitch** (collectibles)  \n  CARDS is getting framed as **mispriced vs annualized revenue** (the chart above shows **~$35M annualized fees/revenue** levels being circulated). Add the fresh integration momentum (ApeChain collectibles pack-ripping) and the trade becomes “**RWA/collectibles infra with real numbers**,” not an NFT flyer.\n\n- **New utility hooks that force positioning** (memes + SocialFi)  \n  BONK has multiple concurrent hooks: **locking competitions/leaderboards** (sinks supply, creates deadlines), plus third-party integrations (privacy pool, etc.).  \n  JellyJelly’s Predict partnership turns posts into markets with **creator revenue-share** — that’s a very “consumer crypto” catalyst: **new primitive + distribution via creators**, which reliably spikes velocity.\n\nNet: **one dominant sector (Solana consumer/culture)**, but the catalysts split into **mechanical buy pressure (buybacks/locking)** and **credible “real business” narratives (revenue charts + integrations)**.",
+    "executionTimeMs": 34366,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "List tokens with market cap >= $20m with the greatest price increase over the last 24h. Exclude stablecoins and wrapped assets. Prefer liquid listings (>=$250k liquidity) and meaningful volume (>=$2m 24h). Return top 25 across all chains.",
+          "sort_by": "price_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "catalysts driving 24h top gainers ARC jellyjelly CARDS bonk pyth fin wojak",
+          "content_types": [
+            "news",
+            "tweets",
+            "posts",
+            "developments"
+          ],
+          "limit": 25,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": [
+            18533,
+            18687,
+            25416,
+            2038,
+            10656,
+            45663,
+            39548,
+            18651
+          ]
+        }
+      }
+    ],
+    "totalTokens": 108640
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

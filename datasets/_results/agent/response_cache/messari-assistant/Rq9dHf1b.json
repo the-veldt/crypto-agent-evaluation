@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Investment Case Comparison: Uniswap vs. Aerodrome\n\nA comprehensive investment case comparison between Uniswap and Aerodrome based on Total Value Locked (TVL) and revenue figures is currently limited, as the data for Aerodrome was not available. However, an analysis of Uniswap's recent performance can be provided.\n\n## Uniswap (UNI) Performance Analysis\n\nThe following table summarizes Uniswap's TVL (represented by circulating market cap) and revenue (represented by volume) for the most recent available dates, along with their daily growth rates [^1].\n\n| Date | TVL (USD) | Daily TVL Growth | Revenue (USD) | Daily Revenue Growth |\n| :--- | ---: | ---: | ---: | ---: |\n| 2026-01-13 | 3,534,177,168 | 3.86% | 96,860,575.20 | -30.55% |\n| 2026-01-12 | 3,402,747,463 | -1.55% | 139,461,192.94 | 65.88% |\n| 2026-01-11 | 3,456,269,336 | -0.39% | 84,071,712.57 | 1.16% |\n| 2026-01-10 | 3,469,919,752 | 0.10% | 83,108,319.74 | -50.96% |\n| 2026-01-09 | 3,466,419,979 | -0.38% | 169,456,662.92 | -21.78% |\n| 2026-01-08 | 3,479,782,704 | -4.20% | 216,645,136.73 | 16.01% |\n| 2026-01-07 | 3,632,329,946 | -5.73% | 186,749,699.04 | -40.31% |\n| 2026-01-06 | 3,853,029,210 | -0.80% | 312,843,302.59 | 0.42% |\n| 2026-01-05 | 3,884,051,809 | 5.57% | 311,549,774.12 | 94.60% |\n| 2026-01-04 | 3,679,038,061 | -1.28% | 160,096,632.65 | 12.39% |\n\n### Key Trends for Uniswap\n\nUniswap's performance over the ten-day period shows significant volatility in both TVL and revenue growth [^1].\n\n*   **TVL (Circulating Market Cap)**: The TVL fluctuated between a high of approximately $3.88 billion on January 5, 2026, and a low of about $3.40 billion on January 12, 2026 [^1].\n    *   The largest daily TVL growth was **5.57%** on January 5, 2026 [^1].\n    *   The largest daily TVL decline was **-5.73%** on January 7, 2026 [^1].\n    *   The most recent data point (January 13, 2026) shows a TVL of approximately $3.53 billion, representing a daily growth of 3.86% [^1].\n\n*   **Revenue (Volume)**: Revenue figures show even greater daily swings, indicating high variability in trading activity [^1].\n    *   The highest revenue recorded was approximately $312.84 million on January 6, 2026 [^1].\n    *   The largest daily revenue growth was **94.60%** on January 5, 2026 [^1].\n    *   The largest daily revenue decline was **-50.96%** on January 10, 2026 [^1].\n    *   The revenue on January 13, 2026, was approximately $96.86 million, following a significant daily decline of -30.55% [^1].\n\n## Aerodrome Data Availability\n\nInformation regarding the TVL and revenue figures and growth for Aerodrome was not available. Therefore, a direct comparative investment case cannot be constructed at this time.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

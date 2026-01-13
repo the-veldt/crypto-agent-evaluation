@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "yC2pJu8i",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yC2pJu8i",
+    "query": "what have been the top projects to raise over the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": [
+      "fundraising"
+    ],
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Top Projects by Funding Raised in the Last 30 Days\n\nThe following projects have raised the largest amounts of funding in the last 30 days [^1]:\n\n| Project Name | Total Raised (USD) |\n| :--- | ---: |\n| Erebor | $350,000,000 |\n| Rain | $250,000,000 |\n| BlackOpal | $200,000,000 |\n| RedotPay | $107,000,000 |\n| Fuse Energy | $70,000,000 |\n| ICEx | $70,000,000 |\n| Metya | $50,000,000 |\n| Architect | $35,000,000 |\n| Olea | $30,000,000 |\n| VelaFi | $20,000,000 |\n\nErebor was the top project, raising $350 million, followed by Rain with $250 million, and BlackOpal with $200 million [^1].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "WcL3oMz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcL3oMz8",
+    "query": "Looking at the latest content, what are the latest narratives and trends in crypto",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_uuRimWBSorQfEcspXAxMGLMs\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"include_global\": true\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_03b3fbfc55e6d05a006966bb1a1864819186aafce7bd2206e4\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Global crypto narrative map: rails → perps → prediction → agents (Jan 2026)](https://dummyimage.com/1200x550/0b1220/ffffff&text=Institutional+Rails+%7C+Perps+CLOBs+%7C+Prediction+Markets+%7C+Agentic+AI)\\n\\n## The market is bifurcating: “durable rails” vs “speculative throughput”\\n**Durable flows** are concentrating around **stablecoin settlement + tokenized TradFi** on **Solana, Base, and major L2s**. This isn’t narrative-only: pilots are moving closer to production, which pulls in **custody, compliance plumbing, proof-of-reserves, and settlement routing** demand.\\n\\n**Speculative flows** remain dominated by **memecoin/launchpad cycles** that create short-lived liquidity shocks, validator stress, and MEV distortion—especially on high-throughput chains. The pattern: launch → throughput spike → spreads widen → liquidity drains → blame/accusations → next launch.\\n\\n## Prediction markets are turning into a real trading vertical\\nPrediction markets are scaling via **distribution partnerships** (media/data pipes) and better tooling, not just more gamblers. The key shift: they’re becoming **data-driven venues** with **bots/agents**, analytics terminals, and arbitrage stacks.\\n\\n- The ecosystem is now deep enough that **tools compete on execution + information edge**, not “access.”\\n- Regulatory friction is rising in parallel, which will likely segment liquidity between **KYC’d rails vs offshore/permissionless** venues.\\n\\n<post id=\\\"344185\\\"></post>\\n\\n## Perps are professionalizing into institutional-grade market structure\\nOnchain derivatives are converging on:\\n- **Permissioned / semi-permissioned CLOBs** for better execution and compliance routing  \\n- **Yield-bearing collateral** (ex: **USDe-margined perps**) to improve capital efficiency  \\n- **MM bridges + tighter spreads** to attract larger counterparties  \\n\\nThis is the “TradFi playbook” showing up onchain: better matching, better risk engines, better collateral, better distribution.\\n\\n## Agentic AI is moving from demos to paid, operational products\\nThe trend isn’t “agents exist,” it’s **agents getting funded wallets, persistent workflows, and billable primitives** (paid inference, enterprise key management, auditable execution). That’s the commercialization step that creates real revenue instead of vibes.\\n\\nNet: **rails (stablecoins/RWAs), perps market structure, prediction markets distribution, and agent monetization** are the four narratives with the most structural follow-through right now.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_03b3fbfc55e6d05a006966bb1b4aa081919da2cc33c90f4c02\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Global crypto narrative map: rails → perps → prediction → agents (Jan 2026)](https://dummyimage.com/1200x550/0b1220/ffffff&text=Institutional+Rails+%7C+Perps+CLOBs+%7C+Prediction+Markets+%7C+Agentic+AI)\n\n## The market is bifurcating: “durable rails” vs “speculative throughput”\n**Durable flows** are concentrating around **stablecoin settlement + tokenized TradFi** on **Solana, Base, and major L2s**. This isn’t narrative-only: pilots are moving closer to production, which pulls in **custody, compliance plumbing, proof-of-reserves, and settlement routing** demand.\n\n**Speculative flows** remain dominated by **memecoin/launchpad cycles** that create short-lived liquidity shocks, validator stress, and MEV distortion—especially on high-throughput chains. The pattern: launch → throughput spike → spreads widen → liquidity drains → blame/accusations → next launch.\n\n## Prediction markets are turning into a real trading vertical\nPrediction markets are scaling via **distribution partnerships** (media/data pipes) and better tooling, not just more gamblers. The key shift: they’re becoming **data-driven venues** with **bots/agents**, analytics terminals, and arbitrage stacks.\n\n- The ecosystem is now deep enough that **tools compete on execution + information edge**, not “access.”\n- Regulatory friction is rising in parallel, which will likely segment liquidity between **KYC’d rails vs offshore/permissionless** venues.\n\n<post id=\"344185\"></post>\n\n## Perps are professionalizing into institutional-grade market structure\nOnchain derivatives are converging on:\n- **Permissioned / semi-permissioned CLOBs** for better execution and compliance routing  \n- **Yield-bearing collateral** (ex: **USDe-margined perps**) to improve capital efficiency  \n- **MM bridges + tighter spreads** to attract larger counterparties  \n\nThis is the “TradFi playbook” showing up onchain: better matching, better risk engines, better collateral, better distribution.\n\n## Agentic AI is moving from demos to paid, operational products\nThe trend isn’t “agents exist,” it’s **agents getting funded wallets, persistent workflows, and billable primitives** (paid inference, enterprise key management, auditable execution). That’s the commercialization step that creates real revenue instead of vibes.\n\nNet: **rails (stablecoins/RWAs), perps market structure, prediction markets distribution, and agent monetization** are the four narratives with the most structural follow-through right now.",
+    "executionTimeMs": 14779,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "include_global": true
+        }
+      }
+    ],
+    "totalTokens": 28339
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "4tSfYb9k",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4tSfYb9k",
+    "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 579
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11548
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "The current landscape of Solana and Base represents two different philosophies of blockchain growth: Solana is the \"High-Performance Execution Engine,\" while Base is the \"Distribution & UX Funnel.\"\n\n### 1. Core Trends: Where the Activity Is\n| Trend Category | **Solana** (The Casino & Payment Rail) | **Base** (The Social & Retail Hub) |\n| :--- | :--- | :--- |\n| **Primary Driver** | **Meme Coin Mania:** Driven by platforms like Pump.fun, Solana has become the global hub for retail speculation. | **SocialFi & Content:** Dominated by Farcaster (Warpcast) and Zora. It is where \"Onchain Summer\" lives through social engagement. |\n| **Emerging Trend** | **Stablecoin Payments:** Stripe’s $1.1B acquisition of Bridge highlighted Solana’s role as the premier rail for sub-penny payments. | **AI Agents:** Base is leading the \"AI-to-AI\" economy, with autonomous agents transacting via Coinbase’s developer tools. |\n| **Infrastructure** | **Hardware Integration:** The Saga and upcoming **Seeker** phones create a unique mobile-native ecosystem. | **Smart Wallets:** The launch of the Coinbase Smart Wallet (passkeys, gasless) has removed the \"seed phrase\" barrier for retail. |\n\n---\n\n### 2. Moat-Like Characteristics: Who has the Deeper Trench?\nA \"moat\" in crypto is defined by network effects, switching costs, and brand trust.\n\n*   **Solana’s Moat: Integrated Performance & Community**\n    *   **Vertical Integration:** Solana’s moat is its \"monolithic\" stack. By controlling hardware (phones) and software (high-speed execution), they offer an experience that is technically \"impossible\" on other chains.\n    *   **Speed as a Moat:** For high-frequency trading (HFT) and real-time gaming, Solana's low latency (400ms block times) creates a moat where developers cannot easily migrate to a slower L2 without breaking their UX.\n    *   **Resilience:** After the FTX collapse, Solana’s community became one of the most battle-hardened and loyal in crypto, creating a cultural moat.\n\n*   **Base’s Moat: Distribution & \"The Coinbase Funnel\"**\n    *   **Distribution (The 100M+ Moat):** Base’s greatest moat is Coinbase. It has a direct pipeline to 100M+ KYC-verified users, providing an \"easy button\" for retail capital to flow onchain.\n    *   **The Smart Wallet:** By allowing users to sign up with Biometrics (Passkeys) and sponsoring gas fees, Base is building a moat based on **frictionless UX**. Once a user is \"stuck\" in a seamless ecosystem, the switching cost to a complex seed-phrase chain (like Solana) becomes high.\n    *   **Ethereum Alignment:** Base leverages Ethereum’s security and liquidity, making it the \"safe\" choice for institutions already comfortable with ETH.\n\n---\n\n### 3. Sustainability: Which is Rooted for the Long Term?\n\n**Solana: Economic Sustainability via High Velocity**\nSolana’s sustainability relies on **volume**. It generates massive fees from DEX activity ($550M+ monthly in peak periods). However, it faces \"inflation sustainability\" questions—it must maintain high transaction counts to offset the costs of hardware-intensive validation. It is a \"high-burn, high-reward\" model that thrives as long as it remains the fastest execution layer.\n\n**Base: Structural Sustainability via Institutional Backing**\nBase is structurally more sustainable in a traditional sense. It doesn't have its own token to subsidize; instead, it generates revenue for Coinbase and the Optimism \"Superchain.\" \n*   **Revenue Sharing:** Base contributes a portion of its sequencer revenue to the Optimism Collective, ensuring it remains part of a larger, collaborative ecosystem.\n*   **Corporate Backing:** As long as Coinbase exists, Base has a multi-billion dollar balance sheet supporting its R&D and user acquisition.\n\n### Final Verdict: Which is more \"Rooted\"?\n*   **Solana** is more **technologically rooted**. Its moat is built on a \"better mousetrap\"—a faster, cheaper engine that attracts the most aggressive and innovative developers. Its sustainability is tied to its ability to remain the undisputed king of performance.\n*   **Base** is more **economically and socially rooted**. Its moat is built on the \"trust and distribution\" of Coinbase. If you believe the future of crypto is onboarding \"the next billion\" through familiar apps and social networks, Base has the more sustainable moat.\n\n**In short:** Solana is the **Las Vegas** of crypto (fast-paced, high revenue, high risk), while Base is the **Apple Store** (controlled, user-friendly, and backed by a giant).",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 23500
+        }
+      }
+    ],
+    "finalAnswer": "The current landscape of Solana and Base represents two different philosophies of blockchain growth: Solana is the \"High-Performance Execution Engine,\" while Base is the \"Distribution & UX Funnel.\"\n\n### 1. Core Trends: Where the Activity Is\n| Trend Category | **Solana** (The Casino & Payment Rail) | **Base** (The Social & Retail Hub) |\n| :--- | :--- | :--- |\n| **Primary Driver** | **Meme Coin Mania:** Driven by platforms like Pump.fun, Solana has become the global hub for retail speculation. | **SocialFi & Content:** Dominated by Farcaster (Warpcast) and Zora. It is where \"Onchain Summer\" lives through social engagement. |\n| **Emerging Trend** | **Stablecoin Payments:** Stripe’s $1.1B acquisition of Bridge highlighted Solana’s role as the premier rail for sub-penny payments. | **AI Agents:** Base is leading the \"AI-to-AI\" economy, with autonomous agents transacting via Coinbase’s developer tools. |\n| **Infrastructure** | **Hardware Integration:** The Saga and upcoming **Seeker** phones create a unique mobile-native ecosystem. | **Smart Wallets:** The launch of the Coinbase Smart Wallet (passkeys, gasless) has removed the \"seed phrase\" barrier for retail. |\n\n---\n\n### 2. Moat-Like Characteristics: Who has the Deeper Trench?\nA \"moat\" in crypto is defined by network effects, switching costs, and brand trust.\n\n*   **Solana’s Moat: Integrated Performance & Community**\n    *   **Vertical Integration:** Solana’s moat is its \"monolithic\" stack. By controlling hardware (phones) and software (high-speed execution), they offer an experience that is technically \"impossible\" on other chains.\n    *   **Speed as a Moat:** For high-frequency trading (HFT) and real-time gaming, Solana's low latency (400ms block times) creates a moat where developers cannot easily migrate to a slower L2 without breaking their UX.\n    *   **Resilience:** After the FTX collapse, Solana’s community became one of the most battle-hardened and loyal in crypto, creating a cultural moat.\n\n*   **Base’s Moat: Distribution & \"The Coinbase Funnel\"**\n    *   **Distribution (The 100M+ Moat):** Base’s greatest moat is Coinbase. It has a direct pipeline to 100M+ KYC-verified users, providing an \"easy button\" for retail capital to flow onchain.\n    *   **The Smart Wallet:** By allowing users to sign up with Biometrics (Passkeys) and sponsoring gas fees, Base is building a moat based on **frictionless UX**. Once a user is \"stuck\" in a seamless ecosystem, the switching cost to a complex seed-phrase chain (like Solana) becomes high.\n    *   **Ethereum Alignment:** Base leverages Ethereum’s security and liquidity, making it the \"safe\" choice for institutions already comfortable with ETH.\n\n---\n\n### 3. Sustainability: Which is Rooted for the Long Term?\n\n**Solana: Economic Sustainability via High Velocity**\nSolana’s sustainability relies on **volume**. It generates massive fees from DEX activity ($550M+ monthly in peak periods). However, it faces \"inflation sustainability\" questions—it must maintain high transaction counts to offset the costs of hardware-intensive validation. It is a \"high-burn, high-reward\" model that thrives as long as it remains the fastest execution layer.\n\n**Base: Structural Sustainability via Institutional Backing**\nBase is structurally more sustainable in a traditional sense. It doesn't have its own token to subsidize; instead, it generates revenue for Coinbase and the Optimism \"Superchain.\" \n*   **Revenue Sharing:** Base contributes a portion of its sequencer revenue to the Optimism Collective, ensuring it remains part of a larger, collaborative ecosystem.\n*   **Corporate Backing:** As long as Coinbase exists, Base has a multi-billion dollar balance sheet supporting its R&D and user acquisition.\n\n### Final Verdict: Which is more \"Rooted\"?\n*   **Solana** is more **technologically rooted**. Its moat is built on a \"better mousetrap\"—a faster, cheaper engine that attracts the most aggressive and innovative developers. Its sustainability is tied to its ability to remain the undisputed king of performance.\n*   **Base** is more **economically and socially rooted**. Its moat is built on the \"trust and distribution\" of Coinbase. If you believe the future of crypto is onboarding \"the next billion\" through familiar apps and social networks, Base has the more sustainable moat.\n\n**In short:** Solana is the **Las Vegas** of crypto (fast-paced, high revenue, high risk), while Base is the **Apple Store** (controlled, user-friendly, and backed by a giant).",
+    "executionTimeMs": 23418,
+    "totalTokens": 35627,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana vs Base core trends 2024 2025"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana moat characteristics vs Base moat characteristics"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana vs Base sustainability and long term growth potential 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Base SocialFi trends 2024 2025 beyond Friend.tech"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana Saga Seeker phone moat strategy"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Coinbase Smart Wallet impact on Base network moat"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

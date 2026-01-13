@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 757
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 16805
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 20186
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 23571
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 24451
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 27345
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 28006
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "“Mindshare” can mean a few things (social mentions, pageviews, search interest, user activity). Using publicly visible proxies over the last ~24 hours, these projects stand out for the biggest attention gains:\n\n- Solana (SOL) — Prominent media coverage and social buzz tied to X’s new “Smart Cashtags” highlighting SOL; multiple pieces focused on SOL price and network growth. Sources: Coinspeaker, NewsBTC/TradingView syndication, HokaNews, CoinCentral, CryptoNewsFlash.\n  - https://www.coinspeaker.com/solana-145-level-network-growth\n  - https://www.tradingview.com/news/newsbtc:7d0fcaf77094b:0-solana-price-jumps-but-network-adoption-remains-weak\n  - https://www.hokanews.com/2026/01/x-rolls-out-smart-cashtags-puts-solana.html\n  - https://coincentral.com/solana-sol-price-x-platform-feature-puts-sol-tokens-in-the-spotlight\n  - https://www.crypto-news-flash.com/solana-x-integrates-live-market-data\n\n- Story Protocol (IP) — Notable price move and coverage as a leader among altcoin gainers, which typically correlates with sharp social chatter spikes. Sources: TradingView/Invezz news, CryptoNews.\n  - https://www.tradingview.com/news/invezz:a66448d3e094b:0-bitcoin-price-stuck-as-bulls-defend-90k-ip-xmr-lead-altcoins-with-double-digit-gains\n  - https://cryptonews.net/news/analytics/32263510\n\n- Monero (XMR) — Grouped with IP as a double‑digit gainer in major headlines, often triggering elevated mentions/forum discussion. Source:\n  - https://www.tradingview.com/news/invezz:a66448d3e094b:0-bitcoin-price-stuck-as-bulls-defend-90k-ip-xmr-lead-altcoins-with-double-digit-gains\n\n- Sui (SUI) — Exchange insights flagged a sharp volume surge, which commonly coincides with more watchlist additions and social mentions. Source:\n  - https://www.coinbase.com/price/sui\n\n- NEAR Protocol (NEAR) — Covered for an intraday spike and retrace; these quick moves tend to drive short‑term interest/searches. Source:\n  - https://www.coindesk.com/markets/2026/01/12/near-rises-5-7-to-usd1-73-before-giving-back-gains\n\nWant me to pull a stricter “mindshare gainers” ranking (e.g., 24h social dominance risers via Santiment/LunarCrush or CMC’s Most Visited movers), and filter by market cap/exclude micro‑caps? If you specify the metric you care about most, I’ll fetch a ranked list.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 29284
+        }
+      }
+    ],
+    "finalAnswer": "“Mindshare” can mean a few things (social mentions, pageviews, search interest, user activity). Using publicly visible proxies over the last ~24 hours, these projects stand out for the biggest attention gains:\n\n- Solana (SOL) — Prominent media coverage and social buzz tied to X’s new “Smart Cashtags” highlighting SOL; multiple pieces focused on SOL price and network growth. Sources: Coinspeaker, NewsBTC/TradingView syndication, HokaNews, CoinCentral, CryptoNewsFlash.\n  - https://www.coinspeaker.com/solana-145-level-network-growth\n  - https://www.tradingview.com/news/newsbtc:7d0fcaf77094b:0-solana-price-jumps-but-network-adoption-remains-weak\n  - https://www.hokanews.com/2026/01/x-rolls-out-smart-cashtags-puts-solana.html\n  - https://coincentral.com/solana-sol-price-x-platform-feature-puts-sol-tokens-in-the-spotlight\n  - https://www.crypto-news-flash.com/solana-x-integrates-live-market-data\n\n- Story Protocol (IP) — Notable price move and coverage as a leader among altcoin gainers, which typically correlates with sharp social chatter spikes. Sources: TradingView/Invezz news, CryptoNews.\n  - https://www.tradingview.com/news/invezz:a66448d3e094b:0-bitcoin-price-stuck-as-bulls-defend-90k-ip-xmr-lead-altcoins-with-double-digit-gains\n  - https://cryptonews.net/news/analytics/32263510\n\n- Monero (XMR) — Grouped with IP as a double‑digit gainer in major headlines, often triggering elevated mentions/forum discussion. Source:\n  - https://www.tradingview.com/news/invezz:a66448d3e094b:0-bitcoin-price-stuck-as-bulls-defend-90k-ip-xmr-lead-altcoins-with-double-digit-gains\n\n- Sui (SUI) — Exchange insights flagged a sharp volume surge, which commonly coincides with more watchlist additions and social mentions. Source:\n  - https://www.coinbase.com/price/sui\n\n- NEAR Protocol (NEAR) — Covered for an intraday spike and retrace; these quick moves tend to drive short‑term interest/searches. Source:\n  - https://www.coindesk.com/markets/2026/01/12/near-rises-5-7-to-usd1-73-before-giving-back-gains\n\nWant me to pull a stricter “mindshare gainers” ranking (e.g., 24h social dominance risers via Santiment/LunarCrush or CMC’s Most Visited movers), and filter by market cap/exclude micro‑caps? If you specify the metric you care about most, I’ll fetch a ranked list.",
+    "executionTimeMs": 114948,
+    "totalTokens": 170405,
+    "stepCount": 8,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "LunarCrush 24h social dominance gainers today crypto",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Santiment top social gainers 24 hours today crypto",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"Top Social Gainers\" Santiment today",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "CoinMarketCap trending coins 24h today social mentions",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto projects with most social volume increase last 24 hours",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Santiment \"Top social gainers\" today 24h 2026-01-13",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "LunarCrush top 10 coins social activity last 24 hours today",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "CoinGecko trending search coins today 24 hours list",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "www.coingecko.com",
+            "coingecko.com"
+          ],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:coinmarketcap.com \"Most Visited\" cryptocurrencies last 24 hours list",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coinmarketcap.com"
+          ],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:cryptorank.io/trending Trending Coins and Tokens list",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cryptorank.io"
+          ],
+          "maxCharacters": 1800
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "LunarCrush Top 10 trending coins 24h January 13 2026 social activity",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "lunarcrush.com",
+            "www.lunarcrush.com",
+            "x.com",
+            "twitter.com"
+          ],
+          "maxCharacters": 1800
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "Tk3lWx4s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Tk3lWx4s",
+    "query": "pull the top latest tweets in crypto - what are the key discussions, projects, and narratives? Assess the sentiment and importance of each",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Top Crypto Tweets Summary (Jan 10-13, 2026)\n\nData from high-engagement tweets (min 50+ likes, recent focus). **Key narrative: Solana dominance and X integration** dominates discussions, with green market backdrop (BTC +1.91%, ETH +2.29%, top 10 avg +1.33% over 24h). Limited results from ultra-recent 24h searches (post-Jan 12); Solana tweets from Jan 11 show strongest signal.\n\n### Key Discussions, Projects & Narratives\n\n| Topic/Project | Key Tweets & Details | Sentiment | Importance (1-10) |\n|---------------|----------------------|-----------|-------------------|\n| **Solana ($SOL, #6 mcap, $81B)**<br>X/Twitter integration & chain rivalry | - @coinbureau (2.9K likes): \"Solana built directly into X\" post-price tracking announcement.<br>- @KyleSamani (806 likes): Solana mainnet to rival CEX liquidity/volume by EOY.<br>- @Whale_Guru (394 likes): Solana \"only real winner\" for on-chain apps (vs ETH slow/high fees, BNB/Base).<br>- @dogeofficialceo (553 likes): Conflict? X Product Head advises Solana.<br>- Solana official: Tether $175B USDT unification case study. | **Mostly positive** (hype on adoption/liquidity; minor skepticism on conflicts). Bullish predictions amplify. | **9/10**<br>High volume engagement; X tie-in could drive mass adoption/TVL. Ties to \"on-chain everything\" narrative. Monitor X rollout. |\n| **Broader Market**<br>Stablecoins/DeFi infra | - Solana/Tether mesh for liquidity (official tweet, 306 likes).<br>No high-engagement BTC/ETH tweets in scan (errors on project-specific pulls). | Neutral-positive | **5/10**<br>Infra plays supportive; no standalone buzz. |\n\n## Sentiment Overview\n- **Overall Bullish**: 80%+ tweets positive on Solana momentum amid market gains. Hype around usability/liquidity vs L1 competitors (ETH gas critique recurring).\n- **Risks**: Minor FUD on X advisor conflict – low traction vs hype.\n\n## Conclusions\n**Bottom line**: Solana leads latest crypto Twitter with X integration narrative positioning it as \"CEX killer\" for everyday on-chain use. **Opportunity**: SOL exposure if rollout confirms (current $143, +0.3% 24h). **Monitor**: X announcements, competing L2s (Base/BNB), next 24h tweet volume for confirmation. Data sparse post-Jan 12; green top-10 mcaps support risk-on vibe.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

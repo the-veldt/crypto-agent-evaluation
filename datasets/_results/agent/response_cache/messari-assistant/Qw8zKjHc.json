@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Assets with the Largest Mindshare Rank Gain\n\nThe assets that have experienced the most significant gain in mindshare rank over the last 24 hours are those with the largest negative change in rank, indicating they moved up the rankings [^1].\n\nThe top five assets with the largest mindshare rank gain are [^1]:\n\n1.  **Immutable X**: -878 rank change\n2.  **Keeta**: -780 rank change\n3.  **NEO**: -680 rank change\n4.  **Story Protocol**: -663 rank change\n5.  **Arweave**: -607 rank change\n\n### Top 20 Assets by Mindshare Rank Gain\n\nThe following table details the top 20 assets that have seen the largest improvement in their mindshare rank [^1]:\n\n| Asset Name | Mindshare Rank Change (Gain) |\n| :--- | :--- |\n| Immutable X | -878 |\n| Keeta | -780 |\n| NEO | -680 |\n| Story Protocol | -663 |\n| Arweave | -607 |\n| MYX Finance | -547 |\n| World Network | -529 |\n| pippin | -525 |\n| Flare Network | -525 |\n| WETH | -509 |\n| Turbo | -397 |\n| PAX Gold | -386 |\n| Mantle Network | -386 |\n| USDT0 | -385 |\n| JUST | -369 |\n| Sun Token | -334 |\n| VeChain | -327 |\n| PancakeSwap | -305 |\n| Ondo Finance | -271 |\n| SOON | -261 |",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

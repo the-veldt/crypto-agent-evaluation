@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "yC2pJu8i",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yC2pJu8i",
+    "query": "what have been the top projects to raise over the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": [
+      "fundraising"
+    ],
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 505
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 668
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 7698
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 23529
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 31682
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 32017
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 38802
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "Here are the biggest crypto / crypto-adjacent raises I can find from the last 30 days (rough window: ~Dec 14, 2025 → Jan 13, 2026). I’ve listed name, amount, round/type, date and a source for each. Want this as a CSV or deeper write-up on any of them?\n\nTop raises (last ~30 days)\n1. Rain — $250M (Series C) — Jan 9, 2026  \n   Source: PR Newswire / Coinpaper / coverage summary: https://www.prnewswire.com/apac/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-enterprises-302657107.html\n\n2. HashKey (HashKey Capital) — $250M (first close of Fund IV) — Dec 24, 2025  \n   Source: CoinDesk / HashKey announcement: https://www.coindesk.com/business/2025/12/24/hashkey-capital-s-usd500-million-target-blockchain-fund-raises-usd250-million-in-first-round\n\n3. BlackOpal — $200M (anchor facility / RWA tokenization facility) — Jan 8–9, 2026  \n   Source: GlobeNewswire / Crypto.news summary: https://www.globenewswire.com/news-release/2026/01/08/3215748/0/en/BlackOpal-Secures-200M-to-Tokenize-Brazilian-Credit-Card-Receivables.html\n\n4. RedotPay — ~$107M (Series B) — Dec 16, 2025  \n   Source: PR/press coverage (CoinDesk/CoinMarketCap): https://www.coindesk.com/markets/2025/12/16/hong-kongs-redotpay-raises-over-usd100-million-series-b-to-push-stablecoin-payments-globally/\n\n5. Olea — $30M (Series A) — Dec 16, 2025  \n   Source: Company release / Olea: https://olea.net/olea-secures-us30-million-series-a-funding-to-accelerate-innovation-in-global-trade-finance/index.html\n\n6. Babylon — $15M (strategic/VC investment — a16z Crypto) — Jan 7, 2026  \n   Source: Coverage: https://crypto.news/babylon-15m-investment-a16z-bitcoin-staking-2025/\n\n7. ETHGas — $12M (seed) — Dec 17, 2025  \n   Source: CryptoTicker: https://cryptoticker.io/en/ethgas-raises-dollar12m-as-it-launches-ethereums-first-blockspace-futures-market/\n\n8. YO Labs — $10M — Dec 14, 2025  \n   Source: CoinDesk: https://www.coindesk.com/web3/2025/12/13/yo-labs-raises-usd10m-to-scale-cross-chain-crypto-yield-optimization-protocol\n\n9. HabitTrade — $10M — early Jan 2026 (listed in VC roundup)  \n   Source: Messari / VC weekly roundup mentioning HabitTrade among notable deals\n\n10. ZenChain — $8.5M — early Jan 2026 (mentioned in VC roundup)  \n    Source: Messari / VC weekly roundup\n\nNotes / caveats\n- I focused on crypto / Web3 / stablecoin / RWA-tokenization deals in the period; some large AI / infra raises (xAI, Anthropic) also closed in the same window but they’re outside pure-crypto scope.  \n- Some items (e.g., BlackOpal) were structured facilities / anchor commitments rather than equity VC rounds — I included them because they’re major capital inflows into tokenization / RWA crypto infrastructure.  \n- Coverage and reported amounts vary by outlet; if you need fully validated deal terms I can open primary press releases or filings and compile a verified table (amount, type, lead investors, valuation if disclosed).\n\nWould you like:\n- a downloadable CSV of these deals,\n- a deeper profile on any of the projects (team, token, roadmap, investor list), or\n- a filtered list (only token raises / only equity rounds / only on-chain treasury buys)?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 47695
+        }
+      }
+    ],
+    "finalAnswer": "Here are the biggest crypto / crypto-adjacent raises I can find from the last 30 days (rough window: ~Dec 14, 2025 → Jan 13, 2026). I’ve listed name, amount, round/type, date and a source for each. Want this as a CSV or deeper write-up on any of them?\n\nTop raises (last ~30 days)\n1. Rain — $250M (Series C) — Jan 9, 2026  \n   Source: PR Newswire / Coinpaper / coverage summary: https://www.prnewswire.com/apac/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-enterprises-302657107.html\n\n2. HashKey (HashKey Capital) — $250M (first close of Fund IV) — Dec 24, 2025  \n   Source: CoinDesk / HashKey announcement: https://www.coindesk.com/business/2025/12/24/hashkey-capital-s-usd500-million-target-blockchain-fund-raises-usd250-million-in-first-round\n\n3. BlackOpal — $200M (anchor facility / RWA tokenization facility) — Jan 8–9, 2026  \n   Source: GlobeNewswire / Crypto.news summary: https://www.globenewswire.com/news-release/2026/01/08/3215748/0/en/BlackOpal-Secures-200M-to-Tokenize-Brazilian-Credit-Card-Receivables.html\n\n4. RedotPay — ~$107M (Series B) — Dec 16, 2025  \n   Source: PR/press coverage (CoinDesk/CoinMarketCap): https://www.coindesk.com/markets/2025/12/16/hong-kongs-redotpay-raises-over-usd100-million-series-b-to-push-stablecoin-payments-globally/\n\n5. Olea — $30M (Series A) — Dec 16, 2025  \n   Source: Company release / Olea: https://olea.net/olea-secures-us30-million-series-a-funding-to-accelerate-innovation-in-global-trade-finance/index.html\n\n6. Babylon — $15M (strategic/VC investment — a16z Crypto) — Jan 7, 2026  \n   Source: Coverage: https://crypto.news/babylon-15m-investment-a16z-bitcoin-staking-2025/\n\n7. ETHGas — $12M (seed) — Dec 17, 2025  \n   Source: CryptoTicker: https://cryptoticker.io/en/ethgas-raises-dollar12m-as-it-launches-ethereums-first-blockspace-futures-market/\n\n8. YO Labs — $10M — Dec 14, 2025  \n   Source: CoinDesk: https://www.coindesk.com/web3/2025/12/13/yo-labs-raises-usd10m-to-scale-cross-chain-crypto-yield-optimization-protocol\n\n9. HabitTrade — $10M — early Jan 2026 (listed in VC roundup)  \n   Source: Messari / VC weekly roundup mentioning HabitTrade among notable deals\n\n10. ZenChain — $8.5M — early Jan 2026 (mentioned in VC roundup)  \n    Source: Messari / VC weekly roundup\n\nNotes / caveats\n- I focused on crypto / Web3 / stablecoin / RWA-tokenization deals in the period; some large AI / infra raises (xAI, Anthropic) also closed in the same window but they’re outside pure-crypto scope.  \n- Some items (e.g., BlackOpal) were structured facilities / anchor commitments rather than equity VC rounds — I included them because they’re major capital inflows into tokenization / RWA crypto infrastructure.  \n- Coverage and reported amounts vary by outlet; if you need fully validated deal terms I can open primary press releases or filings and compile a verified table (amount, type, lead investors, valuation if disclosed).\n\nWould you like:\n- a downloadable CSV of these deals,\n- a deeper profile on any of the projects (team, token, roadmap, investor list), or\n- a filtered list (only token raises / only equity rounds / only on-chain treasury buys)?",
+    "executionTimeMs": 100027,
+    "totalTokens": 182596,
+    "stepCount": 8,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto funding rounds last 30 days December 14 2025 to January 13 2026 largest raises crypto raises 'raised' 'funding' 'Series' 'seed' 'venture' 'last 30 days'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coindesk.com",
+            "cointelegraph.com",
+            "theblock.co",
+            "decrypt.co",
+            "techcrunch.com",
+            "paradigm",
+            "pitchbook.com",
+            "forbes.com",
+            "ft.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto funding rounds last 30 days \"raised\" \"funding\" \"Series\" \"venture\" December 2025 January 2026 largest raises crypto",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "biggest crypto fundraising December 2025 January 2026 'raised' 'crypto' 'series' 'funding' 'Series C' 'crypto firm' 'raised'",
+          "numResults": 20,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Crypto Funding Starts 2026 Strong $763M Pours Into Projects 'Rain' 'BlackOpal' 'Babylon' 'habittrade' 'top deals' Jan 2026 crypto.news",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "crypto.news"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Messari Crypto Venture Weekly January 5-9 2026 Rain Babylon HabitTrade ZenChain 'notable deals' 'Rain $250M' 'Babylon $15M' 'HabitTrade $10M' 'ZenChain $8.5M'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "messari.io"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "BlackOpal $200M raise 'BlackOpal' raised 200m crypto 'January 2026' 'BlackOpal' funding",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "HashKey Group bags $250m 'HashKey' raised $250M December 2025 'HashKey Group bags 250m' 'crypto.news'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

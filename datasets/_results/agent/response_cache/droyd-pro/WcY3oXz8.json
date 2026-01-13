@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "WcY3oXz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcY3oXz8",
+    "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+    "level": 2,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_eSbI0mDykBn0YePpZJKRezYj\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        513\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_032c79f46d736945006966bdf657748190aa0b3ec4f56ab4e9\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_PwgNU0GtTA6iuDUlJ2OCkXEy\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"2719\",\n        \"4474\",\n        \"6373\",\n        \"14335\",\n        \"15568\",\n        \"26291\",\n        \"31120\",\n        \"22544\"\n      ],\n      \"search_type\": \"project_id\",\n      \"limit\": 5\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_032c79f46d736945006966bdf7bcec8190b96d3b8978f9697b\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_lW8rae5huBI1jrp8a28i9uLb\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\",\n        \"developments\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 14,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        513\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_032c79f46d736945006966bdf8d4b481909b48befa10e0c608\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_I1vzlIAH0GRSVpcXQt7tSoev\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"DeFi narrative shift 2026 institutional rails tokenized deposits onchain perps buybacks yield tokenization PT YT confidential payments Base Canton CCIP\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\",\n        \"developments\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 45,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        513\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_032c79f46d736945006966bdfa4e4081909c8db7f8c396f8d2\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Top 10 buybacks by protocol in 2025](https://res.cloudinary.com/dgjriemfd/image/upload/v1767621091/veldt/jlnr7cj06iog7eiwgwxp.jpg)\\n\\nDeFi’s narrative shifted from **“TVL + emissions”** to **“rails + revenue + institutional settlement”**. Mindshare is concentrating around protocols that (1) own **orderflow**, (2) intermediate **dollars/collateral**, or (3) turn yield into **tradable duration**.\\n\\n## Protocols leading the narrative shift (and why)\\n\\n- **Hyperliquid (HYPE)**: the cleanest “DeFi is a cashflow business” story.\\n  - Hard datapoints: **~38.56M HYPE buyback (~$910M notional)** recently executed; **$804M total buybacks in 2025** surfaced in coverage; and it continues pushing new markets with real volume (e.g., **US500** hitting meaningful early volume).\\n  - Why it wins mindshare: it converts **sustained perps orderflow → recurring fees → visible token value capture**. That’s legible to TradFi brains.\\n\\n- **Chainlink (LINK)**: the institutional settlement middleware narrative.\\n  - Recent directionality: **CCIP** as the “standard pipe” for cross-chain value motion (e.g., Base↔Polygon asset mobility) and institutional tokenization stacks. The trend report explicitly ties “institutional rails” to Chainlink’s role in price feeds + interoperability.\\n  - Why mindshare: it’s becoming the **default integration point** when banks/issuers touch public rails.\\n\\n- **Aave (AAVE)**: not for innovation—because governance + distribution is the battleground.\\n  - Mindshare driver is conflict: the **frontend fee** dispute made “who owns the interface / who captures revenue” the key DeFi governance question again. That’s not bullish optics, but it’s narrative-central.\\n\\n- **Pendle (yield tokenization / PT-YT)**: fixed income primitives becoming the center of DeFi.\\n  - Coverage shows 2025 scale (**peak ~$12.9B TVL**, **~$34M revenue**) and the positioning as the venue where onchain duration gets priced.\\n  - Why mindshare: yields compressing pushes capital into **structured yield + hedging**, not passive lend pools.\\n\\n- **“Stablecoin + deposit rails” protocols (World Liberty Financial / USD1, plus the broader tokenized deposit stack)**  \\n  - Example: **World Liberty Markets** pulled **~$20M supplied at launch** and is running **~27% USD1 incentives**—a textbook “liquidity bootstrapped around a house stablecoin.”\\n  - Why mindshare: the market is re-rating anything that looks like **settlement liquidity concentration** (even when the growth is incentive-heavy).\\n\\n## What’s actually changing (signal > story)\\n\\n- **Revenue visibility > TVL optics**: buybacks and fee switches dominate discourse because they create **measurable token value capture**.\\n- **Perps/CLOBs > AMM novelty**: the highest-throughput products (perps, CLOBs, terminals) are where sustainable fees live.\\n- **Institutional settlement constraints shape winners**: interoperability (CCIP) and privacy/confidential payments (e.g., Base privacy primitives showing up) are becoming prerequisites for large flows.\\n\\nhttps://x.com/artemis/status/2010003726384480378\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_032c79f46d736945006966be1662f88190ba1e03620495bd60\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Top 10 buybacks by protocol in 2025](https://res.cloudinary.com/dgjriemfd/image/upload/v1767621091/veldt/jlnr7cj06iog7eiwgwxp.jpg)\n\nDeFi’s narrative shifted from **“TVL + emissions”** to **“rails + revenue + institutional settlement”**. Mindshare is concentrating around protocols that (1) own **orderflow**, (2) intermediate **dollars/collateral**, or (3) turn yield into **tradable duration**.\n\n## Protocols leading the narrative shift (and why)\n\n- **Hyperliquid (HYPE)**: the cleanest “DeFi is a cashflow business” story.\n  - Hard datapoints: **~38.56M HYPE buyback (~$910M notional)** recently executed; **$804M total buybacks in 2025** surfaced in coverage; and it continues pushing new markets with real volume (e.g., **US500** hitting meaningful early volume).\n  - Why it wins mindshare: it converts **sustained perps orderflow → recurring fees → visible token value capture**. That’s legible to TradFi brains.\n\n- **Chainlink (LINK)**: the institutional settlement middleware narrative.\n  - Recent directionality: **CCIP** as the “standard pipe” for cross-chain value motion (e.g., Base↔Polygon asset mobility) and institutional tokenization stacks. The trend report explicitly ties “institutional rails” to Chainlink’s role in price feeds + interoperability.\n  - Why mindshare: it’s becoming the **default integration point** when banks/issuers touch public rails.\n\n- **Aave (AAVE)**: not for innovation—because governance + distribution is the battleground.\n  - Mindshare driver is conflict: the **frontend fee** dispute made “who owns the interface / who captures revenue” the key DeFi governance question again. That’s not bullish optics, but it’s narrative-central.\n\n- **Pendle (yield tokenization / PT-YT)**: fixed income primitives becoming the center of DeFi.\n  - Coverage shows 2025 scale (**peak ~$12.9B TVL**, **~$34M revenue**) and the positioning as the venue where onchain duration gets priced.\n  - Why mindshare: yields compressing pushes capital into **structured yield + hedging**, not passive lend pools.\n\n- **“Stablecoin + deposit rails” protocols (World Liberty Financial / USD1, plus the broader tokenized deposit stack)**  \n  - Example: **World Liberty Markets** pulled **~$20M supplied at launch** and is running **~27% USD1 incentives**—a textbook “liquidity bootstrapped around a house stablecoin.”\n  - Why mindshare: the market is re-rating anything that looks like **settlement liquidity concentration** (even when the growth is incentive-heavy).\n\n## What’s actually changing (signal > story)\n\n- **Revenue visibility > TVL optics**: buybacks and fee switches dominate discourse because they create **measurable token value capture**.\n- **Perps/CLOBs > AMM novelty**: the highest-throughput products (perps, CLOBs, terminals) are where sustainable fees live.\n- **Institutional settlement constraints shape winners**: interoperability (CCIP) and privacy/confidential payments (e.g., Base privacy primitives showing up) are becoming prerequisites for large flows.\n\nhttps://x.com/artemis/status/2010003726384480378",
+    "executionTimeMs": 51691,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [],
+          "category_ids": [
+            513
+          ],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "2719",
+            "4474",
+            "6373",
+            "14335",
+            "15568",
+            "26291",
+            "31120",
+            "22544"
+          ],
+          "search_type": "project_id",
+          "limit": 5
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets",
+            "developments"
+          ],
+          "limit": 30,
+          "days_back": 14,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            513
+          ],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "DeFi narrative shift 2026 institutional rails tokenized deposits onchain perps buybacks yield tokenization PT YT confidential payments Base Canton CCIP",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets",
+            "developments"
+          ],
+          "limit": 25,
+          "days_back": 45,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            513
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 125249
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

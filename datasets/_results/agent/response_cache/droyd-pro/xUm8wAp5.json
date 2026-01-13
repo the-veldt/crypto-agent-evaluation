@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "xUm8wAp5",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "xUm8wAp5",
+    "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_WwFVpTDaVGU8pczYvf18DXCy\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"top revenue generating projects on Solana fees revenue growth catalysts\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0401a9f812804159006966b92c88e4819f85215738a1f66313\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_o7TN6YM8CwIPYXUAkO7ePP0f\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"21792\",\n        \"26420\",\n        \"6877\",\n        \"15222\",\n        \"21799\",\n        \"10838\",\n        \"6807\"\n      ],\n      \"search_type\": \"project_id\",\n      \"limit\": 1\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0401a9f812804159006966b945d48c819fa90836051217d9c2\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_vjyYXnHGXLdtqyWsfLSKUR7k\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"news\",\n        \"developments\",\n        \"posts\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 45,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [],\n      \"project_ids\": [\n        21792,\n        26420,\n        6877,\n        15222,\n        21799,\n        10838,\n        6807\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0401a9f812804159006966b9472730819fac3e4152563f5333\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Top Revenue 7D on Solana](https://res.cloudinary.com/dgjriemfd/image/upload/v1766353731/veldt/nlwslou9wkqvdurikxks.jpg)\\n\\nSolana’s top revenue stack is **attention monetization + market microstructure**. The leaders aren’t “best tech,” they’re the apps that sit directly on **flow** (launch → trade → leverage → custody) and can charge for **speed, distribution, and convenience** while Solana keeps base fees negligible.\\n\\n### Top revenue generators on Solana + what’s actually driving growth\\n\\n- **Pump.fun (Launchpad)**\\n  - **Catalyst:** memecoin issuance at industrial scale + fee design that taxes *turnover*, not *success*.\\n  - **Growth drivers:** huge launch counts, reflexive speculation loops, and fee system iteration (creator fee sharing, transferability of coin ownership, update authority controls) that keeps creators shipping and traders churning. The extreme case is days like **>$2B volume / ~$20M fees** (net-fee buyback/burn model amplifies the loop).\\n\\n- **Axiom / Axiom Pro (Trading terminal)**\\n  - **Catalyst:** users paying for **execution priority** and “landing rate” in crowded markets.\\n  - **Growth drivers:** monetization via **priority fees / tips / hidden tx fees** that traders tolerate because the product converts speed into PnL. This is the cleanest example of “Solana PFOF”: terminals can overcharge on priority and keep the spread between what users pay and what inclusion actually costs.\\n\\n- **Jupiter (Aggregator + perps + lending)**\\n  - **Catalyst:** bundling **multiple fee surfaces** into one distribution layer (spot routing, perps, lending, mobile).\\n  - **Growth drivers:** (1) routing dominance (orderflow gravity), (2) rapid product expansion (mobile pro terminal, rewards campaigns), and (3) **JupUSD** rollout (collateral unification across perps/lend/spot). Converting a large internal dollar base into its own stable collateral increases internal velocity and keeps volume “inside Jupiter.”\\n\\n- **Meteora (DEX / DLMM liquidity engine)**\\n  - **Catalyst:** concentrated liquidity with **dynamic fee capture** tuned for volatile, high-churn pairs (memecoins + long tail).\\n  - **Growth drivers:** DLMM becoming the default pool design for new launches + continuous LP tooling (pool discovery, onboarding, LP hub roadmap). Buyback signaling (reported cumulative buybacks) tightens the narrative around fee durability.\\n\\n- **Raydium (DEX liquidity layer)**\\n  - **Catalyst:** sits under a lot of Solana spot volume; monetizes raw swap flow.\\n  - **Growth drivers:** (1) memecoin liquidity gravity, (2) continued product surface expansion (perps refresh/competitions), and (3) buy-side catalysts like exchange distribution (Coinbase roadmap) that tends to lift volumes and LP depth, which loops back into fees.\\n\\n- **Phantom (Wallet)**\\n  - **Catalyst:** turning the wallet into a **distribution + trading** surface, not a passive container.\\n  - **Growth drivers:** embedded trading (terminal), perps, and new “non-DEX” revenue surfaces like **prediction markets** (Kalshi integration) and cross-chain swaps (BTC in/out). Wallet revenue grows when it owns **discovery + intent**.\\n\\nhttps://x.com/raikucom/status/2010728528749252912\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0401a9f812804159006966b94c14a4819faf6a10ab9bc40f7e\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Top Revenue 7D on Solana](https://res.cloudinary.com/dgjriemfd/image/upload/v1766353731/veldt/nlwslou9wkqvdurikxks.jpg)\n\nSolana’s top revenue stack is **attention monetization + market microstructure**. The leaders aren’t “best tech,” they’re the apps that sit directly on **flow** (launch → trade → leverage → custody) and can charge for **speed, distribution, and convenience** while Solana keeps base fees negligible.\n\n### Top revenue generators on Solana + what’s actually driving growth\n\n- **Pump.fun (Launchpad)**\n  - **Catalyst:** memecoin issuance at industrial scale + fee design that taxes *turnover*, not *success*.\n  - **Growth drivers:** huge launch counts, reflexive speculation loops, and fee system iteration (creator fee sharing, transferability of coin ownership, update authority controls) that keeps creators shipping and traders churning. The extreme case is days like **>$2B volume / ~$20M fees** (net-fee buyback/burn model amplifies the loop).\n\n- **Axiom / Axiom Pro (Trading terminal)**\n  - **Catalyst:** users paying for **execution priority** and “landing rate” in crowded markets.\n  - **Growth drivers:** monetization via **priority fees / tips / hidden tx fees** that traders tolerate because the product converts speed into PnL. This is the cleanest example of “Solana PFOF”: terminals can overcharge on priority and keep the spread between what users pay and what inclusion actually costs.\n\n- **Jupiter (Aggregator + perps + lending)**\n  - **Catalyst:** bundling **multiple fee surfaces** into one distribution layer (spot routing, perps, lending, mobile).\n  - **Growth drivers:** (1) routing dominance (orderflow gravity), (2) rapid product expansion (mobile pro terminal, rewards campaigns), and (3) **JupUSD** rollout (collateral unification across perps/lend/spot). Converting a large internal dollar base into its own stable collateral increases internal velocity and keeps volume “inside Jupiter.”\n\n- **Meteora (DEX / DLMM liquidity engine)**\n  - **Catalyst:** concentrated liquidity with **dynamic fee capture** tuned for volatile, high-churn pairs (memecoins + long tail).\n  - **Growth drivers:** DLMM becoming the default pool design for new launches + continuous LP tooling (pool discovery, onboarding, LP hub roadmap). Buyback signaling (reported cumulative buybacks) tightens the narrative around fee durability.\n\n- **Raydium (DEX liquidity layer)**\n  - **Catalyst:** sits under a lot of Solana spot volume; monetizes raw swap flow.\n  - **Growth drivers:** (1) memecoin liquidity gravity, (2) continued product surface expansion (perps refresh/competitions), and (3) buy-side catalysts like exchange distribution (Coinbase roadmap) that tends to lift volumes and LP depth, which loops back into fees.\n\n- **Phantom (Wallet)**\n  - **Catalyst:** turning the wallet into a **distribution + trading** surface, not a passive container.\n  - **Growth drivers:** embedded trading (terminal), perps, and new “non-DEX” revenue surfaces like **prediction markets** (Kalshi integration) and cross-chain swaps (BTC in/out). Wallet revenue grows when it owns **discovery + intent**.\n\nhttps://x.com/raikucom/status/2010728528749252912",
+    "executionTimeMs": 50854,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "top revenue generating projects on Solana fees revenue growth catalysts",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "21792",
+            "26420",
+            "6877",
+            "15222",
+            "21799",
+            "10838",
+            "6807"
+          ],
+          "search_type": "project_id",
+          "limit": 1
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "news",
+            "developments",
+            "posts"
+          ],
+          "limit": 20,
+          "days_back": 45,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [],
+          "project_ids": [
+            21792,
+            26420,
+            6877,
+            15222,
+            21799,
+            10838,
+            6807
+          ]
+        }
+      }
+    ],
+    "totalTokens": 85363
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

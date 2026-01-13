@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "4tSfYb9k",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4tSfYb9k",
+    "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\n\nSolana leads Base in both sustainability and moat-like characteristics as of 2026, due to its much larger ecosystem, developer activity, and proven fee/revenue generation, while Base—despite rapid growth—remains more dependent on Ethereum’s infrastructure and lacks a comparable independent moat. Solana’s network effects, technical differentiation, and financial metrics currently give it a stronger, more defensible position.\n\n───\n\nCore Trends: Solana vs Base\n\nSolana has cemented itself as a top-tier Layer 1 with a robust DeFi, NFT, and consumer app ecosystem. Its technical edge—high throughput, low fees, and unique consensus—continues to attract developers and users. In 2026, Solana maintains a total value locked (TVL) of over $20.9B, far outpacing Base’s $7.2B. Solana’s protocol fees and revenues are substantial, with over $1M in daily fees and a one-year average revenue of over $400K per day, reflecting real, sustainable demand for blockspace and on-chain activity.\n\nBase (an Ethereum Layer 2/rollup) has seen significant growth since its launch, especially in DeFi and meme coin activity. However, its moat is largely derived from its integration with Ethereum and Coinbase, rather than unique technical features or independent network effects. Base’s top protocols (such as SwapBased) have much lower TVL and fee generation compared to Solana. For instance, SwapBased’s 24h fees are under $20, and its annualized protocol fees are orders of magnitude below Solana’s numbers.\n\nSustainability\n\nSolana’s sustainability is evidenced by:\n- High developer engagement (over 11,000 GitHub stars, 3,500+ forks, 400+ contributors in the last month).\n- Deep and growing protocol revenues, indicating lasting demand.\n- A diverse and sticky ecosystem (DeFi, gaming, NFTs, consumer apps).\n- Continuous network upgrades and a clear focus on both scalability and user experience (Solana).\n- Community-aligned economic models (protocols redistributing fees to holders, transparent governance).\n\nBase’s sustainability is improving but faces challenges:\n- Its security and settlement depend on Ethereum, which is both a strength (security) and a limitation (innovation and independence).\n- Developer activity is rising but still lags behind Solana’s.\n- Fee and revenue generation are much lower, and its user base is more concentrated in speculative sectors (memecoins, new DeFi projects), which can be volatile.\n- The moat is more about Coinbase’s distribution and Ethereum’s brand than Base-specific innovations.\n\nMoat-Like Characteristics\n\nSolana’s moats:\n- Technical differentiation: unique consensus, high TPS, and low fees not easily replicated.\n- Network effects: large, loyal developer and user base.\n- Brand and mindshare: Solana is a top-10 chain by market cap and TVL, with strong presence in both retail and institutional circles.\n- Financials: consistently high protocol revenues and fees (protocol data).\n\nBase’s moats:\n- Deep integration with Coinbase (on/off-ramps, user funnel).\n- Ethereum security and composability.\n- However, it faces strong competition from other Ethereum L2s (Arbitrum, Optimism, zkSync) and lacks unique technical or economic features to lock in users/developers.\n\nSocial and Market Sentiment\n\nRecent social chatter confirms Solana’s dominance in sustainability narratives, with projects emphasizing transparent, community-aligned economics and long-term alignment. Base is recognized for its rapid growth but is not widely discussed as having a defensible moat or unique sustainability features.\n\nConclusion\n\nWhile Base is a rising force in the L2 space, Solana’s independent ecosystem, technical innovation, and strong financials give it a clear edge in sustainability and moat-like characteristics as of early 2026. Base’s future prospects will depend on whether it can evolve beyond being a “Coinbase L2” and develop its own unique value proposition.\n\nIf you want further breakdowns on specific sectors (DeFi, NFTs, developer activity), let me know.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

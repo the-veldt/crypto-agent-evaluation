@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.337Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 576
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 4835
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 5092
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9467
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 13624
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "As of today, **May 22, 2024**, the crypto market is experiencing a massive shift in mindshare, largely driven by regulatory pivots in the U.S. and significant price action in specific sectors.\n\nAccording to data from social intelligence platforms like **Kaito AI** and **LunarCrush**, the following projects and narratives have gained the most mindshare over the last 24 hours:\n\n### 1. Ethereum (ETH) & The \"ETF Beta\" Narrative\nEthereum is the clear leader in mindshare gain today. The sudden increase in the probability of a **Spot Ethereum ETF approval** (from 25% to over 75%) has caused a violent rotation of capital and attention back to the Ethereum ecosystem.\n*   **Top Gainers:** **ETH**, **LDO** (Lido), **ENA** (Ethena), and **PENDLE**.\n*   **Why:** These projects are viewed as the primary \"beta\" plays for Ethereum. Lido and Pendle specifically are seeing a surge in mentions as users speculate on the impact of an ETH ETF on staking and decentralized finance (DeFi) yields.\n\n### 2. PEPE (The Meme King of May)\nPEPE has captured a massive slice of the memecoin mindshare, reaching multiple **new all-time highs (ATHs)** in the last 24 hours.\n*   **Performance:** It has outperformed almost all other major memecoins (DOGE, SHIB, WIF) in social volume.\n*   **Why:** PEPE is currently seen as the \"lead horse\" for the current meme cycle, often trending alongside Ethereum because it is an ERC-20 token. When ETH pumps, PEPE has historically shown high correlation but with higher volatility.\n\n### 3. Notcoin (NOT)\nFollowing its recent listing and massive airdrop on major exchanges like Binance, **Notcoin** continues to dominate mindshare in the \"Tap-to-Earn\" and Telegram/TON ecosystem.\n*   **Social Impact:** It is one of the most discussed tokens on X (Twitter) and Telegram due to its massive user base (35M+ players) transitioning into on-chain holders.\n*   **Why:** The project is attempting to prove the viability of \"social distribution\" models, keeping it at the center of debate among researchers.\n\n### 4. Uniswap (UNI)\nUniswap has seen a significant rebound in mindshare following the broader DeFi rotation and a general feeling that the regulatory \"war\" (Wells Notice from the SEC) may be cooling off or that the market has already priced it in.\n*   **Trend:** As Ethereum gains attention, Uniswap—as the premier DEX on the network—is the natural beneficiary of increased trading volume and speculative interest.\n\n### 5. Hyperliquid (HYPE / Ecosystem)\nWhile the token (HYPE) is not yet live, the **Hyperliquid** platform consistently gains mindshare among \"power users\" and \"degens.\"\n*   **Why:** It is currently the leading decentralized perpetual exchange by volume, and the anticipation of its TGE (Token Generation Event) and ongoing points program keeps it at the top of social feeds for active traders.\n\n### Summary of Narrative Mindshare (Last 24h)\n| Narrative | Mindshare Trend | Key Projects |\n| :--- | :--- | :--- |\n| **ETH ETF** | 📈 Extreme Gain | ETH, LDO, PENDLE, ENA |\n| **Memecoins** | 📈 High (Stable) | PEPE, WIF, MOG |\n| **Social/Gaming** | ➡️ Neutral/High | NOT, Friend.tech |\n| **DeFi** | 📈 Rising | UNI, AAVE |\n\n**Research Tip:** If you are tracking \"mindshare\" specifically, keep an eye on **Kaito AI’s \"Mindshare\" dashboard**, which compares a project's share of the total crypto conversation against its market cap. Projects with high mindshare but low market cap are often considered \"undervalued\" in terms of attention.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 16316
+        }
+      }
+    ],
+    "finalAnswer": "As of today, **May 22, 2024**, the crypto market is experiencing a massive shift in mindshare, largely driven by regulatory pivots in the U.S. and significant price action in specific sectors.\n\nAccording to data from social intelligence platforms like **Kaito AI** and **LunarCrush**, the following projects and narratives have gained the most mindshare over the last 24 hours:\n\n### 1. Ethereum (ETH) & The \"ETF Beta\" Narrative\nEthereum is the clear leader in mindshare gain today. The sudden increase in the probability of a **Spot Ethereum ETF approval** (from 25% to over 75%) has caused a violent rotation of capital and attention back to the Ethereum ecosystem.\n*   **Top Gainers:** **ETH**, **LDO** (Lido), **ENA** (Ethena), and **PENDLE**.\n*   **Why:** These projects are viewed as the primary \"beta\" plays for Ethereum. Lido and Pendle specifically are seeing a surge in mentions as users speculate on the impact of an ETH ETF on staking and decentralized finance (DeFi) yields.\n\n### 2. PEPE (The Meme King of May)\nPEPE has captured a massive slice of the memecoin mindshare, reaching multiple **new all-time highs (ATHs)** in the last 24 hours.\n*   **Performance:** It has outperformed almost all other major memecoins (DOGE, SHIB, WIF) in social volume.\n*   **Why:** PEPE is currently seen as the \"lead horse\" for the current meme cycle, often trending alongside Ethereum because it is an ERC-20 token. When ETH pumps, PEPE has historically shown high correlation but with higher volatility.\n\n### 3. Notcoin (NOT)\nFollowing its recent listing and massive airdrop on major exchanges like Binance, **Notcoin** continues to dominate mindshare in the \"Tap-to-Earn\" and Telegram/TON ecosystem.\n*   **Social Impact:** It is one of the most discussed tokens on X (Twitter) and Telegram due to its massive user base (35M+ players) transitioning into on-chain holders.\n*   **Why:** The project is attempting to prove the viability of \"social distribution\" models, keeping it at the center of debate among researchers.\n\n### 4. Uniswap (UNI)\nUniswap has seen a significant rebound in mindshare following the broader DeFi rotation and a general feeling that the regulatory \"war\" (Wells Notice from the SEC) may be cooling off or that the market has already priced it in.\n*   **Trend:** As Ethereum gains attention, Uniswap—as the premier DEX on the network—is the natural beneficiary of increased trading volume and speculative interest.\n\n### 5. Hyperliquid (HYPE / Ecosystem)\nWhile the token (HYPE) is not yet live, the **Hyperliquid** platform consistently gains mindshare among \"power users\" and \"degens.\"\n*   **Why:** It is currently the leading decentralized perpetual exchange by volume, and the anticipation of its TGE (Token Generation Event) and ongoing points program keeps it at the top of social feeds for active traders.\n\n### Summary of Narrative Mindshare (Last 24h)\n| Narrative | Mindshare Trend | Key Projects |\n| :--- | :--- | :--- |\n| **ETH ETF** | 📈 Extreme Gain | ETH, LDO, PENDLE, ENA |\n| **Memecoins** | 📈 High (Stable) | PEPE, WIF, MOG |\n| **Social/Gaming** | ➡️ Neutral/High | NOT, Friend.tech |\n| **DeFi** | 📈 Rising | UNI, AAVE |\n\n**Research Tip:** If you are tracking \"mindshare\" specifically, keep an eye on **Kaito AI’s \"Mindshare\" dashboard**, which compares a project's share of the total crypto conversation against its market cap. Projects with high mindshare but low market cap are often considered \"undervalued\" in terms of attention.",
+    "executionTimeMs": 30224,
+    "totalTokens": 49910,
+    "stepCount": 6,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto projects most mindshare gain last 24 hours Kaito AI LunarCrush Santiment"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top mindshare gainers crypto Kaito AI May 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"Kaito AI\" mindshare gainers 24h May 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"Kaito AI\" top mindshare gainers May 22 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"Kaito AI\" mindshare gainers May 22 2024 Twitter"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "yC2pJu8i",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yC2pJu8i",
+    "query": "what have been the top projects to raise over the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": [
+      "fundraising"
+    ],
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_EAqXgKCLcqGixAqB0N0TorLK\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"fundraise seed series strategic raised financing round oversubscribed led by announced in the last 30 days top projects to raise\",\n      \"content_types\": [\n        \"news\",\n        \"posts\",\n        \"tweets\"\n      ],\n      \"limit\": 50,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0764287b484adaf6006966b5304db881a295c3d93a0172f41f\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_8oc2F13bn3GXPfN7PpYp25PC\",\n    \"toolName\": \"readPosts\",\n    \"input\": {\n      \"post_ids\": [\n        340588,\n        286380\n      ],\n      \"max_characters\": 6000,\n      \"image_limit\": 3\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0764287b484adaf6006966b549469481a29edf8c1ecb51dcdf\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![](https://res.cloudinary.com/dgjriemfd/image/upload/v1767995612/veldt/dof53d1xavismcaxhdtl.jpg)\\n\\n## Top projects to raise (last 30 days)\\n\\n**1) Rain — $250M Series C (Payments / stablecoin rails)**  \\n- **$250M** at **$1.95B valuation**  \\n- Led by **ICONIQ** with participation from **Dragonfly, Galaxy Ventures, Lightspeed**  \\n- Read: [Crypto Venture Weekly: Jan 5–9, 2026](https://messari.io/report/crypto-venture-weekly-january-5-9-2026)\\n\\n**2) RedotPay — $107M Series B (Payments / crypto cards)**  \\n- **$107M** Series B  \\n- Backers include **Goodwater, Pantera, Circle**  \\n- Category signal: “crypto neobank + card issuance” getting priced like fintech again\\n\\n**3) Fuse Energy — $70M Series B (DePIN / energy)**  \\n- **$70M** Series B  \\n- Backers include **Balderton, Lowercarbon**  \\n- DePIN is clearing late-stage rounds at aggressive valuations when there’s real-world deployment\\n\\n**4) Digital Asset — $50M strategic (Institutional infra / enterprise chain)**  \\n- **$50M** strategic  \\n- Backers include **BNY, Nasdaq, S&P Global**  \\n- This is “regulated rails + incumbents” capital, not narrative capital\\n\\n**5) LI.FI — $29M Extended Series A (Interop / routing layer)**  \\n- **$29M** extended Series A  \\n- Led by **Multicoin** + **CoinFund**  \\n- Interop is back in favor when it’s framed as **API distribution** rather than bridges\\n\\n**6) Real Finance — $29M (RWA tokenization)**  \\n- **$29M** funding led by **Nimbus Capital** (plus others)  \\n- RWAs continue to fundraise cleanly when they sell **distribution + compliance** (not “tokenize everything”)\\n\\n![](https://res.cloudinary.com/dgjriemfd/image/upload/v1765576847/veldt/kdzus5kw7rgpdmm0hcfc.jpg)\\n\\n## Next tier (still meaningful rounds showing where money is flowing)\\n\\nFrom the same 30-day window of venture weekly coverage:  \\n- **Babylon — $15M** private token sale (**Bitcoin staking → lending vaults**)  \\n- **Surf — $15M** (AI model for crypto markets; **Pantera-led**)  \\n- **Cascade — $15M** (perps brokerage UX; **Coinbase Ventures/Polychain/Variant/Archetype**)  \\n- **Crown — $13.5M** (BRL stablecoin issuer; **Paradigm-led**)  \\n- **AllScale — $5M** (self-custody stablecoin neobank)  \\n- **Pye Finance — $5M** (Solana stake-account management/trading)\\n\\nRead: [Crypto Venture Weekly: Dec 8–12, 2025](https://messari.io/report/crypto-venture-weekly-december-8-12-2025)\\n\\n**What “top raises” mean right now:** funding is clustering in **PayFi (stablecoins + cards + settlement)**, **DePIN with real deployment**, **Bitcoin yield/interop**, and **RWA rails**—not general-purpose L1/L2 resets.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0764287b484adaf6006966b54a8df881a2a169a39df0d797e7\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![](https://res.cloudinary.com/dgjriemfd/image/upload/v1767995612/veldt/dof53d1xavismcaxhdtl.jpg)\n\n## Top projects to raise (last 30 days)\n\n**1) Rain — $250M Series C (Payments / stablecoin rails)**  \n- **$250M** at **$1.95B valuation**  \n- Led by **ICONIQ** with participation from **Dragonfly, Galaxy Ventures, Lightspeed**  \n- Read: [Crypto Venture Weekly: Jan 5–9, 2026](https://messari.io/report/crypto-venture-weekly-january-5-9-2026)\n\n**2) RedotPay — $107M Series B (Payments / crypto cards)**  \n- **$107M** Series B  \n- Backers include **Goodwater, Pantera, Circle**  \n- Category signal: “crypto neobank + card issuance” getting priced like fintech again\n\n**3) Fuse Energy — $70M Series B (DePIN / energy)**  \n- **$70M** Series B  \n- Backers include **Balderton, Lowercarbon**  \n- DePIN is clearing late-stage rounds at aggressive valuations when there’s real-world deployment\n\n**4) Digital Asset — $50M strategic (Institutional infra / enterprise chain)**  \n- **$50M** strategic  \n- Backers include **BNY, Nasdaq, S&P Global**  \n- This is “regulated rails + incumbents” capital, not narrative capital\n\n**5) LI.FI — $29M Extended Series A (Interop / routing layer)**  \n- **$29M** extended Series A  \n- Led by **Multicoin** + **CoinFund**  \n- Interop is back in favor when it’s framed as **API distribution** rather than bridges\n\n**6) Real Finance — $29M (RWA tokenization)**  \n- **$29M** funding led by **Nimbus Capital** (plus others)  \n- RWAs continue to fundraise cleanly when they sell **distribution + compliance** (not “tokenize everything”)\n\n![](https://res.cloudinary.com/dgjriemfd/image/upload/v1765576847/veldt/kdzus5kw7rgpdmm0hcfc.jpg)\n\n## Next tier (still meaningful rounds showing where money is flowing)\n\nFrom the same 30-day window of venture weekly coverage:  \n- **Babylon — $15M** private token sale (**Bitcoin staking → lending vaults**)  \n- **Surf — $15M** (AI model for crypto markets; **Pantera-led**)  \n- **Cascade — $15M** (perps brokerage UX; **Coinbase Ventures/Polychain/Variant/Archetype**)  \n- **Crown — $13.5M** (BRL stablecoin issuer; **Paradigm-led**)  \n- **AllScale — $5M** (self-custody stablecoin neobank)  \n- **Pye Finance — $5M** (Solana stake-account management/trading)\n\nRead: [Crypto Venture Weekly: Dec 8–12, 2025](https://messari.io/report/crypto-venture-weekly-december-8-12-2025)\n\n**What “top raises” mean right now:** funding is clustering in **PayFi (stablecoins + cards + settlement)**, **DePIN with real deployment**, **Bitcoin yield/interop**, and **RWA rails**—not general-purpose L1/L2 resets.",
+    "executionTimeMs": 46464,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "fundraise seed series strategic raised financing round oversubscribed led by announced in the last 30 days top projects to raise",
+          "content_types": [
+            "news",
+            "posts",
+            "tweets"
+          ],
+          "limit": 50,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "readPosts",
+        "parameters": {
+          "post_ids": [
+            340588,
+            286380
+          ],
+          "max_characters": 6000,
+          "image_limit": 3
+        }
+      }
+    ],
+    "totalTokens": 67071
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

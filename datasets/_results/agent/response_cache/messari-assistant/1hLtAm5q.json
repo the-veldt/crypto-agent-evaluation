@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Key Trends and Catalysts for Top Perpetual Protocols\n\nThe decentralized perpetual protocols market is characterized by rapid technological evolution, a shift toward improved user experience, and intense competition, with a focus on balancing efficiency with core DeFi principles [^1].\n\n## Key Trends in Perpetual Protocols\n\nThe top trends shaping the perpetual decentralized exchange (DEX) landscape include:\n\n### 1. Technological Evolution and Model Diversity\nThe market has seen significant technological advancements, moving from early proprietary technology to leveraging public blockchains, rollups, and multi-chain architectures like Arbitrum, Solana, and Base to enhance scalability and liquidity [^1].\n\n*   **Liquidity Models**: Liquidity pool-based exchanges, favored for their accessibility and incentivization, now account for approximately 45% of trading volume [^1]. Examples of protocols using different models include dYdX, GMX, Level Finance, Kwenta, Gains Network, and Perpetual Protocol, each with varied offerings in supported assets and maximum leverage [^2].\n*   **Order Book vs. Pool**: While liquidity pool models are dominant, order book models remain relevant, particularly on application-specific chains [^1]. Order book-based protocols can offer more robust risk management tools [^3].\n*   **Hybrid Architectures**: There is a trend toward balancing efficiency and decentralization. While off-chain order matching initially boosted performance, recent developments favor on-chain and distributed matching engines [^1]. Protocols like Hyperliquid use a hybrid off-chain/on-chain technology for fast settlement [^4].\n\n### 2. Focus on User Experience and Accessibility\nProtocols are prioritizing a user experience similar to centralized exchanges (CEXs) [^5].\n\n*   **Simplified Onboarding**: Innovations like Perpetual Protocol's Nekodex (a beta version of Perp V3) integrate Ethereum Account Abstraction with Passkey and PWA technology, aiming to eliminate the need for a wallet app, gas fees, or signing for users to trade [^6].\n*   **Advanced Features**: Protocols are introducing features like cross-margin on dYdX, which allows traders to open multiple positions sharing the same collateral [^7]. Perpetual Protocol's V3 upgrade focuses on a Smart Liquidity Framework to support various liquidity provision methods and offer advanced trading tools [^5].\n\n### 3. Market Dominance and Competition\nThe perpetual DEX market has experienced rapid growth, with trading volumes increasing sevenfold since 2023 [^1].\n\n*   **Market Leaders**: As of October 2025, major platforms like Hyperliquid, Aster, Lighter, and Drift Protocol were leading the space [^4]. Hyperliquid was noted for dominating with $15 billion in open interest and over $9 billion in daily volume, while Aster led in daily volume with over $42 billion, attracting high-leverage traders [^4].\n*   **Historical Context**: Historically, dYdX has been a dominant player, controlling 55% of open interest (OI) and 58.9% of trading volumes among the top six decentralized perpetuals as of mid-2023 [^2].\n\n## Key Catalysts for Growth\n\nThe primary catalysts driving the perpetual protocols sector include:\n\n*   **Demand for Decentralized Leverage**: Fears of centralized exchange collapses have driven more crypto users toward decentralized perpetual protocols to satisfy their demand for leveraged trading in a permissionless way [^2].\n*   **\"Real Yield\" Narrative**: The distribution of holder revenue by decentralized perpetual protocols to governance token holders sparked the \"real yield\" narrative, which significantly increased demand for these tokens [^2].\n*   **Layer 2 Migration**: The shift of protocols to Layer 2 rollups and alternative chains (e.g., Perpetual Protocol V2 on Optimism, dYdX V3 on Starkware) addressed the high transaction fees and network congestion of Ethereum, which is crucial for the high throughput required by perpetual trading [^2].\n*   **New Market Expansion**: Protocols are continuously expanding their offerings, such as the launch of the H100/USDT PERP market on Injective Exchange dApps [^8] and the introduction of perpetual options trading incentives programs [^9].\n*   **Infrastructure Development**: The development of robust oracle solutions, such as Pyth, provides low-latency market data, which is essential for building perpetual futures exchanges on fast order book infrastructure like Econia [^3][^10].\n\n## Narrative Momentum\n\nThe narrative momentum for top perpetual protocols appears to be **accelerating** based on the following indicators:\n\n*   **Market Growth and Volume**: The perpetual DEX market has seen rapid growth, with trading volumes increasing sevenfold since 2023 [^1]. By 2025, perpetual DEXs accounted for over 40% of DeFi trading volume [^4].\n*   **Innovation and New Products**: The continuous release of major upgrades (e.g., Perp V3 [^5]), new products (e.g., Raydium Perpetuals [^11]), and the launch of new protocols (e.g., BasePerp on Base Layer-2 [^4]) indicates a high level of development and competitive activity.\n*   **Specific Market Demand**: The emergence of specialized platforms like MemeMax_Fi, which offers 50x leverage and perpetual contracts specifically for the volatile memecoin market, demonstrates that the demand for decentralized leverage is expanding into niche, high-growth areas [^12].\n*   **Institutional and Regulatory Tailwinds**: The broader DeFi ecosystem is experiencing a resurgence of growth, with Total Value Locked (TVL) surging [^13], and the U.S. regulatory environment is showing signs of becoming more crypto-positive, which could reduce uncertainty and further aid mainstream adoption [^14][^15].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "6vGjYc2o",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "6vGjYc2o",
+    "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Top Performing Tokens and Driving Narratives\n\nThe tokens with a minimum market capitalization of $20 million that experienced the greatest price growth over the last 24 hours show a diverse set of drivers, with a notable presence of assets related to **privacy, infrastructure, and specific narrative-led rallies**.\n\n## Top 10 Tokens by 24h Price Growth\n\nThe following tokens, with a circulating market cap of at least $20 million, recorded the highest price growth percentage [^1]:\n\n| Asset Name | Symbol | Current Market Cap (USD) | Price Growth (24h) |\n| :--- | :--- | :--- | ---: |\n| sETH | SETH | $28,322,594 | 6,682.08% |\n| Dolomite | DOLO | $26,576,097 | 74.79% |\n| Pirate | ARRR | $115,362,340 | 56.44% |\n| DebtReliefBot | drb | $29,878,959 | 54.98% |\n| PlaysOut | play | $24,203,395 | 53.24% |\n| Railgun | RAIL | $175,522,164 | 34.69% |\n| Dusk Network | DUSK | $34,767,722 | 30.04% |\n| Amiko | amiko | $52,934,143 | 29.47% |\n| Story Protocol | IP | $1,389,336,877 | 27.19% |\n| Cysic | cys | $74,202,335 | 24.25% |\n\n*Note: The extreme price growth for sETH (6,682.08%) suggests a potential data anomaly or a highly specific, low-liquidity event, as it significantly exceeds the growth of all other tokens.*\n\n## Common Themes and Catalysts\n\nWhile the top list is varied, the broader market narratives and specific token movements suggest three primary themes driving recent price action: **Privacy/Security, Narrative-Led Altcoin Rallies, and Institutional Infrastructure**.\n\n### 1. Privacy and Security\n\nSeveral tokens in the top list and the broader market are associated with privacy and security, suggesting a flight to assets perceived as safer or more resilient against regulatory scrutiny and geopolitical risks [^2].\n\n*   **Privacy Coins:** Privacy coins like **Monero (XMR)** and **Zcash (ZEC)** have seen continued gains, with Monero up 16% and Zcash up 4% [^2]. This trend is linked to geopolitical risks and a general \"risk-off\" retreat [^2].\n*   **Privacy Infrastructure:** **Railgun (RAIL)**, a privacy-focused project, is among the top gainers with a 34.69% increase [^1]. **Dusk Network (DUSK)**, which focuses on privacy and compliance for financial applications, also saw a 30.04% increase [^1].\n*   **Pirate (ARRR)**, a privacy-centric cryptocurrency, saw a 56.44% price increase [^1].\n\n### 2. Narrative-Led Altcoin Rallies and Liquidity Rotation\n\nThe overall altcoin market is showing signs of a potential recovery after a four-year downtrend against Bitcoin, with technical indicators suggesting a possible trend reversal [^3]. However, the current environment is characterized by **selective, narrative-led trading** rather than a broad \"altseason\" [^3][^4].\n\n*   **Specific Rallies:** The rally in tokens like **Story Protocol (IP)**, which gained 27.19% [^1], is cited as an example of liquidity rotation driving sharp rallies in select altcoins, even without strong underlying fundamentals [^4].\n*   **Market Dynamics:** Thin liquidity and supply overhangs allow narrative-led trades to move altcoin prices significantly without usage growth justifying the moves [^4]. Successful trading strategies are shifting toward identifying coins with individual catalysts and strong narratives [^3].\n\n### 3. Institutional Infrastructure and Real-World Assets (RWA)\n\nThe market is seeing significant movement in tokens related to institutional infrastructure and the tokenization of Real-World Assets (RWA) [^5].\n\n*   **Canton Network (CC):** Although not in the top 10 list, the **Canton Network** saw a 15% jump following the announcement that JPM Coin is expanding onto its network, driving focus toward real-world settlement utility [^6]. Canton is part of the critical infrastructure being built for RWA tokenization [^5]. Furthermore, the Canton Network is set to undergo an emissions adjustment in mid-January, which will cut the CC token issuance per block by 50% [^7].\n*   **RWA Evolution:** The RWA tokenization sector is evolving toward market-driven approaches, with projections suggesting the market could reach $30 trillion by 2027 [^5]. This shift is driven by the need for verified data, compliant settlement layers, and sustainable yield from traditional revenue sources [^5].\n\n## Central Sector Analysis: Privacy and Regulatory Clarity\n\nWhile the top 10 list is diverse, the most cohesive and recurring theme across the market's recent movements is the interplay between **regulatory clarity** and the demand for **privacy/security assets**.\n\n### Catalysts Driving the Privacy/Security Theme\n\nThe demand for privacy-focused assets is being driven by two main catalysts:\n\n1.  **Geopolitical and Macroeconomic Uncertainty:** Amid geopolitical risks and a general risk-off sentiment, retail investors are pivoting toward perceived safe-haven assets like precious metals (gold and silver) [^2][^8]. Within the crypto space, this sentiment is translating into gains for privacy coins like Monero and Zcash [^2].\n2.  **Regulatory Developments:** The U.S. Senate is advancing the Digital Asset Market Clarity Act, a bipartisan bill aimed at establishing a comprehensive regulatory framework [^9]. This legislation is expected to define SEC and CFTC jurisdictions [^9]. The potential for regulatory clarity is viewed as transformative for U.S. crypto markets, potentially reducing market manipulation and removing uncertainty that has limited institutional investment [^9]. However, this push for regulation may simultaneously increase the appeal of assets that offer greater privacy and resistance to centralized control, such as those in the privacy sector [^2].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

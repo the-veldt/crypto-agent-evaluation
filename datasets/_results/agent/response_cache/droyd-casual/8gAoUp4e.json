@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "8gAoUp4e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8gAoUp4e",
+    "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "defi",
+      "derivatives"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"gKKHw75ZWjKVTvfy\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Hyperliquid\",\n        \"dYdX\",\n        \"GMX\",\n        \"Jupiter JUP\",\n        \"Drift Protocol\",\n        \"Synthetix\"\n      ],\n      \"search_type\": \"name\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EtsHCtgHAXLI2nyDHmNxQKtUTOSFJRuA5Q1JbZaZSN8juvIun7/ZBgQDMr7f4H9vIcx5K1BNLc3T6uq52l7Lh74Q1NcdyV4iGoEIW7vyr3AIy0y47LIS3Pz0HW0zg+NOqyFdbIp+ngJbMluMU40274ojVIz53j5nRW8mgPZLZ9AbKIBHONP9NHDlXueHp7GxWWRVb2zP+hBmOjQ0htgLR2h6/QNuzsyB1hd92tCdtzfQDwpmdt+1FWT/zGx57hs6+QTBYdRCP2OJDS4B8AWT0/TxBwUyE8ss6sP6z9APMzBbmQsHwkapltB3GaidnowWoN+eobqAiRyAzxzdeleoYfP9rpiGw/FSukaVse8Ndtk9jGWaXP22dvKcMRUSTEXNTI3lkCk/5zcn40/jYyY++uE2J33mSkckeB1Ht5456JvGqk+eCmWpnlZqyMyduRlPa2gmhLRtw5LA9NYaIXA+Tx3qL+dsZn+2zydMizuDanvlIPFbDnJoOASVsL8zDk+AM6EoBxMCV0rMOca+NK6d5Dr5BfzRBK5hIpIe1YXiwr32EmO8AkW5E2hHKUT8LuamL/G2+UZak6gHTDqgP03EolVKStAhviUo7CewqZptKixrcj5MMMB/Aoq0u0h0S4+15f1CTLyIetdrzwLYkm9D2HHzv+ahEPxRox34CrrQVtuTf/ZTSGe8ODIltrPz7LgYS3Ky7rAIK/aiCjFgNTO0ZmEsUL8GpxNYDOuKb5kKtFD6spz8HZtT4m5delKG7OzgUNxfC+UYjcS8SZ06wEjSTPIKibunsDYAJD47TvVcx/uT4yPa/LOksnO/cwGCZ8SIO3VpfqOue772dLcZNyM11AFGcy8zThYl1YtsLMAz/C2rJAxOvb9rVUhgp+nBQS/B+vaVje6EwTe0FARAV5WiU0gZSBL7hiapY0dDe31NvPHbz4PpTdEooof7tQoPzKauT1I/hdsJ74+Cauap3PCqz64r0feUpo6Wk+nBRQKuMLrwlmSAORUEVc3SUP1Xgbf9CC6Fo71IpMLqbThzuP5rCWYHeWVOPk940yj+ZHj8zOLKlQH0Wg1toX1tAxX7834lJiwm43dsq/F5eHYEVzmdoJ518bxnOuL6ia76C/A7swzBT2LOrQf6bfVnv1zaUffsoTFPW1pIJ0oI/JzRlUjW0J/n2ZzQeMYZktsMZrv8LlIs1Z5lQ6wGuOJ//q/1k8RfQVRzy2hHl8nsLeuw15VsmjTZeLMc3h61odJwjm/ZZVF0WYTLKZoQKn8SKUZEOvT3Vf4cohdupwtd1i043KfN1WpkF1dONlDIdhbQjbGe\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"LD25uMfoyx65hFbi\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare Hyperliquid, dYdX, GMX, Jupiter, and Drift by 30-day trading volume, fees, and TVL. Provide a trend analysis of Hyperliquid's market share in perp DEXs over the last 3 months.\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"pnSkZy3aZijUmDhG\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Hyperliquid catalysts, moats, L1 launch, HYPE token launch, and upcoming features compared to competitors\",\n      \"days_back\": 30,\n      \"category_ids\": [\n        514\n      ]\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"rSlZsNWvGQ6ozqPv\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"6373\",\n        \"6877\",\n        \"5661\",\n        \"4267\",\n        \"4348\"\n      ],\n      \"search_type\": \"project_id\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"tqfwzHmk7EVG6gZ6\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Compare Hyperliquid vs Jupiter vs GMX vs Drift vs dYdX by volume and market share Q4 2025 and Jan 2026.\",\n      \"days_back\": 60\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Hyperliquid has transitioned from a dominant perp DEX into the core financial infrastructure for onchain derivatives. As of January 2026, it controls over **50% of decentralized open interest (OI)**, creating a massive gap between itself and legacy players like dYdX or AMM-based models like GMX.\\n\\n### **Market Landscape: The OI vs. Volume Divergence**\\nThe current landscape is defined by a battle between \\\"sticky\\\" organic capital and incentivized mercenary volume. While newcomers like **Lighter** and **Aster** surged to capture ~40% of volume share in Q4 2025, their Volume/OI ratios (often >100x) signal high-frequency wash trading and pre-TGE farming. Hyperliquid maintains a stable **19.9x Volume/OI ratio**, indicating that its depth is driven by actual positioning rather than points-chasing.\\n\\n| Protocol | Market Role | OI Share (Jan '26) | Edge |\\n| :--- | :--- | :--- | :--- |\\n| **Hyperliquid** | Structural Leader | ~52% | Custom L1, Vertical Integration |\\n| **Jupiter** | Solana Distribution | ~4% | Super-App UX, JLP Yield |\\n| **GMX** | Yield-Play OG | ~5% | Multi-chain LP model |\\n| **Drift** | Solana High-Perf | ~3% | Hybrid CLOB/AMM, Cross-Margin |\\n| **dYdX** | Pro-Trader Legacy | <1% | Custom App-chain, Pro Tooling |\\n\\n![Hyperliquid Statistics](https://res.cloudinary.com/dgjriemfd/image/upload/v1760133669/veldt/eachjyetolmrvjnbyd1c.jpg)\\n\\n### **Key Moats: Vertical Integration and Economic Engines**\\nHyperliquid's primary moat is its **sovereign L1 (HyperBFT)**, which allows it to bypass the performance bottlenecks of general-purpose chains. While Jupiter and Drift are bound by Solana's local fee markets and congestion, Hyperliquid operates a custom matching engine capable of 100k+ orders per second with sub-second finality.\\n\\nThe economic moat is even deeper. The **Assistance Fund (AF)**, which captures 99% of protocol fees, acts as a programmatic buyback engine. On January 12, 2026, the AF executed a **$910M HYPE buyback** to absorb sell pressure from Tornado Cash-linked wallets, demonstrating a revenue floor that competitors—often burdened by VC unlock pressure—cannot match. Hyperliquid has zero VC overhang, with **76% of HYPE allocated to the community**.\\n\\n### **Future Catalysts: The \\\"AWS of Liquidity\\\" Pivot**\\nHyperliquid is evolving from an exchange into a platform through two major infrastructure plays:\\n*   **HIP-3 (Permissionless Markets):** This allows third-party builders to deploy their own perp DEXs (e.g., **trade.xyz**, **Felix**) directly on HyperCore. This \\\"Exchange-as-a-Service\\\" model scales liquidity horizontally, with ~30% of Hyperliquid's daily active users now coming through these external front-ends.\\n*   **HIP-4 & Prediction Markets:** The upcoming launch of binary event markets targets the $11B+ weekly volume seen in political and outcome forecasting. By integrating these into its existing CLOB, Hyperliquid effectively commoditizes the prediction market sector.\\n\\n![Revenue Share of Top Perpetual DEXs (2025-2026)](https://res.cloudinary.com/dgjriemfd/image/upload/v1767995376/veldt/o4lms5zaz8rwuafej4mu.jpg)\\n\\nThe protocol is currently generating **~$2.5M in daily fees**, putting it on track for an annualized revenue of **$1B-$1.3B**. With the rollout of **BLP (Portfolio Margin)** and institutional **Digital Asset Treasuries (DATs)** providing TradFi on-ramps, Hyperliquid is no longer just a DEX—it's the first viable onchain alternative to the Binance/OKX duopoly.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Hyperliquid has transitioned from a dominant perp DEX into the core financial infrastructure for onchain derivatives. As of January 2026, it controls over **50% of decentralized open interest (OI)**, creating a massive gap between itself and legacy players like dYdX or AMM-based models like GMX.\n\n### **Market Landscape: The OI vs. Volume Divergence**\nThe current landscape is defined by a battle between \"sticky\" organic capital and incentivized mercenary volume. While newcomers like **Lighter** and **Aster** surged to capture ~40% of volume share in Q4 2025, their Volume/OI ratios (often >100x) signal high-frequency wash trading and pre-TGE farming. Hyperliquid maintains a stable **19.9x Volume/OI ratio**, indicating that its depth is driven by actual positioning rather than points-chasing.\n\n| Protocol | Market Role | OI Share (Jan '26) | Edge |\n| :--- | :--- | :--- | :--- |\n| **Hyperliquid** | Structural Leader | ~52% | Custom L1, Vertical Integration |\n| **Jupiter** | Solana Distribution | ~4% | Super-App UX, JLP Yield |\n| **GMX** | Yield-Play OG | ~5% | Multi-chain LP model |\n| **Drift** | Solana High-Perf | ~3% | Hybrid CLOB/AMM, Cross-Margin |\n| **dYdX** | Pro-Trader Legacy | <1% | Custom App-chain, Pro Tooling |\n\n![Hyperliquid Statistics](https://res.cloudinary.com/dgjriemfd/image/upload/v1760133669/veldt/eachjyetolmrvjnbyd1c.jpg)\n\n### **Key Moats: Vertical Integration and Economic Engines**\nHyperliquid's primary moat is its **sovereign L1 (HyperBFT)**, which allows it to bypass the performance bottlenecks of general-purpose chains. While Jupiter and Drift are bound by Solana's local fee markets and congestion, Hyperliquid operates a custom matching engine capable of 100k+ orders per second with sub-second finality.\n\nThe economic moat is even deeper. The **Assistance Fund (AF)**, which captures 99% of protocol fees, acts as a programmatic buyback engine. On January 12, 2026, the AF executed a **$910M HYPE buyback** to absorb sell pressure from Tornado Cash-linked wallets, demonstrating a revenue floor that competitors—often burdened by VC unlock pressure—cannot match. Hyperliquid has zero VC overhang, with **76% of HYPE allocated to the community**.\n\n### **Future Catalysts: The \"AWS of Liquidity\" Pivot**\nHyperliquid is evolving from an exchange into a platform through two major infrastructure plays:\n*   **HIP-3 (Permissionless Markets):** This allows third-party builders to deploy their own perp DEXs (e.g., **trade.xyz**, **Felix**) directly on HyperCore. This \"Exchange-as-a-Service\" model scales liquidity horizontally, with ~30% of Hyperliquid's daily active users now coming through these external front-ends.\n*   **HIP-4 & Prediction Markets:** The upcoming launch of binary event markets targets the $11B+ weekly volume seen in political and outcome forecasting. By integrating these into its existing CLOB, Hyperliquid effectively commoditizes the prediction market sector.\n\n![Revenue Share of Top Perpetual DEXs (2025-2026)](https://res.cloudinary.com/dgjriemfd/image/upload/v1767995376/veldt/o4lms5zaz8rwuafej4mu.jpg)\n\nThe protocol is currently generating **~$2.5M in daily fees**, putting it on track for an annualized revenue of **$1B-$1.3B**. With the rollout of **BLP (Portfolio Margin)** and institutional **Digital Asset Treasuries (DATs)** providing TradFi on-ramps, Hyperliquid is no longer just a DEX—it's the first viable onchain alternative to the Binance/OKX duopoly.",
+    "executionTimeMs": 151303,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Hyperliquid",
+            "dYdX",
+            "GMX",
+            "Jupiter JUP",
+            "Drift Protocol",
+            "Synthetix"
+          ],
+          "search_type": "name"
+        }
+      },
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare Hyperliquid, dYdX, GMX, Jupiter, and Drift by 30-day trading volume, fees, and TVL. Provide a trend analysis of Hyperliquid's market share in perp DEXs over the last 3 months."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Hyperliquid catalysts, moats, L1 launch, HYPE token launch, and upcoming features compared to competitors",
+          "days_back": 30,
+          "category_ids": [
+            514
+          ]
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "6373",
+            "6877",
+            "5661",
+            "4267",
+            "4348"
+          ],
+          "search_type": "project_id"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Compare Hyperliquid vs Jupiter vs GMX vs Drift vs dYdX by volume and market share Q4 2025 and Jan 2026.",
+          "days_back": 60
+        }
+      }
+    ],
+    "totalTokens": 121967
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

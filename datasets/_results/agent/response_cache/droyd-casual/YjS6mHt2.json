@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "YjS6mHt2",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "YjS6mHt2",
+    "query": "of the memecoins with the highest mindshare growth, which assets have the best catalysts and narrative sustainability potential?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"rflh0rRhIk7QUjTP\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find memecoins (category 520) with high mindshare growth, specifically looking at those with significant increases in social mentions over the last 24h and 7d. Filter for minimum $5M market cap and $100k liquidity to ensure tradeability. Preferred chain: Solana.\",\n      \"sort_by\": \"mentions_change_24h\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Eq4KCqsKAXLI2nyq+rm9IqQWsFXGtRTr7pByD7ykzxf9wETJdKtTeBs1CpaamB8ozyxCx+A26EnvQcwbjHAzpBzO7D/A9a/yjyKyslAg4i0R+02ZO1xCaXYRm2sdau75SgK0sH0LNl58gw2hBoPAjsI0f18fWbHi2i5ET8fJwm4DzjHqAUC/mfU+piRk+UWzEfIB0MWCAZ4DfHXFJ76abr99aZJF6QQ4P0EvfwWbx3VFoYJ2mCYwQ1SiUzVMYdXH7JK+pKHb4yR2s9osBY1tqH//cQkgqEyVCyXj7P98kbhmPQYIzhIIvURXGgm3XGcq0c4IEcyZkx1OFGPjLS0caNnd7Yt0M4M+r5KJYmKIF/tCzQIj+mJpYAman7EXWR8yns9XcHFCfyLLZZ34Tpt1B38EQ45AB773KgfIBvUpOajlf5TBcI5DILUxPaBwOMmTsVSdAECgzF4FLvQ/7nfOYdH9LbhoYZRP25uWyJyAk4veD5jH6qfWbwaaSh/v9XnOxhP25c5mJsq5kwFpCOZuyQJarsCQ6+sPKeSOkLDdcGDTCwCOOoLOFowDpmJ5QR6l0bRy+ArVe3mT1l82X6JDgVFJ4WZtnDLrqTAfw/QyKemx5Se+jEis7OnoYR5GiRdxI/oQmCM0SrINHiLvXGxX1IU1LgpXeIC6p52vUEo167I3D1yyOCaw9Cy3426QVO9eReorwBe8ISA/rlcZ3DXu3VghAb8roiqjlKcczikfgZafTbD44CLeeLAv+4CPwvJkz6t/jVraE1JKBJee23/CzZXEtIDjL5jzT4Jz1kgM4HINHdKf/v+8e6kBIv9/qvJDCw6gUbWDrQgM9cHdDDcaB8wNoR8V1V3/HrfmouVEzbb96rTM4AVXJ5Uut0faDVCE8uI5k541OwDzvGdWpLoX6EEGur6zOoDU8iYcvPBpPc3lOk9s28mpzRzodOlfbfEzoVSTybG9gqvWkgekJUR/jcpV3yN2+T8+1mL3NcBJp95Tc0AHbGrNe6ME3e+TwdD0Bn3u6zZlNLWFdC+FQ3ZsoLgRNCCwMAiR+OlbfTEzyWn29GVqIGFixG4KAo/ZPwKKRtzcUmD3NQ1OUPCQSuuuVEiWrb2BTXMiuVw10e7JOxqt9qszfHbZx+3YjZ+nn36eb2fk4yEaW1Lfta/TUIgv3rwLklo1yGljxmw9e9WXoZaxbNdywONcMHZuXAQJfPLkzO0nCFjYrCdDNqOco9sFGkojIB1N8XWgWy9XMxZqBzoNYLSQ6+TYsXVHRKmZwPyRjRdaNblthfYJ+wAIPXCQlnollwpdcHbN3auOqpy51OEci6XSI0Hahp00nj5MJRBZROzUuqdwdZBS2UXDckZxkWqvE1Zxah2RKZNYmhXr9UJKYh6L/Ww9zNal3rKPOyXW7yVOtHtzVgfJcR3loa84BnE4Ao6svW5SlHH8c3CafM+88NU3KvFNWo90NgixiCQ3MK/URKoSv9ntKgOD0Zol662bRpmqX65nI75Tkwcz0SVw9xzKz/B6PYGkOakUA+2MPZSubxONyMWTzyXqFuvcTV+8+ouIXjcFy7i0t8wXPrXnlLPvr2QTYfrdW7AIWvzTXjs2XlDzMnjhljOsBWbVT+ofj7NGNpAgp9ePNCztewkXH25kO+9gM4r5MG/Qu72dJxir6U8m1MkIVFy5qH02ZM6Fs3zq7FDI0bd94mUA8Qnivx8/cfsOpk4iodYVnmGA7KOijAWtjEjJ/yQwkpPYRi3wkm25Kp8RHN+rUg6WWoiP\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"tCzXEl1c41x8Mwh4\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"category_ids\": [\n        520\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EuMFCuAFAXLI2nx8fJXUygIvOD1KmXTRs/UjL2ABDWCf8xLg6LF5SY6F6qyP5RJDiot0vTDkQbE8BBbXOifvsBrGXdgRw2yVJ6jV4G2RtGoc+IsJzW4xXN/EWq1Eia5RC5nKRXKN6Ah3nHdZXcUjIFPgFPcQ7hO37Q48WrW4k1foFjpvIcc7d12s4mW9lQZYuV1TRkr9flqAX7k7qGXEVYWIcpo6gBAP3swtVEt3y1xG6JDZyqsXAk3aRdx2xRyG6rqrCIE+/+gf+Vrf0I3N1cp6r+V3CPIVrOBy8mOsQZIE2N18NZLWxqNW+UCpimUAgL63C1JKTm8XgVcc2uR1gN17Z95sNeYx4B76aLbSu/GoqPoT8A4JvgRFfrPQeUjGAQF3xGZJ6uvLhXbFl1ErlPMSoukDGVgLcajafUzNq88vZZBs5NAvfQqJlwwq2rQktFcTPnvF9HUTgmqESgFe4q0xCBuA1qVacDs/vWhnsB9vbkwhgE/RgpvxD5D32n5GZmJlA08Jc3bg+AXkrW+2yhzt4ZJofkq33po/6fGrqWv6cI2eyYNJ9KL52gmbNdlKMVxkAaTsl24l3Kw2Hj/3b1KUBV0FFlFU6Nogvu2RKPOjByc022jz6rOETyYlIv75wmUkH/RMVjPT3kspJKaWzOeSLtILlhdk5d2weSVlvz44G5hwTAeMLQjmCjt/e6OvJo/UkINUei7DqhRHP3q/+RbM/MG+ZS+nCe6cFiEqT5M75Ptbn3BPXbc1w5YeNr5TJCLM6lPzf679BNYmnKxQR1/DLwljrP5DW0s0aTFxzOe0UozuM6Lk5RE3jVYxHG9Q+0fbeGNT7Mba1dkpEm0K0DgesZJu+WBj4MK321Jo3G335cgtikGMdstGsLkSLU96W0YLnQVwA9QB5TaoTs7+cKOpiFSDMB7ElkelD5NxyU4EGNl9n6gBroIuC90zE7FhsKSCH2vwDIAzLv8Jh30e6uKi/e+PpQ==\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"He2kZxPONDDdID1l\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find memecoins with high trader growth and volume spikes over the last 24h. Minimum $5M market cap. Solana preferred.\",\n      \"sort_by\": \"traders_change\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"JfagaNzajqY9qlPa\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"top memecoin mindshare growth catalysts narrative sustainability Zerebro Melania JellyJelly Fartcoin\",\n      \"limit\": 30,\n      \"days_back\": 7,\n      \"minimum_relevance_score\": 0.2\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"ErcICrQIAXLI2nzlfz2n6Qe+UEcEjyJxTACkW13Yn0RDXJMDigNF+zSu9U0akRL/C+B9c/zRB4JzWVtHMCwiGD2i9WxzusjV8hKyQRdB2Rx4bLl/s8ua+4hE3FMkmAEnqp8xp/qDYmjenrFCoDrxOWMjC+LjDFwqU/AeSQj7aK40rXrG7ExZgcBJON8UApfX9XJ4U8OqFf4J0lTXq+EOlHelC4bz9GAQlnuoX7yijJpB8OI3+x+NsQjsRqI+pZXh/oRjb7URIoQhhijP4AOosFJskI9ldd4OSWf+e9EiOc1FG0Yy4RM6Vt17JFcsAK8BIGnHI/p05IUIxpKDuvdPtHAgrixVPBmzewkvc6DJXxNVR9yDuGIU+lHLfm6tyL4IfhhwJSaAYnR4L9DfqITNWDLzzJO52ntiUnufA2QPEwj4P1Q48e78mvFRNYbhS/gBjIF0rxP6GkLEuZyavSesmC8Eb0ylY8z1qU1Ee8oDP2CVbcXp5YP9qX1I4NC43J9fQAS0R7e8gNelhx5SffH/qGa7bVwC8zUM+m0oz5d846RpFqM4V1zRBfPR7rV7AdlbGm1kDkL5oXDhMMNESH7K30e8EcSmTINd0aZjzyrvTnsduUts2gN1ceYcHRNqJ7kWufDpyzttuGABUT8b8ZmEpn5R37uzOI2aJaLYQE76pR7OEsQiVsj8kTq587DD7sxQsuz2f1Yo/fpvHHhXN7fHTtkOttgMVAUBA5TrBXlgY75aF7mhwWNxLpXoXEGThG15HUEUax+YoEwjNS03BL+UZUb/rt7fHPN8HhKqRdBCDkYuyjLGMxsmJNA4s7AXeJdERPAoQOOtcnfMdAcrkKEptm7iXqeBUsSrTjWvs0aAkPafl6h/zVkHQZDexTY2mayg4BMC1AWASWX4PAymimdZJP2vGqDeSbnR81y78Sulyczi1cpJKWIlT9XcZkTEzO8vWK2iGWEy/bfkAxHOv60F4W1xF9iwUCT7JrQ+ljL/6I1i53SxxN8JIEpCIQ8dqRTf6AbjFGs9QlNhS15V3Pva0QgwaooNTgIiyPKuoT6IWEy6J1F3rrCAr9J2xF4v1xKVaNkt8ci5jUr64b7v2Ip7J5QbVeSXTtOy4Luzlhd2kUp8SJOiqZtaJ9Tpr6JM34kTz9gUCU6y1RnYE7ZJfY8k64qctIuwL+joJDaYRA2bG0IIyDKRFobYU32686NYMQZvd/Z00BjhudpOZOPccBf/vTEp7E5l4mh5xK5VslfnIJjFVyzvWUSmzIkA1kIphsmqTScdZeLp9dvIrAjTQgnSkxQ3GDbbjmpEkqUmVeHkboqVu0azGqOzKikunLLfoeH9zBRqqXs9U17VDbpJkXft6YfO6JKxcZKDdlzWumbmOSAsStyiXFU8wfreX83S/v2dD0JoWMYSrebnZst50972GxF5FvYNCWhOUVA=\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 4,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The current memecoin landscape is bifurcated between high-velocity **rug pulls** and a select few assets with institutional or product-backed **narrative sustainability**. While mindshare often spikes on celebrity-driven launches, sustainability is currently reserved for tokens transitioning into **SocialFi** or **AI Agent** proxies.\\n\\n### 1. Melania Meme ($MELANIA)\\nAs the \\\"official\\\" token of Melania Trump, **MELANIA** holds the highest mindshare in the PolitiFi sector, recently surging **26%** in a 24-hour window. Unlike the **NYC Token**, which collapsed **80%** following rug-pull allegations involving centralized reserves, **MELANIA** benefits from a persistent link to the Trump family's broader crypto strategy. The primary catalyst for 2026 is the **midterm election cycle** and Trump’s continued trade-deal commentary, which historically triggers 45%+ price surges. However, transparency remains a risk; team-linked wallets moved approximately **$30M** in 2025, and legal filings have labeled the token \\\"window dressing\\\" for prior fraud.\\n\\n![NYC Token Crash](https://res.cloudinary.com/dgjriemfd/image/upload/v1768268106/veldt/lqzjrnzrrlvwfozcqyx2.jpg)\\n\\n### 2. Jelly-My-Jelly ($JELLYJELLY)\\n**JELLYJELLY** is shifting from a pure meme to a SocialFi infrastructure play on Solana. It currently shows a **118%** increase in trader growth following its **Apple App Store** verification and listing. The project’s sustainability stems from its partnership with **Predict**, which converts social clips into live **prediction markets**. This aligns **JELLYJELLY** with the record-breaking **$10B monthly volume** seen in the prediction market sector during late 2025.\\n\\n![Prediction Market Volume Surge](https://res.cloudinary.com/dgjriemfd/image/upload/v1768239897/veldt/yxwblulivdl7zxdcuojg.jpg)\\n\\n### 3. Virtuals Protocol ($VIRTUAL)\\nWhile **Zerebro** dominates the \\\"AI Artist\\\" mindshare, **VIRTUAL** is the structural winner of the AI Agent narrative, posting a **55% YTD gain**. The sustainability here is tied to the **AI supercycle**; global AI compute is doubling every **7 months**, and **VIRTUAL** serves as the primary coordination layer for agentic autonomous economies. The protocol is currently being integrated into **DeFi trading strategies** and **prediction markets**, transitioning it from a speculative asset to a core utility token for the emerging **agentic payment stack**.\\n\\n![Global AI Compute Growth](https://res.cloudinary.com/dgjriemfd/image/upload/v1768079840/veldt/v6fc4ah3yoov7gsebicg.jpg)\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The current memecoin landscape is bifurcated between high-velocity **rug pulls** and a select few assets with institutional or product-backed **narrative sustainability**. While mindshare often spikes on celebrity-driven launches, sustainability is currently reserved for tokens transitioning into **SocialFi** or **AI Agent** proxies.\n\n### 1. Melania Meme ($MELANIA)\nAs the \"official\" token of Melania Trump, **MELANIA** holds the highest mindshare in the PolitiFi sector, recently surging **26%** in a 24-hour window. Unlike the **NYC Token**, which collapsed **80%** following rug-pull allegations involving centralized reserves, **MELANIA** benefits from a persistent link to the Trump family's broader crypto strategy. The primary catalyst for 2026 is the **midterm election cycle** and Trump’s continued trade-deal commentary, which historically triggers 45%+ price surges. However, transparency remains a risk; team-linked wallets moved approximately **$30M** in 2025, and legal filings have labeled the token \"window dressing\" for prior fraud.\n\n![NYC Token Crash](https://res.cloudinary.com/dgjriemfd/image/upload/v1768268106/veldt/lqzjrnzrrlvwfozcqyx2.jpg)\n\n### 2. Jelly-My-Jelly ($JELLYJELLY)\n**JELLYJELLY** is shifting from a pure meme to a SocialFi infrastructure play on Solana. It currently shows a **118%** increase in trader growth following its **Apple App Store** verification and listing. The project’s sustainability stems from its partnership with **Predict**, which converts social clips into live **prediction markets**. This aligns **JELLYJELLY** with the record-breaking **$10B monthly volume** seen in the prediction market sector during late 2025.\n\n![Prediction Market Volume Surge](https://res.cloudinary.com/dgjriemfd/image/upload/v1768239897/veldt/yxwblulivdl7zxdcuojg.jpg)\n\n### 3. Virtuals Protocol ($VIRTUAL)\nWhile **Zerebro** dominates the \"AI Artist\" mindshare, **VIRTUAL** is the structural winner of the AI Agent narrative, posting a **55% YTD gain**. The sustainability here is tied to the **AI supercycle**; global AI compute is doubling every **7 months**, and **VIRTUAL** serves as the primary coordination layer for agentic autonomous economies. The protocol is currently being integrated into **DeFi trading strategies** and **prediction markets**, transitioning it from a speculative asset to a core utility token for the emerging **agentic payment stack**.\n\n![Global AI Compute Growth](https://res.cloudinary.com/dgjriemfd/image/upload/v1768079840/veldt/v6fc4ah3yoov7gsebicg.jpg)",
+    "executionTimeMs": 31006,
+    "stepCount": 4,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find memecoins (category 520) with high mindshare growth, specifically looking at those with significant increases in social mentions over the last 24h and 7d. Filter for minimum $5M market cap and $100k liquidity to ensure tradeability. Preferred chain: Solana.",
+          "sort_by": "mentions_change_24h"
+        }
+      },
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "category_ids": [
+            520
+          ],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find memecoins with high trader growth and volume spikes over the last 24h. Minimum $5M market cap. Solana preferred.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "top memecoin mindshare growth catalysts narrative sustainability Zerebro Melania JellyJelly Fartcoin",
+          "limit": 30,
+          "days_back": 7,
+          "minimum_relevance_score": 0.2
+        }
+      }
+    ],
+    "totalTokens": 175782
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

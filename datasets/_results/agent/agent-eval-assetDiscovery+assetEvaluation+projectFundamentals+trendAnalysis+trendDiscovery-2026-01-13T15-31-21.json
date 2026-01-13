@@ -1,0 +1,182 @@
+{
+  "runId": "2026-01-13T15:31:21.725Z",
+  "timestamp": "2026-01-13T15:31:21.725Z",
+  "config": {
+    "agentSystems": [
+      "droyd-casual"
+    ],
+    "datasets": "all",
+    "judgeModel": "gemini-3-flash",
+    "outputDir": "datasets/_results/agent",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant.\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    },
+    "useTestDatasets": true
+  },
+  "dataset": "assetDiscovery+assetEvaluation+projectFundamentals+trendAnalysis+trendDiscovery",
+  "judgeModel": "gemini-3-flash",
+  "results": [
+    {
+      "question": {
+        "qid": "1kC3mP2v",
+        "query": "what assets are being discussed on twitter",
+        "level": 1,
+        "categories": [
+          "asset_discovery"
+        ],
+        "tags": null,
+        "sectors": null,
+        "dataset": "assetDiscovery"
+      },
+      "dataset": "assetDiscovery",
+      "agentResults": [
+        {
+          "system": "droyd-casual",
+          "steps": [],
+          "finalAnswer": "",
+          "executionTimeMs": 0,
+          "stepCount": 0,
+          "rawResponse": null,
+          "toolCalls": [],
+          "error": "DROYD_CASUAL_USER environment variable is not set"
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-13T15:31:21.726Z"
+    },
+    {
+      "question": {
+        "qid": "8zR4tK6m",
+        "query": "what are the latest catalysts for solana",
+        "level": 1,
+        "categories": [
+          "asset_analysis"
+        ],
+        "tags": [
+          "large_cap"
+        ],
+        "sectors": [
+          "ecosystems"
+        ],
+        "dataset": "assetEvaluation"
+      },
+      "dataset": "assetEvaluation",
+      "agentResults": [
+        {
+          "system": "droyd-casual",
+          "steps": [],
+          "finalAnswer": "",
+          "executionTimeMs": 0,
+          "stepCount": 0,
+          "rawResponse": null,
+          "toolCalls": [],
+          "error": "DROYD_CASUAL_USER environment variable is not set"
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-13T15:31:21.729Z"
+    },
+    {
+      "question": {
+        "qid": "f9zR4tK6m",
+        "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+        "level": 1,
+        "categories": [
+          "project_fundamentals"
+        ],
+        "tags": null,
+        "sectors": null,
+        "dataset": "projectFundamentals"
+      },
+      "dataset": "projectFundamentals",
+      "agentResults": [
+        {
+          "system": "droyd-casual",
+          "steps": [],
+          "finalAnswer": "",
+          "executionTimeMs": 0,
+          "stepCount": 0,
+          "rawResponse": null,
+          "toolCalls": [],
+          "error": "DROYD_CASUAL_USER environment variable is not set"
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-13T15:31:21.729Z"
+    },
+    {
+      "question": {
+        "qid": "2kC3mP2v",
+        "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+        "level": 1,
+        "categories": [
+          "trend_analysis"
+        ],
+        "tags": null,
+        "sectors": [
+          "ai"
+        ],
+        "dataset": "trendAnalysis"
+      },
+      "dataset": "trendAnalysis",
+      "agentResults": [
+        {
+          "system": "droyd-casual",
+          "steps": [],
+          "finalAnswer": "",
+          "executionTimeMs": 0,
+          "stepCount": 0,
+          "rawResponse": null,
+          "toolCalls": [],
+          "error": "DROYD_CASUAL_USER environment variable is not set"
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-13T15:31:21.729Z"
+    },
+    {
+      "question": {
+        "qid": "3kC5nP2v",
+        "query": "what are the latest narratives and trends in crypto",
+        "level": 1,
+        "categories": [
+          "trend_discovery"
+        ],
+        "tags": null,
+        "sectors": null,
+        "dataset": "trendDiscovery"
+      },
+      "dataset": "trendDiscovery",
+      "agentResults": [
+        {
+          "system": "droyd-casual",
+          "steps": [],
+          "finalAnswer": "",
+          "executionTimeMs": 0,
+          "stepCount": 0,
+          "rawResponse": null,
+          "toolCalls": [],
+          "error": "DROYD_CASUAL_USER environment variable is not set"
+        }
+      ],
+      "evaluations": [],
+      "timestamp": "2026-01-13T15:31:21.729Z"
+    }
+  ],
+  "summary": {
+    "totalQuestions": 5,
+    "successfulEvaluations": 0,
+    "failedEvaluations": 5,
+    "averageScores": {},
+    "averageScoresByDataset": {},
+    "averageExecutionTime": {},
+    "averageSteps": {}
+  }
+}

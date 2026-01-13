@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "WcL3oMz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcL3oMz8",
+    "query": "Looking at the latest content, what are the latest narratives and trends in crypto",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nBTC leads mindshare at 23.97% with strong long calls from influencers like Ansem and Bob Loukas targeting $100k+, while SOL (10.80%, +16.78%) and ETH (11.94%, +3.91%) gain traction; emerging narratives include privacy coins like ZEC (1.82%), perp DEXs like LIT and HYPE, consumer DeFi, prediction markets, RWAs, and tokenized assets amid capital rotation from altcoins to majors as risk appetite cools.\n\n───\n\nToken Leaderboard Highlights (Top Mindshare, 1d)\nBitcoin dominates discussions with 5074 total mentions (805 smart), bullish sentiment at 45% of mentions, and 225 long calls (58 smart, -7.41% change), though mindshare dipped -10.11%.[get-token-leaderboard] Ethereum shows rising smart interest (304 mentions) and mostly bullish sentiment (834 bullish vs 55 bearish), with long calls at 29 total.[get-token-leaderboard] Solana surged +16.78% mindshare (2029 mentions, 271 smart), with bullish dominance (890 bullish vs 61 bearish) and increasing long calls (+20%).[get-token-leaderboard]\n\nNewer movers include Lighter (LIT) at 2.19% (+50.67%), Hyperliquid (HYPE) at 2.18% (+14.40% with 7 smart longs), and PsyopAnime (PSYOPANIME) debuting at 1.23% with strong bullish sentiment (169/245 mentions).[get-token-leaderboard] Privacy narrative evident in ZEC's 1.82% mindshare despite -41.45% drop, with 66 smart mentions.[get-token-leaderboard]\n\nInfluencer Calls (Past Day)\nSmart traders push BTC longs: Ansem calls for collective buying to $100k (@blknoiz06), Bob Loukas eyes $107k (@BobLoukas), CryptoKaleo scales in for end-month rally (@CryptoKaleo). HYPE bottom-called by TraderSZ (@trader1sz); FARTCOIN reversal eyed by AltcoinSherpa (@AltcoinSherpa).[get-top-influence-calls]\n\nEmerging Narratives from Tweets\n2026 predictions center on consumer DeFi, prediction markets breakout, RWAs/tokenization (search highs), neo-finance (CeFi-DeFi convergence), stablecoin volumes, perps growth, and institutional adoption.[search-tweets] CoinGecko flags RWAs, perp DEXs, memes, ICO launchpads as top themes (@coinbureau); Brazil's Mercado Bitcoin notes 6 trends shaping markets.[search-tweets] Shift to revenue over pure narratives gaining traction.[search-tweets]\n\nMacro Context Impacting Crypto\nCapital flows from altcoins to BTC/ETH as alt rallies shorten and OI drops 55% (@WuBlockchain); BlackRock shifts BTC/ETH to Coinbase (~$320M) signals potential activity.[get-latest-global-news] Broader bullish macro (Trump Fed pressure, CPI in-line, rate cut bets) supports majors, but geopolitics (Iran protests, tariffs, China chip curbs) adds risk-off tone favoring liquid assets.[get-latest-global-news]",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

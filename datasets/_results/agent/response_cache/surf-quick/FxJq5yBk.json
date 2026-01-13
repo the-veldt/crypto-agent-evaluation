@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "FxJq5yBk",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "FxJq5yBk",
+    "query": "what are the key trends across ethereum, base, and solana",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, here are the key trends across Ethereum, Base, and Solana as of January 2026:\n\n## TL;DR\n\n**Solana is gaining significant momentum** with record-breaking perpetual futures trading volume that recently surpassed Ethereum, while maintaining strong user growth metrics. **Ethereum maintains dominance in TVL and institutional adoption** but faces competition in key trading metrics. **Base shows ecosystem expansion** as part of Ethereum's L2 growth, though specific Base data is limited in this dataset.\n\n## Core Analysis\n\n### Trading Volume & Market Activity\n\n**Solana has flipped Ethereum in 24-hour perpetual futures trading volume**, marking a significant milestone. This shift began in June 2025 when Phantom wallet integrated direct native access to trading, driving increased demand for permissionless trading on Solana. [x.com](https://x.com/solananew/status/2009291245718298662)\n\n**Ethereum maintains stronger DEX volume** with $1.44B daily volume compared to Solana's higher figures, but Solana's weekly volume reached $32.25B showing massive trading activity. [defillama](https://defillama.com/chain/solana)\n\n### Network Metrics & Adoption\n\n**Solana leads in user activity metrics** with significantly higher daily active users (3.25M vs 410K), daily transactions (35.99M vs 1.13M), and monthly new addresses (56.31M vs 7.18M) as of recent data. [coinledger](https://coinledger.io/tools/solana-vs-ethereum)\n\n**Ethereum shows strong fundamentals** with $72.4B TVL (vs Solana's $9.06B) and maintains institutional advantage with ETF approvals in 2024 making it more accessible to traditional investors. [defillama](https://defillama.com/chain/ethereum)\n\n### Financial Metrics\n\n**Price Performance**: Both networks showed positive momentum in early January 2026:\n- Ethereum: $2,948 → $3,295 (11.7% gain peak-to-peak)\n- Solana: $125 → $143 (14.4% gain peak-to-peak)\n\n**Revenue Generation**: \n- Ethereum: $635K daily chain revenue\n- Solana: $1.33M daily chain revenue (higher despite smaller TVL) [defillama](https://defillama.com/chain/solana)\n\n### Ecosystem Development\n\n**Solana's growth drivers** include:\n- Mobile expansion with Solana Seeker phone launch in 2025\n- Firedancer upgrade promising even faster transaction speeds\n- Strong meme coin ecosystem driving trading volume\n- Growing DeFi TVL recovery above $10B with Kamino Lend leading at $3B+ [binance](https://www.binance.com/en/square/post/28342318559169)\n\n**Ethereum's advantages**:\n- First-mover advantage with established dApp ecosystem (Uniswap, OpenSea)\n- Larger validator network (1M+ vs 4,500) providing greater decentralization\n- Solidity programming language more accessible to developers\n- Strong institutional adoption through ETFs and real-world asset tokenization\n\n## Market Position Trends\n\nThe data shows **Solana rapidly closing the gap** with Ethereum. While Ethereum had 8x Solana's value in December 2023, it now has only 3x Solana's value, indicating accelerated Solana growth. [coinledger](https://coinledger.io/tools/solana-vs-ethereum)\n\n## Conclusions\n\n**Bottom line**: Solana is experiencing explosive growth in trading activity and user adoption, particularly in perpetual futures and DeFi, while Ethereum maintains its position as the institutional favorite with stronger TVL and ecosystem maturity. The competition between these networks is driving innovation in both ecosystems, with Base and other L2s expanding Ethereum's capacity while Solana pushes performance boundaries.\n\n**Key risk to watch**: Solana's relative centralization (4,500 validators vs Ethereum's 1M+) remains a concern for network stability, though performance improvements continue to attract users.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

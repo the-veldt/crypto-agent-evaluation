@@ -5,6 +5,7 @@ export type AgentType = 'research' | 'trading' | 'agent';
 export interface DroydTaskOptions {
   taskInstructions: string;
   agentType?: AgentType;
+  userId?: string;
 }
 
 // Response type for research/trading agents
@@ -46,7 +47,6 @@ export type DroydTaskResponse = DroydTaskStructuredResponse | DroydTaskTextRespo
  */
 export async function droydTask(options: DroydTaskOptions): Promise<DroydTaskResponse> {
   const apiKey = process.env.DROYD_API_KEY;
-  const userId = process.env.DROYD_USER_ID; // optional: not required for API
 
   if (!apiKey) {
     throw new Error('DROYD_API_KEY environment variable is not set');
@@ -55,6 +55,7 @@ export async function droydTask(options: DroydTaskOptions): Promise<DroydTaskRes
   const {
     taskInstructions,
     agentType = 'agent',
+    userId = process.env.DROYD_USER_ID, // Use provided userId or fall back to env var
   } = options;
 
   // Validate task instructions

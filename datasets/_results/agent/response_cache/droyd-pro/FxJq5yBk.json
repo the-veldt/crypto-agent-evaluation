@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "FxJq5yBk",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "FxJq5yBk",
+    "query": "what are the key trends across ethereum, base, and solana",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_GVZdN265t4yqtLIVVYglZSme\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        15071,\n        4694\n      ],\n      \"category_ids\": [],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0b81c548b873f89b006966baa6d590819694079817c8c7566e\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_OqVLncrQ16quHowI7TFbWSUD\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"news\",\n        \"developments\",\n        \"posts\",\n        \"tweets\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        4694,\n        15071,\n        11943\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0b81c548b873f89b006966baa87284819692de67eccd9c0f05\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_TQpf2xZ4vSf2aBw8ub1c0sda\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find tokens trending across Ethereum, Base, and Solana with strong trader growth and volume spikes in the last 24-72h; prefer liquid names (>$500k liquidity) and exclude stablecoins/wrapped majors.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0b81c548b873f89b006966baaa4d5481968031357c95efcd90\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Layer 2 Finance Gas Fees Comparison](https://res.cloudinary.com/dgjriemfd/image/upload/v1767861386/veldt/hmncvc1zu7rottbsfvpe.jpg)\\n\\n## 1) Ethereum: ossification + ZK-native scaling, while “real money” keeps moving in\\n- **Protocol direction converges on a ZK-centric roadmap**: “walkaway test” + ossification priorities (quantum-resistance, **ZK-EVM validation**, statelessness/state expiry, hardened gas schedule, **account abstraction**). That’s a signal the base layer wants fewer moving parts and more enshrined verification.\\n- **DA is getting cheaper for rollups**: blob parameters are rising (trend report cites target moving toward **14 blobs / block**, max 21), pushing more execution + UX to L2s without killing costs.\\n- **Institutional productization is the real demand driver**: staking ETFs and treasury-scale custody flows are tightening liquid ETH float and pushing more “ETH as balance-sheet asset” behavior (basis sensitivity, staking demand).\\n\\n## 2) Base: “finance chain” gravity + BTC rails + privacy payments (but metrics are getting gamed)\\n- **Base dominates L2 finance activity by fees**: the growthepie dataset has Base at **$113.11M cumulative finance gas fees (~42% share)**, ahead of Arbitrum and zkSync. That’s usage *with willingness to pay*.\\n- **BTC liquidity onboarding is the wedge**: Phantom added **Any→BTC and BTC→ETH/USDC routes** (incl. Base), and campaigns like uniBTC/cbBTC incentives deepen BTCFi liquidity.\\n- **Privacy goes from research to UX**: **Hinkal’s confidential payments live on Base** is an early “private transfers on public L2” production marker.\\n- **Watch the fake volume problem**: analysis of “Solana-on-Base” pools suggests **LP-churning wash volume dominates**—good for short-term rankings, bad for diligence and real adoption reads.\\n\\n## 3) Solana: execution venue consolidation + agent rails + launch risk\\n- **Execution and fee capture concentrate around trading venues** (Jupiter/Raydium/Trojan): incentives and terminals are competing to own routing + orderflow.\\n- **Agentic UX is going gasless + reputation-gated**: paymasters (x402/Kora-style flows) + reputation layers (FairScale) are moving into production patterns.\\n- **Launch/launchpad risk is elevated**: the NYC token episode (≈**$3.4M** liquidity drain flagged) is reinforcing mint provenance + distribution diligence culture.\\n\\n## Cross-chain meta-trends (shared across all three)\\n- **Stablecoins + payments rails > “DeFi TVL”** as the adoption metric that matters (institutional + fintech distribution).\\n- **Privacy becomes a product feature, not a niche ideology** (Base shipping confidential payments; Ethereum ZK-native direction; Solana reputation/privacy primitives).\\n- **Liquidity is rotating toward chains that compress UX friction** (wallet-native swaps, paymasters, account abstraction).\\n\\nhttps://x.com/VitalikButerin/status/2010621884811845708\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0b81c548b873f89b006966bab13f5c819680169752584e976f\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Layer 2 Finance Gas Fees Comparison](https://res.cloudinary.com/dgjriemfd/image/upload/v1767861386/veldt/hmncvc1zu7rottbsfvpe.jpg)\n\n## 1) Ethereum: ossification + ZK-native scaling, while “real money” keeps moving in\n- **Protocol direction converges on a ZK-centric roadmap**: “walkaway test” + ossification priorities (quantum-resistance, **ZK-EVM validation**, statelessness/state expiry, hardened gas schedule, **account abstraction**). That’s a signal the base layer wants fewer moving parts and more enshrined verification.\n- **DA is getting cheaper for rollups**: blob parameters are rising (trend report cites target moving toward **14 blobs / block**, max 21), pushing more execution + UX to L2s without killing costs.\n- **Institutional productization is the real demand driver**: staking ETFs and treasury-scale custody flows are tightening liquid ETH float and pushing more “ETH as balance-sheet asset” behavior (basis sensitivity, staking demand).\n\n## 2) Base: “finance chain” gravity + BTC rails + privacy payments (but metrics are getting gamed)\n- **Base dominates L2 finance activity by fees**: the growthepie dataset has Base at **$113.11M cumulative finance gas fees (~42% share)**, ahead of Arbitrum and zkSync. That’s usage *with willingness to pay*.\n- **BTC liquidity onboarding is the wedge**: Phantom added **Any→BTC and BTC→ETH/USDC routes** (incl. Base), and campaigns like uniBTC/cbBTC incentives deepen BTCFi liquidity.\n- **Privacy goes from research to UX**: **Hinkal’s confidential payments live on Base** is an early “private transfers on public L2” production marker.\n- **Watch the fake volume problem**: analysis of “Solana-on-Base” pools suggests **LP-churning wash volume dominates**—good for short-term rankings, bad for diligence and real adoption reads.\n\n## 3) Solana: execution venue consolidation + agent rails + launch risk\n- **Execution and fee capture concentrate around trading venues** (Jupiter/Raydium/Trojan): incentives and terminals are competing to own routing + orderflow.\n- **Agentic UX is going gasless + reputation-gated**: paymasters (x402/Kora-style flows) + reputation layers (FairScale) are moving into production patterns.\n- **Launch/launchpad risk is elevated**: the NYC token episode (≈**$3.4M** liquidity drain flagged) is reinforcing mint provenance + distribution diligence culture.\n\n## Cross-chain meta-trends (shared across all three)\n- **Stablecoins + payments rails > “DeFi TVL”** as the adoption metric that matters (institutional + fintech distribution).\n- **Privacy becomes a product feature, not a niche ideology** (Base shipping confidential payments; Ethereum ZK-native direction; Solana reputation/privacy primitives).\n- **Liquidity is rotating toward chains that compress UX friction** (wallet-native swaps, paymasters, account abstraction).\n\nhttps://x.com/VitalikButerin/status/2010621884811845708",
+    "executionTimeMs": 29668,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            15071,
+            4694
+          ],
+          "category_ids": [],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "news",
+            "developments",
+            "posts",
+            "tweets"
+          ],
+          "limit": 30,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            4694,
+            15071,
+            11943
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find tokens trending across Ethereum, Base, and Solana with strong trader growth and volume spikes in the last 24-72h; prefer liquid names (>$500k liquidity) and exclude stablecoins/wrapped majors.",
+          "sort_by": "traders_change"
+        }
+      }
+    ],
+    "totalTokens": 104362
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

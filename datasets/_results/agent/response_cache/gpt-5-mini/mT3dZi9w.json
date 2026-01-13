@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "mT3dZi9w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mT3dZi9w",
+    "query": "what is the leading narrative or 'meta' in crypto, what assets are driving it, and why? Analyze the TAM, sustainability, and moat-like characteristics of the narrative",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 899
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "Short answer (thesis)\n- The dominant meta right now is institutionalization + real‑world integration of crypto infrastructure — call it “on‑chain finance & infrastructure.” That includes: Bitcoin as an institutional store‑of‑value, Ethereum + Layer‑2s as the settlement/compute fabric for scaled finance, liquid staking / restaking as yield plumbing, and tokenization/real‑world assets (RWAs) — with an emergent secondary cluster of decentralized AI/agent protocols. Those combined narratives are driving capital, product builds, and regulatory attention in late 2025 → 2026.\n\nWhy that is the leading meta\n- Institutional flows (spot BTC/ETH ETFs, custody products, insurance/custodian adoption) put big, patient capital into crypto and force products to be compliant, liquid, and scalable.\n- Scalability improvements (Dencun, Layer‑2 growth, zk rollups) make on‑chain settlement and DeFi cheaper and more reliable — enabling higher‑value, regulated products to exist on chain.\n- Tokenization/RWAs promise to bring traditional finance balance‑sheet assets on chain (bonds, invoices, real estate), which is the direct path for institutional adoption.\n- Liquid staking + restaking solves yield needs for institutions holding PoS native assets.\n- Decentralized AI/agent experiments are attracting interest as a new use‑case cluster that can monetize compute/data on chain.\n\nWhich assets are driving the meta (examples)\n- Bitcoin (BTC): institutional store‑of‑value / treasury asset; ETF flows and custody products are the main demand engine.\n- Ethereum (ETH): settlement and execution layer for DeFi, L2s, and tokenized assets.\n- Layer‑2 tokens / ecosystems: Arbitrum (ARB), Optimism (OP), Base and other L2 ecosystems and emerging zk projects — they capture activity/value as scaling migrates off mainnet.\n- Liquid staking / staking infrastructure: Lido (LDO)/stETH, Rocket Pool (RPL) and other LST/validator ecosystems that provide liquid exposure to staking yield.\n- RWA / tokenization infrastructure: protocols and tokenized instruments (issuers and platforms such as Ondo/Centrifuge/other RWA stacks and ETPs) — these are not one token but an entire new asset class being minted onchain.\n- Decentralized AI tokens / projects: Bittensor/TAO and similar projects where crypto intersects decentralized model markets and on‑chain agent economies.\n\nTAM (order‑of‑magnitude view)\n- Bitcoin-as‑digital‑store‑of‑value: comparable to some share of the global store‑of‑value market (gold ≈ $10–12T). If BTC captures even a modest share of that market, TAM is in the trillions.\n- On‑chain finance (DeFi + tokenized RWAs + payments): global financial markets (banking, bonds, equities, real estate) are many tens to hundreds of trillions. The realistic on‑chain addressable slice over the next decade is likely in the low‑to‑mid trillions (not the whole market overnight — gradual capture).\n- Layer‑2 and settlement infrastructure: TAM tied to transaction volume and capital routed on chain — hundreds of billions to low‑trillions of annual value transferred or settled if crypto is widely used by institutions.\n- RWAs/tokenization: the tokenizable stock of real estate, bonds, and private assets is many tens of trillions; near‑term tokenized issuance will be small relative to that but the long‑run TAM is enormous.\n- Decentralized AI: standalone AI market is already tens of billions and growing; the crypto‑native slice (model marketplaces, agent economies) is probably a smaller, early‑stage tens‑billion TAM in medium term.\n\nSustainability — what looks durable vs what’s speculative\nDurable elements\n- BTC as a liquid, institutionalized store of value looks structurally durable so long as custody, regulatory clarity, and ETF-like demand persist.\n- ETH + L2 scaling is durable because of strong developer network effects, composability, and clear technical path (rollups, modularity). Low fees and UX improvements materially increase use cases.\n- Liquid staking / validator ecosystems are structurally useful in PoS universes and are likely to persist because they solve real liquidity/yield frictions.\n- RWA tokenization has durable utility if on‑chain legal, custody, and settlement primitives become accepted (this requires regulatory/legal scaffolding but offers clear productivity gains).\n\nSpeculative / highly execution‑dependent elements\n- Many standalone tokens and projects that promise tokenized everything or “play‑to‑earn” ecosystems remain speculative unless they build real revenue, custody/legal robustness, and sufficient liquidity.\n- Decentralized AI is promising but early: value accrues to teams with data, model quality, and real demand — crypto alone doesn’t guarantee adoption.\n\nMoat characteristics (how defensible the narrative is)\n- Network effects: Ethereum and major L2s benefit from strong developer and liquidity network effects — protocol-level composability creates a natural moat vs greenfield competitors.\n- Liquidity and market depth: BTC and major ETH‑based assets have deep liquidity, custody, and institutional rails (ETFs, custodians). Liquidity is a moat because institutions need it.\n- Regulatory / operational moats: Projects that secure regulated partnerships, custodial approvals, or become standard settlement rails (e.g., exchanges, custodians, ETP issuers) gain durable advantages that are hard to displace quickly.\n- Technical moats: Security, decentralization, and predictable economic primitives (e.g., staking protocols with proven reliability) build defensibility. Conversely, projects that centralize execution (some rollups or custodial tokenizers) risk regulatory or counterparty concentration but may have economic advantages.\n- Data & compute moats (AI): If a crypto project can secure unique datasets, models, or an active market of paying agents, that becomes a real moat — otherwise token incentives alone won’t sustain quality AI.\n\nKey risks and failure modes\n- Regulation: securities classification, custody rules, and capital‑market laws can slow or reshape RWAs and tokenized instruments.\n- Centralization: custodial or single‑party reliance (e.g., centralized oracles, single hot‑wallet stakes) undermines the trustless promise and can invite regulatory clampdowns.\n- Liquidity fragmentation: too many competing tokens and fragmented liquidity can keep institutions away.\n- Tech risk and UX: high fees, poor UX, or systemic smart‑contract failures (bridges, rollup exploits) can stall institutional onboarding.\n- Macroeconomic / risk‑on cycles: institutional flows can be procyclical; a drawdown or liquidity shock could remove the short‑term narrative tailwind.\n\nPractical takeaways / who likely wins\n- Long‑term durable winners: BTC (store of value/liquidity), ETH (execution layer + strong developer moat), major L2 ecosystems that actually capture user/TVL, and reputable liquid staking providers with strong security/custody relationships.\n- Infrastructure/enterprise winners: custody providers, regulated tokenization platforms, compliance tooling, and settlement rails that bridge fiat and on‑chain assets.\n- Opportunistic winners: selective RWA issuers and AI/agent protocols that can demonstrate real revenue and legal clarity — these are high‑reward but require execution.\n\nIf you want, I can:\n- Produce a ranked list of specific protocols/tokens with short moat and risk scores (1–10).\n- Build an estimated TAM model in numbers (conservative/base/optimistic) with assumptions and timelines.\n- Track news/filings (ETF flows, Grayscale/Bittensor moves, Layer‑2 TVL) and produce a weekly narrative dashboard.\n\nWhich follow‑up would be most useful?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 17902
+        }
+      }
+    ],
+    "finalAnswer": "Short answer (thesis)\n- The dominant meta right now is institutionalization + real‑world integration of crypto infrastructure — call it “on‑chain finance & infrastructure.” That includes: Bitcoin as an institutional store‑of‑value, Ethereum + Layer‑2s as the settlement/compute fabric for scaled finance, liquid staking / restaking as yield plumbing, and tokenization/real‑world assets (RWAs) — with an emergent secondary cluster of decentralized AI/agent protocols. Those combined narratives are driving capital, product builds, and regulatory attention in late 2025 → 2026.\n\nWhy that is the leading meta\n- Institutional flows (spot BTC/ETH ETFs, custody products, insurance/custodian adoption) put big, patient capital into crypto and force products to be compliant, liquid, and scalable.\n- Scalability improvements (Dencun, Layer‑2 growth, zk rollups) make on‑chain settlement and DeFi cheaper and more reliable — enabling higher‑value, regulated products to exist on chain.\n- Tokenization/RWAs promise to bring traditional finance balance‑sheet assets on chain (bonds, invoices, real estate), which is the direct path for institutional adoption.\n- Liquid staking + restaking solves yield needs for institutions holding PoS native assets.\n- Decentralized AI/agent experiments are attracting interest as a new use‑case cluster that can monetize compute/data on chain.\n\nWhich assets are driving the meta (examples)\n- Bitcoin (BTC): institutional store‑of‑value / treasury asset; ETF flows and custody products are the main demand engine.\n- Ethereum (ETH): settlement and execution layer for DeFi, L2s, and tokenized assets.\n- Layer‑2 tokens / ecosystems: Arbitrum (ARB), Optimism (OP), Base and other L2 ecosystems and emerging zk projects — they capture activity/value as scaling migrates off mainnet.\n- Liquid staking / staking infrastructure: Lido (LDO)/stETH, Rocket Pool (RPL) and other LST/validator ecosystems that provide liquid exposure to staking yield.\n- RWA / tokenization infrastructure: protocols and tokenized instruments (issuers and platforms such as Ondo/Centrifuge/other RWA stacks and ETPs) — these are not one token but an entire new asset class being minted onchain.\n- Decentralized AI tokens / projects: Bittensor/TAO and similar projects where crypto intersects decentralized model markets and on‑chain agent economies.\n\nTAM (order‑of‑magnitude view)\n- Bitcoin-as‑digital‑store‑of‑value: comparable to some share of the global store‑of‑value market (gold ≈ $10–12T). If BTC captures even a modest share of that market, TAM is in the trillions.\n- On‑chain finance (DeFi + tokenized RWAs + payments): global financial markets (banking, bonds, equities, real estate) are many tens to hundreds of trillions. The realistic on‑chain addressable slice over the next decade is likely in the low‑to‑mid trillions (not the whole market overnight — gradual capture).\n- Layer‑2 and settlement infrastructure: TAM tied to transaction volume and capital routed on chain — hundreds of billions to low‑trillions of annual value transferred or settled if crypto is widely used by institutions.\n- RWAs/tokenization: the tokenizable stock of real estate, bonds, and private assets is many tens of trillions; near‑term tokenized issuance will be small relative to that but the long‑run TAM is enormous.\n- Decentralized AI: standalone AI market is already tens of billions and growing; the crypto‑native slice (model marketplaces, agent economies) is probably a smaller, early‑stage tens‑billion TAM in medium term.\n\nSustainability — what looks durable vs what’s speculative\nDurable elements\n- BTC as a liquid, institutionalized store of value looks structurally durable so long as custody, regulatory clarity, and ETF-like demand persist.\n- ETH + L2 scaling is durable because of strong developer network effects, composability, and clear technical path (rollups, modularity). Low fees and UX improvements materially increase use cases.\n- Liquid staking / validator ecosystems are structurally useful in PoS universes and are likely to persist because they solve real liquidity/yield frictions.\n- RWA tokenization has durable utility if on‑chain legal, custody, and settlement primitives become accepted (this requires regulatory/legal scaffolding but offers clear productivity gains).\n\nSpeculative / highly execution‑dependent elements\n- Many standalone tokens and projects that promise tokenized everything or “play‑to‑earn” ecosystems remain speculative unless they build real revenue, custody/legal robustness, and sufficient liquidity.\n- Decentralized AI is promising but early: value accrues to teams with data, model quality, and real demand — crypto alone doesn’t guarantee adoption.\n\nMoat characteristics (how defensible the narrative is)\n- Network effects: Ethereum and major L2s benefit from strong developer and liquidity network effects — protocol-level composability creates a natural moat vs greenfield competitors.\n- Liquidity and market depth: BTC and major ETH‑based assets have deep liquidity, custody, and institutional rails (ETFs, custodians). Liquidity is a moat because institutions need it.\n- Regulatory / operational moats: Projects that secure regulated partnerships, custodial approvals, or become standard settlement rails (e.g., exchanges, custodians, ETP issuers) gain durable advantages that are hard to displace quickly.\n- Technical moats: Security, decentralization, and predictable economic primitives (e.g., staking protocols with proven reliability) build defensibility. Conversely, projects that centralize execution (some rollups or custodial tokenizers) risk regulatory or counterparty concentration but may have economic advantages.\n- Data & compute moats (AI): If a crypto project can secure unique datasets, models, or an active market of paying agents, that becomes a real moat — otherwise token incentives alone won’t sustain quality AI.\n\nKey risks and failure modes\n- Regulation: securities classification, custody rules, and capital‑market laws can slow or reshape RWAs and tokenized instruments.\n- Centralization: custodial or single‑party reliance (e.g., centralized oracles, single hot‑wallet stakes) undermines the trustless promise and can invite regulatory clampdowns.\n- Liquidity fragmentation: too many competing tokens and fragmented liquidity can keep institutions away.\n- Tech risk and UX: high fees, poor UX, or systemic smart‑contract failures (bridges, rollup exploits) can stall institutional onboarding.\n- Macroeconomic / risk‑on cycles: institutional flows can be procyclical; a drawdown or liquidity shock could remove the short‑term narrative tailwind.\n\nPractical takeaways / who likely wins\n- Long‑term durable winners: BTC (store of value/liquidity), ETH (execution layer + strong developer moat), major L2 ecosystems that actually capture user/TVL, and reputable liquid staking providers with strong security/custody relationships.\n- Infrastructure/enterprise winners: custody providers, regulated tokenization platforms, compliance tooling, and settlement rails that bridge fiat and on‑chain assets.\n- Opportunistic winners: selective RWA issuers and AI/agent protocols that can demonstrate real revenue and legal clarity — these are high‑reward but require execution.\n\nIf you want, I can:\n- Produce a ranked list of specific protocols/tokens with short moat and risk scores (1–10).\n- Build an estimated TAM model in numbers (conservative/base/optimistic) with assumptions and timelines.\n- Track news/filings (ETF flows, Grayscale/Bittensor moves, Layer‑2 TVL) and produce a weekly narrative dashboard.\n\nWhich follow‑up would be most useful?",
+    "executionTimeMs": 44934,
+    "totalTokens": 18801,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "leading narrative in crypto 2026",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto meta 2025 2026 narratives",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "AI crypto narrative 2025 2026 tokenizing AI models blockchain",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Layer 2 rollups narrative 2025 2026 zk-rollup optimism arbitrum narrative",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "tokenization real world assets crypto 2025 2026 narrative",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "liquid staking narrative 2025 2026 LST market growth Lido Rocket Pool",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Web3 gaming narrative 2025 2026 play-to-earn metaverse tokenomics narrative 2024 2025",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Bitcoin narrative 2025 2026 store of value narrative adoption ETFs halving 2024 2025",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 1500
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

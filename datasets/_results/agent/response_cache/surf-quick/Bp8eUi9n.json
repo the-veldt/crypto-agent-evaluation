@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Mindshare Growth Analysis (Last 24h as of 2026-01-13 UTC)\n\n**Privacy coins lead mindshare surge**, with $XMR (Monero) and $DASH showing explosive social/search interest (+4x mindshare for XMR per KaitoAI data). Solana/BSC memecoins dominate volume-driven trends via high DEX activity. No single overwhelming sector, but **privacy narrative** emerges as central theme with ~15-45% price gains correlating to buzz.\n\n### Top Projects by Mindshare Proxies (Site Trends + Twitter Engagement)\nData from CoinMarketCap (site visibility), CoinGecko (searches), Twitter (high-fave mentions). Focus on non-BTC/ETH majors with growth signals.\n\n| Rank | Project/Ticker | Key Metric | 24h Price Chg | Catalyst Signals | Chain |\n|------|----------------|------------|---------------|------------------|-------|\n| 1 | Monero ($XMR) | #1 CoinGecko search; Twitter top privacy; +4x mindshare | +15.2% | Privacy buzz revival; top weekly performer | Core |\n| 2 | Dash ($DASH) | #3 CoinGecko; paired w/ XMR in trends | +45.5% | Privacy coin momentum | Core |\n| 3 | Story (IP?) | #2 CoinGecko search | +45.6% | Unspecified narrative hype | ? |\n| 4 | New SOL Memes (e.g., unnamed 11h/12h tokens) | CMC #10-11: 536%/584% pumps, 94k-103k DEX txns | +355-584% | Launch frenzy, degen volume | Solana |\n| 5 | BSC Pumps (e.g., $0.01305 2h token) | CMC #17: +30%, 78k txns | +30-56% | High-volume shorts | BSC |\n| 6 | Render ($RENDER) | Twitter weekly top-5 | N/A | AI/render narrative carryover | Multi |\n\n### Common Themes & Narratives\n- **Privacy Resurgence (Central Sector)**: $XMR/$DASH dominate searches/tweets. Narrative: \"Privacy coins trending today\" (CoinGecko). Ties to untraceable txns in transparent world.\n- **Memecoin Pump-and-Dump Cycle**: SOL/BSC microcaps (hours-old, <1M MC) with 100k+ txns/68M vol. Narrative: Degen hunting 500%+ flips.\n- **Airdrop/Mindshare Farming**: Tweets highlight Cookie DAO campaigns (e.g., $VEERA Phase 2, $RAILS 0.5% alloc, $CODEXERO multipliers). Rewards original content over spam.\n\n### Catalysts Driving Privacy Sector\n- **Search/Engagement Spike**: XMR #1 on CoinGecko (3h searches); Twitter confirms \"privacy coins led by XMR/DASH\".\n- **Price-Volume Flywheel**: $XMR +15%, $DASH +45%; $510M/$774M 24h vol amplifies visibility.\n- **No Explicit News**: Organic buzz (no macro events noted); potential regulatory FUD or anon demand. Monitor KOLs like @coingecko for Phase 2.\n- **Risk**: High vol but volatile; privacy coins historically cycle w/ scrutiny.\n\n**Bottom Line**: Privacy coins offer narrative alpha (watch unlocks/TVL); avoid SOL/BSC memes unless scalping. Track XMR mindshare via KaitoAI/Twitter for continuation. Data as of 2026-01-13 17:38 UTC.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

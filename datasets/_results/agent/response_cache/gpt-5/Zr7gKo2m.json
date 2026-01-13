@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "Zr7gKo2m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Zr7gKo2m",
+    "query": "give a breakdown of the tokenomics of Jito",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market",
+      "tokenomics"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 492
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 3325
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 6404
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9433
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 12620
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 16041
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 19676
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 26560
+        }
+      },
+      {
+        "stepNumber": 9,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 34134
+        }
+      },
+      {
+        "stepNumber": 10,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 41519
+        }
+      }
+    ],
+    "finalAnswer": "",
+    "executionTimeMs": 55019,
+    "totalTokens": 170204,
+    "stepCount": 10,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Jito JTO tokenomics allocation vesting Jito Network token distribution total supply airdrop percentages",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "jito.network",
+            "docs.jito.network",
+            "blog.jito.network",
+            "medium.com",
+            "coinbase.com",
+            "coinmarketcap.com",
+            "coingecko.com",
+            "jito.foundation",
+            "mirror.xyz"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Announcing JTO the Jito governance token tokenomics allocation Jito token distribution percentages",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "jito.network",
+            "www.jito.network",
+            "blog.jito.network",
+            "jito.foundation",
+            "docs.jito.network",
+            "mirror.xyz"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "The Jito Governance Token (JTO) tokenomics allocation total supply distribution community core contributors investors vesting",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "www.jito.network",
+            "jito.network",
+            "docs.jito.network",
+            "blog.jito.network",
+            "jito.foundation"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:jito.network \"The Jito Governance Token (JTO)\" total supply allocation",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "jito.network"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Jito JTO tokenomics allocation breakdown total supply distribution vesting CoinMarketCap",
+          "numResults": 5,
+          "startPublishedDate": "2023-11-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coinmarketcap.com",
+            "coingecko.com",
+            "binance.com",
+            "binance-research.bnbchain.org",
+            "messari.io",
+            "nansen.ai",
+            "delphi.digital",
+            "theblock.co"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "CoinGecko JTO token allocation Jito tokenomics",
+          "numResults": 5,
+          "startPublishedDate": "2023-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coingecko.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Jito JTO token allocation breakdown investors team community Binance research listing distribution",
+          "numResults": 10,
+          "startPublishedDate": "2023-11-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "research.binance.com",
+            "www.bnbchain.org",
+            "coinbase.com",
+            "support.kraken.com",
+            "blog.kraken.com",
+            "blog.coinbase.com",
+            "help.coinbase.com",
+            "bybit.com",
+            "okx.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"JTO\" token allocation 1,000,000,000 airdrop investors team foundation breakdown",
+          "numResults": 10,
+          "startPublishedDate": "2023-11-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "twitter.com",
+            "x.com",
+            "medium.com",
+            "mirror.xyz",
+            "docs.jito.network",
+            "blog.jito.network",
+            "dune.com",
+            "coinmarketcap.com",
+            "coindesk.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "JTO token allocation breakdown team investors community airdrop foundation percentages \"JTO\"",
+          "numResults": 10,
+          "startPublishedDate": "2023-11-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "docs.google.com",
+            "mirror.xyz",
+            "dune.com",
+            "twitter.com",
+            "x.com",
+            "github.com",
+            "medium.com",
+            "substack.com",
+            "cointelegraph.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:jito.network \"The Jito Governance Token (JTO)\" governance token page allocation token supply 1,000,000,000",
+          "numResults": 10,
+          "startPublishedDate": "2023-11-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "jito.network"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

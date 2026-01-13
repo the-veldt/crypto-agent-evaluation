@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "xUm8wAp5",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "xUm8wAp5",
+    "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 578
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 6105
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 13128
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 19932
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "Short answer (snapshot): according to Messari’s State of Solana (Q4 2024 / Q1 2025 summaries) the biggest revenue generators in the recent surge were memecoin launch/utility apps plus a few high‑volume DeFi primitives. The headline top‑earners were Pump.fun (memecoin launchpad), Photon (trading terminal), and Raydium (AMM/DEX). Other consistent high‑revenue projects you should watch are Jito (blockbuilder/MEV), Marinade (liquid staking), and Magic Eden (NFT marketplace). Below I compare each and list the core catalysts that have driven revenue growth — and the main sustainability risks for that revenue.\n\n1) Pump.fun (memecoin launchpad / minter)\n- What/size: a memecoin launch/minter that dominated on‑chain app revenue in Q4 2024 (Messari reported Pump.fun ≈ $235M in Q4; many November spikes were reported in press coverage).\n- Key catalysts:\n  - Explosive memecoin issuance and speculative trading on Solana (many cheap mints → huge volume).\n  - Easy UX for launching memecoins and viral social/video integrations that accelerate mint+flip cycles.\n  - Network effects: once memecoin flows concentrate on one platform, it captures a large share of mint/fee revenue.\n- Revenue drivers: mint fees, listing/launch fees, high trading volumes of tokens created on the platform.\n- Risks: highly cyclical and speculative (revenue collapses when memecoin fads fade); regulatory and content/community moderation issues can produce PR risk and sudden user loss.\n- Sources: Messari / Cointelegraph summaries of Q4 2024 Solana app revenue (Messari Q4 2024; Cointelegraph recaps).\n\n2) Photon (trading terminal / trading-related app)\n- What/size: trading terminal / tooling that captured major fee/revenue during the memecoin wave (Messari placed Photon high in Q4 revenue, ~$140M).\n- Key catalysts:\n  - High-frequency memecoin launches and swaps increased demand for trading tools and aggregators.\n  - Integrations with liquidity sources and ease of routing created fee capture opportunities.\n- Revenue drivers: fees on trade execution, premium tooling, possibly listing/launch services.\n- Risks: like Pump.fun, revenue tied to speculative token flow; competitive pressure from aggregators and DEX features.\n\n3) Raydium (DEX / AMM, plus perps & launch tools)\n- What/size: the largest Solana AMM/DEX by volume; Messari reported Raydium as a top DEX revenue/volume contributor (Raydium Q3–Q1 reports show dramatic volume growth; Q4 revenue ~ $74M per Messari).\n- Key catalysts:\n  - Raydium V3 and product upgrades (improved AMM design, features like “Burn & Earn” and token launch products).\n  - Memecoin trading concentration on Solana → huge swap volumes and fees.\n  - Launch of perpetual futures (perps) and new token launchpad products expanded revenue sources.\n  - On‑chain buybacks and protocol incentives that reinforce ecosystem activity.\n- Revenue drivers: swap fees (spot), perp fees, launchpad fees, token incentive economics.\n- Risks: volume concentration in memecoins increases volatility of fees; competition from other DEXs/aggregators; impermanent loss/liquidity provider dynamics that affect depth.\n\n4) Jito (blockbuilder / MEV infrastructure)\n- What/size: blockbuilding / optimizer that captures value from transaction ordering/MEV; one of the higher non‑memecoin earners (Messari placed it among the top projects, ~$21M Q4).\n- Key catalysts:\n  - Surge in trading activity increases MEV and priority fee capture.\n  - Solana’s performance improvements and tooling that enable specialized blockbuilders to capture more revenue.\n- Revenue drivers: MEV capture, priority fee/fee auctions, services to validators/searchers.\n- Risks: MEV competition, protocol changes, and decentralization/governance pressures.\n\n5) Marinade (liquid staking protocol)\n- What/size: largest liquid staking protocols on Solana (mSOL); reported revenue growth (Marinade Q4’24 revenue noted ~$3M in the Messari brief).\n- Key catalysts:\n  - Rising demand for liquid staking (yield + capital efficiency) as more SOL is staked and LSTs are used in DeFi.\n  - Products like the Stake Auction Marketplace (SAM) that increase fee capture.\n  - Institutional flows and staking‑based products (ETFs, treasuries) that expand addressable market.\n- Revenue drivers: staking/service fees, marketplace fees on stake auctions, yield spread.\n- Risks: staking APR changes, validator performance, competition from other LSTs (Kamino, Lido on Solana if applicable), regulatory/ custody concerns.\n\n6) Magic Eden (NFT marketplace & expanding into trading)\n- What/size: leading Solana NFT marketplace; revenue from marketplace fees, plus strategic expansions (acquired Slingshot to broaden to token trading).\n- Key catalysts:\n  - NFT market rebounds and high-profile drops on Solana.\n  - Product expansions beyond NFTs (trading app acquisitions, cross‑chain tokens) to diversify revenue.\n  - Network effects as primary NFT marketplace on Solana.\n- Revenue drivers: marketplace fees/commissions, optional services (promotions, launchpad, cross‑selling), potential trading fee revenue after product expansion.\n- Risks: NFT market cycles, changes to royalty enforcement (optional royalties can blunt creator/marketplace revenue), competition (Tensor, others), and overall attention shifting away from NFTs.\n\nOther notes / context\n- Where the revenue came from in recent months: Messari & media reporting show 2024 Q4’s surge was dominated by memecoin activity; DEXs and trading tools benefited from the volume, while LSTs and blockbuilders got a smaller but steadier share.\n- Sustainability: liquid staking and core DEX activity (broad‑market spot/perps) are more durable than memecoin/minter revenues, which are highly episodic. Diversified marketplaces or DEXs that add perps, launchpads, or trading apps can convert episodic volume into more recurring revenue streams — but they remain exposed to market cycles.\n- Metrics to watch for each project: daily/ monthly protocol revenue, DEX daily volume and taker/maker fee splits, mint counts & mint fee income (for launchpads), LST TVL & staking APR, MEV/priority fee capture trends, and NFT sales counts/avg price.\n\nSources (snapshot reporting)\n- Messari — State of Solana Q4 2024 / Q1 2025 reports (breakdown of Chain GDP and top app revenues: Pump.fun, Photon, Raydium, Jito, Marinade, etc.) — https://messari.io/report/state-of-solana-q4-2024 and https://messari.io/report/state-of-solana-q1-2025\n- Cointelegraph reporting summarizing Messari findings and November 2024 peaks — https://cointelegraph.com/news/solana-app-revenue-up-213-q4 and related articles on memecoin revenue\n- Raydium protocol reports / Messari “State of Raydium” pieces for product catalysts — https://messari.io/report/state-of-raydium-q1-2025\n- Marinade brief / report for liquid staking revenue details — https://messari.io/report/marinade-q4-2024-brief\n- Magic Eden media coverage and product moves (Slingshot acquisition, royalties policy changes) — press articles (CoinDesk, The Block, Cointelegraph)\n\nIf you want, I can:\n- pull and tabulate the most recent monthly revenue figures from DefiLlama / Messari for the top 10 Solana apps, or\n- produce a dashboard-style ranking (revenue, primary revenue streams, 3‑mo trend, risk score) for the top 8–12 projects. Which would you prefer?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 28791
+        }
+      }
+    ],
+    "finalAnswer": "Short answer (snapshot): according to Messari’s State of Solana (Q4 2024 / Q1 2025 summaries) the biggest revenue generators in the recent surge were memecoin launch/utility apps plus a few high‑volume DeFi primitives. The headline top‑earners were Pump.fun (memecoin launchpad), Photon (trading terminal), and Raydium (AMM/DEX). Other consistent high‑revenue projects you should watch are Jito (blockbuilder/MEV), Marinade (liquid staking), and Magic Eden (NFT marketplace). Below I compare each and list the core catalysts that have driven revenue growth — and the main sustainability risks for that revenue.\n\n1) Pump.fun (memecoin launchpad / minter)\n- What/size: a memecoin launch/minter that dominated on‑chain app revenue in Q4 2024 (Messari reported Pump.fun ≈ $235M in Q4; many November spikes were reported in press coverage).\n- Key catalysts:\n  - Explosive memecoin issuance and speculative trading on Solana (many cheap mints → huge volume).\n  - Easy UX for launching memecoins and viral social/video integrations that accelerate mint+flip cycles.\n  - Network effects: once memecoin flows concentrate on one platform, it captures a large share of mint/fee revenue.\n- Revenue drivers: mint fees, listing/launch fees, high trading volumes of tokens created on the platform.\n- Risks: highly cyclical and speculative (revenue collapses when memecoin fads fade); regulatory and content/community moderation issues can produce PR risk and sudden user loss.\n- Sources: Messari / Cointelegraph summaries of Q4 2024 Solana app revenue (Messari Q4 2024; Cointelegraph recaps).\n\n2) Photon (trading terminal / trading-related app)\n- What/size: trading terminal / tooling that captured major fee/revenue during the memecoin wave (Messari placed Photon high in Q4 revenue, ~$140M).\n- Key catalysts:\n  - High-frequency memecoin launches and swaps increased demand for trading tools and aggregators.\n  - Integrations with liquidity sources and ease of routing created fee capture opportunities.\n- Revenue drivers: fees on trade execution, premium tooling, possibly listing/launch services.\n- Risks: like Pump.fun, revenue tied to speculative token flow; competitive pressure from aggregators and DEX features.\n\n3) Raydium (DEX / AMM, plus perps & launch tools)\n- What/size: the largest Solana AMM/DEX by volume; Messari reported Raydium as a top DEX revenue/volume contributor (Raydium Q3–Q1 reports show dramatic volume growth; Q4 revenue ~ $74M per Messari).\n- Key catalysts:\n  - Raydium V3 and product upgrades (improved AMM design, features like “Burn & Earn” and token launch products).\n  - Memecoin trading concentration on Solana → huge swap volumes and fees.\n  - Launch of perpetual futures (perps) and new token launchpad products expanded revenue sources.\n  - On‑chain buybacks and protocol incentives that reinforce ecosystem activity.\n- Revenue drivers: swap fees (spot), perp fees, launchpad fees, token incentive economics.\n- Risks: volume concentration in memecoins increases volatility of fees; competition from other DEXs/aggregators; impermanent loss/liquidity provider dynamics that affect depth.\n\n4) Jito (blockbuilder / MEV infrastructure)\n- What/size: blockbuilding / optimizer that captures value from transaction ordering/MEV; one of the higher non‑memecoin earners (Messari placed it among the top projects, ~$21M Q4).\n- Key catalysts:\n  - Surge in trading activity increases MEV and priority fee capture.\n  - Solana’s performance improvements and tooling that enable specialized blockbuilders to capture more revenue.\n- Revenue drivers: MEV capture, priority fee/fee auctions, services to validators/searchers.\n- Risks: MEV competition, protocol changes, and decentralization/governance pressures.\n\n5) Marinade (liquid staking protocol)\n- What/size: largest liquid staking protocols on Solana (mSOL); reported revenue growth (Marinade Q4’24 revenue noted ~$3M in the Messari brief).\n- Key catalysts:\n  - Rising demand for liquid staking (yield + capital efficiency) as more SOL is staked and LSTs are used in DeFi.\n  - Products like the Stake Auction Marketplace (SAM) that increase fee capture.\n  - Institutional flows and staking‑based products (ETFs, treasuries) that expand addressable market.\n- Revenue drivers: staking/service fees, marketplace fees on stake auctions, yield spread.\n- Risks: staking APR changes, validator performance, competition from other LSTs (Kamino, Lido on Solana if applicable), regulatory/ custody concerns.\n\n6) Magic Eden (NFT marketplace & expanding into trading)\n- What/size: leading Solana NFT marketplace; revenue from marketplace fees, plus strategic expansions (acquired Slingshot to broaden to token trading).\n- Key catalysts:\n  - NFT market rebounds and high-profile drops on Solana.\n  - Product expansions beyond NFTs (trading app acquisitions, cross‑chain tokens) to diversify revenue.\n  - Network effects as primary NFT marketplace on Solana.\n- Revenue drivers: marketplace fees/commissions, optional services (promotions, launchpad, cross‑selling), potential trading fee revenue after product expansion.\n- Risks: NFT market cycles, changes to royalty enforcement (optional royalties can blunt creator/marketplace revenue), competition (Tensor, others), and overall attention shifting away from NFTs.\n\nOther notes / context\n- Where the revenue came from in recent months: Messari & media reporting show 2024 Q4’s surge was dominated by memecoin activity; DEXs and trading tools benefited from the volume, while LSTs and blockbuilders got a smaller but steadier share.\n- Sustainability: liquid staking and core DEX activity (broad‑market spot/perps) are more durable than memecoin/minter revenues, which are highly episodic. Diversified marketplaces or DEXs that add perps, launchpads, or trading apps can convert episodic volume into more recurring revenue streams — but they remain exposed to market cycles.\n- Metrics to watch for each project: daily/ monthly protocol revenue, DEX daily volume and taker/maker fee splits, mint counts & mint fee income (for launchpads), LST TVL & staking APR, MEV/priority fee capture trends, and NFT sales counts/avg price.\n\nSources (snapshot reporting)\n- Messari — State of Solana Q4 2024 / Q1 2025 reports (breakdown of Chain GDP and top app revenues: Pump.fun, Photon, Raydium, Jito, Marinade, etc.) — https://messari.io/report/state-of-solana-q4-2024 and https://messari.io/report/state-of-solana-q1-2025\n- Cointelegraph reporting summarizing Messari findings and November 2024 peaks — https://cointelegraph.com/news/solana-app-revenue-up-213-q4 and related articles on memecoin revenue\n- Raydium protocol reports / Messari “State of Raydium” pieces for product catalysts — https://messari.io/report/state-of-raydium-q1-2025\n- Marinade brief / report for liquid staking revenue details — https://messari.io/report/marinade-q4-2024-brief\n- Magic Eden media coverage and product moves (Slingshot acquisition, royalties policy changes) — press articles (CoinDesk, The Block, Cointelegraph)\n\nIf you want, I can:\n- pull and tabulate the most recent monthly revenue figures from DefiLlama / Messari for the top 10 Solana apps, or\n- produce a dashboard-style ranking (revenue, primary revenue streams, 3‑mo trend, risk score) for the top 8–12 projects. Which would you prefer?",
+    "executionTimeMs": 60353,
+    "totalTokens": 68534,
+    "stepCount": 5,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top revenue generating projects on Solana 2024 Magic Eden Marinade Raydium Jupiter Wormhole revenue compare \"top revenue\" Solana projects 2024 revenue rankings",
+          "numResults": 10,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "decrypt.co",
+            "cointelegraph.com",
+            "coindesk.com",
+            "messari.io",
+            "dune.com",
+            "flipsidecrypto.com",
+            "tokenterminal.com",
+            "ftx.fyi",
+            "theblock.co",
+            "arcane.research"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top earning protocols Solana revenue 'top earning' 'Solana' 'protocol fees' 'DefiLlama' 'top revenue projects' 2024 2025 'Pump.fun' 'Magic Eden' 'Marinade' 'Raydium' 'Wormhole'",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "messari.io",
+            "cointelegraph.com",
+            "decrypt.co",
+            "theblock.co",
+            "dune.com",
+            "flipsidecrypto.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Magic Eden revenue 2024 2025 monthly revenue fees 'Magic Eden revenue' 'marketplace fees' Solana NFT marketplace revenue 2024 2025 'Magic Eden' 'revenues'",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "decrypt.co",
+            "cointelegraph.com",
+            "tokenterminal.com",
+            "coindesk.com",
+            "dune.com",
+            "theblock.co"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Photon Solana revenue 'Photon' 'Solana' 'revenue' 'Photon trading terminal' 'Photon protocol' 'Photon revenue Messari'",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "messari.io",
+            "cointelegraph.com",
+            "theblock.co",
+            "decrypt.co"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

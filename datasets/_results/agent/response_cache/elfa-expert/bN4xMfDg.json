@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "bN4xMfDg",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "bN4xMfDg",
+    "query": "what assets have had the highest growth in new traders in the last 4 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nEthereum has experienced the highest growth in new traders over the last 4 hours, with a record surge in new wallet creation and strong mindshare momentum. Bitcoin and Solana are also showing notable increases in trader activity, but Ethereum leads in net new trader growth currently.  \n───\n\nBased on the latest data, Ethereum is seeing a significant spike in new wallet creation, reaching all-time high levels with over 393,600 new wallets created in a single day and sustained high averages recently. This is a strong indicator of a surge in new traders and user adoption, as highlighted by recent analytics and social sentiment Santiment.\n\nBitcoin and Solana are also experiencing substantial growth in trader activity, with Bitcoin showing a 16.5% increase in mindshare and a 125% jump in long calls, suggesting a rush of new and active traders entering the market. Solana’s mindshare is up nearly 12%, reflecting increasing attention and participation among new traders.\n\nOther assets with notable, though smaller, increases in trader activity include Arbitrum (6.9% mindshare growth) and Monad (94% mindshare growth, albeit from a lower base), but these are less prominent than the surges seen in Ethereum and Bitcoin.\n\nPrivacy-focused coins like Dash and Monero are also gaining traction among new traders, with Dash highlighted for a 70% jump and Monero for consistent new highs, as per social sentiment GieM.\n\nIn summary, Ethereum leads in new trader growth, followed by Bitcoin and Solana, with privacy coins and some L2s also trending upwards. If you’re looking for where the newest waves of traders are entering, Ethereum currently stands out as the primary hotspot.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

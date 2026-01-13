@@ -1,0 +1,1380 @@
+{
+  "runId": "2026-01-13T16:52:05.693Z",
+  "timestamp": "2026-01-13T16:52:05.693Z",
+  "config": {
+    "agentSystems": [
+      "gpt-5-mini",
+      "droyd-casual"
+    ],
+    "datasets": "all",
+    "judgeModel": "gemini-3-flash",
+    "outputDir": "datasets/_results/agent",
+    "rankingMethod": "elo",
+    "keepRawResponse": false,
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    },
+    "useTestDatasets": true
+  },
+  "dataset": "assetDiscovery+assetEvaluation+projectFundamentals+trendAnalysis+trendDiscovery",
+  "judgeModel": "gemini-3-flash",
+  "results": [
+    {
+      "question": {
+        "qid": "1kC3mP2v",
+        "query": "what assets are being discussed on twitter",
+        "level": 1,
+        "categories": [
+          "asset_discovery"
+        ],
+        "tags": null,
+        "sectors": null,
+        "dataset": "assetDiscovery"
+      },
+      "dataset": "assetDiscovery",
+      "agentResults": [
+        {
+          "system": "gpt-5-mini",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 572
+              }
+            },
+            {
+              "stepNumber": 2,
+              "text": "Do you mean cryptocurrencies (coins/tokens) being talked about on Twitter/X? And what timeframe do you want — right now (last 24 hours), this week, or another period? I can pull the current top-mentioned assets and social metrics (mentions, sentiment) from sources like LunarCrush/Santiment — which would you prefer?",
+              "toolCalls": [],
+              "finishReason": "stop",
+              "usage": {
+                "totalTokens": 4328
+              }
+            }
+          ],
+          "finalAnswer": "Do you mean cryptocurrencies (coins/tokens) being talked about on Twitter/X? And what timeframe do you want — right now (last 24 hours), this week, or another period? I can pull the current top-mentioned assets and social metrics (mentions, sentiment) from sources like LunarCrush/Santiment — which would you prefer?",
+          "executionTimeMs": 14490,
+          "totalTokens": 4900,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "LunarCrush top coins by Twitter mentions today",
+                "numResults": 5,
+                "startPublishedDate": "2026-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [
+                  "lunarcrush.com",
+                  "lunarcrush.io"
+                ],
+                "maxCharacters": 1500
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Santiment top social volume cryptocurrencies Twitter mentions",
+                "numResults": 5,
+                "startPublishedDate": "2026-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [
+                  "santiment.net",
+                  "santiment.io"
+                ],
+                "maxCharacters": 1500
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "most mentioned cryptocurrencies on Twitter today 2026",
+                "numResults": 5,
+                "startPublishedDate": "2026-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [
+                  "coindesk.com",
+                  "cointelegraph.com",
+                  "coinmarketcap.com",
+                  "coingecko.com"
+                ],
+                "maxCharacters": 1500
+              }
+            }
+          ]
+        },
+        {
+          "system": "droyd-casual",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_0ca5617b2a2cf14100696678370cb481a19898ee5e33e1f301\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_eJVPVTGNDnKcwtxtGprFQzu0\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"most-discussed assets on Twitter in crypto\",\n      \"content_types\": [\n        \"tweets\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0ca5617b2a2cf141006966783a97b081a1978aaec1c7ec26d4\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 2,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_0ca5617b2a2cf141006966783cdc4081a19f9b1988ffb95cd4\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"text\",\n    \"text\": \"### Top assets on Twitter (last 7 days)\\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767793301/veldt/wojjqzjk9esx2bap7kud.jpg\\n\\n- **Bitcoin (BTC)** — dominant theme: price structure around **$90–94k**, ETF flows and MicroStrategy accumulation (company now ~**687k BTC**).  \\n- **Ethereum (ETH)** — governance/tech threads (Vitalik on walkaway/resilience, ZK‑EVM), price back **> $3k**.  \\n- **USDC / USDT / Stablecoins** — heavy volume/flows: stablecoin transaction volume and supply dynamics (USDC leading on some metrics).  \\n- **Solana (SOL)** — large stablecoin inflows, wash‑trading / LP‑churning debates on Base; ecosystem rotation stories.  \\n- **Arbitrum, Base, Starknet, Hyperliquid** — onchain flow rotation and fee leadership; **Hyperliquid** noted for large net inflows and fee share.  \\n- **Aave (AAVE), Uniswap (UNI), Figure (FIGR)** — protocol-specific headlines: Aave governance drama, Uniswap fee switch revenue (~**$25M RR**), deep dive on **Figure** fundamentals.  \\n- **Prediction markets (Polymarket, Kalshi)** — record weekend volumes (Kalshi spikes into hundreds of millions).  \\n- **Commodities & macro assets** — **Silver** parabolic move (**>$85/oz**) picked up by market/tweet threads; CPI, jobs, and Treasury funding stories also trending.  \\n- **Equities / AI chips** — **NVIDIA, SK Hynix, Google** appear in chip/AI compute threads and earnings/price‑target discussion.  \\n- **MicroStrategy / MSTR** — discussed alongside BTC treasury buys and corporate strategy.\\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1768067691/veldt/tt1ow9iumm2jmrgju3pc.jpg\\n\\nNotes: conversation mix is macro + onchain flows + protocol governance + AI/infrastructure. Discussion intensity is highest for **BTC, stablecoins, ETH, SOL, Arbitrum, Hyperliquid,** and **prediction‑market** platforms.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0ca5617b2a2cf141006966784ca8b081a1a92ef6b0f4d9050b\"\n      }\n    }\n  }\n]",
+              "finishReason": "stop"
+            }
+          ],
+          "finalAnswer": "### Top assets on Twitter (last 7 days)\n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767793301/veldt/wojjqzjk9esx2bap7kud.jpg\n\n- **Bitcoin (BTC)** — dominant theme: price structure around **$90–94k**, ETF flows and MicroStrategy accumulation (company now ~**687k BTC**).  \n- **Ethereum (ETH)** — governance/tech threads (Vitalik on walkaway/resilience, ZK‑EVM), price back **> $3k**.  \n- **USDC / USDT / Stablecoins** — heavy volume/flows: stablecoin transaction volume and supply dynamics (USDC leading on some metrics).  \n- **Solana (SOL)** — large stablecoin inflows, wash‑trading / LP‑churning debates on Base; ecosystem rotation stories.  \n- **Arbitrum, Base, Starknet, Hyperliquid** — onchain flow rotation and fee leadership; **Hyperliquid** noted for large net inflows and fee share.  \n- **Aave (AAVE), Uniswap (UNI), Figure (FIGR)** — protocol-specific headlines: Aave governance drama, Uniswap fee switch revenue (~**$25M RR**), deep dive on **Figure** fundamentals.  \n- **Prediction markets (Polymarket, Kalshi)** — record weekend volumes (Kalshi spikes into hundreds of millions).  \n- **Commodities & macro assets** — **Silver** parabolic move (**>$85/oz**) picked up by market/tweet threads; CPI, jobs, and Treasury funding stories also trending.  \n- **Equities / AI chips** — **NVIDIA, SK Hynix, Google** appear in chip/AI compute threads and earnings/price‑target discussion.  \n- **MicroStrategy / MSTR** — discussed alongside BTC treasury buys and corporate strategy.\n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1768067691/veldt/tt1ow9iumm2jmrgju3pc.jpg\n\nNotes: conversation mix is macro + onchain flows + protocol governance + AI/infrastructure. Discussion intensity is highest for **BTC, stablecoins, ETH, SOL, Arbitrum, Hyperliquid,** and **prediction‑market** platforms.",
+          "executionTimeMs": 31212,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "searchContent",
+              "parameters": {
+                "search_mode": "recent",
+                "semantic_query": "most-discussed assets on Twitter in crypto",
+                "content_types": [
+                  "tweets"
+                ],
+                "limit": 30,
+                "days_back": 7,
+                "sort_by": "relevance",
+                "minimum_relevance_score": 0.25,
+                "ecosystem_ids": [],
+                "category_ids": [],
+                "project_ids": []
+              }
+            }
+          ],
+          "totalTokens": 45712
+        }
+      ],
+      "pairwiseComparisons": [
+        {
+          "questionId": "1kC3mP2v",
+          "systemA": "gpt-5-mini",
+          "systemB": "droyd-casual",
+          "winner": "B",
+          "confidence": "high",
+          "response1System": "A",
+          "dimensions": {
+            "taskCompletion": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 provides a comprehensive list of assets across multiple categories (crypto, commodities, equities) as requested, whereas Response 1 only asks clarifying questions and provides no actual data."
+            },
+            "answerQuality": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 includes specific data points, price levels, and market themes relevant to the prompt's date. Response 1 provides no information at all."
+            },
+            "reasoningQuality": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 correctly identified that 'assets' covers more than just crypto (including Silver and NVIDIA) and successfully synthesized current trends into a structured report. Response 1's refusal to provide an initial overview was less helpful."
+            },
+            "efficiency": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 provides the answer in a single turn, whereas Response 1 requires the user to engage in a multi-turn conversation before receiving any value."
+            }
+          },
+          "reasoning": "Response 2 is the clear winner because it actually performs the task. It provides a detailed breakdown of trending assets (Bitcoin, Ethereum, Silver, NVIDIA, etc.) with specific context for each. Response 1 acts as a gatekeeper, asking for clarifications and timeframes rather than providing a general overview of current trends which is the standard expectation for this type of query.",
+          "keyDifferentiators": [
+            "Actual delivery of information vs. asking clarifying questions",
+            "Breadth of asset classes covered (Crypto, Commodities, Equities)",
+            "Inclusion of specific data points like price targets and supply dynamics",
+            "Alignment with the provided future date (Jan 2026)"
+          ],
+          "timestamp": "2026-01-13T16:52:45.532Z"
+        }
+      ],
+      "rankings": {
+        "elo": [
+          {
+            "system": "droyd-casual",
+            "rating": 1516,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 1,
+              "losses": 0,
+              "ties": 0
+            }
+          },
+          {
+            "system": "gpt-5-mini",
+            "rating": 1484,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 0,
+              "losses": 1,
+              "ties": 0
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-01-13T16:52:05.694Z"
+    },
+    {
+      "question": {
+        "qid": "8zR4tK6m",
+        "query": "what are the latest catalysts for solana",
+        "level": 1,
+        "categories": [
+          "asset_analysis"
+        ],
+        "tags": [
+          "large_cap"
+        ],
+        "sectors": [
+          "ecosystems"
+        ],
+        "dataset": "assetEvaluation"
+      },
+      "dataset": "assetEvaluation",
+      "agentResults": [
+        {
+          "system": "gpt-5-mini",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 585
+              }
+            },
+            {
+              "stepNumber": 2,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 6167
+              }
+            },
+            {
+              "stepNumber": 3,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 13020
+              }
+            },
+            {
+              "stepNumber": 4,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 19891
+              }
+            },
+            {
+              "stepNumber": 5,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 25999
+              }
+            },
+            {
+              "stepNumber": 6,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 33019
+              }
+            },
+            {
+              "stepNumber": 7,
+              "text": "Short answer — the biggest recent and near-term catalysts for Solana (SOL) are infrastructure upgrades that improve throughput/resilience, major payments & institutional integrations, products that increase capital efficiency, and developer-onboarding tools. Key items to watch:\n\n1) Firedancer (new validator client) — live on mainnet (Dec 2025)\n- Why it matters: a high‑performance, independent validator client from Jump Crypto reduces single‑client risk, raises throughput headroom and validator efficiency (helps uptime, MEV capture, staking yield). Market reaction was immediate when it went live.\n- Source example: Jump/Firedancer mainnet reporting (Dec 12–15, 2025).\n\n2) Token extensions & enterprise features (Solana protocol work; late‑2025)\n- Why it matters: native token primitives (permissioning, metadata, built‑in hooks) make Solana friendlier for regulated issuers, stablecoins, and enterprise payments — lowers integration friction for banks/issuers.\n- Source example: Solana Token Extensions announcement (Nov 2025).\n\n3) Internet Capital Markets / ACE & ICM roadmap (mid‑2025 → ongoing)\n- Why it matters: coordinated push to build institutional-grade on‑chain capital market primitives (order‑routing, execution rules, tokenized RWA). If realized, that is a multi‑year demand driver for on‑chain liquidity and custody.\n- Source example: “Internet Capital Markets” roadmap coverage (Jul 2025).\n\n4) EVM & NeonEVM progress (2024–2025)\n- Why it matters: EVM compatibility (Neon updates / mainnet upgrades) lowers the barrier for Ethereum teams to move or integrate with Solana, increasing dev activity and composability.\n- Source example: Neon EVM mainnet upgrades & roadmap updates (2025).\n\n5) Payments & settlement integrations (Visa, merchants, global payments pilots; 2025)\n- Why it matters: Visa testing/rolling out USDC settlement on Solana and merchant/Fi partnerships (Raise, PayPal listings, stablecoin pilots) are real‑world payments rails that create recurring throughput and usage.\n- Source examples: Visa USDC settlement on Solana (Dec 16, 2025); Raise Network partnership (Dec 12, 2025); PayPal listing SOL for buy/hold (Apr 2025).\n\n6) Institutional access via Solana ETFs / ETPs (2025)\n- Why it matters: Spot Solana ETFs and ETPs (Canada & multiple issuers; U.S. product launches/waivers like VanEck’s VSOL in Nov 2025) create easy fiat‑into‑SOL flows for institutions and retail through brokerages.\n- Source examples: Canadian spot SOL ETFs (Apr 2025); VanEck Solana ETF (VSOL) launch (Nov 2025).\n\n7) Liquid staking / restaking and LST growth (2024–2025)\n- Why it matters: Liquid staking tokens (mSOL, hSOL, others) + restaking increase capital efficiency (staking yields become deployable in DeFi), expanding TVL and on‑chain activity.\n- Source examples: liquid staking guides & TVL growth reports (2025).\n\n8) Order‑book DEXes and trading infrastructure (OpenBook, integrations)\n- Why it matters: on‑chain central limit order books and integrations (OpenBook, Raydium/OpenBook integration, market‑making infrastructure) improve capital efficiency and institutional trading capability on Solana.\n- Source examples: OpenBook docs and ecosystem integrations (2024–2025).\n\nWhat to monitor (signals that a catalyst is driving adoption/value)\n- Validator client adoption (% validators on Firedancer or hybrids)\n- Network throughput/fees/uptime metrics (TPS, block times, failed leader slots)\n- ETF/ETP AUM and daily flows into Solana products\n- USDC/settlement volume on Solana (Visa/partner volumes)\n- Liquid staking TVL and LST supply growth\n- NeonEVM tx & active dApp counts (EVM dev adoption)\n- DEX (OpenBook/Jupiter/Raydium) volumes & on‑chain order book depth\n- Announcements from banks/payments firms (Western Union, Visa, major banks) and token‑issuers\n\nRisks to keep in mind\n- Execution risk: many initiatives are multi‑phase and may be delayed or fall short (security/bugs, regulatory friction).\n- Concentration risk: earlier concerns about client diversity and ecosystem concentration have been a source of network outages historically; progress like Firedancer helps, but adoption speed matters.\n- Macro & regulatory: crypto market cycles, SEC/regulator actions, or payment‑rail regulatory constraints can mute the impact of product rollouts.\n\nIf you want, I can:\n- Pull the most recent headlines & data points for each of the items above (validator share, ETF flows, LST TVL, NeonEVM activity) and assemble them into a short dashboard. Which metrics do you want prioritized?",
+              "toolCalls": [],
+              "finishReason": "stop",
+              "usage": {
+                "totalTokens": 40657
+              }
+            }
+          ],
+          "finalAnswer": "Short answer — the biggest recent and near-term catalysts for Solana (SOL) are infrastructure upgrades that improve throughput/resilience, major payments & institutional integrations, products that increase capital efficiency, and developer-onboarding tools. Key items to watch:\n\n1) Firedancer (new validator client) — live on mainnet (Dec 2025)\n- Why it matters: a high‑performance, independent validator client from Jump Crypto reduces single‑client risk, raises throughput headroom and validator efficiency (helps uptime, MEV capture, staking yield). Market reaction was immediate when it went live.\n- Source example: Jump/Firedancer mainnet reporting (Dec 12–15, 2025).\n\n2) Token extensions & enterprise features (Solana protocol work; late‑2025)\n- Why it matters: native token primitives (permissioning, metadata, built‑in hooks) make Solana friendlier for regulated issuers, stablecoins, and enterprise payments — lowers integration friction for banks/issuers.\n- Source example: Solana Token Extensions announcement (Nov 2025).\n\n3) Internet Capital Markets / ACE & ICM roadmap (mid‑2025 → ongoing)\n- Why it matters: coordinated push to build institutional-grade on‑chain capital market primitives (order‑routing, execution rules, tokenized RWA). If realized, that is a multi‑year demand driver for on‑chain liquidity and custody.\n- Source example: “Internet Capital Markets” roadmap coverage (Jul 2025).\n\n4) EVM & NeonEVM progress (2024–2025)\n- Why it matters: EVM compatibility (Neon updates / mainnet upgrades) lowers the barrier for Ethereum teams to move or integrate with Solana, increasing dev activity and composability.\n- Source example: Neon EVM mainnet upgrades & roadmap updates (2025).\n\n5) Payments & settlement integrations (Visa, merchants, global payments pilots; 2025)\n- Why it matters: Visa testing/rolling out USDC settlement on Solana and merchant/Fi partnerships (Raise, PayPal listings, stablecoin pilots) are real‑world payments rails that create recurring throughput and usage.\n- Source examples: Visa USDC settlement on Solana (Dec 16, 2025); Raise Network partnership (Dec 12, 2025); PayPal listing SOL for buy/hold (Apr 2025).\n\n6) Institutional access via Solana ETFs / ETPs (2025)\n- Why it matters: Spot Solana ETFs and ETPs (Canada & multiple issuers; U.S. product launches/waivers like VanEck’s VSOL in Nov 2025) create easy fiat‑into‑SOL flows for institutions and retail through brokerages.\n- Source examples: Canadian spot SOL ETFs (Apr 2025); VanEck Solana ETF (VSOL) launch (Nov 2025).\n\n7) Liquid staking / restaking and LST growth (2024–2025)\n- Why it matters: Liquid staking tokens (mSOL, hSOL, others) + restaking increase capital efficiency (staking yields become deployable in DeFi), expanding TVL and on‑chain activity.\n- Source examples: liquid staking guides & TVL growth reports (2025).\n\n8) Order‑book DEXes and trading infrastructure (OpenBook, integrations)\n- Why it matters: on‑chain central limit order books and integrations (OpenBook, Raydium/OpenBook integration, market‑making infrastructure) improve capital efficiency and institutional trading capability on Solana.\n- Source examples: OpenBook docs and ecosystem integrations (2024–2025).\n\nWhat to monitor (signals that a catalyst is driving adoption/value)\n- Validator client adoption (% validators on Firedancer or hybrids)\n- Network throughput/fees/uptime metrics (TPS, block times, failed leader slots)\n- ETF/ETP AUM and daily flows into Solana products\n- USDC/settlement volume on Solana (Visa/partner volumes)\n- Liquid staking TVL and LST supply growth\n- NeonEVM tx & active dApp counts (EVM dev adoption)\n- DEX (OpenBook/Jupiter/Raydium) volumes & on‑chain order book depth\n- Announcements from banks/payments firms (Western Union, Visa, major banks) and token‑issuers\n\nRisks to keep in mind\n- Execution risk: many initiatives are multi‑phase and may be delayed or fall short (security/bugs, regulatory friction).\n- Concentration risk: earlier concerns about client diversity and ecosystem concentration have been a source of network outages historically; progress like Firedancer helps, but adoption speed matters.\n- Macro & regulatory: crypto market cycles, SEC/regulator actions, or payment‑rail regulatory constraints can mute the impact of product rollouts.\n\nIf you want, I can:\n- Pull the most recent headlines & data points for each of the items above (validator share, ETF flows, LST TVL, NeonEVM activity) and assemble them into a short dashboard. Which metrics do you want prioritized?",
+          "executionTimeMs": 80447,
+          "totalTokens": 139338,
+          "stepCount": 7,
+          "toolCalls": [
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "latest catalysts for Solana 2026 Solana roadmap upgrades 2025 2026 Sealevel Neon EVM OpenBook Solana Pay Wormhole 'Solana Foundation' 'Solana ecosystem' catalysts",
+                "numResults": 8,
+                "startPublishedDate": "2023-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Firedancer mainnet deployment 2025 Jump Crypto Firedancer Solana status 2025 2026 'Firedancer' 'Solana' 'Jump Crypto'",
+                "numResults": 10,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "OpenBook Solana 2025 2026 order book DEX updates Solana OpenBook 2025 'OpenBook' 'order book' 'Solana' news",
+                "numResults": 10,
+                "startPublishedDate": "2023-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Solana ETF spot SOL ETF 2025 2026 'SOL ETF' 'spot SOL' 'exchange-traded product'",
+                "numResults": 10,
+                "startPublishedDate": "2023-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Solana Pay 2025 adoption partnerships 'Solana Pay' 2025 2026 merchants partnerships 'payments' 'integration'",
+                "numResults": 10,
+                "startPublishedDate": "2023-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "liquid staking Solana 2025 'liquid staking' 'LST' Solana 'liquid staking token' 2025 2026 'liquid restake'",
+                "numResults": 10,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            }
+          ]
+        },
+        {
+          "system": "droyd-casual",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_00d7e258983645c2006966785e8b74819fbb1479f15c6604ac\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_2Kl1yEXgorWaL1wEpF3PcPV7\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_00d7e258983645c20069667861d1e8819fa683dd48fdd87cf2\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 2,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_00d7e258983645c20069667863ed58819f93af8fdff8483776\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"text\",\n    \"text\": \"# Top catalysts for Solana — latest (Jan 13, 2026)\\n\\n- **NYC Token launch & liquidity drain — $3.4M moved minutes after mint.** Centralized reserve (~**70%**) and rapid withdrawals created rug‑pull headlines. Impact: **short-term selling pressure, listing/custodian scrutiny**, and higher due diligence for future launches — increases tail risk for liquidity events.\\n\\n- **Reputation + paymaster rails moving to production (FairScore, x402, Kora/Jito integrations).** Reputation-gated access and funded paymaster flows **lower friction for micropayments and agent commerce**, increasing real utility for SOL across merchant/agent UX and raising steady onchain activity that’s sticky vs memecoin spikes.\\n\\n- **Execution and aggregator fee capture concentrates liquidity (Trojan Arena rewards, Jupiter routing, Raydium buybacks).** Aggressive reward programs (**$5M** early rewards) and buybacks (**569k RAY**) shift fee pools to Solana-native execution venues. Impact: **higher fee capture and routing volume** → more revenue onchain and deeper market‑making, which can support ancillary token and protocol value.\\n\\n- **Cross‑chain UX improvements (Phantom BTC swaps, deBridge→Trojan, Kora bundle support).** Faster, simpler bridges and BTC swap rails **accelerate large capital flows into Solana**, raising short-term liquidity and participation from non‑native liquidity providers.\\n\\n- **Memecoin-driven episodic volume — inflated metrics and wash‑trading risks.** Launchpad and memecoin cycles still produce **multi‑billion daily spikes**, but onchain analysis shows significant LP‑churning and potentially artificial volume. Impact: distorts activity signals, drives volatility, and invites regulatory/market integrity attention.\\n\\n- **Governance and protocol funding changes (recent JIP votes).** Protocol-level reallocations and season activations are changing where revenue flows (validators vs buybacks), altering treasury dynamics and stakeholder incentives — **affects long-term token sink/source mechanics**.\\n\\n- **Privacy & selective-disclosure primitives emerging.** New privacy/reputation stacks enable gated commerce and selective disclosure for agents and DAOs, attracting use cases that require permissioned interactions while preserving composability.\\n\\nNet effect: **two opposing forces** — production‑grade rails (reputation, paymasters, cross‑chain UX, and fee concentration) improve real utility and capital efficiency; **launch/launchpad risk and memecoin noise** increase short-term volatility and reputational friction. Expect elevated onchain volumes and concentrated fee flows over the next weeks, with episodic drawdowns tied to high‑profile launches.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_00d7e258983645c200696678761b1c819fb4a69fa57676a0e5\"\n      }\n    }\n  }\n]",
+              "finishReason": "stop"
+            }
+          ],
+          "finalAnswer": "# Top catalysts for Solana — latest (Jan 13, 2026)\n\n- **NYC Token launch & liquidity drain — $3.4M moved minutes after mint.** Centralized reserve (~**70%**) and rapid withdrawals created rug‑pull headlines. Impact: **short-term selling pressure, listing/custodian scrutiny**, and higher due diligence for future launches — increases tail risk for liquidity events.\n\n- **Reputation + paymaster rails moving to production (FairScore, x402, Kora/Jito integrations).** Reputation-gated access and funded paymaster flows **lower friction for micropayments and agent commerce**, increasing real utility for SOL across merchant/agent UX and raising steady onchain activity that’s sticky vs memecoin spikes.\n\n- **Execution and aggregator fee capture concentrates liquidity (Trojan Arena rewards, Jupiter routing, Raydium buybacks).** Aggressive reward programs (**$5M** early rewards) and buybacks (**569k RAY**) shift fee pools to Solana-native execution venues. Impact: **higher fee capture and routing volume** → more revenue onchain and deeper market‑making, which can support ancillary token and protocol value.\n\n- **Cross‑chain UX improvements (Phantom BTC swaps, deBridge→Trojan, Kora bundle support).** Faster, simpler bridges and BTC swap rails **accelerate large capital flows into Solana**, raising short-term liquidity and participation from non‑native liquidity providers.\n\n- **Memecoin-driven episodic volume — inflated metrics and wash‑trading risks.** Launchpad and memecoin cycles still produce **multi‑billion daily spikes**, but onchain analysis shows significant LP‑churning and potentially artificial volume. Impact: distorts activity signals, drives volatility, and invites regulatory/market integrity attention.\n\n- **Governance and protocol funding changes (recent JIP votes).** Protocol-level reallocations and season activations are changing where revenue flows (validators vs buybacks), altering treasury dynamics and stakeholder incentives — **affects long-term token sink/source mechanics**.\n\n- **Privacy & selective-disclosure primitives emerging.** New privacy/reputation stacks enable gated commerce and selective disclosure for agents and DAOs, attracting use cases that require permissioned interactions while preserving composability.\n\nNet effect: **two opposing forces** — production‑grade rails (reputation, paymasters, cross‑chain UX, and fee concentration) improve real utility and capital efficiency; **launch/launchpad risk and memecoin noise** increase short-term volatility and reputational friction. Expect elevated onchain volumes and concentrated fee flows over the next weeks, with episodic drawdowns tied to high‑profile launches.",
+          "executionTimeMs": 35664,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "getTrendReports",
+              "parameters": {
+                "ecosystem_ids": [
+                  11943
+                ],
+                "category_ids": [],
+                "include_global": false
+              }
+            }
+          ],
+          "totalTokens": 29030
+        }
+      ],
+      "pairwiseComparisons": [
+        {
+          "questionId": "8zR4tK6m",
+          "systemA": "gpt-5-mini",
+          "systemB": "droyd-casual",
+          "winner": "A",
+          "confidence": "high",
+          "response1System": "A",
+          "dimensions": {
+            "taskCompletion": {
+              "winner": "A",
+              "confidence": "high",
+              "reasoning": "Response 1 provides a comprehensive and structured overview of fundamental, institutional, and technical catalysts. Response 2 focuses heavily on hyper-recent, niche on-chain events and specific token launches that may not represent the broader 'catalysts' the user is likely seeking."
+            },
+            "answerQuality": {
+              "winner": "A",
+              "confidence": "high",
+              "reasoning": "Response 1 explains the 'why it matters' for each point, providing context on network resilience, capital efficiency, and institutional access. Response 2 includes more noise (like a specific $3.4M token launch/rug-pull) which is less useful for a general overview."
+            },
+            "reasoningQuality": {
+              "winner": "A",
+              "confidence": "medium",
+              "reasoning": "Response 1 used a multi-step web search process to synthesize a long-term roadmap perspective, whereas Response 2 relied on trend reports which provided a narrower, day-of-event perspective."
+            },
+            "efficiency": {
+              "winner": "B",
+              "confidence": "medium",
+              "reasoning": "Response 2 was significantly faster and used fewer tool calls, though this efficiency came at the cost of depth and breadth."
+            }
+          },
+          "reasoning": "Response 1 is the superior response because it identifies the most significant structural and institutional catalysts for the Solana ecosystem (Firedancer, ETFs, Token Extensions, and Visa integrations). It provides a holistic view of why these developments matter for the network's growth. Response 2, while efficient, focuses on transient trends and specific on-chain metrics that are more akin to a daily trading report than a list of major catalysts.",
+          "keyDifferentiators": [
+            "Focus on high-impact structural upgrades (Firedancer) vs. transient token launches.",
+            "Comprehensive coverage of institutional adoption (ETFs, Visa, PayPal).",
+            "Clear 'Why it matters' sections for each catalyst, adding educational value.",
+            "Better categorization of catalysts into infrastructure, institutional, and developer tools."
+          ],
+          "timestamp": "2026-01-13T16:54:17.622Z"
+        }
+      ],
+      "rankings": {
+        "elo": [
+          {
+            "system": "gpt-5-mini",
+            "rating": 1516,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 1,
+              "losses": 0,
+              "ties": 0
+            }
+          },
+          {
+            "system": "droyd-casual",
+            "rating": 1484,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 0,
+              "losses": 1,
+              "ties": 0
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-01-13T16:52:45.532Z"
+    },
+    {
+      "question": {
+        "qid": "f9zR4tK6m",
+        "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+        "level": 1,
+        "categories": [
+          "project_fundamentals"
+        ],
+        "tags": null,
+        "sectors": null,
+        "dataset": "projectFundamentals"
+      },
+      "dataset": "projectFundamentals",
+      "agentResults": [
+        {
+          "system": "gpt-5-mini",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 482
+              }
+            },
+            {
+              "stepNumber": 2,
+              "text": "I can do that — quick clarification so I pull the right data:\n\n1) Timeframe — do you want top 5 by revenue growth over the last 3 months, last 12 months (YoY), year-to-date, or another period?  \n2) Scope — include centralized exchanges and custodial businesses (Coinbase, Binance, etc.) or only on-chain protocols/DeFi projects and L1s/L2s?  \n3) Output format — short bullets with sources, or a deeper write-up with charts and links?\n\nIf you don’t specify, I’ll default to “top 5 on-chain protocols by year-over-year (last 12 months) revenue growth (Token Terminal / on-chain data)” and then fetch current figures and key catalysts. Proceed?",
+              "toolCalls": [],
+              "finishReason": "stop",
+              "usage": {
+                "totalTokens": 4313
+              }
+            }
+          ],
+          "finalAnswer": "I can do that — quick clarification so I pull the right data:\n\n1) Timeframe — do you want top 5 by revenue growth over the last 3 months, last 12 months (YoY), year-to-date, or another period?  \n2) Scope — include centralized exchanges and custodial businesses (Coinbase, Binance, etc.) or only on-chain protocols/DeFi projects and L1s/L2s?  \n3) Output format — short bullets with sources, or a deeper write-up with charts and links?\n\nIf you don’t specify, I’ll default to “top 5 on-chain protocols by year-over-year (last 12 months) revenue growth (Token Terminal / on-chain data)” and then fetch current figures and key catalysts. Proceed?",
+          "executionTimeMs": 12752,
+          "totalTokens": 4795,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "top crypto projects by revenue growth 2025 2026 'top projects by revenue growth' 'Token Terminal' 'Token Terminal revenue growth 2025'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [
+                  "tokenterminal.com",
+                  "defillama.com",
+                  "messari.io",
+                  "cointelegraph.com",
+                  "coindesk.com"
+                ],
+                "maxCharacters": 2000
+              }
+            }
+          ]
+        },
+        {
+          "system": "droyd-casual",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_0ec2dbc3e67babc500696678ba790c819fa46df99e0e5e6057\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_3WJfiScVVttFHZflWQ4NdVl8\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"top projects by revenue growth 30 days\",\n      \"content_types\": [\n        \"developments\",\n        \"posts\",\n        \"news\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0ec2dbc3e67babc500696678c07d7c819fa3b37f609780ce77\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 2,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_0ec2dbc3e67babc500696678c8a778819fbf9f1801d61f4686\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_tcPaSUyVs3CdDuDULvPtIaav\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"top protocols by revenue growth 30-day\"\n      ],\n      \"search_type\": \"semantic\",\n      \"limit\": 10\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0ec2dbc3e67babc500696678cef038819fa7b8e5b892689941\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 3,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_0ec2dbc3e67babc500696678daddb8819f8bb7a25b2a91ff5b\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_u2NxR6GsaRdN9uK476BQLkxq\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"protocol revenue growth 30 day top projects by revenue growth\",\n      \"content_types\": [\n        \"developments\",\n        \"posts\",\n        \"news\"\n      ],\n      \"limit\": 50,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0ec2dbc3e67babc500696678df36b4819f9e1ade9f4489e047\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 4,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_0ec2dbc3e67babc5006966790055e4819f993cb653edb6b80d\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"text\",\n    \"text\": \"![Top crypto protocols by recent revenue (leaderboard & movers)](https://res.cloudinary.com/dgjriemfd/image/upload/v1768213362/veldt/zqkvkb52y9yygwcccmu8.jpg)\\n\\n# Top 5 projects by 30‑day revenue growth (ranked by % increase)\\n\\n1) **GMGN — +1,645.03% (30d)**  \\n   - **Why it spiked:** explosive memecoin / bot-driven trading activity; rapid listing and promotion cycles created large fee capture and short-lived market-making tails. On‑chain dashboards show GMGN’s month‑over‑month revenue moved from near-zero to material levels.  \\n   - **Catalysts:** viral listing/launch events, concentrated liquidity pools, fee-sharing mechanics that amplify short-term revenue.\\n\\n2) **four.meme — +438.74% (30d)**  \\n   - **Why it spiked:** memecoin launchpad flows and concentrated trading volume. The protocol benefits directly from launch fees + high-frequency token mint/trade activity.  \\n   - **Catalysts:** launchpad integrations, creator/influencer-driven mints, and temporary incentive programs that routed large swap volumes through the protocol.\\n\\n3) **Jupiter — +399.16% (30d)**  \\n   - **Why it spiked:** product-led revenue from new stablecoin/DeFi primitives. Jupiter’s **JupUSD** product and Earn/Borrow vaults gathered **$17.6M** in deposits in week‑one, driving swap and vault fee growth.  \\n   - **Catalysts:** JupUSD launch + vault integrations, deeper wallet/front‑end partnerships, and increased onchain stablecoin velocity on Solana.\\n\\n4) **Hyperliquid — +309.65% (30d)**  \\n   - **Why it spiked:** derivatives/perp market share consolidation. Hyperliquid shows **multi‑million daily app revenue** as traders shift to high‑performance onchain perpetual venues.  \\n   - **Catalysts:** product-market fit in onchain perps (higher volume & fees), liquidity migration from weaker venues after Q4 liquidations, and feature releases that improved flow capture.\\n\\n5) **Pump.fun — +93.27% (30d)**  \\n   - **Why it spiked:** Solana launchpad + memecoin ecosystem: huge launch volumes translate to protocol fees. Pump.fun reported multi‑billion daily volume spikes (one day >$2B), generating **tens of millions** in fee revenue during peak windows.  \\n   - **Catalysts:** creator-fee model overhaul, AI-agent token factories (autoposting agents), and a concentrated surge in token launches / trading activity.\\n\\nhttps://x.com/mamo/status/2010769690621325771\\n\\nKey takeaway: the current top revenue movers are overwhelmingly driven by short‑cycle product events — memecoin launchpads, derivatives flow shifts, and new stablecoin/vault product launches. Those are high-velocity revenue sources: large upside in a short window, but also high churn and concentration risk.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0ec2dbc3e67babc50069667937e9f4819f864bf010d7151fdc\"\n      }\n    }\n  }\n]",
+              "finishReason": "stop"
+            }
+          ],
+          "finalAnswer": "![Top crypto protocols by recent revenue (leaderboard & movers)](https://res.cloudinary.com/dgjriemfd/image/upload/v1768213362/veldt/zqkvkb52y9yygwcccmu8.jpg)\n\n# Top 5 projects by 30‑day revenue growth (ranked by % increase)\n\n1) **GMGN — +1,645.03% (30d)**  \n   - **Why it spiked:** explosive memecoin / bot-driven trading activity; rapid listing and promotion cycles created large fee capture and short-lived market-making tails. On‑chain dashboards show GMGN’s month‑over‑month revenue moved from near-zero to material levels.  \n   - **Catalysts:** viral listing/launch events, concentrated liquidity pools, fee-sharing mechanics that amplify short-term revenue.\n\n2) **four.meme — +438.74% (30d)**  \n   - **Why it spiked:** memecoin launchpad flows and concentrated trading volume. The protocol benefits directly from launch fees + high-frequency token mint/trade activity.  \n   - **Catalysts:** launchpad integrations, creator/influencer-driven mints, and temporary incentive programs that routed large swap volumes through the protocol.\n\n3) **Jupiter — +399.16% (30d)**  \n   - **Why it spiked:** product-led revenue from new stablecoin/DeFi primitives. Jupiter’s **JupUSD** product and Earn/Borrow vaults gathered **$17.6M** in deposits in week‑one, driving swap and vault fee growth.  \n   - **Catalysts:** JupUSD launch + vault integrations, deeper wallet/front‑end partnerships, and increased onchain stablecoin velocity on Solana.\n\n4) **Hyperliquid — +309.65% (30d)**  \n   - **Why it spiked:** derivatives/perp market share consolidation. Hyperliquid shows **multi‑million daily app revenue** as traders shift to high‑performance onchain perpetual venues.  \n   - **Catalysts:** product-market fit in onchain perps (higher volume & fees), liquidity migration from weaker venues after Q4 liquidations, and feature releases that improved flow capture.\n\n5) **Pump.fun — +93.27% (30d)**  \n   - **Why it spiked:** Solana launchpad + memecoin ecosystem: huge launch volumes translate to protocol fees. Pump.fun reported multi‑billion daily volume spikes (one day >$2B), generating **tens of millions** in fee revenue during peak windows.  \n   - **Catalysts:** creator-fee model overhaul, AI-agent token factories (autoposting agents), and a concentrated surge in token launches / trading activity.\n\nhttps://x.com/mamo/status/2010769690621325771\n\nKey takeaway: the current top revenue movers are overwhelmingly driven by short‑cycle product events — memecoin launchpads, derivatives flow shifts, and new stablecoin/vault product launches. Those are high-velocity revenue sources: large upside in a short window, but also high churn and concentration risk.",
+          "executionTimeMs": 137289,
+          "stepCount": 4,
+          "toolCalls": [
+            {
+              "toolName": "searchContent",
+              "parameters": {
+                "search_mode": "recent",
+                "semantic_query": "top projects by revenue growth 30 days",
+                "content_types": [
+                  "developments",
+                  "posts",
+                  "news"
+                ],
+                "limit": 20,
+                "days_back": 30,
+                "sort_by": "relevance",
+                "minimum_relevance_score": 0.2,
+                "ecosystem_ids": [],
+                "category_ids": [],
+                "project_ids": []
+              }
+            },
+            {
+              "toolName": "searchProjects",
+              "parameters": {
+                "queries": [
+                  "top protocols by revenue growth 30-day"
+                ],
+                "search_type": "semantic",
+                "limit": 10
+              }
+            },
+            {
+              "toolName": "searchContent",
+              "parameters": {
+                "search_mode": "semantic",
+                "semantic_query": "protocol revenue growth 30 day top projects by revenue growth",
+                "content_types": [
+                  "developments",
+                  "posts",
+                  "news"
+                ],
+                "limit": 50,
+                "days_back": 90,
+                "sort_by": "relevance",
+                "minimum_relevance_score": 0.2,
+                "ecosystem_ids": [],
+                "category_ids": [],
+                "project_ids": []
+              }
+            }
+          ],
+          "totalTokens": 178687
+        }
+      ],
+      "pairwiseComparisons": [
+        {
+          "questionId": "f9zR4tK6m",
+          "systemA": "gpt-5-mini",
+          "systemB": "droyd-casual",
+          "winner": "B",
+          "confidence": "high",
+          "response1System": "A",
+          "dimensions": {
+            "taskCompletion": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 provides a complete list of 5 projects with specific growth data and catalysts, whereas Response 1 only asks clarifying questions without providing any data."
+            },
+            "answerQuality": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 includes specific projects (GMGN, Jupiter, etc.), exact percentage growth, and detailed explanations of the catalysts. Response 1 provides no information at all."
+            },
+            "reasoningQuality": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 2 used specialized tools to find current market data and synthesized it into a helpful answer. Response 1's decision to halt for clarification on a standard query was unnecessary and inefficient for the user."
+            },
+            "efficiency": {
+              "winner": "B",
+              "confidence": "medium",
+              "reasoning": "While Response 2 took longer to execute, it actually achieved the goal. Response 1 was fast but failed to provide any value, requiring another turn from the user."
+            }
+          },
+          "reasoning": "Response 2 is the clear winner because it actually answers the user's question with current and relevant data. It identifies specific high-growth protocols in the crypto space (specifically focusing on the Solana/memecoin ecosystem which is currently driving the most revenue growth) and explains the drivers behind the numbers. Response 1 essentially refuses to answer until the user provides more parameters, which creates unnecessary friction for a straightforward request where a 'best-effort' default would have been more appropriate.",
+          "keyDifferentiators": [
+            "Response 2 provides the actual data requested, while Response 1 provides none.",
+            "Response 2 identifies specific, timely projects (GMGN, Pump.fun) and their unique catalysts.",
+            "Response 2 used data-gathering tools effectively to generate a comprehensive report."
+          ],
+          "timestamp": "2026-01-13T16:56:42.878Z"
+        }
+      ],
+      "rankings": {
+        "elo": [
+          {
+            "system": "droyd-casual",
+            "rating": 1516,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 1,
+              "losses": 0,
+              "ties": 0
+            }
+          },
+          {
+            "system": "gpt-5-mini",
+            "rating": 1484,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 0,
+              "losses": 1,
+              "ties": 0
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-01-13T16:54:17.622Z"
+    },
+    {
+      "question": {
+        "qid": "2kC3mP2v",
+        "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+        "level": 1,
+        "categories": [
+          "trend_analysis"
+        ],
+        "tags": null,
+        "sectors": [
+          "ai"
+        ],
+        "dataset": "trendAnalysis"
+      },
+      "dataset": "trendAnalysis",
+      "agentResults": [
+        {
+          "system": "gpt-5-mini",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 463
+              }
+            },
+            {
+              "stepNumber": 2,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 3700
+              }
+            },
+            {
+              "stepNumber": 3,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 6363
+              }
+            },
+            {
+              "stepNumber": 4,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 11414
+              }
+            },
+            {
+              "stepNumber": 5,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 17143
+              }
+            },
+            {
+              "stepNumber": 6,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 23406
+              }
+            },
+            {
+              "stepNumber": 7,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 29141
+              }
+            },
+            {
+              "stepNumber": 8,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 35002
+              }
+            },
+            {
+              "stepNumber": 9,
+              "text": "Short answer\nThe “crypto agent” market — autonomous, blockchain-connected software agents that sense events, reason with models and take actions (trade, execute DeFi strategies, run DAOs, manage wallets, coordinate supply chains, etc.) — is moving fast. The protocols getting the most traction are ones that provide one or more of these primitives: discovery/registry & marketplaces for agents, reliable off‑chain compute/oracles, trust-minimized automation, execution infrastructure (smart wallets / account abstraction / MEV routing), and tokenized economics for agent services. Leading names you should watch are Chainlink, Gelato, Olas/Autonolas, Fetch.ai (and the ASI Alliance), Flashbots, the account‑abstraction ecosystem (ERC‑4337 / EIP work and wallets like Safe/Argent), and a cluster of newer “agent-first” chains & stacks (AgentLayer, Ava, Autonomys). They’re gaining traction because they solve critical primitives developers need to safely make agents useful and profitable onchain.\n\nLonger, actionable analysis (concise sections)\n\n1) What “crypto agents” need (why protocols matter)\n- Reliable off‑chain compute and API access (for LLMs, web APIs, model inference).  \n- Trusted input and triggers (oracles & event detection).  \n- Secure, auditable execution (wallets / account abstraction + automation).  \n- Low-latency, MEV-aware transaction routing for profitable trading/execution.  \n- Discovery/marketplaces and token/economic models so agents can be discovered, monetized and held accountable.  \nProtocols that address one or more of these core problems are the ones getting traction.\n\n2) Protocols gaining traction and why\n\n- Chainlink (Functions + Automation + CRE)\n  - Why: market‑leading decentralized oracle network + serverless off‑chain compute (Functions) + Automation/Keepers for reliable triggers. Chainlink already integrates broadly with EVM chains and provides a trust-minimized way to feed and compute data agents need. Good documentation, enterprise adoption and multi-chain footprint make it a natural backbone for agent workflows.\n\n- Gelato (Web3 Functions, Automate, Relay / Smart Wallet infra)\n  - Why: developer-friendly automation and “Web3 Functions” that let agents run scheduled or event-driven logic and execute transactions (including gasless UX via relays/paymasters). Gelato focuses on pragmatic automation and wallet integration (smart wallets / SDKs), making it easy to ship agent features quickly.\n\n- Olas / Autonolas (Open Autonomy, Olas Protocol / agent registries & marketplaces)\n  - Why: one of the more mature “agent registry + marketplace + developer framework” stacks. It enables publishing, registering and monetizing autonomous services/agent blueprints onchain (NFTized blueprints, on‑chain registries, dev rewards). That marketplace + tooling combo attracts builders.\n\n- Fetch.ai (Autonomous Economic Agents) & ASI Alliance (Fetch + SingularityNET + Ocean)\n  - Why: Fetch is oriented specifically to Autonomous Economic Agents (AEAs) — agents that negotiate, trade and transact on behalf of users/organizations. The ASI consolidation (merging AI/service/data stacks) signals growing momentum for end‑to‑end AI + data + agent ecosystems and shared token/economic incentives.\n\n- Flashbots / MEV infra\n  - Why: agents that trade or manage assets require reliable, adversary‑aware execution (ordering matters). Flashbots, MEV‑Boost and related tooling remain the de facto infrastructure to capture/expose MEV, protect frontrunning-sensitive workflows, and ensure profitable, low‑latency execution for searchers and builders.\n\n- Account Abstraction ecosystem (ERC‑4337 / EIP‑7702 + smart wallets: Gnosis Safe, Argent, Coinbase Smart Wallet, Relay/paymaster providers)\n  - Why: smart contract wallets and AA are the single biggest UX/automation enabler — agents need programmatic control of accounts (policy rules, gas sponsorship, session keys, batched ops). ERC‑4337 and rollup-native AA implementations lower friction for agents to transact securely and for apps to sponsor gas.\n\n- Agent‑first stacks / new L1s and protocols (AgentLayer, Ava Protocol, Autonomys, others)\n  - Why: a few projects are positioning themselves as “agent-native” — adding registries, staking/economic layers for agents, restaked validators for attestation, TEEs or verifiable execution primitives. These attempt to make agents first-class blockchain citizens, with native economic models and discovery.\n\n- SingularityNET / Ocean / broader AI-data marketplaces\n  - Why: agents need models, datasets and marketplaces for monetized compute or data. The merger-like coordination among decentralized AI/data projects (forming ASI-type alliances) increases the availability of on‑chain / tokenized AI infrastructure agents can plug into.\n\n3) Where traction comes from (drivers)\n- Real demand: DeFi rebalancing, yield automation, automated portfolio management, onchain governance/DAO ops, supply‑chain optimizations and SaaS-like agent services need automation that’s reliable and auditable.  \n- Lowered developer friction: SDKs, serverless functions, smart wallet SDKs and account‑abstraction tooling speed development.  \n- Token economies and marketplaces: monetization mechanisms attract agent authors and service providers.  \n- LLM & model proliferation: more lightweight on‑chain / off‑chain models and accessible inference make richer agent behavior practical.  \n- Standards momentum: ERCs and automation standards (and new proposals around agent discovery/trust) make interoperable agent ecosystems possible.\n\n4) Risks & bottlenecks\n- Safety and security: agents that autonomously sign or transact magnify exploit risk (bugs, oracle manipulation, model hallucination). Audits, formal verification and conservative onchain policy controls are essential.  \n- Centralization: many agent features still rely on centralized compute, private relays or a small number of builders (MEV / block builders). This undermines the “decentralized” promise if not addressed.  \n- Regulatory uncertainty: autonomous value-bearing agents raise new questions (liability, KYC, custody).  \n- Token/economic design risk: marketplace token models can misalign incentives or fail to bootstrap liquidity and supply of quality agents.\n\n5) Practical takeaways — what to watch in the next 6–12 months\n- Adoption metrics of account abstraction across major rollups and smart wallet deployments (more AA wallets = easier agent UX).  \n- Chainlink Functions + Automation usage growth and the Chainlink Runtime Environment (CRE) adoption — signals that decentralized off‑chain compute is becoming standardized.  \n- Gelato / Web3 Functions task volume — practical automation usage and integrations with Safe/Gnosis and paymasters.  \n- Marketplace growth on Olas / Autonolas (number of agent blueprints, downloads, economic flows).  \n- ASI Alliance progress (model marketplaces, compute/infra) and partnerships with cloud/GPU providers.  \n- Continued evolution of MEV infrastructure (Flashbots) and new PBS / builder decentralization efforts — critical for trading agents.  \n- Emergence of standards for agent discovery/trust (new ERCs / registries) that improve discoverability and reputation.\n\n6) Quick recommendations\n- If you’re building agents: prioritize account abstraction & smart-wallet integration, use decentralized oracles for critical signals (Chainlink), automate with Gelato or Chainlink Automation, and design conservative on‑chain policy gates for the agent. Start with off‑chain compute + on‑chain attestations rather than trying to do everything onchain. Consider publishing agent blueprints to a marketplace (Olas/Autonolas) to attract users and monetize.  \n- If you’re investing / monitoring: favor protocols that combine strong developer tooling, multi‑chain integrations, and credible economic incentives (marketplace + token + dev rewards). Watch adoption (active tasks/agents, wallet adoption, relays/builder diversity) and regulatory developments.\n\nIf you want, I can:\n- produce a short watchlist with links to primary docs/repos for each protocol above, or  \n- map how to build a simple autonomous agent (tech stack suggestions: which oracles, automation provider, smart‑wallet pattern and marketplaces to publish) in 6–8 steps. Which would be more useful?",
+              "toolCalls": [],
+              "finishReason": "stop",
+              "usage": {
+                "totalTokens": 42491
+              }
+            }
+          ],
+          "finalAnswer": "Short answer\nThe “crypto agent” market — autonomous, blockchain-connected software agents that sense events, reason with models and take actions (trade, execute DeFi strategies, run DAOs, manage wallets, coordinate supply chains, etc.) — is moving fast. The protocols getting the most traction are ones that provide one or more of these primitives: discovery/registry & marketplaces for agents, reliable off‑chain compute/oracles, trust-minimized automation, execution infrastructure (smart wallets / account abstraction / MEV routing), and tokenized economics for agent services. Leading names you should watch are Chainlink, Gelato, Olas/Autonolas, Fetch.ai (and the ASI Alliance), Flashbots, the account‑abstraction ecosystem (ERC‑4337 / EIP work and wallets like Safe/Argent), and a cluster of newer “agent-first” chains & stacks (AgentLayer, Ava, Autonomys). They’re gaining traction because they solve critical primitives developers need to safely make agents useful and profitable onchain.\n\nLonger, actionable analysis (concise sections)\n\n1) What “crypto agents” need (why protocols matter)\n- Reliable off‑chain compute and API access (for LLMs, web APIs, model inference).  \n- Trusted input and triggers (oracles & event detection).  \n- Secure, auditable execution (wallets / account abstraction + automation).  \n- Low-latency, MEV-aware transaction routing for profitable trading/execution.  \n- Discovery/marketplaces and token/economic models so agents can be discovered, monetized and held accountable.  \nProtocols that address one or more of these core problems are the ones getting traction.\n\n2) Protocols gaining traction and why\n\n- Chainlink (Functions + Automation + CRE)\n  - Why: market‑leading decentralized oracle network + serverless off‑chain compute (Functions) + Automation/Keepers for reliable triggers. Chainlink already integrates broadly with EVM chains and provides a trust-minimized way to feed and compute data agents need. Good documentation, enterprise adoption and multi-chain footprint make it a natural backbone for agent workflows.\n\n- Gelato (Web3 Functions, Automate, Relay / Smart Wallet infra)\n  - Why: developer-friendly automation and “Web3 Functions” that let agents run scheduled or event-driven logic and execute transactions (including gasless UX via relays/paymasters). Gelato focuses on pragmatic automation and wallet integration (smart wallets / SDKs), making it easy to ship agent features quickly.\n\n- Olas / Autonolas (Open Autonomy, Olas Protocol / agent registries & marketplaces)\n  - Why: one of the more mature “agent registry + marketplace + developer framework” stacks. It enables publishing, registering and monetizing autonomous services/agent blueprints onchain (NFTized blueprints, on‑chain registries, dev rewards). That marketplace + tooling combo attracts builders.\n\n- Fetch.ai (Autonomous Economic Agents) & ASI Alliance (Fetch + SingularityNET + Ocean)\n  - Why: Fetch is oriented specifically to Autonomous Economic Agents (AEAs) — agents that negotiate, trade and transact on behalf of users/organizations. The ASI consolidation (merging AI/service/data stacks) signals growing momentum for end‑to‑end AI + data + agent ecosystems and shared token/economic incentives.\n\n- Flashbots / MEV infra\n  - Why: agents that trade or manage assets require reliable, adversary‑aware execution (ordering matters). Flashbots, MEV‑Boost and related tooling remain the de facto infrastructure to capture/expose MEV, protect frontrunning-sensitive workflows, and ensure profitable, low‑latency execution for searchers and builders.\n\n- Account Abstraction ecosystem (ERC‑4337 / EIP‑7702 + smart wallets: Gnosis Safe, Argent, Coinbase Smart Wallet, Relay/paymaster providers)\n  - Why: smart contract wallets and AA are the single biggest UX/automation enabler — agents need programmatic control of accounts (policy rules, gas sponsorship, session keys, batched ops). ERC‑4337 and rollup-native AA implementations lower friction for agents to transact securely and for apps to sponsor gas.\n\n- Agent‑first stacks / new L1s and protocols (AgentLayer, Ava Protocol, Autonomys, others)\n  - Why: a few projects are positioning themselves as “agent-native” — adding registries, staking/economic layers for agents, restaked validators for attestation, TEEs or verifiable execution primitives. These attempt to make agents first-class blockchain citizens, with native economic models and discovery.\n\n- SingularityNET / Ocean / broader AI-data marketplaces\n  - Why: agents need models, datasets and marketplaces for monetized compute or data. The merger-like coordination among decentralized AI/data projects (forming ASI-type alliances) increases the availability of on‑chain / tokenized AI infrastructure agents can plug into.\n\n3) Where traction comes from (drivers)\n- Real demand: DeFi rebalancing, yield automation, automated portfolio management, onchain governance/DAO ops, supply‑chain optimizations and SaaS-like agent services need automation that’s reliable and auditable.  \n- Lowered developer friction: SDKs, serverless functions, smart wallet SDKs and account‑abstraction tooling speed development.  \n- Token economies and marketplaces: monetization mechanisms attract agent authors and service providers.  \n- LLM & model proliferation: more lightweight on‑chain / off‑chain models and accessible inference make richer agent behavior practical.  \n- Standards momentum: ERCs and automation standards (and new proposals around agent discovery/trust) make interoperable agent ecosystems possible.\n\n4) Risks & bottlenecks\n- Safety and security: agents that autonomously sign or transact magnify exploit risk (bugs, oracle manipulation, model hallucination). Audits, formal verification and conservative onchain policy controls are essential.  \n- Centralization: many agent features still rely on centralized compute, private relays or a small number of builders (MEV / block builders). This undermines the “decentralized” promise if not addressed.  \n- Regulatory uncertainty: autonomous value-bearing agents raise new questions (liability, KYC, custody).  \n- Token/economic design risk: marketplace token models can misalign incentives or fail to bootstrap liquidity and supply of quality agents.\n\n5) Practical takeaways — what to watch in the next 6–12 months\n- Adoption metrics of account abstraction across major rollups and smart wallet deployments (more AA wallets = easier agent UX).  \n- Chainlink Functions + Automation usage growth and the Chainlink Runtime Environment (CRE) adoption — signals that decentralized off‑chain compute is becoming standardized.  \n- Gelato / Web3 Functions task volume — practical automation usage and integrations with Safe/Gnosis and paymasters.  \n- Marketplace growth on Olas / Autonolas (number of agent blueprints, downloads, economic flows).  \n- ASI Alliance progress (model marketplaces, compute/infra) and partnerships with cloud/GPU providers.  \n- Continued evolution of MEV infrastructure (Flashbots) and new PBS / builder decentralization efforts — critical for trading agents.  \n- Emergence of standards for agent discovery/trust (new ERCs / registries) that improve discoverability and reputation.\n\n6) Quick recommendations\n- If you’re building agents: prioritize account abstraction & smart-wallet integration, use decentralized oracles for critical signals (Chainlink), automate with Gelato or Chainlink Automation, and design conservative on‑chain policy gates for the agent. Start with off‑chain compute + on‑chain attestations rather than trying to do everything onchain. Consider publishing agent blueprints to a marketplace (Olas/Autonolas) to attract users and monetize.  \n- If you’re investing / monitoring: favor protocols that combine strong developer tooling, multi‑chain integrations, and credible economic incentives (marketplace + token + dev rewards). Watch adoption (active tasks/agents, wallet adoption, relays/builder diversity) and regulatory developments.\n\nIf you want, I can:\n- produce a short watchlist with links to primary docs/repos for each protocol above, or  \n- map how to build a simple autonomous agent (tech stack suggestions: which oracles, automation provider, smart‑wallet pattern and marketplaces to publish) in 6–8 steps. Which would be more useful?",
+          "executionTimeMs": 91405,
+          "totalTokens": 169123,
+          "stepCount": 9,
+          "toolCalls": [
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "crypto autonomous agents protocols gaining traction 2024 2025 'autonomous agents' blockchain protocols 'agent protocols' 'web3 agents' 'crypto agents' 'AI agents' 'autonomous smart contracts'",
+                "numResults": 5,
+                "startPublishedDate": "2022-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Fetch.ai autonomous agents protocol traction 2024 Fetch.ai news 2025 FET agents 'Fetch AI agents'",
+                "numResults": 5,
+                "startPublishedDate": "2020-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Autonolas protocol autonomous services 'Autonolas' agents 2024 2025 'Autonolas protocol'",
+                "numResults": 10,
+                "startPublishedDate": "2020-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "ERC-4337 account abstraction traction 2024 2025 'account abstraction' wallets 'ERC-4337' 'wallets' 'smart contract wallets' Gnosis Safe Argent Biconomy 2024 2025",
+                "numResults": 10,
+                "startPublishedDate": "2022-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Gelato Network automation 'gelato' 'autonomous agents' 'web3 automation' 2024 2025 'Gelato Automate' 'Gelato Network' traction",
+                "numResults": 10,
+                "startPublishedDate": "2020-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Chainlink Automation Chainlink Functions 'agents' 'autonomous agents' Chainlink Keepers Functions 2024 2025 traction 'Chainlink Functions'",
+                "numResults": 10,
+                "startPublishedDate": "2020-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "Flashbots MEV bots 'Flashbots' 'autonomous agents' 2024 2025 'MEV-Boost' 'executor' 'builder' 'searcher' traction",
+                "numResults": 10,
+                "startPublishedDate": "2020-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "SingularityNET AGIX decentralized AI agents 'SingularityNET' 2024 2025 'AI marketplace' 'Ocean Protocol' data marketplace 'ocean protocol agents'",
+                "numResults": 10,
+                "startPublishedDate": "2020-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            }
+          ]
+        },
+        {
+          "system": "droyd-casual",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_058b2e1f9e3ae933006966794be02481969808426601e9566e\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_KOZpJbvQmu1yvjq8sgkBR6WO\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"crypto agent market AI agents protocols gaining traction Virtuals Bittensor SingularityNET Autonomous agents onchain agent marketplaces 'AI agents' 'crypto agents' 'agent protocols'\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\",\n        \"youtube\"\n      ],\n      \"limit\": 50,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        517\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_058b2e1f9e3ae93300696679529ecc8196add45c8348207b66\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_0XPzfoOjRPAstpNAevgGZWOP\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        517\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_058b2e1f9e3ae933006966795432e88196a48c9559013436d2\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 2,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_058b2e1f9e3ae933006966797469848196b3feb93f0296f9a2\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"text\",\n    \"text\": \"**Winners: Virtuals Protocol, Bittensor, x402/pay‑rails, and standards (ERC‑8004 / UCP).** These projects dominate because they capture the three durable primitives for an agent economy: **payments**, **discovery/identity**, and **verifiable compute**.\\n\\n![AI Agents On-Chain Activity and Revenue](https://res.cloudinary.com/dgjriemfd/image/upload/v1746973912/veldt/ltahrqvmwfy85mxezqli.jpg)\\n\\n## Winners (what’s gaining traction)\\n- **Virtuals Protocol** — **ACP/Butler** is the production commerce layer: **$300M+ aGDP** milestones, **$75M in protocol fees** this year, and **~1M registered agents**. Virtuals bundles agent launch, discovery, micropayments, and distribution into one stack.\\n- **Bittensor (TAO)** — the decentralized intelligence backbone. The **TAO halving** (7,200 → 3,600 daily emissions) and institutional filings (Grayscale S‑1) accelerated onchain demand for model-provisioning infrastructure.\\n- **x402 / PayAI / facilitator stack** — HTTP-native micropay rails enabling sub‑dollar pay‑per‑call. Network activity: **>2M daily x402 tx** and **$50–60M volume (30d)**; PayAI reports **28M tx / $7M settled** to date as a facilitator.\\n- **Standards & discovery** — **ERC‑8004** (agent identity + reputation) and **UCP** (Universal Commerce Protocol) remove the brittle, manual glue that blocked agent-to-agent commerce.\\n\\n![Total aGDP Chart](https://res.cloudinary.com/dgjriemfd/image/upload/v1763741160/veldt/ekdj86sgcstlbhumyppw.jpg)\\n\\n## Why they win — core drivers\\n- **Monetization-first rails.** Protocols that capture settlement (x402, Virtuals’ ACP) convert agent activity into recurring fees and measurable aGDP. **Fees > revenue** is the new moat, not TVL.\\n- **Discovery + reputation.** With millions of agents, discoverability is the bottleneck. ERC‑8004 + marketplaces (MCP/Questflow) enable durable matching and reduce fraud risk.\\n- **Verifiability & auditability.** Confidential/verifiable inference (TEEs, FHE attestations) lets agents deliver provable work — essential for financial settlement and institutional adoption.\\n- **Compute supply concentration.** Decentralized training and GPU deals compress per‑call costs but create supplier leverage (specialized GPU pools), favoring infrastructure protocols (Bittensor, Render, Akash).\\n- **Real-world execution (robotics/DePIN).** Embodied use cases (peaq, OpenMind, xMaquina) convert digital agent work into physical revenue, expanding market depth.\\n\\nKey metrics to track: **aGDP growth**, **x402 daily tx & settlement volume**, **TAO emission/ETF filings**, **ERC‑8004 adoption**, and **marketplace liquidity for agent tokens**.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_058b2e1f9e3ae93300696679c429f48196ba0032c9fe71a777\"\n      }\n    }\n  }\n]",
+              "finishReason": "stop"
+            }
+          ],
+          "finalAnswer": "**Winners: Virtuals Protocol, Bittensor, x402/pay‑rails, and standards (ERC‑8004 / UCP).** These projects dominate because they capture the three durable primitives for an agent economy: **payments**, **discovery/identity**, and **verifiable compute**.\n\n![AI Agents On-Chain Activity and Revenue](https://res.cloudinary.com/dgjriemfd/image/upload/v1746973912/veldt/ltahrqvmwfy85mxezqli.jpg)\n\n## Winners (what’s gaining traction)\n- **Virtuals Protocol** — **ACP/Butler** is the production commerce layer: **$300M+ aGDP** milestones, **$75M in protocol fees** this year, and **~1M registered agents**. Virtuals bundles agent launch, discovery, micropayments, and distribution into one stack.\n- **Bittensor (TAO)** — the decentralized intelligence backbone. The **TAO halving** (7,200 → 3,600 daily emissions) and institutional filings (Grayscale S‑1) accelerated onchain demand for model-provisioning infrastructure.\n- **x402 / PayAI / facilitator stack** — HTTP-native micropay rails enabling sub‑dollar pay‑per‑call. Network activity: **>2M daily x402 tx** and **$50–60M volume (30d)**; PayAI reports **28M tx / $7M settled** to date as a facilitator.\n- **Standards & discovery** — **ERC‑8004** (agent identity + reputation) and **UCP** (Universal Commerce Protocol) remove the brittle, manual glue that blocked agent-to-agent commerce.\n\n![Total aGDP Chart](https://res.cloudinary.com/dgjriemfd/image/upload/v1763741160/veldt/ekdj86sgcstlbhumyppw.jpg)\n\n## Why they win — core drivers\n- **Monetization-first rails.** Protocols that capture settlement (x402, Virtuals’ ACP) convert agent activity into recurring fees and measurable aGDP. **Fees > revenue** is the new moat, not TVL.\n- **Discovery + reputation.** With millions of agents, discoverability is the bottleneck. ERC‑8004 + marketplaces (MCP/Questflow) enable durable matching and reduce fraud risk.\n- **Verifiability & auditability.** Confidential/verifiable inference (TEEs, FHE attestations) lets agents deliver provable work — essential for financial settlement and institutional adoption.\n- **Compute supply concentration.** Decentralized training and GPU deals compress per‑call costs but create supplier leverage (specialized GPU pools), favoring infrastructure protocols (Bittensor, Render, Akash).\n- **Real-world execution (robotics/DePIN).** Embodied use cases (peaq, OpenMind, xMaquina) convert digital agent work into physical revenue, expanding market depth.\n\nKey metrics to track: **aGDP growth**, **x402 daily tx & settlement volume**, **TAO emission/ETF filings**, **ERC‑8004 adoption**, and **marketplace liquidity for agent tokens**.",
+          "executionTimeMs": 147461,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "searchContent",
+              "parameters": {
+                "search_mode": "semantic",
+                "semantic_query": "crypto agent market AI agents protocols gaining traction Virtuals Bittensor SingularityNET Autonomous agents onchain agent marketplaces 'AI agents' 'crypto agents' 'agent protocols'",
+                "content_types": [
+                  "posts",
+                  "news",
+                  "developments",
+                  "tweets",
+                  "youtube"
+                ],
+                "limit": 50,
+                "days_back": 90,
+                "sort_by": "relevance",
+                "minimum_relevance_score": 0.2,
+                "ecosystem_ids": [],
+                "category_ids": [
+                  517
+                ],
+                "project_ids": []
+              }
+            },
+            {
+              "toolName": "getTrendReports",
+              "parameters": {
+                "ecosystem_ids": [],
+                "category_ids": [
+                  517
+                ],
+                "include_global": false
+              }
+            }
+          ],
+          "totalTokens": 41573
+        }
+      ],
+      "pairwiseComparisons": [
+        {
+          "questionId": "2kC3mP2v",
+          "systemA": "gpt-5-mini",
+          "systemB": "droyd-casual",
+          "winner": "B",
+          "confidence": "high",
+          "response1System": "B",
+          "dimensions": {
+            "taskCompletion": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 1 provides a much more specific and data-driven analysis of the current market (as of early 2026), identifying specific emerging standards like ERC-8004 and protocols like Virtuals and x402 which are at the forefront of the agent economy. Response 2 is much more generic, listing legacy infrastructure like Chainlink and Flashbots that, while relevant, do not capture the specific 'agentic' market shifts as effectively."
+            },
+            "answerQuality": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 1 uses industry-specific terminology like 'aGDP' and 'micropay rails' and provides specific metrics (transaction volumes, fee revenues) that make the analysis far more actionable and insightful. Response 2 reads like a high-level overview of Web3 automation rather than a targeted crypto-agent market analysis."
+            },
+            "reasoningQuality": {
+              "winner": "B",
+              "confidence": "medium",
+              "reasoning": "Response 1 correctly identifies that the shift in the agent market is moving toward monetization and verifiable compute, providing a logical framework for why certain protocols are winning. Response 2's reasoning is sound but follows a more standard, less specialized template."
+            },
+            "efficiency": {
+              "winner": "B",
+              "confidence": "high",
+              "reasoning": "Response 1 completed the task in only 2 steps and 147 seconds, whereas Response 2 took 9 steps and significant tool usage to arrive at a much more generic answer."
+            }
+          },
+          "reasoning": "Response 1 is the superior response because it demonstrates a deeper understanding of the specific 'AI Agent' niche within crypto. By focusing on Virtuals Protocol, Bittensor, and new standards like ERC-8004, it captures the actual 'traction' in the market as of the provided 2026 date. It provides quantitative metrics such as aGDP and daily transaction volumes for specific agent-centric rails, which is exactly what is required for a market analysis. Response 2, while comprehensive, relies on broader infrastructure projects (Chainlink, Gelato, Safe) that have been around for years, failing to distinguish between general automation and the specific explosion of autonomous agent protocols.",
+          "keyDifferentiators": [
+            "Specific 2026 market metrics (aGDP, protocol fees, TAO emissions).",
+            "Focus on agent-specific protocols (Virtuals, x402) vs general infrastructure.",
+            "Identification of emerging standards (ERC-8004) for agent identity and reputation.",
+            "Significantly higher efficiency in task execution (2 steps vs 9 steps)."
+          ],
+          "timestamp": "2026-01-13T16:59:22.522Z"
+        }
+      ],
+      "rankings": {
+        "elo": [
+          {
+            "system": "droyd-casual",
+            "rating": 1516,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 1,
+              "losses": 0,
+              "ties": 0
+            }
+          },
+          {
+            "system": "gpt-5-mini",
+            "rating": 1484,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 0,
+              "losses": 1,
+              "ties": 0
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-01-13T16:56:42.878Z"
+    },
+    {
+      "question": {
+        "qid": "3kC5nP2v",
+        "query": "what are the latest narratives and trends in crypto",
+        "level": 1,
+        "categories": [
+          "trend_discovery"
+        ],
+        "tags": null,
+        "sectors": null,
+        "dataset": "trendDiscovery"
+      },
+      "dataset": "trendDiscovery",
+      "agentResults": [
+        {
+          "system": "gpt-5-mini",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "",
+              "toolCalls": [
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                },
+                {
+                  "toolName": "webSearch"
+                }
+              ],
+              "finishReason": "tool-calls",
+              "usage": {
+                "totalTokens": 1172
+              }
+            },
+            {
+              "stepNumber": 2,
+              "text": "Short answer: the market in early‑2026 is driven by infrastructure and institutionalization themes—Layer‑2s and zk tech, “restaking”/liquid staking, tokenization of real‑world assets, DePIN and AI integrations—plus continuing noise from memecoins/NFTs and regulatory focus. Below are the main narratives, why they matter, what to watch, and key risks.\n\nBig narratives & trends (what they are, why they matter, what to watch, risks)\n\n1) Layer‑2 / zk‑rollups and modularity\n- What: Continued migration of Ethereum activity to L2s (especially zkEVMs), and growth of modular architectures (separation of execution, settlement, data availability).\n- Why it matters: Lower fees and better UX broaden on‑chain use cases (DeFi, gaming, payments).\n- Watch: L2 TVL & volume, zkEVM mainnet launches, sequencer decentralization roadmaps and DA solutions.\n- Risks: Centralized sequencers, UX fragmentation, security bugs in new rollup code.\n\n2) Restaking / liquid restaking (EigenLayer ecosystem)\n- What: Reuse of staked ETH to secure additional services (AVSs) and the rise of liquid restaking tokens that layer yield.\n- Why it matters: Massive capital efficiency—staked ETH can secure more services and boost DeFi yields; EigenLayer and AVSs are a focal point.\n- Watch: TVL in EigenLayer / liquid restaking protocols, number of AVSs launched, slashing/insurance events and protocol audits.\n- Risks: Complex shared‑security economics, slashing contagion, novel attack vectors (see restaking writeups and audits) — sources report large TVL growth and tooling around restaking in 2025. (QuickNode, EigenLayer blog, Nethermind) \n\n3) Real‑World Asset (RWA) tokenization (institutional push)\n- What: Tokenized bonds, loans, money‑market instruments and tokenized securities moving from pilots to production.\n- Why it matters: Could connect traditional capital markets to on‑chain liquidity and settlement efficiencies; regulators and institutions are actively studying frameworks.\n- Watch: Regulatory guidance (IOSCO and regional rules), major banks / custodians offering tokenized products, issuance volumes and secondary liquidity metrics.\n- Risks: Legal & custody complexity, settlement finality disputes, regulatory constraints. (IOSCO report, Tangem, Investax, Deutsche Bank research)\n\n4) AI + crypto (compute, data markets, AI‑native tokens)\n- What: Projects combining on‑chain incentives with AI compute/data marketplaces, tokenized incentives for model/data contribution, and “AI + token” product experiments.\n- Why it matters: Crypto can monetize and coordinate data/compute in novel ways (market for distributed model training, verifiable ML inference).\n- Watch: Deployed AI compute marketplaces, token models that actually deliver productized AI services vs. purely token hype.\n- Risks: Many projects are speculative; regulatory/data privacy friction; hype cycles without viable product‑market fit. (industry commentary, project trackers)\n\n5) DePIN (decentralized physical infrastructure networks)\n- What: Token‑incentivized infrastructure (wireless, storage, compute, sensors) — e.g., networks that pay tokens for physical resource contributions.\n- Why it matters: Real‑world device adoption and network effects can create defensible token economies and tangible utility.\n- Watch: Device counts, network usage metrics, revenue per device, specialized explorers (e.g., DePINscan) and leaderboards.\n- Risks: Hardware economics, fraud/false reporting, regulatory/telecom constraints. (DePIN explorers & coverage 2025–26)\n\n6) Web3 gaming & NFTs — matured, utility‑first\n- What: Shift from pure speculation to games with on‑chain economies, interoperable assets, and more realistic user acquisition strategies.\n- Why it matters: Games are the most likely mainstream app to bring users and durable on‑chain asset flows.\n- Watch: MAU and in‑game economics, cross‑chain asset use, marketplace liquidity, and major studio partnerships.\n- Risks: Poor token economics, UX friction, centralized off‑chain components.\n\n7) Stablecoins, CBDCs & payments rails\n- What: Renewed regulatory attention and productization of stablecoins; CBDC pilots continue in many jurisdictions; stablecoin regulation moving up the agenda.\n- Why it matters: Clear rules and reliable stable settlement are prerequisites for broader DeFi and institutional flows.\n- Watch: Legislation, major stablecoin issuer compliance moves, adoption metrics.\n- Risks: Regulatory clampdowns, reserve transparency failures.\n\n8) Institutional adoption & financial plumbing\n- What: More custody, tokenized funds, ETP/ETF products, and bank/broker integration into crypto rails.\n- Why it matters: Lowers friction for large allocators and could flatten volatility if liquidity deepens.\n- Watch: New custody offerings, ETP/ETF flows, bank custody trials, and trading volumes. (Forbes and industry reporting)\n\n9) Privacy & ZK identity / account abstraction\n- What: ZK proofs for privacy, identity attestations (SBTs/SSI experiments), and account abstraction (ERC‑4337) improving UX and smart wallet features.\n- Why it matters: Better privacy/identity and account models unlock new classes of apps (payments, regulated products).\n- Watch: Mainnet ZK identity implementations, adoption of account abstraction wallets, and privacy swap volumes.\n- Risks: Regulatory scrutiny (KYC/AML), complexity of ZK tooling.\n\n10) Speculative narratives: memecoins/social tokens, launchpad cycles\n- What: Short, viral narratives (memecoins, celebrity tokens, viral airdrops) continue to punctuate markets.\n- Why it matters: They drive retail flows and volatility—useful for short‑term trading but poor for long‑term portfolios.\n- Watch: Token issuance velocity, exchange listings, on‑chain transfer spikes.\n- Risks: Rug pulls, pump‑and‑dump, high drawdowns.\n\nCross‑cutting risks to keep in mind\n- Regulatory shifts and enforcement actions remain the single biggest macro risk.\n- Shared‑security models (restaking) and composability create systemic attack surfaces; slashing/contagion risk is real.\n- Bridge exploits, oracle failures, and incentive misalignments still cause outsized losses.\n- Narrative fatigue: many tokenized AI / AI‑token projects may underdeliver.\n\nHow to track these narratives quickly\n- L2/zk TVL & activity: L2 dashboards (L2Beat, Dune dashboards).\n- Restaking & liquid staking: protocol TVL (EigenLayer analytics), LST supply and yields.\n- RWAs: issuance announcements, IOSCO/regulator reports, tokenized product volumes.\n- DePIN: device counts and on‑chain metrics (DePINscan).\n- News sources: industry outlets + event coverage (Token2049, ETHCC) and periodic analyst writeups (Forbes, CoinGecko, QuickNode blogs).\n\nIf you want, I can:\n- Pull a one‑page tracker with the top protocols/metrics for 3–4 of these narratives (e.g., top zk rollups, top restaking protocols, top RWA issuers), or\n- Build Dune/Glassnode queries and dashboards to monitor the indicators I listed.\n\nWhich narratives would you like me to dive into first?",
+              "toolCalls": [],
+              "finishReason": "stop",
+              "usage": {
+                "totalTokens": 19417
+              }
+            }
+          ],
+          "finalAnswer": "Short answer: the market in early‑2026 is driven by infrastructure and institutionalization themes—Layer‑2s and zk tech, “restaking”/liquid staking, tokenization of real‑world assets, DePIN and AI integrations—plus continuing noise from memecoins/NFTs and regulatory focus. Below are the main narratives, why they matter, what to watch, and key risks.\n\nBig narratives & trends (what they are, why they matter, what to watch, risks)\n\n1) Layer‑2 / zk‑rollups and modularity\n- What: Continued migration of Ethereum activity to L2s (especially zkEVMs), and growth of modular architectures (separation of execution, settlement, data availability).\n- Why it matters: Lower fees and better UX broaden on‑chain use cases (DeFi, gaming, payments).\n- Watch: L2 TVL & volume, zkEVM mainnet launches, sequencer decentralization roadmaps and DA solutions.\n- Risks: Centralized sequencers, UX fragmentation, security bugs in new rollup code.\n\n2) Restaking / liquid restaking (EigenLayer ecosystem)\n- What: Reuse of staked ETH to secure additional services (AVSs) and the rise of liquid restaking tokens that layer yield.\n- Why it matters: Massive capital efficiency—staked ETH can secure more services and boost DeFi yields; EigenLayer and AVSs are a focal point.\n- Watch: TVL in EigenLayer / liquid restaking protocols, number of AVSs launched, slashing/insurance events and protocol audits.\n- Risks: Complex shared‑security economics, slashing contagion, novel attack vectors (see restaking writeups and audits) — sources report large TVL growth and tooling around restaking in 2025. (QuickNode, EigenLayer blog, Nethermind) \n\n3) Real‑World Asset (RWA) tokenization (institutional push)\n- What: Tokenized bonds, loans, money‑market instruments and tokenized securities moving from pilots to production.\n- Why it matters: Could connect traditional capital markets to on‑chain liquidity and settlement efficiencies; regulators and institutions are actively studying frameworks.\n- Watch: Regulatory guidance (IOSCO and regional rules), major banks / custodians offering tokenized products, issuance volumes and secondary liquidity metrics.\n- Risks: Legal & custody complexity, settlement finality disputes, regulatory constraints. (IOSCO report, Tangem, Investax, Deutsche Bank research)\n\n4) AI + crypto (compute, data markets, AI‑native tokens)\n- What: Projects combining on‑chain incentives with AI compute/data marketplaces, tokenized incentives for model/data contribution, and “AI + token” product experiments.\n- Why it matters: Crypto can monetize and coordinate data/compute in novel ways (market for distributed model training, verifiable ML inference).\n- Watch: Deployed AI compute marketplaces, token models that actually deliver productized AI services vs. purely token hype.\n- Risks: Many projects are speculative; regulatory/data privacy friction; hype cycles without viable product‑market fit. (industry commentary, project trackers)\n\n5) DePIN (decentralized physical infrastructure networks)\n- What: Token‑incentivized infrastructure (wireless, storage, compute, sensors) — e.g., networks that pay tokens for physical resource contributions.\n- Why it matters: Real‑world device adoption and network effects can create defensible token economies and tangible utility.\n- Watch: Device counts, network usage metrics, revenue per device, specialized explorers (e.g., DePINscan) and leaderboards.\n- Risks: Hardware economics, fraud/false reporting, regulatory/telecom constraints. (DePIN explorers & coverage 2025–26)\n\n6) Web3 gaming & NFTs — matured, utility‑first\n- What: Shift from pure speculation to games with on‑chain economies, interoperable assets, and more realistic user acquisition strategies.\n- Why it matters: Games are the most likely mainstream app to bring users and durable on‑chain asset flows.\n- Watch: MAU and in‑game economics, cross‑chain asset use, marketplace liquidity, and major studio partnerships.\n- Risks: Poor token economics, UX friction, centralized off‑chain components.\n\n7) Stablecoins, CBDCs & payments rails\n- What: Renewed regulatory attention and productization of stablecoins; CBDC pilots continue in many jurisdictions; stablecoin regulation moving up the agenda.\n- Why it matters: Clear rules and reliable stable settlement are prerequisites for broader DeFi and institutional flows.\n- Watch: Legislation, major stablecoin issuer compliance moves, adoption metrics.\n- Risks: Regulatory clampdowns, reserve transparency failures.\n\n8) Institutional adoption & financial plumbing\n- What: More custody, tokenized funds, ETP/ETF products, and bank/broker integration into crypto rails.\n- Why it matters: Lowers friction for large allocators and could flatten volatility if liquidity deepens.\n- Watch: New custody offerings, ETP/ETF flows, bank custody trials, and trading volumes. (Forbes and industry reporting)\n\n9) Privacy & ZK identity / account abstraction\n- What: ZK proofs for privacy, identity attestations (SBTs/SSI experiments), and account abstraction (ERC‑4337) improving UX and smart wallet features.\n- Why it matters: Better privacy/identity and account models unlock new classes of apps (payments, regulated products).\n- Watch: Mainnet ZK identity implementations, adoption of account abstraction wallets, and privacy swap volumes.\n- Risks: Regulatory scrutiny (KYC/AML), complexity of ZK tooling.\n\n10) Speculative narratives: memecoins/social tokens, launchpad cycles\n- What: Short, viral narratives (memecoins, celebrity tokens, viral airdrops) continue to punctuate markets.\n- Why it matters: They drive retail flows and volatility—useful for short‑term trading but poor for long‑term portfolios.\n- Watch: Token issuance velocity, exchange listings, on‑chain transfer spikes.\n- Risks: Rug pulls, pump‑and‑dump, high drawdowns.\n\nCross‑cutting risks to keep in mind\n- Regulatory shifts and enforcement actions remain the single biggest macro risk.\n- Shared‑security models (restaking) and composability create systemic attack surfaces; slashing/contagion risk is real.\n- Bridge exploits, oracle failures, and incentive misalignments still cause outsized losses.\n- Narrative fatigue: many tokenized AI / AI‑token projects may underdeliver.\n\nHow to track these narratives quickly\n- L2/zk TVL & activity: L2 dashboards (L2Beat, Dune dashboards).\n- Restaking & liquid staking: protocol TVL (EigenLayer analytics), LST supply and yields.\n- RWAs: issuance announcements, IOSCO/regulator reports, tokenized product volumes.\n- DePIN: device counts and on‑chain metrics (DePINscan).\n- News sources: industry outlets + event coverage (Token2049, ETHCC) and periodic analyst writeups (Forbes, CoinGecko, QuickNode blogs).\n\nIf you want, I can:\n- Pull a one‑page tracker with the top protocols/metrics for 3–4 of these narratives (e.g., top zk rollups, top restaking protocols, top RWA issuers), or\n- Build Dune/Glassnode queries and dashboards to monitor the indicators I listed.\n\nWhich narratives would you like me to dive into first?",
+          "executionTimeMs": 76921,
+          "totalTokens": 20589,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "crypto trends 2026 narratives AI zk-rollups restaking DePIN tokenization real-world assets regulation 2025 2026 report",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "AI and crypto narrative 2025 2026 'AI-native tokens' 'blockchain AI' 'crypto AI'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "zk-rollups 2025 2026 developments 'zkEVM' 'rollups' 'sequencer decentralization'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "restaking EigenLayer 2025 2026 'restaking' 'liquid restaking' 'EigenLayer updates'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "DePIN trends 2025 2026 Helium Filecoin Akash 'decentralized physical infrastructure' 2026 trends",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "tokenization real world assets RWA crypto 2025 2026 institutional adoption 'tokenized securities' 'tokenized debt'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "crypto regulation 2025 2026 SEC court cases 'MiCA implementation 2025' 'US crypto regulation 2025 2026'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            },
+            {
+              "toolName": "webSearch",
+              "parameters": {
+                "query": "NFT trends 2025 2026 gaming 'web3 gaming' 'NFTs 2026' 'social tokens' 'onchain art'",
+                "numResults": 5,
+                "startPublishedDate": "2024-01-01",
+                "endPublishedDate": "2026-01-13",
+                "includeDomains": [],
+                "maxCharacters": 2000
+              }
+            }
+          ]
+        },
+        {
+          "system": "droyd-casual",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_04b95e19016ae9f700696679eb859081948c1f113b8e13cc25\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_EAjfIA6cLduRn9H1m9ZDpPS2\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"include_global\": true\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_04b95e19016ae9f700696679ed4eec8194a498458ca7f39f3c\"\n      }\n    }\n  }\n]",
+              "finishReason": "tool-calls"
+            },
+            {
+              "stepNumber": 2,
+              "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_04b95e19016ae9f700696679f116b48194bea3a3ddac358d43\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"text\",\n    \"text\": \"## Top narratives (right now)\\n\\n- **Institutional rails & tokenization**: Stablecoin settlement and RWA tokenization are redirecting durable dollar flows onto **Solana**, **Base**, and leading L2s. Expect increased demand for custody, proof‑of‑reserves, low‑latency settlement plumbing and compliant bridges. World Liberty Markets and several bank pilots are already live, concentrating liquidity and settlement risk on fast rails.\\n\\n- **Prediction markets go institutional**: Prediction venues are scaling into mainstream distribution through media/data partnerships. Polymarket‑style ecosystems reported **multi-$10B** annual volumes and automated agent flow; these venues are becoming revenue platforms rather than niche apps. Regulatory touchpoints (state actions, CFTC advisory) will shape KYC/oracle design next.\\n\\n- **Agentic AI commercialization**: Autonomous agents are moving from demos to billable products — funded agent wallets, paid inference rails, and enterprise-grade PQC/KMS primitives are appearing in production. Agent execution (DCA, rebalances, research) is now a revenue vector and a new source of continuous onchain flow.\\n\\n- **Derivatives professionalization**: On‑chain derivatives are adopting institutional mechanics: permissioned CLOBs, USDe‑margined perps, and market‑maker bridges that tighten spreads and enable larger counterparties. Recent buybacks and large fund activity (~**$910M** HYPE buyback) show capital cycling into structured, custody-friendly venues.\\n\\n- **Memecoin/launchpad fragility**: Episodic memecoin launches continue to produce liquidity shocks, MEV pressure, and validator stress on high‑throughput chains. Example: a recent NYC Token event produced an estimated **$3.4M** immediate liquidity drain and renewed rug concerns — these episodes distort short‑term microstructure and raise operational risk for rails.\\n\\n## Quick actionable signals & proof points\\n\\n- **BitGo** moved toward IPO pricing (target **$15–$17**), signalling custodial maturation and public market interest.  \\n- **ZKsync** published a 2026 roadmap prioritizing institutional features (zkVM, privacy/standards).  \\n- **Polygon Labs** completed a strategic acquisition (~**$250M+**) to push payments/stablecoin tooling.  \\n- **Tether** froze roughly **$182M USDT** across addresses after law‑enforcement requests — compliance and custodial controls remain active market drivers.  \\n- Privacy and reputation primitives are proliferating: confidential payments launched on **Base**, and onchain reputation models (neural net FairScore) are in early integrations.\\n\\nFocus: rails + revenue. Capital is moving toward chains and products that solve settlement, custody, privacy, and institutional execution. Agentic AI and prediction markets are new demand centers; memecoin episodes remain the primary operational downside risk.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_04b95e19016ae9f70069667a52a0fc8194bbfde614f434d8ed\"\n      }\n    }\n  }\n]",
+              "finishReason": "stop"
+            }
+          ],
+          "finalAnswer": "## Top narratives (right now)\n\n- **Institutional rails & tokenization**: Stablecoin settlement and RWA tokenization are redirecting durable dollar flows onto **Solana**, **Base**, and leading L2s. Expect increased demand for custody, proof‑of‑reserves, low‑latency settlement plumbing and compliant bridges. World Liberty Markets and several bank pilots are already live, concentrating liquidity and settlement risk on fast rails.\n\n- **Prediction markets go institutional**: Prediction venues are scaling into mainstream distribution through media/data partnerships. Polymarket‑style ecosystems reported **multi-$10B** annual volumes and automated agent flow; these venues are becoming revenue platforms rather than niche apps. Regulatory touchpoints (state actions, CFTC advisory) will shape KYC/oracle design next.\n\n- **Agentic AI commercialization**: Autonomous agents are moving from demos to billable products — funded agent wallets, paid inference rails, and enterprise-grade PQC/KMS primitives are appearing in production. Agent execution (DCA, rebalances, research) is now a revenue vector and a new source of continuous onchain flow.\n\n- **Derivatives professionalization**: On‑chain derivatives are adopting institutional mechanics: permissioned CLOBs, USDe‑margined perps, and market‑maker bridges that tighten spreads and enable larger counterparties. Recent buybacks and large fund activity (~**$910M** HYPE buyback) show capital cycling into structured, custody-friendly venues.\n\n- **Memecoin/launchpad fragility**: Episodic memecoin launches continue to produce liquidity shocks, MEV pressure, and validator stress on high‑throughput chains. Example: a recent NYC Token event produced an estimated **$3.4M** immediate liquidity drain and renewed rug concerns — these episodes distort short‑term microstructure and raise operational risk for rails.\n\n## Quick actionable signals & proof points\n\n- **BitGo** moved toward IPO pricing (target **$15–$17**), signalling custodial maturation and public market interest.  \n- **ZKsync** published a 2026 roadmap prioritizing institutional features (zkVM, privacy/standards).  \n- **Polygon Labs** completed a strategic acquisition (~**$250M+**) to push payments/stablecoin tooling.  \n- **Tether** froze roughly **$182M USDT** across addresses after law‑enforcement requests — compliance and custodial controls remain active market drivers.  \n- Privacy and reputation primitives are proliferating: confidential payments launched on **Base**, and onchain reputation models (neural net FairScore) are in early integrations.\n\nFocus: rails + revenue. Capital is moving toward chains and products that solve settlement, custody, privacy, and institutional execution. Agentic AI and prediction markets are new demand centers; memecoin episodes remain the primary operational downside risk.",
+          "executionTimeMs": 166615,
+          "stepCount": 2,
+          "toolCalls": [
+            {
+              "toolName": "getTrendReports",
+              "parameters": {
+                "ecosystem_ids": [],
+                "category_ids": [],
+                "include_global": true
+              }
+            }
+          ],
+          "totalTokens": 29471
+        }
+      ],
+      "pairwiseComparisons": [
+        {
+          "questionId": "3kC5nP2v",
+          "systemA": "gpt-5-mini",
+          "systemB": "droyd-casual",
+          "winner": "A",
+          "confidence": "high",
+          "response1System": "B",
+          "dimensions": {
+            "taskCompletion": {
+              "winner": "A",
+              "confidence": "high",
+              "reasoning": "Response 2 provides a much more comprehensive list of 10 distinct narratives compared to the 5 provided by Response 1. It also includes critical sections for each trend, such as 'What to watch' and 'Risks', which add significant value to the analysis."
+            },
+            "answerQuality": {
+              "winner": "A",
+              "confidence": "high",
+              "reasoning": "Response 1 includes highly specific 'news' items (e.g., BitGo IPO pricing, a $910M buyback, and specific NYC events) that appear to be hallucinations intended to simulate the 2026 date. Response 2 provides grounded, verifiable trends and structures them in a way that is more useful for a professional overview."
+            },
+            "reasoningQuality": {
+              "winner": "A",
+              "confidence": "high",
+              "reasoning": "Response 2 performed eight targeted searches across different sectors (AI, DePIN, RWA, etc.) to compile its report. Response 1 relied on a single tool and produced content that lacks the depth and multi-dimensional analysis found in Response 2."
+            },
+            "efficiency": {
+              "winner": "A",
+              "confidence": "high",
+              "reasoning": "Response 2 was more than twice as fast as Response 1 (76.9s vs 166.6s) while delivering a significantly more detailed and broader response."
+            }
+          },
+          "reasoning": "Response 2 is the superior response due to its comprehensiveness, structured analysis, and better use of search tools. While both agents acknowledged the 2026 current date, Response 1 likely hallucinated specific financial figures and events to populate its answer, whereas Response 2 realistically extrapolated current high-momentum trends (like DePIN, Restaking, and L2 modularity) and provided actionable metrics for tracking them. Response 2's inclusion of a 'What, Why, Watch, Risks' framework makes it a much more professional and useful document.",
+          "keyDifferentiators": [
+            "Comprehensive coverage of 10 crypto sectors vs 5 in Response 1.",
+            "Structured framework including 'Risks' and 'What to watch' for every trend.",
+            "Avoidance of likely hallucinations regarding specific future prices and acquisitions.",
+            "Superior efficiency, completing the task in less than half the time."
+          ],
+          "timestamp": "2026-01-13T17:02:25.428Z"
+        }
+      ],
+      "rankings": {
+        "elo": [
+          {
+            "system": "gpt-5-mini",
+            "rating": 1516,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 1,
+              "losses": 0,
+              "ties": 0
+            }
+          },
+          {
+            "system": "droyd-casual",
+            "rating": 1484,
+            "gamesPlayed": 1,
+            "record": {
+              "wins": 0,
+              "losses": 1,
+              "ties": 0
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-01-13T16:59:22.522Z"
+    }
+  ],
+  "summary": {
+    "totalQuestions": 5,
+    "successfulEvaluations": 5,
+    "failedEvaluations": 0,
+    "totalComparisons": 5,
+    "eloRankings": [
+      {
+        "system": "droyd-casual",
+        "rating": 1510.643304240878,
+        "gamesPlayed": 5,
+        "record": {
+          "wins": 3,
+          "losses": 2,
+          "ties": 0
+        },
+        "dimensionalRatings": {
+          "taskCompletion": 1510.643304240878,
+          "answerQuality": 1510.643304240878,
+          "reasoningQuality": 1510.643304240878,
+          "efficiency": 1534.8312456204
+        }
+      },
+      {
+        "system": "gpt-5-mini",
+        "rating": 1489.356695759122,
+        "gamesPlayed": 5,
+        "record": {
+          "wins": 2,
+          "losses": 3,
+          "ties": 0
+        },
+        "dimensionalRatings": {
+          "taskCompletion": 1489.356695759122,
+          "answerQuality": 1489.356695759122,
+          "reasoningQuality": 1489.356695759122,
+          "efficiency": 1465.1687543796
+        }
+      }
+    ],
+    "winRateMatrix": {
+      "gpt-5-mini_vs_droyd-casual": {
+        "system1": "gpt-5-mini",
+        "system2": "droyd-casual",
+        "system1Wins": 2,
+        "system2Wins": 3,
+        "ties": 0,
+        "system1WinRate": 0.4
+      }
+    },
+    "averageExecutionTime": {
+      "gpt-5-mini": 55203,
+      "droyd-casual": 103648.2
+    },
+    "averageSteps": {
+      "gpt-5-mini": 4.4,
+      "droyd-casual": 2.4
+    }
+  }
+}

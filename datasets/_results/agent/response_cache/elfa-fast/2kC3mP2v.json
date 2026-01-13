@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "2kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "2kC3mP2v",
+    "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ai"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nVirtual Protocol ($VIRTUAL), Fetch.ai ($FET), and emerging ecosystems like ElizaOS and x402 are gaining traction in the crypto agent market due to their focus on autonomous trading agents, cross-chain frameworks, agent-to-agent commerce, and infrastructure for on-chain coordination, as highlighted in recent Crypto Twitter discussions and AI token leaderboards.\n\n───\n\nMarket Overview\nThe crypto agent sector, encompassing AI-driven autonomous agents for trading, payments, and on-chain interactions, shows strong momentum in early 2026. Recent discussions emphasize agentic commerce—agents paying each other for data, execution, and compute—alongside DeFi strategies and agent marketplaces with \"Know Your Agent\" (KYA) credentialing. Tanaka_L2 notes VC allocations to AI-crypto rising significantly, positioning this as the key 2026 narrative over standalone AI tokens.\n\nProtocols Gaining Traction\nFrom Elfa AI's AI token leaderboard (7d timeframe) and CT chatter:\n\n- Virtual Protocol ($VIRTUAL): Rank 2 with 6.48% mindshare (200 mentions, 36 smart). Part of x402 ecosystem maps for live agents, infrastructure, and analytics; praised for enabling agent marketplaces. Tanaka_L2.\n  \n- Fetch.ai ($FET): Rank 4 with 4.01% mindshare (129 mentions, 13 smart). Frequently mapped in agent ecosystems alongside $TAO and $VIRTUALS for compute and coordination. Tanaka_L2.\n\n- ElizaOS Ecosystem: Open-source AI agent framework (cross-chain: Solana/Base/EVM) with infrastructure like ElizaCloud (TEE-secured hosting), Jeju L2 for sub-second coordination, and Otaku DeFi wallet for agent swaps. Apps include Spartan (autonomous trading agent) and Babylon (prediction markets). Gaining buzz for full-stack agent deployment. @seppmos.\n\nOther mentions include OpenServ ($SERV, 3.60% mindshare, +143% change) and POLY AI ($POLY, 2.33% mindshare, +1529% change), but with less protocol-specific detail.\n\nReasons for Growth\n- Autonomous Execution: Agents now handle non-custodial swaps, bridges, and trading (e.g., Spartan trained on influencer data; first autonomous video agent on Solana). @aadopico.\n  \n- Ecosystem Integration: x402 and ElizaOS provide end-to-end stacks (frameworks, L2s, wallets, games), enabling agent-to-agent payments and KYA identity. a16z crypto trends via leviathan_news.\n  \n- Narrative Shift: From hype to utility in commerce, RWAs, Bitcoin L2s, and multi-agent systems; easy launches fuel speculation on outperforming protocols. @dylangbane.\n\nWeb sources highlight broader agentic AI risks/rewards in trading (e.g., emotionless market influence), but lack specific crypto protocols. Forbes.\n\nMindshare is volatile—$VIRTUAL and $FET saw mindshare declines despite rankings—indicating speculative dynamics. Monitor smart calls for sustained traction.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

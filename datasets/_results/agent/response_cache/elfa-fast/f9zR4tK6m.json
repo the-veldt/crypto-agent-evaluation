@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "f9zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "f9zR4tK6m",
+    "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nNo specific data on the top 5 crypto projects by revenue growth or their catalysts is available from current sources, including token leaderboards (sorted by mindshare), web searches, or smart account tweets. Leaderboard focuses on mindshare metrics like BTC (20.86%), ETH (11.61%), SOL (9.94%), with no revenue rankings provided.\n\n───\n\nAvailable Insights on Revenue Mentions  \nRecent smart account tweets highlight isolated protocol revenue growth but lack comprehensive rankings or growth rates across projects. For example:  \n- Maple Finance ($SYRUP): Reported $30M ARR based on December 2025 revenues, with 25% allocated to buybacks; positioned for strong growth (Crypto_McKenna).  \n- Neverland (on Monad): Top revenue gainer at $15,901 weekly, driven by veDUST incentives and self-repaying loans; TVL up 38% (FishMarketAcad).  \n- Boros_fi (with Pendle): Volume growth to $4.7B OI, fee/revenue surge as a catalyst (cryptovishal7).  \n\nThese are anecdotal from Monad ecosystem recaps and DeFi discussions, not a ranked top 5 by growth.\n\nData Limitations  \nToken leaderboard data emphasizes 7-day mindshare and calls, not revenue or fees (e.g., SOL mindshare +19.83%, ZEC +160.35%). Web results cover presales (Mutuum Finance, GeeFi) and unrelated topics, with no protocol revenue growth rankings. Without dedicated revenue metrics, a precise top 5 cannot be determined.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nOn Solana, SOL ranks high on the Elfa AI leaderboard with 10.81% mindshare (up 16.64%) and PsyopAnime (PSYOPANIME) at 1.21%; other mentions include prediction market @intodotspace and upcoming projects like @Koimitsu_fun, @laddotfun. On Base, specific tokens are less prominent on the overall leaderboard, but tweets highlight $VIRTUAL, $PREDI, $DRB (DebtReliefBot), and NFT/gaming projects like @BytePepe, @Bappfun.\n\n───\n\nSolana Trending Projects\nSolana's native token SOL shows strong momentum, ranking #3 on the Elfa AI leaderboard with 10.81% current mindshare (up 16.64% daily), 2062 total mentions (272 smart), and mostly bullish sentiment (904 bullish vs. 63 bearish). Long calls increased 26.47% with 8 smart longs. Elfa AI Leaderboard (internal data).\n\nPsyopAnime (PSYOPANIME) on Solana (2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump) ranks #10 with 1.21% mindshare and 242 mentions (168 bullish), newly entering the leaderboard. Elfa AI Leaderboard (internal data).\n\nTweets highlight @intodotspace as the #1 trending crypto project per RootData. @thesolanapost. Other buzzed projects include @Koimitsu_fun, @laddotfun, @icybrosnft, @EvaptopiaNFT, @aethersxyz, @archade_io, @chunkiesgaming (from community lists), plus established ones like @JupiterExchange, @MagicEden, @Raydium. @Sbihakhan97, @SolanaSensei.\n\nNewer mentions: @raincards (stablecoin cards), @DeCharge (EV charging). @ViktorDefi (smart account).\n\nBase Trending Projects\nNo Base-specific tokens appear in the top 10 Elfa AI leaderboard. Tweets point to $VIRTUAL and $PREDI as top 10 Base projects. @cryptokevin2011. $DRB (DebtReliefBot) noted for 29k upvotes and 133k holders. @itshappenings.\n\nNFT and app projects gaining traction: @BytePepe, @Bappfun, @yamznfts, @Phanto0ms, @RiftOnBase, @marbulaonegame, @rektjpegs, @bonezunchained, @RokuTrade, @ReallyNice_Art. @Sbihakhan97.\n\nGeneral Base ecosystem hype includes potential $BASE token/airdrop discussions and high-quality fundamentals. @iruletrenches, @TalentProtocol.\n\nNote: Trends based on recent 1-week tweet volume and 1-day leaderboard; crypto markets shift rapidly—DYOR.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "4gXsKr6e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4gXsKr6e",
+    "query": "using quant metrics, find the most promising small cap to middle cap projects with the best technical setup, catalysts, and narrative sustainability potential",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nDebtReliefBot (DRB), Railgun (RAIL), and Quai Network (QUAI) currently stand out among small to mid-caps for their strong technical setups, recent momentum, and narrative sustainability, with DRB and RAIL showing especially robust breakouts and active narratives. Refer below for a detailed breakdown of quantitative metrics, technicals, catalysts, and narrative strength.\n\n───\n\n1. DebtReliefBot (DRB)\n- Quant Metrics & Technicals: DRB is up 177% over 7 days, with a parabolic weekly breakout and surging volume, confirmed by an extremely high RSI (78.7) and strong bullish MACD. The price has exploded from consolidation, suggesting renewed accumulation and strong momentum.\n- Catalysts: As the first token launched on Base with AI meme and social integration, DRB benefits from ongoing Base ecosystem growth and AI narratives. Social sentiment is highly positive (88% upvotes).\n- Narrative Sustainability: AI meme tokens are still early in their adoption curve, and DRB's integration with X (Twitter) and Base gives it a sticky, evolving narrative. Its meme/AI hybrid positioning is likely to keep community engagement high.\n\n2. Railgun (RAIL)\n- Quant Metrics & Technicals: RAIL is up 62% over 7 days, with a recent explosive move to new highs followed by healthy consolidation. Weekly RSI is neutral (52.7), and MACD is slightly bearish but stabilizing. The trend shows a textbook breakout and retest pattern above prior resistance ($1.8).\n- Catalysts: Railgun is the leading privacy protocol for DEX trading and lending, and ZK/privacy narratives are gaining traction again. The protocol has strong fundamentals (TVL $101M) and a robust, growing community.\n- Narrative Sustainability: Privacy remains a durable crypto narrative, especially with renewed regulatory and surveillance debates. Railgun’s tech and integrations (MEV protection, ZK) position it for sustained relevance.\n\n3. Quai Network (QUAI)\n- Quant Metrics & Technicals: QUAI is up 113% in 7 days, with a strong, steady uptrend and accelerating volume. Developer activity is high (2,400+ GitHub stars), and the price is up 391% over 30 days.\n- Catalysts: Quai is a merge-mined, PoW-based L1 with privacy features, appealing to both miners and privacy advocates. It has strong community growth and developer engagement.\n- Narrative Sustainability: L1 innovation, privacy, and decentralized mining are all trending narratives that should sustain QUAI’s appeal.\n\nOther Notables:\n- Story (IP): Up 83% in 7 days, riding the programmable IP and AI layer-1 narrative. However, technicals show it’s extended and at risk of short-term pullback.\n- AI Rig Complex (ARC): AI infrastructure play, up 95% in 7 days, but with higher volatility and less clear catalyst flow.\n- Palladium Network (PLLD): Strong recent gains (206%) and real-world asset narrative but contract risks and lack of clear technical breakout compared to the above.\n\nProjects to Avoid for Now:\n- DAI (Pulsechain): Downtrend persists, low RSI (41), and no clear technical reversal or narrative catalyst.\n\nSummary Table:\n\n| Token        | 7D % | Technical Setup         | Key Catalysts                 | Narrative Strength     |\n|--------------|------|------------------------|-------------------------------|-----------------------|\n| DRB          | +177 | Parabolic breakout     | AI meme, Base, X integration  | High, sticky          |\n| RAIL         | +62  | Breakout & consolidation| ZK, privacy, TVL growth       | High, regulatory tailwinds |\n| QUAI         | +113 | Strong uptrend         | Merge-mined L1, privacy       | High, dev activity    |\n| IP (Story)   | +83  | Extended, overbought   | Programmable IP, AI L1        | Moderate, at risk     |\n| ARC          | +95  | Volatile, uptrend      | AI infra, Solana ecosystem    | Moderate              |\n| PLLD         | +206 | Choppy, lower volume   | RWA, Ethereum ecosystem       | Moderate, contract risk|\n| DAI          | -    | Downtrend, weak        | None                          | Weak                  |\n\nConclusion:  \nDRB, RAIL, and QUAI are the most promising small/mid-caps right now, combining strong technical setups, active catalysts, and narratives likely to sustain into 2026. DRB is the highest risk/reward, RAIL and QUAI offer more fundamental depth and narrative longevity. Always manage risk, as these are volatile sectors.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

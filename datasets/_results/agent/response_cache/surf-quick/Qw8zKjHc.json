@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, here's what I can determine about mindshare gain over the last 24 hours:\n\n## TL;DR\n\n**Dogecoin (DOGE)** shows the strongest evidence of mindshare gain based on social engagement metrics and price performance. While comprehensive social dominance data is limited, DOGE demonstrates clear social momentum with multiple high-engagement discussions and the strongest 24-hour price performance among top cryptocurrencies.\n\n## Social Engagement Analysis\n\nBased on the available Twitter data, here are the key mindshare indicators:\n\n### High-Engagement Crypto Discussions\n| Project | Engagement Level | Key Topics | Signal Strength |\n|---------|------------------|------------|----------------|\n| **Dogecoin** | High (35-96 likes, 7-51 replies) | Price predictions, technical breakouts, inflation transparency | **Strong** |\n| Bitcoin | Moderate (11-13 likes, 2-7 replies) | General market commentary | Moderate |\n| Ethereum | Limited data available | - | Weak |\n| Solana | Limited data available | - | Weak |\n\n### Dogecoin Social Momentum\nDOGE shows the most compelling mindshare evidence with:\n- **Multiple high-engagement threads** discussing price movements and technical analysis\n- **Strong community activity** around transparency and decentralization narratives\n- **Price performance leadership** with +2.68% gain (highest among top 10 coins)\n- **Technical breakout discussions** with bullish wedge patterns and $0.20-$0.21 targets\n\n## Market Context\n\nFrom the top 10 cryptocurrencies by market cap, here's the 24-hour performance:\n\n| Rank | Token | 24h Change | Social Evidence |\n|------|-------|------------|----------------|\n| 1 | Bitcoin | +1.56% | Moderate engagement |\n| 2 | Ethereum | +1.84% | Limited data |\n| 3 | Tether | +0.03% | Stablecoin - low social |\n| 4 | XRP | +0.61% | Limited data |\n| 5 | BNB | +1.76% | Limited data |\n| 6 | Solana | +0.38% | Limited data |\n| 7 | USDC | -0.01% | Stablecoin - low social |\n| 8 | TRON | +0.90% | Limited data |\n| 9 | stETH | +1.78% | Limited data |\n| **10** | **Dogecoin** | **+2.68%** | **Strong social engagement** |\n\n## What's Missing\n\nTo provide a more comprehensive mindshare analysis, I'd need:\n- **Social dominance metrics** from platforms like LunarCrush or Santiment\n- **Cross-platform social data** (Reddit, Telegram, Discord engagement)\n- **Volume-weighted social sentiment** scores\n- **Relative social mention growth** percentages\n\n## Recommendation\n\n**For deeper mindshare analysis**, use Deep Research mode to gather:\n- Comprehensive social dominance metrics across all platforms\n- Relative mention growth percentages\n- Sentiment analysis across multiple channels\n- Historical comparison to establish baseline patterns\n\nThe available data strongly suggests Dogecoin is gaining significant mindshare, but a complete picture requires broader social analytics coverage.\n\n**Next step**: Start a new conversation and select **Deep Research** mode for comprehensive social sentiment analysis.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

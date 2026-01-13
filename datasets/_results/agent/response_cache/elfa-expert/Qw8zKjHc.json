@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\n\nThe crypto tokens with the largest mindshare gains over the last 24 hours are Monero (XMR), Story (IP), Dash (DASH), and Pirate Chain (ARRR), with Monero seeing a notable ~4x surge in social attention. These gains are driven by a renewed interest in privacy coins and strong price action.\n\n───\n\nMonero (XMR) has seen a significant spike in mindshare, with mentions and discussions up approximately fourfold over the past three days, correlating with a price rally of over 10% in the last 24 hours and more than 50% in the past week. The surge is likely tied to increased attention on privacy and regulatory narratives, as well as its recent all-time high price movement @sandraleow.\n\nStory (IP) is another standout, with its price up nearly 38% in 24 hours and 87% over the past week. As a layer 1 blockchain focused on intellectual property, it is drawing significant social buzz, likely due to its unique narrative and rapid growth Story Protocol.\n\nDash (DASH) has experienced a dramatic 47% price increase in the same period, which has translated into a sharp rise in social mentions. Its resurgence is likely linked to broader privacy coin momentum and renewed interest in its digital cash use case.\n\nPirate Chain (ARRR) has also enjoyed a 45% price jump in 24 hours, bringing it back into the social spotlight as another privacy-focused project.\n\nThese trends reflect a broader narrative shift toward privacy coins and innovative layer 1s, with mindshare gains closely tracking both price movements and renewed thematic interest. If you want more details or have a specific token in mind, let me know!",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

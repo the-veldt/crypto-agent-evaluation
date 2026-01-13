@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "6vGjYc2o",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "6vGjYc2o",
+    "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nTop 24h gainers with ≥$20M market cap include $DASH (+60-66%), $IP (+30%), and $XMR (+13-18%), all driven by the privacy coin narrative resurgence amid tightening surveillance, regulation, and demand for anonymous assets—privacy emerges as the central sector with catalysts like technical breakouts and altcoin rotation.\n\n───\n\nTop Gainers (≥$20M Market Cap, Last 24h)\nBased on aggregated data from social mentions and reports, the leading tokens with confirmed market caps above $20M and strongest 24h price growth are:\n\n- $DASH (Dash): +60-66%, MC ~$1B+ (privacy-focused coin). KuCoin, AltCryptoGems, CPOfficialtx\n- $IP (Story Protocol): +30%, MC sufficient per listings. Decrypt, AltCryptoGems\n- $XMR (Monero): +13-18%, MC $10.5-11.7B, hit new ATH ~$636-680. Decrypt, stacy_muur, TokenHunter\n\nSmaller mentions like $DOLO (+57-70%), $PLAY (+53%), and $ZEC (+7%) appear in gainers lists but lack explicit ≥$20M MC confirmation in data; $CHZ and $MYX also noted but lower gains.\n\nCommon Themes and Narratives\nPrivacy coins dominate as the unifying sector, with $DASH, $XMR, and related $ZEC leading gains. Narratives center on \"privacy resurgence\" as a necessity amid global surveillance tightening (e.g., Dubai DIFC ban on privacy tokens) and regulatory expansion. catchingflaws, CPOfficialtx\n\nKey drivers:\n- Demand for anonymity: Gold at $4,600/oz, US political tensions (e.g., Trump vs. Fed), and capital flight to uncensorable assets. stacy_muur\n- Technical momentum: $XMR broke 8-year ATH ($517), triggering FOMO; RSI overbought at 88, Fib targets $601-656. stacy_muur\n- Altcoin rotation: Capital shifting from BTC/ETH to alts/privacy amid maturing majors and liquidity concentration. kyledoops\n\nCatalysts Analysis\nCentral sector: Privacy coins. Catalysts include:\n- Macro tailwinds: Escalating policy risks boost \"private money\" repricing; privacy leads weekly sector performance.\n- On-chain/volume surge: $XMR 24h volume +230% to $338M, organic buying. stacy_muur\n- Rotation signals: Stablecoin dominance bearish, Solana dominance bullish for alts; broader altseason hype building. catchingflaws\n\nNo single non-privacy theme unites all; mindshare leaders like $PRIME/$2Z are hype-driven but lack price/gainer confirmation or MC data here. Data limits prevent exhaustive MC verification for all mentions.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

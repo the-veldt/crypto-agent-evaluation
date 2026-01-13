@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 618
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 775
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 4590
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 7961
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9002
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 12187
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 12315
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 12480
+        }
+      },
+      {
+        "stepNumber": 9,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 15622
+        }
+      },
+      {
+        "stepNumber": 10,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 22455
+        }
+      }
+    ],
+    "finalAnswer": "",
+    "executionTimeMs": 50831,
+    "totalTokens": 98005,
+    "stepCount": 10,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto social trends last 24h Santiment trending tokens 24h January 2026",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-11",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "santiment.net",
+            "twitter.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Santiment social trends last 24h trending coins 24h",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "LunarCrush trending 24h top coins social engagement last 24 hours",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "lunarcrush.com",
+            "x.com",
+            "twitter.com",
+            "medium.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "CoinGecko trending search 24h today top trending 24 hours",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coingecko.com",
+            "x.com",
+            "twitter.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "CoinMarketCap trending now 24h most searched cryptocurrencies today 2026-01-13",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coinmarketcap.com",
+            "coinmarketcap.com/community"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DEXTools trending 24h today top trending pairs 24h",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "dextools.io",
+            "x.com",
+            "twitter.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:lunarcrush.com top cryptocurrencies today social engagement 24 hours trending",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "lunarcrush.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:x.com santiment social trends today Top 10 trending coins",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-11",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "x.com",
+            "twitter.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top gainers crypto last 24 hours January 13 2026 news sector narrative",
+          "numResults": 10,
+          "startPublishedDate": "2026-01-12",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coindesk.com",
+            "cointelegraph.com",
+            "theblock.co",
+            "decrypt.co",
+            "beincrypto.com",
+            "fxstreet.com",
+            "ambcrypto.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Monero all-time high January 12 2026 privacy coin rally news",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-11",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "decrypt.co",
+            "cointelegraph.com",
+            "coindesk.com",
+            "theblock.co",
+            "ambcrypto.com",
+            "fxstreet.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "4tSfYb9k",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4tSfYb9k",
+    "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"c299Aigq7nq5mdkH\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare Solana and Base ecosystems over the last 90 days. Focus on TVL, trading volume, fee generation, active addresses, and growth rates. Provide visual evidence if available.\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Eo4KCosKAXLI2nwcCxha51JRb2bqffbNkdgeg2GTM2dzwRr8oxuAH0KGYuCRsSoeMIlBTXnfqHpdhYnn2pBYt0tTSqIv4L8kEo/KIQN8kmNIL5ovHuOuc8w13cUw3TkriFnbGWkEaMZ1NdXuvK/tIHNurbT5qWZ5vscFwkyB3W9c8+ikhfN0Hp54glYEQjOB9xXyWGKIWEab0ijsg0b2FWbNg0kajBHXz5FEG+/IGIMhfYF6UBHzYfN0Eo05go+CM3NvuU7sM/uYjJHUf57GyXtzVWKp9ingdYHdVeZV3nYpMmtqcjo9qUs+ozNCgMpURYSA3XASHQYN18Q5s0SfInRlxyTUODamxU51KUwgu5Vtm91kukLPYBSsTJkbO4kMyXWoRC7L6bU+9U7UYkgzMdxO8hHXO/IBSZvQ7kBhgT4T1XxMCCyaWDhsKJbR3eJLf4TfFRxuTkXajpiFg5++jPadNnr0Qt32/WeSed8xh18auxv5y+QqU7sueWt4ceQNRXdR/Rg447WCUEo/O3y4HuDgcplvFO4/4JP/enFEFs9xosLX88HIp79J8c1Vm2VBkLwPwAekfy7oZMNJZnNcm9b3HUkyvqs9UM/rh5NV6FE00FjA5/NQgbzmMZL3l3rSbJN8VzmMaRgsSmEBes5vtuMpcurNs9El8uOYyKRB89w1gXf/A0KccCfcCdltRWld120a17Rh49+GYlPH2h6NJTbi0nHaobyGz3unIPRvCsI8+/7x+VAsPSGl0vg2Rg/0trcHqwU00d0vlXwXdHNQE2LwSy6qK1f+b7GWHNAH2j7T1Z1fyLwLsj60V1tTBPBSS566Bwih9o36kgec2MQz2BWiSWKZ+EjezfdySofvaK83X5L0/tM9ShFe91YFqugktgfmQdirZ4jaE00aemohkbOx2c1yC6Vd2ai0hDksqliLC4nBzRoZ/dMzKCMubVLmNRVtjPAjnNk7xFMtRwSnMHLjHXe4RuAu8M8zVXWh+agQqYp7M5vJxlQA4U9SQsgTNqPEdg6JaJ1Fb49IT07TFdfAs/UzJqjG/u0agyNxmXOG94l3g0AoYx4Ys8WTcJu0KtNjFh04CYxvlwaGHy64dgikJoFlqsPh6bgvY5lGGv13C81zGKa8fjISOTcfTPe97asHbLPw5AwS2yOe7pD7PWHopKCoozXljy9QhC01Rf6QrWDXE9ADJkNfHHZcj7qWzPRNUJPay0fsPWvz2BK9GhC+IQ0T/OyH21nd/AlNJvo31HNWPzpFHsHiEbmohWrOgJG0GofGBcF24PGd04dhqHkwPg4UEpQAiqBMZG7aPLD2BNc71RCfwBmHzz4rQRyRx73AmpR1m9SpdXVMDEp+PVy1kPu0TBJFVeoHrxqPu6QtN0jKB8DPCS5GFVZqDYUY0bMeZqsO6GwuYq+fZhjBaEXV6v/m+c3R8dcZWQtD+nHSMnSmzFI9n+2jvB9jG3ZJum8rOk83jhNsj6dtjvHwMNDxzfZb6ZapFmquTdrSZXY75rj3gtcErp3ypKTf3mMxsC5Drs87xaBCxTxb80Aswo07KS9KY+85KsG+0RyuYurFgMEi+bJgP34lJjSDyBG15ipJHrsQ3stprMqTlMw8UQmAgkBlGMUMZmsvfT5d+0/1m03GusTfSA5KlffTFfrE/zQk6OXTNbL0ea9Ir4k7/TY9lm/EbCBdUFSQnaR9CgcUP7vSXlE1A2eqBbWfpNYRzw==\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"z8K3ZP5Ht8yY9WhS\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        15071\n      ]\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"4K8HDnKtytDinB0w\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Solana vs Base ecosystem moat sustainability analysis competitive advantage\",\n      \"days_back\": 30\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"As of early 2026, the divergence between **Solana** and **Base** has shifted from a technical comparison to a structural battle between **Capital Velocity** and **Distribution Moats**. Solana maintains its lead in raw throughput and speculative turnover, while Base is successfully capturing \\\"sticky\\\" retail and institutional onboarding through the Coinbase gateway.\\n\\n### Core Trends: Performance vs. Distribution\\nSolana’s ecosystem is currently defined by **Execution Gravity**. The concentration of liquidity within high-performance trading terminals like **Trojan** and aggregators like **Jupiter** has turned the network into the world’s most efficient \\\"Internet Capital Market.\\\" In 2025, Solana processed **33.13B non-vote transactions**, dwarfing every other chain and proving its dominance in high-frequency onchain activity.\\n\\nBase, conversely, is riding the **BTC Liquidity and Consumer Abstraction** wave. The recent surge in **cbBTC** and BTC-restaking incentives (like the Bedrock 60,000 $OP pool) has turned Base into a primary sink for Bitcoin capital on L2. Simultaneously, the integration of **zk-based shielded payments** via Hinkal and wallet-level abstractions are positioning Base as the preferred venue for private, non-speculative commerce.\\n\\n{chart_id:344}\\n\\n### Comparative Sustainability and Moat Analysis\\nSolana’s moat is built on **Economic Inversion**. In 2025, Solana achieved a 600%+ app/chain fee ratio, where applications (Meteora, Pump.fun) captured over **$4 billion** while the chain itself took $650 million. This \\\"thin protocol, thick app\\\" model suggests a sustainable ecosystem where builders, not just the network, are highly profitable. However, its moat is under constant threat from \\\"Parallel EVM\\\" contenders like **Monad** and **MegaETH**, which target the same performance niche.\\n\\nBase’s moat is **Vertical Distribution**. By integrating with Coinbase’s 108M+ verified users, Base has built a regulatory and onboarding wall that is nearly impossible to replicate. This \\\"Fat Distribution\\\" moat is arguably more sustainable; while raw performance can be commoditized, the **direct relationship with the end-user** (via the Coinbase wallet and Farcaster) is far stickier.\\n\\n{chart_id:592}\\n\\n### Metrics of Divergence\\nThe 90-day data shows Base gaining aggressive ground in capitalization while Solana moderates:\\n*   **TVL Momentum**: Base TVL grew **~9.8%** to $6.01B, while Solana TVL saw a modest decline to **$8.9B**.\\n*   **Fee Generation**: Base protocol fees surged by **~40%**, primarily driven by **Uniswap** and **Aerodrome**, whereas Solana’s fees fell **34.5%** as activity shifted away from high-fee minting events.\\n*   **Liquidity Health**: Solana’s stablecoin market cap (dominated by USDC) dropped **18.3%** in 3 months to **$13.4B**, signaling a reduction in \\\"idle\\\" liquidity. Base's stablecoin cap remains steady or growing, supported by institutional trust.\\n\\n{chart_id:522}\\n\\n### The Moat Verdict\\nSolana is the **\\\"Global Bazaar\\\"**—the most sustainable home for high-velocity capital and DePIN infrastructure due to its open competition and technical resilience. Base is the **\\\"Corporate Mall\\\"**—the most sustainable venue for consumer adoption and \\\"safe\\\" financial services. Solana's moat is **deep but technically contested**; Base's moat is **wide but centrally dependent** on Coinbase's continued execution.\\n\\n{image_id:451739}\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EtEOCs4OAXLI2nyP6BCFOzefbk8CKGfRzacABdd4GoHq5Zi3VsokU784RY6h6evYBiG5TlsQiWYrvjUOxfrWYaEPhdtOHiyCaSuF96Nj0i7pTlDugL4/T5P3ZWw2q3NwOZqETG5hKKA7TJKO9WYAdXc2sOKLpL9zQ9h+VcONlwTo9rsmAaWn+YlqweReAoWnTfShRT2Yael1zHdZxNsAAvpQW5UvyPDO1C0/dS6AiY2g2t5/ai+aOmaab9V2npj6NhsOhIDaDkf21QHHaUM1G/GbsuOUJIsfs7jssPs/QB0vvXTPUgHq9MM6n8uDDAkzk0+g9yuTLNvYvZI6N7sGM5Q9Y1QkjzakzozGPG87mGUVcsw4UqUpfVjmK2jN3tEmy0ZpQAcws0zvRZfQNrmB6iZAWBXwK+FEEATGsqmC8jnEGFlUx2SN4z3zXIa+kWejUAxx3gg/bgba2N+BrXeN0gS395ZC0Ven0LfpK8Q5GU0F9k+Iw+IWo5WNfjqN3UIagYwrO3OI3YTFblXDThbJxThKGoWGjcf92pWNKEBJZLfCw6HLFNH0kLmfzTatPtkFWUI7Fds4by42jXddAR1Ua6ZAzQtUHJbVb2HotyrtkkOX7o22IQEdOW5ZVDPTpNAHe6dpkMR9aeRJoHzLNEq6GAD7ClPB+WhCYuMT7DQEJAoI9BzA+RjDEx4zcQuzwhuRbmTt5ibQhq2Tp6vVHmRK0cXsyJl7gtiVy+7iNNRTZQXh6XdP6qAQZGyaFfI74PIc+uQv/RQQLZCz9r7+xGW+L7+KDrDoeXFp71hxyIxVlhOCwh/3mKUeSGThCiBy4eYhFyJufKQE8ST7GD9GrwYFpuCQUMNjGk1t0QPTcfcMzwWk4EUpLLbAB3bGJeqAaPBmXF1rvmdmHt82xLQhv/50Q9DAsL4lSy0PoyCusH9TTocOM8qQaK3m7GKCQ/Y1BlOhq48ssRyLvMbB26OxLERgJbF4mxQJSvt0Od1udB2TKOsDP5PZu8mzSgbMhLhpceNlmHRxl6ow02zCD6ktV26P4poQiLVmveoeNlIEfzmBU4XO7CTu3MxDb0Whf2mGcg7g4VY2119gCuYEStQ6scoBmqVB0M9KtoOxUuOiGea8ye5NmZt6x3ZGEWrIK5vlC0TAprWHw7IM6jTNjFktf1z0iXTBXoEMH9lAGVkACieue+Nimrpjmxrn4Y4Q3OhWDasr9ew22xjZeAYRtrbkcHrmIe+332WQwiwnCd8yBiYkEX054af8JCzxye17npsrmV+Gt+T1XFvWuZq0KgA+ZsRalS8HVDbAoXTLIrb4bdwASni1ot2zuHlltMLzvdNn/Jb5A7ro4CF8Qc3g+UjOuRRrXLCgNV0VggM+GGyLAkgmb1v8dEyZ+rKsOf5CcSo/aevFcjM2XB5pHfEbOrVgtjmpJqj3bfbZzOQ6SEEfORwO73PZqkgCRdbtkTdrzp9qDLb2jPkreWiKdRIB3b55QUMU6ZSu6kf/eW41l/OlPgAOdGa+DwPcvEZ0vUpGxP0EievpeaWFOsf5sfKkJ6Fqb0wIRAwttABSbfzQpvA6pz36FjPCQd3AJwRaj32vG/BW2rECuNGR/16qWBLv0cvuSNm40Hz0hC/GOqtcqGVy2HWv/3MGTovd/KnZ2mahl42l0t9ZZeft9+2Dl6bcEGoXHjgF+zUBozzaSGjOmak5kawzukhuH2eZE0trGjK/hpqeo8OZoaQaZkb/OTQuaEdVctGMi3vuVsN/Yb20oZe2VowN+PDjzwHROpiA/4zE0m94apjHfXwGg1H921/LsL/LiyjwQpXSh/WGAGFU/vX3B0P/wDo/vVlnLR+zbD8SWwxU0lERywXIbEViTizR8O6R2U1GNm4katdhRRIzy3ebdM/1tIjhhyY1rQ3FxLIl8BqEB6CJojOynnX5pZIJkZ2CZ8dYpsE+3FlwjRQ53KyI+2U6vDKuMNFEwaB4clv+YAz1yZL1hhtzsxSVhZ1H0p9V18yIOIa+zzY2i+W7BWHZyEjaZlihKiT3+xMytdjYXvLnQasBzf8/IB4Z05X/udda1+9slELppE4DgfrYJxCCtGLsE9EKfO3g/zoxFcQAmqpn1OmQkdwHcOQxVmTglOWIixZAyHI2cjPEODLH2RDEoOAKciakTneXa5a3dF0yKKL8yFHrTR6MWcSTBXzFFTfFtTM+vHB0q4a38NBeiURLYyZ/7Ml8/pdPLtB9iQLFGzE7u7O2L7TqzjolBE23tNqk0uK4sajEg1RnEVsLXw6NHWicS/tFuzFi4id7AYW+6qyWpbyQYgblH6Xwqmjn/DfsDkUu3ws3+tB+ApKj0ZBLlg+SQ3S2yoFXbtCovKVv6m11EgKL/pOxTetOgYlqvYuFq7stYjyfnHiSpDJtWU/KxyLOlIFYikchl+U1Fr6S9/BUqk88xJ3ATGQ8jMU8X+7unb65z+uAixsSdz2xJvDBvlsqY8jeKvZBzazOaozDBqkKriWYe/4+BA==\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "As of early 2026, the divergence between **Solana** and **Base** has shifted from a technical comparison to a structural battle between **Capital Velocity** and **Distribution Moats**. Solana maintains its lead in raw throughput and speculative turnover, while Base is successfully capturing \"sticky\" retail and institutional onboarding through the Coinbase gateway.\n\n### Core Trends: Performance vs. Distribution\nSolana’s ecosystem is currently defined by **Execution Gravity**. The concentration of liquidity within high-performance trading terminals like **Trojan** and aggregators like **Jupiter** has turned the network into the world’s most efficient \"Internet Capital Market.\" In 2025, Solana processed **33.13B non-vote transactions**, dwarfing every other chain and proving its dominance in high-frequency onchain activity.\n\nBase, conversely, is riding the **BTC Liquidity and Consumer Abstraction** wave. The recent surge in **cbBTC** and BTC-restaking incentives (like the Bedrock 60,000 $OP pool) has turned Base into a primary sink for Bitcoin capital on L2. Simultaneously, the integration of **zk-based shielded payments** via Hinkal and wallet-level abstractions are positioning Base as the preferred venue for private, non-speculative commerce.\n\n{chart_id:344}\n\n### Comparative Sustainability and Moat Analysis\nSolana’s moat is built on **Economic Inversion**. In 2025, Solana achieved a 600%+ app/chain fee ratio, where applications (Meteora, Pump.fun) captured over **$4 billion** while the chain itself took $650 million. This \"thin protocol, thick app\" model suggests a sustainable ecosystem where builders, not just the network, are highly profitable. However, its moat is under constant threat from \"Parallel EVM\" contenders like **Monad** and **MegaETH**, which target the same performance niche.\n\nBase’s moat is **Vertical Distribution**. By integrating with Coinbase’s 108M+ verified users, Base has built a regulatory and onboarding wall that is nearly impossible to replicate. This \"Fat Distribution\" moat is arguably more sustainable; while raw performance can be commoditized, the **direct relationship with the end-user** (via the Coinbase wallet and Farcaster) is far stickier.\n\n{chart_id:592}\n\n### Metrics of Divergence\nThe 90-day data shows Base gaining aggressive ground in capitalization while Solana moderates:\n*   **TVL Momentum**: Base TVL grew **~9.8%** to $6.01B, while Solana TVL saw a modest decline to **$8.9B**.\n*   **Fee Generation**: Base protocol fees surged by **~40%**, primarily driven by **Uniswap** and **Aerodrome**, whereas Solana’s fees fell **34.5%** as activity shifted away from high-fee minting events.\n*   **Liquidity Health**: Solana’s stablecoin market cap (dominated by USDC) dropped **18.3%** in 3 months to **$13.4B**, signaling a reduction in \"idle\" liquidity. Base's stablecoin cap remains steady or growing, supported by institutional trust.\n\n{chart_id:522}\n\n### The Moat Verdict\nSolana is the **\"Global Bazaar\"**—the most sustainable home for high-velocity capital and DePIN infrastructure due to its open competition and technical resilience. Base is the **\"Corporate Mall\"**—the most sustainable venue for consumer adoption and \"safe\" financial services. Solana's moat is **deep but technically contested**; Base's moat is **wide but centrally dependent** on Coinbase's continued execution.\n\n{image_id:451739}",
+    "executionTimeMs": 186278,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare Solana and Base ecosystems over the last 90 days. Focus on TVL, trading volume, fee generation, active addresses, and growth rates. Provide visual evidence if available."
+        }
+      },
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            15071
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Solana vs Base ecosystem moat sustainability analysis competitive advantage",
+          "days_back": 30
+        }
+      }
+    ],
+    "totalTokens": 52730
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

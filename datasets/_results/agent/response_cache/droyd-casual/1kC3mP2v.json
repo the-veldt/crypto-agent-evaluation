@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.337Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"HDeWf0VqXJbV2xH4\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"content_types\": [\n        \"tweets\"\n      ],\n      \"limit\": 30\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EuUDCuIDAXLI2ny+FsjSTV7hMz+pM97cDcv7PbvAgOZnIJtBLphYXmzd5Rv1ws+dGSo9iDoXwOcxsFqrXWhEEkLqq1/ofdnTPbxopt7a73ePzEPaEU1LDX0+93rgB+JCMWaw3DpDwwbK3+Iii03jjHqQYkCDcJFnOQDI9BAup/gtiWWsN7VVUFhcc3/E9UQg1/WQHfDU8RlLpaih0m/mYKllu9/4v70MOurj+nwoDzmLzFNgRlozVf+T9xRqktzxpc4QH9Wyumzlyf2sT57vuBeshkBHUrYKWw5yv6hpZXkKqjwSMj5SKMtAFSO9G/ozTg19P0YAa0ekojnq30eUTqpsDBJkVzNB4SvIfj5WflPbh2eMXld6lB7bqKjwp5VHMexBbo96M/1YwOr/Pi7P0EaY+m+64yWAXAUFC0CX4Gc+TGQtZJQLjElXKtClzy/o7prlpctTDCSRGep1BV3fksYMIYE/O9zmGBleX0SqB3DA8gvtHp1SCZYqHzf8BpRISH83U1hfYs/dXY5Yqy2HbOqRiH5OoSQm6KyCjgDKe+YZCpY3c68RqkA1uXtKX4zuQXcEUnOGD40CPEYDBWnQXt8UztUep0PI/C/BtXl93SejSavu5IV9AauO2rSTI9iE4Vi7MI85axg=\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"sj2VB4jDR0UtTkEL\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find tokens with the highest social mentions and mindshare growth on Solana and Ethereum over the last 24 hours.\",\n      \"sort_by\": \"mentions_change_24h\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Discussion on Twitter is currently dominated by massive shifts in **stablecoin liquidity**, the explosive growth of **prediction markets**, and new high-performance infrastructure benchmarks. **USDC** and **USDT** are seeing unprecedented attention following reports that total stablecoin transaction volume hit a record **$33 trillion** in 2025. This 72% year-over-year increase is being framed as a structural validation of onchain settlement, with **USDC** leading the charge at $18.3 trillion in volume. \\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767981032/veldt/agbovec1cnnux2kkdril.jpg\\n\\n### Prediction Markets & AI Infrastructure\\n**Polymarket** and **Kalshi** are trending after a record-breaking weekend driven by NFL Playoffs trading. **Kalshi** posted an all-time high of **$837.1M** in weekend volume, while **Polymarket** integrated real-time prediction data with **Dow Jones** and **The Wall Street Journal**. Simultaneously, **AI infrastructure** is seeing renewed interest as Epoch AI data circulates, showing that global AI compute is doubling every 7 months. This has kept **Nvidia** and its onchain proxies like **NVIDIA rStock (NVDAr)** at the center of the \\\"Physical AI\\\" narrative.\\n\\n344856\\n\\n### Onchain Rotations & Narrative Drivers\\n**Hyperliquid (HYPE)** continues to suck liquidity out of major L2s, recording **$246.3M** in net inflows over the past week while **Arbitrum** saw outflows exceeding $200M. The launch of the **US500** market and the growth of HIP-3 DEXs like **trade.xyz** have pushed **Hyperliquid** to the top of the fee-generation leaderboard at $1.7M. **Celestia (TIA)** is also gaining significant mindshare after announcing **Fibre**, a new data availability layer claiming **1 Tb/s** throughput to support \\\"every market\\\" from AI to micro-payments.\\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1768326493/veldt/zttsqeqirmgyunq6q5rf.jpg\\n\\nIn the mid-cap and altcoin sectors, **MetaDAO (META)** and **Pyth Network (PYTH)** are seeing spikes in mentions due to governance updates and new institutional integrations. **Pyth** specifically is benefiting from a new **PYTH Reserve** mechanism that channels protocol revenue into treasury buybacks. Meanwhile, **Silver** and **Gold** are trending in macro circles as both hit historic highs, fueling a \\\"risk-on\\\" sentiment that has helped **Bitcoin** reclaim the $90,000 level despite neutral retail sentiment.\\n\\n347555\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Discussion on Twitter is currently dominated by massive shifts in **stablecoin liquidity**, the explosive growth of **prediction markets**, and new high-performance infrastructure benchmarks. **USDC** and **USDT** are seeing unprecedented attention following reports that total stablecoin transaction volume hit a record **$33 trillion** in 2025. This 72% year-over-year increase is being framed as a structural validation of onchain settlement, with **USDC** leading the charge at $18.3 trillion in volume. \n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767981032/veldt/agbovec1cnnux2kkdril.jpg\n\n### Prediction Markets & AI Infrastructure\n**Polymarket** and **Kalshi** are trending after a record-breaking weekend driven by NFL Playoffs trading. **Kalshi** posted an all-time high of **$837.1M** in weekend volume, while **Polymarket** integrated real-time prediction data with **Dow Jones** and **The Wall Street Journal**. Simultaneously, **AI infrastructure** is seeing renewed interest as Epoch AI data circulates, showing that global AI compute is doubling every 7 months. This has kept **Nvidia** and its onchain proxies like **NVIDIA rStock (NVDAr)** at the center of the \"Physical AI\" narrative.\n\n344856\n\n### Onchain Rotations & Narrative Drivers\n**Hyperliquid (HYPE)** continues to suck liquidity out of major L2s, recording **$246.3M** in net inflows over the past week while **Arbitrum** saw outflows exceeding $200M. The launch of the **US500** market and the growth of HIP-3 DEXs like **trade.xyz** have pushed **Hyperliquid** to the top of the fee-generation leaderboard at $1.7M. **Celestia (TIA)** is also gaining significant mindshare after announcing **Fibre**, a new data availability layer claiming **1 Tb/s** throughput to support \"every market\" from AI to micro-payments.\n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1768326493/veldt/zttsqeqirmgyunq6q5rf.jpg\n\nIn the mid-cap and altcoin sectors, **MetaDAO (META)** and **Pyth Network (PYTH)** are seeing spikes in mentions due to governance updates and new institutional integrations. **Pyth** specifically is benefiting from a new **PYTH Reserve** mechanism that channels protocol revenue into treasury buybacks. Meanwhile, **Silver** and **Gold** are trending in macro circles as both hit historic highs, fueling a \"risk-on\" sentiment that has helped **Bitcoin** reclaim the $90,000 level despite neutral retail sentiment.\n\n347555",
+    "executionTimeMs": 20109,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "content_types": [
+            "tweets"
+          ],
+          "limit": 30
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find tokens with the highest social mentions and mindshare growth on Solana and Ethereum over the last 24 hours.",
+          "sort_by": "mentions_change_24h"
+        }
+      }
+    ],
+    "totalTokens": 89796
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

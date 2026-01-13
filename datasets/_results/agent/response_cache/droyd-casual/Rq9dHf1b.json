@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"LD7qfKJZETSBUkOM\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Uniswap\",\n        \"Aerodrome Finance\"\n      ],\n      \"search_type\": \"name\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Ep0ICpoIAXLI2nyY1N87IRgQDfEfMtdI+D4ZtLb2U5PvkPc8yxHLVkx85/lIA7iZJ9lw+EETjKtz+/OfedPs25PypoAvTOylPwpr95DQsTv7boYv1G0mW+ebTzznb85WypfQ8Ta/2aWyrHmhFYx0LYxQowQdGCNVPNKZ4PBI1sqidqA+wevAWTgaINdgSi5ZvG79mnV2v32Db94hORzJOWBbgDHb7KUWtSTpQRdjHmuXQSXVBYXy8zmsi3hgTV7uW9yDp9TlI6lBW+0nAe2WgkJx7wYg7GanHIk28i0nRiVM5cijJ4HKozm3gFAvmrol5wpfEazBpDtyqFuvjeKNAHI4WonGwWVWa0q1Y/iFElLU1T7lZcCKWYC4W/aC/XL9I019d7pJNPDBRIy0ujpEz3EGgoEq8JdTiC/4Jc4DqAbCkL+TILu7btbhF6ykqbrfsSO4BmtBWZl6XXtxLbx6kBWksqVg7A5eMMsdtPJkZoeQGRhebStK8J98m2dtOHJKIwtqapTbg9MIM+iCl5JqMZn+IYWaPnMXddCNEvMa2+1qebrsknYqWBxNia3M4I3mWatQMz/2WNFRqxL/Wiafs0JEmwRuUK0bUS3P57kLqImwE/8zdabI/Awarr7k8/51Xm2n1Oh6yB+Ui6WtEdpcufi8vuj3GePNXn90tqdgFc2Tl5iDFiFX82VEER5qIwfGNXHzLbk8/S4iL7SH7NR7j7tElo4CqjzS6TPAddaEVIcUPHfzu3mUftFL+6mopH6W3gjO8L2DOBs01mwe+nV1c6pFpFNyk+pxdkjzwqHXtZSaAtpCn1a5WECkUqCgbbilxHk7CIwQHULL8xEcL4mKYHJnb/gUtqOaSpXK8dFLDvI6hljep0MnJJvfV9NMIv++w9DdcBvjeLGRbuVP8BDALbMb8UFZ+SVw953ME6ZfARsfeXtSyRvrh0yXJ//zlDBSyy982YRwRFkxHLXZwoWIZO0PpsZVzCijlxv/zrbRQ1ex11NnistRTqZLXrmdC8kl45Ykycwc4FnLfPZQl0eqe9PefXvelATFLKvivFWk51TpT5v4YFC6yRzteX7+GkkkaXD+1k7LCpF6OKQ1BQ5fxAm5NfpG6pjq2+3HA1FRP2TNDTwvuq6mND4g/cQg+lrj/PGO5x0lQ75QC3+Lfb1+qlH7l7FJt8mLXS9TjWReiGQl15+vRCtA98+1rHjcAgyAGEOHj0YiwUY12e6eFkimuvLluie6cn4Tf3LMUBoM3nxUaGNqg7IXFBuJpDaEaoR31wRezpkzXk2AyDfWCK6JF15BLrjPjO42iGdd0WL/p5E2bJEHe2gbv8Y33oUKyBjpliFujBoTACtbGuM/N2puBQxmev+TutpCFnqz6dyi0c0Xwd2zdHnJF6gu5/+j8gGO\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"sWU7wLiopHyX9G7D\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare Uniswap vs Aerodrome Finance based on TVL, revenue, and their growth rates over the last 6 months. Include 30-day revenue and TVL growth metrics.\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Eq4GCqsGAXLI2nzU+/AmN5V5LeQbLs8MiIm5kMCXVzossnX2H5T6ucUdJcE7mJIMz03pdaViYh/lMAeFJTM8rxPDPzBJC/OZ1sGzevfywm+NVxi5mFqs1zPwRFAx2mQgFE8GOPlOwR782ZH2PyiN7RD81DxVAxPNleK8cbHqOt2RDhcIUhouk3HsaBWw4isa311jV8xM/J55wDwc+B/msXylUUY1UBk0ESf1rVoigUHz/8KX4AKth4Ie62nZjLMlWOn2v06IbvpKhFp/3hu2yMQxDYUegveMKuRCREOUbgufLRBw8IYnv8ufdzqxoSmUIN+JSYdYaQVgooGkv9fkswlsmNN613vLQIvMF1+YDDli5rhp3yerkXC5ueM+9xgNl1gocUGPOcAzbtcJXUpjREwAKQvmmss+CSNFnDSpnotIOcEtkwAKIKE6T5YGgy1QnVHFH6X7wn5y2/axI87HTGBhRHuhRWcdFBQXMOvPI6Wrm1PCwd6WgpAz0w0X3O6uIL3sPC3sOX/zeK0GCuriSuwHY+HOidZlEBUPONLHw8eTW2V5i91wqaRcD9yG1oDbJ5t545rDroMPBNfrtdinrv/HrfL+Qv0Tr9GXC0XhF6kj4zFwrXJ6GjUdSpVuiXmHDMC4BghS58+dk1fZqF3qZLWHmoMIVCWODs4K8m2lKVRibfKiS2YjxvpQ58HC40487AZjoOCBz9w9dPctCg+M5Y1EqU9iEvRUp8unmjo4Y1HpfU88sfqTgesjgKS6a9SOHfc9SakQf7s0t6iAbNyXXMB4YP+NlrCA2DDJlJVKdAhkBQOwetyiMgiiWfrUqjmNR80AcX7h94KMm4tdjSHb30WV/HXHs8Qmjr7dzY464xEf69HvQYzo1/Szv35TrVLDcpBKahutFWmnwmjOk7GaLngLU6H7bHW7/R1W/2+a8WzEOsoNgDv7mgAZzqUJnKuzTe5CXT2jYKm/vZuHuc+Qn98uyIx23XcwvujreSYQSnR6o1SEzn3nVo2et62G/usr2AJv/zSo4m6mqKUFN519BJ0Ze3HFYyg9w7aOQl2JM73WoPm9BKuImIyRS8lEjiEvjQ==\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"cCgDfQkpjkxAEB6R\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"project_ids\": [\n        327\n      ]\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"k7FChMhPOAFS3ugF\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"UNI\"\n      ],\n      \"search_type\": \"symbol\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The investment case for Uniswap vs. Aerodrome hinges on the trade-off between **established liquidity dominance** and **aggressive, high-intensity revenue capture**. While Uniswap maintains a 8.8x TVL advantage, Aerodrome is currently generating substantially higher protocol-level revenue through its ve(3,3) flywheel and deep integration within the Base ecosystem.\\n\\n### Growth and TVL Dynamics\\nUniswap remains the liquidity king with **$4.21B in TVL**, though it has struggled with a **-23.35% decline** over the last 6 months. Growth has stagnated at +0.71% over the past 30 days as it transitions to its v4 architecture and Unichain L2.\\n\\nAerodrome is exhibiting stronger short-term momentum, with its **$479M TVL** growing **+5.10%** in the last 30 days. Despite a **-19.62% 6-month TVL drawdown**, its \\\"Slipstream\\\" concentrated liquidity pools and high-yield incentives (some exceeding 1,000% APR for volatile pairs) continue to attract capital more aggressively than Uniswap's current passive model.\\n\\n### Revenue Performance\\nThe revenue gap is stark but requires nuance. Aerodrome reported **$6.15M in protocol revenue** over the last 30 days, dwarfing Uniswap’s **$0.8M**. \\n\\n- **Uniswap**: Reported protocol revenue is artificially low due to the **late-December 2025 activation** of the fee switch. Prior to this, gross fees were distributed entirely to LPs. The newly launched **UNIfication** (fee switch + 100M UNI burn) is expected to normalize these figures toward a **$25M annual run-rate**, placing UNI 3rd in 7-day DEX token revenue.\\n- **Aerodrome**: Revenue capture is maximized by design, distributing 100% of fees to veAERO voters. In **Epoch 123**, Aerodrome reached a milestone of **$1.2M revenue** against **negative net emissions** (-1.4M AERO), signaling a shift toward economic sustainability.\\n\\n### Strategic Catalysts and Risks\\nAerodrome’s upcoming **Metadex03 and \\\"Arrow\\\" rebrand** are the primary catalysts, with backtesting suggesting a **2.8x increase** in value returned to the system via internalized MEV and aggregator fees. Its expansion to Ethereum mainnet next quarter represents a direct challenge to Uniswap's home turf.\\n\\nThe primary risk for Aerodrome remains **volume integrity**. Recent onchain analysis flagged that **95.5% of volume** in certain bridged SOL pools was \\\"LP churning\\\"—wash trading designed to farm AERO emissions rather than facilitate organic swaps. Uniswap, conversely, faces **governance friction**, with critics arguing that the **UNI token remains unprofitable** for holders even after the fee switch due to high Labs grant expenses and treasury leakage.\\n\\n### Verdict\\n**Aerodrome** is the high-beta play for investors betting on the continued dominance of Base and the effectiveness of the ve(3,3) flywheel. **Uniswap** is the defensive, long-term bet on vertical integration (Unichain) and the massive scale of its v4 hook ecosystem. If Aerodrome successfully exports its model to Ethereum mainnet without losing its incentive-driven edge, it could materially erode Uniswap's market share in 2026.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Er0HCroHAXLI2nzSDV/FbQpA3KRX+OIqJoUBkxbYJIlvgxhUv87eOAGlKb3xGv5yscCXE614SaExY7QnFShG872j0w1FpQTQ2D7JLVxZWodmsPdpuRU73EJc5wCQgkkKYLfJsyc8y1AiLrl8HtbqU2g0vMCqCcMjrIBLsB+eT7AmXulvpFfQcqfwAafgmSkPV9ifTfWI9hBLsmkrbsq8Qrtq6UPCbdoW+k8n/4HwUxJ2qlAnNBdnDbetNs5p2C6e+DgxWSGYl6SzKznq8v1uICVAYAIUsJNPZT2NTAjCTHYa9rvLVjwms0B1zMHBSGBnn1aZte7eNFZsm79erz1LQ/A8eMW230SU5kAXAWtGzZtYRTrEQicjEXLAcwZJIHJQO4/LnwnF27IT2K/wHZCAKSD7wOWTz05kiXDwqcvjP5n7QhZZRzNtHtgriCUQs1dDUpQxBbypAvQBy3iCJlqjHHxUT6SVVavm2mV7gpn+26IwbmJfVb9zOKgxzjAAucSVX5/ftsof9Hc0QUQ4ayRlXVvbEoGohqESNH9lMo7YgsAiwqsHUxsOziFa5wNcbpzN9dSqRfrqZWZclbgl3SHHqNLIbK5aTbZU/+QSQRDk5Sw+YK8YJb2I68qVCabCQvkYCaggN3BK9/MHkoAC/1R2vDGOkRWUYMd85dw7Yzvo51OdGJKxfyAZEFpuTejj9EPSAC11b7yxVJG1ikIA5oGruQ4dHVSZiCl79vggGdsCd2qHC9G1MwE015ReuWxnRlBVaxjeWMTqRb/rSvkjEYU6rf/QKZBQ4o+L2/mR9InGWpnH3LetwsYVT+Gu9K+DucVxH2xaThz8J1m/TL4W+vfy7LTj01GXk1jTUaF3z35OFX9BBu4r2pxrgECtwUZXtnaZWBu31zUaIsb8T76RiqHL57pO9tlRnA7+mMAMsfER895OhcsIq7cYGYMnc5iKH79k0zJLZOQM8pZVl5/2CPhAGICJRYdW3ESJg1eAB3Au0TRgZc+McLCLr2ql5Izz4CeDCHwwUqqp0hxnTnNin1gGZFAKGauVJ/+XTKqwCTCUwf+g0GCzh+uAHpzQlTvswFLMZzGRi4/eRt8z/xLzcS1QJGKSzPyQ4HUnarDv0hMd0roJDZ6tZwLigLSi94O1uG9CSrlq12Yg1cDpFTx2aEgrjzhPddh3YJmgojYIBsfA0dJ/bhvFyeLRr8cBigAGC5xAwcXATV7ZOHKiHeSEjOrGIDh7USWUqpO6OZ3jsQ42ovblsTx/1MEjCuHuxNbpSO22\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The investment case for Uniswap vs. Aerodrome hinges on the trade-off between **established liquidity dominance** and **aggressive, high-intensity revenue capture**. While Uniswap maintains a 8.8x TVL advantage, Aerodrome is currently generating substantially higher protocol-level revenue through its ve(3,3) flywheel and deep integration within the Base ecosystem.\n\n### Growth and TVL Dynamics\nUniswap remains the liquidity king with **$4.21B in TVL**, though it has struggled with a **-23.35% decline** over the last 6 months. Growth has stagnated at +0.71% over the past 30 days as it transitions to its v4 architecture and Unichain L2.\n\nAerodrome is exhibiting stronger short-term momentum, with its **$479M TVL** growing **+5.10%** in the last 30 days. Despite a **-19.62% 6-month TVL drawdown**, its \"Slipstream\" concentrated liquidity pools and high-yield incentives (some exceeding 1,000% APR for volatile pairs) continue to attract capital more aggressively than Uniswap's current passive model.\n\n### Revenue Performance\nThe revenue gap is stark but requires nuance. Aerodrome reported **$6.15M in protocol revenue** over the last 30 days, dwarfing Uniswap’s **$0.8M**. \n\n- **Uniswap**: Reported protocol revenue is artificially low due to the **late-December 2025 activation** of the fee switch. Prior to this, gross fees were distributed entirely to LPs. The newly launched **UNIfication** (fee switch + 100M UNI burn) is expected to normalize these figures toward a **$25M annual run-rate**, placing UNI 3rd in 7-day DEX token revenue.\n- **Aerodrome**: Revenue capture is maximized by design, distributing 100% of fees to veAERO voters. In **Epoch 123**, Aerodrome reached a milestone of **$1.2M revenue** against **negative net emissions** (-1.4M AERO), signaling a shift toward economic sustainability.\n\n### Strategic Catalysts and Risks\nAerodrome’s upcoming **Metadex03 and \"Arrow\" rebrand** are the primary catalysts, with backtesting suggesting a **2.8x increase** in value returned to the system via internalized MEV and aggregator fees. Its expansion to Ethereum mainnet next quarter represents a direct challenge to Uniswap's home turf.\n\nThe primary risk for Aerodrome remains **volume integrity**. Recent onchain analysis flagged that **95.5% of volume** in certain bridged SOL pools was \"LP churning\"—wash trading designed to farm AERO emissions rather than facilitate organic swaps. Uniswap, conversely, faces **governance friction**, with critics arguing that the **UNI token remains unprofitable** for holders even after the fee switch due to high Labs grant expenses and treasury leakage.\n\n### Verdict\n**Aerodrome** is the high-beta play for investors betting on the continued dominance of Base and the effectiveness of the ve(3,3) flywheel. **Uniswap** is the defensive, long-term bet on vertical integration (Unichain) and the massive scale of its v4 hook ecosystem. If Aerodrome successfully exports its model to Ethereum mainnet without losing its incentive-driven edge, it could materially erode Uniswap's market share in 2026.",
+    "executionTimeMs": 93016,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Uniswap",
+            "Aerodrome Finance"
+          ],
+          "search_type": "name"
+        }
+      },
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare Uniswap vs Aerodrome Finance based on TVL, revenue, and their growth rates over the last 6 months. Include 30-day revenue and TVL growth metrics."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "project_ids": [
+            327
+          ]
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "UNI"
+          ],
+          "search_type": "symbol"
+        }
+      }
+    ],
+    "totalTokens": 60614
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

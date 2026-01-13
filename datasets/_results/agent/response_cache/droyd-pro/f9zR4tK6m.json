@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "f9zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "f9zR4tK6m",
+    "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_7fdLzw1H5Smcj64erpTMwiWK\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"top projects by revenue growth last 30 days catalysts\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_005495436edb96d9006966b868dd1c819690dcfc5182240088\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_73Z2nH3nnB0bMG0KVpyeuTzt\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"6373\",\n        \"21792\",\n        \"10322\",\n        \"26089\",\n        \"6636\",\n        \"6117\"\n      ],\n      \"search_type\": \"project_id\",\n      \"limit\": 5\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_005495436edb96d9006966b87fbd948196a9a70cf3966a7ae2\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_4BnGwj9O4obU6CFMMirSV0Wy\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        514\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_005495436edb96d9006966b8805dc08196ac0d4a48c4e2f18d\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_1OmZuibILuQf4x9yPcy3pjMn\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        512\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_005495436edb96d9006966b88147388196843c50b9d3024379\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Top 10 Crypto Protocols by Weekly Revenue Growth](https://res.cloudinary.com/dgjriemfd/image/upload/v1768254337/veldt/eblfkznko43bzngsyqoz.jpg)\\n\\n### Top 5 projects by revenue growth (recent window) + what’s driving it\\n\\n**1) GMGN (Telegram bot / trading app)** — **+1,645% revenue (past month)**  \\nCatalysts:\\n- **Memecoin “flow” returning**: GMGN is a pure take-rate on high-churn bot trading; revenue is reflexive with Solana/Telegram activity spikes.  \\n- **Distribution moat**: lives where the volume starts (TG), not where it ends (DEX UI).  \\n- **Unit economics**: bot venues scale revenue faster than infra because they monetize *every* click/tx when users are in “spray and pray” mode.\\n\\n**2) Jupiter (Solana aggregation / perps / stablecoin stack)** — **+399% revenue (past month)**  \\nCatalysts:\\n- **JupUSD launch + Earn/Borrow vaults** created new fee surfaces and higher repeat usage loops.  \\n- **Coinbase routing Jupiter swaps** pushes incremental flow from a massive distro channel into Jup’s execution layer.  \\n- **Perps + aggregation rebound** tends to show up as step-function revenue when volatility returns.\\n\\n**3) Pump.fun (launchpad)** — **+93% revenue (past month)**  \\nCatalysts:\\n- **Launchpad market share** + fee system changes (creator fee sharing + new admin flows) that keep creators shipping and reduce leakage to competing launchpads.  \\n- **Volume spikes**: has already shown capacity to dominate Solana DEX share on peak days; revenue follows directly.\\n\\n**4) Hyperliquid (perps)** — **+310% revenue (past month)**  \\nCatalysts:\\n- **New market expansion** (equities/indices experiments and rapid listing cadence) broadens addressable volume.  \\n- **Portfolio margin / capital efficiency upgrades** increase sustained OI and trader stickiness, which is what keeps revenue durable versus “incentive volume.”  \\n- **HIP-3 ecosystem growth**: secondary venues (trade.xyz etc.) add incremental fees and keep users inside HL rails.\\n\\n**5) four.meme (launchpad)** — **+439% revenue (past month)**  \\nCatalysts:\\n- **Same mechanic as Pump**: launchpad revenue is a convex function of meme attention + issuance cadence.  \\n- **Rotation trade**: when Pump is congested/expensive/overexposed, capital routes to the next easiest issuance surface; four.meme captures that overflow.\\n\\nIf you want *category-clean* winners (not mixing 7D movers with 30D movers), the cleanest “revenue growth basket” right now is **(GMGN, Jupiter, Pump.fun, Hyperliquid, four.meme)** because each is directly levered to **trading intensity** and has a **short feedback loop from volume → revenue**.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_005495436edb96d9006966b886c9188196abf670cb3438a170\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Top 10 Crypto Protocols by Weekly Revenue Growth](https://res.cloudinary.com/dgjriemfd/image/upload/v1768254337/veldt/eblfkznko43bzngsyqoz.jpg)\n\n### Top 5 projects by revenue growth (recent window) + what’s driving it\n\n**1) GMGN (Telegram bot / trading app)** — **+1,645% revenue (past month)**  \nCatalysts:\n- **Memecoin “flow” returning**: GMGN is a pure take-rate on high-churn bot trading; revenue is reflexive with Solana/Telegram activity spikes.  \n- **Distribution moat**: lives where the volume starts (TG), not where it ends (DEX UI).  \n- **Unit economics**: bot venues scale revenue faster than infra because they monetize *every* click/tx when users are in “spray and pray” mode.\n\n**2) Jupiter (Solana aggregation / perps / stablecoin stack)** — **+399% revenue (past month)**  \nCatalysts:\n- **JupUSD launch + Earn/Borrow vaults** created new fee surfaces and higher repeat usage loops.  \n- **Coinbase routing Jupiter swaps** pushes incremental flow from a massive distro channel into Jup’s execution layer.  \n- **Perps + aggregation rebound** tends to show up as step-function revenue when volatility returns.\n\n**3) Pump.fun (launchpad)** — **+93% revenue (past month)**  \nCatalysts:\n- **Launchpad market share** + fee system changes (creator fee sharing + new admin flows) that keep creators shipping and reduce leakage to competing launchpads.  \n- **Volume spikes**: has already shown capacity to dominate Solana DEX share on peak days; revenue follows directly.\n\n**4) Hyperliquid (perps)** — **+310% revenue (past month)**  \nCatalysts:\n- **New market expansion** (equities/indices experiments and rapid listing cadence) broadens addressable volume.  \n- **Portfolio margin / capital efficiency upgrades** increase sustained OI and trader stickiness, which is what keeps revenue durable versus “incentive volume.”  \n- **HIP-3 ecosystem growth**: secondary venues (trade.xyz etc.) add incremental fees and keep users inside HL rails.\n\n**5) four.meme (launchpad)** — **+439% revenue (past month)**  \nCatalysts:\n- **Same mechanic as Pump**: launchpad revenue is a convex function of meme attention + issuance cadence.  \n- **Rotation trade**: when Pump is congested/expensive/overexposed, capital routes to the next easiest issuance surface; four.meme captures that overflow.\n\nIf you want *category-clean* winners (not mixing 7D movers with 30D movers), the cleanest “revenue growth basket” right now is **(GMGN, Jupiter, Pump.fun, Hyperliquid, four.meme)** because each is directly levered to **trading intensity** and has a **short feedback loop from volume → revenue**.",
+    "executionTimeMs": 50870,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "top projects by revenue growth last 30 days catalysts",
+          "content_types": [
+            "posts",
+            "news",
+            "developments"
+          ],
+          "limit": 20,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "6373",
+            "21792",
+            "10322",
+            "26089",
+            "6636",
+            "6117"
+          ],
+          "search_type": "project_id",
+          "limit": 5
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            514
+          ],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            512
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 156924
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

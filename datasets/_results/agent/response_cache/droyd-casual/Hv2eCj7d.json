@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "Hv2eCj7d",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Hv2eCj7d",
+    "query": "What defi protocols have the best valuation (P/S)?",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"tdSLEnYyjHRSxgI2\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Find DeFi protocols with the lowest Price-to-Sales (P/S) ratios. Include current P/S, 30-day revenue, and TVL for the top 10 protocols by valuation.\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EtMHCtAHAXLI2nxJdH3Uodp5nHjxx6YbNoWOKMnLKcWkJ9A4w8U0bQINpMFEFIQrWHvhe8C5ixlDkdqUFt1I2y9/rUKv7dcd791nJ5AaFX7FyauRGPKbrAjMV2SbgYwxEvnHh5/tEd9xk5CYx9PEZ46CU05ufD/1HIuWjY9sWUniy/VQNpvS/HVKmvSq6KrKWcz8Q/DrUEu0v8y4F4HM+OZXR58Y0zF/sWpHSJ821oQ0JWG5ngyN9XruJYsu/wvuxXW/ZAFTLONWcyZ8HQgbQjMbUHTcdxlJcAUjC5H7PJftCQ6YX2Dg5XUuT9gF1E+5zTJxrSHt543KHmFxBr9a61K0cgpKVKQj9v9LW8xOapMvwcGupgYsuM/qYKHrOXXhe9xXDC+0JYRAJkZccbI3Bh3O6lw6mzV2AI39RHOrUtVX4R9xUf+j+vxnU5BOEdNkT+uP7tIyoakYJPLsHHGCF0lepcEJJYU+KXBY1fhu4xAozktKjrk7IrnwIuqfZJXQh3wzjWDQEBGVWiFp6/VN8BgPeFSXvNNWx+MiEwqmiHJNCLQnJTP+Qt2miCuUeXcZrJDfw7TFNGvLrxsd6DVnl8uTDJYlrsRQbosvm1NVpQo1CVcilY0/n0RlwXMpEjaSBmZhBf3GEmw7ViVq4yOv/8G0CziSGyK03pd+DZUovJpw1a5+Mh0nJwL0j8ZZIOnxa186ofs30U/46vQZZ1nSMbIjfn63Uu7254zeIth/MoJ8QtWzbEy3A50RnSnu+tczMQ5JeRRrW6lJZRZhci3wDjHtfo0l52Z1juCeGXdoOZquIKOhxfdIXYdW1ynCkply1iiVsoGZl7GS8RPeVcBvUlSSDYJg/xK7U7qhnZAZ49g/VzMJQZ5ZtEWIRogTFYAgYJ9XT4X9EYs17Ex75tV/QPEl9f5drtXQrFbEzXaF6AZdamO74JOYkpi0rAVgpnznSbeDzfljbP1JF7b0x7ebQxYj59TTtqrHDFb3p1YFt8T+9kGbFI4I2Ln6stvIhIV24jrO/k7CL8UJp2EGXpi5csiqHKkZBbpiYuSE4ni0AF81lS545Gu7aBqheIF8o3isqt7uqSap8FyYTLU5cvzK7OHJ8kL6TPTXrRToYcQMBa5+zz+5fPk84IErg7FLoegsbIMXEtQxk4rXoSAZMkc2IwGC2MIjdwLWG73cLK5rM2ivPGwmJzmecTYAdyBR0NMv7rGzkfJEHKLV9MYV3JsYwj+NKToGra7E4YqPdXqldE3vj8GYvA8vAqWOyn/mQRoUpGEYUkZTSI64yBXJu4+DeIfTBaIvVQ==\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"Pb5GLJTxEw6lDuZ7\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"21792\",\n        \"7927\",\n        \"6373\",\n        \"116\"\n      ],\n      \"search_type\": \"project_id\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EpQICpEIAXLI2nyAl41X9YPu0TQkJtZLdouPI1xn/UGeCmU5NBUukqFnkSY03PBIqAziibZRsnSFEvUDo8hiqiOVPZ28Sc41Smkxal8QIEq4Rlxou4slmJFwfIdFIbtBXzSQ20KSHZQiZ5PO6GA51KosIEupdFhJoo/K3PAlWQ/DdR877eiGw8TcWaIicbytOKAwJU0nYneW+anj2yyw5OLVrQ81SfxlD0AUHJgDRvaoOqsfWLMnwkaUqNrin8c+DpAZXeEE3d5k4jpmbm1UzWfmTwX47u9nWCwgVt1Edty3Pb0xZrHfThvK7FnGMzD67x1rchwkh6khPohFsZxgax/TJ4JQK4tBtyzmsS+ZquzfZEFUaLVf8Iz7JAzM4frKLtHMPJdaqZTaKbqICH4JIWSj7/p6jXxP5E1+/HRNb9uo+v+/TFtjiCzt4F3bbfs/DbpvzNIi1d4743T6u6GW8fpRda2sAX1jjrzlvrtMnb4+CdXGEnWgMpGoP9iNadz86LjhvnVYLG7owAD9eUhrQsvp9ZeTs7MCy2+hqf01xgCsjusKnQ0UjSdLW2nYJmaagjK2Zu4aNEYg+nqtLQ0LVVM1XAopt52npk89H1UBBqNbsxvgOTsbkQ7Lw4tT+MrTlmaumo6x1kXOIECCwvFeR4z3E4+Dy8WUBFBH4/BCye1rbo3TXYllnsCKUJox0UOcRrOqdmG4CG6+NeHhI46SzKf6VxdPLV+YvjcgMre1lc9H+FGgVyKXUUFtNPI/tXlSWIuwsD4SfSHlKx71MhJJn+uBqQjr6F3geVcvk67HI+FGyWsGU2F/SNToyDKLysLBQW3MNVQ4JgsYp5Lj3u/dyi9j3ebyI1lYgrWPIyg6Mi0SOAnWlBanGJ3GoDy0bldSKaNKclkPyAuKzjaVzM6bFS7DP8F26ZQQvBT1CLipR79VmgpN+YQc0pbd7qyviPvEbh8+n8OA08dhaM404rfwPYqUB4y/PyTrFgCecPROr1U7KK/dTuesaOxkj2KqxgjYTBJnrQtUWn3YIT7YxHCElmOP/evzlKC3XV1YUySeVbaxEb1j/cjBacZX7IDqsJhLnzGLHh1IROcPf56E76SqMN8TTTmY037tOI20FhPpPogzAkO2SXzodw5n+J+pB+eM3tCpFeC0DISeRPGiX1iQd4my3oh/PFXlJnYaZH8+W2AbXMLoW1XX+AyTKReDyZGp58dPIo5aKuWmPwYj+5ZXxIZ8ki9kU7qiwZLPtitoF5b0N+ApeBSl8y8BgWzfKaTOSqrk64xrAHJlDJJuZEUKXj/7biambF6tnGwFONrngk66ALQE0GrLvztAlS9OWIN5/Fg9DU4RNDmAKYWGLopEkD/RY/0CKTVVs5EkRta0A99SurhBzwYZ\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"K96aMiClkcFMvtM4\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"project_ids\": [\n        21792,\n        7927,\n        6373,\n        116\n      ]\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Based on trailing 30-day protocol revenue, **Pump.fun**, **Maker (Sky)**, and **Hyperliquid** currently offer the most attractive Price-to-Sales (P/S) valuations among top-tier DeFi protocols. Valuation across the sector remains bifurcated: speculative launchpads and high-throughput derivatives platforms are capturing significant fee revenue relative to their market caps, while legacy lending and DEX giants maintain higher multiples due to institutional premiums or governance-related revenue leakage.\\n\\n### Top Protocols by P/S Valuation (Trailing 30-Day)\\n\\n1.  **Pump.fun (P/S: 33.40)**: The Solana-based memecoin launchpad is the undisputed leader in revenue efficiency. It generated **$34.8M in revenue** over the last 30 days against a **$1.16B market cap**. On January 6, 2026, it recorded a record **$2B in 24-hour trading volume**, netting ~$20M in fees in a single day. \\n2.  **Maker / Sky (P/S: 112.16)**: The protocol reported **$12.2M in 30-day revenue** and **$168M in annualized net profit** for 2025. It is aggressively utilizing its revenue for token support, executing **$92.2M in buybacks** over the past year.\\n3.  **Hyperliquid (P/S: 122.15)**: Leading the perpetual DEX sector, Hyperliquid generated **$53.4M in 30-day revenue**. Its **$6.5B market cap** is backed by a dominant **50-70% revenue share** of the derivative market, recently leading weekly fees at **$1.7M**—surpassing Tron and BNB Chain.\\n\\n![Hyperliquid Revenue Share](https://res.cloudinary.com/dgjriemfd/image/upload/v1767995376/veldt/o4lms5zaz8rwuafej4mu.jpg)\\n\\n### Revenue Drivers and Catalyst Analysis\\n\\n**Pump.fun** recently overhauled its creator-fee system to include **fee sharing across up to 10 wallets** and transferable coin ownership, aiming to sustain its **40% share of Solana DEX volume**. While listing volume remains high, the platform faces a \\\"garbage\\\" risk, with **11.6M tokens failing** in 2025, though its buyback model for the **PUMP** token continues to provide a price-support floor.\\n\\n**Hyperliquid** is seeing massive institutional validation, with **Grayscale recently filing for a HYPE trust/ETF** in Delaware. Despite a recent material holder unwinding **$8.2M in HYPE sells**, the protocol's **Assistance Fund** countered with a **$910M buyback** of ~38.5M HYPE. This aggressive treasury management, combined with the launch of **US500** and **USTECH** markets, suggests a shift toward becoming a \\\"NASDAQ-like\\\" backend for onchain finance.\\n\\n[Hyperliquid's HIP-3 markets hit a new open-interest ATH of $387.48M on Jan 12, 2026](https://x.com/HyperliquidNews/status/2010680845938389312)\\n\\n**Aave (P/S: 383.37)** maintains a higher multiple but remains a structural cornerstone with **$34.4B in TVL**. Recent governance infighting regarding a **$10M/year fee redirection** to Aave Labs caused a **25% price drawdown**, yet protocol fundamentals remain robust. The upcoming **Aave v4 launch** in early 2026, featuring a **Hub-and-Spoke design** and position-level risk pricing, is expected to improve capital efficiency and further institutionalize its lending moats.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Based on trailing 30-day protocol revenue, **Pump.fun**, **Maker (Sky)**, and **Hyperliquid** currently offer the most attractive Price-to-Sales (P/S) valuations among top-tier DeFi protocols. Valuation across the sector remains bifurcated: speculative launchpads and high-throughput derivatives platforms are capturing significant fee revenue relative to their market caps, while legacy lending and DEX giants maintain higher multiples due to institutional premiums or governance-related revenue leakage.\n\n### Top Protocols by P/S Valuation (Trailing 30-Day)\n\n1.  **Pump.fun (P/S: 33.40)**: The Solana-based memecoin launchpad is the undisputed leader in revenue efficiency. It generated **$34.8M in revenue** over the last 30 days against a **$1.16B market cap**. On January 6, 2026, it recorded a record **$2B in 24-hour trading volume**, netting ~$20M in fees in a single day. \n2.  **Maker / Sky (P/S: 112.16)**: The protocol reported **$12.2M in 30-day revenue** and **$168M in annualized net profit** for 2025. It is aggressively utilizing its revenue for token support, executing **$92.2M in buybacks** over the past year.\n3.  **Hyperliquid (P/S: 122.15)**: Leading the perpetual DEX sector, Hyperliquid generated **$53.4M in 30-day revenue**. Its **$6.5B market cap** is backed by a dominant **50-70% revenue share** of the derivative market, recently leading weekly fees at **$1.7M**—surpassing Tron and BNB Chain.\n\n![Hyperliquid Revenue Share](https://res.cloudinary.com/dgjriemfd/image/upload/v1767995376/veldt/o4lms5zaz8rwuafej4mu.jpg)\n\n### Revenue Drivers and Catalyst Analysis\n\n**Pump.fun** recently overhauled its creator-fee system to include **fee sharing across up to 10 wallets** and transferable coin ownership, aiming to sustain its **40% share of Solana DEX volume**. While listing volume remains high, the platform faces a \"garbage\" risk, with **11.6M tokens failing** in 2025, though its buyback model for the **PUMP** token continues to provide a price-support floor.\n\n**Hyperliquid** is seeing massive institutional validation, with **Grayscale recently filing for a HYPE trust/ETF** in Delaware. Despite a recent material holder unwinding **$8.2M in HYPE sells**, the protocol's **Assistance Fund** countered with a **$910M buyback** of ~38.5M HYPE. This aggressive treasury management, combined with the launch of **US500** and **USTECH** markets, suggests a shift toward becoming a \"NASDAQ-like\" backend for onchain finance.\n\n[Hyperliquid's HIP-3 markets hit a new open-interest ATH of $387.48M on Jan 12, 2026](https://x.com/HyperliquidNews/status/2010680845938389312)\n\n**Aave (P/S: 383.37)** maintains a higher multiple but remains a structural cornerstone with **$34.4B in TVL**. Recent governance infighting regarding a **$10M/year fee redirection** to Aave Labs caused a **25% price drawdown**, yet protocol fundamentals remain robust. The upcoming **Aave v4 launch** in early 2026, featuring a **Hub-and-Spoke design** and position-level risk pricing, is expected to improve capital efficiency and further institutionalize its lending moats.",
+    "executionTimeMs": 90531,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Find DeFi protocols with the lowest Price-to-Sales (P/S) ratios. Include current P/S, 30-day revenue, and TVL for the top 10 protocols by valuation."
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "21792",
+            "7927",
+            "6373",
+            "116"
+          ],
+          "search_type": "project_id"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "project_ids": [
+            21792,
+            7927,
+            6373,
+            116
+          ]
+        }
+      }
+    ],
+    "totalTokens": 92489
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

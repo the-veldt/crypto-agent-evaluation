@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe perpetuals (perps) DEX sector remains highly competitive and innovative in early 2026, with Hyperliquid, Lighter, and Aster as the leading protocols by volume. Key catalysts include institutional adoption, new asset listings (including equities and commodities), major airdrops, and product upgrades. Narrative momentum for perps protocols is stable to slightly decelerating after explosive growth in 2025, with mindshare now consolidating among a few leaders and attention shifting to new product verticals and sustainability.\n\n───\n\nKey Trends Among Top Perps Protocols (2026):\n\n- Hyperliquid continues to dominate decentralized perps with roughly 70% of DEX perps volume and over $116M in monthly revenue. Its growth is driven by a CEX-like trading experience, ecosystem expansion (HyperEVM, NFTs), and recurring high-yield airdrops and buybacks. Notably, Grayscale is considering $HYPE for institutional products, and commodities and equities markets are being added, further boosting utility and adoption. However, there are emerging concerns around centralization trade-offs and token unlock–related sell pressure substack analysis.\n\n- Lighter surged in late 2025 with a massive airdrop and zero-fee trading, but is now facing slowing momentum. Daily new wallet growth has collapsed from 20k/day in November to ~500/day, and team allocations remain largely unstaked (86%), raising near-term sell pressure risk. While buybacks have resumed and new listings (DeFi and equities) continue, Lighter's mindshare increase (+27% daily) appears driven by short-term airdrop and farming participants, not sticky organic growth. Its TGE airdrop was among the largest ever, which has contributed to significant sell pressure and volatility BlockBeatsAsia tweet.\n\n- Aster and Jupiter are notable competitors. Jupiter, in particular, is innovating with integrated mobile trading, prediction markets, and new product launches like JupUSD and lending vaults. Its perps are now featured on Raydium, and airdrop eligibility is increasingly tied to protocol usage, driving user engagement JupiterExchange tweet.\n\n- Emerging Protocols: Extended (on Starknet), Pacifica (Solana), Paradex, and Variational (Arbitrum) are gaining traction with unique features like cross-market integration, equities/commodities perps, and high leverage. Paradex, for example, recently led 24h perps volume, overtaking both Lighter and Hyperliquid Crypto_TownHall tweet.\n\nCatalysts Driving the Sector:\n\n- Institutional Adoption: Grayscale and other funds evaluating perps tokens for investment products, and TradFi perps (stocks/indices) being listed on both CEXs and DEXs, are major credibility and inflow drivers Cointelegraph tweet.\n- Commodities and Equities Integration: Both Hyperliquid and Lighter have added commodity and equity perps, broadening market appeal and volumes Lighter_xyz tweet.\n- Airdrops and Incentive Programs: While still a catalyst for user acquisition, there is evidence of diminishing returns as most users chase the same set of overfarmed protocols, diluting the impact of new airdrops.\n- Product Upgrades and Ecosystem Expansion: Mobile-first trading, NFT integrations, prediction markets, and portfolio margin features are differentiators in a crowded field JupiterExchange tweet.\n\nNarrative Momentum:\n\n- Stable to Slightly Decelerating: After a parabolic run in 2025 (perps volume tripled, ATH $1.8T), growth has retraced and mindshare is consolidating. The leaderboard shows Hyperliquid and Lighter still at the top, but with more neutral/bearish sentiment for Lighter and a plateau in new user growth. The focus is now on protocol sustainability, fee capture, and real demand rather than just farming and airdrop hype cryptorank analytics.\n\n- Attention Shifting: As perps DEXs mature, attention is gradually moving to protocols that can demonstrate sustainable fee generation, robust tokenomics, and new product verticals (such as RWAs, prediction markets, and integrated DeFi suites).\n\nSummary Table: Top Perps Protocols (Jan 2026)\n\n| Protocol      | Key Trend                      | Recent Catalysts                          | Narrative Momentum   |\n|---------------|-------------------------------|-------------------------------------------|---------------------|\n| Hyperliquid   | Market leader, CEX-like UX    | Grayscale consideration, equities/NFTs    | Stable/High         |\n| Lighter       | Airdrop-driven, slowing       | Buybacks, new listings, equity perps      | Decelerating        |\n| Jupiter       | Product innovation, mobile    | JupUSD, prediction markets, airdrops      | Stable/Rising       |\n| Paradex       | Surging volume, new leader    | Top 24h perps volume                      | Accelerating        |\n| Extended      | Fee growth, equities coming   | Outperforming Lighter in fees             | Accelerating        |\n\nInvestment Implications:  \nThe perps narrative is no longer in hyper-growth mode but is far from dead—leadership is consolidating in protocols with real product-market fit, strong fee capture, and continued institutional and cross-asset expansion. For new participants, focus is shifting from pure airdrop/speculation plays to protocols with sustainable, differentiated models and real user growth.\n\nIf you want specifics on any protocol, token, or want to see detailed leaderboard/call data, let me know.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

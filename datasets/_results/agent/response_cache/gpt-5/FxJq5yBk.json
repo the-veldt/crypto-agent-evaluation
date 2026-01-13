@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "FxJq5yBk",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "FxJq5yBk",
+    "query": "what are the key trends across ethereum, base, and solana",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 1091
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 4480
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 8156
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11316
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 16328
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 19320
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 22122
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 26243
+        }
+      },
+      {
+        "stepNumber": 9,
+        "text": "Here’s a concise read on the biggest themes right now across Ethereum, Base, and Solana, plus sources to dig deeper.\n\nCross‑chain themes\n- Cheaper blockspace and better UX: Ethereum’s Pectra upgrade and L2 blobs keep pushing fees down, while Solana continues to optimize throughput and finality; both ecosystems are prioritizing wallet UX and account abstraction-like flows.\n- Consumer apps are driving growth: Social, creator tokens/memecoins, gaming, and payments (especially stablecoins) are the main demand engines across all three.\n- Monetization is maturing: Sequencer/priority fees and protocol revenue (L2s, Solana validators) are becoming meaningful, with evolving revenue-sharing/buyback policies.\n\nEthereum\n- Pectra shipped (May 2025): EIP‑7702 moves EOAs toward smart‑account functionality; blob capacity increases further lower L2 data costs; validator ops improved (incl. EIP‑7251 raising max effective balance). Sources: Ethereum Foundation; Nansen.\n- L2 scale and consolidation: L2s continue to absorb activity with sub‑cent fees post‑Dencun; OP Stack “Superchain” aggregates a large share of L2 usage and revenue (Base is the growth standout). Source: Messari (Superchain H1’25).\n- Restaking goes mainstream: EigenLayer’s AVS marketplace expanded through 2025 with new reward/slashing frameworks; total value restaked climbed materially, though risks (operator concentration, correlated slashing) remain under active discussion. Sources: DefiLlama; Kiln; CoinDesk.\n- Forward roadmap: Research continues on enshrined PBS and single‑slot finality to harden censorship resistance and finality while keeping L2-centric scaling. Source: ethereum.org (PBS).\n\nBase (Ethereum L2, OP Stack)\n- Leading L2 by usage and revenue growth: In 2025, Base captured a large share of Superchain gas/TVL and L2 revenue, helped by Coinbase distribution, USDC flows, and native apps (Aerodrome, Morpho, consumer/social). Sources: Messari (Superchain H1’25); PANews/Messari recap.\n- Consumer/social momentum: Farcaster + Frames and broader “onchain creator” activity anchored on Base drove MAUs and transactions; Coinbase’s campaigns (e.g., Onchain Summer) continue to pull mainstream users on‑chain. Sources: The Block (Frames DAUs); ecosystem recaps.\n- Economics within the Superchain: OP governance is evolving around revenue use (e.g., Jan 2026 buyback proposal using 50% of Superchain revenue), which matters for Base given shared stack/economics. Source: CoinDesk (OP proposal).\n\nSolana\n- Performance and resiliency: After instability in prior years, Solana logged 16–18+ months of uptime through mid‑/late‑2025; Firedancer/Frankendancer client work and Alpenglow upgrades aim at lower latency and more client diversity into 2026. Sources: Solana Foundation (Network Health); Galaxy Research (Firedancer).\n- Validator/fee economics: 100% of priority fees now go to validators; governance changes (SIMD‑228) targeted inflation dynamics and validator incentives. Sources: Solana Foundation; The Defiant; Helius (SIMD‑228 analysis).\n- Stablecoins, DeFi, and consumer scale: Stablecoin supply and usage expanded materially; DeFi liquidity/volumes recovered; consumer apps and memecoins sustained high activity. Sources: QuickNode H1’25 report; Helius stablecoin landscape.\n- DePIN and enterprise interest: Real‑world networks (e.g., data/compute/connectivity) increasingly use Solana as execution layer due to low fees/high throughput. Sources: Coincub DePIN analysis; multiple ecosystem reports.\n\nWhat this means for builders/investors\n- Ethereum remains the neutral settlement/asset layer with improving UX (Pectra) while value accrues across L2s; restaking creates new yield/risk vectors.\n- Base is the L2 with the strongest mainstream funnel and consumer app traction; watch Superchain economics and the evolving Base-native app stack.\n- Solana is executing on high‑throughput consumer and payments rails with improving resilience, growing stablecoin/DeFi footing, and a stronger validator economy.\n\nSources\n- Ethereum Foundation: Pectra mainnet announcement (Apr 23, 2025) – https://blog.ethereum.org/2025/04/23/pectra-mainnet\n- Nansen: Ethereum’s Pectra – https://research.nansen.ai/articles/ethereums-pectra-upgrade-what-to-expect\n- Everstake H1’25 Ethereum report – https://everstake.one/crypto-reports/ethereum-staking-insights-and-analysis-first-half-of-2025\n- ethereum.org on PBS – https://ethereum.org/en/roadmap/pbs\n- DefiLlama: EigenLayer page – https://defillama.com/protocol/eigenlayer\n- Kiln on EigenLayer rewards/slashing – https://www.kiln.fi/post/eigenlayer-unveils-rewards-v2-and-slashing-for-2025\n- Messari: State of the Superchain H1 2025 – https://messari.io/report/state-of-the-superchain-h1-2025\n- CoinDesk (Jan 8, 2026): OP proposes buybacks with Superchain revenue – https://www.coindesk.com/business/2026/01/08/optimism-proposes-op-token-buybacks-using-50-of-superchain-revenue\n- The Block on Farcaster/Frames DAUs (2024/2025 context) – https://www.theblock.co/post/275971/farcaster-daily-active-users-surge-frames-launch\n- Solana Foundation Network Health Report (June 2025) – https://solana.com/news/network-health-report-june-2025\n- The Defiant: Priority fees to validators live – https://thedefiant.io/news/blockchains/solana-proposal-to-pay-full-priority-fees-to-validators-goes-live\n- Helius: SIMD‑228 analysis – https://www.helius.dev/blog/simd-228\n- Galaxy Research: Solana’s next chapter – https://www.galaxy.com/insights/research/solana-firedancer-anza-alpenglow-internet-capital-markets\n- QuickNode: Solana H1 2025 Ecosystem Report – https://blog.quicknode.com/solana-ecosystem-report-h1-2025\n- Helius: Solana stablecoin landscape – https://helius.dev/blog/solanas-stablecoin-landscape\n\nIf you want, I can tailor this to your focus (e.g., DeFi only, social/consumer, infra bets) or pull fresh KPI comparisons (fees, DAUs, TVL, revenue) across the three.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 31838
+        }
+      }
+    ],
+    "finalAnswer": "Here’s a concise read on the biggest themes right now across Ethereum, Base, and Solana, plus sources to dig deeper.\n\nCross‑chain themes\n- Cheaper blockspace and better UX: Ethereum’s Pectra upgrade and L2 blobs keep pushing fees down, while Solana continues to optimize throughput and finality; both ecosystems are prioritizing wallet UX and account abstraction-like flows.\n- Consumer apps are driving growth: Social, creator tokens/memecoins, gaming, and payments (especially stablecoins) are the main demand engines across all three.\n- Monetization is maturing: Sequencer/priority fees and protocol revenue (L2s, Solana validators) are becoming meaningful, with evolving revenue-sharing/buyback policies.\n\nEthereum\n- Pectra shipped (May 2025): EIP‑7702 moves EOAs toward smart‑account functionality; blob capacity increases further lower L2 data costs; validator ops improved (incl. EIP‑7251 raising max effective balance). Sources: Ethereum Foundation; Nansen.\n- L2 scale and consolidation: L2s continue to absorb activity with sub‑cent fees post‑Dencun; OP Stack “Superchain” aggregates a large share of L2 usage and revenue (Base is the growth standout). Source: Messari (Superchain H1’25).\n- Restaking goes mainstream: EigenLayer’s AVS marketplace expanded through 2025 with new reward/slashing frameworks; total value restaked climbed materially, though risks (operator concentration, correlated slashing) remain under active discussion. Sources: DefiLlama; Kiln; CoinDesk.\n- Forward roadmap: Research continues on enshrined PBS and single‑slot finality to harden censorship resistance and finality while keeping L2-centric scaling. Source: ethereum.org (PBS).\n\nBase (Ethereum L2, OP Stack)\n- Leading L2 by usage and revenue growth: In 2025, Base captured a large share of Superchain gas/TVL and L2 revenue, helped by Coinbase distribution, USDC flows, and native apps (Aerodrome, Morpho, consumer/social). Sources: Messari (Superchain H1’25); PANews/Messari recap.\n- Consumer/social momentum: Farcaster + Frames and broader “onchain creator” activity anchored on Base drove MAUs and transactions; Coinbase’s campaigns (e.g., Onchain Summer) continue to pull mainstream users on‑chain. Sources: The Block (Frames DAUs); ecosystem recaps.\n- Economics within the Superchain: OP governance is evolving around revenue use (e.g., Jan 2026 buyback proposal using 50% of Superchain revenue), which matters for Base given shared stack/economics. Source: CoinDesk (OP proposal).\n\nSolana\n- Performance and resiliency: After instability in prior years, Solana logged 16–18+ months of uptime through mid‑/late‑2025; Firedancer/Frankendancer client work and Alpenglow upgrades aim at lower latency and more client diversity into 2026. Sources: Solana Foundation (Network Health); Galaxy Research (Firedancer).\n- Validator/fee economics: 100% of priority fees now go to validators; governance changes (SIMD‑228) targeted inflation dynamics and validator incentives. Sources: Solana Foundation; The Defiant; Helius (SIMD‑228 analysis).\n- Stablecoins, DeFi, and consumer scale: Stablecoin supply and usage expanded materially; DeFi liquidity/volumes recovered; consumer apps and memecoins sustained high activity. Sources: QuickNode H1’25 report; Helius stablecoin landscape.\n- DePIN and enterprise interest: Real‑world networks (e.g., data/compute/connectivity) increasingly use Solana as execution layer due to low fees/high throughput. Sources: Coincub DePIN analysis; multiple ecosystem reports.\n\nWhat this means for builders/investors\n- Ethereum remains the neutral settlement/asset layer with improving UX (Pectra) while value accrues across L2s; restaking creates new yield/risk vectors.\n- Base is the L2 with the strongest mainstream funnel and consumer app traction; watch Superchain economics and the evolving Base-native app stack.\n- Solana is executing on high‑throughput consumer and payments rails with improving resilience, growing stablecoin/DeFi footing, and a stronger validator economy.\n\nSources\n- Ethereum Foundation: Pectra mainnet announcement (Apr 23, 2025) – https://blog.ethereum.org/2025/04/23/pectra-mainnet\n- Nansen: Ethereum’s Pectra – https://research.nansen.ai/articles/ethereums-pectra-upgrade-what-to-expect\n- Everstake H1’25 Ethereum report – https://everstake.one/crypto-reports/ethereum-staking-insights-and-analysis-first-half-of-2025\n- ethereum.org on PBS – https://ethereum.org/en/roadmap/pbs\n- DefiLlama: EigenLayer page – https://defillama.com/protocol/eigenlayer\n- Kiln on EigenLayer rewards/slashing – https://www.kiln.fi/post/eigenlayer-unveils-rewards-v2-and-slashing-for-2025\n- Messari: State of the Superchain H1 2025 – https://messari.io/report/state-of-the-superchain-h1-2025\n- CoinDesk (Jan 8, 2026): OP proposes buybacks with Superchain revenue – https://www.coindesk.com/business/2026/01/08/optimism-proposes-op-token-buybacks-using-50-of-superchain-revenue\n- The Block on Farcaster/Frames DAUs (2024/2025 context) – https://www.theblock.co/post/275971/farcaster-daily-active-users-surge-frames-launch\n- Solana Foundation Network Health Report (June 2025) – https://solana.com/news/network-health-report-june-2025\n- The Defiant: Priority fees to validators live – https://thedefiant.io/news/blockchains/solana-proposal-to-pay-full-priority-fees-to-validators-goes-live\n- Helius: SIMD‑228 analysis – https://www.helius.dev/blog/simd-228\n- Galaxy Research: Solana’s next chapter – https://www.galaxy.com/insights/research/solana-firedancer-anza-alpenglow-internet-capital-markets\n- QuickNode: Solana H1 2025 Ecosystem Report – https://blog.quicknode.com/solana-ecosystem-report-h1-2025\n- Helius: Solana stablecoin landscape – https://helius.dev/blog/solanas-stablecoin-landscape\n\nIf you want, I can tailor this to your focus (e.g., DeFi only, social/consumer, infra bets) or pull fresh KPI comparisons (fees, DAUs, TVL, revenue) across the three.",
+    "executionTimeMs": 103145,
+    "totalTokens": 140894,
+    "stepCount": 9,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "2025 trends Ethereum L2 restaking Pectra EIP-7702 EigenLayer 2025 update",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Base L2 2025 trends Base network growth Onchain Summer 2025 Farcaster growth Frames Base leading L2 activity 2025 report",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Farcaster 2025 growth Frames Base network daily active users 2025 report",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana trends 2025 Firedancer mainnet release 2025 Solana stablecoin volume USDC 2025 Solana outages 2025 improvements local fee markets Blinks actions 2025 DePIN Solana report",
+          "numResults": 7,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Base OP Stack Superchain 2025 revenue share law of chains Base sequencer revenue 2025 report",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Ethereum enshrined PBS ePBS 2025 research single slot finality 2025 update EigenLayer restaking growth 2025",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "EigenLayer restaking 2025 growth AVSs total value restaked 2025 report",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana Jito 100% priority fees to validators 2025 SIMD-228 change priority fees distribution 2025 Solana Foundation network health report priority fees",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

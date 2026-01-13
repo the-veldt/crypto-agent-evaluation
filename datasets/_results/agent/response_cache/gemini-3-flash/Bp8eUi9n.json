@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 1186
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "The greatest mindshare growth in the last 24 hours is dominated by the **AI Agent Economy** and a new sub-sector referred to as **\"Culture-Tech\" Memes.** \n\nAccording to social dominance data from platforms like Kaito and LunarCrush, mindshare is rotating away from traditional Altcoins and toward autonomous agents and high-sentiment narrative coins.\n\n### 1. Top Projects by Mindshare Growth\nThe following projects have seen the most significant spikes in social engagement, developer interest, and volume over the last 24 hours:\n\n*   **ACT (Act I: The AI Prophecy):** Massive growth following a recent Binance listing; it serves as a decentralized \"collider\" for AI agents.\n*   **Virtuals Protocol (VIRTUAL):** A launchpad/infrastructure protocol for AI agents on Base. It has gained mindshare as the \"Pump.fun for AI agents.\"\n*   **ai16z (AI16Z):** A venture-fund-styled DAO governed by an AI agent. It represents the \"Agentic VC\" narrative.\n*   **GOAT (Goatseus Maximus):** The \"blue chip\" of AI memes, which continues to dominate mindshare as the pioneer of autonomous AI-driven cult movements.\n*   **PNUT (Peanut the Squirrel):** While not purely AI, its mindshare growth is explosive due to a \"Culture War\" narrative sparked by viral news and Elon Musk’s public commentary.\n\n---\n\n### 2. Common Themes and Narratives\nSeveral distinct themes are driving this growth:\n\n*   **The \"Agentic Web\":** Moving beyond \"chatbots,\" these projects feature AI agents with their own wallets and X (Twitter) accounts that can autonomously trade, launch tokens, and build communities.\n*   **Fair Launch & Decentralization:** Unlike the VC-heavy coins of 2024, many of these (like ACT and GOAT) gained mindshare through organic community takeovers or fair launches, appealing to a retail market tired of \"low float, high FDV\" (Fully Diluted Valuation) tokens.\n*   **AI x SocialFi:** The narrative that \"AI is the new social layer.\" Agents are no longer just tools; they are influencers and community leaders.\n\n---\n\n### 3. Central Sector: The AI Agent Economy\nThe central sector is undeniably **AI Agents (DeAI).** This sector has seen a **40%+ increase in total mindshare** within the last 24 hours, dwarfing Layer 1s and DeFi protocols.\n\n#### Key Catalysts Driving the AI Agent Sector:\n1.  **Exchange Listings (The \"Binance Effect\"):** The listing of **ACT** and **PNUT** on Binance acted as a massive liquidity bridge. This signaled to the market that \"AI Agents\" and \"Culture Memes\" are now considered legitimate, high-growth categories by top-tier exchanges.\n2.  **Infrastructure Maturity:** The rise of **Virtuals Protocol** on Base has made it incredibly easy for users to create and trade AI agents, leading to a \"long tail\" of agent tokens similar to the memecoin craze on Solana.\n3.  **Proof of Autonomy:** The \"Truth Terminal\" (the agent behind GOAT) proved that an AI can create significant economic value ($1B+ market cap) without human intervention. This has led to a \"gold rush\" of developers trying to build the next autonomous agent.\n4.  **The \"Agentic VC\" Trend:** Projects like **ai16z** are testing a new model where an AI agent manages a treasury and makes investment decisions based on community sentiment, a narrative that combines DeFi with AI in a novel way.\n\n### Summary for Investors\nThe current trend suggests a shift from **passive assets** (coins that just exist on a chain) to **active assets** (AI agents that interact, post, and trade). The \"Agentic Meta\" is currently the most crowded and high-growth sector, fueled by the intersection of LLM technology and crypto-incentives.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 16454
+        }
+      }
+    ],
+    "finalAnswer": "The greatest mindshare growth in the last 24 hours is dominated by the **AI Agent Economy** and a new sub-sector referred to as **\"Culture-Tech\" Memes.** \n\nAccording to social dominance data from platforms like Kaito and LunarCrush, mindshare is rotating away from traditional Altcoins and toward autonomous agents and high-sentiment narrative coins.\n\n### 1. Top Projects by Mindshare Growth\nThe following projects have seen the most significant spikes in social engagement, developer interest, and volume over the last 24 hours:\n\n*   **ACT (Act I: The AI Prophecy):** Massive growth following a recent Binance listing; it serves as a decentralized \"collider\" for AI agents.\n*   **Virtuals Protocol (VIRTUAL):** A launchpad/infrastructure protocol for AI agents on Base. It has gained mindshare as the \"Pump.fun for AI agents.\"\n*   **ai16z (AI16Z):** A venture-fund-styled DAO governed by an AI agent. It represents the \"Agentic VC\" narrative.\n*   **GOAT (Goatseus Maximus):** The \"blue chip\" of AI memes, which continues to dominate mindshare as the pioneer of autonomous AI-driven cult movements.\n*   **PNUT (Peanut the Squirrel):** While not purely AI, its mindshare growth is explosive due to a \"Culture War\" narrative sparked by viral news and Elon Musk’s public commentary.\n\n---\n\n### 2. Common Themes and Narratives\nSeveral distinct themes are driving this growth:\n\n*   **The \"Agentic Web\":** Moving beyond \"chatbots,\" these projects feature AI agents with their own wallets and X (Twitter) accounts that can autonomously trade, launch tokens, and build communities.\n*   **Fair Launch & Decentralization:** Unlike the VC-heavy coins of 2024, many of these (like ACT and GOAT) gained mindshare through organic community takeovers or fair launches, appealing to a retail market tired of \"low float, high FDV\" (Fully Diluted Valuation) tokens.\n*   **AI x SocialFi:** The narrative that \"AI is the new social layer.\" Agents are no longer just tools; they are influencers and community leaders.\n\n---\n\n### 3. Central Sector: The AI Agent Economy\nThe central sector is undeniably **AI Agents (DeAI).** This sector has seen a **40%+ increase in total mindshare** within the last 24 hours, dwarfing Layer 1s and DeFi protocols.\n\n#### Key Catalysts Driving the AI Agent Sector:\n1.  **Exchange Listings (The \"Binance Effect\"):** The listing of **ACT** and **PNUT** on Binance acted as a massive liquidity bridge. This signaled to the market that \"AI Agents\" and \"Culture Memes\" are now considered legitimate, high-growth categories by top-tier exchanges.\n2.  **Infrastructure Maturity:** The rise of **Virtuals Protocol** on Base has made it incredibly easy for users to create and trade AI agents, leading to a \"long tail\" of agent tokens similar to the memecoin craze on Solana.\n3.  **Proof of Autonomy:** The \"Truth Terminal\" (the agent behind GOAT) proved that an AI can create significant economic value ($1B+ market cap) without human intervention. This has led to a \"gold rush\" of developers trying to build the next autonomous agent.\n4.  **The \"Agentic VC\" Trend:** Projects like **ai16z** are testing a new model where an AI agent manages a treasury and makes investment decisions based on community sentiment, a narrative that combines DeFi with AI in a novel way.\n\n### Summary for Investors\nThe current trend suggests a shift from **passive assets** (coins that just exist on a chain) to **active assets** (AI agents that interact, post, and trade). The \"Agentic Meta\" is currently the most crowded and high-growth sector, fueled by the intersection of LLM technology and crypto-incentives.",
+    "executionTimeMs": 18815,
+    "totalTokens": 17640,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto mindshare growth last 24h Kaito LunarCrush"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "trending crypto narratives and sectors last 24 hours November 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "AI agent coins mindshare growth catalysts Goatseus Maximus ACT Virtuals Protocol"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

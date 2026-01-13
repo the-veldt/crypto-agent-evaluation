@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "bN4xMfDg",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "bN4xMfDg",
+    "query": "what assets have had the highest growth in new traders in the last 4 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"sfm8YPHczmkGVgIG\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find assets with the highest growth in unique traders over the last 4 hours. Focus on high momentum Solana tokens with at least $100k liquidity.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"ErIJCq8JAXLI2nwMk2CPm4sfSuJisruvvk37xveylv68f16VRbBnDFcm/68l8Aiok20lIwnpLvphaYjk28K5iWF2zsDVM6xc/4jyag5O1gThPZSxiWEh2A0lkEnkGbKoLYPxMiCks137EHjv2BOyF+l861OP4XS4Q7ff2Y342TRY1I0htdl/GtOtiTm+NOKDZNw5Fis1DDCf7TC6kiEJSFxLrpadley57gmmUZvqrUw4ZPF+LYw0L+EeNhGeix3tm7bxnD0dEnHiNNB1GwKrpcSo0aLThiR9+Zaw23SzlxYs7kbTNe+iihpaNJY3/oGsV9dkYZnOF79bYqNJRKP+s5mGolTPBkV+YCwmcj7ZPW9t+WivcftoZbO6YviWJl6AJYrVX6JdBrAXi7qyuqIomkcu47xeJxPYUQHGeIQEpT7Cd8XtlS4ReL7aKwNaqaQdJtklv/KHV8fZk0JV8S4wWwTA1bsMpKb+ELekEtyyx+IltV+hSP/WME9GhGLJ3BiEPFunDNtnGipfzvkI8aXlXqZpbd3x0Mxg+lt877zrEoKII0PmuHfn+vJoetHnxHfUgYgnh0PBpvEcHkDCrr+mz5SBNWC+YThXCmo8YozO+2BuetrUuExhsC2VqhaKdjDYWMAle6YuJ5FB1Y3J97afAcdzZp1n8r36aknQ+T1OSYGrRjGhHyIUozyUx1Orn+LcJ4cfH9yLB0ZmmYEhY2F4ZAWqkeRxvtikPKlP9QQfSWmNFGLYJi9sRuhZkJM+YGulUsUYmLa7CsRz5JihzK9fhF4dg8RXn/OaPKmNojgvPubAbDZ4Qtfx5/70HWVPJRa73ZAaJI47GVyZaIfi2dshA7jmYj7MEeRQp0x1TPIpyaDJOlgmK4M0hCOhItgpMlbM9Er1/kUTEVHLwEUoM4A3oDROO7vVPM/pWQqEDMCV+jH0RfPU0JkD/LANd4RlIhqVBz2L833m71eK82xEZg0dFkLsaZZzUECWNQyIe7OF7JcQdj+J8EItBx4+q+3lOL13LF3mhwB8QdALH3IIpdg7e5l/qyAP2vWGEMqN+SKh8eXJF6fxdiOyaesS47/pPhhedX/QBsL4roH102kUBacPAW01nD7wPrZaksAm1rhE5SPMO2W0rGa4Tv3sfWA1uNSz1syJ7DsE94IiiKYCIboCwyjJJVGeTLq0TMXsIyYBK/9rIjxnwsTOkAUHnAcgHxOmyPK+vwVR1AV3fE5SdTifih7dH9NRkMGLZ0ZdFk2Q/qJGcQgcnF+Voo/utJATN2puOittSAqfbx9pdnCS+EBXeSthCYoSbbbEB0/S+8OD2wZNVKz63BqeXD5sJ4wo6IlKU5K8ZhZl+Tz22InjJvclRYeSsUNWYmZ9O1v07E1jS+OB09icVNBSNyv7mJM7XYv7fbftzeN4foFA/MBizysSSL/QyUQgVzqXsEwjR8gdQL30tBmWKTVHKdyRti3rNTfdF8BYD5SsSj09gUhhD7sGWMgT3JeAU5IUC4o1kyhD7ICqnesH5KTS86pkY/pm/h6l7swtLQ7tyi2jNxyxFM7yTkayghQK2bEfjTY/N3R5uNFKTSI4ZkL2X5HIw/RWqoB1cuAorjg=\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"DhmDTQcDzrtHiGcY\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"project_ids\": [\n        29156,\n        29863,\n        13445\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"Z5yus4oSrSaxCJJP\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Why are X1000, Omnipair, and Trencher trending on Solana today? Recent news or catalysts for these projects.\",\n      \"days_back\": 3\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EukICuYIAXLI2nz47Z86+7YWq1fPbB4RVjyo2C4zLQ5Mgk3ifSUHqSRau70czmeqxG/uIKn53zMJWTGhx6+V7R34oWXP2vLefKoZrnL8LfbI2vqrdAuFTdpZ847uQpI8PPmdrEQn2IWzywQi2cg3JYWzbjEKyBqHqxRr+2tQ3OwR2GqzMlIG/A2RIpTf1aW8VEHMVUO5v6lY0UhhEQbUl9Hu+3G0eRwUTFBMISPDZo6xcqoQKQPw6r3C5I2MKJm0obBNWt1TGRw0v04Fo4gus9vMKX/TMxfoG7HXFxPBS7IrhPRCxXZFt+ap9Cpb54QQoWW3PVMX7+amLSUmzLO1P0gfd2VaL1WS5sR/lnpOByOMfvy74bKW3ZGbJLZQ14xzlXNSjSy0G9ZdAQjVHCRSs1IMvDEZwPtXAKK70G2dVbsH8TW0fJ/cKu4oeW71F2Og83WBD8VfBJ44wQZy/PmyMHu9e9Tg4wTY5mUMQJFWdOSoiWNNdCxRWI0PbTla/n9E8F3XpYgQlwVKdWZOvALtXzBLQCN6EFmHOThwE7qQwtb5AffJZKXeyzM1nsDXDuJRoCYG9VyIh+2AXJfd/dYvtN6/wlc/G5mK0Wa/xAiVbz/DLNuCGrS+4oefJzZyt94h7Ssb9e2Lfy34gwZnUYUOAcWkVkYZKXOzIZpzb3f7C6qk27x+GpuXFON+JGkcf8/qdbgrfpUBpKr/tXQQS6oR4eYRHRZ/Sgkji20OBOrmmUCQ7maPGLjt2Td/bK6FU3ViobT6Rw0qwW9aRfhfp0LW9dZoxDvdfDrhezjLwRsIh/LkRni8WncdOYUVU2IOLyczBVaARLCRRW08tPRHTqXTdUCKv4AW9FRAHIOEs/e0vdsuznRLoSelpu/oLx99As4vOSMA3j/9s6JZvGJTJTtmvaC0NxRhVd52ZCr7htaH85Ttwfrb6d0m/SkwoQyPpLf4BDj0CODGr+l/B4fsRhO9xUBUSBMOPV9sjFWyY0sjUmxRcfgWarVLYkPZFiJhFVWwitrONfeyWPoIwuJWJswiAcGL6iHUXQmKw35O/4AGhWt0ER6C7wElyrWpq1/9AoBk4Rey37Xiak5uRpB1/vDN0eifngCSYAi+NwE/K3go/SRsWlDiOVaikPBNDhFnzLlVuCH4aNHUdFfIZxNqSULFsv6SRbOj2WV1xlGhMGWYzmv0J1c2mpnSiBkZ4ZwWLU2M/6HuAKQYz1uCyLIh7+kRbsVxd0XUzPNrhSM9qBSiSK/92SNMe1GuOS2NHi1DJ7p9Ebw8ZHVeIUlrRoj+ttVRKjgrvXRE22u/Y1Gs4Er9H2JKudZLOEOQjk8IfRXcOKo5Jeu4wujGJgm5txicnoMGXMplm8pbcanvn2WShPWITD5drZlBYzAmPXOH8iROiUTK952KbIYMi/h4U5+I4sszq/Z7I17lppvGfn/CNw2+y5h57UkO1PfJM48tTR2OXkEJUHJ6NKvWOShDOtVzQsDFQkHqiesM3yfKIqffkA==\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 4,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The Solana ecosystem is seeing a massive influx of new traders concentrated in AI payment infrastructure and decentralized identity primitives. **X1000** leads the pack with a staggering **1,550% increase in unique traders** over the last four hours, fueled by the explosive adoption of the **x402 agentic payment standard**. This surge aligns with reports of x402 transactions on Solana jumping nearly **700% week-over-week**, as AI agents increasingly facilitate machine-to-machine commerce in USDC without external API dependencies.\\n\\n{chart_id: 342438}\\n\\n**Omnipair ($OMFG)** follows with **483% trader growth**, driven by its imminent mainnet launch. As a core project in the **MetaDAO** ecosystem, Omnipair utilizes Generalized Automated Market Maker (**GAMM**) pools to enable permissionless margin lending. By internalizing liquidations and removing reliance on external oracles, it offers a more resilient DeFi primitive that has captured significant mindshare among sophisticated Solana traders following its successful $1.1M raise.\\n\\n{chart_id: 413721}\\n\\nMemecoins and community-driven projects are also seeing high-velocity trader onboarding. **Tsuki ($TSUKI)** and **Trencher ($TRENCHER)** have posted **433% and 235% growth in traders**, respectively. Trencher’s spike is directly tied to today’s **\\\"2025 Wrapped\\\" live stream** and the reveal of its final community challenge for the year. Meanwhile, **The Black Whale ($BLACKWHALE)** is sustaining momentum from its recent **KuCoin and BitMart listings**, coupled with a high-profile collaboration with Moby AI.\\n\\n{chart_id: 446196}\\n\\nOn the identity front, **Galactica Network ($GNET)** saw a **533% surge in new traders** as users position themselves for its \\\"Identity Virtual Machine\\\" (IVM). The protocol is gaining traction for its approach to onchain reputation and persistent digital identities, which are becoming central to the \\\"Internet Capital Markets\\\" narrative shifting Solana volume from pure speculation toward durable, infrastructure-backed assets.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The Solana ecosystem is seeing a massive influx of new traders concentrated in AI payment infrastructure and decentralized identity primitives. **X1000** leads the pack with a staggering **1,550% increase in unique traders** over the last four hours, fueled by the explosive adoption of the **x402 agentic payment standard**. This surge aligns with reports of x402 transactions on Solana jumping nearly **700% week-over-week**, as AI agents increasingly facilitate machine-to-machine commerce in USDC without external API dependencies.\n\n{chart_id: 342438}\n\n**Omnipair ($OMFG)** follows with **483% trader growth**, driven by its imminent mainnet launch. As a core project in the **MetaDAO** ecosystem, Omnipair utilizes Generalized Automated Market Maker (**GAMM**) pools to enable permissionless margin lending. By internalizing liquidations and removing reliance on external oracles, it offers a more resilient DeFi primitive that has captured significant mindshare among sophisticated Solana traders following its successful $1.1M raise.\n\n{chart_id: 413721}\n\nMemecoins and community-driven projects are also seeing high-velocity trader onboarding. **Tsuki ($TSUKI)** and **Trencher ($TRENCHER)** have posted **433% and 235% growth in traders**, respectively. Trencher’s spike is directly tied to today’s **\"2025 Wrapped\" live stream** and the reveal of its final community challenge for the year. Meanwhile, **The Black Whale ($BLACKWHALE)** is sustaining momentum from its recent **KuCoin and BitMart listings**, coupled with a high-profile collaboration with Moby AI.\n\n{chart_id: 446196}\n\nOn the identity front, **Galactica Network ($GNET)** saw a **533% surge in new traders** as users position themselves for its \"Identity Virtual Machine\" (IVM). The protocol is gaining traction for its approach to onchain reputation and persistent digital identities, which are becoming central to the \"Internet Capital Markets\" narrative shifting Solana volume from pure speculation toward durable, infrastructure-backed assets.",
+    "executionTimeMs": 57648,
+    "stepCount": 4,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find assets with the highest growth in unique traders over the last 4 hours. Focus on high momentum Solana tokens with at least $100k liquidity.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "project_ids": [
+            29156,
+            29863,
+            13445
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Why are X1000, Omnipair, and Trencher trending on Solana today? Recent news or catalysts for these projects.",
+          "days_back": 3
+        }
+      }
+    ],
+    "totalTokens": 169698
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

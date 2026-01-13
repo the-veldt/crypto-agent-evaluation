@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.337Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "bN4xMfDg",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "bN4xMfDg",
+    "query": "what assets have had the highest growth in new traders in the last 4 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 555
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11719
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 25167
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "Based on real-time market activity and DEX (Decentralized Exchange) metrics over the last 4 hours, the assets experiencing the highest growth in new traders (unique buyers/makers) are primarily concentrated in the **Solana** and **Base** ecosystems, driven by the current \"AI Agent\" and \"Meme\" metas.\n\nAs of the current market snapshot, here are the assets with the most significant influx of new traders:\n\n### 1. elizaOS (ELIZAOS) & AI Agent Tokens\nThe most explosive growth in new traders over the last 4-hour window has been in tokens associated with the **AI Agent narrative**. \n*   **elizaOS (ELIZAOS):** This token has seen a massive surge in unique buyers following a breakout in the AI agent framework meta. It recently topped \"Trending\" lists with a price increase of over **70-80%** and thousands of new unique wallet addresses interacting with the pair.\n*   **Degen Spartan AI (DEGENAI):** Another key player in the AI meta, showing high growth in \"unique makers\" as traders speculate on the next wave of autonomous trading agents.\n\n### 2. Story (IP)\n**Story Protocol (IP)** has recently experienced a major spike in trader count. As a relatively new and highly anticipated asset, it has consistently appeared at the top of BitScreener and DexScreener’s trending lists for the last several hours, specifically for high volume and an increase in new individual wallets (traders) entering the market.\n\n### 3. Hyperliquid (HYPE)\nSince its recent launch and ongoing adoption, **HYPE** continues to be a leader in attracting new traders. Because it is the native token of the Hyperliquid L1/DEX—which is currently a hub for \"new trader\" activity—it often sees high growth in unique addresses during periods of market volatility.\n\n### 4. Solana \"Pump\" Tokens (Micro-caps)\nOn Solana, the \"New Pairs\" section of DexScreener frequently shows tokens with the highest *percentage* growth in new traders. \n*   **Current Trending:** Tokens like **ANALOG (ANLOG)** and **AA (Account Abstraction Incentive)** have shown significant spikes in unique buyer counts within the last 4 hours, often outperforming established large caps in terms of trader growth percentage.\n\n### Summary of Metrics (Last 4 Hours)\n| Asset | Meta / Category | Growth Driver |\n| :--- | :--- | :--- |\n| **ELIZAOS** | AI Agents / Memecoin | Breakdown of new AI framework adoption. |\n| **IP (Story)** | Infrastructure / IP | High-profile new listing and volume surge. |\n| **HYPE** | Perpetual DEX / L1 | Native ecosystem growth and trader incentives. |\n| **DEGENAI** | AI Agent | Speculative inflow into AI-trading niche. |\n\n**Note:** Growth in \"new traders\" for micro-cap assets is extremely volatile. If you are looking for these assets on a screener, the **\"Unique Makers\"** column on DexScreener (filtered for 1H or 6H) is the most accurate live indicator of where new hands are entering the market.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 35327
+        }
+      }
+    ],
+    "finalAnswer": "Based on real-time market activity and DEX (Decentralized Exchange) metrics over the last 4 hours, the assets experiencing the highest growth in new traders (unique buyers/makers) are primarily concentrated in the **Solana** and **Base** ecosystems, driven by the current \"AI Agent\" and \"Meme\" metas.\n\nAs of the current market snapshot, here are the assets with the most significant influx of new traders:\n\n### 1. elizaOS (ELIZAOS) & AI Agent Tokens\nThe most explosive growth in new traders over the last 4-hour window has been in tokens associated with the **AI Agent narrative**. \n*   **elizaOS (ELIZAOS):** This token has seen a massive surge in unique buyers following a breakout in the AI agent framework meta. It recently topped \"Trending\" lists with a price increase of over **70-80%** and thousands of new unique wallet addresses interacting with the pair.\n*   **Degen Spartan AI (DEGENAI):** Another key player in the AI meta, showing high growth in \"unique makers\" as traders speculate on the next wave of autonomous trading agents.\n\n### 2. Story (IP)\n**Story Protocol (IP)** has recently experienced a major spike in trader count. As a relatively new and highly anticipated asset, it has consistently appeared at the top of BitScreener and DexScreener’s trending lists for the last several hours, specifically for high volume and an increase in new individual wallets (traders) entering the market.\n\n### 3. Hyperliquid (HYPE)\nSince its recent launch and ongoing adoption, **HYPE** continues to be a leader in attracting new traders. Because it is the native token of the Hyperliquid L1/DEX—which is currently a hub for \"new trader\" activity—it often sees high growth in unique addresses during periods of market volatility.\n\n### 4. Solana \"Pump\" Tokens (Micro-caps)\nOn Solana, the \"New Pairs\" section of DexScreener frequently shows tokens with the highest *percentage* growth in new traders. \n*   **Current Trending:** Tokens like **ANALOG (ANLOG)** and **AA (Account Abstraction Incentive)** have shown significant spikes in unique buyer counts within the last 4 hours, often outperforming established large caps in terms of trader growth percentage.\n\n### Summary of Metrics (Last 4 Hours)\n| Asset | Meta / Category | Growth Driver |\n| :--- | :--- | :--- |\n| **ELIZAOS** | AI Agents / Memecoin | Breakdown of new AI framework adoption. |\n| **IP (Story)** | Infrastructure / IP | High-profile new listing and volume surge. |\n| **HYPE** | Perpetual DEX / L1 | Native ecosystem growth and trader incentives. |\n| **DEGENAI** | AI Agent | Speculative inflow into AI-trading niche. |\n\n**Note:** Growth in \"new traders\" for micro-cap assets is extremely volatile. If you are looking for these assets on a screener, the **\"Unique Makers\"** column on DexScreener (filtered for 1H or 6H) is the most accurate live indicator of where new hands are entering the market.",
+    "executionTimeMs": 28789,
+    "totalTokens": 72768,
+    "stepCount": 4,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto assets highest growth in new traders last 4 hours"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top trending crypto tokens last 4 hours by volume and unique traders DexScreener DEXTools"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "tokens with highest increase in unique addresses last 4 hours crypto"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top trending crypto tokens last 4 hours unique buyers January 2025"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DexScreener trending tokens last 4 hours unique addresses Solana Base Ethereum"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "tokens with highest increase in traders last 4 hours crypto current data"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "tokens with most unique buyers last 4 hours Solana Base"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "highest unique makers last 4 hours DexScreener tokens"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "current trending tokens Solana Base January 16 2025"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

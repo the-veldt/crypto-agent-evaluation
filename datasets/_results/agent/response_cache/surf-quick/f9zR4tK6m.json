@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "f9zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "f9zR4tK6m",
+    "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, I can provide insights on the top revenue-generating projects in crypto, though the specific \"revenue growth\" metrics and catalysts are limited in the current dataset.\n\n## TL;DR\n\n**Tether and USDC dominate revenue generation** with $585M and $214M in 30-day revenue respectively, though these represent stablecoin issuer yields rather than protocol growth. Among actual protocols, **pump.fun leads with $34M in 30-day earnings**, followed by **four.meme at $23.5M in 30-day revenue**. The key catalysts appear to be memecoin launchpad activity and derivatives trading volume growth.\n\n## Top Revenue-Generating Projects\n\nBased on 30-day revenue data from DefiLlama:\n\n| Rank | Project | Category | 30d Revenue | Key Catalyst |\n|------|---------|----------|-------------|-------------|\n| 1 | Tether | Stablecoin Issuer | $585.21M | Treasury bill yields on reserve assets |\n| 2 | USDC | Stablecoin Issuer | $213.77M | Cash-equivalent asset yields |\n| 3 | pump.fun | Launchpad | $34.05M | Memecoin creation frenzy |\n| 4 | four.meme | Launchpad | $23.51M | Successful token launches (ASTER, STBL) |\n| 5 | Hyperliquid | Derivatives | $16.58M | Perpetuals trading volume growth |\n\n## Key Catalysts Analysis\n\n### 1. **Memecoin Launchpads (pump.fun & four.meme)**\n- **Catalyst**: Massive retail demand for memecoin creation and trading\n- **Evidence**: pump.fun generated **$935.6M in total revenue** with intense platform activity\n- **Risk**: Extremely high scam rate (98.6% of tokens eventually rug pull)\n\n### 2. **Derivatives Protocols (Hyperliquid)**\n- **Catalyst**: Growing derivatives trading volume and user adoption\n- **Evidence**: Hyperliquid reached **$2.9T cumulative trading volume** with 609K+ users\n- **Trend**: Perpetuals trading becoming increasingly popular in DeFi\n\n### 3. **Stablecoin Issuers (Tether/USDC)**\n- **Catalyst**: High interest rate environment boosting yield on reserve assets\n- **Evidence**: $585M+ in monthly revenue from Treasury bill investments\n- **Sustainability**: Dependent on maintaining high-quality reserve assets\n\n## What's Missing\n\nTo provide a complete analysis of **revenue growth** (not just absolute revenue), I would need:\n- Specific week-over-week or month-over-month growth rates for each protocol\n- Historical revenue data to calculate growth trajectories\n- More detailed catalyst information beyond general category trends\n- Project-specific development updates and roadmap milestones\n\n## Recommendation\n\n**For deeper revenue growth analysis**, use Deep Research mode to gather:\n- Specific growth rate calculations for top revenue protocols\n- Detailed catalyst timelines and project development updates\n- Comparative analysis against historical performance\n- More comprehensive social sentiment around revenue catalysts\n\nThe current data shows who's generating the most revenue, but deeper research would be needed to identify the fastest-growing projects by percentage growth and their specific catalysts.\n\n**Next step**: Start a new conversation and select **Deep Research** mode for comprehensive revenue growth analysis.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

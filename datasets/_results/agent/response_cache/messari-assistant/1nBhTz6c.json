@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Top Solana Memecoin Plays\n\nThe Solana network, a Layer-1 blockchain known for its high throughput and low transaction costs [^1], has become a major hub for memecoin activity, largely driven by platforms like Pump.fun [^2][^3]. Memecoin decentralized applications (DApps) were the top revenue source on Solana year-to-date, earning $509 million [^4].\n\nBased on recent market analysis and performance, the following three Solana-based memecoins have been highlighted as significant plays:\n\n### 1. Dogwifhat (WIF)\nDogwifhat (WIF) has shown significant growth and is considered a top Solana-based memecoin [^2][^5].\n\n*   **Market Position**: WIF posted strong weekly gains, increasing by 123.7% in a week around May 2025 [^5].\n*   **Price Prediction**: It was predicted to breach $10 and potentially hit $10.91 by late December 2024 [^2].\n\n### 2. Pepe (PEPE)\nPepe (PEPE) is a well-known memecoin that has a presence on the Solana network [^6][^2].\n\n*   **Market Position**: PEPE was ranked 23rd by market cap as of late 2024 [^2]. It also saw a strong weekly gain of 79.9% around May 2025 [^5].\n*   **Price History**: PEPE reached an all-time high of $0.00002803 in December 2024 but had dropped by 74.7% since that peak, which some analysts viewed as a potential buying opportunity [^6].\n*   **Price Prediction**: It was expected to reach $0.00006830 by late December 2024 [^2].\n\n### 3. Popcat (POPCAT)\nPopcat (POPCAT) is another memecoin that has gained traction within the Solana ecosystem [^2].\n\n*   **Market Position**: POPCAT entered the top 100 by market cap in late 2024 [^2].\n*   **Price Prediction**: It was forecasted to reach a new high of $4.34 by late December 2024 [^2].\n\n***\n\n### Other Notable Solana Memecoins\n\nOther memecoins that have been mentioned in the context of the Solana ecosystem include:\n\n*   **Bonk (BONK)**: A dog-themed memecoin that peaked at $0.00005825 in November 2024 but had decreased by 80% since then [^6].\n*   **Moo Deng (MOODENG)**: This coin surged 533% in a week around May 2025, reaching a market cap of $242 million [^5].\n*   **Sealana**: A newly launched presale that raised $2.5 million and was being hailed as the next big memecoin, with analysts predicting 100x gains [^7].\n*   **Fartcoin (FARTCOIN)**: Experienced a 176.4% surge over a month, reaching an all-time high of $2.48 in January [^6].\n*   **Gen Z Quant ($QUANT)**: This token was pushed to an $82 million market cap by the Solana community in a \"revenge trade\" after its creator performed a rugpull [^8]. It has since seen over $346 million in trading volume [^8].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

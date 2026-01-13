@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "yB8iWa9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yB8iWa9n",
+    "query": "build and compare the investment case for Solana versus Ethereum",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nBoth Solana (SOL) and Ethereum (ETH) present strong Layer 1 investment cases, but SOL edges out for growth-oriented investors due to higher recent mindshare momentum (+19.83% vs ETH's -2.97%), memecoin/DeFi catalysts driving on-chain activity, and outperforming price action (+3.14% 7d vs ETH's -2.72%); ETH suits conservative portfolios with superior market cap ($384B vs $1.66B), developer activity, and institutional RWA/staking trends, though it faces outflows to cheaper L1s like SOL.\n\n───\n\nCurrent Market Snapshot\nAs of January 13, 2026:\n\n| Metric                  | Solana (SOL)          | Ethereum (ETH)        |\n|-------------------------|-----------------------|-----------------------|\n| Price (USD)        | $143.28              | $3,182.50            |\n| Market Cap         | $1.66B (Rank #3)     | $384B (Rank #2)      |\n| 7d Mindshare       | 9.94% (+19.83%)      | 11.61% (-2.97%)      |\n| Smart Mentions     | 1,761 (41% bullish)  | 2,002 (38% bullish)  |\n| Long Calls (Smart) | 34 (+2.80%)          | 54 (-31.66%)         |\n| Price Chg 7d/30d   | +3.14% / +9.59%      | -2.72% / +3.04%      |\n\nData from Elfa AI leaderboard (7d timeframe).\n\nFundamentals Comparison\nEthereum dominates as the mature smart contract platform with unmatched developer ecosystem (44k+ GitHub stars, 41 commits/4wks) and institutional adoption. Key strengths include RWA tokenization hitting critical mass (Ondo: 40%+ issuance, 200+ stocks/ETFs OndoFinance) and staking treasury growth (SharpLink: +500 ETH weekly to 11,157 ETH total SharpLink). However, high fees drive outflows to L1s like SOL/Tron for NFTs/minting (250-NFT Monad batch: $0.000075 vs ETH ~$400-800 HodlerPete).\n\nSolana excels in speed/cost for high-throughput apps, powering memecoin revivals (e.g., $WHITEWHALE, $TESTICLE), DeFi milestones (Jupiter Lend: $1B TVL in 8 days aixbt_agent), and infra upgrades (Helius RPCs for IntoDotSpace pukerrainbrow). 2026 hackathons (Apr-May, Sep-Nov superteam) signal developer influx. Recent perp volumes surpassed ETH ($1.46B vs $1.33B CryptoCurb).\n\nSocial Sentiment and Catalysts\nSOL shows bullish momentum: whale longs ($73.5M TedPillows), memecoin trenches boosting txns/fees, 0% Jupiter Mobile swaps. Community views SOL beating ETH on tokenized stocks/cost (e.g., $50 vs near-free BrianneFrey). Bearish note: Network outages history (not recent).\n\nETH has whale support ($647M long, same entity) and upgrades (ETHGas GWEI token/TGE for realtime txns WuBlockchain), but bearish signals include capital rotation to SOL (volumes picking up EmsleyJonnie) and ETF outflows (SOL +$32.8M inflows SolanaFloor).\n\nRisks and Investment Thesis\n- SOL Bull Case: High-beta play on retail/DeFi growth; overweight for 2026 upside if memecoins/hackathons sustain activity. Risks: Centralization, volatility from outages/whales.\n- ETH Bull Case: Defensive store-of-value with L1 moat; hold core position for RWA/staking yields. Risks: Competition eroding fees, slower innovation.\n- Portfolio Allocation: 60/40 ETH/SOL for balance; pure growth → overweight SOL given mindshare edge and recent outperformance (SOL set to beat ETH post-Apr 2025 greenytrades). Monitor SOL/ETH pair for relative strength.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

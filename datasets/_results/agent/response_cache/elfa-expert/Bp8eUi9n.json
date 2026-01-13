@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe biggest mindshare growth over the past 24 hours is dominated by Solana-based meme coins (PsyopAnime, Melania Meme, Hosico Cat), with additional surges from DoubleZero (infrastructure, Solana) and Fluid (DeFi, Ethereum). The central theme is a meme/viral narrative wave—especially anime, political, and animal coins—driven by exchange listings, celebrity/influencer engagement, and ecosystem-specific catalysts. For non-meme projects, regulatory clarity (DoubleZero) and product innovation (Fluid) are key drivers.\n\n───\n\nTop Projects by Mindshare Growth (24h):\n1. PsyopAnime (Solana, Meme/Anime)\n2. DoubleZero (Solana, Infrastructure)\n3. XDOG (X-Layer, Meme/Dog)\n4. Zerebro (Solana, AI/Meme)\n5. Melania Meme (Solana, Political Meme)\n6. Fluid (Ethereum, DeFi)\n7. Hosico Cat (Solana, Meme/Cat)\n\nCommon Themes and Narratives:\n\n1. Meme Coin & Viral Culture Dominance\n- The majority of the fastest-rising projects are meme tokens, especially those with anime, animal, or political themes. PsyopAnime leads with over 8,000% mindshare growth, fueled by viral anime meta, major influencer engagement (including Elon Musk following the project), and coordinated Telegram/Twitter campaigns. Melania Meme and Hosico Cat similarly ride high on political or animal meme cycles, with rapid price movements and social buzz.\n- These coins are heavily promoted in trading and degen channels, often with references to \"meta\" shifts (e.g., anime, political, or cat/dog coins), and attract speculative retail flows looking for quick gains.\n\n2. Solana Ecosystem as Hotbed\n- Most trending tokens are on Solana, underscoring Solana’s continued dominance as the preferred chain for meme coin launches and high-velocity trading environments. The presence of Pump.fun and similar platforms makes it easy for new memes to gain traction and liquidity quickly.\n\n3. Exchange Listings and Platform Catalysts\n- Listings on new platforms (e.g., PsyopAnime on Pump.fun and WEEX, XDOG’s potential OKX listing) are top catalysts, providing liquidity, visibility, and FOMO. These triggers are amplified by coordinated social campaigns and influencer engagement.\n\n4. Regulatory and Institutional Catalysts (Non-Meme)\n- DoubleZero stands out as a non-meme project with surging mindshare due to the public release of an official letter from the SEC’s Division of Corporation Finance, confirming regulatory clarity. This is a major positive for institutional adoption and reduces legal risk, making it a rare \"serious\" narrative among the meme frenzy DoubleZero tweet.\n- Fluid (formerly Instadapp) is gaining due to aggressive scaling plans for 2026, new DeFi innovations, and capturing Ethereum DEX market share from Uniswap. Announcements of product development and on-chain adoption are the main drivers Fluid tweet.\n\n5. AI and Content Creation\n- Zerebro is a hybrid meme/AI project, reflecting the ongoing popularity of AI as a narrative. Its focus on decentralized content creation and analysis taps into both the meme and AI meta, though it is less dominant than pure meme plays.\n\nCatalyst Analysis:\n\n- Meme Coins: Viral narratives (anime, political, animal), influencer/celebrity engagement, and rapid-fire launches on Solana with low friction. Exchange listings (Pump.fun, WEEX, possible OKX) serve as ignition points.\n- DoubleZero: Regulatory clarity, institutional trust, and infrastructure focus—distinct from meme coins, but benefiting from a bullish regulatory sentiment.\n- Fluid: DeFi innovation, scaling announcements, and increasing market share against incumbents like Uniswap.\n- Zerebro: AI and content creation narrative, though overshadowed by the meme coin surge.\n\nConclusion:  \nThe current mindshare surge is overwhelmingly meme-driven, centered on Solana, and powered by viral social narratives, exchange/platform listings, and celebrity/influencer engagement. Infrastructure and DeFi projects like DoubleZero and Fluid stand out as exceptions, propelled by regulatory clarity and product innovation, respectively. The meme coin sector remains the central narrative, but credible non-meme catalysts are gaining traction among more serious investors.\n\nIf you want a more granular breakdown of any specific project or want to track the next rotation, let me know.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

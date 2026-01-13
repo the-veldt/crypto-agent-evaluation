@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "8zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8zR4tK6m",
+    "query": "what are the latest catalysts for solana",
+    "level": 1,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nSolana's latest catalysts are predominantly bullish, driven by memecoin activity resurgence boosting on-chain volume, Jupiter Lend reaching $1B TVL and 0% swap fees on Jupiter Mobile, whale accumulation including a $73.5M SOL long, Helius Labs powering real-time data streaming, and announced 2026 global hackathon dates.\n\n───\n\nBullish Catalysts\n\nMemecoin Trenches Revival: Community activity shows a resurgence in Solana memecoin launches and trading (e.g., $WHITEWHALE, $TESTICLE, BobStreamer), increasing transactions, liquidity demand, and fee capture— a short-term driver for SOL demand. Tradinator33, Zenia_sol.\n\n2026 Global Hackathon Dates: Superteam announced Solana hackathons for Apr 6–May 11 and Sep 28–Nov 2, expected to accelerate developer onboarding and dApp launches for long-term network growth. superteam.\n\nWhale Accumulation: A major whale holds a $73.5M SOL long position as part of an $800M+ book across ETH/BTC/SOL, creating buying pressure but with liquidation risks. arkham, TedPillows.\n\nJupiter DeFi Momentum: Jupiter Lend hit $1B TVL in ~8 days; Jupiter Mobile offers 0% swap fees, driving DeFi liquidity and swap volume. aixbt_agent, FabianoSolana.\n\nHelius-IntoDotSpace Integration: Helius Labs enables real-time RPCs and data streaming for Solana apps like trading platforms, enhancing scalability and UX. pukerrainbrow.\n\nPrice and Market Context\nSOL trades at $143.38 (down 0.02% 24h, up 3.2% 7d), with no major bearish Solana-specific catalysts in recent data. Broader market shifts (e.g., capital flowing to BTC/ETH) add macro pressure. Elfa token data.\n\nNo significant negative Solana catalysts identified in the past week.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "V7kXm2Lq",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "V7kXm2Lq",
+    "query": "create a valuation analysis for Pendle",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 570
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 3862
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 7328
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 13798
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 16146
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 20485
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "Below is a concise, investor-style valuation analysis for Pendle (PENDLE), using up-to-date on-chain and documentation sources. If you want the assumptions in a downloadable model, say the word and I’ll share a sheet.\n\nExecutive snapshot (as of latest data)\n- Business: Yield tokenization and yield trading across PT/YT markets; expanding into funding-rate trading (Boros).\n- TVL: ~$3.73b\n- Annualized protocol revenue: ~$16.0m\n- Annualized “holders revenue” (to vePENDLE): ~$12.8m\n- Market cap / FDV: ~$312m / ~$533m\n- vePENDLE locked value: ~$127m (≈40.7% of mcap)\n- Indicative vePENDLE real-yield APR: ~10.1% (holders revenue / locked value)\nSources: DefiLlama protocol page; Pendle docs; Messari profile\n\nHow Pendle captures value\n- Fee sources: \n  - YT fees: 5% of all yield accrued by all YTs, incl. “points” (EigenLayer/LRT points, etc.).\n  - Swap fees: maturity-scaled, set per pool.\n- Distribution of fees:\n  - 20% of swap fees go to LPs.\n  - The remainder of swap fees plus all YT fees are split 80% to vePENDLE, 10% to treasury, 10% to ops. vePENDLE voters receive “Voter’s APY” from the pools they vote on (the mechanism channels fees/incentives to voters).\n- Token emissions:\n  - Weekly emissions (as of Sept-2024) tapered 1.1% week-over-week until April 2026, then terminal inflation of 2%/year for incentives.\n- Supply status:\n  - Team/investor tokens fully vested since Sept-2024; total supply ≈281.5m; circ. supply ≈164–165m (directional from Messari/market cap and price).\nSources: Pendle docs (Fees, vePENDLE, Tokenomics)\n\nCurrent valuation metrics\n- Price-to-Revenue (P/S on protocol revenue): ~19.5x\n  - $312.4m market cap / $16.04m annualized revenue.\n- Price-to-Holders Revenue (vePENDLE revenue): ~24.3x\n  - $312.4m / $12.83m.\n- Price-to-TVL: ~0.084x\n  - $312.4m / $3.731b.\n- Net earnings (Protocol “earnings” = revenue – token incentives): ~$7.93m annualized; implied P/E (protocol) ≈39x. Note: “earnings” here is a TokenTerminal/DefiLlama-style construct; not GAAP; interpret with care.\n- Implied vePENDLE real yield: ~10.1%\n  - $12.83m holders revenue / $127.23m vePENDLE-locked value.\n- Revenue efficiency vs TVL:\n  - Revenue/TVL ≈ 0.43% annualized; holders revenue/TVL ≈ 0.34%.\nSource: DefiLlama fees/revenue and market data\n\nQualitative drivers and context\n- Structural tailwinds:\n  - LST/LRT proliferation and “points” seasons materially lift YT fee flows (Pendle takes 5% of points and yield, forwarded to vePENDLE).\n  - Boros (funding-rate trading) adds a new fee line beyond PT/YT swaps.\n  - Integration surface grows (more chains, more SYs, PTs accepted as collateral by money markets, better routing/SDK).\n- Headwinds/sensitivities:\n  - Fee mix: YT fee income depends on underlying APYs and incentive/points seasons; swaps depend on volumes and maturities.\n  - Emissions/inflation: terminal 2% annual inflation post-Apr-2026 (dilution vs fee growth).\n  - Market cyclicality: If yields, points, or LRT-activity cool, fee run-rate can contract.\n- Competition:\n  - Few active direct competitors at Pendle’s scale; most prior yield-tokenization attempts are smaller or inactive. Indirect: perps DEXs (GMX, dYdX), rate products (Maker’s DSR, money markets with fixed-rate vaults), and structured vaults.\n\nScenario analysis (12-month forward)\nThese are not price targets; they map fundamentals to rough multiples for intuition.\n\n- Base case\n  - Assumptions: fee run-rate grows ~20% (ongoing LRT integration, steady volumes), 2% token inflation begins Apr-2026.\n  - Forward revenue: ~$19.3m; holders revenue: ~$15.4m.\n  - Multiples: 15x revenue; 18x holders revenue.\n  - Implied equity value: $19.3m*15 ≈ $289m OR $15.4m*18 ≈ $277m. This clusters around current ~$312m market cap (i.e., broadly fairly valued on base assumptions).\n\n- Bull case\n  - Assumptions: TVL revisits highs and Boros ramps, YT/points fees remain strong; revenue doubles.\n  - Forward revenue: ~$32m; holders revenue: ~$25.6m.\n  - Multiples: 20x revenue; 22x holders revenue (expansion with growth dominance).\n  - Implied equity value: $640m–$563m.\n\n- Bear case\n  - Assumptions: activity/points cool; revenue down ~30%.\n  - Forward revenue: ~$11.2m; holders revenue: ~$9.0m.\n  - Multiples: 8–10x.\n  - Implied equity value: $90m–$112m.\n\nYield math for lockers\n- Current holders revenue: ~$12.83m annualized to vePENDLE.\n- Estimated PENDLE locked: ~$127.23m / $1.89 ≈ 67.3m tokens.\n- Fee flow per locked token: ~$0.19/year; dollar yield ≈10.1%.\n- Dilution overlay: terminal 2% annual inflation affects total supply; while emissions go to incentives/LPs, long-term holders care about fee growth outpacing dilution.\n\nKey things to monitor\n- Mix and magnitude of fees: split between YT (incl. points) vs swap fees; stickiness of “points-season” income.\n- Boros traction: share of total fees and sustainability vs cyclical funding-rate trades.\n- TVL composition: share of LSTs vs LRTs; maturity ladders; concentration risks by asset/chain.\n- vePENDLE dynamics: lock rate, bribing markets, voter concentration, and net real yield after bribes/incentives.\n- Governance/treasury: buyback/fee-forward behavior, treasury use, any changes to fee splits or emissions beyond terminal 2%.\n\nRisks\n- Underlying protocol risk in SYs (smart contract or depeg risks for LST/LRT).\n- Regulatory uncertainty around yield and points.\n- Liquidity/maturity cliffs causing rate/price dislocations.\n- Competitive displacement if larger venues launch native yield-rate markets.\n\nBottom line\n- On current run-rate metrics, Pendle screens around 19–24x revenue/holders-revenue with a ~10% dollar APR to lockers and TVL of ~$3.7b, supported by a clear value-capture design (5% YT/points fees + swap fees with 80% to vePENDLE). \n- If Boros/points/LRT activity sustains and fee growth outpaces the 2% terminal inflation, upside toward a ~$550–650m market cap is reasonable; if activity normalizes lower, downside to sub-$150m is plausible.\n- For token holders considering locking, the fee-forwarded “real yield” is competitive, but sensitive to activity/points cycles and governance allocations.\n\nSources and references\n- Fees, distribution, vePENDLE features: Pendle docs (Fees; vePENDLE)\n- Emissions and supply: Pendle docs (Tokenomics)\n- Protocol metrics: DefiLlama (Pendle protocol page)\n- Supply/circulation snapshot: Messari (Pendle project page)\n- Context/catalysts: Pendle Medium (2025 roadmap), CoinDesk coverage of TVL and Boros launch\n\nIf you want, I can:\n- Break revenue into YT vs swap components using Dune/SDK sampling.\n- Build a live-updating Google Sheet with the above metrics and scenarios.\n- Add peer comps (GMX, dYdX, Synthetix, Maker) on consistent revenue/earnings multiples.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 28458
+        }
+      }
+    ],
+    "finalAnswer": "Below is a concise, investor-style valuation analysis for Pendle (PENDLE), using up-to-date on-chain and documentation sources. If you want the assumptions in a downloadable model, say the word and I’ll share a sheet.\n\nExecutive snapshot (as of latest data)\n- Business: Yield tokenization and yield trading across PT/YT markets; expanding into funding-rate trading (Boros).\n- TVL: ~$3.73b\n- Annualized protocol revenue: ~$16.0m\n- Annualized “holders revenue” (to vePENDLE): ~$12.8m\n- Market cap / FDV: ~$312m / ~$533m\n- vePENDLE locked value: ~$127m (≈40.7% of mcap)\n- Indicative vePENDLE real-yield APR: ~10.1% (holders revenue / locked value)\nSources: DefiLlama protocol page; Pendle docs; Messari profile\n\nHow Pendle captures value\n- Fee sources: \n  - YT fees: 5% of all yield accrued by all YTs, incl. “points” (EigenLayer/LRT points, etc.).\n  - Swap fees: maturity-scaled, set per pool.\n- Distribution of fees:\n  - 20% of swap fees go to LPs.\n  - The remainder of swap fees plus all YT fees are split 80% to vePENDLE, 10% to treasury, 10% to ops. vePENDLE voters receive “Voter’s APY” from the pools they vote on (the mechanism channels fees/incentives to voters).\n- Token emissions:\n  - Weekly emissions (as of Sept-2024) tapered 1.1% week-over-week until April 2026, then terminal inflation of 2%/year for incentives.\n- Supply status:\n  - Team/investor tokens fully vested since Sept-2024; total supply ≈281.5m; circ. supply ≈164–165m (directional from Messari/market cap and price).\nSources: Pendle docs (Fees, vePENDLE, Tokenomics)\n\nCurrent valuation metrics\n- Price-to-Revenue (P/S on protocol revenue): ~19.5x\n  - $312.4m market cap / $16.04m annualized revenue.\n- Price-to-Holders Revenue (vePENDLE revenue): ~24.3x\n  - $312.4m / $12.83m.\n- Price-to-TVL: ~0.084x\n  - $312.4m / $3.731b.\n- Net earnings (Protocol “earnings” = revenue – token incentives): ~$7.93m annualized; implied P/E (protocol) ≈39x. Note: “earnings” here is a TokenTerminal/DefiLlama-style construct; not GAAP; interpret with care.\n- Implied vePENDLE real yield: ~10.1%\n  - $12.83m holders revenue / $127.23m vePENDLE-locked value.\n- Revenue efficiency vs TVL:\n  - Revenue/TVL ≈ 0.43% annualized; holders revenue/TVL ≈ 0.34%.\nSource: DefiLlama fees/revenue and market data\n\nQualitative drivers and context\n- Structural tailwinds:\n  - LST/LRT proliferation and “points” seasons materially lift YT fee flows (Pendle takes 5% of points and yield, forwarded to vePENDLE).\n  - Boros (funding-rate trading) adds a new fee line beyond PT/YT swaps.\n  - Integration surface grows (more chains, more SYs, PTs accepted as collateral by money markets, better routing/SDK).\n- Headwinds/sensitivities:\n  - Fee mix: YT fee income depends on underlying APYs and incentive/points seasons; swaps depend on volumes and maturities.\n  - Emissions/inflation: terminal 2% annual inflation post-Apr-2026 (dilution vs fee growth).\n  - Market cyclicality: If yields, points, or LRT-activity cool, fee run-rate can contract.\n- Competition:\n  - Few active direct competitors at Pendle’s scale; most prior yield-tokenization attempts are smaller or inactive. Indirect: perps DEXs (GMX, dYdX), rate products (Maker’s DSR, money markets with fixed-rate vaults), and structured vaults.\n\nScenario analysis (12-month forward)\nThese are not price targets; they map fundamentals to rough multiples for intuition.\n\n- Base case\n  - Assumptions: fee run-rate grows ~20% (ongoing LRT integration, steady volumes), 2% token inflation begins Apr-2026.\n  - Forward revenue: ~$19.3m; holders revenue: ~$15.4m.\n  - Multiples: 15x revenue; 18x holders revenue.\n  - Implied equity value: $19.3m*15 ≈ $289m OR $15.4m*18 ≈ $277m. This clusters around current ~$312m market cap (i.e., broadly fairly valued on base assumptions).\n\n- Bull case\n  - Assumptions: TVL revisits highs and Boros ramps, YT/points fees remain strong; revenue doubles.\n  - Forward revenue: ~$32m; holders revenue: ~$25.6m.\n  - Multiples: 20x revenue; 22x holders revenue (expansion with growth dominance).\n  - Implied equity value: $640m–$563m.\n\n- Bear case\n  - Assumptions: activity/points cool; revenue down ~30%.\n  - Forward revenue: ~$11.2m; holders revenue: ~$9.0m.\n  - Multiples: 8–10x.\n  - Implied equity value: $90m–$112m.\n\nYield math for lockers\n- Current holders revenue: ~$12.83m annualized to vePENDLE.\n- Estimated PENDLE locked: ~$127.23m / $1.89 ≈ 67.3m tokens.\n- Fee flow per locked token: ~$0.19/year; dollar yield ≈10.1%.\n- Dilution overlay: terminal 2% annual inflation affects total supply; while emissions go to incentives/LPs, long-term holders care about fee growth outpacing dilution.\n\nKey things to monitor\n- Mix and magnitude of fees: split between YT (incl. points) vs swap fees; stickiness of “points-season” income.\n- Boros traction: share of total fees and sustainability vs cyclical funding-rate trades.\n- TVL composition: share of LSTs vs LRTs; maturity ladders; concentration risks by asset/chain.\n- vePENDLE dynamics: lock rate, bribing markets, voter concentration, and net real yield after bribes/incentives.\n- Governance/treasury: buyback/fee-forward behavior, treasury use, any changes to fee splits or emissions beyond terminal 2%.\n\nRisks\n- Underlying protocol risk in SYs (smart contract or depeg risks for LST/LRT).\n- Regulatory uncertainty around yield and points.\n- Liquidity/maturity cliffs causing rate/price dislocations.\n- Competitive displacement if larger venues launch native yield-rate markets.\n\nBottom line\n- On current run-rate metrics, Pendle screens around 19–24x revenue/holders-revenue with a ~10% dollar APR to lockers and TVL of ~$3.7b, supported by a clear value-capture design (5% YT/points fees + swap fees with 80% to vePENDLE). \n- If Boros/points/LRT activity sustains and fee growth outpaces the 2% terminal inflation, upside toward a ~$550–650m market cap is reasonable; if activity normalizes lower, downside to sub-$150m is plausible.\n- For token holders considering locking, the fee-forwarded “real yield” is competitive, but sensitive to activity/points cycles and governance allocations.\n\nSources and references\n- Fees, distribution, vePENDLE features: Pendle docs (Fees; vePENDLE)\n- Emissions and supply: Pendle docs (Tokenomics)\n- Protocol metrics: DefiLlama (Pendle protocol page)\n- Supply/circulation snapshot: Messari (Pendle project page)\n- Context/catalysts: Pendle Medium (2025 roadmap), CoinDesk coverage of TVL and Boros launch\n\nIf you want, I can:\n- Break revenue into YT vs swap components using Dune/SDK sampling.\n- Build a live-updating Google Sheet with the above metrics and scenarios.\n- Add peer comps (GMX, dYdX, Synthetix, Maker) on consistent revenue/earnings multiples.",
+    "executionTimeMs": 141584,
+    "totalTokens": 90647,
+    "stepCount": 7,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Pendle protocol revenue fees tokenomics vePENDLE buyback 2025 2026",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Pendle fees revenue vePENDLE share fees swap fee pendle docs",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "docs.pendle.finance"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:docs.pendle.finance Fees Pendle has 2 sources of fees Fee Distribution 20% of swap fees given to LP the remainder",
+          "numResults": 5,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "docs.pendle.finance"
+          ],
+          "maxCharacters": 6000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Pendle protocol revenue Token Terminal 2025 2026 monthly revenue vePENDLE fees",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "tokenterminal.com",
+            "defillama.com",
+            "dune.com",
+            "metrics.tokenterminal.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Pendle TVL 2025 2026 LRT points EigenLayer Pendle growth 2025 TVL billions",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "theblock.co",
+            "coindesk.com",
+            "messari.io",
+            "decrypt.co",
+            "medium.com",
+            "x.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Pendle treasury holdings DefiLlama treasury protocol treasury PENDLE",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

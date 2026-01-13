@@ -54,6 +54,7 @@ export interface DroydSearchResponse {
  */
 export async function droydSearch(options: DroydSearchOptions): Promise<DroydSearchResponse> {
   const apiKey = process.env.DROYD_API_KEY;
+  const userId = process.env.DROYD_USER_ID; // optional 
 
   if (!apiKey) {
     throw new Error('DROYD_API_KEY environment variable is not set');
@@ -122,6 +123,7 @@ export async function droydSearch(options: DroydSearchOptions): Promise<DroydSea
       method: 'POST',
       headers: {
         'x-droyd-api-key': apiKey,
+        'x-droyd-user-id': userId ?? "", // not required
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(requestBody),

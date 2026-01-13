@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "YjS6mHt2",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "YjS6mHt2",
+    "query": "of the memecoins with the highest mindshare growth, which assets have the best catalysts and narrative sustainability potential?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, here's what I can confidently tell you about memecoins with high mindshare growth and their sustainability potential:\n\n## TL;DR\n\n**PEPE** currently dominates Ethereum memecoin mindshare at **1.1%**, while newcomer **MANYU** shows explosive growth with **0.86% mindshare (up 60% in 24h)**. On Solana, **TROLL** has captured **~12% ecosystem mindshare** after an 800% surge. However, smart money is exiting TROLL (-56% holdings), raising sustainability concerns.\n\n## What I Can Answer Confidently\n\nHere's what the data shows:\n\n- **PEPE**: Maintains #1 Ethereum memecoin position with 1.1% mindshare, recently listed on Binance USD1 pairs [x.com](https://x.com/worldlibertyfi/status/2010658164879089672)\n- **MANYU**: Rapidly growing with 0.86% mindshare (+60% in 24h), leading hype metrics with 73 hype score and 89% bullish sentiment [x.com](https://x.com/DexCheck_io/status/2010269215014400481)\n- **TROLL**: Dominates Solana with ~12% ecosystem mindshare after 800% surge, but smart money holdings down 56% [thedefiant.io](https://thedefiant.io/news/defi/troll-memecoin-explodes-800-dominating-solana-mindshare)\n\n| Memecoin | Mindshare | Growth | Ecosystem | Sustainability Signal |\n|----------|-----------|---------|-----------|----------------------|\n| PEPE     | 1.1%      | Stable  | Ethereum  | **Strong** - Established, Binance listing |\n| MANYU    | 0.86%     | +60% 24h| Ethereum  | **Promising** - High hype, organic growth |\n| TROLL    | ~12%      | Recent surge | Solana   | **Concerning** - Smart money exiting |\n\n## Analysis of Available Information\n\n### Confirmed Details\n\n**PEPE** shows the strongest narrative sustainability with its established position, Binance integration, and consistent community support. The recent USD1 pairing on Binance provides legitimate exchange support that many memecoins lack.\n\n**MANYU** demonstrates the most impressive organic growth metrics: 13% price increase, 30% higher trading volume, 184 new holders in 24h (984 in 7 days), and positive CEX flows (+$10k net withdrawals). This suggests genuine accumulation rather than pure speculation.\n\n**TROLL** presents a cautionary case - while dominating Solana mindshare, the 56% reduction in smart money holdings during the rally indicates insiders are taking profits, questioning its sustainability.\n\n### What's Missing\n\nTo give you a complete picture, I'd need:\n\n- **Current mindshare rankings** beyond the top few mentions to identify other high-growth candidates\n- **Specific catalyst timelines** for each project (partnerships, events, developments)\n- **On-chain metrics** for wallet distribution, holder behavior, and liquidity patterns\n- **Social sentiment depth** beyond basic percentages to understand narrative quality\n- **Comparative analysis** against other trending memecoins beyond these three\n\nThese gaps prevent identifying the absolute \"best\" catalysts and make comprehensive sustainability assessment difficult.\n\n## Recommendation\n\n**For deeper insight**, use Deep Research to gather:\n\n- Complete memecoin mindshare rankings across all chains\n- Detailed on-chain analysis of holder behavior and smart money movements\n- Comprehensive catalyst calendars and development roadmaps\n- Cross-chain comparison of sustainability metrics\n- Social sentiment deep dive into narrative quality and community engagement\n\nThis will fill in the missing pieces and provide the comprehensive answer you're looking for.\n\n**Next step**: Start a new conversation and select **Deep Research** mode (ASK can't launch Deep Research directly from here).",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

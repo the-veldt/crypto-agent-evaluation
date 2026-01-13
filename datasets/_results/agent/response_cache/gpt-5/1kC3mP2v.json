@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.450Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 709
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 8888
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9423
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 10239
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "Do you mean crypto assets on X/Twitter? And over what window (last hour, 24h, or week)? If you confirm, I can pull a fresh snapshot of the top-mentioned tickers.\n\nQuick snapshot from publicly available social/market sources over the past couple of days:\n- Solana (SOL): Active discussion around price action and network growth dynamics; Santiment notes community focus on whether SOL’s network growth can re-accelerate as it tests resistance. Source: Santiment insights\n  https://app.santiment.net/insights/read/solana-s-network-growth-failing-to-grow-capping-the-coin-s-price-potential-10436\n- Broad cashtag chatter (BTC, ETH, SOL, DOGE, etc.) is in the spotlight due to X’s upcoming “Smart Cashtags,” which has Crypto Twitter debating cashtag accuracy and live pricing. Sources:\n  - CoinDesk on Smart Cashtags\n    https://www.coindesk.com/tech/2026/01/11/x-s-head-of-product-teases-crypto-aware-smart-cashtags-one-day-after-crypto-twitter-backlash\n  - CryptoBriefing overview\n    https://cryptobriefing.com/x-smart-cashtags-asset-tracking-live-pricing\n- General weekend social trends included non-asset keywords (e.g., “Nikita” related to CT algorithm debates), indicating meta-discussion about Crypto Twitter itself alongside usual BTC/ETH/SOL chatter. Source: Santiment social trends insight\n  https://app.santiment.net/insights/read/these-keywords-are-making-headlines-this-weekend-10434\n\nIf you want, I can return:\n- Top 20 crypto cashtags on X for the last 24h, ranked by mention volume\n- Breakout movers by social volume change (e.g., which tickers spiked the most vs. their baseline)\n- Sector-specific chatter (memecoins, AI, RWA, Solana-ecosystem)",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 11858
+        }
+      }
+    ],
+    "finalAnswer": "Do you mean crypto assets on X/Twitter? And over what window (last hour, 24h, or week)? If you confirm, I can pull a fresh snapshot of the top-mentioned tickers.\n\nQuick snapshot from publicly available social/market sources over the past couple of days:\n- Solana (SOL): Active discussion around price action and network growth dynamics; Santiment notes community focus on whether SOL’s network growth can re-accelerate as it tests resistance. Source: Santiment insights\n  https://app.santiment.net/insights/read/solana-s-network-growth-failing-to-grow-capping-the-coin-s-price-potential-10436\n- Broad cashtag chatter (BTC, ETH, SOL, DOGE, etc.) is in the spotlight due to X’s upcoming “Smart Cashtags,” which has Crypto Twitter debating cashtag accuracy and live pricing. Sources:\n  - CoinDesk on Smart Cashtags\n    https://www.coindesk.com/tech/2026/01/11/x-s-head-of-product-teases-crypto-aware-smart-cashtags-one-day-after-crypto-twitter-backlash\n  - CryptoBriefing overview\n    https://cryptobriefing.com/x-smart-cashtags-asset-tracking-live-pricing\n- General weekend social trends included non-asset keywords (e.g., “Nikita” related to CT algorithm debates), indicating meta-discussion about Crypto Twitter itself alongside usual BTC/ETH/SOL chatter. Source: Santiment social trends insight\n  https://app.santiment.net/insights/read/these-keywords-are-making-headlines-this-weekend-10434\n\nIf you want, I can return:\n- Top 20 crypto cashtags on X for the last 24h, ranked by mention volume\n- Breakout movers by social volume change (e.g., which tickers spiked the most vs. their baseline)\n- Sector-specific chatter (memecoins, AI, RWA, Solana-ecosystem)",
+    "executionTimeMs": 88296,
+    "totalTokens": 41117,
+    "stepCount": 5,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "LunarCrush trending coins today Twitter social volume 2026",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "lunarcrush.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Santiment trending social volume Twitter X today crypto 2026",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "santiment.net",
+            "app.santiment.net",
+            "x.com",
+            "twitter.com",
+            "medium.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "CoinTrendz top trending coins on Twitter 2026",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cointrendz.com",
+            "cryptorank.io"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Crypto Twitter trending coins today 2026 X cashtags",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cryptoslate.com",
+            "coindesk.com",
+            "cointelegraph.com",
+            "theblock.co",
+            "beincrypto.com",
+            "cryptobriefing.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto twitter trending coins today site:lunarcrush.com 2026",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "lunarcrush.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top trending cashtags on X today crypto 2026 site:cryptorank.io trending",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cryptorank.io"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Crypto Twitter 'trending' SOL 2026 Jan 12 X mention social volume Santiment",
+          "numResults": 5,
+          "startPublishedDate": "2026-01-10",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "app.santiment.net",
+            "santiment.net",
+            "x.com",
+            "twitter.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

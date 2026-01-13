@@ -1,15 +1,26 @@
+/**
+ * Agent Evaluation Runner V2 - Pairwise Comparison Framework
+ *
+ * Orchestrates evaluation using pairwise comparisons and ELO/Bradley-Terry rankings.
+ * Supports automatic rawResponse stripping for smaller output files.
+ */
+
 import { readFile, mkdir, writeFile, readdir } from 'fs/promises';
 import { join, basename } from 'path';
 import { modelMap } from '../../agents/agentFactory/models';
 import { executeAgent } from './agentExecutor';
-import { formatAgentResultForEvaluation } from './agentResultFormatter';
-import { evaluateAgentResult } from './evaluateAgentResult';
+import { pairwiseCompareSimple } from './evaluateAgentResult';
+import {
+  calculateEloRatings,
+  calculateBradleyTerryRatings,
+} from './rankings';
 import type { EvalQuestion } from '../../../datasets/types/evalQuestion';
 import type {
-  AgentEvaluationConfig,
-  EvaluationRunResult,
-  QuestionEvaluationResult,
+  AgentEvaluationConfigV2,
+  EvaluationRunResultV2,
+  QuestionEvaluationResultV2,
   AgentSystemResult,
+  PairwiseComparison,
 } from './types';
 
 /**
@@ -28,9 +39,7 @@ async function loadDatasets(
   if (datasets === 'all') {
     // Load all .json files from datasets/agent/
     const files = await readdir(DATASETS_DIR);
-    filePaths = files
-      .filter((f) => f.endsWith('.json'))
-      .map((f) => join(DATASETS_DIR, f));
+    filePaths = files.filter((f) => f.endsWith('.json')).map((f) => join(DATASETS_DIR, f));
   } else if (Array.isArray(datasets)) {
     filePaths = datasets;
   } else {
@@ -51,7 +60,7 @@ async function loadDatasets(
     const datasetName = basename(filePath, '.json');
 
     // Tag each question with its source dataset
-    const taggedQuestions = questions.map(q => ({ ...q, dataset: datasetName }));
+    const taggedQuestions = questions.map((q) => ({ ...q, dataset: datasetName }));
     allQuestions.push(...taggedQuestions);
     datasetNames.push(datasetName);
   }
@@ -62,7 +71,7 @@ async function loadDatasets(
 /**
  * Validate that required API keys are present
  */
-function validateApiKeys(config: AgentEvaluationConfig): void {
+function validateApiKeys(config: AgentEvaluationConfigV2): void {
   const errors: string[] = [];
 
   // Check judge model API key
@@ -83,10 +92,7 @@ function validateApiKeys(config: AgentEvaluationConfig): void {
     errors.push('OPENAI_API_KEY is required when testing GPT-5 agent');
   }
 
-  if (
-    config.agentSystems.includes('gemini-3-flash') &&
-    !process.env.GOOGLE_GENERATIVE_AI_API_KEY
-  ) {
+  if ((config.agentSystems.includes('gemini-3-flash') || config.agentSystems.includes('gemini-3-pro')) && !process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
     errors.push('GOOGLE_GENERATIVE_AI_API_KEY is required when testing Gemini agent');
   }
 
@@ -100,63 +106,95 @@ function validateApiKeys(config: AgentEvaluationConfig): void {
 }
 
 /**
+ * Generate all unique pairs from a list of systems
+ * For N systems, generates N*(N-1)/2 pairs
+ */
+function generateAllPairs(systems: string[]): Array<[string, string]> {
+  const pairs: Array<[string, string]> = [];
+
+  for (let i = 0; i < systems.length; i++) {
+    for (let j = i + 1; j < systems.length; j++) {
+      pairs.push([systems[i], systems[j]]);
+    }
+  }
+
+  return pairs;
+}
+
+/**
+ * Strip rawResponse from agent results to reduce file size
+ */
+function stripRawResponse(agentResults: AgentSystemResult[]): AgentSystemResult[] {
+  return agentResults.map((result) => {
+    const { rawResponse, ...rest } = result;
+    return rest as AgentSystemResult;
+  });
+}
+
+/**
+ * Calculate win rate matrix from comparisons
+ */
+function calculateWinRateMatrix(comparisons: PairwiseComparison[]): {
+  [systemPair: string]: {
+    system1: string;
+    system2: string;
+    system1Wins: number;
+    system2Wins: number;
+    ties: number;
+    system1WinRate: number;
+  };
+} {
+  const matrix: any = {};
+
+  for (const comparison of comparisons) {
+    const key = `${comparison.systemA}_vs_${comparison.systemB}`;
+
+    if (!matrix[key]) {
+      matrix[key] = {
+        system1: comparison.systemA,
+        system2: comparison.systemB,
+        system1Wins: 0,
+        system2Wins: 0,
+        ties: 0,
+        system1WinRate: 0,
+      };
+    }
+
+    if (comparison.winner === 'A') {
+      matrix[key].system1Wins++;
+    } else if (comparison.winner === 'B') {
+      matrix[key].system2Wins++;
+    } else {
+      matrix[key].ties++;
+    }
+  }
+
+  // Calculate win rates
+  for (const key in matrix) {
+    const data = matrix[key];
+    const total = data.system1Wins + data.system2Wins + data.ties;
+    data.system1WinRate = total > 0 ? data.system1Wins / total : 0;
+  }
+
+  return matrix;
+}
+
+/**
  * Calculate summary statistics from evaluation results
  */
-export function calculateSummary(results: QuestionEvaluationResult[]) {
-  const summary = {
-    totalQuestions: results.length,
-    successfulEvaluations: 0,
-    failedEvaluations: 0,
-    averageScores: {} as {
-      [system: string]: {
-        overall: number;
-        taskCompletion: number;
-        answerQuality: number;
-        reasoningQuality: number;
-        efficiency: number;
-      };
-    },
-    averageScoresByDataset: {} as {
-      [dataset: string]: {
-        [system: string]: {
-          overall: number;
-          taskCompletion: number;
-          answerQuality: number;
-          reasoningQuality: number;
-          efficiency: number;
-        };
-      };
-    },
-    averageExecutionTime: {} as {
-      [system: string]: number;
-    },
-    averageSteps: {} as {
-      [system: string]: number;
-    },
-  };
+function calculateSummaryV2(
+  results: QuestionEvaluationResultV2[],
+  config: AgentEvaluationConfigV2
+): EvaluationRunResultV2['summary'] {
+  let totalComparisons = 0;
+  let successfulEvaluations = 0;
+  let failedEvaluations = 0;
 
-  const systemScores: {
-    [system: string]: {
-      overall: number[];
-      taskCompletion: number[];
-      answerQuality: number[];
-      reasoningQuality: number[];
-      efficiency: number[];
-    };
-  } = {};
+  // Cache statistics tracking
+  let cacheHits = 0;
+  let freshExecutions = 0;
 
-  const datasetSystemScores: {
-    [dataset: string]: {
-      [system: string]: {
-        overall: number[];
-        taskCompletion: number[];
-        answerQuality: number[];
-        reasoningQuality: number[];
-        efficiency: number[];
-      };
-    };
-  } = {};
-
+  const allComparisons: PairwiseComparison[] = [];
   const systemMetrics: {
     [system: string]: {
       executionTimes: number[];
@@ -164,125 +202,101 @@ export function calculateSummary(results: QuestionEvaluationResult[]) {
     };
   } = {};
 
-  // Collect all scores and metrics by system
+  // Collect all data
   for (const result of results) {
-    for (const evaluation of result.evaluations) {
-      const { system, evaluation: evalData } = evaluation;
-      const dataset = result.dataset;
-
-      // Initialize score tracking by system
-      if (!systemScores[system]) {
-        systemScores[system] = {
-          overall: [],
-          taskCompletion: [],
-          answerQuality: [],
-          reasoningQuality: [],
-          efficiency: [],
-        };
-      }
-
-      systemScores[system].overall.push(evalData.overall_score);
-      systemScores[system].taskCompletion.push(evalData.task_completion_score);
-      systemScores[system].answerQuality.push(evalData.answer_quality_score);
-      systemScores[system].reasoningQuality.push(evalData.reasoning_quality_score);
-      systemScores[system].efficiency.push(evalData.efficiency_score);
-
-      // Initialize score tracking by dataset + system
-      if (!datasetSystemScores[dataset]) {
-        datasetSystemScores[dataset] = {};
-      }
-      if (!datasetSystemScores[dataset][system]) {
-        datasetSystemScores[dataset][system] = {
-          overall: [],
-          taskCompletion: [],
-          answerQuality: [],
-          reasoningQuality: [],
-          efficiency: [],
-        };
-      }
-
-      datasetSystemScores[dataset][system].overall.push(evalData.overall_score);
-      datasetSystemScores[dataset][system].taskCompletion.push(evalData.task_completion_score);
-      datasetSystemScores[dataset][system].answerQuality.push(evalData.answer_quality_score);
-      datasetSystemScores[dataset][system].reasoningQuality.push(evalData.reasoning_quality_score);
-      datasetSystemScores[dataset][system].efficiency.push(evalData.efficiency_score);
-
-      summary.successfulEvaluations++;
+    if (result.error) {
+      failedEvaluations++;
+      continue;
     }
 
-    // Collect execution metrics from agent results
+    allComparisons.push(...result.pairwiseComparisons);
+    totalComparisons += result.pairwiseComparisons.length;
+
+    if (result.pairwiseComparisons.length > 0) {
+      successfulEvaluations++;
+    }
+
+    // Collect execution metrics and track cache hits
     for (const agentResult of result.agentResults) {
       if (!agentResult.error) {
+        // Track cache hits vs fresh executions
+        if ((agentResult as any)._fromCache) {
+          cacheHits++;
+        } else {
+          freshExecutions++;
+        }
+
         if (!systemMetrics[agentResult.system]) {
           systemMetrics[agentResult.system] = {
             executionTimes: [],
             stepCounts: [],
           };
         }
-
         systemMetrics[agentResult.system].executionTimes.push(agentResult.executionTimeMs);
         systemMetrics[agentResult.system].stepCounts.push(agentResult.stepCount);
       }
     }
+  }
 
-    if (result.error || result.evaluations.length === 0) {
-      summary.failedEvaluations++;
+  // Calculate rankings (no dimensional breakdowns in simple mode)
+  const systems = config.agentSystems;
+  let eloRankings, bradleyTerryRankings;
+
+  if (allComparisons.length > 0) {
+    if (config.rankingMethod === 'elo') {
+      eloRankings = calculateEloRatings(allComparisons, systems);
+    } else {
+      bradleyTerryRankings = calculateBradleyTerryRatings(allComparisons, systems);
     }
   }
 
-  // Calculate averages
-  const avg = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / arr.length;
-
-  for (const [system, scores] of Object.entries(systemScores)) {
-    summary.averageScores[system] = {
-      overall: avg(scores.overall),
-      taskCompletion: avg(scores.taskCompletion),
-      answerQuality: avg(scores.answerQuality),
-      reasoningQuality: avg(scores.reasoningQuality),
-      efficiency: avg(scores.efficiency),
-    };
-  }
-
-  for (const [dataset, systems] of Object.entries(datasetSystemScores)) {
-    summary.averageScoresByDataset[dataset] = {};
-    for (const [system, scores] of Object.entries(systems)) {
-      summary.averageScoresByDataset[dataset][system] = {
-        overall: avg(scores.overall),
-        taskCompletion: avg(scores.taskCompletion),
-        answerQuality: avg(scores.answerQuality),
-        reasoningQuality: avg(scores.reasoningQuality),
-        efficiency: avg(scores.efficiency),
-      };
-    }
-  }
+  // Calculate execution metrics
+  const averageExecutionTime: any = {};
+  const averageSteps: any = {};
 
   for (const [system, metrics] of Object.entries(systemMetrics)) {
-    summary.averageExecutionTime[system] = avg(metrics.executionTimes);
-    summary.averageSteps[system] = avg(metrics.stepCounts);
+    const avg = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / arr.length;
+    averageExecutionTime[system] = avg(metrics.executionTimes);
+    averageSteps[system] = avg(metrics.stepCounts);
   }
 
-  return summary;
+  return {
+    totalQuestions: results.length,
+    successfulEvaluations,
+    failedEvaluations,
+    totalComparisons,
+    eloRankings,
+    bradleyTerryRankings,
+    winRateMatrix: calculateWinRateMatrix(allComparisons),
+    averageExecutionTime,
+    averageSteps,
+    // Add cache statistics if cache was used
+    ...(config.useCache && {
+      cacheStatistics: {
+        hits: cacheHits,
+        misses: freshExecutions,
+        hitRate: cacheHits + freshExecutions > 0 ? cacheHits / (cacheHits + freshExecutions) : 0,
+      },
+    }),
+  };
 }
 
 /**
- * Run agent evaluation for a dataset
+ * Run agent evaluation with pairwise comparisons (V2)
  *
  * @param config - Evaluation configuration
- * @returns Complete evaluation results
+ * @returns Complete evaluation results with rankings
  */
 export async function runAgentEvaluation(
-  config: AgentEvaluationConfig
-): Promise<EvaluationRunResult> {
+  config: AgentEvaluationConfigV2
+): Promise<EvaluationRunResultV2> {
   // 1. Validate API keys
   console.log('Validating API keys...');
   validateApiKeys(config);
 
   // 2. Load datasets
   console.log('Loading datasets...');
-  const { questions, datasetNames } = await loadDatasets(
-    config.datasets,
-    config.useTestDatasets
-  );
+  const { questions, datasetNames } = await loadDatasets(config.datasets, config.useTestDatasets);
   console.log(
     `Loaded ${questions.length} questions from ${datasetNames.length} dataset(s): ${datasetNames.join(', ')}${config.useTestDatasets ? ' (TEST MODE)' : ''}\n`
   );
@@ -301,7 +315,7 @@ export async function runAgentEvaluation(
   const runId = new Date().toISOString();
   const dataset = datasetNames.join('+');
 
-  const evaluationResult: EvaluationRunResult = {
+  const evaluationResult: EvaluationRunResultV2 = {
     runId,
     timestamp: runId,
     config,
@@ -312,8 +326,8 @@ export async function runAgentEvaluation(
       totalQuestions: 0,
       successfulEvaluations: 0,
       failedEvaluations: 0,
-      averageScores: {},
-      averageScoresByDataset: {},
+      totalComparisons: 0,
+      winRateMatrix: {},
       averageExecutionTime: {},
       averageSteps: {},
     },
@@ -329,26 +343,25 @@ export async function runAgentEvaluation(
     console.log(`Processing Question ${questionNum}/${questions.length} (qid: ${question.qid})`);
     console.log(`  Query: "${question.query}"`);
 
-    const questionResult: QuestionEvaluationResult = {
+    const questionResult: QuestionEvaluationResultV2 = {
       question,
       dataset: question.dataset,
       agentResults: [],
-      evaluations: [],
+      pairwiseComparisons: [],
+      rankings: {},
       timestamp: new Date().toISOString(),
     };
 
     try {
-      // Execute agents for configured systems
-      const agentPromises: Promise<AgentSystemResult>[] = [];
-
-      for (const system of config.agentSystems) {
-        agentPromises.push(executeAgent(question.query, system, config));
-      }
+      // Execute all agents in parallel (with cache support)
+      const agentPromises = config.agentSystems.map((system) =>
+        executeAgent(question.query, system, config, question.qid)
+      );
 
       const agentResults = await Promise.all(agentPromises);
       questionResult.agentResults = agentResults;
 
-      // Log agent execution
+      // Log execution
       for (const result of agentResults) {
         if (result.error) {
           console.log(`  Running ${result.system} agent... ✗ (${result.error})`);
@@ -359,38 +372,63 @@ export async function runAgentEvaluation(
         }
       }
 
-      // Evaluate each successful agent run
-      for (const agentResult of agentResults) {
-        if (agentResult.error) {
-          continue; // Skip failed agents
-        }
+      // Filter successful results
+      const successfulResults = agentResults.filter((r) => !r.error);
+      const successfulSystems = successfulResults.map((r) => r.system);
 
-        try {
-          const formattedTrace = formatAgentResultForEvaluation(
-            agentResult,
-            question.query
-          );
+      if (successfulResults.length < 2) {
+        console.log(
+          `  ⚠ Only ${successfulResults.length} successful agent(s), skipping pairwise comparisons`
+        );
+        continue;
+      }
 
-          const evaluation = await evaluateAgentResult({
-            model: judgeModel,
-            evalQuestion: question.query,
-            agentTrace: formattedTrace,
-          });
+      // Generate all pairs
+      const pairs = generateAllPairs(successfulSystems);
+      console.log(`  Running ${pairs.length} pairwise comparisons...`);
 
-          questionResult.evaluations.push({
-            system: agentResult.system,
-            evaluation,
-            formattedAgentTrace: formattedTrace,
-          });
+      // Perform pairwise comparisons in parallel (simplified output-only evaluation)
+      const comparisonPromises = pairs.map(([systemA, systemB]) => {
+        const resultA = successfulResults.find((r) => r.system === systemA)!;
+        const resultB = successfulResults.find((r) => r.system === systemB)!;
 
-          console.log(
-            `  Evaluating ${agentResult.system} results... ✓ (score: ${evaluation.overall_score.toFixed(1)}/10)`
-          );
-        } catch (error) {
-          console.log(
-            `  Evaluating ${agentResult.system} results... ✗ (${error instanceof Error ? error.message : 'Unknown error'})`
-          );
-        }
+        return pairwiseCompareSimple({
+          model: judgeModel,
+          question: question.query,
+          systemAResult: resultA,
+          systemBResult: resultB,
+          systemAName: systemA,
+          systemBName: systemB,
+        }).then((comparison) => ({
+          ...comparison,
+          questionId: question.qid,
+        }));
+      });
+
+      const comparisons = await Promise.all(comparisonPromises);
+      questionResult.pairwiseComparisons = comparisons;
+
+      // Log comparisons
+      for (const comparison of comparisons) {
+        const winnerLabel =
+          comparison.winner === 'tie'
+            ? 'TIE'
+            : comparison.winner === 'A'
+              ? comparison.systemA
+              : comparison.systemB;
+        console.log(
+          `    ${comparison.systemA} vs ${comparison.systemB}: ${winnerLabel} (${comparison.confidence})`
+        );
+      }
+
+      // Calculate rankings for this question
+      if (config.rankingMethod === 'elo') {
+        questionResult.rankings.elo = calculateEloRatings(comparisons, successfulSystems);
+      } else {
+        questionResult.rankings.bradleyTerry = calculateBradleyTerryRatings(
+          comparisons,
+          successfulSystems
+        );
       }
     } catch (error) {
       questionResult.error = error instanceof Error ? error.message : 'Unknown error';
@@ -402,11 +440,27 @@ export async function runAgentEvaluation(
   }
 
   // 7. Calculate summary statistics
-  evaluationResult.summary = calculateSummary(evaluationResult.results);
+  evaluationResult.summary = calculateSummaryV2(evaluationResult.results, config);
 
-  // 8. Save results
+  // 8. Strip rawResponse and cache metadata if configured (default: true)
+  if (!config.keepRawResponse) {
+    console.log('Stripping rawResponse data from results...');
+    for (const result of evaluationResult.results) {
+      result.agentResults = stripRawResponse(result.agentResults);
+    }
+  }
+
+  // Always strip cache metadata before saving (internal tracking only)
+  for (const result of evaluationResult.results) {
+    result.agentResults = result.agentResults.map((ar) => {
+      const { _fromCache, ...rest } = ar as any;
+      return rest as AgentSystemResult;
+    });
+  }
+
+  // 9. Save results
   const timestamp = runId.replace(/:/g, '-').replace(/\..+/, '');
-  const outputFileName = `agent-eval-${dataset}-${timestamp}.json`;
+  const outputFileName = `agent-eval-${dataset}-${timestamp}-v2.json`;
   const outputPath = join(config.outputDir, outputFileName);
 
   await writeFile(outputPath, JSON.stringify(evaluationResult, null, 2), 'utf-8');

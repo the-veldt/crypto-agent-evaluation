@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "uE6aLvPo",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "uE6aLvPo",
+    "query": "what assets (over $50k in 30d revenue) have had the highest growth in revenue in the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR\nNo specific data on crypto assets with over $50k in 30-day revenue and their growth rates is available from current sources. General market news covers price movements in BTC, ETH, SOL, XRP, and others, but lacks protocol revenue metrics.\n\n───\n\nData Limitations  \nThe provided research from web searches between January 1 and January 13, 2026, focuses on price rallies, geopolitical influences, ETF developments, and exchange volumes, but does not include revenue figures (e.g., fees from DEXes, L2s, or protocols) or growth comparisons for any crypto assets. No sources detail 30-day revenue exceeding $50k or percentage growth rates.\n\nRelevant Market Context  \nRecent articles highlight Bitcoin surpassing $90k-$91k, XRP gaining 20% amid rotations from BTC/ETH CNBC, and broader gains in ETH, SOL, ADA driven by risk appetite and Venezuela-related news CoinDesk. Exchange volume growth like KuCoin's $1.25tn in 2025 is noted, but this is not asset-specific revenue.\n\nRecommendation  \nFor precise revenue data (e.g., from Dune Analytics, DefiLlama, or Artemis), query platforms tracking on-chain protocol fees directly, as this information is unavailable here. Elfa AI excels in social mindshare and calls, not financial revenue metrics.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

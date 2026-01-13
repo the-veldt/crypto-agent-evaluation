@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "V7kXm2Lq",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "V7kXm2Lq",
+    "query": "create a valuation analysis for Pendle",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_CQ8XQupJsfhHth6zbOOnJs57\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Pendle\",\n        \"PENDLE\"\n      ],\n      \"search_type\": \"name\",\n      \"limit\": 10\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_007830cd62e024ee006966b60a213c8192a08d805d46ed1dcc\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_BI8wnISmu2lMJ5ghLGK7O5Tj\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Pendle valuation fees revenue TVL yield tokenomics vePENDLE PT YT AMM 2024 2025\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        4694\n      ],\n      \"category_ids\": [\n        513\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_007830cd62e024ee006966b60a64f0819290f07a6cb5bf7e2b\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Pendle income statement + profitability inflection](https://res.cloudinary.com/dgjriemfd/image/upload/v1768196918/veldt/qbk4g23xeeytpsg3rrb6.jpg)\\n\\n## Pendle valuation: price the cashflows, not the TVL\\n**Pendle is an interest-rate venue** with two monetization engines: (1) yield tokenization (PT/YT) and (2) Boros funding-rate derivatives. That matters because the correct comp is closer to **rate/venue primitives** than “another DeFi app,” and because **fee mix** (yield-driven vs volume-driven) decides whether PENDLE deserves a re-rating.\\n\\n**Market snapshot (from Droyd project data, Jan 13 2026):**\\n- **Market cap:** **~$294M**\\n- **Price:** **~$2.20**\\n- Technicals: neutral regime; not relevant for valuation, but it signals no “momentum multiple” being paid.\\n\\n## What the protocol earns (and who gets it)\\n**Core fees:**\\n- **Yield fee:** **5%** of yield accrued by YTs + matured/unredeemed edge cases.\\n- **Swap fee:** ~**5 bps** on notional; **80%** to **vePENDLE**, **20%** to LPs (distribution detail consistently cited across research).\\n\\nFrom the Alea institutional work:\\n- **2025 fees:** **$44.6M**\\n- **2025 holders’ revenue:** **$34.9M** (≈80% of revenue routed to vePENDLE)\\n\\nThat lets you value PENDLE with **P / holders’ revenue** (closest to “owner earnings” given the design).\\n\\n> https://alearesearch.io/theses/pendle-one-venue-all-of-fixed-income\\n\\n## Multiples + scenarios (base / bear / bull)\\n### 1) Base case (repeat 2025 economics)\\nIf holders’ revenue stays near **$35M**:\\n- **P / holders’ revenue ≈ 294 / 35 = ~8.4x**\\n\\nThat’s already “cheap” for an onchain venue with a moat, but the market is penalizing **seasonality + concentration** (Ethena/stables cycles) and the **ve-lock discount** (illiquidity excludes a big buyer base).\\n\\n### 2) Bear case (current run-rate slump persists)\\nAlea’s Dec 30 2025 dashboard snapshot shows much lower annualized figures:\\n- **Annualized fees ~$15.9M**\\n- **Annualized holders’ revenue ~$12.5M**\\n- Implied **P / holders’ revenue ≈ 294 / 12.5 = ~23.5x**\\n\\nThat’s the “if yields compress + TVL churns” valuation regime. This is why Pendle trades like a beta asset even with real cashflow.\\n\\n### 3) Bull case (re-rate + Boros scales)\\nTwo independent upside levers:\\n- **Boros**: early traction cited at **~$6.9B notional**, **~$91M OI**, **~$301k fees** since Aug 2025; the *near-term* claim is **~15% incremental fees** if Boros gets to low-single-digit perps share.\\n- **Tokenomics change**: if Pendle shifts part of value accrual from ve-lock-only to **buybacks** (a recurring 2026 discussion point), you remove the structural discount and can justify higher liquid multiples.\\n\\nA clean bull model: holders’ revenue returns to **$35M** and grows **+15–30%** from Boros + stable/yield expansion → **$40–45M**:\\n- At **12–15x** holders’ revenue (blue-chip venue multiple): **$480–675M** equity value\\n- Versus **$294M** today: **~1.6–2.3x** upside without assuming a full mania multiple\\n\\n## What actually drives fair value\\n- **Fee durability**: stablecoin/RWA yield dominance is good if it’s sticky; bad if it’s purely “seasonal points rotation.”\\n- **Boros OI growth**: this is the cleanest forward indicator that Pendle becomes **volume monetization** (less TVL-dependent).\\n- **Governance direction**: vePENDLE is great for alignment, but it caps the buyer universe; any buyback-like mechanism is an immediate multiple expander.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_007830cd62e024ee006966b6262f6c819296dc9864d543a75e\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Pendle income statement + profitability inflection](https://res.cloudinary.com/dgjriemfd/image/upload/v1768196918/veldt/qbk4g23xeeytpsg3rrb6.jpg)\n\n## Pendle valuation: price the cashflows, not the TVL\n**Pendle is an interest-rate venue** with two monetization engines: (1) yield tokenization (PT/YT) and (2) Boros funding-rate derivatives. That matters because the correct comp is closer to **rate/venue primitives** than “another DeFi app,” and because **fee mix** (yield-driven vs volume-driven) decides whether PENDLE deserves a re-rating.\n\n**Market snapshot (from Droyd project data, Jan 13 2026):**\n- **Market cap:** **~$294M**\n- **Price:** **~$2.20**\n- Technicals: neutral regime; not relevant for valuation, but it signals no “momentum multiple” being paid.\n\n## What the protocol earns (and who gets it)\n**Core fees:**\n- **Yield fee:** **5%** of yield accrued by YTs + matured/unredeemed edge cases.\n- **Swap fee:** ~**5 bps** on notional; **80%** to **vePENDLE**, **20%** to LPs (distribution detail consistently cited across research).\n\nFrom the Alea institutional work:\n- **2025 fees:** **$44.6M**\n- **2025 holders’ revenue:** **$34.9M** (≈80% of revenue routed to vePENDLE)\n\nThat lets you value PENDLE with **P / holders’ revenue** (closest to “owner earnings” given the design).\n\n> https://alearesearch.io/theses/pendle-one-venue-all-of-fixed-income\n\n## Multiples + scenarios (base / bear / bull)\n### 1) Base case (repeat 2025 economics)\nIf holders’ revenue stays near **$35M**:\n- **P / holders’ revenue ≈ 294 / 35 = ~8.4x**\n\nThat’s already “cheap” for an onchain venue with a moat, but the market is penalizing **seasonality + concentration** (Ethena/stables cycles) and the **ve-lock discount** (illiquidity excludes a big buyer base).\n\n### 2) Bear case (current run-rate slump persists)\nAlea’s Dec 30 2025 dashboard snapshot shows much lower annualized figures:\n- **Annualized fees ~$15.9M**\n- **Annualized holders’ revenue ~$12.5M**\n- Implied **P / holders’ revenue ≈ 294 / 12.5 = ~23.5x**\n\nThat’s the “if yields compress + TVL churns” valuation regime. This is why Pendle trades like a beta asset even with real cashflow.\n\n### 3) Bull case (re-rate + Boros scales)\nTwo independent upside levers:\n- **Boros**: early traction cited at **~$6.9B notional**, **~$91M OI**, **~$301k fees** since Aug 2025; the *near-term* claim is **~15% incremental fees** if Boros gets to low-single-digit perps share.\n- **Tokenomics change**: if Pendle shifts part of value accrual from ve-lock-only to **buybacks** (a recurring 2026 discussion point), you remove the structural discount and can justify higher liquid multiples.\n\nA clean bull model: holders’ revenue returns to **$35M** and grows **+15–30%** from Boros + stable/yield expansion → **$40–45M**:\n- At **12–15x** holders’ revenue (blue-chip venue multiple): **$480–675M** equity value\n- Versus **$294M** today: **~1.6–2.3x** upside without assuming a full mania multiple\n\n## What actually drives fair value\n- **Fee durability**: stablecoin/RWA yield dominance is good if it’s sticky; bad if it’s purely “seasonal points rotation.”\n- **Boros OI growth**: this is the cleanest forward indicator that Pendle becomes **volume monetization** (less TVL-dependent).\n- **Governance direction**: vePENDLE is great for alignment, but it caps the buyer universe; any buyback-like mechanism is an immediate multiple expander.",
+    "executionTimeMs": 50769,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Pendle",
+            "PENDLE"
+          ],
+          "search_type": "name",
+          "limit": 10
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Pendle valuation fees revenue TVL yield tokenomics vePENDLE PT YT AMM 2024 2025",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 20,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            4694
+          ],
+          "category_ids": [
+            513
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 35678
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

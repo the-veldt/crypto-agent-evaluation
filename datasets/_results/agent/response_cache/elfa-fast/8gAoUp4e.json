@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "8gAoUp4e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8gAoUp4e",
+    "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "defi",
+      "derivatives"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nHyperliquid leads perp DEXs with ~20% volume share and ~50% OI share as of Jan 2026, ahead of rivals like Lighter, edgeX, and Paradex; key moats include its optimized L1 for high performance and consistent $2M daily revenue funding buybacks, while catalysts feature Grayscale consideration, equities integration via partners like Extended, and rising adoption in commodities/NFTs—positioning it as the 2026 frontrunner despite competition.\n\n───\n\nMarket Landscape\nThe perp DEX sector is highly competitive in 2026, with Hyperliquid maintaining dominance at over 20% of perp volume market share (up from recent lows) and nearly 50% open interest share, per recent metrics. (patfscott) Challengers include Lighter (#2), edgeX (#4, $91B 30D volume), Paradex (#7, $30.2B), Extended (#8, $29.3B), Pacifica (#9), GRVT (#6), and others like Ostium, Reya, and Nado, many pre-TGE and focused on niches such as TradFi assets, privacy, or specific L2s (e.g., Starknet, Solana). (BlockFlow_News) dYdX emphasizes incentives like 50% fee rebates and spot expansion (including U.S. Solana access), while GMX remains relevant but trails in volume rankings. (dYdX Analyst Call) Hyperliquid's edge persists post-airdrop farming dilution, with predictions it will end 2026 as \"#1 perp DEX.\" (Delphi_Digital)\n\nKey Moats\nHyperliquid's primary moats stem from its custom L1 blockchain, delivering CEX-level speed, low latency, and scalability without reliance on congested L2s—enabling features like portfolio margin and native markets for CEX parity. Consistent ~$2M daily revenue (even sans volatility/incentives) drives HYPE buybacks, reducing supply and supporting price stability. (Crypto_McKenna) Superior execution (e.g., Extended generating 4x fees vs. rivals on HYPE) and network effects from high OI/user base deter switchers. TVL stands at $4.5B with $5.9B market cap (1.3 MCAP/TVL ratio), underscoring efficiency. Unlike appchain rivals (e.g., dYdX on Cosmos) or L2-based (e.g., GMX on Arbitrum), Hyperliquid's vertical integration optimizes for perps from the ground up.\n\nCatalysts\nBullish signals include Grayscale evaluating HYPE for investment products, potentially unlocking institutional inflows. (PushpendraTech) Extended's $235K daily fees (4x rivals) and upcoming equities integration (possibly eToro) signal TradFi orderflow. (cyberxtremog) Adoption grows with $86M commodity volume (e.g., $SILVER) and first on-chain NFT (TinyHypercats). (esprisi0; bluegwei) HIP-3 scaling, USDC leak fixes, and volatility-driven OI highs loom large. (Crypto_McKenna) HYPE trades at $24.56 (+3.78% 24h, -9% 7d), with neutral tokenomics tweak via Kinetiq's $5M bounty/25% airdrop boosting security. (wassielawyer) Risks: Rising forks (Aster, Lighter) and pre-TGE volume grabbers could erode share if Hyperliquid lags innovation.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

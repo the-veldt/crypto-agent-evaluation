@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe tokens with the largest mindshare gains over the last 24 hours are Prime (PRIME) at +1233.55%, Mamo (MAMO) at +831.55%, and XDOG at +782.27%, based on Elfa AI's token leaderboard.\n\n───\n\nTop 10 Tokens by 24h Mindshare Gain\n\nThese rankings reflect the largest percentage increases in mindshare (share of social mentions across monitored platforms like Crypto Twitter and Telegram) over the past 24 hours, as per Elfa AI's current leaderboard data (sorted by mindshare_change, timeframe 1d).\n\n1. Prime (PRIME): +1233.55% (current 0.09%, 15 total mentions, 2 smart; bullish sentiment dominant). Chain: ETH. Price: $0.897. CA: 0xb23d80f5fefcddaa212212f028021b41ded428cf.\n\n2. Mamo (MAMO): +831.55% (current 0.06%, 10 total mentions, 3 smart; mostly neutral). Chain: Base. Price: $0.0264. CA: 0x7300B37DfdfAb110d83290A29DfB31B1740219fE.\n\n3. XDOG: +782.27% (current 0.06%, 10 total mentions, 2 smart; mostly bullish). Chain: X-Layer. Price: $0.00426. CA: 0x0cc24c51bf89c00c5affbfcf5e856c25ecbdb48e.\n\n4. zerebro (ZEREBRO): +754.24% (current 0.06%, 16 total mentions, 2 smart; bullish sentiment). Chain: Solana. Price: $0.0191. CA: 8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn.\n\n5. DoubleZero (2Z): +734.92% (current 0.06%, 9 total mentions, 3 smart; neutral-leaning). Chain: Solana. Price: $0.122. CA: J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd.\n\n6. Tetsuo Coin (TETSUO): +623.79% (current 0.05%, 9 total mentions, 0 smart; bullish sentiment). Chain: Solana. Price: $0.000927. CA: 8i51XNNpGaKaj4G4nDdmQh95v4FKAxw8mhtaRoKd9tE8.\n\n7. BankrCoin (BNKR): +623.79% (current 0.05%, 8 total mentions, 1 smart; neutral sentiment). Chain: Base. Price: $0.000241. CA: 0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b.\n\n8. Melania Meme (MELANIA): +543.97% (current 0.21%, 35 total mentions, 2 smart; neutral-dominant). Chain: Solana. Price: $0.184. CA: FUAfBo2jgks6gB4Z4LfZkqSZgzNucisEHqnNebaRxM1P.\n\n9. Fluid (FLUID): +527.15% (current 0.04%, 7 total mentions, 2 smart; bullish sentiment). Chain: ETH. Price: $3.26. CA: 0x6f40d4a6237c257fff2db00fa0510deeecd303eb.\n\n10. Destroy is Building Token (DBT): +520.39% (current 0.04%, 21 total mentions, 0 smart; highly bullish). Chain: BSC. Price: $0.218. CA: 0xb0ad9c2313b9719ea0ccd43d7e7e1fd07e7cbd90.\n\nKey Observations\nMost top gainers show bullish or neutral sentiment with low smart account mentions, indicating early hype phases. No significant smart calls (long/short) in the past day for these tokens. Mindshare data is from Elfa AI's leaderboard; prices are current snapshots as of 2026-01-13. These trends can shift rapidly—use for spotting potential opportunities but verify independently.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "WcY3oXz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcY3oXz8",
+    "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+    "level": 2,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nAave (AAVE), Morpho (MORPHO), and Uniswap (UNI) lead DeFi mindshare with 13.28%, 7.66% (+82.70%), and 11.08% respectively over the past 7 days; they drive narrative shifts via TVL growth in lending (Aave doubled YoY, Morpho at ~5-6% DeFi TVL share) and DEX activity, fueled by protocol upgrades, ecosystem expansions on chains like Monad/Solana, and a broader pivot from passive staking to active lending/restaking.\n\n───\n\nMindshare Leaders from Elfa AI Leaderboard\nThe top DeFi protocols by 7-day mindshare are Aave, Uniswap, and Morpho, per Elfa AI's token leaderboard (sorted by top mindshare, DeFi category). Aave holds the #1 spot at 13.28% mindshare (809 total mentions, 207 smart), despite a -4.32% dip. Morpho ranks #4 with 7.66% (+82.70% change, 466 mentions), signaling rapid gains. Uniswap follows at #2 with 11.08% (670 mentions). These reflect concentrated discussion on established lending/DEX primitives amid TVL shifts.\n\nTVL Growth and Narrative Shifts\nDeFi TVL rankings show a shift from passive staking (e.g., Lido down) to active lending (Aave, Morpho), restaking (EigenLayer, ether.fi), and stables (Ethena, Sky) year-over-year as of Jan 12, 2026 (CryptoDiffer). Aave's TVL doubled from Jan 2025-2026 (doomsdart); Morpho's DeFi TVL share hit ~5-6%, with steady growth since 2023 (PaulFrambot, tokenterminal). Overall DeFi TVL remains flat YoY, prompting calls for liquidity waves via Aave v4 and apps (alphaleaked).\n\nEmerging chains like Monad drive niche momentum: TVL >$300M (+10% WoW), led by Curvance ($42M, +11%), Neverland (+38%), and Kintsu (+26%) via incentives, liquid staking, and lending (FishMarketAcad). Solana protocols like Kamino (2.81% mindshare, +22%) gain via vault curation (viktorfischer).\n\nReasons for Momentum\n- Lending dominance: Aave and Morpho benefit from risk-adjusted yields and integrations; Morpho vaults attract deposits as DeFi seeks sustainable revenue post-staking fatigue.\n- Ecosystem catalysts: Monad's hyper-growth (MON +20% WoW) ties to onchain integrations (e.g., Kalshi) and high APR pools (up to 185% on Merkl); Solana pushes vaults ([KMNO, JTO mindshare surges]).\n- Broader context: DeFi loses ground to ZK/privacy narratives (0xNairolf), but low-risk plays like Maple ($2.5B TVL, zero incentives) highlight quality over hype. Pendle (6.35%) adds yield-trading mindshare.\n\nMonitor Aave v4 launches and Monad sustainability for continued shifts; data as of Jan 13, 2026.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

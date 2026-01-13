@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"I9uUY5Ws38ubYWPp\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"category_ids\": [\n        514\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EpAICo0IAXLI2nwVSujCmpp5MtHqURa8UxHR62+P+lcxLMS/6ejFuYkhKHRiLEL+XPx5g7Nq6jglngPPBqFs16+p+p2ehhluWww3M3nUq/3tqyy2AMoaxIUfYPcfKBlFdw5muAhFHncye6EV1wgMIJO1agoizPWHYEi7mBC+wltAfJnZzq13krS3el2ii5ptNJ2bmY/S9/+c2SO6sRTB7qb6tIVS7XwukfrU1mJihZ+upr4xce/TmE9sMVxanOt6+/cvGT3sRiCtrOzU4ls/vLA2Jmdcw4saqzhkdednRyllGCdE5MIUV8BE7Ak1c63o43LMifZbqxbrpkn/NWa4xZVcmMv1vx+dlCW8FqaAYdvmuT0Zu13NoLRuIENNVCoBF/7N7QZO7kzm838Yx3Iq87RqLy8c6enrASspWDxa7bPFetUWOMpWdCnnBF2GoUZt+zroAuM4Ur+aRv2jdfKnwm60PUaAo/50m8+NxHhUnQE6GwaUqNAzMjgQKWQQvcYrQnmRVI/+h96AQGAgKbTa8j1U8135LCwvMU35FM+NdirFph16BnA3xENWeDND+2A0DYnSXXY7rEOVyi7oThkbI0o67tczgy4u2S3X/bY7zwjutO9WOnP8/Bilxgtts6kjvx0PC/V6opnKBAIXA/jW1VbPUsYoINrmN/+XtSZMah+sYwLx44pc7P43zSVGt62L+IGrxCp71apO5dYtjheWrIdzas1kKdgkuL4OYoCSKdHU34JA/e2VhG1oHQhBEJx1maiCggOTOytNCb0QRuDSrABu1Pf2nR86vNzka20ba3+fi4tPL3hG6a33dBFjiUmEQHNwlByVa7XUuXuDx9f51zJFPUZN43qbGVGzO7bbNVoSF4oD/AECTdC4efpbrTB9NuiHtb1IHZ4w2XriFDwILAT6BrV48YTNWT8+dDgOpDZ01uSQGXst9ncDN2UrCurrE/1X7kehvqNWWz0eONfLUnLihdFdUf7BOZ64sdwZuFzvrlZKFFtj6hDPxTFYQ8mc0RlfyNrDgObJVsBp5TQ7UVzpjtmAca+s8kcjnsAReMo5NR+/UjGdSKu78kzpmIsEdsJ8SpJuDLXu0L1lqjcvC8z6LpYtUk/x1Yvvz4XCS78Pki/uOcQvdcdKQgpkvm2uj7/36eHttg0Ztcrjh+SfivR1Lt7PugtNsMnJeHn25bm889wHsE/1654Of1ERnPpTBrFFgqQlZ1prCT83WyPB6HzVJn/EkoHWVoQEFqhRz0sVWHLWc222WIOwwa3EYOYu0Z8WE1HDT3+9vZLB5YgCz+OPbJGFFYj64KA3l8S22P6gf1rmhFLpsuVgXo3IbP8bINqcAJHQPAZXNu7GMFs9sFYPcoTgRGsYxcXiHv44YVgUGUQ=\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"JIGK0wndyRf4OEYQ\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare the top 10 perpetual protocols by trading volume, fees, and TVL growth over the past 30 days. Analyze if growth is accelerating or decelerating.\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"8Vh20RPwKzoyclJL\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"content_types\": [\n        \"news\",\n        \"developments\",\n        \"posts\"\n      ],\n      \"days_back\": 30,\n      \"category_ids\": [\n        514\n      ]\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The perps sector is undergoing a structural shift from \\\"crypto-native leverage\\\" toward **multi-asset onchain clearinghouses**. While established giants like Hyperliquid and GMX are seeing a slight deceleration in TVL growth (-9.9% and -2.3% respectively over the last week), absolute trading activity remains near all-time highs. The narrative is currently **stable to slightly accelerating**, driven by two dominant catalysts: the integration of **yield-bearing collateral** and the expansion into **TradFi perpetuals** (equities and commodities).\\n\\n### The New Margin Standard: Yield-Bearing Collateral\\nThe most significant trend is the compression of margin opportunity costs. Protocols are moving away from idle USDC/USDT toward collateral that earns a background yield, such as **USDe (Ethena)** or **HLPe (Hyperliquid)**. This \\\"positive carry\\\" model makes open interest more sticky because traders earn a yield (often 10-15%) even when they aren't in an active position. \\n\\n{ \\\"chart_id\\\": \\\"wjtkkip8q6hg1xbznnvb\\\" }\\n\\n**Hyperliquid** remains the undisputed market leader, generating over **$59M in fees** in the last 30 days. Its recent execution of a **$910M HYPE buyback** signals a shift toward aggressive token-alignment and value accrual. However, the protocol is facing \\\"multiple contraction\\\" as earnings rise but token price lags, creating a value gap that competitors are rushing to fill.\\n\\n### Narrative Shift: The \\\"Everything Perp\\\"\\nWe are seeing a convergence between DeFi and TradFi. **Binance and BitMEX** recently launched perpetuals for gold, silver, and major U.S. stocks, settled in USDT. Onchain, the **HIP-3 permissionless market** expansion on Hyperliquid—led by **trade.xyz**—has pushed HIP-3 open interest to a **$387M ATH**. \\n\\n{ \\\"post_id\\\": 344282 }\\n\\n**edgeX** and **Lighter** are the primary challengers in the high-performance CLOB (Central Limit Order Book) niche. **edgeX** reported **$167B in November volume** and is positioning itself as a mobile-first institutional venue. **Lighter**, despite a post-airdrop TVL decline of 15%, continues to innovate with its \\\"Premium\\\" account model that monetizes sophisticated market makers while offering zero fees to retail.\\n\\n### Technical & Momentum Outlook\\nThe narrative momentum is **accelerating** in the sub-sectors of **Funding Rate Arbitrage** and **Unified Margin**. **Boros (by Pendle)** is a standout performer, with TVL growing **30% in the last 30 days**. It allows traders to lock in fixed yields by tokenizing perp funding rates, effectively turning volatile funding spreads into fixed-income products.\\n\\n- **Acceleration**: **Boros** and **trade.xyz** (fast-growing TVL and OI).\\n- **Deceleration**: **GMX** and **Gains Network** (losing share to CLOB-based venues).\\n- **Stability**: **Hyperliquid** (dominating volume but TVL is stabilizing/declining).\\n\\nInfrastructure catalysts like **MegaETH** and **ZKsync Atlas** are the next big tailwinds. These upgrades allow for **sub-second settlement** and **cross-chain margin**, which will likely enable the next wave of institutional onchain derivatives. \\n\\n{ \\\"post_id\\\": 346420 }\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The perps sector is undergoing a structural shift from \"crypto-native leverage\" toward **multi-asset onchain clearinghouses**. While established giants like Hyperliquid and GMX are seeing a slight deceleration in TVL growth (-9.9% and -2.3% respectively over the last week), absolute trading activity remains near all-time highs. The narrative is currently **stable to slightly accelerating**, driven by two dominant catalysts: the integration of **yield-bearing collateral** and the expansion into **TradFi perpetuals** (equities and commodities).\n\n### The New Margin Standard: Yield-Bearing Collateral\nThe most significant trend is the compression of margin opportunity costs. Protocols are moving away from idle USDC/USDT toward collateral that earns a background yield, such as **USDe (Ethena)** or **HLPe (Hyperliquid)**. This \"positive carry\" model makes open interest more sticky because traders earn a yield (often 10-15%) even when they aren't in an active position. \n\n{ \"chart_id\": \"wjtkkip8q6hg1xbznnvb\" }\n\n**Hyperliquid** remains the undisputed market leader, generating over **$59M in fees** in the last 30 days. Its recent execution of a **$910M HYPE buyback** signals a shift toward aggressive token-alignment and value accrual. However, the protocol is facing \"multiple contraction\" as earnings rise but token price lags, creating a value gap that competitors are rushing to fill.\n\n### Narrative Shift: The \"Everything Perp\"\nWe are seeing a convergence between DeFi and TradFi. **Binance and BitMEX** recently launched perpetuals for gold, silver, and major U.S. stocks, settled in USDT. Onchain, the **HIP-3 permissionless market** expansion on Hyperliquid—led by **trade.xyz**—has pushed HIP-3 open interest to a **$387M ATH**. \n\n{ \"post_id\": 344282 }\n\n**edgeX** and **Lighter** are the primary challengers in the high-performance CLOB (Central Limit Order Book) niche. **edgeX** reported **$167B in November volume** and is positioning itself as a mobile-first institutional venue. **Lighter**, despite a post-airdrop TVL decline of 15%, continues to innovate with its \"Premium\" account model that monetizes sophisticated market makers while offering zero fees to retail.\n\n### Technical & Momentum Outlook\nThe narrative momentum is **accelerating** in the sub-sectors of **Funding Rate Arbitrage** and **Unified Margin**. **Boros (by Pendle)** is a standout performer, with TVL growing **30% in the last 30 days**. It allows traders to lock in fixed yields by tokenizing perp funding rates, effectively turning volatile funding spreads into fixed-income products.\n\n- **Acceleration**: **Boros** and **trade.xyz** (fast-growing TVL and OI).\n- **Deceleration**: **GMX** and **Gains Network** (losing share to CLOB-based venues).\n- **Stability**: **Hyperliquid** (dominating volume but TVL is stabilizing/declining).\n\nInfrastructure catalysts like **MegaETH** and **ZKsync Atlas** are the next big tailwinds. These upgrades allow for **sub-second settlement** and **cross-chain margin**, which will likely enable the next wave of institutional onchain derivatives. \n\n{ \"post_id\": 346420 }",
+    "executionTimeMs": 205343,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "category_ids": [
+            514
+          ]
+        }
+      },
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare the top 10 perpetual protocols by trading volume, fees, and TVL growth over the past 30 days. Analyze if growth is accelerating or decelerating."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "content_types": [
+            "news",
+            "developments",
+            "posts"
+          ],
+          "days_back": 30,
+          "category_ids": [
+            514
+          ]
+        }
+      }
+    ],
+    "totalTokens": 80012
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

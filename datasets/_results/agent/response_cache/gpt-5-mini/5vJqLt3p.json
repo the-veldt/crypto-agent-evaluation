@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "5vJqLt3p",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "5vJqLt3p",
+    "query": "analyze the tokenomics, moats, and market landscape of token launchpads - which projects are poised for market share growth and why",
+    "level": 3,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "launchpad"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 612
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 7854
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11375
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 17465
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 24366
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 29620
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 36285
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "Short answer (TL;DR)\n- The launchpad market is maturing and segmenting: dominant models are centralized-exchange IEOs/Launchpads (Binance, CoinList), generalized multi-chain IDO/launchpads (Polkastarter, DAO Maker), chain-native accelerators (Raydium/AcceleRaytor, Solanium on Solana), and vertical / incubator specialists (Seedify for gaming). Market tailwinds: continuing token fundraising, multi‑chain launches, and a shift to curated/incubated deals rather than pure first-come sales. (See fundraising context: ~$16B+ in token raises reported for 2024.)  \n- Winners will be platforms that combine (1) real utility and revenue-capture in tokenomics, (2) durable moats (exchange distribution/large user base, sector specialization, strong vetting/brand), and (3) product-market fit (multi‑chain support, compliance/KYC, incubation).  \n- Short list most poised for market‑share growth: Binance Launchpad / CEX launchpads, DAO Maker, Polkastarter, Seedify (gaming), and Solana-native launchpads (Raydium/Solanium). Below I explain tokenomics patterns, moats, landscape dynamics, and why each candidate is well positioned (and the risks).\n\n1) How launchpads work — core business models\n- Access-for-token model: users stake or hold the platform token (or native asset like BNB) to access allocations via lottery, tier, or subscription snapshots. Examples: POLS staking = POLS Power; Binance Launchpad uses BNB snapshots/subscription. (Polkastarter docs, Binance support pages.)  \n- Subscription/lottery vs. bonding curves vs. fixed-swap: pricing & allocation mechanics differ and affect post-listing price dynamics and investor experience.  \n- Value add beyond capital: vetting, KYC/AML, advisory/incubation, marketing distribution, tokenomics design, and post‑launch liquidity/market‑making.\n\n2) Tokenomics patterns to watch (what separates durable tokens from weak ones)\n- Utility tied to genuine platform economics: access to sales, staking yields, governance, fee discounts, revenue share or buyback/burns. Access-only tokens with no revenue capture are weaker. (Polkastarter shows POLS Power staking mechanics.)  \n- Supply & vesting discipline: conservative team/treasury unlocks and long vesting reduce dump risk; opaque or frontloaded unlocks are negative.  \n- Revenue capture mechanisms: fee sharing with token holders, buybacks/burns, or protocol revenue to treasury increase token value alignment. Many launchpads still lack direct revenue-share models — that’s an opportunity for differentiation.  \n- Secondary incentives: incubator allocations, airdrops from incubated projects, and native liquidity rewards (some platforms do IDO staking farms).\n\n3) Moats that matter (and how they’re built)\n- Distribution & liquidity moat: centralized exchanges (Binance, KuCoin, Gate) hold a huge advantage — massive user base + immediate secondary market listing; their launchpads convert that into reliable demand & liquidity.  \n- Brand & track record: a history of successful, high-quality launches builds pipeline and top-tier deal flow (investor trust matters).  \n- Vertical specialization: niche launchpads that become “go-to” for a sector (e.g., Seedify for blockchain gaming) lock in project pipelines, partners, and a community that understands the sector.  \n- Vetting & structure (product moat): platforms that provide better tokenomics design, refundable mechanisms (DAO Maker’s rSHO evolution), investor protections, KYC, and post-launch support reduce project risk and attract higher-quality founders.  \n- Multi-chain reach & tooling: platforms that operate cross-chain or integrate with major L1/L2 ecosystems can attract more projects and users.\n\n4) Market landscape / macro trends (2024–25)\n- Fundraising stays meaningful: token launches remain a major fundraising route (reports cite $16B+ in 2024 fundraising via launches). Launchpads that give reliable access to capital remain relevant.  \n- Move to curated / incubated offerings: investors prefer higher-quality, vetted deals and improved vesting/launch mechanics after the wild early IDO era. Platforms offering incubation, advisory, or equity-like support capture more durable value.  \n- Multi‑chain & speed: Solana and other fast/cheap chains reduced launch friction; chain-native launchpads benefit from low fees and community density.  \n- Regulatory pressure: KYC/AML, token sale compliance, and scrutiny of token allocations increasingly shape which platforms can scale. CEXs with compliance processes are advantaged here.\n\n5) Comparative analysis — who’s best positioned (high level)\n- Binance Launchpad and other CEX launchpads (CoinList, KuCoin Spotlight, Gate Startup) — Strongest single moat\n  - Why growth: access to hundreds of millions of users and immediate secondary market liquidity; robust listing relationships and marketing reach mean projects prefer CEX channels when they want distribution and liquidity. Binance’s subscription/lottery model is well-documented and mature. (Binance docs.)  \n  - Tokenomics angle: no single “launchpad token” needed — advantage flows from BNB and platform services. Risk: regulatory scrutiny of centralized exchanges could limit activity.\n\n- DAO Maker — Productized vetting + institutional mechanics\n  - Why growth: has innovated fundraising mechanics (SHO → rSHO / refundable structures), strong tooling for growth-stage projects, and focuses on investor protections; attracts high‑quality projects seeking structured distribution and marketing. (CoinMarketCap/DAO Maker references.)  \n  - Tokenomics moat: DAO token functions as access and aligns holders with platform success; platform services and SaaS-like offerings increase stickiness. Risk: competition from other curated/multi-chain pads.\n\n- Polkastarter — Multi‑chain fixed-swaps and IDO pioneer\n  - Why growth: established brand in IDOs, multi-chain support, and a clear POLS staking/access model (POLS Power). Polkastarter’s fixed-swap model reduces early‑listing volatility and provides a simple, trusted sales format. (Polkastarter docs.)  \n  - Tokenomics moat: POLS token has explicit staking utility and staking tiers. Risk: many competitors replicated the access-stake model; maintaining deal quality is key.\n\n- Seedify (SFUND) — Vertical moat: gaming + incubation\n  - Why growth: focused vertical (GameFi) with deep incubator/IGO mechanics and “seed-staking” that funnels incubation token distributions to stakers; as blockchain gaming activity picks up, Seedify’s niche brand + incubation services are a durable advantage. (Seedify blogs/whitepaper.)  \n  - Tokenomics moat: SFUND used for IGO access and incubator economics; direct pipeline to gaming projects. Risk: sector-specific cycles; gaming projects still need mainstream user adoption.\n\n- Solana-native launchpads (Raydium/AcceleRaytor, Solanium)\n  - Why growth: Solana’s throughput + cheap fees make it attractive for frequent launches; Raydium ties launchpad exposure into its AMM/DEX liquidity and on‑chain tools (faster launches, bonding/curve approaches). Solana’s ecosystem events and Accelerate/BREAKPOINT help pipeline.  \n  - Tokenomics moat: some launchpads integrate token launch with immediate DEX liquidity and rewards, increasing post‑launch trading depth. Risk: network outages (historically an issue on Solana), and high competition among Solana pads.\n\n- BSCPad, Avalaunch, others — regional/chain share\n  - Many chain-specific pads have user bases, but several lack strong cross-chain distribution or unique verticals; they can grow in their chain niche but face commoditization risk.\n\n6) Which projects are poised to gain share — and why (shortlist & rationale)\n- Binance Launchpad / CEX-based launchpads\n  - Why: distribution + liquidity + compliance; projects often choose CEX channel for listing certainty and immediate user access. CEXs win when projects value predictable liquidity. Expect continued share capture by CEXs unless regulation severely restricts them.\n\n- DAO Maker\n  - Why: product innovation (rSHO/refundable offerings), structured investor protections and SaaS-like growth services for projects. Good for projects that want structured, institutional-style monetization and curated investor bases.\n\n- Polkastarter\n  - Why: early mover with multi-chain fixed-swap model and POLS staking mechanics; strong brand recognition in IDO space and growing NFT/gaming features. Good for projects that want controlled price discovery and retail engagement via staking tiers.\n\n- Seedify\n  - Why: sector focus (GameFi) + incubation & seed-staking — tight community and pipeline in a sector expected to expand. Niche specialization yields defensibility versus generalist pads.\n\n- Raydium / Solana launchpads (AcceleRaytor, Solanium)\n  - Why: Solana adoption, fast cheap launches, DEX-integrated liquidity — good for high-frequency launching and bootstrapping tradable markets quickly.\n\n7) Key risks & what kills market share\n- Poor tokenomics (huge team unlocks, no revenue or utility) causing lost investor trust.  \n- Bad launches / rug pulls damaging platform brand.  \n- Regulation forcing delisting or restricting fundraising models (stronger risk to CEXs and some public sales).  \n- Commoditization: if all pads become indistinguishable (same model, poor vetting), only distribution power or vertical specialization wins.\n\n8) Practical checklist for evaluating a launchpad (for investors / founders)\n- Token utility: does the token capture platform value (fees/revenue, buyback, staking utility) or is it only an access ticket?  \n- Vesting & supply schedule transparency: how big are team/treasury unlocks and when?  \n- Track record: number and quality of launches, ROI and post-listing liquidity.  \n- Distribution & listing pipeline: is the platform linked to a major exchange or large DEX?  \n- Vetting & investor protections: KYC, refundable mechanics, vesting on project tokens, anti‑bot measures.  \n- Specialization: is the pad focused on a sector or chain that matches your thesis?\n\n9) If you want a deeper dive\nI can:\n- Build a side‑by‑side tokenomics table (supply, circulating, team allocation, vesting, staking utility, revenue-share) for 6–10 launchpads (Polkastarter, DAO Maker, Seedify, Binance Launchpad, Raydium, Solanium, BSCPad, CoinList).  \n- Run a quantitative ranking based on moat metrics (user base, number of launches, liquidity after listing, tokenomics score).  \nTell me which platforms you want compared and whether you want raw data (supply/vesting/etc.) or a scored ranking.\n\nSources / reference material used\n- Polkastarter docs (tokenomics, POLS Power/staking and fixed-swap pools).  \n- Binance Launchpad support pages (subscription/lottery mechanics, BNB snapshot model).  \n- DAO Maker / CoinMarketCap writeups (SHO / rSHO, DAO Maker’s fund mechanics).  \n- Seedify blog and whitepaper (seed staking, incubation, gaming focus).  \n- Market roundup pieces reviewing launchpads and fundraising numbers (industry articles noting ~$16B+ fundraising via token launches in 2024).  \n(If you want, I can attach direct links / pull the latest token supply & vesting schedules for each platform and produce a data table.)\n\nWould you like the detailed tokenomics comparison table next (I can fetch current supply, circulating supply, team/treasury allocations and major unlock schedules for the platforms you care about)?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 47247
+        }
+      }
+    ],
+    "finalAnswer": "Short answer (TL;DR)\n- The launchpad market is maturing and segmenting: dominant models are centralized-exchange IEOs/Launchpads (Binance, CoinList), generalized multi-chain IDO/launchpads (Polkastarter, DAO Maker), chain-native accelerators (Raydium/AcceleRaytor, Solanium on Solana), and vertical / incubator specialists (Seedify for gaming). Market tailwinds: continuing token fundraising, multi‑chain launches, and a shift to curated/incubated deals rather than pure first-come sales. (See fundraising context: ~$16B+ in token raises reported for 2024.)  \n- Winners will be platforms that combine (1) real utility and revenue-capture in tokenomics, (2) durable moats (exchange distribution/large user base, sector specialization, strong vetting/brand), and (3) product-market fit (multi‑chain support, compliance/KYC, incubation).  \n- Short list most poised for market‑share growth: Binance Launchpad / CEX launchpads, DAO Maker, Polkastarter, Seedify (gaming), and Solana-native launchpads (Raydium/Solanium). Below I explain tokenomics patterns, moats, landscape dynamics, and why each candidate is well positioned (and the risks).\n\n1) How launchpads work — core business models\n- Access-for-token model: users stake or hold the platform token (or native asset like BNB) to access allocations via lottery, tier, or subscription snapshots. Examples: POLS staking = POLS Power; Binance Launchpad uses BNB snapshots/subscription. (Polkastarter docs, Binance support pages.)  \n- Subscription/lottery vs. bonding curves vs. fixed-swap: pricing & allocation mechanics differ and affect post-listing price dynamics and investor experience.  \n- Value add beyond capital: vetting, KYC/AML, advisory/incubation, marketing distribution, tokenomics design, and post‑launch liquidity/market‑making.\n\n2) Tokenomics patterns to watch (what separates durable tokens from weak ones)\n- Utility tied to genuine platform economics: access to sales, staking yields, governance, fee discounts, revenue share or buyback/burns. Access-only tokens with no revenue capture are weaker. (Polkastarter shows POLS Power staking mechanics.)  \n- Supply & vesting discipline: conservative team/treasury unlocks and long vesting reduce dump risk; opaque or frontloaded unlocks are negative.  \n- Revenue capture mechanisms: fee sharing with token holders, buybacks/burns, or protocol revenue to treasury increase token value alignment. Many launchpads still lack direct revenue-share models — that’s an opportunity for differentiation.  \n- Secondary incentives: incubator allocations, airdrops from incubated projects, and native liquidity rewards (some platforms do IDO staking farms).\n\n3) Moats that matter (and how they’re built)\n- Distribution & liquidity moat: centralized exchanges (Binance, KuCoin, Gate) hold a huge advantage — massive user base + immediate secondary market listing; their launchpads convert that into reliable demand & liquidity.  \n- Brand & track record: a history of successful, high-quality launches builds pipeline and top-tier deal flow (investor trust matters).  \n- Vertical specialization: niche launchpads that become “go-to” for a sector (e.g., Seedify for blockchain gaming) lock in project pipelines, partners, and a community that understands the sector.  \n- Vetting & structure (product moat): platforms that provide better tokenomics design, refundable mechanisms (DAO Maker’s rSHO evolution), investor protections, KYC, and post-launch support reduce project risk and attract higher-quality founders.  \n- Multi-chain reach & tooling: platforms that operate cross-chain or integrate with major L1/L2 ecosystems can attract more projects and users.\n\n4) Market landscape / macro trends (2024–25)\n- Fundraising stays meaningful: token launches remain a major fundraising route (reports cite $16B+ in 2024 fundraising via launches). Launchpads that give reliable access to capital remain relevant.  \n- Move to curated / incubated offerings: investors prefer higher-quality, vetted deals and improved vesting/launch mechanics after the wild early IDO era. Platforms offering incubation, advisory, or equity-like support capture more durable value.  \n- Multi‑chain & speed: Solana and other fast/cheap chains reduced launch friction; chain-native launchpads benefit from low fees and community density.  \n- Regulatory pressure: KYC/AML, token sale compliance, and scrutiny of token allocations increasingly shape which platforms can scale. CEXs with compliance processes are advantaged here.\n\n5) Comparative analysis — who’s best positioned (high level)\n- Binance Launchpad and other CEX launchpads (CoinList, KuCoin Spotlight, Gate Startup) — Strongest single moat\n  - Why growth: access to hundreds of millions of users and immediate secondary market liquidity; robust listing relationships and marketing reach mean projects prefer CEX channels when they want distribution and liquidity. Binance’s subscription/lottery model is well-documented and mature. (Binance docs.)  \n  - Tokenomics angle: no single “launchpad token” needed — advantage flows from BNB and platform services. Risk: regulatory scrutiny of centralized exchanges could limit activity.\n\n- DAO Maker — Productized vetting + institutional mechanics\n  - Why growth: has innovated fundraising mechanics (SHO → rSHO / refundable structures), strong tooling for growth-stage projects, and focuses on investor protections; attracts high‑quality projects seeking structured distribution and marketing. (CoinMarketCap/DAO Maker references.)  \n  - Tokenomics moat: DAO token functions as access and aligns holders with platform success; platform services and SaaS-like offerings increase stickiness. Risk: competition from other curated/multi-chain pads.\n\n- Polkastarter — Multi‑chain fixed-swaps and IDO pioneer\n  - Why growth: established brand in IDOs, multi-chain support, and a clear POLS staking/access model (POLS Power). Polkastarter’s fixed-swap model reduces early‑listing volatility and provides a simple, trusted sales format. (Polkastarter docs.)  \n  - Tokenomics moat: POLS token has explicit staking utility and staking tiers. Risk: many competitors replicated the access-stake model; maintaining deal quality is key.\n\n- Seedify (SFUND) — Vertical moat: gaming + incubation\n  - Why growth: focused vertical (GameFi) with deep incubator/IGO mechanics and “seed-staking” that funnels incubation token distributions to stakers; as blockchain gaming activity picks up, Seedify’s niche brand + incubation services are a durable advantage. (Seedify blogs/whitepaper.)  \n  - Tokenomics moat: SFUND used for IGO access and incubator economics; direct pipeline to gaming projects. Risk: sector-specific cycles; gaming projects still need mainstream user adoption.\n\n- Solana-native launchpads (Raydium/AcceleRaytor, Solanium)\n  - Why growth: Solana’s throughput + cheap fees make it attractive for frequent launches; Raydium ties launchpad exposure into its AMM/DEX liquidity and on‑chain tools (faster launches, bonding/curve approaches). Solana’s ecosystem events and Accelerate/BREAKPOINT help pipeline.  \n  - Tokenomics moat: some launchpads integrate token launch with immediate DEX liquidity and rewards, increasing post‑launch trading depth. Risk: network outages (historically an issue on Solana), and high competition among Solana pads.\n\n- BSCPad, Avalaunch, others — regional/chain share\n  - Many chain-specific pads have user bases, but several lack strong cross-chain distribution or unique verticals; they can grow in their chain niche but face commoditization risk.\n\n6) Which projects are poised to gain share — and why (shortlist & rationale)\n- Binance Launchpad / CEX-based launchpads\n  - Why: distribution + liquidity + compliance; projects often choose CEX channel for listing certainty and immediate user access. CEXs win when projects value predictable liquidity. Expect continued share capture by CEXs unless regulation severely restricts them.\n\n- DAO Maker\n  - Why: product innovation (rSHO/refundable offerings), structured investor protections and SaaS-like growth services for projects. Good for projects that want structured, institutional-style monetization and curated investor bases.\n\n- Polkastarter\n  - Why: early mover with multi-chain fixed-swap model and POLS staking mechanics; strong brand recognition in IDO space and growing NFT/gaming features. Good for projects that want controlled price discovery and retail engagement via staking tiers.\n\n- Seedify\n  - Why: sector focus (GameFi) + incubation & seed-staking — tight community and pipeline in a sector expected to expand. Niche specialization yields defensibility versus generalist pads.\n\n- Raydium / Solana launchpads (AcceleRaytor, Solanium)\n  - Why: Solana adoption, fast cheap launches, DEX-integrated liquidity — good for high-frequency launching and bootstrapping tradable markets quickly.\n\n7) Key risks & what kills market share\n- Poor tokenomics (huge team unlocks, no revenue or utility) causing lost investor trust.  \n- Bad launches / rug pulls damaging platform brand.  \n- Regulation forcing delisting or restricting fundraising models (stronger risk to CEXs and some public sales).  \n- Commoditization: if all pads become indistinguishable (same model, poor vetting), only distribution power or vertical specialization wins.\n\n8) Practical checklist for evaluating a launchpad (for investors / founders)\n- Token utility: does the token capture platform value (fees/revenue, buyback, staking utility) or is it only an access ticket?  \n- Vesting & supply schedule transparency: how big are team/treasury unlocks and when?  \n- Track record: number and quality of launches, ROI and post-listing liquidity.  \n- Distribution & listing pipeline: is the platform linked to a major exchange or large DEX?  \n- Vetting & investor protections: KYC, refundable mechanics, vesting on project tokens, anti‑bot measures.  \n- Specialization: is the pad focused on a sector or chain that matches your thesis?\n\n9) If you want a deeper dive\nI can:\n- Build a side‑by‑side tokenomics table (supply, circulating, team allocation, vesting, staking utility, revenue-share) for 6–10 launchpads (Polkastarter, DAO Maker, Seedify, Binance Launchpad, Raydium, Solanium, BSCPad, CoinList).  \n- Run a quantitative ranking based on moat metrics (user base, number of launches, liquidity after listing, tokenomics score).  \nTell me which platforms you want compared and whether you want raw data (supply/vesting/etc.) or a scored ranking.\n\nSources / reference material used\n- Polkastarter docs (tokenomics, POLS Power/staking and fixed-swap pools).  \n- Binance Launchpad support pages (subscription/lottery mechanics, BNB snapshot model).  \n- DAO Maker / CoinMarketCap writeups (SHO / rSHO, DAO Maker’s fund mechanics).  \n- Seedify blog and whitepaper (seed staking, incubation, gaming focus).  \n- Market roundup pieces reviewing launchpads and fundraising numbers (industry articles noting ~$16B+ fundraising via token launches in 2024).  \n(If you want, I can attach direct links / pull the latest token supply & vesting schedules for each platform and produce a data table.)\n\nWould you like the detailed tokenomics comparison table next (I can fetch current supply, circulating supply, team/treasury allocations and major unlock schedules for the platforms you care about)?",
+    "executionTimeMs": 99122,
+    "totalTokens": 174824,
+    "stepCount": 8,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto launchpads 2025 IDO launchpads Polkastarter Seedify DAO Maker BSCPad Solanium AcceleRaytor Raydium Solstarter 2024 2025 comparison market share",
+          "numResults": 10,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Polkastarter POLS tokenomics token utility staking launchpad tokenomics 2024 2025 POLS supply allocation staking rewards",
+          "numResults": 5,
+          "startPublishedDate": "2020-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "polkastarter.com",
+            "coinmarketcap.com",
+            "coinbase.com",
+            "coingecko.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Seedify SFUND tokenomics total supply SFUND tokenomics 2024 2025 'Seedify' 'tokenomics' SFUND supply",
+          "numResults": 10,
+          "startPublishedDate": "2020-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "seedify.fund",
+            "coingecko.com",
+            "coinmarketcap.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DAO Maker tokenomics 'DAO' token staking 'DAO Maker' launchpad tokenomics 2024 2025 'Venture Bond' 'Strong Holder Offering' 'SHO'",
+          "numResults": 10,
+          "startPublishedDate": "2020-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "daomaker.com",
+            "coingecko.com",
+            "coinmarketcap.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Polkastarter POLS token 'tokenomics' 'POLS' 'Polkastarter tokenomics' polkastarter token utility staking POLS docs",
+          "numResults": 10,
+          "startPublishedDate": "2020-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "polkastarter.com",
+            "docs.polkastarter.com",
+            "polkastarter.gitbook.io",
+            "coingecko.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Binance Launchpad 'launchpad' model how it works BNB allocation lottery 'Binance Launchpad' 2024 2025 'IEO' 'token sale'",
+          "numResults": 10,
+          "startPublishedDate": "2019-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "binance.com",
+            "cointelegraph.com",
+            "coinmarketcap.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "AcceleRaytor Raydium AcceleRaytor tokenomics 'AcceleRaytor' launchpad Solana tokenomics 'Raydium' 'AcceleRaytor' 2024 2025 'launchpad'",
+          "numResults": 10,
+          "startPublishedDate": "2020-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "raydium.io",
+            "coingecko.com",
+            "solana.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

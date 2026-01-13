@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "xUm8wAp5",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "xUm8wAp5",
+    "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Analysis Overview\n\n**pump.fun dominates Solana protocol revenue** at ~$1.7M daily (as of latest DefiLlama data), capturing 90% of memecoin launchpad fees despite sector slowdowns. Jupiter follows at ~$538K daily via aggregator cuts. Consolidation is evident: top protocols claim ~78% of tracked DApp revenue (per Nov 2025 Syndica analysis, trend persisting). Growth favors launchpads and diversified aggregators amid fading memecoin trading tools.\n\nRevenue sourced from DefiLlama (chain/solana) and Syndica (historical context); figures approximate daily/30D/90D where noted.\n\n| Protocol     | Daily Revenue (Latest) | 30D/90D Revenue     | YoY/MoM Trend Signal          |\n|--------------|------------------------|---------------------|--------------------------------|\n| pump.fun    | **$1.7M**             | $10.65M / $34.05M  | + (ATH via ecosystem expansion)|\n| Jupiter     | **$538K**             | $2.68M / $10.32M   | Stable (diversification buffers)|\n| Jito        | ~$21K (est. monthly $642K /30) | N/A             | -4 MoM (MEV slowdown)         |\n| OreSupply   | N/A (monthly ATH $10.3M Nov) | N/A            | +506% MoM (mining hype)       |\n| Maestro     | **$30K**              | $181K / $530K      | Emerging (trading fees)       |\n\n## Key Catalysts Driving Revenue Growth\n\n- **pump.fun**: \n  - Memecoin launch dominance (90% sector share) despite 98% drop in related tools like Photon/Trojan.\n  - Acquisition/rebrand of Padre to Terminal (multichain trading terminal) hit $1.6M monthly ATH in first full month.\n  - User-owned trading stack insulates from pure speculation cycles.\n\n- **Jupiter**:\n  - Fee capture from 34 chains via aggregator (0.05% protocol share), perps (25% to treasury/JLP), lend/DCA/studio subs.\n  - Product resilience: Upcoming jupUSD stablecoin (w/ Ethena), JupNet interchain liquidity.\n  - Diversification (prediction markets, staked SOL mgmt fees) sustains 8-figure monthly revenue.\n\n- **Jito**:\n  - MEV tips to validators + 3% protocol cut; liquid staking TVL via JitoSOL.\n  - Headwinds: Memecoin slowdown cuts MEV opps; TVL/share loss to Sanctum LSTs/rivals (revenue -4 months straight).\n\n- **OreSupply**:\n  - Onchain \"mining\" game as new speculation vector (\"ORE szn\"); 506% MoM surge to $10.3M monthly ATH (Nov 2025).\n\n- **Maestro**:\n  - Full trading fee retention; growth from DEX volume in aggregator era.\n\n## Conclusions\n\n**Bottom line**: pump.fun's vertical integration cements #1 (~3x Jupiter), but Jupiter's multi-product moat offers cycle-proof growth. Watch memecoin revival for pump/Jito upside; DePIN (~$2.3M steady monthly) as counter-cyclical. Jito risks further erosion without MEV rebound. Monitor DefiLlama for real-time shifts.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

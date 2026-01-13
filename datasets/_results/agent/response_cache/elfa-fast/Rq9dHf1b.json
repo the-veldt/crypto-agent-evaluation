@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nInsufficient data available on TVL, revenue figures, or growth metrics for Uniswap and Aerodrome to build a meaningful investment case comparison. General DeFi TVL exceeded $160B in Q3 2025 (Forbes), but no protocol-specific or recent 2026 numbers were found.\n\n---\n\nCurrent research lacks direct, up-to-date TVL, revenue, or growth figures for Uniswap or Aerodrome. Searches covering Dec 2025 to Jan 2026 returned no quantifiable metrics for either protocol.\n\nUniswap saw a token burn of 100M UNI with rising buying interest noted in late 2025 (TradingView), but this does not provide TVL or revenue data. Aerodrome was mentioned in a Dec 2025 launch of a gold token on Base (The Fintech Times), indicating ecosystem activity without financial metrics.\n\nWithout reliable, specific data on these key indicators, I cannot construct or recommend an investment case. Acknowledge my limits: analysis relies solely on provided search results, which do not contain the required details. For accurate insights, check dedicated DeFi analytics platforms like DefiLlama or Dune Analytics directly.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

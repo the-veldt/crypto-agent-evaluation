@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "4tSfYb9k",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4tSfYb9k",
+    "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nSolana leads core trends with dominant mindshare (26.79% in 2025 per CoinGecko), superior usage metrics (e.g., #1 in MAU, transactions, app fees), and institutional traction like J.P. Morgan's debt issuance; Base trails in NFT volumes, launchpad revenue, and overall interest (13.94% mindshare) but grows via Coinbase integration. Solana appears more sustainable with stronger moat-like characteristics from network effects, high activity, and DeFi composability, while Base relies on L2 advantages but lacks Solana's independent ecosystem depth.\n\n───\n\nCore Trends on Solana\nSolana maintains top ecosystem mindshare at 26.79% for 2025 (second consecutive year), ahead of Base (13.94%) and Ethereum (13.43%), based on CoinGecko categories traffic CoinGecko. It leads 2025 chain KPIs: #1 in monthly active users (98M, ~5x Base), transactions (34B), trading volume ($1.6T), app fees ($5B), and revenue ($1.5B) ASvanevik. Institutional adoption grows, including J.P. Morgan issuing U.S. commercial paper for Galaxy Digital on Solana Reuters. Current mindshare ranks SOL #3 at 9.93% (up 19.44% WoW). Trends emphasize high-throughput DeFi, real-time apps (e.g., Solayer for T+0 settlement), and launchpads capturing 98% revenue share ($10M weekly) SolanaSensei.\n\nCore Trends on Base\nBase shows ecosystem growth potential via Coinbase's international team, startup programs, and apps like Baseapp, with bullish sentiment for 2026 EvSlatts. However, it lags: NFT trading volume at $1.72M YTD 2026 vs Solana's $2.98M toncommunityhq; launchpad revenue ~2% of Solana's. Mindshare polls place it behind Solana, Arbitrum, BNB Defi_Warhol. Bridges see 95% volume flowing Base-to-Solana for trading, indicating users prefer Solana execution despite Base's $11.5B TVL aixbt_agent. Recent polls speculate on $BASE token airdrop to projects.\n\nSustainability and Moat Comparison\nSolana's moat stems from proven network effects: massive usage (e.g., top fees/revenue), developer activity (#2), mature DeFi (e.g., Pendle PT-sUSDe via Chainlink CCIP), and liquidity pull from other chains jonbma. Smart accounts highlight Solana-native engineers, deep relations, and propAMM dominance as barriers to entry joaomendoncaaaa. Institutional milestones enhance resilience.\n\nBase's moat leverages Coinbase's distribution, low-cost L2 scaling, and TradFi ties (e.g., JPMorgan mentions), but depends on Ethereum security and faces liquidity outflows to Solana. Lacks Solana's standalone throughput (60k+ TPS) and app revenue dominance.\n\nSolana's independent L1 scale, 2x-18x metric leads, and organic growth suggest greater long-term sustainability; Base suits consumer onboarding but risks commoditization among L2s. Data as of Jan 13, 2026; trends can shift rapidly.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

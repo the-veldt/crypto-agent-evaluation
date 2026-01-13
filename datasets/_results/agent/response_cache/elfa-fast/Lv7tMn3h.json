@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Lv7tMn3h",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Lv7tMn3h",
+    "query": "what are the most trending crypto consumer products and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "consumer"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nNo specific crypto consumer products are dominating the Elfa AI token leaderboard or showing standout mindshare among the top trending tokens like BTC, ETH, SOL, or ZEC. Social discussions highlight broader interest in consumer DeFi apps (e.g., neobanks, yield-earning payments via @useTria), payments infrastructure (Stripe, Visa, Mastercard expansions), and chains like Aptos, Solana, Sei for consumer use cases, driven by seamless UX, gasless transactions, and real user activity beyond trading.\n\n───\n\nTrending Themes in Crypto Consumer Products\nCurrent trends focus on consumer-facing applications that embed blockchain for payments, yield, and everyday utility without exposing crypto complexity. Tweets emphasize \"consumer DeFi\" like mobile apps for spending crypto on credit cards while earning yield (@AzFlin), and chains enabling this such as Aptos (high L1 active users from consumer apps) (@Tom_Degen68) and Solana for asset ownership in gaming/fantasy sports (@DegenMack). Web searches point to payments growth, with Stripe onboarding crypto-native payments for enterprises and traditional processors like Visa/Mastercard deploying blockchain rails (Forbes).\n\nReasons for Popularity\n- UX Improvements: Discussions stress hiding blockchain friction (chains, gas, bridges) to mimic Web2 apps, boosting retention from <15% to Web2 levels (40-50%) (@0x0simba_eth). Products succeed by prioritizing outcomes like instant transfers over education.\n- Real Adoption Metrics: Chains like Sei (1.5M+ daily active addresses, +100% in 4 months) and Aptos (#5 L1 users) show sustained activity from payments, gaming, stablecoins—not just speculation (@SeiNetwork).\n- Enablement Layers: DeFi as backend for consumer apps (e.g., Boba Network's hybrid L2, Flow's x402 pay-per-request) supports gasless txs and native payments (@bobanetwork, @thirdweb).\n\nElfa AI Leaderboard Context\nTop tokens (7-day data) are infrastructure-heavy: BTC (20.85% mindshare), ETH (11.61%), SOL (9.96%, +20% change). No pure consumer apps rank highly, indicating the narrative is emerging via discussions rather than token pumps. ZEC (+160% mindshare) sees privacy-driven calls, potentially tying to consumer payments.\n\nLimited specific product data; trends are narrative-driven with no clear market leaders yet in 2026 social noise.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

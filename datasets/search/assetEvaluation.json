@@ -1,10 +1,42 @@
 [
-    {
-      "qid": "7kX9mP2b",
-      "query": "how does solana turbine block propagation work",
-      "level": 2,
-      "categories": ["asset_analysis"],
-      "tags": ["large_cap"],
-      "sectors": ["ecosystems"]
-    }
+  {
+    "qid": "7kX9mP2b",
+    "query": "how does Solana turbine block propagation work",
+    "level": 2,
+    "categories": ["asset_evaluation"],
+    "tags": ["large_cap"],
+    "sectors": ["ecosystems"]
+  },
+  {
+    "qid": "bN3vT8kM",
+    "query": "what is the tokenomics structure of Pendle",
+    "level": 2,
+    "categories": ["asset_evaluation"],
+    "tags": ["middle_market"],
+    "sectors": ["defi"]
+  },
+  {
+    "qid": "pW5jL2hC",
+    "query": "how does Jito's MEV distribution mechanism work",
+    "level": 2,
+    "categories": ["asset_evaluation"],
+    "tags": ["middle_market"],
+    "sectors": ["defi"]
+  },
+  {
+    "qid": "mR7xK4fQ",
+    "query": "what are Hyperliquid's competitive advantages over other perp DEXs",
+    "level": 2,
+    "categories": ["asset_evaluation"],
+    "tags": ["large_cap"],
+    "sectors": ["defi", "derivatives"]
+  },
+  {
+    "qid": "qT9sN6wL",
+    "query": "what is Ethena's architecture and how does it maintain stability",
+    "level": 2,
+    "categories": ["asset_evaluation"],
+    "tags": ["middle_market"],
+    "sectors": ["defi"]
+  }
 ]

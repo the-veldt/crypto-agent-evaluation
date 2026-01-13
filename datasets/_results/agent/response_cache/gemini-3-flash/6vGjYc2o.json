@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "6vGjYc2o",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "6vGjYc2o",
+    "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 716
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 12965
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "As of June 4, 2024, the cryptocurrency market is seeing a distinct \"bifurcation\" where legacy projects from the 2017-2021 eras are surging alongside a hyper-modern \"SocialFi\" trend.\n\nBelow are the top-performing tokens (Market Cap > $20M) over the last 24 hours and the narratives fueling their growth.\n\n### **Top Performers (Market Cap > $20M)**\n\n| Token | Ticker | 24h Growth | Market Cap | Primary Narrative |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lisk** | LSK | **+31%** | ~$61M | Layer 2 Migration / Supply Burn |\n| **AI Rig Complex** | ARC | **+32%** | ~$45M | AI / Decentralized Compute |\n| **JasmyCoin** | JASMY | **+25%** | ~$1.4B | Apple-Japan Integration Rumors |\n| **Alchemix** | ALCX | **+26%** | ~$30M | DeFi Yield / Governance |\n| **Notcoin** | NOT | **+20%*** | ~$2.4B | Telegram SocialFi / Mass Adoption |\n| **Balancer** | BAL | **+15%** | ~$51M | DeFi Infrastructure |\n\n*\\*Note: Notcoin has surged over 300% in the last 7 days; the 24h window shows continued momentum and high volatility.*\n\n---\n\n### **Common Themes & Narratives**\n\n#### **1. The \"Legacy Pivot\" (Lisk & Jasmy)**\nThe strongest theme today is the **Revival of Legacy Tokens.** Both Lisk (launched in 2016) and Jasmy (founded by former Sony executives) are successfully rebranding for the 2024 cycle.\n*   **Catalysts:** \n    *   **LSK:** The project is migrating from its own Layer 1 to an **Ethereum Layer 2** using Optimism’s OP Stack. This aligns Lisk with the dominant Ethereum ecosystem. Furthermore, they announced a community vote on whether to **burn 25% of the total supply**, creating a massive \"deflationary\" hype.\n    *   **JASMY:** The \"Bitcoin of Japan\" narrative was supercharged by news that Japan’s \"My Number\" ID cards will be integrated into iPhones. While a formal Jasmy-Apple partnership is unconfirmed, the market is speculating that Jasmy’s blockchain-based data privacy tech will be the backbone of this national digital ID strategy.\n\n#### **2. Social-Led Hyper-Growth (Notcoin)**\nNotcoin represents a shift away from traditional \"VC-backed\" tech and toward **Distribution-First crypto.**\n*   **Catalysts:** \n    *   **Telegram Integration:** By leveraging Telegram’s 900M users via a simple \"tap-to-earn\" game, Notcoin has achieved a level of user acquisition that DeFi protocols spend years trying to reach. \n    *   **Volume & Liquidity:** NOT is currently one of the top 5 most traded assets in the world (surpassing most Tier 1 alts). This sheer liquidity is drawing in \"whale\" investors who view it as the primary beta play for the TON ecosystem.\n\n#### **3. AI Infrastructure (ARC)**\nThe AI narrative remains the market's \"safe haven\" for growth, moving in lockstep with the traditional tech sector (Nvidia).\n*   **Catalysts:** Tokens like **ARC** are benefiting from the demand for decentralized compute. As AI startups struggle to secure GPU power, projects offering decentralized \"rigs\" or compute complexes are seeing speculative inflows.\n\n---\n\n### **Central Sector Analysis: \"Infrastructure Re-Alignment\"**\n\nThe central theme among these gainers is **Infrastructure Re-Alignment.** \n\n**Why it’s happening now:**\nWe are currently in a period of \"Altcoin Rotation.\" As Bitcoin consolidates near $70k, capital is moving into projects that provide **tangible utility or massive distribution.**\n\n*   **Institutional/Government Validation:** The JASMY pump is driven by the idea of blockchain being used for **state-level identification.** This is a pivot from \"speculative\" crypto to \"utility\" crypto.\n*   **Ethereum Alignment:** Lisk’s move to become an L2 shows that older L1s have realized that \"going it alone\" is no longer viable; the future belongs to the **Ethereum Superchain.**\n*   **Social Distribution:** Notcoin has proved that the best way to launch a token in 2024 isn't through a whitepaper, but through a **social funnel** (Telegram).\n\n**Summary Catalyst:** The market is rewarding projects that can prove they have **real users** (NOT) or **national-level utility** (JASMY), while punishing stagnant projects that refuse to migrate to modern tech stacks (LSK).",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 30183
+        }
+      }
+    ],
+    "finalAnswer": "As of June 4, 2024, the cryptocurrency market is seeing a distinct \"bifurcation\" where legacy projects from the 2017-2021 eras are surging alongside a hyper-modern \"SocialFi\" trend.\n\nBelow are the top-performing tokens (Market Cap > $20M) over the last 24 hours and the narratives fueling their growth.\n\n### **Top Performers (Market Cap > $20M)**\n\n| Token | Ticker | 24h Growth | Market Cap | Primary Narrative |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lisk** | LSK | **+31%** | ~$61M | Layer 2 Migration / Supply Burn |\n| **AI Rig Complex** | ARC | **+32%** | ~$45M | AI / Decentralized Compute |\n| **JasmyCoin** | JASMY | **+25%** | ~$1.4B | Apple-Japan Integration Rumors |\n| **Alchemix** | ALCX | **+26%** | ~$30M | DeFi Yield / Governance |\n| **Notcoin** | NOT | **+20%*** | ~$2.4B | Telegram SocialFi / Mass Adoption |\n| **Balancer** | BAL | **+15%** | ~$51M | DeFi Infrastructure |\n\n*\\*Note: Notcoin has surged over 300% in the last 7 days; the 24h window shows continued momentum and high volatility.*\n\n---\n\n### **Common Themes & Narratives**\n\n#### **1. The \"Legacy Pivot\" (Lisk & Jasmy)**\nThe strongest theme today is the **Revival of Legacy Tokens.** Both Lisk (launched in 2016) and Jasmy (founded by former Sony executives) are successfully rebranding for the 2024 cycle.\n*   **Catalysts:** \n    *   **LSK:** The project is migrating from its own Layer 1 to an **Ethereum Layer 2** using Optimism’s OP Stack. This aligns Lisk with the dominant Ethereum ecosystem. Furthermore, they announced a community vote on whether to **burn 25% of the total supply**, creating a massive \"deflationary\" hype.\n    *   **JASMY:** The \"Bitcoin of Japan\" narrative was supercharged by news that Japan’s \"My Number\" ID cards will be integrated into iPhones. While a formal Jasmy-Apple partnership is unconfirmed, the market is speculating that Jasmy’s blockchain-based data privacy tech will be the backbone of this national digital ID strategy.\n\n#### **2. Social-Led Hyper-Growth (Notcoin)**\nNotcoin represents a shift away from traditional \"VC-backed\" tech and toward **Distribution-First crypto.**\n*   **Catalysts:** \n    *   **Telegram Integration:** By leveraging Telegram’s 900M users via a simple \"tap-to-earn\" game, Notcoin has achieved a level of user acquisition that DeFi protocols spend years trying to reach. \n    *   **Volume & Liquidity:** NOT is currently one of the top 5 most traded assets in the world (surpassing most Tier 1 alts). This sheer liquidity is drawing in \"whale\" investors who view it as the primary beta play for the TON ecosystem.\n\n#### **3. AI Infrastructure (ARC)**\nThe AI narrative remains the market's \"safe haven\" for growth, moving in lockstep with the traditional tech sector (Nvidia).\n*   **Catalysts:** Tokens like **ARC** are benefiting from the demand for decentralized compute. As AI startups struggle to secure GPU power, projects offering decentralized \"rigs\" or compute complexes are seeing speculative inflows.\n\n---\n\n### **Central Sector Analysis: \"Infrastructure Re-Alignment\"**\n\nThe central theme among these gainers is **Infrastructure Re-Alignment.** \n\n**Why it’s happening now:**\nWe are currently in a period of \"Altcoin Rotation.\" As Bitcoin consolidates near $70k, capital is moving into projects that provide **tangible utility or massive distribution.**\n\n*   **Institutional/Government Validation:** The JASMY pump is driven by the idea of blockchain being used for **state-level identification.** This is a pivot from \"speculative\" crypto to \"utility\" crypto.\n*   **Ethereum Alignment:** Lisk’s move to become an L2 shows that older L1s have realized that \"going it alone\" is no longer viable; the future belongs to the **Ethereum Superchain.**\n*   **Social Distribution:** Notcoin has proved that the best way to launch a token in 2024 isn't through a whitepaper, but through a **social funnel** (Telegram).\n\n**Summary Catalyst:** The market is rewarding projects that can prove they have **real users** (NOT) or **national-level utility** (JASMY), while punishing stagnant projects that refuse to migrate to modern tech stacks (LSK).",
+    "executionTimeMs": 27210,
+    "totalTokens": 43864,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto gainers last 24 hours market cap above 20 million June 4 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto market narratives and news today June 4 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "why is NOT coin up today, why is ORDI up today, why is JASMY up today"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "JasmyCoin Apple news Japan June 2024"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Lisk LSK price surge June 2024 reason"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Notcoin NOT price surge June 2024 reason"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top crypto gainers last 24h market cap over 20 million June 4 2024"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

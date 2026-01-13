@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "8gAoUp4e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8gAoUp4e",
+    "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "defi",
+      "derivatives"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\n\nHyperliquid is the dominant perp DEX in 2026, controlling the largest market share by open interest, daily active users, and revenue, with major catalysts including its CEX-like trading experience, aggressive airdrop/tokenomics, ecosystem expansion, and ongoing institutional interest. Its main moats are deep liquidity, user retention, high throughput, and a rapidly growing ecosystem, outpacing competitors like Lighter, Aster, and dYdX, though the market is now more competitive than ever. Refer below for more details.\n\n───\n\nMarket Landscape\n\nThe perpetual DEX (perp DEX) market has exploded in both volume and competition since 2025. Hyperliquid leads by a wide margin, accounting for 69% of daily active perp users and, at times, over 1.18× the open interest of all other perp DEXs combined. Its closest competitors now include Lighter, Aster, and Extended, while previous leaders like dYdX and GMX have lost significant ground. Volume and user activity have shifted decisively toward platforms that combine CEX-like performance with onchain transparency and incentives, with new entrants like Paradex and Extended gaining traction but not matching Hyperliquid's scale yet (Henrik_on_HL, Crypto_TownHall).\n\nKey Catalysts for Hyperliquid\n\n- CEX-like User Experience: Hyperliquid’s custom L1 enables ultra-fast execution, deep order books, and low slippage, rivaling centralized exchanges (CEXs) in speed and reliability. This has been a major draw for pro traders and whales, reflected in sustained high open interest and recurring $2M+ daily revenue even in low-volatility periods (Henrik_on_HL).\n- Aggressive Airdrop and Tokenomics: The largest airdrop in crypto history (25% of supply) and a $5M self-funded bug bounty built trust and rapidly distributed ownership, fueling early network effects and higher user retention (wassielawyer).\n- Ecosystem Expansion: Launch of HyperEVM, NFT markets (e.g., TinyHypercats), commodity perps (e.g., $SILVER), and incoming equities integration (potentially via major partners like eToro) have broadened Hyperliquid’s appeal and utility (cyberxtremog).\n- Institutional Interest: Grayscale and ETF trust filings for HYPE signal growing institutional demand, which could further increase on-chain liquidity and credibility (PushpendraTech).\n- Sustained Revenue and Buybacks: Recurring high protocol revenue drives ongoing buybacks, supporting HYPE price and reinforcing positive feedback loops for token holders (Crypto_McKenna).\n\nCompetitive Moats\n\n- Liquidity and Depth: Hyperliquid consistently boasts the deepest perp liquidity and highest open interest, critical for attracting large traders and supporting high-leverage strategies.\n- User Retention and Network Effects: Largest user base, highest retention, and strong community-driven growth (by airdrop, incentives, and new product launches).\n- Execution and Throughput: Custom L1 chain optimized for trading, giving it a technical edge over EVM-based competitors and rollup-based DEXs.\n- Ecosystem Integration: Hyperliquid is rapidly evolving into a full-stack DeFi platform (perps, spot, NFTs, commodities, soon equities), locking in users and increasing switching costs.\n- Brand and Social Mindshare: Top of mindshare and call leaderboards, with overwhelming social and smart account support, further amplifying its network effect.\n\nCompetitor Overview\n\n- Lighter: Strong volume and mindshare, but lower leverage, less liquidity depth, and smaller ecosystem. Some recent loss of momentum post-airdrop.\n- Aster & Extended: Gaining traction, especially Extended with incoming equities integration and better execution costs on certain trades, but still lagging in user numbers and TVL.\n- dYdX, GMX, Jupiter: Once leaders, now trailing in both user metrics and volume as traders prefer the speed, incentives, and CEX-like feel of Hyperliquid and newer entrants.\n- Paradex: Has led 24hr perp volume at times, but lacks Hyperliquid’s breadth and user stickiness (RoundtableSpace).\n\nRisks and Weaknesses\n\n- Regulatory Pressure: As the leading perp DEX, Hyperliquid faces the highest regulatory scrutiny, especially as it courts institutional capital.\n- Centralization Tradeoffs: Some critics point to centralization in sequencer or governance processes, though this has not yet deterred user growth.\n- Token Unlocks and Sell Pressure: Large airdrops and unlocks could create volatility and short-term price pressure (IOSG Telegram).\n- Competitive Response: The field is now highly competitive, and new technical or incentive innovations from rivals could erode Hyperliquid’s lead if it stagnates.\n\nConclusion\n\nHyperliquid’s dominance in 2026 is a result of relentless product velocity, user-centric incentives, and technical superiority, but the perp DEX landscape is more competitive than ever. While its moats are formidable, ongoing innovation and vigilance are required to maintain its lead as rivals aggressively target every segment of the on-chain derivatives market.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

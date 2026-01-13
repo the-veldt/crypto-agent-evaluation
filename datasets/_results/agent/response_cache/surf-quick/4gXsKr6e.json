@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "4gXsKr6e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4gXsKr6e",
+    "query": "using quant metrics, find the most promising small cap to middle cap projects with the best technical setup, catalysts, and narrative sustainability potential",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, I cannot provide a comprehensive analysis of promising small to mid-cap projects with strong technical setups, catalysts, and narrative sustainability. The retrieved information lacks the specific quantitative metrics, technical analysis data, and detailed project fundamentals needed for this type of analysis.\n\n## What I Can Answer Confidently\n\nHere's what the data shows:\n\n- **Market Context**: The top 10 cryptocurrencies show positive momentum with an average 24h gain of +1.13% as of current data\n- **Mid-Cap Range**: Tokens ranked 11-40 have market caps ranging from $4.27B to $15.06B, representing the mid-cap segment\n- **Recent Performance Leaders**: Monero (XMR) showing +15.10% gains, World Liberty Financial (WLFI) +7.13%, and Avalanche (AVAX) +4.60% in the 24h period\n\n| Metric | Evidence Source | Confidence Level |\n|--------|-----------------|------------------|\n| Current market cap ranges | CoinGecko top 40 tokens data | High |\n| Recent performance leaders | 24h price change data | High |\n| Market sentiment context | Twitter search results | Medium |\n\n## Analysis of Available Information\n\n### Confirmed Details\n\nThe current cryptocurrency market shows healthy momentum with most major tokens in positive territory. The mid-cap segment (ranks 11-40) includes established projects like Chainlink ($9.64B), Avalanche ($6.24B), and Toncoin ($4.27B) that could be considered for further analysis. However, the available data lacks the technical indicators, catalyst timelines, and narrative analysis needed to identify \"most promising\" projects. [CoinGecko](https://www.coingecko.com/)\n\n### What's Missing\n\nTo give you a complete picture, I'd need:\n\n- **Technical analysis data** - RSI, MACD, moving averages, and volume indicators for specific tokens\n- **Catalyst information** - Upcoming events, partnerships, product launches, or protocol upgrades\n- **Narrative analysis** - Current trending sectors and sustainability metrics\n- **On-chain metrics** - Whale activity, token flows, and smart money movements\n- **Project fundamentals** - Tokenomics, team background, and competitive positioning\n\nThese gaps prevent me from providing the quantitative, metrics-driven analysis you're looking for regarding technical setups and narrative sustainability.\n\n## Recommendation\n\n**For deeper insight**, use Deep Research to gather:\n\n- Comprehensive technical analysis across multiple timeframes\n- Detailed catalyst calendars and event timelines\n- Narrative sustainability scoring and sector analysis\n- On-chain whale activity and smart money flows\n- Fundamental project metrics and tokenomics analysis\n\nThis will fill in the missing pieces and provide the comprehensive quantitative analysis you're looking for.\n\n**Next step**: Start a new conversation and select **Deep Research** mode (ASK can't launch Deep Research directly from here).",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

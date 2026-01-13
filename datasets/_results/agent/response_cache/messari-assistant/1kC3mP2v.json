@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Trending Assets and Topics on Twitter\n\nThe assets and topics currently trending on Twitter (X) are focused on **Bitcoin**, the **memecoin market**, and the broader **altcoin market recovery debate**, alongside significant discussions about U.S. crypto regulation [^1][^2][^3][^4].\n\n## Key Trending Assets and Market Discussions\n\n### 1. Memecoins and the $NYC Scandal\nThe memecoin market is a major trending topic, driven by a scandal involving former NYC Mayor Eric Adams [^1].\n\n*   **$NYC Memecoin**: Adams allegedly launched a memecoin called $NYC in January 2026 that crashed by 80% within hours [^1]. He is accused of a \"rug pull,\" extracting over $400,000 from the project [^1].\n*   **Market Revival**: This scandal coincides with a broader revival in the memecoin market, with some projects reaching high valuations [^1].\n*   **Trading Infrastructure**: New platforms like MemeMax_Fi are emerging to bring structure to the volatile market, offering features such as 50x leverage and perpetual contracts for memecoin trading [^1]. Industry veterans, however, continue to caution that the vast majority of memecoins ultimately fail [^1].\n\n### 2. Bitcoin ($BTC)\nBitcoin is consolidating near the $90,000 mark, with traders focused on key resistance levels [^3].\n\n*   **Price Consolidation**: Bitcoin is trading in a consolidation range of $90,000–$92,000 [^3].\n*   **Key Resistance**: Traders are watching the $94,000–$95,000 resistance level, which, if broken, could open the path toward $100,000 [^3].\n*   **Institutional Adoption**: Institutional interest is accelerating, with major financial institutions like JP Morgan and Standard Chartered releasing bullish forecasts, targeting $170,000 and $150,000, respectively, for the year [^3].\n\n### 3. Altcoin Market Recovery\nThere is a significant debate regarding the potential recovery of the altcoin market after a four-year downtrend against Bitcoin [^4].\n\n*   **Signs of Recovery**: Technical indicators, such as a bullish MACD cross on the altcoin market cap chart, suggest a possible trend reversal [^4].\n*   **Market Structure**: Analysts note that the market structure has fundamentally changed since previous cycles due to factors like exchange manipulation and excessive leverage [^4].\n*   **Strategy**: Trading strategies are shifting away from broad altcoin exposure toward more selective approaches, focusing on coins with strong narratives and individual catalysts [^4].\n\n## Regulatory and Platform Discussions\n\n### U.S. Senate Crypto Regulatory Framework\nDiscussions are focused on the advancement of a bipartisan crypto regulatory framework in the U.S. Senate [^2].\n\n*   **Digital Asset Market Clarity Act**: A draft of this act was released in January 2026, aiming to establish a comprehensive framework that would clearly define the jurisdictions of the SEC (Securities and Exchange Commission) and the CFTC (Commodity Futures Trading Commission) over digital assets [^2].\n*   **Blockchain Regulatory Certainty Act**: Complementary legislation has been introduced to protect non-custodial blockchain developers from being classified as money transmitters [^2].\n*   **Upcoming Markups**: The Senate Banking Committee has scheduled a markup of the legislation for January 15, 2026, with ongoing negotiations focused on stablecoin yield and DeFi provisions [^2].\n\n### Wallchain and \"Quacks\"\nThe crypto engagement platform Wallchain is trending, specifically its reward system [^5].\n\n*   **Quacks**: Users earn \"Quacks\" for creating quality content and discussing crypto projects [^5].\n*   **Specific Projects**: Users are strategically posting about projects like HeyElsaAI, CodeXero, idOS network, and Reya to maximize their Quack earnings [^5].\n*   **Future Value**: The community is actively speculating on the potential future value of Quacks and anticipating an upcoming Token Generation Event (TGE) [^5].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

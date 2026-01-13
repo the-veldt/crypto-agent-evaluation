@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "8zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8zR4tK6m",
+    "query": "what are the latest catalysts for solana",
+    "level": 1,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Latest Catalysts for Solana (as of 2026-01-13 UTC)\n\nSolana is showing structural momentum through ecosystem growth, on-chain milestones, and developer incentives. **SOL price up ~11% from $125 (Dec 29) to $139 (Jan 13)**, with recent highs at $143 amid rising activity.\n\n### Key Recent Developments\n- **Privacy Hackathon Launch (Jan 12)**: $70k+ in rewards across tracks, plus ecosystem bounties. Drives dev innovation in privacy tech. [Source: @solana, @solana_devs]\n- **Stablecoin Market Cap ATH**: $15B on Solana, signaling DeFi/payment adoption. [Source: @fintechfrank RT by @solana]\n- **RWA Expansion**: PRIME Market (powered by @HastraFi) crossed $300M on Kamino; \"RWA season on Solana has begun.\"\n- **.com Domains Live**: On-chain .com domains now available, bridging Web2-Web3.\n- **Transaction Volume Surge**: Solana x402 txns surpassed Base for the first time.\n\n### Market & On-Chain Momentum\n| Metric | Value | Timeframe | Signal |\n|--------|-------|-----------|--------|\n| **SOL Price** | $139.11 (Close) | 2026-01-13 | +2.2% daily; +4% WoW from $135 |\n| **Recent High** | $143.55 | 2026-01-13 | Breakout above $140 resistance |\n| **Active Addresses (defs avail.)** | Growing daily/weekly/monthly | Jan 1-13 | User engagement proxy uptrend implied |\n| **Block Time** | ~ms avg (optimized) | Ongoing | High throughput sustained |\n\n### Sentiment & Narrative\n- WisdomTree: **\"Solana's 2025 dominance was structural\"** – \"Everything will be on Solana.\"\n- Ecosystem hype: Multiple launches (FairScale reputation, Trojan Arena, etc.); \"Finance 2.0 not Web3.\"\n- No near-term unlocks for SOL (native token).\n\n## Conclusions\n**Bottom line**: Catalysts cluster around dev tools (hackathon), real-world assets/RWAs, and infrastructure (stablecoins/domains), fueling adoption beyond hype. **Monitor hackathon outcomes, stablecoin inflows, and $150 price resistance**. Risks: Broader market rotation to smaller caps; competition from Base/Eth L2s. Positive setup for swing trades targeting $150-175.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

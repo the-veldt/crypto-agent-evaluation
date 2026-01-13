@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T17:27:35.539Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendAnalysis+trendDiscovery-2026-01-13T16-52-05-v2.json",
+    "runId": "2026-01-13T16:52:05.693Z",
+    "system": "gpt-5-mini",
+    "qid": "3kC5nP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "3kC5nP2v",
+    "query": "what are the latest narratives and trends in crypto",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 1172
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "Short answer: the market in early‑2026 is driven by infrastructure and institutionalization themes—Layer‑2s and zk tech, “restaking”/liquid staking, tokenization of real‑world assets, DePIN and AI integrations—plus continuing noise from memecoins/NFTs and regulatory focus. Below are the main narratives, why they matter, what to watch, and key risks.\n\nBig narratives & trends (what they are, why they matter, what to watch, risks)\n\n1) Layer‑2 / zk‑rollups and modularity\n- What: Continued migration of Ethereum activity to L2s (especially zkEVMs), and growth of modular architectures (separation of execution, settlement, data availability).\n- Why it matters: Lower fees and better UX broaden on‑chain use cases (DeFi, gaming, payments).\n- Watch: L2 TVL & volume, zkEVM mainnet launches, sequencer decentralization roadmaps and DA solutions.\n- Risks: Centralized sequencers, UX fragmentation, security bugs in new rollup code.\n\n2) Restaking / liquid restaking (EigenLayer ecosystem)\n- What: Reuse of staked ETH to secure additional services (AVSs) and the rise of liquid restaking tokens that layer yield.\n- Why it matters: Massive capital efficiency—staked ETH can secure more services and boost DeFi yields; EigenLayer and AVSs are a focal point.\n- Watch: TVL in EigenLayer / liquid restaking protocols, number of AVSs launched, slashing/insurance events and protocol audits.\n- Risks: Complex shared‑security economics, slashing contagion, novel attack vectors (see restaking writeups and audits) — sources report large TVL growth and tooling around restaking in 2025. (QuickNode, EigenLayer blog, Nethermind) \n\n3) Real‑World Asset (RWA) tokenization (institutional push)\n- What: Tokenized bonds, loans, money‑market instruments and tokenized securities moving from pilots to production.\n- Why it matters: Could connect traditional capital markets to on‑chain liquidity and settlement efficiencies; regulators and institutions are actively studying frameworks.\n- Watch: Regulatory guidance (IOSCO and regional rules), major banks / custodians offering tokenized products, issuance volumes and secondary liquidity metrics.\n- Risks: Legal & custody complexity, settlement finality disputes, regulatory constraints. (IOSCO report, Tangem, Investax, Deutsche Bank research)\n\n4) AI + crypto (compute, data markets, AI‑native tokens)\n- What: Projects combining on‑chain incentives with AI compute/data marketplaces, tokenized incentives for model/data contribution, and “AI + token” product experiments.\n- Why it matters: Crypto can monetize and coordinate data/compute in novel ways (market for distributed model training, verifiable ML inference).\n- Watch: Deployed AI compute marketplaces, token models that actually deliver productized AI services vs. purely token hype.\n- Risks: Many projects are speculative; regulatory/data privacy friction; hype cycles without viable product‑market fit. (industry commentary, project trackers)\n\n5) DePIN (decentralized physical infrastructure networks)\n- What: Token‑incentivized infrastructure (wireless, storage, compute, sensors) — e.g., networks that pay tokens for physical resource contributions.\n- Why it matters: Real‑world device adoption and network effects can create defensible token economies and tangible utility.\n- Watch: Device counts, network usage metrics, revenue per device, specialized explorers (e.g., DePINscan) and leaderboards.\n- Risks: Hardware economics, fraud/false reporting, regulatory/telecom constraints. (DePIN explorers & coverage 2025–26)\n\n6) Web3 gaming & NFTs — matured, utility‑first\n- What: Shift from pure speculation to games with on‑chain economies, interoperable assets, and more realistic user acquisition strategies.\n- Why it matters: Games are the most likely mainstream app to bring users and durable on‑chain asset flows.\n- Watch: MAU and in‑game economics, cross‑chain asset use, marketplace liquidity, and major studio partnerships.\n- Risks: Poor token economics, UX friction, centralized off‑chain components.\n\n7) Stablecoins, CBDCs & payments rails\n- What: Renewed regulatory attention and productization of stablecoins; CBDC pilots continue in many jurisdictions; stablecoin regulation moving up the agenda.\n- Why it matters: Clear rules and reliable stable settlement are prerequisites for broader DeFi and institutional flows.\n- Watch: Legislation, major stablecoin issuer compliance moves, adoption metrics.\n- Risks: Regulatory clampdowns, reserve transparency failures.\n\n8) Institutional adoption & financial plumbing\n- What: More custody, tokenized funds, ETP/ETF products, and bank/broker integration into crypto rails.\n- Why it matters: Lowers friction for large allocators and could flatten volatility if liquidity deepens.\n- Watch: New custody offerings, ETP/ETF flows, bank custody trials, and trading volumes. (Forbes and industry reporting)\n\n9) Privacy & ZK identity / account abstraction\n- What: ZK proofs for privacy, identity attestations (SBTs/SSI experiments), and account abstraction (ERC‑4337) improving UX and smart wallet features.\n- Why it matters: Better privacy/identity and account models unlock new classes of apps (payments, regulated products).\n- Watch: Mainnet ZK identity implementations, adoption of account abstraction wallets, and privacy swap volumes.\n- Risks: Regulatory scrutiny (KYC/AML), complexity of ZK tooling.\n\n10) Speculative narratives: memecoins/social tokens, launchpad cycles\n- What: Short, viral narratives (memecoins, celebrity tokens, viral airdrops) continue to punctuate markets.\n- Why it matters: They drive retail flows and volatility—useful for short‑term trading but poor for long‑term portfolios.\n- Watch: Token issuance velocity, exchange listings, on‑chain transfer spikes.\n- Risks: Rug pulls, pump‑and‑dump, high drawdowns.\n\nCross‑cutting risks to keep in mind\n- Regulatory shifts and enforcement actions remain the single biggest macro risk.\n- Shared‑security models (restaking) and composability create systemic attack surfaces; slashing/contagion risk is real.\n- Bridge exploits, oracle failures, and incentive misalignments still cause outsized losses.\n- Narrative fatigue: many tokenized AI / AI‑token projects may underdeliver.\n\nHow to track these narratives quickly\n- L2/zk TVL & activity: L2 dashboards (L2Beat, Dune dashboards).\n- Restaking & liquid staking: protocol TVL (EigenLayer analytics), LST supply and yields.\n- RWAs: issuance announcements, IOSCO/regulator reports, tokenized product volumes.\n- DePIN: device counts and on‑chain metrics (DePINscan).\n- News sources: industry outlets + event coverage (Token2049, ETHCC) and periodic analyst writeups (Forbes, CoinGecko, QuickNode blogs).\n\nIf you want, I can:\n- Pull a one‑page tracker with the top protocols/metrics for 3–4 of these narratives (e.g., top zk rollups, top restaking protocols, top RWA issuers), or\n- Build Dune/Glassnode queries and dashboards to monitor the indicators I listed.\n\nWhich narratives would you like me to dive into first?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 19417
+        }
+      }
+    ],
+    "finalAnswer": "Short answer: the market in early‑2026 is driven by infrastructure and institutionalization themes—Layer‑2s and zk tech, “restaking”/liquid staking, tokenization of real‑world assets, DePIN and AI integrations—plus continuing noise from memecoins/NFTs and regulatory focus. Below are the main narratives, why they matter, what to watch, and key risks.\n\nBig narratives & trends (what they are, why they matter, what to watch, risks)\n\n1) Layer‑2 / zk‑rollups and modularity\n- What: Continued migration of Ethereum activity to L2s (especially zkEVMs), and growth of modular architectures (separation of execution, settlement, data availability).\n- Why it matters: Lower fees and better UX broaden on‑chain use cases (DeFi, gaming, payments).\n- Watch: L2 TVL & volume, zkEVM mainnet launches, sequencer decentralization roadmaps and DA solutions.\n- Risks: Centralized sequencers, UX fragmentation, security bugs in new rollup code.\n\n2) Restaking / liquid restaking (EigenLayer ecosystem)\n- What: Reuse of staked ETH to secure additional services (AVSs) and the rise of liquid restaking tokens that layer yield.\n- Why it matters: Massive capital efficiency—staked ETH can secure more services and boost DeFi yields; EigenLayer and AVSs are a focal point.\n- Watch: TVL in EigenLayer / liquid restaking protocols, number of AVSs launched, slashing/insurance events and protocol audits.\n- Risks: Complex shared‑security economics, slashing contagion, novel attack vectors (see restaking writeups and audits) — sources report large TVL growth and tooling around restaking in 2025. (QuickNode, EigenLayer blog, Nethermind) \n\n3) Real‑World Asset (RWA) tokenization (institutional push)\n- What: Tokenized bonds, loans, money‑market instruments and tokenized securities moving from pilots to production.\n- Why it matters: Could connect traditional capital markets to on‑chain liquidity and settlement efficiencies; regulators and institutions are actively studying frameworks.\n- Watch: Regulatory guidance (IOSCO and regional rules), major banks / custodians offering tokenized products, issuance volumes and secondary liquidity metrics.\n- Risks: Legal & custody complexity, settlement finality disputes, regulatory constraints. (IOSCO report, Tangem, Investax, Deutsche Bank research)\n\n4) AI + crypto (compute, data markets, AI‑native tokens)\n- What: Projects combining on‑chain incentives with AI compute/data marketplaces, tokenized incentives for model/data contribution, and “AI + token” product experiments.\n- Why it matters: Crypto can monetize and coordinate data/compute in novel ways (market for distributed model training, verifiable ML inference).\n- Watch: Deployed AI compute marketplaces, token models that actually deliver productized AI services vs. purely token hype.\n- Risks: Many projects are speculative; regulatory/data privacy friction; hype cycles without viable product‑market fit. (industry commentary, project trackers)\n\n5) DePIN (decentralized physical infrastructure networks)\n- What: Token‑incentivized infrastructure (wireless, storage, compute, sensors) — e.g., networks that pay tokens for physical resource contributions.\n- Why it matters: Real‑world device adoption and network effects can create defensible token economies and tangible utility.\n- Watch: Device counts, network usage metrics, revenue per device, specialized explorers (e.g., DePINscan) and leaderboards.\n- Risks: Hardware economics, fraud/false reporting, regulatory/telecom constraints. (DePIN explorers & coverage 2025–26)\n\n6) Web3 gaming & NFTs — matured, utility‑first\n- What: Shift from pure speculation to games with on‑chain economies, interoperable assets, and more realistic user acquisition strategies.\n- Why it matters: Games are the most likely mainstream app to bring users and durable on‑chain asset flows.\n- Watch: MAU and in‑game economics, cross‑chain asset use, marketplace liquidity, and major studio partnerships.\n- Risks: Poor token economics, UX friction, centralized off‑chain components.\n\n7) Stablecoins, CBDCs & payments rails\n- What: Renewed regulatory attention and productization of stablecoins; CBDC pilots continue in many jurisdictions; stablecoin regulation moving up the agenda.\n- Why it matters: Clear rules and reliable stable settlement are prerequisites for broader DeFi and institutional flows.\n- Watch: Legislation, major stablecoin issuer compliance moves, adoption metrics.\n- Risks: Regulatory clampdowns, reserve transparency failures.\n\n8) Institutional adoption & financial plumbing\n- What: More custody, tokenized funds, ETP/ETF products, and bank/broker integration into crypto rails.\n- Why it matters: Lowers friction for large allocators and could flatten volatility if liquidity deepens.\n- Watch: New custody offerings, ETP/ETF flows, bank custody trials, and trading volumes. (Forbes and industry reporting)\n\n9) Privacy & ZK identity / account abstraction\n- What: ZK proofs for privacy, identity attestations (SBTs/SSI experiments), and account abstraction (ERC‑4337) improving UX and smart wallet features.\n- Why it matters: Better privacy/identity and account models unlock new classes of apps (payments, regulated products).\n- Watch: Mainnet ZK identity implementations, adoption of account abstraction wallets, and privacy swap volumes.\n- Risks: Regulatory scrutiny (KYC/AML), complexity of ZK tooling.\n\n10) Speculative narratives: memecoins/social tokens, launchpad cycles\n- What: Short, viral narratives (memecoins, celebrity tokens, viral airdrops) continue to punctuate markets.\n- Why it matters: They drive retail flows and volatility—useful for short‑term trading but poor for long‑term portfolios.\n- Watch: Token issuance velocity, exchange listings, on‑chain transfer spikes.\n- Risks: Rug pulls, pump‑and‑dump, high drawdowns.\n\nCross‑cutting risks to keep in mind\n- Regulatory shifts and enforcement actions remain the single biggest macro risk.\n- Shared‑security models (restaking) and composability create systemic attack surfaces; slashing/contagion risk is real.\n- Bridge exploits, oracle failures, and incentive misalignments still cause outsized losses.\n- Narrative fatigue: many tokenized AI / AI‑token projects may underdeliver.\n\nHow to track these narratives quickly\n- L2/zk TVL & activity: L2 dashboards (L2Beat, Dune dashboards).\n- Restaking & liquid staking: protocol TVL (EigenLayer analytics), LST supply and yields.\n- RWAs: issuance announcements, IOSCO/regulator reports, tokenized product volumes.\n- DePIN: device counts and on‑chain metrics (DePINscan).\n- News sources: industry outlets + event coverage (Token2049, ETHCC) and periodic analyst writeups (Forbes, CoinGecko, QuickNode blogs).\n\nIf you want, I can:\n- Pull a one‑page tracker with the top protocols/metrics for 3–4 of these narratives (e.g., top zk rollups, top restaking protocols, top RWA issuers), or\n- Build Dune/Glassnode queries and dashboards to monitor the indicators I listed.\n\nWhich narratives would you like me to dive into first?",
+    "executionTimeMs": 76921,
+    "totalTokens": 20589,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto trends 2026 narratives AI zk-rollups restaking DePIN tokenization real-world assets regulation 2025 2026 report",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "AI and crypto narrative 2025 2026 'AI-native tokens' 'blockchain AI' 'crypto AI'",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "zk-rollups 2025 2026 developments 'zkEVM' 'rollups' 'sequencer decentralization'",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "restaking EigenLayer 2025 2026 'restaking' 'liquid restaking' 'EigenLayer updates'",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DePIN trends 2025 2026 Helium Filecoin Akash 'decentralized physical infrastructure' 2026 trends",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "tokenization real world assets RWA crypto 2025 2026 institutional adoption 'tokenized securities' 'tokenized debt'",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto regulation 2025 2026 SEC court cases 'MiCA implementation 2025' 'US crypto regulation 2025 2026'",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "NFT trends 2025 2026 gaming 'web3 gaming' 'NFTs 2026' 'social tokens' 'onchain art'",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

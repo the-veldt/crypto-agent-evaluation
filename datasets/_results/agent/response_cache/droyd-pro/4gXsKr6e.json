@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "4gXsKr6e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4gXsKr6e",
+    "query": "using quant metrics, find the most promising small cap to middle cap projects with the best technical setup, catalysts, and narrative sustainability potential",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_px1X4BrbSl3QQj1jmGnPjL6k\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find small-cap to mid-cap crypto projects with strong technical setup: high quant/momentum score and positive quant_score change, bullish trend (RSI 45-70, MACD bullish/crossing), strong liquidity and volume, and improving onchain trader growth. Exclude stablecoins and majors. Return top candidates across chains (no chain restriction) prioritizing narrative sustainability and near-term catalysts.\",\n      \"sort_by\": \"quant_score\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4ce3f6c81a2a99bb6e3ab9caad9\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_pK2zVCYwdhWB4AXDfW0oYmt9\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Small-cap to mid-cap projects (10M-500M mcap) with strong momentum/technical setup: top quant_score, positive quant_score_change, high liquidity and volume, trader growth. Any chain. No stablecoins/majors.\",\n      \"sort_by\": \"quant_score_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4d3417881a2878e28ade3007bd4\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_0yvut3T7l0hUFsbJTGyYskqJ\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Small-cap to mid-cap projects (10M-500M mcap) with strong onchain activity: highest traders_change and volume_change, decent liquidity. Any chain. No stablecoins/majors.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4d457e081a29d46a34699171337\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_iZGlHFoe3nqO2euLr6X5cxOd\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"include_global\": true\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4d50a4081a2a9800f5e97b1469d\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_PHgm3aJiczrNX58987IaRyYs\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"developments\",\n        \"news\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        517\n      ],\n      \"project_ids\": [\n        18533,\n        29226\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4d92bb481a2bf1d185e68a30adb\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_XpMJ1luAyWIrfYu7sLGXfXnr\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"developments\",\n        \"news\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        518,\n        651\n      ],\n      \"project_ids\": [\n        18687\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4daf5ec81a2b93379e0e198a109\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_FlNUl4XHrcBMPEtqFmbSUOhM\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"developments\",\n        \"news\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        516\n      ],\n      \"project_ids\": [\n        32882,\n        37084\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0247d891723102ed006966b4db845881a2af28b8e2c231539e\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 4,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![jellyjelly / SOL Price and Metrics](https://res.cloudinary.com/dgjriemfd/image/upload/v1766196084/veldt/xfcnudzqrerbsroizjey.jpg)\\n\\n### Quant-screened small→mid caps with the cleanest setup + real catalysts\\n\\n**1) AI Rig Complex (ARC) — Solana — ~$67.4M mcap**  \\n**Quant/technicals:** **BULLISH_STRONG momentum (90.5)** on 4H, **price +9.33%**, **volume +84.9%**, **trades +37.4%**, **traders +14.6%**, liquidity **~$4.86M**. This is already extended (**RSI 85.5**, BB > upper band), so the “best setup” is **breakout continuation**, not an early entry.  \\n**Catalysts:** persistent product shipping in the Rig/Ryzome stack; ecosystem integrations historically drive second legs.  \\n**Narrative sustainability:** higher than most “AI tokens” because it maps to **developer tooling + agent frameworks**, not pure meme flow. Biggest risk is overheating/mean reversion.\\n\\n**2) Jelly-My-Jelly (JELLYJELLY) — Solana — ~$80.8M mcap**  \\n**Quant/technicals:** **BULLISH_MEDIUM momentum (48.5)**, **price +4.02%**, **volume +101.8%**, **traders +19.1%**, liquidity **~$6.57M**. RSI **~71** and BB > upper band = strength, but not the clean “base then break” either.  \\n**Catalysts:** product-distribution is real (App Store presence + download milestones) and the **Predict integration to turn posts into prediction markets** is a credible “utility loop” (creator revenue share + onchain markets).  \\n**Narrative sustainability:** strongest in this list outside pure infra because it combines **consumer app + social markets** (ties directly into the global “prediction market commercialization” trend).\\n\\n**3) Swarm Network (TRUTH) — Sui — ~$142.7M mcap**  \\n**Quant/technicals:** **BULLISH_MEDIUM momentum (52.5)**, **volume +38.5%**, **traders +22.0%**, liquidity **~$0.62M**. RSI **~73** and BB > upper band means it’s also extended; liquidity is the constraint.  \\n**Catalysts:** onchain coordination / agent swarms narrative remains hot; partnerships exist but you need a nearer-term shipping event to justify size-ups.  \\n**Narrative sustainability:** decent if it stays anchored to **verifiable onchain data + agent coordination**, weak if it drifts into generic “AI swarm” marketing.\\n\\n### What *didn’t* make it (despite onchain spikes)\\n- **Portals (PORTALS)**: traders **+104.7%** but **momentum NEUTRAL (-6.4)** with **bearish MACD convergence**. Activity looks episodic, not trend-confirming.\\n- **67 Coin (67)**: strong flow (**trades +162%**, **volume +168%**) but **memecoin narrative durability** is low relative to your “sustainable narrative” constraint.\\n\\nIf you force “best technical setup” strictly (base + bullish cross, not overbought breakout), **PIPPIN** actually has the cleanest *mechanical* inflection (**MACD bullish cross, RSI ~60**) but it’s **~$338M mcap** and the narrative leans meme-adjacent.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0247d891723102ed006966b4e0518081a2965e3a5c55e4dc11\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![jellyjelly / SOL Price and Metrics](https://res.cloudinary.com/dgjriemfd/image/upload/v1766196084/veldt/xfcnudzqrerbsroizjey.jpg)\n\n### Quant-screened small→mid caps with the cleanest setup + real catalysts\n\n**1) AI Rig Complex (ARC) — Solana — ~$67.4M mcap**  \n**Quant/technicals:** **BULLISH_STRONG momentum (90.5)** on 4H, **price +9.33%**, **volume +84.9%**, **trades +37.4%**, **traders +14.6%**, liquidity **~$4.86M**. This is already extended (**RSI 85.5**, BB > upper band), so the “best setup” is **breakout continuation**, not an early entry.  \n**Catalysts:** persistent product shipping in the Rig/Ryzome stack; ecosystem integrations historically drive second legs.  \n**Narrative sustainability:** higher than most “AI tokens” because it maps to **developer tooling + agent frameworks**, not pure meme flow. Biggest risk is overheating/mean reversion.\n\n**2) Jelly-My-Jelly (JELLYJELLY) — Solana — ~$80.8M mcap**  \n**Quant/technicals:** **BULLISH_MEDIUM momentum (48.5)**, **price +4.02%**, **volume +101.8%**, **traders +19.1%**, liquidity **~$6.57M**. RSI **~71** and BB > upper band = strength, but not the clean “base then break” either.  \n**Catalysts:** product-distribution is real (App Store presence + download milestones) and the **Predict integration to turn posts into prediction markets** is a credible “utility loop” (creator revenue share + onchain markets).  \n**Narrative sustainability:** strongest in this list outside pure infra because it combines **consumer app + social markets** (ties directly into the global “prediction market commercialization” trend).\n\n**3) Swarm Network (TRUTH) — Sui — ~$142.7M mcap**  \n**Quant/technicals:** **BULLISH_MEDIUM momentum (52.5)**, **volume +38.5%**, **traders +22.0%**, liquidity **~$0.62M**. RSI **~73** and BB > upper band means it’s also extended; liquidity is the constraint.  \n**Catalysts:** onchain coordination / agent swarms narrative remains hot; partnerships exist but you need a nearer-term shipping event to justify size-ups.  \n**Narrative sustainability:** decent if it stays anchored to **verifiable onchain data + agent coordination**, weak if it drifts into generic “AI swarm” marketing.\n\n### What *didn’t* make it (despite onchain spikes)\n- **Portals (PORTALS)**: traders **+104.7%** but **momentum NEUTRAL (-6.4)** with **bearish MACD convergence**. Activity looks episodic, not trend-confirming.\n- **67 Coin (67)**: strong flow (**trades +162%**, **volume +168%**) but **memecoin narrative durability** is low relative to your “sustainable narrative” constraint.\n\nIf you force “best technical setup” strictly (base + bullish cross, not overbought breakout), **PIPPIN** actually has the cleanest *mechanical* inflection (**MACD bullish cross, RSI ~60**) but it’s **~$338M mcap** and the narrative leans meme-adjacent.",
+    "executionTimeMs": 34151,
+    "stepCount": 4,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find small-cap to mid-cap crypto projects with strong technical setup: high quant/momentum score and positive quant_score change, bullish trend (RSI 45-70, MACD bullish/crossing), strong liquidity and volume, and improving onchain trader growth. Exclude stablecoins and majors. Return top candidates across chains (no chain restriction) prioritizing narrative sustainability and near-term catalysts.",
+          "sort_by": "quant_score"
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Small-cap to mid-cap projects (10M-500M mcap) with strong momentum/technical setup: top quant_score, positive quant_score_change, high liquidity and volume, trader growth. Any chain. No stablecoins/majors.",
+          "sort_by": "quant_score_change"
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Small-cap to mid-cap projects (10M-500M mcap) with strong onchain activity: highest traders_change and volume_change, decent liquidity. Any chain. No stablecoins/majors.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "include_global": true
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "developments",
+            "news",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [
+            517
+          ],
+          "project_ids": [
+            18533,
+            29226
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "developments",
+            "news",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [
+            518,
+            651
+          ],
+          "project_ids": [
+            18687
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "developments",
+            "news",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [
+            516
+          ],
+          "project_ids": [
+            32882,
+            37084
+          ]
+        }
+      }
+    ],
+    "totalTokens": 58278
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

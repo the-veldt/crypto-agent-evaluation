@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Analysis of Projects with Greatest Mindshare Growth (Last 24 Hours)\n\nThe projects and narratives experiencing the greatest mindshare growth over the last 24 hours are concentrated in three primary sectors: **Institutional Infrastructure & Regulation**, **Decentralized AI (DeAI) & Robotics**, and the **Real-World Asset (RWA) Tokenization** ecosystem.\n\n## Central Themes and Narratives\n\nThe central theme driving mindshare is the **maturation and institutionalization of the crypto market**, characterized by a shift from speculative retail narratives to infrastructure, compliance, and real-world utility [^1][^2][^3].\n\n### 1. Institutional Infrastructure and Regulatory Clarity\n\nThis theme is driven by major financial and political developments that signal mainstream acceptance and regulatory progress:\n\n*   **Custody and IPOs:** Crypto custodian **BitGo** is planning an Initial Public Offering (IPO) to raise approximately $201 million, targeting a valuation of $1.85 billion [^4][^5][^6]. This move, along with BitGo's conditional approval for a U.S. banking charter, highlights the growing institutional demand for compliant custody services [^5][^6].\n*   **Regulatory Framework:** The U.S. Senate is advancing the bipartisan **Digital Asset Market Clarity Act**, which aims to define the jurisdictions of the SEC and CFTC over digital assets [^7]. This legislation is viewed as potentially transformative for U.S. crypto markets by removing regulatory uncertainty [^7].\n*   **Stablecoin Infrastructure:** The stock of crypto infrastructure firm **Bakkt** surged 17% following its plan to acquire Distributed Technologies Research (DTR) to deepen its push into stablecoin payments and programmable payments infrastructure [^8][^9]. Stablecoins, such as USDT and USDC, are increasingly becoming the default payment rail for real-world crypto shopping, with transaction volume reaching $33 trillion in 2025 [^10].\n*   **Macro Hedge Narrative:** The escalating political conflict between President Trump and Federal Reserve Chair Jerome Powell is fueling the narrative of Bitcoin and gold as \"credibility hedge\" assets against political interference and potential dollar instability [^11][^12][^13][^14][^15]. This tension is viewed as benefiting Bitcoin as an emerging store of value [^12].\n\n### 2. Decentralized AI (DeAI) and Robotics\n\nMindshare is growing around projects that merge decentralized technology with Artificial Intelligence (AI) and robotics, reflecting broader market interest in the AI sector [^16][^17][^18].\n\n*   **Decentralized AI Projects:** The Decentralized AI (DeAI) market cap remained flat at $29.5 billion, but projects like **Story Protocol** (+45%) and **TAO** (+4%) saw gains [^19].\n*   **Robotics and Utilities:** The Robotics market cap dipped 8%, but projects such as **Neuron** (+17%) and **GEODNET** (+3%) showed strength [^19]. GEODNET, along with Nous Research and Poseidon, was also added to Grayscale's asset consideration list for potential future investment products, signaling institutional interest in the AI/Utilities sector [^20].\n*   **Venture Capital Focus:** Venture capital firm Andreessen Horowitz (a16z) recently raised over $15 billion across new funds, with a significant portion earmarked for AI and cryptocurrency [^21].\n\n### 3. Real-World Asset (RWA) Tokenization\n\nThe RWA sector is moving from experimental concepts to market-driven approaches, with a focus on building compliant infrastructure and generating sustainable yield [^1].\n\n*   **Infrastructure and Compliance:** The RWA market is projected to reach $30 trillion by 2027 [^1]. Projects are focusing on building critical infrastructure, including verified data, enforceable rights, and compliant settlement layers [^1].\n*   **Tokenized Products:** Collaborations are emerging to accelerate regulated tokenized product development, such as the partnership between the **ADI Foundation**, **Finstreet Limited**, and **BlockBooster** in the UAE, focusing on institutional-grade tokenized assets and Dirham-backed stablecoins [^22].\n*   **Yield Innovation:** **Huma Finance** introduced \"Defensive Looping™️,\" a protected leverage strategy designed to boost yields on income-generating assets while mitigating risks common in traditional DeFi looping [^23]. This innovation aims to unlock liquidity for tokenized PayFi and RWAs [^23].\n*   **Institutional Recognition:** **HashSTACS.HK** was named to the KPMG China Fintech 50 list for its compliant digital asset infrastructure, RWALinks, which focuses on bridging RWAs with on-chain liquidity [^24].\n\n## Other Notable Projects and Catalysts\n\nMindshare also grew around specific projects due to unique catalysts:\n\n| Project | Sector/Theme | Catalyst Driving Mindshare |\n| :--- | :--- | :--- |\n| **Story Protocol** | Decentralized AI (DeAI) | Saw a 45% gain in market cap [^19]. |\n| **Canaan (CAN)** | Bitcoin Mining/Energy | Announced a 3.0 MW proof-of-concept project to monetize waste heat from liquid-cooled servers for greenhouse operations, positioning high-density computing as an energy-efficient asset [^25]. |\n| **ZTX** | Gaming/Web3 | Announced a 300M $ZTX airdrop tied to the upcoming Mobile App launch in 2026, following the growth of its Live Streams and community governance [^26]. |\n| **DAYSTARTER** | Web3/Culture | Launched Season 3, a 10-week fan-voting event themed around the Paris 2024 Olympics, offering DST rewards for participation [^27]. |\n| **BenPay DeFi Earn** | Decentralized Finance (DeFi) | Introduced four new yield opportunities (Morpho USDC, Morpho USDT, Sky USD, and Ethena USDe) to diversify earning options and simplify DeFi participation [^28]. |\n| **XRP** | Payments/Trading | Trading in a tightening range near $2.05, with technical analysis suggesting a potential directional move is imminent once range boundaries are broken [^29]. |",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

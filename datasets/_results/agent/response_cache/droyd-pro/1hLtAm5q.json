@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_ksM6FdLfmYQ7SvU8p0KxIoVX\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"top perpetuals protocols key trends catalysts narrative momentum accelerating decelerating stable\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 14,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        514\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_077b495a0a87002d006966be366060819fa8753adc97a8c6f4\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![](https://res.cloudinary.com/dgjriemfd/image/upload/v1767779106/veldt/yhaxas7zef0zentvnhwn.jpg)\\n\\n## Key trends + what’s actually driving them\\n**Perps has shifted from “DeFi vs CEX” to a straight-up revenue + distribution game.** The playbook that works now: **(1) lowest-friction venue**, **(2) credible liquidity + market design**, **(3) explicit value accrual** (buybacks / fee routing), **(4) expansion into new underlyings**.\\n\\n**1) Primary venue dominance + the rise of “secondary” venues**\\n- **Hyperliquid** still sets the bar as the primary liquidity venue, but the market is no longer single-winner in distribution.\\n- A clear “secondary venue” cohort is scaling fast: **Aster, Lighter, edgeX, Paradex, Extended**. They win by **regional distribution**, **different UX**, and **new listings/market structure**, not by out-HL’ing Hyperliquid.\\n\\n**2) StarkWare-powered perps are taking real share**\\n- Multiple data snapshots now point to **STARK-tech venues collectively around ~20% of perp market activity** with visible **step-function volume jumps** across **Paradex / edgeX / Extended** right after major ecosystem events (e.g., Lighter TGE spillover).\\n\\n**3) Permissionless market creation is the meta**\\n- Hyperliquid’s **HIP-3** framing matters: the bottleneck moves from “can you build an exchange?” to **“can you design a market + oracle + demand and post the stake.”**\\n- That unlocks **exotics + long tail + localized markets** that CEXs either can’t list or won’t touch.\\n\\n## Catalysts to watch (next 4–12 weeks of narrative fuel)\\n- **Equity perps / TradFi underlyings onchain**: this is where incremental users come from (Robinhood-style behavior, 24/7, leverage). Early reported volumes on new equity-perp venues are already large enough to force attention.\\n- **Token value accrual becoming normalized**: buyback-led tokenomics (the “HYPE playbook”) is spreading because it’s the only clean valuation anchor the market respects right now.\\n- **Funding-rate derivatives / hedging layer**: **Boros (Pendle)** is explicitly positioning as a picks-and-shovels funding market (asset expansion into **TSLA/NVDA/VOO** and institutional/OTC rails).\\n\\n![](https://res.cloudinary.com/dgjriemfd/image/upload/v1767930325/veldt/fmbyokmp4xkz0zbswgee.jpg)\\n\\n## Narrative momentum: accelerating, decelerating, or stable?\\n**Mixed, with the center of gravity accelerating.**\\n- **Accelerating:** **Equity perps**, **permissionless listings**, **ZK/high-performance perps stacks**, **funding-rate markets**.\\n- **Stable:** “vanilla crypto perps” (BTC/ETH/SOL) as products. Durable volumes, but growth is more incremental and competitive.\\n- **Slight deceleration in the index leader’s aura:** even when the venue wins, **30D growth softness** on some top venues shows the market is rotating into challengers and adjacencies rather than only bidding the incumbent.\\n\\nThe net read: **perps as a sector stays hot, but attention is rotating from “who’s the biggest” to “who can expand TAM beyond crypto and package revenue into token value.”**\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_077b495a0a87002d006966be4dfab4819f9e8ae5bfbe2cb09e\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![](https://res.cloudinary.com/dgjriemfd/image/upload/v1767779106/veldt/yhaxas7zef0zentvnhwn.jpg)\n\n## Key trends + what’s actually driving them\n**Perps has shifted from “DeFi vs CEX” to a straight-up revenue + distribution game.** The playbook that works now: **(1) lowest-friction venue**, **(2) credible liquidity + market design**, **(3) explicit value accrual** (buybacks / fee routing), **(4) expansion into new underlyings**.\n\n**1) Primary venue dominance + the rise of “secondary” venues**\n- **Hyperliquid** still sets the bar as the primary liquidity venue, but the market is no longer single-winner in distribution.\n- A clear “secondary venue” cohort is scaling fast: **Aster, Lighter, edgeX, Paradex, Extended**. They win by **regional distribution**, **different UX**, and **new listings/market structure**, not by out-HL’ing Hyperliquid.\n\n**2) StarkWare-powered perps are taking real share**\n- Multiple data snapshots now point to **STARK-tech venues collectively around ~20% of perp market activity** with visible **step-function volume jumps** across **Paradex / edgeX / Extended** right after major ecosystem events (e.g., Lighter TGE spillover).\n\n**3) Permissionless market creation is the meta**\n- Hyperliquid’s **HIP-3** framing matters: the bottleneck moves from “can you build an exchange?” to **“can you design a market + oracle + demand and post the stake.”**\n- That unlocks **exotics + long tail + localized markets** that CEXs either can’t list or won’t touch.\n\n## Catalysts to watch (next 4–12 weeks of narrative fuel)\n- **Equity perps / TradFi underlyings onchain**: this is where incremental users come from (Robinhood-style behavior, 24/7, leverage). Early reported volumes on new equity-perp venues are already large enough to force attention.\n- **Token value accrual becoming normalized**: buyback-led tokenomics (the “HYPE playbook”) is spreading because it’s the only clean valuation anchor the market respects right now.\n- **Funding-rate derivatives / hedging layer**: **Boros (Pendle)** is explicitly positioning as a picks-and-shovels funding market (asset expansion into **TSLA/NVDA/VOO** and institutional/OTC rails).\n\n![](https://res.cloudinary.com/dgjriemfd/image/upload/v1767930325/veldt/fmbyokmp4xkz0zbswgee.jpg)\n\n## Narrative momentum: accelerating, decelerating, or stable?\n**Mixed, with the center of gravity accelerating.**\n- **Accelerating:** **Equity perps**, **permissionless listings**, **ZK/high-performance perps stacks**, **funding-rate markets**.\n- **Stable:** “vanilla crypto perps” (BTC/ETH/SOL) as products. Durable volumes, but growth is more incremental and competitive.\n- **Slight deceleration in the index leader’s aura:** even when the venue wins, **30D growth softness** on some top venues shows the market is rotating into challengers and adjacencies rather than only bidding the incumbent.\n\nThe net read: **perps as a sector stays hot, but attention is rotating from “who’s the biggest” to “who can expand TAM beyond crypto and package revenue into token value.”**",
+    "executionTimeMs": 51872,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "top perpetuals protocols key trends catalysts narrative momentum accelerating decelerating stable",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 14,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            514
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 42184
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

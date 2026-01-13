@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "YjS6mHt2",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "YjS6mHt2",
+    "query": "of the memecoins with the highest mindshare growth, which assets have the best catalysts and narrative sustainability potential?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nAmong memecoins with the highest 7-day mindshare growth, BUTTCOIN and SHREK stand out for best catalysts and narrative sustainability—BUTTCOIN with its \"next Bitcoin\" parody backed by high bullish mentions (92/133), and SHREK with explosive 5958% growth plus strong bullish sentiment (46/55)—while others like MOODENG show solid momentum but limited specific catalysts in current data.\n\n───\n\nLeaderboard Overview\nThe Elfa AI token leaderboard for memecoins, sorted by 7-day mindshare change, highlights top performers. Key metrics include mindshare growth, mention sentiment, and calls. Limited tweet data on catalysts reduces depth, but narratives emerge from mentions.\n\nTop 5 by mindshare growth:\n- SHREK (ETH, 0x77f6e975aa520601236f61c81ca8a88e2c3cc1a9): 5958% change to 1.01% mindshare; 55 mentions (7 smart, 46 bullish).\n- RUNNER (Base): 1337% change to 0.24%; 12 mentions (9 bullish).\n- UP (Solana): 1122% change to 0.20%; 10 mentions (1 smart, 8 bullish).\n- BUTTCOIN (Solana, FasH397CeZLNYWkd3wWK9vrmjd1z93n3b59DssRXpump): 999% change to 1.68%; 133 mentions (92 bullish, 10 long calls).\n- COPE (Solana): 948% change to 0.35%; 17 mentions (3 smart).\n\nCatalysts and Narrative Assessment\nCatalysts refer to emerging drivers like unique narratives or community momentum; sustainability gauges durability beyond hype.\n\n- BUTTCOIN: Strongest catalyst via \"biggest memecoin ever\" parody narrative, tying into Bitcoin themes with high volume (133 mentions, mostly bullish). 10 long calls add credibility. High mindshare (1.68%) suggests sustainability if parody holds amid BTC cycles. SpoiledBySpoily.\n- SHREK: Massive growth implies viral cultural narrative (e.g., movie/collectible tie-ins), fully bullish sentiment, and smart mentions. Lacks explicit tweet catalysts but top rank signals momentum; sustainability via broad appeal.\n- MOODENG (701% growth): Animal meme resilience (62 mentions, 30 bullish), one call. Narrative durable like prior hippo memes, but neutral-heavy sentiment tempers upside. hackernoon notes similar memecoin patterns.\n\nOthers (e.g., RUNNER, UP, COPE) show growth but neutral sentiment and no clear catalysts in tweets, limiting sustainability potential.\n\nTrading Considerations\nPrioritize BUTTCOIN for narrative edge and volume; monitor SHREK for breakout. Data shows no short calls, bullish tilt, but memecoins remain high-risk—mindshare spikes can fade without sustained catalysts. No private roadmap or future plans available.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

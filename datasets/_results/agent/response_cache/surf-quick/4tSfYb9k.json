@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "4tSfYb9k",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4tSfYb9k",
+    "query": "What is the core trends on solana vs base? Which is more sustainable and rooted in moat-like characteristics?",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Core Trends: Solana vs Base\n\n**Solana leads in high-volume DeFi and app revenue metrics**, surpassing Base (and often ETH L2s combined) in DEX volume, app revenue, users, and stablecoin supply as of early 2026. Base excels in memecoin launches and stablecoin transfer volume, leveraging EVM accessibility. Recent data (Jan 2026) shows Solana's daily txns (x402) overtaking Base for the first time.\n\n| Metric | Solana | Base | Timeframe/Source | Signal |\n|--------|--------|------|------------------|--------|\n| DEX Volume | > ETH + BNB + Base + Sui + Hyperliquid combined | Lower overall | Jan 2026 / Twitter + Blockworks | Solana dominance |\n| App Revenue | Leads all chains | Trails Solana | Jan 2026 / Twitter | Solana ecosystem strength |\n| Active Addresses (Daily) | High (e.g., millions via Token Terminal trends) | Competitive but lower | 2026-01-01 to 01-13 / Token Terminal | Solana user engagement |\n| Stablecoin Supply | Higher | Lower | Recent / Blockworks | Solana DeFi maturity |\n| Memecoin Launches | Strong but trails | Leads | Recent / Blockworks | Base niche hype |\n| Txns (Recent Peak) | Surpassed Base (x402) | Previously ahead | Jan 12, 2026 / Twitter | Momentum shift to Solana |\n\n**Token Terminal Insights (2026-01-01 to 01-13)**: Solana shows robust **active_addresses_daily/weekly/monthly** (proxy for DAU/MAU), low **block_time** (~400ms), strong **arpu/afpu** (revenue/fees per user), and developer activity. Base data aligns with EVM L2 patterns: solid but reliant on ETH scaling.\n\n## Sustainability & Moat Comparison\n\n**Solana is more sustainable with deeper moat-like characteristics**. Its Proof-of-History (PoH) + PoS enables native high TPS/low fees without L2 dependencies, fostering lock-in via mature DeFi (Jupiter, Raydium) and memecoin ecosystems. Revenue capture (fees, MEV) funds network security; despite past outages, 2026 uptime improvements solidify it.\n\nBase's moats are **distribution-driven** (Coinbase onboarding, 100M+ users) and EVM compatibility (easy ETH migration), plus Superchain interoperability. However, it lacks a native token (pre-TGE), sequencer centralization risks, and relies on ETH for security—making it less independent.\n\n| Factor | Solana Moat | Base Moat | Winner |\n|--------|-------------|-----------|--------|\n| Tech/Throughput | PoH for 65k+ TPS potential | OP Stack rollup (~100 TPS) | Solana |\n| Ecosystem | $10B+ TVL, top DEXes | $5B+ TVL, memecoin focus | Solana |\n| Distribution | Organic growth, wallets (Phantom) | Coinbase ramps | Base |\n| Revenue Model | Native fees/staking | Sequencer (Coinbase-held) | Solana |\n| Risks | Centralization/Outages (improving) | ETH congestion, no token | Solana edges |\n\n## Conclusions\n\n**Bottom line**: Solana's trends point to sustained leadership in core crypto activity (revenue/volume), rooted in tech + ecosystem moats for long-term viability. Base shines for retail/EVM onboarding but risks commoditization among L2s. **Monitor**: Solana outages vs Base TVL growth (DefiLlama); SOL price resilience amid chain competition. Solana for sustainability.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

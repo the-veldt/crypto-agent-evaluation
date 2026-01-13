@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nUniswap remains the dominant DEX by TVL and revenue, offering stability and multi-chain reach, but Aerodrome is showing aggressive revenue growth and higher capital efficiency relative to its TVL, making it a high-upside, higher-risk play for investors seeking exposure to new chain narratives and rapid protocol expansion.\n\n───\n\nUniswap Investment Case:\n\n- TVL & Scale: Uniswap V3 commands a massive TVL of $2.27B across dozens of chains, cementing its position as the largest and most battle-tested DEX.\n- Revenue: Generated $716.8M in annual fees, with $565K in protocol revenue since the December 2025 fee switch (now partially used for UNI buybacks/burns). Fee growth has recently accelerated (up 60% month-over-month), but revenue to holders is still a small fraction of total fees.\n- Growth Trends: TVL has been relatively stable with modest short-term fluctuations. Fee and volume growth remain robust, especially after the fee switch, but the majority of fees still go to LPs rather than UNI holders.\n- Technical Analysis: UNI price has been in a downtrend for most of 2025, with a recent period of sideways consolidation. Technicals (RSI ~39, MACD negative) suggest the asset is oversold but lacking bullish momentum; support is around $5.5, resistance near $7.\n- Risk/Reward: Uniswap offers blue-chip stability, deep liquidity, and proven resilience. Upside for UNI holders depends on adoption of the new fee model and increased protocol revenue share, but short-term price action is muted.\n\nAerodrome Investment Case:\n\n- TVL & Scale: Aerodrome's TVL is $284M, much smaller than Uniswap but substantial as the leading DEX on Base. It is highly concentrated on a single chain, increasing platform risk but also upside if Base continues to grow.\n- Revenue: Aerodrome generated $129.7M in protocol revenue over the past year—remarkably high for its TVL, indicating strong fee capture and capital efficiency. Nearly all swap fees accrue to AERO holders or the protocol treasury.\n- Growth Trends: TVL and revenue are both up strongly month-over-month (revenue +141%), with consistent week-over-week increases. Aerodrome’s revenue growth outpaces its TVL growth, signaling rising capital efficiency and user engagement.\n- Technical Analysis: AERO price has mirrored UNI’s pattern—downtrend for most of 2025, now consolidating above $0.57. RSI (~40) and MACD are negative, but recent volume spikes may indicate capitulation and a potential base forming.\n- Risk/Reward: Aerodrome is a higher-risk, higher-reward bet. It’s the clear leader on Base, benefits from narrative tailwinds, and delivers outsized revenue relative to TVL. However, it is exposed to Base-specific risks and lacks Uniswap’s diversification.\n\nSummary Table:\n\n| Metric           | Uniswap V3            | Aerodrome Slipstream      |\n|------------------|----------------------|---------------------------|\n| TVL              | $2.27B               | $284M                     |\n| Revenue (1Y)     | $565K (to holders)  | $129.7M (to holders)      |\n| Fees (1Y)        | $716.8M (total)      | $129.7M                   |\n| Chains           | 30+                  | 1 (Base)                  |\n| Growth (1M rev)  | +60%                 | +141%                     |\n| Technicals       | Weak/Sideways        | Weak/Sideways             |\n\n Uniswap only recently enabled protocol revenue sharing.\n\nConclusion:  \n- Choose Uniswap for safety, scale, and multi-chain exposure; upside will depend on adoption and scaling of the new fee switch for UNI holders.\n- Choose Aerodrome for aggressive growth, higher capital efficiency, and exposure to Base chain’s expansion; expect higher volatility and risk, but also potential for outsized returns if Base and Aerodrome continue to gain traction.\n\nFor a diversified approach, a barbell allocation (core in Uniswap, satellite in Aerodrome) may offer the best balance of stability and upside.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

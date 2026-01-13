@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "WcL3oMz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcL3oMz8",
+    "query": "Looking at the latest content, what are the latest narratives and trends in crypto",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Latest Crypto Narratives & Trends (as of 2026-01-13 UTC)\n\n**Dominant Narratives**: Real-World Assets (RWA) tokenization, AI/DeAI integration, and meme launchpads lead 2026 discussions, per recent analyses from Forbes, CoinGecko, and KoinBX. Institutional adoption (ETFs, stablecoins) and privacy/ZK tech follow closely, with listings signaling momentum in AI (FET, TAO) and memes (PEPE, BONK).\n\nMarket remains stable: Top 10 coins average **+1.33%** in 24h, led by **Dogecoin (+2.99%)** and **Lido Staked Ether (+2.26%)**. Total cap: **$2.93T**.\n\n### Key Narratives from Recent Sources\nSynthesized from Jan 2026 reports (Forbes, CoinGecko, Laika AI, KoinBX):\n\n| Narrative | Description & Drivers | Key Tokens/Projects | TVL/MCap Signals |\n|-----------|-----------------------|---------------------|------------------|\n| **RWA Tokenization** | Tokenizing Treasuries, bonds, real estate for fractional ownership & efficiency. Regulatory clarity (MiCA, GENIUS Act) + institutional moves (JPMorgan, Fidelity). | ONDO, LINK, ETH, SKY | $17.37B TVL |\n| **AI/DeAI & Agentic Economies** | Autonomous AI agents with wallets for compute/DeFi. Mirrors crypto volatility; decentralized infra vs. Big Tech. | FET, TAO, RNDR, AKT | AI/crypto trades tracking |\n| **Meme Launchpads 2.0** | Fairer launches (anti-sniper, bonding curves) post-Pump.fun era. Meme cap: ~$42-48B. | PEPE, BONK, NEIRO, PNUT, PUMP | Explosive 2025 growth, stabilizing |\n| **Stablecoins & Stablechains** | Optimized chains for gasless transfers; USDT/USDC dominance. | USDT ($187B), USDC ($78B) | $308-310B total mcap (+50% YoY) |\n| **Privacy/ZK & Prediction Markets** | ZK for compliant privacy; markets as \"truth layers\" beyond elections. | Zcash, Monero, Polymarket | Zcash +691%, Monero +144% (late 2025) |\n| **Modular Blockchains/DePIN** | Chain abstraction, specialized layers; physical infra via tokens. | TIA, DYM, OP, STRK, HNT, FIL | Revenue-focused shift |\n| **Perp DEXs & ETFs** | DEXs rival CEX liquidity; ETF/DATCo expansion. | Hyperliquid, Aster | $26.6B 24h perp vol |\n\n### Social & Listing Momentum\n- **Solana Buzz** (Jan 11 tweets, 300-2.8K likes): X/Twitter integration (\"Solana built into X\"), advisor ties, on-chain superiority vs. ETH/Base. Predictions: Rival CEX liquidity EOY.\n- **Recent Listings** (Binance/OKX, since Jan 1): 35+ new pairs. Hot: **FET/TAO** (AI), **LINK/ZKP** (RWA/ZK), **PEPE/BONK/PNUT** (memes), **TIA/STRK** (modular). Upcoming OKX: ACT, ADA, APT (L1/L2 expansion).\n\nNo high-engagement tweets on broad \"narratives/trends\" since Jan 6 (min 50 likes), but sector-specific hype aligns with reports.\n\n## Conclusions\n**Bottom Line**: Shift to utility over speculation—**RWA/AI** for institutions, **memes/Perps** for retail. Monitor listings (e.g., Binance LINK/PEPE today) and Solana-X ties for near-term catalysts. Risks: Volatility cooldowns, regulatory lags. Watch ETF flows & stablecoin growth for macro signals.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

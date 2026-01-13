@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "Lv7tMn3h",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Lv7tMn3h",
+    "query": "what are the most trending crypto consumer products and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "consumer"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Top Trending Crypto Consumer Products (Jan 2026)\n\nGaming platforms dominate Web3 consumer trends, prioritizing user retention and seamless UX over incentives. Centralized apps remain popular for accessibility, but Web3 shifts toward \"invisible blockchain\" experiences.\n\n### Web3 Leaders (Highest User Traction)\nBased on recent analyses emphasizing repeat usage and real engagement:\n\n| Rank | Product | Category | Key Metrics/Why Trending |\n|------|---------|----------|-------------------------|\n| 1 | **Immutable** | Gaming Platform (zkEVM) | Steady activity despite market softness; wallet abstraction hides crypto friction. Studios like Might and Magic migrate; focuses on distribution, not chain promo. Leads due to studio-grade tools and optional ownership. |\n| 2 | **Ronin** | Gaming Chain (Axie Infinity ecosystem) | Survived full cycles with sustained wallet growth; repeat play without heavy rewards. Expanded beyond single game; clear player focus drives habit-forming usage. |\n| 3 | **Farcaster** | Social Protocol | Stabilized social engagement; habit-driven without hype. Ranks high for consistent user return in maturing market. |\n| 4 | **Magic Eden / OpenSea** | NFT Marketplaces | Reliable discovery/trading; usability keeps them relevant amid NFT stabilization. Focus on everyday digital goods. |\n| 5 | **Friend.tech** | SocialFi (V1/V2 shares/clubs) | Active fees/revenue per user (AFPU/ARPU tracked); monetizes social trading on Base. Endures via creator earnings despite no incentives. |\n\n**Why these?** 2026 favors retention over speculation (per XT.com analysis). Gaming leads mass adoption—Immutable/Ronin deliver \"traditional\" experiences at scale. Social/NFTs succeed via habit and low-friction UX, filtering out hype-driven apps.\n\n### Centralized Consumer Apps (Mobile/Accessibility Focus)\nPopular for beginners; high daily active users via rewards/security:\n\n| App | Why Trending | User Appeal |\n|-----|--------------|-------------|\n| **Coinbase** | Beginner onboarding + Learn&Earn | 290+ coins; 0-0.6% fees |\n| **Robinhood Crypto** | All-in-one stocks/crypto | No trading fees (spreads); mobile-first |\n| **Crypto.com** | Rewards/Visa card | 350+ coins; 0-0.5% fees |\n| **MetaMask** | EVM wallet standard | Multi-chain abstraction |\n| **Coinbase Wallet** | Broad chain support | Seamless swaps/NFTs |\n\n**Evidence**: CoinLedger's 2026 expert picks highlight security, low fees, and rewards driving 1M+ user apps like CoinStats.\n\n## Key Trends & Implications\n- **Gaming Supremacy**: Immutable/Ronin prove Web3 games scale without \"crypto-first\" marketing—watch in-game purchases/TVL.\n- **Retention Shift**: No incentive reliance; apps blending Web2 feel with ownership win (e.g., Farcaster's social stickiness).\n- **Risks**: Execution gaps (e.g., Immutable's non-flagship retention); broader market softness could hit non-gaming.\n- **Monitor**: Dune Analytics for DAU growth; Twitter buzz low but gaming narratives rising.\n\nBottom line: Immutable leads for real consumer scale—position for gaming narrative plays. Data as of 2026-01-13 UTC.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

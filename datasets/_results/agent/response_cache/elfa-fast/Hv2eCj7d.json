@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Hv2eCj7d",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Hv2eCj7d",
+    "query": "What defi protocols have the best valuation (P/S)?",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR\nNo specific P/S ratios or direct rankings for DeFi protocols are available in current data. Top DeFi tokens by mindshare include AAVE, UNI, MORPHO, and PENDLE, with tweets noting concentrated revenue among a few protocols, but valuation metrics like P/S require dedicated analytics platforms like DeFi Llama (mentioned in recent discussions).\n\n───\n\nCurrent research data from web searches, tweets, and Elfa AI's DeFi token leaderboard does not provide explicit price-to-sales (P/S) ratios or rankings for DeFi protocols. P/S valuation typically compares a protocol's market cap to its annualized revenue (e.g., fees captured), but no sources here deliver computed figures.\n\nTweets highlight general DeFi revenue trends, such as \"the vast majority of DeFi revenue going to token holders today comes from just a few protocols\" (@patfscott), suggesting concentration but without quantifying P/S. Other discussions touch on revenue generation in protocols like Curve and GMX, yet emphasize macro factors over valuations.\n\nElfa AI's DeFi leaderboard ranks tokens by mindshare (not P/S), with leaders like AAVE (12.54% mindshare, price $172.64), UNI (12.12%, $5.58), MORPHO (8.98%, $1.34), and PENDLE (8.84%, $2.21). These indicate current buzz among smart accounts but do not reflect revenue-based valuations.\n\nFor precise P/S data, check analytics sites like DeFi Llama, as referenced in recent posts (@Satoshi_Talks). I lack access to real-time revenue metrics here.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

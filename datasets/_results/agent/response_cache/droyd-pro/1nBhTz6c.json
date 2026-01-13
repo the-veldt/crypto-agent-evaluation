@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_kK5K5gu1HAIW0eX3LHpUxuzB\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find top Solana memecoins to trade now. Requirements: liquid (>= $500k liquidity), meaningful volume (>= $5m 24h), strong momentum (positive 24h and 7d), and rising participation (traders_change high). Exclude obvious majors like BONK/WIF if possible; focus on next-tier. Return top candidates.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0e624baec8f31263006966b391976c81a188c7797f37a92047\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Solana memecoin screen (sorted by trader growth)](attachment:filterProjects_call_kK5K5gu1HAIW0eX3LHpUxuzB.png)\\n\\n**Top 3 Solana memecoin plays (ranked by trader growth + liquidity/volume today)**\\n\\n1) **TRUMP (Official Trump)**  \\n- **Liquidity:** ~$177.8M | **24h vol:** ~$54.0M | **24h traders:** **5,503** (**+52.0%**)  \\n- **Price:** ~$5.56 | **24h:** **+3.6%**  \\n- **Why it works:** Massive liquidity + accelerating participation + buy/sell volume ratio **~1.25x** keeps it tradeable even when volatility spikes.  \\n- **Hard truth:** You’re buying a headline-driven asset; unlock/flow risk exists (it trades like politics-beta).\\n\\n2) **PENGU (Pudgy Penguins)**  \\n- **Liquidity:** ~$13.4M | **24h vol:** ~$11.1M | **24h traders:** **2,521** (**+45.8%**)  \\n- **Price:** ~$0.0127 | **24h:** **+7.1%**  \\n- **Why it works:** Real brand distribution acts as a narrative backstop; flows look organic (trade count up, trader count up).  \\n- **Setup note:** **RSI ~73 (overbought)** and MACD signals an **upcoming bearish cross**—best entries tend to be on pullbacks, not green candles.\\n\\n3) **PUMP (Pump.fun)**  \\n- **Liquidity:** ~$22.3M | **24h vol:** ~$33.6M | **24h traders:** **14,801** (**+36.4%**)  \\n- **Price:** ~$0.00263 | **24h:** **+3.7%**  \\n- **Why it works:** It’s the memecoin *picks-and-shovels* trade on Solana: participation expands as launchpad activity expands. Volume change is **+38.7%** with traders up hard—clean momentum profile.  \\n- **Crowding risk:** Overbought (**RSI ~71**, BB upper decile). This one mean-reverts violently when the casino cools.\\n\\nIf you want a **smaller-cap alternative** to rotate into when these feel crowded, **USELESS** has **$6.5M liquidity** and **$5.4M 24h volume**, but **trader growth is flat** today—more of a secondary bet than a primary.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0e624baec8f31263006966b3979da881a192d9f8d5286d2607\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Solana memecoin screen (sorted by trader growth)](attachment:filterProjects_call_kK5K5gu1HAIW0eX3LHpUxuzB.png)\n\n**Top 3 Solana memecoin plays (ranked by trader growth + liquidity/volume today)**\n\n1) **TRUMP (Official Trump)**  \n- **Liquidity:** ~$177.8M | **24h vol:** ~$54.0M | **24h traders:** **5,503** (**+52.0%**)  \n- **Price:** ~$5.56 | **24h:** **+3.6%**  \n- **Why it works:** Massive liquidity + accelerating participation + buy/sell volume ratio **~1.25x** keeps it tradeable even when volatility spikes.  \n- **Hard truth:** You’re buying a headline-driven asset; unlock/flow risk exists (it trades like politics-beta).\n\n2) **PENGU (Pudgy Penguins)**  \n- **Liquidity:** ~$13.4M | **24h vol:** ~$11.1M | **24h traders:** **2,521** (**+45.8%**)  \n- **Price:** ~$0.0127 | **24h:** **+7.1%**  \n- **Why it works:** Real brand distribution acts as a narrative backstop; flows look organic (trade count up, trader count up).  \n- **Setup note:** **RSI ~73 (overbought)** and MACD signals an **upcoming bearish cross**—best entries tend to be on pullbacks, not green candles.\n\n3) **PUMP (Pump.fun)**  \n- **Liquidity:** ~$22.3M | **24h vol:** ~$33.6M | **24h traders:** **14,801** (**+36.4%**)  \n- **Price:** ~$0.00263 | **24h:** **+3.7%**  \n- **Why it works:** It’s the memecoin *picks-and-shovels* trade on Solana: participation expands as launchpad activity expands. Volume change is **+38.7%** with traders up hard—clean momentum profile.  \n- **Crowding risk:** Overbought (**RSI ~71**, BB upper decile). This one mean-reverts violently when the casino cools.\n\nIf you want a **smaller-cap alternative** to rotate into when these feel crowded, **USELESS** has **$6.5M liquidity** and **$5.4M 24h volume**, but **trader growth is flat** today—more of a secondary bet than a primary.",
+    "executionTimeMs": 15936,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find top Solana memecoins to trade now. Requirements: liquid (>= $500k liquidity), meaningful volume (>= $5m 24h), strong momentum (positive 24h and 7d), and rising participation (traders_change high). Exclude obvious majors like BONK/WIF if possible; focus on next-tier. Return top candidates.",
+          "sort_by": "traders_change"
+        }
+      }
+    ],
+    "totalTokens": 38241
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

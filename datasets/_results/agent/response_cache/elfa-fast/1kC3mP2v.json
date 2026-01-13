@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nTop crypto assets discussed on Twitter include Bitcoin (BTC), Ethereum (ETH), Solana (SOL), XRP, Dogecoin (DOGE), Zcash (ZEC), Pepe (PEPE), PumpFun (PUMP), Bittensor (TAO), and WhiteWhale ($WHITEWHALE), based on recent social mention rankings and trending conversations.\n\n───\n\nTop Assets by Social Mentions\nRecent data from social analytics shows the most mentioned crypto assets over the last 24 hours, accounting for a significant portion of crypto discussions:\n\n- Bitcoin (BTC): 190,817 mentions, leading overall volume.\n- Ethereum (ETH): 87,406 mentions.\n- Solana (SOL): 70,185 mentions, frequently topping daily trends alongside BTC and USDT ThinkCryptoPod.\n- XRP: 22,291 mentions, with ongoing chatter.\n- Dogecoin (DOGE): 12,532 mentions.\n\nThese align with earlier snapshots where BTC (164.57K), ETH (78.99K), SOL (64.36K), XRP, DOGE, ZEC, ADA, PUMP, USDC, and PEPE dominated 34% of total mentions LunarCrush.\n\nEmerging and Notable Mentions\nSeveral assets are gaining traction due to specific narratives:\n\n- Zcash (ZEC): Surging mentions tied to core dev team resignation controversy; topped trends alongside BTC and LTC ThinkCryptoPod, LunarCrush.\n- Pepe (PEPE): Leading meme discussions, with $BONK also exploding TheChartArtist.\n- Bittensor (TAO): Boost from Binance Japan listing, up 15% in buzz LunarCrush.\n- PumpFun (PUMP): Attention from RICO lawsuit LunarCrush.\n- WhiteWhale ($WHITEWHALE): Rapid rise into top 20, previously low visibility LunarCrush.\n\nOther sporadic mentions include $DRB (token of the day with peak attention), $BAOBAO (momentum post-launch), and Fogo (speed narrative), but these lack the volume of leaders.\n\nContext and Sentiment\nCrypto sentiment is 83% positive, the highest since May, with social chatter often preceding price moves LunarCrush. Altcoin discussions focus on potential season signals, though BTC dominance and market cap patterns suggest caution Bitcoinsensus. Data covers the past week up to January 13, 2026.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

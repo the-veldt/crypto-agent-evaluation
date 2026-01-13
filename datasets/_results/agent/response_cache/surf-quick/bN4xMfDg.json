@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "bN4xMfDg",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "bN4xMfDg",
+    "query": "what assets have had the highest growth in new traders in the last 4 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, I cannot provide a definitive answer about which assets have had the highest growth in new traders in the last 4 hours. The retrieved information does not contain specific data about new trader growth metrics for individual cryptocurrencies.\n\n## What I Can Answer Confidently\n\nHere's what the data shows about recent market activity:\n\n- **Top Market Cap Tokens**: Bitcoin, Ethereum, and other major cryptocurrencies showed positive 24-hour price changes (1.5-2.7% gains) as of the latest data\n- **Recent Exchange Listings**: Binance and Bybit added several new trading pairs in recent days, including BREV, MAGMA, WHITEWHALE, and others\n- **New Token Listings**: CoinMarketCap shows numerous newly listed tokens across Solana and BNB chains within the last 24 hours\n\n| Available Data | Evidence Source | Confidence Level |\n|----------------|-----------------|------------------|\n| Market cap leader performance | Top 10 market cap tokens | High |\n| Recent exchange listings | Binance/Bybit listing data | High |\n| New token arrivals | CoinMarketCap new listings | Medium |\n\n## What's Missing\n\nTo give you a complete answer about new trader growth, I'd need:\n\n- **Real-time trader metrics**: Specific data on new unique traders per asset\n- **DEX trader analytics**: On-chain data showing wallet growth and new participant activity\n- **Time-sensitive data**: Metrics specifically for the last 4-hour window\n- **Trader growth calculations**: Percentage increases in new trader counts\n\nThe available data includes general market information and exchange listings but lacks the specific trader growth metrics needed to answer your question accurately.\n\n## Recommendation\n\n**For deeper insight into trader growth patterns**, use Deep Research to gather:\n\n- Real-time on-chain analytics showing new wallet activity\n- DEX-specific trader growth metrics\n- Social sentiment data indicating new participant interest\n- Exchange inflow/outflow data for specific assets\n\nThis will provide the comprehensive trader growth analysis you're looking for.\n\n**Next step**: Start a new conversation and select **Deep Research** mode for a thorough investigation of new trader activity across different assets.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

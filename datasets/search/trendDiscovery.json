@@ -1,0 +1,42 @@
+[
+  {
+    "qid": "fX2mP8vK",
+    "query": "what are the latest narratives being discussed in crypto",
+    "level": 1,
+    "categories": ["trend_discovery"],
+    "tags": null,
+    "sectors": null
+  },
+  {
+    "qid": "bW5tN3kL",
+    "query": "what trends are emerging on Solana and Base",
+    "level": 1,
+    "categories": ["trend_discovery"],
+    "tags": null,
+    "sectors": ["ecosystems"]
+  },
+  {
+    "qid": "qR7jC9wM",
+    "query": "what sectors are gaining attention in crypto discussions",
+    "level": 1,
+    "categories": ["trend_discovery"],
+    "tags": null,
+    "sectors": null
+  },
+  {
+    "qid": "mT4xL6hQ",
+    "query": "what new narratives are being discussed in DeFi",
+    "level": 2,
+    "categories": ["trend_discovery"],
+    "tags": null,
+    "sectors": ["defi"]
+  },
+  {
+    "qid": "pK8sN2fC",
+    "query": "what themes are being discussed around AI crypto projects",
+    "level": 2,
+    "categories": ["trend_discovery"],
+    "tags": null,
+    "sectors": ["ai"]
+  }
+]

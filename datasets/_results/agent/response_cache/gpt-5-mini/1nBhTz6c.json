@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 452
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "Quick caveat: not financial advice. Below are the top 3 Solana memecoin \"plays\" as of today (based on market cap, liquidity, exchange listings and community strength). Do your own research, verify contract addresses, and only risk what you can afford to lose.\n\n1) BONK (BONK)\n- Why: The largest native Solana memecoin by market cap and liquidity; widely listed on DEXes and CEXes and has an active on‑chain ecosystem (airdrops, liquidity pools, NFTs & community activity). Good for higher‑liquidity memecoin exposure on Solana.\n- How to buy: available on major Solana DEXs and many centralized exchanges — confirm the official token contract before buying.\n- Risk: still extremely volatile; large supply and token distribution dynamics can compress upside.\n\nSources: CoinMarketCap / CoinGecko listings for BONK (see CoinMarketCap Bonk page and Solana meme listings).\n\n2) Samoyedcoin (SAMO)\n- Why: One of the oldest and most community-driven Solana meme projects. Strong social following, NFT/branding integrations in the Solana ecosystem and decent liquidity — often a go‑to \"dog\" play on Solana beyond BONK.\n- How to buy: listed on Solana DEXes and several CEXes; check liquidity and spreads.\n- Risk: meme token economics and community sentiment are the main price drivers; can pump and dump quickly.\n\nSource: Samoyedcoin listings / market updates (CoinMarketCap / Crypto press coverage).\n\n3) POPCAT (POPCAT) — (or other high‑market‑cap Solana memes such as dogwifhat / PENGU depending on moment)\n- Why: POPCAT and a few other Solana meme tokens have shown strong viral traction, consistent on‑chain volume, and sizable market caps. These are good picks if you want high‑volatility, high‑community memecoin exposure beyond the two biggest names.\n- How to buy: listed on Solana DEXs and tracked in the Solana meme category on aggregators—confirm token contract and liquidity.\n- Risk: highest volatility of the bunch; many meme projects on Solana are short‑lived or susceptible to rug risks.\n\nSource: CoinGecko Solana Meme category and market rankings (shows top Solana meme coins and market caps).\n\nIf you want, I can:\n- Pull live market caps, liquidity and 24h volumes for these three now.\n- Show contract addresses and recommended DEX/CEX pairs to buy safely. Which would you prefer?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 8814
+        }
+      }
+    ],
+    "finalAnswer": "Quick caveat: not financial advice. Below are the top 3 Solana memecoin \"plays\" as of today (based on market cap, liquidity, exchange listings and community strength). Do your own research, verify contract addresses, and only risk what you can afford to lose.\n\n1) BONK (BONK)\n- Why: The largest native Solana memecoin by market cap and liquidity; widely listed on DEXes and CEXes and has an active on‑chain ecosystem (airdrops, liquidity pools, NFTs & community activity). Good for higher‑liquidity memecoin exposure on Solana.\n- How to buy: available on major Solana DEXs and many centralized exchanges — confirm the official token contract before buying.\n- Risk: still extremely volatile; large supply and token distribution dynamics can compress upside.\n\nSources: CoinMarketCap / CoinGecko listings for BONK (see CoinMarketCap Bonk page and Solana meme listings).\n\n2) Samoyedcoin (SAMO)\n- Why: One of the oldest and most community-driven Solana meme projects. Strong social following, NFT/branding integrations in the Solana ecosystem and decent liquidity — often a go‑to \"dog\" play on Solana beyond BONK.\n- How to buy: listed on Solana DEXes and several CEXes; check liquidity and spreads.\n- Risk: meme token economics and community sentiment are the main price drivers; can pump and dump quickly.\n\nSource: Samoyedcoin listings / market updates (CoinMarketCap / Crypto press coverage).\n\n3) POPCAT (POPCAT) — (or other high‑market‑cap Solana memes such as dogwifhat / PENGU depending on moment)\n- Why: POPCAT and a few other Solana meme tokens have shown strong viral traction, consistent on‑chain volume, and sizable market caps. These are good picks if you want high‑volatility, high‑community memecoin exposure beyond the two biggest names.\n- How to buy: listed on Solana DEXs and tracked in the Solana meme category on aggregators—confirm token contract and liquidity.\n- Risk: highest volatility of the bunch; many meme projects on Solana are short‑lived or susceptible to rug risks.\n\nSource: CoinGecko Solana Meme category and market rankings (shows top Solana meme coins and market caps).\n\nIf you want, I can:\n- Pull live market caps, liquidity and 24h volumes for these three now.\n- Show contract addresses and recommended DEX/CEX pairs to buy safely. Which would you prefer?",
+    "executionTimeMs": 23483,
+    "totalTokens": 9266,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top memecoins on Solana 2026 BONK SAMO Solana memecoin list 2026 market cap",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

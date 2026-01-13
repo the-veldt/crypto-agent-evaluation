@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_hPAL8gpp0kd9UT6NaBsebD26\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find projects with the greatest mindshare growth over the last 24h across the market. Rank by 24h mentions growth (mentions_change_24h). Include only liquid, tradeable tokens; exclude wrapped/stablecoins.\",\n      \"sort_by\": \"mentions_change_24h\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc89efb4819f92817235e5022ebe\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_HYyzfUyl8Ns4wtfLbTejCbiI\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"What caused 24h mindshare spike for Pyth Network PYTH? catalysts today this week Pyth Reserve Pyth Pro Express Relay Lazer\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": [\n        10656\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc914218819f97866f301e188d9c\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_aMFVwJks57kQvVx5JFv63jIj\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"What is driving MetaDAO META mindshare in last 24h? Kyros burn proposal futarchy decision market ICO Ranger\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [\n        513\n      ],\n      \"project_ids\": [\n        30221\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc93ca84819f99154cb45ea81bef\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_NGK9tE8hotDkiQR4U9bCclxc\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Why is Monad MON mindshare up in last 24h? Allora mainnet, 0x, Orbs perps, LFJ incentives Monad Mill\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        21788\n      ],\n      \"category_ids\": [\n        522\n      ],\n      \"project_ids\": [\n        21788\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc964730819fab278b3bdf669d53\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_QhNE7He4YrXa65IrF3Yzi836\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Fartcoin mindshare spike last 24h Hyperliquid HIP-3 auction ticker purchase catalyst\",\n      \"content_types\": [\n        \"tweets\",\n        \"news\",\n        \"developments\",\n        \"posts\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [\n        520\n      ],\n      \"project_ids\": [\n        4902\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc99c6a4819f80c3c3aadd4c616b\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_uKmuhn3VhgzHpoTRBpNM7arH\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Collector Crypt CARDS mindshare 24h catalyst slab.cash pack ripping ApeChain PSA graded Pokemon packs\",\n      \"content_types\": [\n        \"posts\",\n        \"tweets\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 14,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [\n        528\n      ],\n      \"project_ids\": [\n        25416\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc9c1d3c819fa8821728293cc0f5\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_H8eNyCNFQE6BzW6k8BNQlufN\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Loyal LOYAL private Telegram AI assistant beta MagicBlock Private Ephemeral Rollups mindshare catalyst\",\n      \"content_types\": [\n        \"posts\",\n        \"tweets\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 14,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [\n        517\n      ],\n      \"project_ids\": [\n        32581\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bc9e6110819faf546fdaa62a9c13\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_55fymL6kQ4eFZHGNslZ6CycJ\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Dexter DEXTER mindshare 24h catalyst Wasabi listing 3x leverage Earn vault Dexter Missions x402\",\n      \"content_types\": [\n        \"posts\",\n        \"tweets\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 14,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [\n        517\n      ],\n      \"project_ids\": [\n        37697\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bca0d0a4819f89b9d1ac532b5797\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_rJEggrX7C2uiQWRiXTNkQRcK\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Wormhole W mindshare catalyst sBTC integration Stacks sBTC or MegaETH Frontier testnet integration\",\n      \"content_types\": [\n        \"posts\",\n        \"tweets\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 8,\n      \"days_back\": 14,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        527\n      ],\n      \"project_ids\": [\n        14342\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0cdfd728f08fa691006966bca362a8819fa9e5bc028552c261\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Kyros decision market on MetaDAO: burn unclaimed airdrop tokens](https://res.cloudinary.com/dgjriemfd/image/upload/v1768326488/veldt/ikl07wnjjzqpba8klvyy.jpg)\\n\\n**24h mindshare winners cluster into “market-structure primitives” + “consumer casino RWAs”**, not a single monolithic sector. The common driver is **concrete, time-bounded catalysts** (buybacks going live, listings/integrations shipping, decision markets closing) rather than vague roadmap posts.\\n\\n## What’s common across the top gainers\\n\\n- **Distribution events with an onchain proof point**: first buyback executed (**PYTH Reserve**), leveraged listing (**DEXTER on Wasabi**), ticker auction signaling imminent perp market (**FARTCOIN on Hyperliquid HIP-3**).\\n- **“Financialization of everything”**: governance becomes a tradable market (**MetaDAO futarchy**), memes become perps (**Hyperliquid**), physical collectibles become liquid onchain instruments (**Collector Crypt / slab.cash**).\\n- **Composable infra narratives** beating standalone apps: **oracles (PYTH)**, **interop (Wormhole)**, **payments/agent rails (x402/Dexter)**, **new execution venues (Monad ecosystem)**.\\n\\n## The two dominant narratives (and the catalysts)\\n\\n**1) Onchain market-structure + value accrual (“real yield / real rails”)**\\n- **Pyth (PYTH)**: mindshare spike is basically a *re-rating story*: **Messari deep dive + PYTH Reserve first buyback (2,157,086.99 PYTH acquired)** + Pyth Pro’s institutional revenue narrative (**>$1M ARR in month one**). This is “oracle token becomes revenue-linked asset.”\\n- **MetaDAO (META)**: attention driven by **Ranger Finance ICO** momentum + **live Kyros burn decision market** showing futarchy working as governance-as-a-service. People are trading *decisions*, not arguing on forums.\\n- **Wormhole (W)**: “**institutional Bitcoin goes multichain**” via **Stacks sBTC integration using NTT**, plus being **day-1 interop for MegaETH Frontier**. This is the interoperability standardization trade, not bridge hype.\\n- **Dexter (DEXTER)**: **Wasabi listing (up to 3x) + Earn vault** turns a niche agent/payment token into something traders can express views on with leverage/yield in one place.\\n\\n**2) Consumer casino RWAs (“pack ripping as DeFi”)**\\n- **Collector Crypt (CARDS)**: the catalyst is crystal clear: **slab.cash $50 packs live on ApeChain**, powered by Collector Crypt for supply/authentication and **Pyth** for fairness randomness. This is memetic consumer finance with real inventory and instant buybacks.\\n- **Fartcoin (FARTCOIN)**: Hyperliquid **HIP-3 ticker auction purchase (~$43.9k)** is a social signal that perps are imminent. Market reads that as “new venue + new leverage + new flow,” which reliably drives mindshare.\\n\\nNet: **the central theme is not “AI” or “DeFi” broadly — it’s “tradable events + new rails that let capital express itself.”** That’s why infra + financialization + casino-consumer RWAs are the ones printing mindshare in the last 24h.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0cdfd728f08fa691006966bcc67928819f9cfb62d01428f2b0\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Kyros decision market on MetaDAO: burn unclaimed airdrop tokens](https://res.cloudinary.com/dgjriemfd/image/upload/v1768326488/veldt/ikl07wnjjzqpba8klvyy.jpg)\n\n**24h mindshare winners cluster into “market-structure primitives” + “consumer casino RWAs”**, not a single monolithic sector. The common driver is **concrete, time-bounded catalysts** (buybacks going live, listings/integrations shipping, decision markets closing) rather than vague roadmap posts.\n\n## What’s common across the top gainers\n\n- **Distribution events with an onchain proof point**: first buyback executed (**PYTH Reserve**), leveraged listing (**DEXTER on Wasabi**), ticker auction signaling imminent perp market (**FARTCOIN on Hyperliquid HIP-3**).\n- **“Financialization of everything”**: governance becomes a tradable market (**MetaDAO futarchy**), memes become perps (**Hyperliquid**), physical collectibles become liquid onchain instruments (**Collector Crypt / slab.cash**).\n- **Composable infra narratives** beating standalone apps: **oracles (PYTH)**, **interop (Wormhole)**, **payments/agent rails (x402/Dexter)**, **new execution venues (Monad ecosystem)**.\n\n## The two dominant narratives (and the catalysts)\n\n**1) Onchain market-structure + value accrual (“real yield / real rails”)**\n- **Pyth (PYTH)**: mindshare spike is basically a *re-rating story*: **Messari deep dive + PYTH Reserve first buyback (2,157,086.99 PYTH acquired)** + Pyth Pro’s institutional revenue narrative (**>$1M ARR in month one**). This is “oracle token becomes revenue-linked asset.”\n- **MetaDAO (META)**: attention driven by **Ranger Finance ICO** momentum + **live Kyros burn decision market** showing futarchy working as governance-as-a-service. People are trading *decisions*, not arguing on forums.\n- **Wormhole (W)**: “**institutional Bitcoin goes multichain**” via **Stacks sBTC integration using NTT**, plus being **day-1 interop for MegaETH Frontier**. This is the interoperability standardization trade, not bridge hype.\n- **Dexter (DEXTER)**: **Wasabi listing (up to 3x) + Earn vault** turns a niche agent/payment token into something traders can express views on with leverage/yield in one place.\n\n**2) Consumer casino RWAs (“pack ripping as DeFi”)**\n- **Collector Crypt (CARDS)**: the catalyst is crystal clear: **slab.cash $50 packs live on ApeChain**, powered by Collector Crypt for supply/authentication and **Pyth** for fairness randomness. This is memetic consumer finance with real inventory and instant buybacks.\n- **Fartcoin (FARTCOIN)**: Hyperliquid **HIP-3 ticker auction purchase (~$43.9k)** is a social signal that perps are imminent. Market reads that as “new venue + new leverage + new flow,” which reliably drives mindshare.\n\nNet: **the central theme is not “AI” or “DeFi” broadly — it’s “tradable events + new rails that let capital express itself.”** That’s why infra + financialization + casino-consumer RWAs are the ones printing mindshare in the last 24h.",
+    "executionTimeMs": 79587,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find projects with the greatest mindshare growth over the last 24h across the market. Rank by 24h mentions growth (mentions_change_24h). Include only liquid, tradeable tokens; exclude wrapped/stablecoins.",
+          "sort_by": "mentions_change_24h"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "What caused 24h mindshare spike for Pyth Network PYTH? catalysts today this week Pyth Reserve Pyth Pro Express Relay Lazer",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": [
+            10656
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "What is driving MetaDAO META mindshare in last 24h? Kyros burn proposal futarchy decision market ICO Ranger",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [
+            513
+          ],
+          "project_ids": [
+            30221
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Why is Monad MON mindshare up in last 24h? Allora mainnet, 0x, Orbs perps, LFJ incentives Monad Mill",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            21788
+          ],
+          "category_ids": [
+            522
+          ],
+          "project_ids": [
+            21788
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Fartcoin mindshare spike last 24h Hyperliquid HIP-3 auction ticker purchase catalyst",
+          "content_types": [
+            "tweets",
+            "news",
+            "developments",
+            "posts"
+          ],
+          "limit": 8,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [
+            520
+          ],
+          "project_ids": [
+            4902
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Collector Crypt CARDS mindshare 24h catalyst slab.cash pack ripping ApeChain PSA graded Pokemon packs",
+          "content_types": [
+            "posts",
+            "tweets",
+            "news",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 14,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [
+            528
+          ],
+          "project_ids": [
+            25416
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Loyal LOYAL private Telegram AI assistant beta MagicBlock Private Ephemeral Rollups mindshare catalyst",
+          "content_types": [
+            "posts",
+            "tweets",
+            "news",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 14,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [
+            517
+          ],
+          "project_ids": [
+            32581
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Dexter DEXTER mindshare 24h catalyst Wasabi listing 3x leverage Earn vault Dexter Missions x402",
+          "content_types": [
+            "posts",
+            "tweets",
+            "news",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 14,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [
+            517
+          ],
+          "project_ids": [
+            37697
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Wormhole W mindshare catalyst sBTC integration Stacks sBTC or MegaETH Frontier testnet integration",
+          "content_types": [
+            "posts",
+            "tweets",
+            "news",
+            "developments"
+          ],
+          "limit": 8,
+          "days_back": 14,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            527
+          ],
+          "project_ids": [
+            14342
+          ]
+        }
+      }
+    ],
+    "totalTokens": 96279
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

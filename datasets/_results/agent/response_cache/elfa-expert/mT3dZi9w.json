@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "mT3dZi9w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mT3dZi9w",
+    "query": "what is the leading narrative or 'meta' in crypto, what assets are driving it, and why? Analyze the TAM, sustainability, and moat-like characteristics of the narrative",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe leading crypto narrative in early 2026 is real-world asset (RWA) tokenization—bringing off-chain assets like Treasuries, real estate, and commodities onto blockchains. Ethereum and Solana are driving this meta, with significant support from platforms like Ondo Finance. The RWA narrative boasts a multi-trillion-dollar TAM, high institutional interest, and growing regulatory clarity, giving it long-term sustainability and strong moat-like characteristics compared to hype-driven trends.  \n───\n\nNarrative Overview  \nThe dominant meta in crypto for 2026 is the tokenization of real-world assets (RWAs) on public blockchains. This involves converting traditional assets—such as U.S. Treasuries, corporate bonds, real estate, and commodities—into blockchain-based tokens that can be traded, owned fractionally, and integrated into DeFi protocols. The narrative has evolved from pilot projects to a multi-billion-dollar vertical, with institutional and regulatory momentum accelerating adoption LaikaLabs, FinanceYahoo.\n\nKey Assets Driving the Narrative  \n- Ethereum (ETH): The primary platform for most RWA tokenization, due to its composability, developer mindshare, and established DeFi ecosystem.\n- Solana (SOL): Gaining share for its low fees and fast settlement, increasingly used for tokenized commodities and experimental RWA products Fool.com.\n- Ondo Finance (ONDO): One of the most prominent RWA platforms, offering tokenized U.S. Treasuries and corporate debt Tangem.\n- Other protocols: Several DeFi and TradFi integrations (e.g., Coinbase launching tokenized stocks) and emerging RWA platforms are contributing to the narrative.\n\nWhy This Narrative?  \n- Macro Factors: Regulatory clarity is improving (notably with the U.S. Senate's pending digital asset framework), institutional adoption is rising, and there’s a clear demand for yield and compliant on-chain assets.\n- Utility: RWAs address real-world problems: liquidity, transparency, and accessibility of traditional financial assets. They offer DeFi participants access to stable, yield-generating products and bring new capital into crypto.\n- Composability: Tokenized assets can be used as collateral, integrated into lending, and traded 24/7, unlocking new financial products.\n\nTotal Addressable Market (TAM)  \n- The TAM for RWA tokenization is enormous. Fixed income alone (global bonds) is a $130 trillion market; real estate is projected to see $4 trillion tokenized by 2035 (up from $300 billion in 2024) Fool.com.\n- Even a small percentage of these markets moving on-chain dwarfs the current size of DeFi and crypto markets.\n\nSustainability  \n- RWA tokenization is not a fleeting trend—it solves persistent inefficiencies in TradFi (settlement, transparency, access).\n- Regulatory frameworks are maturing, reducing existential risks.\n- Institutional players (banks, asset managers) are actively participating, providing long-term capital and legitimacy.\n\nMoat-Like Characteristics  \n- Network Effects: Platforms like Ethereum and Solana benefit from developer and user network effects, making it hard for new chains to compete at scale.\n- Regulatory Relationships: Early movers with regulatory licenses and compliance infrastructure (e.g., Ondo, Coinbase) have a defensible edge.\n- Liquidity Depth: The more assets and participants on a platform, the more attractive it becomes for new issuers and investors.\n- Integration: Deep integration with existing DeFi protocols and TradFi rails creates stickiness.\n\nRisks & Challenges  \n- Fragmentation: Liquidity and standards are still fragmented across chains and platforms, though this is improving.\n- Regulatory Uncertainty: Some jurisdictions remain ambiguous, though the U.S. and EU are leading with clearer frameworks.\n- Adoption Curve: While institutional adoption is growing, mainstream retail access is still limited by UX and regulatory hurdles.\n\nConclusion  \nRWA tokenization is the clear leading narrative in early 2026, driven by Ethereum and Solana, with a TAM orders of magnitude larger than previous crypto metas. Its sustainability and moat are underpinned by regulatory advances, institutional buy-in, and genuine utility—making it a foundational pillar for crypto’s next growth cycle LaikaLabs, FinanceYahoo, Tangem.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

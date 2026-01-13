@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nPerps protocols show strong volume dominance (90%+ of crypto trading), with Solana DEXes hitting record $451B annual volume and top protocols like $LIT, $HYPE leading; key trends include TradFi integrations (e.g., Binance gold/silver perps) and onchain launches (e.g., Atlantis on Monad); narrative momentum is accelerating amid listings, rewards, and institutional liquidity shifts.\n\n───\n\nKey Trends\nPerpetual futures now dominate crypto trading, driving over 90% of volume and $80B+ daily perp markets, generating massive exchange revenue. PundiAI Solana perps have exploded, with 2025 DEX volume reaching $451.2B—surpassing all prior years combined—marking a shift from niche to institutional-grade liquidity. JPoolSolana\n\nTop protocols by perp volume include $LIT, $HYPE, $ASTER, $APEX, $REYA, $SUN, and $AVNT, per recent DefiLlama data. Crypto_Dep Centralized exchanges are blending TradFi assets like gold ($XAGUSDT, $XAUT), silver, and others into perps with high leverage (up to 50x). HotcoinGlobal, BitunixOfficial\n\nKey Catalysts\n- New Listings and Launches: BTSE added $LIT-PERP BTSE_Official; Phemex listed $ZAMA perps Phemex_official; AtlantisDEX launched onchain perps on Monad via Orbs Perpetual Hub.\n- Rewards and Incentives: AEVO Epoch 6 allocates 1M $AEVO (75/25 perps/options split) aevoxyz; Bitunix $XAUT trading contest with 100K USDT pool.\n- CEX Innovations: Binance launched regulated TradFi perps (gold, silver). WhaleFUD, BecauseBitcoin\n\nNarrative Momentum\nAccelerating. Perp volume growth on Solana and integrations like AI data on Base perps signal rising adoption. PundiAI Recent listings, rewards, and TradFi crossovers over the past week indicate building hype, with no major perp-specific tokens on Elfa's DeFi leaderboard but broader sector buzz aligning with dominance metrics.\n\nNote: No direct perp protocol tokens (e.g., $LIT, $HYPE) appear in top DeFi mindshare or influence calls; data reflects general sentiment rather than concentrated token plays.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

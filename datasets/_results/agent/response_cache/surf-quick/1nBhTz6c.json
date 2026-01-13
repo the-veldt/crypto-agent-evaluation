@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Top 3 Solana Memecoins by Market Cap\n\nAs of latest data (2026-01-13 UTC), the Solana memecoin category totals **$6.38B** market cap (+2.2% 24h). Top plays prioritize market cap leaders from CoinGecko's Solana Meme category, with positive momentum and volume.\n\n| Rank | Coin (Ticker) | Price | Market Cap | 24h % | 24h Volume |\n|------|---------------|-------|------------|-------|------------|\n| 1    | Official Trump (TRUMP) | $5.55 | **$1.11B** | +2.7% | $222M |\n| 2    | Bonk (BONK) | $0.00001078 | **$947M** | +2.0% | $162M |\n| 3    | Pudgy Penguins (PENGU) | $0.01259 | **$790M** | +3.9% | $232M |\n\n### Key Insights\n- **TRUMP**: Leads with highest MC/FDV ratio (0.2); strong volume signals liquidity.\n- **BONK**: Established Solana native; +9.6% 7d, resilient OG memecoin.\n- **PENGU**: NFT-adjacent hype; top 24h performer (+17.6% 30d).\n\n**Bottom line**: These dominate by size/volume—ideal for momentum plays. Monitor $WIF ($393M, #5) and $FARTCOIN ($400M, #4) for runners. **High risk**: Memecoins volatile; DYOR, use stops. Twitter sentiment highlights $WHITEWHALE as recent green outlier.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

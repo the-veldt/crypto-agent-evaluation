@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 598
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 6585
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "Short answer\n- Overall momentum for perpetuals (especially on‑chain perp DEXs) has been accelerating through 2024–2025 — volumes, product launches and new entrants surged — but by late‑2025 the market is shifting from explosive growth to a more competitive/maturing phase. In other words: strong positive momentum, but the pace of acceleration is moderating as winners emerge and incentives/competition normalize.\n\nKey trends (what’s happening)\n- Massive on‑chain volume growth: perp DEX volumes spiked in 2025 (record monthly/trimestral volumes reported), driven by liquidations, high leverage trading and incentive programs. (See The Block / CoinDesk reporting on 2025 perp DEX volume highs.)\n- New winners & rapid market share turnover: a small set of new native perp DEXs (e.g., Hyperliquid and other newer chains/projects) quickly grabbed large share, but have also faced share erosion as competitors (Aster, Lighter, established players) iterate. (Coverage in The Block / CoinDesk, 2025.)\n- Product evolution — better UX & primitives:\n  - Hybrid models (off‑chain matching + on‑chain settlement) and purpose chains (dYdX Chain / v4) enabled pro trading features with fast execution.\n  - More sophisticated margin options (cross‑margin, isolated markets), advanced order types and deeper risk tools (insurance funds, dynamic liquidation engines).\n  - Improvements in AMM designs (vAMM tweaks, concentrated liquidity for perps) and cross‑margin liquidity aggregation.\n- Cross‑chain & infra improvements: rollups, app‑specific chains and faster bridges lowered costs and latency, making on‑chain perps more competitive with CeFi derivatives.\n- Incentives & tokenomics matter again: aggressive fee rebates, token rewards and buyback/burn or revenue‑share policies are major liquidity/volume drivers.\n- Regulatory pressure on CeFi derivatives (and general scrutiny) has been a tailwind for decentralized alternatives, attracting some flows that previously went to centralized futures desks.\n- Consolidation & focus on business sustainability: after initial subsidy-driven growth, teams and governors emphasize revenue capture, buybacks and sustainable incentives (e.g., dYdX governance updates).\n\nPrimary catalysts (what will move narrative next)\n- Crypto market volatility / big bull runs (BTC/ETH) — spikes in volatility drive perp volume and leverage use.\n- New incentive programs and tokenomics changes (rewards/fee rebates, buybacks) — can quickly re‑accelerate volumes.\n- Infrastructure launches/upgrades (dYdX Chain features, L2/perf improvements, cross‑chain integrations) that materially lower execution cost/latency.\n- Regulatory actions or clarity in major jurisdictions — could accelerate migration from centralized venues or, conversely, constrain growth if DeFi faces heavy enforcement.\n- Institutional integration (custody, compliance rails) — if mid/senior institutional flows access DeFi perps safely, that’s a major growth inflection.\n- Liquidation storms / leverage events — one big liquidation cascade can produce short‑term volume spikes and shift trader perceptions of safety.\n\nSignals I’d watch (leading indicators)\n- On‑chain perp DEX traded volume and open interest (7‑/30‑day trends).\n- Funding rates and average leverage across protocols.\n- New trader growth and retention: unique trader addresses and repeat trading share.\n- Protocol revenue / fee capture and governance actions (incentive changes, buybacks).\n- Market‑share shifts between the top 5 perp protocols.\n- Number and size of large liquidations and insurance fund balances.\n- Regulatory headlines (major enforcement, exchange bans, or favorable frameworks).\n\nNarrative verdict (one line)\n- Momentum = accelerating overall (strong growth in on‑chain perpetuals through 2024–25), but the rate of acceleration is decelerating as the space moves from incentive‑led expansion to product competition, margin optimization and consolidation. Winners are being determined; expect continued volume growth but more selective narratives and shorter, sharper cycles tied to incentives and market volatility.\n\nIf you want, I can:\n- Pull live on‑chain metrics (volume, OI, funding rate) for the top 6 perps (dYdX, GMX, Perpetual Protocol, Synthetix perps, Hyperliquid, others) and show recent market‑share trends.\n- Track a 6–12 month view of incentives and governance changes that shifted volumes.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 15493
+        }
+      }
+    ],
+    "finalAnswer": "Short answer\n- Overall momentum for perpetuals (especially on‑chain perp DEXs) has been accelerating through 2024–2025 — volumes, product launches and new entrants surged — but by late‑2025 the market is shifting from explosive growth to a more competitive/maturing phase. In other words: strong positive momentum, but the pace of acceleration is moderating as winners emerge and incentives/competition normalize.\n\nKey trends (what’s happening)\n- Massive on‑chain volume growth: perp DEX volumes spiked in 2025 (record monthly/trimestral volumes reported), driven by liquidations, high leverage trading and incentive programs. (See The Block / CoinDesk reporting on 2025 perp DEX volume highs.)\n- New winners & rapid market share turnover: a small set of new native perp DEXs (e.g., Hyperliquid and other newer chains/projects) quickly grabbed large share, but have also faced share erosion as competitors (Aster, Lighter, established players) iterate. (Coverage in The Block / CoinDesk, 2025.)\n- Product evolution — better UX & primitives:\n  - Hybrid models (off‑chain matching + on‑chain settlement) and purpose chains (dYdX Chain / v4) enabled pro trading features with fast execution.\n  - More sophisticated margin options (cross‑margin, isolated markets), advanced order types and deeper risk tools (insurance funds, dynamic liquidation engines).\n  - Improvements in AMM designs (vAMM tweaks, concentrated liquidity for perps) and cross‑margin liquidity aggregation.\n- Cross‑chain & infra improvements: rollups, app‑specific chains and faster bridges lowered costs and latency, making on‑chain perps more competitive with CeFi derivatives.\n- Incentives & tokenomics matter again: aggressive fee rebates, token rewards and buyback/burn or revenue‑share policies are major liquidity/volume drivers.\n- Regulatory pressure on CeFi derivatives (and general scrutiny) has been a tailwind for decentralized alternatives, attracting some flows that previously went to centralized futures desks.\n- Consolidation & focus on business sustainability: after initial subsidy-driven growth, teams and governors emphasize revenue capture, buybacks and sustainable incentives (e.g., dYdX governance updates).\n\nPrimary catalysts (what will move narrative next)\n- Crypto market volatility / big bull runs (BTC/ETH) — spikes in volatility drive perp volume and leverage use.\n- New incentive programs and tokenomics changes (rewards/fee rebates, buybacks) — can quickly re‑accelerate volumes.\n- Infrastructure launches/upgrades (dYdX Chain features, L2/perf improvements, cross‑chain integrations) that materially lower execution cost/latency.\n- Regulatory actions or clarity in major jurisdictions — could accelerate migration from centralized venues or, conversely, constrain growth if DeFi faces heavy enforcement.\n- Institutional integration (custody, compliance rails) — if mid/senior institutional flows access DeFi perps safely, that’s a major growth inflection.\n- Liquidation storms / leverage events — one big liquidation cascade can produce short‑term volume spikes and shift trader perceptions of safety.\n\nSignals I’d watch (leading indicators)\n- On‑chain perp DEX traded volume and open interest (7‑/30‑day trends).\n- Funding rates and average leverage across protocols.\n- New trader growth and retention: unique trader addresses and repeat trading share.\n- Protocol revenue / fee capture and governance actions (incentive changes, buybacks).\n- Market‑share shifts between the top 5 perp protocols.\n- Number and size of large liquidations and insurance fund balances.\n- Regulatory headlines (major enforcement, exchange bans, or favorable frameworks).\n\nNarrative verdict (one line)\n- Momentum = accelerating overall (strong growth in on‑chain perpetuals through 2024–25), but the rate of acceleration is decelerating as the space moves from incentive‑led expansion to product competition, margin optimization and consolidation. Winners are being determined; expect continued volume growth but more selective narratives and shorter, sharper cycles tied to incentives and market volatility.\n\nIf you want, I can:\n- Pull live on‑chain metrics (volume, OI, funding rate) for the top 6 perps (dYdX, GMX, Perpetual Protocol, Synthetix perps, Hyperliquid, others) and show recent market‑share trends.\n- Track a 6–12 month view of incentives and governance changes that shifted volumes.",
+    "executionTimeMs": 31160,
+    "totalTokens": 22676,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top perpetual swap protocols dYdX GMX Perpetual Protocol v2 2026 volume market share 2025 2026 perps decentralized top protocols analysis",
+          "numResults": 8,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coindesk.com",
+            "cointelegraph.com",
+            "decrypt.co",
+            "theblock.co",
+            "defillama.com",
+            "dune.com",
+            "dydx.exchange",
+            "gmx.io",
+            "perp.com",
+            "messari.io",
+            "glassnode.com",
+            "cryptofees.info",
+            "nomics.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "dYdX 2025 2026 perps volume market share dYdX v4 chain 2025 news",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "dune.com",
+            "coindesk.com",
+            "theblock.co",
+            "dydx.exchange",
+            "messari.io",
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

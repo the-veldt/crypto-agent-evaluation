@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "ZoQl3gKr",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "ZoQl3gKr",
+    "query": "pull recent crypto content and research over the last 7 days -- what are the most intersting assets being discussed and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Trending Crypto Assets (Jan 6-13, 2026)\n\n**Top discussed assets** based on search volume (CoinGecko/CoinMarketCap/CryptoRank), DEX pumps, new exchange listings (Binance/OKX/Bybit), and news highlights. Focus on high-visibility movers amid low overall Twitter buzz (sparse high-engagement posts). Privacy coins and AI/memecoins dominate due to price surges (+15-500% in low-caps) and listings.\n\n### Key Metrics & Signals\n| Asset | Category | 24h Change | 7d Trend | Why Buzzing? | Sources |\n|-------|----------|------------|----------|--------------|---------|\n| **Monero (XMR)** | Privacy | +15.2% | +50.2% (top search) | #1 trending on CoinGecko (searches up); privacy narrative amid regulatory scrutiny. High volume $510M. MC $12.3B. | CoinGecko trending #1 |\n| **Dash (DASH)** | Privacy/PoS | +45.5% | +23.7% | #3 trending; massive pumps signal revival in fast payments/privacy. Volume $775M, MC $702M. | CoinGecko #3, CMC movers |\n| **Story (IP)** | IP/Solana | +45-48% | +93.6% | Explosive gains; top trending with $625M volume. Solana IP layer gaining traction. MC $1.4B. | CoinGecko #2 |\n| **FOGO** | Meme/Perp | N/A | New listings | Binance perp listing Jan 10; OKX spot upcoming Jan 15. High DEX activity signals pump potential. | Binance/OKX listings |\n| **PEPE** | Meme | N/A | +USD1 pairs | Fresh Binance/OKX USD1/TRY listings (Jan 13/19). Meme revival amid SOL/BSC pumps. | Binance/OKX listings |\n| **TRON (TRX)** | L1/Stable | +1.0% | Stable | Tether froze $182M USDT on TRON (5 wallets); Justin Sun keynote at Consensus HK; DAO grants hype. | Twitter (8 quality tweets) |\n| **TAO/FET/ZAMA** | AI/Privacy | Varied | Listings | Binance listings (TAO/JPY Jan9, FET/JPY Jan9, ZAMA perp Jan9). AI/privacy overlap amid narrative shifts. | Binance listings |\n\n### Market Context\n- **Overall**: Majors (BTC $93k +1.6%, ETH $3.2k +1.8%, SOL $144 +0.5%) stable; low-caps dominate trends with 300-500% pumps on SOL/BSC DEX (e.g., unnamed tokens up 536%). Total MC $3T, spot vol down 16%.\n- **Drivers**: DEX frenzy (SOL/BSC liquidity $100K+ txns), new listings (12+ on Binance), privacy push (XMR/Dash), AI listings. Sparse Twitter (min 20 faves) suggests organic search-driven hype over KOL pumps.\n- **Risks**: High-vol low-caps prone to rugs (many <1d age, caution flags on CMC). Watch listings for liquidity boosts.\n\n**Bottom line**: **Privacy (XMR/Dash) + AI listings (TAO/FET)** lead for fundamentals; **FOGO/PEPE** for short-term pumps. Monitor DEX vol and Binance pairs for alpha. Data as of Jan 13, 2026 UTC.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

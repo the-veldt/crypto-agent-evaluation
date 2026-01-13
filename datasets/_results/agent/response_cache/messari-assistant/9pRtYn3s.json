@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Trending Projects on Base Chain and Solana\n\nThe trending projects and narratives on Base Chain and Solana are primarily focused on memecoins, Real World Assets (RWA), and infrastructure developments, with a recent emphasis on cross-chain interoperability between the two networks.\n\n## Base Chain Trending Projects and Narratives\n\nBase Chain, an Ethereum Layer 2 scaling solution incubated by Coinbase [^1], has seen significant activity driven by memecoins and new Layer 3 deployments.\n\n### Memecoins and Social Activity\nThe Base ecosystem has experienced a surge in memecoin activity, with capital flows reportedly rotating from Ethereum mainnet memecoins toward Base [^2].\n\n*   **Top Memecoins:** Leading Base Chain memecoins include **BRETT**, **TOSHI**, and **DEGEN**, which have shown significant gains, with BRETT surging 37% and TOSHI and DEGEN rising over 15% to 22% in a 24-hour period in December 2025 [^2].\n*   **GAMEBASE** was highlighted as a Base ecosystem project in the AI sector that surged 60% in early January 2026 [^3].\n*   **Creator Coins:** Base has faced criticism from some builders for its heavy promotion of \"creator coins,\" often through its alignment with the NFT marketplace Zora [^4]. This focus has led to daily token mints on Base surpassing Solana at one point in August 2025 [^4].\n\n### Infrastructure and New Deployments\nBase is attracting established projects and new infrastructure focused on privacy and cross-chain functionality:\n\n*   **Horizen (ZEN):** The privacy-focused project Horizen officially deployed its mainnet as a Layer 3 execution layer on Base in December 2025 [^5][^6]. Horizen's native token, ZEN, migrated to Base as an ERC-20 asset [^6][^7]. The project is focusing on \"regulatory-compliant\" privacy and plans a $100 million developer funding program [^5].\n*   **tETH:** Treehouse introduced support for its liquid staking token, **tETH**, on Base Chain in October 2025, bringing its Market Efficiency Yield (MEY) model to the ecosystem [^8].\n*   **REACT Token:** The Reactive Network expanded the **REACT** token to Base to enhance user accessibility and reduce costs [^9].\n\n### Base-Solana Interoperability\nA major development is the launch of a native bridge connecting Base and Solana, secured by Chainlink's Cross-Chain Interoperability Protocol (CCIP) [^10][^11][^12]. This bridge enables two-way asset transfers, including support for Solana-based tokens (SPL assets) within Base dApps [^13][^11]. Early adopters integrating the bridge include Zora and Aerodrome [^11][^12].\n\n## Solana Trending Projects and Narratives\n\nSolana is a Layer-1 blockchain emphasizing high throughput and low transaction costs [^14]. Its trending projects are centered on Real World Assets (RWA), AI integration, and memecoins.\n\n### Real World Assets (RWA)\nSolana is a key player in the tokenization of RWAs due to its low latency and fast settlement time (400 milliseconds) [^15].\n\n*   **BlackRock BUIDL:** The BlackRock USD Institutional Digital Liquidity Fund (BUIDL), which focuses on short-term U.S. Treasurys, expanded to the Solana network in March 2025 [^15].\n*   **Ondo Finance:** Ondo Finance is preparing to roll out a tokenized liquidity fund on Solana [^16].\n*   **Credix:** Solana serves as the technology layer for the decentralized credit marketplace Credix, connecting institutional capital with FinTech companies [^15].\n*   **AIxCrypto (AIxC Hub):** This platform launched its core ecosystem, AIxC Hub, designed to educate users on RWA tokenization and Embodied AI (EAI) logic [^17]. Its inaugural competitive season, S1 Arena, attracted over 200,000 registered wallet addresses within five days of its January 2026 launch [^17].\n\n### Memecoins and DeFi\nMemecoin activity remains strong on Solana, alongside major DeFi and infrastructure developments:\n\n*   **Memecoins:** Solana memecoins like **PONKE**, **BONK**, and **BOME** have shown strong performance, with PONKE surging 104% in early January 2026 [^3]. Other notable memecoins include **$5CENTS**, which launched on Pumpfun with a focus on transparent tokenomics [^18].\n*   **Kamino:** The major Solana DeFi platform Kamino integrated with Project 0 to enhance liquidity and stability [^19].\n*   **SendAI:** The SendAI agent kit is the leading toolkit for AI agents to transact across existing Solana protocols, allowing for the creation of dynamic financial instruments, such as automatically rotating LP positions for the top five trending Solana memecoins [^20].\n*   **Kora:** The Solana Foundation launched **Kora**, a paymaster and signing service that enables gasless, multi-asset fee payments [^21].\n\n### Security and Infrastructure\nSolana is actively addressing future security concerns:\n\n*   **Project Eleven:** The Solana Foundation partnered with Project Eleven to deploy a quantum-resistant testnet, aiming to guard the network against potential future quantum computing attacks [^22][^23].\n*   **Firedancer:** Jump Crypto’s validator client, Firedancer, went live on Solana Mainnet in 2025, and the network advanced asynchronous execution (SIMD-0301) [^24][^25].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Dw4kSv6j",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Dw4kSv6j",
+    "query": "Compare the top trends, narratives, and 'metas' in crypto - Analyze the TAM, sustainability, and moat-like characteristics of the narrative. Which trends have the most investiability (liquid and private market)?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nStablecoins/RWAs and prediction markets lead 2026 crypto narratives for investability, with massive TAM from tokenization ($ trillions in RWAs) and real-world payments, strong sustainability via institutional adoption/regulatory clarity, and moats in network effects/liquidity; they excel in liquid markets (e.g., perps/stablecoin trading) and private markets (e.g., tokenized treasuries/private credit). BTC/ETH offer macro stability but lower growth upside.\n\n───\n\nTop Trends and Narratives in 2026\nCurrent crypto mindshare leaders from Elfa AI's token leaderboard (7d timeframe) highlight BTC (20.84% mindshare), ETH (11.62%), and SOL (9.93%) as dominant, reflecting macro assets and L1 ecosystems. Emerging narratives from CT discussions and reports emphasize stablecoins & stablechains, RWAs (tokenized assets), prediction markets, perp DEXs, privacy/ZK, and meme/ICO launchpads.CoinGecko Coinbase via tweet\n\nThese build on 2025's payments/prediction markets momentum, shifting toward utility-driven adoption like stablecoin payments (projected $1.2T by 2028) and perps dominating trading volume.Speed LN\n\nTAM Analysis\n- Stablecoins/RWAs: Largest TAM at trillions, tokenizing treasuries, private credit/equity, commodities; Coinbase notes onchain RWA distribution growing via institutional flows (e.g., DATS-TTD purchases led by BTC/ETH/SOL).Coinbase Outlook Forbes\n- Prediction Markets: Expanding beyond politics to product launches/cultural trends; tied to real-world events (e.g., fan tokens), with liquidity from perps.a16z via quote\n- Perp DEXs/Privacy: Mid-tier TAM from trading infra (Hyperliquid at 2.21% mindshare, ZEC at 3.93%) and ZK/security needs.\n- Memes/Launchpads: Speculative, smaller TAM but high volatility (e.g., PUMP at 1.19% mindshare).\nBTC/ETH TAM remains macro-driven, maturing as liquidity assets amid institutional cycles.Fidelity\n\nSustainability and Moat Characteristics\n- High Sustainability: Stablecoins/RWAs benefit from regulatory tailwinds (e.g., U.S. market structure bill) and real usage (payments, tokenization), reducing hype dependence; moats via liquidity/network effects (e.g., ETH/SOL ecosystems).Matrixport Prediction markets gain from verifiable outcomes, evolving to infra.\n- Moderate: Perp DEXs/privacy (e.g., ZEC +161% mindshare) offer tech moats (ZK proofs) but face competition; BTC/ETH sustainable as \"macro assets\" with deep liquidity to absorb shocks.Decrypt/Grayscale\n- Lower: Memes/launchpads are ephemeral, narrative-driven without strong moats.\n\nOverall, utility narratives (stablecoins, perps, predictions) outpace pure speculation long-term.\n\nMost Investable Trends (Liquid and Private Markets)\nStablecoins/RWAs and prediction markets top investability:\n- Liquid Markets: High volume in perps (dominant trading), stablecoin pairs; accessible via majors like BTC/ETH/SOL (e.g., BTC longs: 1341 total).[Elfa Leaderboard]\n- Private Markets: Tokenized assets unlock illiquids (private credit/equity) with crypto liquidity premiums; crypto as \"liquid private markets\" bridge.Chainyoda\nBTC/ETH suit conservative liquid plays (bullish sentiment: BTC 43%, ETH 38%). Avoid over-relying on memes despite mindshare. Regulatory clarity (e.g., 2026 bill) boosts all.Bitget",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T17:27:06.024Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendAnalysis+trendDiscovery-2026-01-13T16-52-05-v2.json",
+    "runId": "2026-01-13T16:52:05.693Z",
+    "system": "droyd-casual",
+    "qid": "3kC5nP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "3kC5nP2v",
+    "query": "what are the latest narratives and trends in crypto",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_04b95e19016ae9f700696679eb859081948c1f113b8e13cc25\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_EAjfIA6cLduRn9H1m9ZDpPS2\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"include_global\": true\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_04b95e19016ae9f700696679ed4eec8194a498458ca7f39f3c\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"reasoning\",\n    \"text\": \"\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"rs_04b95e19016ae9f700696679f116b48194bea3a3ddac358d43\",\n        \"reasoningEncryptedContent\": null\n      }\n    }\n  },\n  {\n    \"type\": \"text\",\n    \"text\": \"## Top narratives (right now)\\n\\n- **Institutional rails & tokenization**: Stablecoin settlement and RWA tokenization are redirecting durable dollar flows onto **Solana**, **Base**, and leading L2s. Expect increased demand for custody, proof‑of‑reserves, low‑latency settlement plumbing and compliant bridges. World Liberty Markets and several bank pilots are already live, concentrating liquidity and settlement risk on fast rails.\\n\\n- **Prediction markets go institutional**: Prediction venues are scaling into mainstream distribution through media/data partnerships. Polymarket‑style ecosystems reported **multi-$10B** annual volumes and automated agent flow; these venues are becoming revenue platforms rather than niche apps. Regulatory touchpoints (state actions, CFTC advisory) will shape KYC/oracle design next.\\n\\n- **Agentic AI commercialization**: Autonomous agents are moving from demos to billable products — funded agent wallets, paid inference rails, and enterprise-grade PQC/KMS primitives are appearing in production. Agent execution (DCA, rebalances, research) is now a revenue vector and a new source of continuous onchain flow.\\n\\n- **Derivatives professionalization**: On‑chain derivatives are adopting institutional mechanics: permissioned CLOBs, USDe‑margined perps, and market‑maker bridges that tighten spreads and enable larger counterparties. Recent buybacks and large fund activity (~**$910M** HYPE buyback) show capital cycling into structured, custody-friendly venues.\\n\\n- **Memecoin/launchpad fragility**: Episodic memecoin launches continue to produce liquidity shocks, MEV pressure, and validator stress on high‑throughput chains. Example: a recent NYC Token event produced an estimated **$3.4M** immediate liquidity drain and renewed rug concerns — these episodes distort short‑term microstructure and raise operational risk for rails.\\n\\n## Quick actionable signals & proof points\\n\\n- **BitGo** moved toward IPO pricing (target **$15–$17**), signalling custodial maturation and public market interest.  \\n- **ZKsync** published a 2026 roadmap prioritizing institutional features (zkVM, privacy/standards).  \\n- **Polygon Labs** completed a strategic acquisition (~**$250M+**) to push payments/stablecoin tooling.  \\n- **Tether** froze roughly **$182M USDT** across addresses after law‑enforcement requests — compliance and custodial controls remain active market drivers.  \\n- Privacy and reputation primitives are proliferating: confidential payments launched on **Base**, and onchain reputation models (neural net FairScore) are in early integrations.\\n\\nFocus: rails + revenue. Capital is moving toward chains and products that solve settlement, custody, privacy, and institutional execution. Agentic AI and prediction markets are new demand centers; memecoin episodes remain the primary operational downside risk.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_04b95e19016ae9f70069667a52a0fc8194bbfde614f434d8ed\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "## Top narratives (right now)\n\n- **Institutional rails & tokenization**: Stablecoin settlement and RWA tokenization are redirecting durable dollar flows onto **Solana**, **Base**, and leading L2s. Expect increased demand for custody, proof‑of‑reserves, low‑latency settlement plumbing and compliant bridges. World Liberty Markets and several bank pilots are already live, concentrating liquidity and settlement risk on fast rails.\n\n- **Prediction markets go institutional**: Prediction venues are scaling into mainstream distribution through media/data partnerships. Polymarket‑style ecosystems reported **multi-$10B** annual volumes and automated agent flow; these venues are becoming revenue platforms rather than niche apps. Regulatory touchpoints (state actions, CFTC advisory) will shape KYC/oracle design next.\n\n- **Agentic AI commercialization**: Autonomous agents are moving from demos to billable products — funded agent wallets, paid inference rails, and enterprise-grade PQC/KMS primitives are appearing in production. Agent execution (DCA, rebalances, research) is now a revenue vector and a new source of continuous onchain flow.\n\n- **Derivatives professionalization**: On‑chain derivatives are adopting institutional mechanics: permissioned CLOBs, USDe‑margined perps, and market‑maker bridges that tighten spreads and enable larger counterparties. Recent buybacks and large fund activity (~**$910M** HYPE buyback) show capital cycling into structured, custody-friendly venues.\n\n- **Memecoin/launchpad fragility**: Episodic memecoin launches continue to produce liquidity shocks, MEV pressure, and validator stress on high‑throughput chains. Example: a recent NYC Token event produced an estimated **$3.4M** immediate liquidity drain and renewed rug concerns — these episodes distort short‑term microstructure and raise operational risk for rails.\n\n## Quick actionable signals & proof points\n\n- **BitGo** moved toward IPO pricing (target **$15–$17**), signalling custodial maturation and public market interest.  \n- **ZKsync** published a 2026 roadmap prioritizing institutional features (zkVM, privacy/standards).  \n- **Polygon Labs** completed a strategic acquisition (~**$250M+**) to push payments/stablecoin tooling.  \n- **Tether** froze roughly **$182M USDT** across addresses after law‑enforcement requests — compliance and custodial controls remain active market drivers.  \n- Privacy and reputation primitives are proliferating: confidential payments launched on **Base**, and onchain reputation models (neural net FairScore) are in early integrations.\n\nFocus: rails + revenue. Capital is moving toward chains and products that solve settlement, custody, privacy, and institutional execution. Agentic AI and prediction markets are new demand centers; memecoin episodes remain the primary operational downside risk.",
+    "executionTimeMs": 166615,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "include_global": true
+        }
+      }
+    ],
+    "totalTokens": 29471
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

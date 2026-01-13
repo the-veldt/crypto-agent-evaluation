@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "WcL3oMz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcL3oMz8",
+    "query": "Looking at the latest content, what are the latest narratives and trends in crypto",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe latest crypto narratives and trends are dominated by regulatory developments (notably the U.S. Digital Asset Market Clarity Act), the maturation of Bitcoin and major coins, sector rotation into privacy, tokenization (RWAs), AI, and verifiable compute, alongside surging activity in Solana and privacy coins. Meme coins, AI-powered projects, and real-world asset protocols are also seeing renewed attention. Refer below for more details.\n\n───\n\n1. Regulatory Clarity and U.S. Legislation\nA major narrative is the bipartisan progress on the Digital Asset Market Clarity Act in the U.S. Senate, which is expected to provide long-awaited regulatory clarity and define the roles of the SEC and CFTC. This is seen as a turning point for the industry, with the bill restricting yield on stablecoins but allowing some rewards, aiming to keep innovation in the U.S. and protect non-custodial developers. The SEC Chair has also called this a \"big week for crypto,\" signaling imminent regulatory shifts (Sen. Lummis, BitcoinNews, WatcherGuru).\n\n2. Bitcoin and Major Coins Maturing as Macro Assets\nBitcoin is trading above $93,000 and is increasingly viewed as a macro asset, with institutional flows and global policy decisions shaping its price action. Fidelity and other institutional players highlight Bitcoin's maturation and its sensitivity to liquidity cycles (Decrypt). Ethereum and Solana remain at the forefront, with Solana seeing a notable boost in mindshare and price.\n\n3. Sector Rotation: Privacy, Tokenization, AI, and Compute\nA strong rotation is underway into privacy coins (Monero, Pirate Chain), real-world asset (RWA) tokenization, AI agent trading, and verifiable compute protocols. These are considered the \"big 4\" narratives for 2026 by several market observers (degenrsc). Privacy coins are hitting new highs, and AI-related tokens like AI Rig Complex are among the top gainers.\n\n4. Meme Coins, NFTs, and AI-Powered Social/Media Projects\nMeme coins and AI-driven media projects are seeing renewed speculation and viral growth. Examples include rapid pumps in tokens like PsyopAnime (AI-generated satirical anime) and the resurgence of NFT communities such as Bored Ape Yacht Club, which announced a Miami clubhouse (PeterParkerNFT). Meme majors like Doge, Shiba, and PEPE are also gaining traction.\n\n5. Real-World Asset (RWA) and Tokenized Stocks\nDemand for tokenized stocks and RWAs continues to rise, with platforms like Bitget nearing $1B in volume for tokenized equities. This trend is accelerating as investors seek tangible yield and exposure to traditional assets on-chain.\n\n6. Gaming, Incentives, and Airdrops\nNew gaming platforms, such as Trojan, are launching with significant SOL rewards and airdrop farming incentives, driving user activity and liquidity to gaming and DeFi ecosystems on Solana (TrojanOnSolana).\n\n7. Macro and Market Structure\nThere is a broad shift from speculative altcoins to more liquid, macro-sensitive assets like BTC and ETH, reflecting a cautious risk environment and maturing investor base (WuBlockchain). Altcoin rally durations have shortened, and capital is concentrating in majors and established narratives.\n\n8. Global and Political Developments\nCrypto is increasingly intersecting with global politics, with U.S. policy changes, pension fund debates, and international regulatory moves (e.g., Nigeria linking crypto to tax IDs). These developments are shaping sentiment and capital flows (CNBC).\n\n9. Top Movers and Mindshare\n- Top gainers: DebtReliefBot, Dash, Pirate Chain, UnifAI Network, AI Rig Complex.\n- Top losers: Gleec Coin, Dolomite, Palladium Network, USCR, Alchemist AI.\n- Bitcoin, Ethereum, and Solana dominate mindshare, with notable increases for Solana and AI/compute tokens.\n\nSummary Table of Key Narratives:\n\n| Narrative                | Example Tokens/Projects      | Notable Events/Trends               |\n|--------------------------|-----------------------------|-------------------------------------|\n| Regulatory Clarity       | -                           | U.S. Clarity Act, SEC statements    |\n| Bitcoin Macro Asset      | BTC                         | Institutional flows, price >$93k    |\n| Privacy                  | XMR, ARRR                   | ATHs, privacy rotation              |\n| Tokenization/RWAs        | Bitget, various RWA tokens  | Tokenized stock volume surge        |\n| AI & Compute             | AI Rig Complex, UnifAI      | AI agent trade, verifiable compute  |\n| Meme & Social Coins      | PsyopAnime, $CG, meme majors| Viral growth, NFT clubhouses        |\n| Gaming/Airdrops          | Trojan (SOL), others        | $5M SOL rewards, airdrop farming    |\n| Sector Rotation          | BTC, ETH, SOL               | Altcoin outflows, majors inflows    |\n\nIn summary, the crypto market in early 2026 is shaped by regulatory milestones, the maturation of Bitcoin and majors, sector rotation into privacy, AI, and tokenization, and continued meme and gaming innovation, all against a backdrop of cautious macro sentiment and political developments.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

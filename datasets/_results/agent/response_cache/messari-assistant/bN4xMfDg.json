@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "bN4xMfDg",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "bN4xMfDg",
+    "query": "what assets have had the highest growth in new traders in the last 4 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Assets with High Growth in New Traders\n\nBased on the trending topics in the last four hours, the asset class showing the most significant and immediate influx of new trading activity appears to be **memecoins**, driven by a high-profile scandal and the emergence of specialized trading infrastructure [^1].\n\nWhile the data does not provide a direct metric for \"new traders\" by asset, the trending topics highlight areas of intense market focus and activity:\n\n### 1. Memecoins and the $NYC Scandal\nThe top trending topic centers on the memecoin market, which is showing signs of revival [^1].\n\n*   **$NYC Memecoin:** The launch and alleged \"rug pull\" of the $NYC memecoin, associated with former NYC Mayor Eric Adams, generated significant activity [^1]. The token crashed 80% within hours after liquidity was allegedly withdrawn, a type of event that typically draws a large number of speculative traders [^1].\n*   **Trading Infrastructure:** The renewed enthusiasm in the memecoin market is spurring the development of specialized trading infrastructure, such as MemeMax_Fi, which offers features like 50x leverage and perpetual contracts [^1]. This suggests that traders are actively seeking tools to engage with the volatile memecoin sector [^1].\n*   **Market Behavior:** Trading behavior in this sector is characterized by traders \"chasing pumps, piling into shorts, exiting late, and getting liquidated,\" indicating high volatility and a trader-focused environment [^1].\n\n### 2. Bitcoin Consolidation\nBitcoin is also a major focus, trading in a consolidation range of $90,000–$92,000 [^2].\n\n*   **Price Target:** Traders are closely watching the critical $94,000–$95,000 resistance level, which, if broken, could open the path to $100,000 [^2].\n*   **Institutional Interest:** Institutional adoption is accelerating, with major financial institutions releasing bullish forecasts (e.g., JP Morgan targeting $170,000 and Standard Chartered predicting $150,000 this year) [^2]. This institutional activity often precedes or coincides with increased retail interest.\n\n### 3. Altcoins\nThe broader altcoin market is showing potential signs of recovery after a four-year downtrend against Bitcoin [^3].\n\n*   **Trend Reversal:** Technical indicators, such as a bullish MACD cross on the altcoin market cap chart, suggest a possible trend reversal, which historically has led to significant rallies [^3].\n*   **Selective Trading:** The current market structure favors selective trading strategies focused on coins with strong narratives and catalysts, rather than broad market exposure [^3]. This suggests that new traders entering the altcoin space are likely focusing on specific, high-momentum assets rather than the entire market [^3].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

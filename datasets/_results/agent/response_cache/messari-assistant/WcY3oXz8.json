@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "WcY3oXz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcY3oXz8",
+    "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+    "level": 2,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Analysis of the DeFi Market: Narrative Shifts and Leading Protocols\n\nThe Decentralized Finance (DeFi) market is undergoing a significant narrative shift, moving away from purely speculative hype toward measurable fundamentals, real-world adoption, and institutional integration [^1][^2]. This evolution is driving mindshare toward protocols that demonstrate sustainable growth, capital efficiency, and innovative solutions in key sectors like lending, liquid staking, and Layer 2 ecosystems [^1][^3].\n\n## Leading Narrative Shifts in DeFi\n\nThe DeFi market's narrative is being shaped by several key themes:\n\n### 1. Shift to Fundamentals and Real-World Assets (RWAs)\nThe market is increasingly prioritizing measurable metrics like protocol fees, revenue, and Total Value Locked (TVL) over short-term social sentiment [^2].\n\n*   **Focus on Metrics**: A study spanning 2021 through 2025 found that protocol fees, TVL, and revenue are the three key metrics that best explain DeFi valuation movements over three- and six-month horizons, validating the \"fundamentals narrative\" [^2].\n*   **Real-World Assets (RWAs)**: RWAs became a central pillar of growth in 2024, with over $6 billion in tokenized assets issued on-chain [^1]. Looking ahead to 2026, the focus is shifting toward solving real-world problems at scale, with potential new narratives emerging around DeFi as a global credit alternative and the integration of Artificial Intelligence (AI) [^1].\n\n### 2. Institutionalization and the \"Strategic ETH Reserve\" (SER)\nEthereum is being positioned as a long-term, institutional-grade asset, similar to Bitcoin's strategic reserves, through the \"Strategic ETH Reserve\" (SER) narrative [^4].\n\n*   **SER Strategy**: This involves public companies, Decentralized Autonomous Organizations (DAOs), and protocols deliberately holding and staking ETH as a strategic asset [^4].\n*   **Market Impact**: This shift aims to deepen Ethereum’s integration into global capital markets, create supply scarcity, and amplify ETH’s price, positioning ETH as a potential global settlement asset [^4].\n\n### 3. Emergence of New Protocol Categories\nInnovation is being driven by new protocol designs and strategic shifts by existing players:\n\n*   **Oracle-Free Protocols**: New protocols are emerging that aim to rebuild core DeFi services without relying on external oracles. These include peer-to-peer lending models, where lenders set their own terms, and hybrid protocols built on Automated Market Maker (AMM) liquidity positions, such as those utilizing Uniswap V3 concentrated liquidity [^5].\n*   **GameFi Integration**: Protocols like Royale Finance, traditionally influential in iGaming and DeFi, have strategically shifted toward the GameFi sector to serve as a launchpad for new initiatives like Aradena [^6].\n*   **Wallet Tokens and Memes**: Short-term narratives, such as the rise of meme coins and wallet tokens, have also shaped investment and interest, with wallet tokens seeing unprecedented weekly returns [^7].\n\n## Protocols Gaining Mindshare and Dominance\n\nSeveral protocols and ecosystems are leading the market in terms of TVL, market share, and yield generation:\n\n### Liquid Staking and Lending Dominance\n\nProtocols focused on core DeFi services, particularly liquid staking and lending, have demonstrated significant dominance:\n\n*   **Lido**: Lido commands a 75% market share in the liquid staking market [^3]. Between January and mid-June 2023, Lido's TVL showed a significant upward trajectory, rising from below $6 billion to over $14 billion, while other top protocols trended sideways [^8].\n*   **Aave**: Aave dominates the DeFi lending space, holding a 47% market share in lending [^3]. It has $21.2 billion in deposits and $8.5 billion in loans [^9]. Aave's innovative features, such as \"flash loans,\" have contributed to its popularity [^9].\n\n### Layer 2 Ecosystems and Yield Generation\n\nLayer 2 (L2) solutions are gaining mindshare by offering competitive yields and fostering diverse ecosystems:\n\n*   **Arbitrum**: Arbitrum leads in protocol diversity, hosting 22 protocols that account for the top 90% of its DeFi TVL, closely followed by Ethereum with 21 protocols (as of December 2023) [^10]. Arbitrum has also shown strong yield opportunities, leading with the highest median base Annual Percentage Yield (APY) among top ecosystems in March 2023, exceeding 4% [^11].\n*   **Optimism**: Optimism has demonstrated a competitive edge in yield generation, boasting the highest median total APY across all DeFi ecosystems, well above 6% (as of June 2023) [^12]. This high yield is largely driven by farming incentives on its largest Decentralized Exchange (DEX), Velodrome [^5].\n*   **Leading L2 Protocols**: On Arbitrum, **Radiant** and **Aave** are the largest lending protocols, with Radiant showing the fastest growth and dominating borrowing activity in early 2023 [^13].\n\n### Decentralized Exchanges (DEXs)\n\n*   **Uniswap**: Uniswap leads the decentralized exchange market with a 22% market share [^3].\n\n### Protocols with Recent Momentum\n\nIn a two-week period ending January 8, 2023, several protocols showed strong momentum across key metrics:\n\n| Metric | Top Gainer | 14-Day Change |\n| :--- | :--- | :--- |\n| **Market Cap** | Stakewise | +65.4% [^14] |\n| **Total Value Locked (TVL)** | Gains Network | +201.6% [^14] |\n| **Revenue** | DeFi Saver | +1,284.7% [^14] |\n\nThe growth of protocols like Stakewise and Lido in market cap was attributed to benefits from Ethereum-related upgrades, such as the Shanghai upgrade [^14].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

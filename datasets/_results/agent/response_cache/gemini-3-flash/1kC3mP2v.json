@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.337Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 497
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 14146
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "The current discussion on \"Crypto Twitter\" (X) is dominated by a mix of high-conviction ecosystem plays, a resurgent AI agent narrative, and intense competition among community-driven memecoins.\n\nBased on social volume and trending data from platforms like LunarCrush, Santiment, and CoinGecko, the following assets are the primary focus of discussion:\n\n### 1. The \"CZ's Dog\" & Binance Vote Narrative\nThe most viral conversation in the last 24 hours revolves around **BROCCOLI (CZ's Dog)**. \n*   **Why:** The token recently won a high-profile \"Binance Listing Vote,\" causing a massive spike in community engagement. The narrative is being driven by the \"community vs. VCs\" sentiment, as the project claims to have no venture backing or influencer-led pump-and-dumps.\n\n### 2. AI Agents & \"DeFAI\"\nThe intersection of AI agents and decentralized finance (DeFAI) remains the hottest sector on X.\n*   **ai16z (AI16Z):** Remains a central topic as the pioneer of the \"AI Venture Fund\" model.\n*   **Fartcoin (FARTCOIN):** A major meme-AI crossover that continues to hold high social engagement.\n*   **Swarm:** Recently trending on Solana, this project is being discussed for its decentralized data storage and AI infrastructure potential.\n\n### 3. Solana Ecosystem \"Frenzy\"\nSolana continues to capture the majority of retail \"degen\" attention, specifically via **Pump.fun** and **PumpSwap** trading volumes.\n*   **HYPE (Hyperliquid):** Discussed heavily as it moves into the top ranks of decentralized exchanges. It is frequently cited on \"most mentioned\" lists today.\n*   **PENGU (Pudgy Penguins):** Highly discussed following the launch of its native token, bridging the gap between major NFT brands and liquid markets.\n*   **RAY (Raydium):** Mentioned as the primary liquidity hub for the ongoing Solana memecoin season.\n\n### 4. High-Volume Memecoins\nBeyond the new launches, several established community tokens are seeing renewed debate:\n*   **TRUMP:** Political tokens are seeing high volatility and debate as macro-political news hits the timeline.\n*   **PNUT (Peanut the Squirrel) & WIF (dogwifhat):** These are the \"benchmarks\" for current memecoin sentiment and are used in almost every technical analysis (TA) thread on \"CT\" (Crypto Twitter).\n*   **BONK:** Seeing a resurgence in discussion as Solana's \"original\" memecoin.\n\n### 5. Macro & Institutional Narratives\n*   **Bitcoin (BTC):** The conversation is split between those watching for a \"death cross\" (a bearish technical signal) and those discussing the \"Strategic Bitcoin Reserve\" (SBR) news, such as Steak 'n Shake's recent announcement.\n*   **Ethereum (ETH):** Much of the discussion is technical, focusing on the upcoming **Pectra upgrade** (scheduled for May 2025) and whether ETH can regain its dominance against SOL.\n*   **XRP:** Continues to have one of the most active and vocal communities (the \"XRP Army\"), primarily discussing regulatory developments and its price action relative to other majors.\n\n### Summary of Top Tickers Mentioned:\n*   **Top Trending:** BROCCOLI, HYPE, PENGU, 4, KGeN.\n*   **Solana Focus:** SOL, RAY, PNUT, FARTCOIN, AI16Z.\n*   **Majors:** BTC, ETH, XRP.\n*   **Social/Niche:** Liberland Dollar (LLD), SX Network.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 26557
+        }
+      }
+    ],
+    "finalAnswer": "The current discussion on \"Crypto Twitter\" (X) is dominated by a mix of high-conviction ecosystem plays, a resurgent AI agent narrative, and intense competition among community-driven memecoins.\n\nBased on social volume and trending data from platforms like LunarCrush, Santiment, and CoinGecko, the following assets are the primary focus of discussion:\n\n### 1. The \"CZ's Dog\" & Binance Vote Narrative\nThe most viral conversation in the last 24 hours revolves around **BROCCOLI (CZ's Dog)**. \n*   **Why:** The token recently won a high-profile \"Binance Listing Vote,\" causing a massive spike in community engagement. The narrative is being driven by the \"community vs. VCs\" sentiment, as the project claims to have no venture backing or influencer-led pump-and-dumps.\n\n### 2. AI Agents & \"DeFAI\"\nThe intersection of AI agents and decentralized finance (DeFAI) remains the hottest sector on X.\n*   **ai16z (AI16Z):** Remains a central topic as the pioneer of the \"AI Venture Fund\" model.\n*   **Fartcoin (FARTCOIN):** A major meme-AI crossover that continues to hold high social engagement.\n*   **Swarm:** Recently trending on Solana, this project is being discussed for its decentralized data storage and AI infrastructure potential.\n\n### 3. Solana Ecosystem \"Frenzy\"\nSolana continues to capture the majority of retail \"degen\" attention, specifically via **Pump.fun** and **PumpSwap** trading volumes.\n*   **HYPE (Hyperliquid):** Discussed heavily as it moves into the top ranks of decentralized exchanges. It is frequently cited on \"most mentioned\" lists today.\n*   **PENGU (Pudgy Penguins):** Highly discussed following the launch of its native token, bridging the gap between major NFT brands and liquid markets.\n*   **RAY (Raydium):** Mentioned as the primary liquidity hub for the ongoing Solana memecoin season.\n\n### 4. High-Volume Memecoins\nBeyond the new launches, several established community tokens are seeing renewed debate:\n*   **TRUMP:** Political tokens are seeing high volatility and debate as macro-political news hits the timeline.\n*   **PNUT (Peanut the Squirrel) & WIF (dogwifhat):** These are the \"benchmarks\" for current memecoin sentiment and are used in almost every technical analysis (TA) thread on \"CT\" (Crypto Twitter).\n*   **BONK:** Seeing a resurgence in discussion as Solana's \"original\" memecoin.\n\n### 5. Macro & Institutional Narratives\n*   **Bitcoin (BTC):** The conversation is split between those watching for a \"death cross\" (a bearish technical signal) and those discussing the \"Strategic Bitcoin Reserve\" (SBR) news, such as Steak 'n Shake's recent announcement.\n*   **Ethereum (ETH):** Much of the discussion is technical, focusing on the upcoming **Pectra upgrade** (scheduled for May 2025) and whether ETH can regain its dominance against SOL.\n*   **XRP:** Continues to have one of the most active and vocal communities (the \"XRP Army\"), primarily discussing regulatory developments and its price action relative to other majors.\n\n### Summary of Top Tickers Mentioned:\n*   **Top Trending:** BROCCOLI, HYPE, PENGU, 4, KGeN.\n*   **Solana Focus:** SOL, RAY, PNUT, FARTCOIN, AI16Z.\n*   **Majors:** BTC, ETH, XRP.\n*   **Social/Niche:** Liberland Dollar (LLD), SX Network.",
+    "executionTimeMs": 20965,
+    "totalTokens": 41200,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "trending crypto assets on Twitter right now"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top mentioned crypto tickers twitter last 24 hours"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "current crypto twitter narratives today memecoins AI tokens Solana Ethereum"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "most discussed crypto tickers on twitter today lunarCrush Santiment"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "currently trending crypto tickers on twitter today february 2025"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "top 10 crypto mentioned on X twitter last 24 hours"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

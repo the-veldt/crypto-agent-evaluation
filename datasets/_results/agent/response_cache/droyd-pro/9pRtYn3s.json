@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_ukrVyUPmlzDrugYeubkdlS4d\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        15071\n      ],\n      \"category_ids\": [],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0d4f640a528cf1bc006966b321729c8194af881971aba093f9\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_jxXRRUp3eB2w3Cq63ZzrPvfc\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending Base ecosystem tokens with strong recent trader growth and high volume change; prefer liquid tokens (>$250k liquidity) across any category; exclude stablecoins and wrapped majors.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0d4f640a528cf1bc006966b321a0d8819481b83f9d760c4670\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_Fb9YsLXUDJyHAB9bAtqGZLiE\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending Solana tokens with strong recent trader growth and high volume change; prefer liquid tokens (>$500k liquidity) across any category; exclude stablecoins and wrapped majors.\",\n      \"sort_by\": \"traders_change\"\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0d4f640a528cf1bc006966b322843c819494be019de1316f96\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_FcPfMKXjbnD9bchNVBBIYcZX\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\",\n        \"developments\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        15071,\n        11943\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0d4f640a528cf1bc006966b322f32c8194aabfd46b49e7e56e\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![7-Day Net Flows for Major Blockchain Ecosystems](https://res.cloudinary.com/dgjriemfd/image/upload/v1767916097/veldt/lsyyxewdqkr5ovenvmmg.jpg)\\n\\n## Trending on **Base**\\nBase “trending” right now is less about random new tokens and more about **BTC rails + DeFi liquidity concentration + privacy payments**.\\n\\n- **Aerodrome Finance (AERO)**: still the gravity well for Base liquidity and incentives. Also the place where metrics get distorted—there’s credible onchain analysis showing **LP-churning/wash volume on bridged SOL pairs**, so treat “Base volume” screenshots with a BS-meter.\\n- **Morpho (MORPHO)**: Base lending activity is hot; Morpho on Base is showing **>$1B active loans** (Token Terminal charted it), largely pushed by **USDC + cbBTC collateral loops** and Base-native leverage.\\n- **Hinkal**: **confidential payments live on Base** (shielded↔public, payment links). This is an actual new primitive that can pull builders even if token price action lags.\\n- **Bedrock / uniBTC + cbBTC LP**: six-week incentive campaign with **60,000 OP** on the uniBTC/cbBTC Uniswap pool. This type of program temporarily dominates “what’s trending” because it drives mercenary liquidity and volume spikes.\\n- **Resolv**: yield split changed (**Base Rate 70%→85%**) which reprices where stablecoin yield chases on Base.\\n\\n## Trending on **Solana**\\nSolana trend is **execution venues + launch mechanics + new payment/reputation rails**, with memecoin churn still the volume driver.\\n\\n- **Trojan on Solana**: launched Arena + a **$5M SOL rewards** program. That’s a direct catalyst for user/trader growth because it subsidizes activity.\\n- **Jupiter (JUP)**: still the center of gravity for routing + lending; recent governance changes (BAM incentives / validator revenue routing) keep it in the headline flow.\\n- **Raydium (RAY)**: disclosed **569k RAY buybacks** since start of Q1—market tends to front-run “protocol bid” narratives even when buybacks aren’t structurally bullish.\\n- **Pump.fun**: overhauled creator-fee mechanics (splits, post-launch assignment, ownership transfer). Any change to launchpad mechanics tends to show up as “trend” because it alters memecoin throughput.\\n- **Ranger Finance (RNGR)**: public ICO demand was huge (**$86.4M committed**, capped at $8M) and token went live right after—classic Solana attention magnet.\\n- **NYC Token**: trending for the wrong reason—onchain activity flagged ~**$3.4M liquidity drain** hours after launch.\\n\\n### What actually “popped” in the last few hours (Solana screens)\\n- **67**: **~+268%** price (4h), **+168% volume**, **+75.7% traders**, **~$1.84M liquidity**  \\n- **9bit**: trader count up (**+89.7%**) but with oversold technicals; more like a bounce setup than sustained trend\\n\\n\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0d4f640a528cf1bc006966b32888808194b4717ed6bc0e4645\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![7-Day Net Flows for Major Blockchain Ecosystems](https://res.cloudinary.com/dgjriemfd/image/upload/v1767916097/veldt/lsyyxewdqkr5ovenvmmg.jpg)\n\n## Trending on **Base**\nBase “trending” right now is less about random new tokens and more about **BTC rails + DeFi liquidity concentration + privacy payments**.\n\n- **Aerodrome Finance (AERO)**: still the gravity well for Base liquidity and incentives. Also the place where metrics get distorted—there’s credible onchain analysis showing **LP-churning/wash volume on bridged SOL pairs**, so treat “Base volume” screenshots with a BS-meter.\n- **Morpho (MORPHO)**: Base lending activity is hot; Morpho on Base is showing **>$1B active loans** (Token Terminal charted it), largely pushed by **USDC + cbBTC collateral loops** and Base-native leverage.\n- **Hinkal**: **confidential payments live on Base** (shielded↔public, payment links). This is an actual new primitive that can pull builders even if token price action lags.\n- **Bedrock / uniBTC + cbBTC LP**: six-week incentive campaign with **60,000 OP** on the uniBTC/cbBTC Uniswap pool. This type of program temporarily dominates “what’s trending” because it drives mercenary liquidity and volume spikes.\n- **Resolv**: yield split changed (**Base Rate 70%→85%**) which reprices where stablecoin yield chases on Base.\n\n## Trending on **Solana**\nSolana trend is **execution venues + launch mechanics + new payment/reputation rails**, with memecoin churn still the volume driver.\n\n- **Trojan on Solana**: launched Arena + a **$5M SOL rewards** program. That’s a direct catalyst for user/trader growth because it subsidizes activity.\n- **Jupiter (JUP)**: still the center of gravity for routing + lending; recent governance changes (BAM incentives / validator revenue routing) keep it in the headline flow.\n- **Raydium (RAY)**: disclosed **569k RAY buybacks** since start of Q1—market tends to front-run “protocol bid” narratives even when buybacks aren’t structurally bullish.\n- **Pump.fun**: overhauled creator-fee mechanics (splits, post-launch assignment, ownership transfer). Any change to launchpad mechanics tends to show up as “trend” because it alters memecoin throughput.\n- **Ranger Finance (RNGR)**: public ICO demand was huge (**$86.4M committed**, capped at $8M) and token went live right after—classic Solana attention magnet.\n- **NYC Token**: trending for the wrong reason—onchain activity flagged ~**$3.4M liquidity drain** hours after launch.\n\n### What actually “popped” in the last few hours (Solana screens)\n- **67**: **~+268%** price (4h), **+168% volume**, **+75.7% traders**, **~$1.84M liquidity**  \n- **9bit**: trader count up (**+89.7%**) but with oversold technicals; more like a bounce setup than sustained trend\n\n",
+    "executionTimeMs": 24240,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            15071
+          ],
+          "category_ids": [],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending Base ecosystem tokens with strong recent trader growth and high volume change; prefer liquid tokens (>$250k liquidity) across any category; exclude stablecoins and wrapped majors.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending Solana tokens with strong recent trader growth and high volume change; prefer liquid tokens (>$500k liquidity) across any category; exclude stablecoins and wrapped majors.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets",
+            "developments"
+          ],
+          "limit": 30,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            15071,
+            11943
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 88356
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

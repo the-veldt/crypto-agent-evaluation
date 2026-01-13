@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "xUm8wAp5",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "xUm8wAp5",
+    "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nTop revenue-generating Solana projects include Pump.fun (leading DEX/launchpad), Jupiter (aggregator), Raydium (AMM), ORE Protocol (3rd in protocol revenue with low 1.9x MC/revenue valuation), Kamino (lending), and Phantom wallet (top-15 cross-chain), driven by Solana's 2025 app revenue surge to $2.3-2.39B from memecoin frenzy, stablecoin growth to $15B MC, and DEX dominance.\n\n───\n\nOverview of Solana's Revenue Landscape\nSolana apps generated $2.3-2.39 billion in revenue across 2025, outpacing other chains like Hyperliquid and Ethereum, with the network reclaiming #1 in weekly revenue by early 2026 and leading DEX volume/app revenue for multiple days. (cryptorand) This positions Solana as the top chain by 2025 revenue at ~$1.3B, fueled by memecoin activity (e.g., Bonk +50%), stablecoin market tripling to $15B, and high app fees. (cryptonews) (solananew)\n\nKey Top Revenue Projects and Catalysts\n- Pump.fun: Tops Solana ecosystem revenue as a memecoin launchpad/DEX, benefiting from the memecoin frenzy driving network activity; listed #1 in annualized revenue dashboards. (viktorfischer) Catalyst: Viral memecoin launches amid Solana's DEX volume leadership.\n\n- Jupiter: Aggregator generating significant fees (top-15 cross-chain), leveraging Solana's stack for swaps; high TVL and integrations boost usage. (AustinBarack) Catalyst: Dominant DEX routing in high-volume environment.\n\n- Raydium: Core AMM protocol with consistent revenue from swaps; ranks high in 30-day metrics despite mindshare dip (-22.76%). Leaderboard rank #6. Catalyst: Central liquidity hub for Solana DeFi trading.\n\n- ORE Protocol: 3rd highest revenue protocol on Solana with attractive 1.9x market cap/revenue ratio; top-15 cross-chain. (viktorfischer) (AustinBarack) Catalyst: Efficient fee capture from protocol activity.\n\n- Kamino: Lending protocol in top revenue lists; mindshare up 20.87% with bullish sentiment. Leaderboard rank #9. Catalyst: Growing DeFi lending demand on Solana.\n\n- Phantom: Wallet extracting app revenue (top-15 cross-chain) via integrations and fees. (AustinBarack) Catalyst: User onboarding for memecoin/stablecoin trading.\n\nComparative Insights\nPump.fun and Jupiter lead due to direct DEX/meme exposure, while Raydium/ORE excel on low valuations/higher efficiency. Solana protocols benefit ecosystem-wide from $15B stablecoins and #1 DEX/app revenue streaks, but face competition from Hyperliquid/Tron. Mindshare leaders like Raydium/Jupiter/Kamino show mixed growth, with AVICI (rank #3) pumping on calls (+233%) but unclear revenue tie. No direct 7d revenue rankings available beyond ecosystem aggregates.\n\nLimited granular per-protocol revenue data; based on recent mentions and leaderboards as of Jan 2026.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

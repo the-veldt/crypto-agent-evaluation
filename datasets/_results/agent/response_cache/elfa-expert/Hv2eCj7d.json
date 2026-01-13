@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "Hv2eCj7d",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Hv2eCj7d",
+    "query": "What defi protocols have the best valuation (P/S)?",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe DeFi protocols with the best (lowest) price-to-sales (P/S) valuations right now are Kamino (P/S ≈ 1), Morpho (P/S ≈ 6.9), and Pendle (P/S ≈ 10.7), making them stand out as undervalued relative to their protocol revenue. Kamino, in particular, is notably cheap versus peers, while Aave and Uniswap remain much more expensive on this metric. See below for a breakdown.\n\n───\n\nHow P/S Ratio Is Calculated\nThe price-to-sales (P/S) ratio is calculated as:  \nP/S = Market Cap ÷ Annualized Protocol Revenue\n\nA lower P/S suggests the protocol is undervalued relative to its revenue generation, assuming sustainability.\n\nTop DeFi Protocols by P/S (January 2026)\n\n1. Kamino (KMNO, Solana)\n   - Market Cap: $207M\n   - Annualized Protocol Revenue: ~$206M (estimated from 24h revenue × 365)\n   - P/S ≈ 1\n   - Kamino stands out as the most undervalued major DeFi protocol by P/S, reflecting strong revenue growth and relatively low market cap. Kamino\n\n2. Morpho (MORPHO, Ethereum/Arbitrum/Base)\n   - Market Cap: $731M\n   - Annualized Protocol Revenue: ~$106M (using comparable lending protocol data, as direct revenue not disclosed but TVL and growth are strong)\n   - P/S ≈ 6.9\n   - Morpho's P/S is well below sector averages, supported by rapid TVL and user growth. Morpho\n\n3. Pendle (PENDLE, Ethereum/Arbitrum/Optimism)\n   - Market Cap: $370M\n   - Annualized Protocol Revenue: ~$34.6M (using 24h revenue × 365, with some estimation)\n   - P/S ≈ 10.7\n   - Pendle offers a relatively low P/S given its niche in yield tokenization and continued protocol fee growth. Pendle\n\n4. Aave (AAVE, Multi-chain)\n   - Market Cap: $2.65B\n   - Annualized Protocol Revenue: ~$105.7M\n   - P/S ≈ 25\n   - Aave is a top-tier protocol but is valued at a higher premium compared to Kamino, Morpho, and Pendle. Aave\n\n5. Uniswap (UNI, Multi-chain)\n   - Market Cap: $3.54B\n   - Annualized Protocol Revenue: Not directly comparable, as most fees go to LPs, and protocol fee switch is rarely on.\n   - P/S: Not meaningful for UNI token (protocol revenue not captured by token holders). Uniswap\n\n6. PancakeSwap (CAKE, BSC/ETH/Arbitrum/etc.)\n   - Market Cap: $679M\n   - Annualized Protocol Revenue: Not directly available, but estimated to be higher than many smaller DEXs.\n   - P/S: Estimated to be in the 20–30 range, higher than Kamino/Morpho/Pendle. PancakeSwap\n\nKey Takeaways\n- Kamino is the clear standout for value investors, with a P/S close to 1, reflecting high protocol revenue relative to its market cap.\n- Morpho and Pendle are also attractively valued versus larger, more established protocols.\n- Aave and Uniswap, while dominant, command a higher P/S due to their blue-chip status and broader adoption.\n- Always consider sustainability of revenue, tokenomics, and growth trajectory alongside P/S.\n\nNote:  \nAll figures are approximate, based on the latest available market cap and protocol revenue data as of January 2026. Revenue estimates may vary due to protocol reporting differences and tokenomics structures.\n\nIf you need more granular data on other protocols or want to see a full ranked list, let me know!",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

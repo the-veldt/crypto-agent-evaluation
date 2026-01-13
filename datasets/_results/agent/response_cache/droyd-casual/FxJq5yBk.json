@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "FxJq5yBk",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "FxJq5yBk",
+    "query": "what are the key trends across ethereum, base, and solana",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"wb9jzXKg0TjWLbZO\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        15071,\n        4694\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EpoICpcIAXLI2ny2Ek0w2NhQNCXy+OhzrYjrcsGqEl1e3mpP7jS9XvM6iFcEGM6Ivo6ffMryWfUrhxY+cvRHB1ReybOXSJG+0FqJARHQVYeh2a8hDHX6CFzOlvi1ZFT/2hBZSN0aoKEa4jipIMD4Ui6rkyQwOvHa2S03QpO0QuXbJ/UiXPlzX5n9YxC5BctimlwWWyz12g/gmrdS3F2ANInTvi1bXTtjJ0TOmIkKzIgjRpWRiIggNZ1AsU9mBgGXiu7hab9wYay7mTLuMgHw5RyHXGMb5MxgpswoUSKVSRzbIXhHlPMLuuNWiJp1Djq4Pm5k6qG5EU/OlkDJvCTW9omlqvnQce1wsy3xxyecIyHhJA7fjGbG7TMQrNmVigHUAlE55Ydcgf+OLTSR5WzSPf+fYxvBLWaLewEm53TrF07uV/cQ2VQmlRKriw8pPKDjSpy+tNzX+quoeqJPkMKWCgzMLi9JpkOGr6vYmjTjeLjXaDZBNtkcU+fgwYV6FuGYbCKhEuRmW7a1XpGMQ/AgsBNeys/aNs/f6fR8DyoXLFxZBPWG9E5Y/FB8IPG2iIjAuagovZ+yszzh/2Zw0Nn12cX4CjaWUxO43WDuM3RyIOTbfguKLcdqvYoGXcthXX2d7dJpu/w1GPlrM4g9KLUY2slBOd4E3aEzq9YSk8rKYVCo5XKFvfvzVV4jEr1U5Zg/Hx8bhNH3/GMxFd5xki9qUEUGl0aSG+OV+7kiilPm8P3300ZwbZ1bJXza/NqDyVrUjIFUW6+X1ntZ3YjYTiUj8U03J3XCSPsUWV0d99W1qAJ0punrpH69/OcdDIZK5+SMqLaCJqPJ3vNnCGqaoYn+kcotEHb4lJ6GGb4Xw7I+FZVEf4j2qyF4qYJot4YhAA7JT0RsgdMD1WA7sAidtF/MBiK1Y1HIl7IfQ+3FHeyOLQlJHiZ579NzFE3G2C7QfqmELq7KyylGjz05YiAqjyeQYYAvFHTeMN05Ax/iOXilfLgo2f7HrZr+pCuQRUIxixvtwDR1nEvOwePFlbC4mkfGnSyzlj8w5HjAICRJkEl3FhV1wVnScKi1ZF+/F/bhPiGiMtDgJquMbaBo0wAtxUQsFOBB2kIMyPcGpIEvTSgujf3MpybDLrlxrGGwNJ+TGdSu0jevVVQDyNtnCLiQnUzMfeMkeMe3EQvc+1+0sxB0xJSznZXYHibDFnWIIzEk5QTUAbXGSEJ+9Aq7PhtAuWv63I9KeRam3mUSP6iLqoi8Vp9vPOKe0pXqowdjrH0d9Mdu6vUEWHgF1oSKgNIHJo2cO9JzaxSuIuBCUTnV0i7C5FXRAExrXEucSkldD080Q48WNWPkPVfHAxcTmc/WPKY7buH2Ljs2iUce2I7svaitJRwztUX1Qv3SCWFLtTfY\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"R7qJlZril06KeVJQ\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"limit\": 30,\n      \"days_back\": 7,\n      \"sort_by\": \"relevance\",\n      \"ecosystem_ids\": [\n        4694,\n        15071,\n        11943\n      ]\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Institutional adoption has ceased being a \\\"future\\\" narrative; it's the current execution layer. Across Ethereum, Solana, and Base, the shift is moving from speculative experimentation to hardened, production-grade infrastructure. Ethereum is ossifying its core for institutional safety, Solana is building a private-fiber-backed \\\"agentic\\\" economy, and Base is rapidly becoming the primary hub for BTC liquidity onchain (BTCFi).\\n\\n### Ethereum: The ZK-Led Institutional Settlement Layer\\nEthereum’s technical roadmap is now explicitly oriented around the **\\\"walkaway test\\\"**—the ability for users to retain trustless functionality without vendor dependence. This drive toward ossification includes native ZK-EVM validation and quantum resistance.\\n\\n![Artemis Weekly Fundamentals Dashboard - January 9, 2026](https://res.cloudinary.com/dgjriemfd/image/upload/v1768067691/veldt/tt1ow9iumm2jmrgju3pc.jpg)\\n\\nInstitutional capture is accelerating through **staked ETH ETFs** and corporate treasury allocations, which are tightening the liquid float. Settlement is shifting entirely to Layer 2s, where **blob parameter increases (BPO2)** are significantly lowering data costs. Projects like **ZKsync** are launching \\\"Prividium,\\\" a private institutional L2 designed for atomic, compliant settlements for global banks.\\n\\n### Solana: Execution Gravity and Agentic Rails\\nSolana has moved beyond the memecoin era, positioning itself as the high-frequency execution engine of crypto. **Solana DEX volume hit $1.6T in 2025**, capturing ~12% of global spot market share. The focus has pivoted to **agentic commerce**, with x402 payment rails and reputation layers like **FairScore** enabling autonomous AI agents to transact without human friction.\\n\\nThe infrastructure is also physical; networks like **DoubleZero** are deploying private fiber to bypass public internet bottlenecks, targeting sub-ms latency. However, launch risks remain high. The recent **NYC Token** liquidity drain (~$3.4M) serves as a sharp reminder of the centralization risks inherent in new launches, forcing a shift toward more rigorous onchain due diligence.\\n\\n### Base: The Hub for BTCFi and Cross-Chain Velocity\\nBase is aggressively eating the **BTC liquidity** market. Through in-wallet swaps and deep liquidity incentives for assets like **uniBTC and cbBTC**, it has positioned itself as the primary destination for BTC-restaking. **Morpho** on Base recently surpassed **$1B in active loans**, signaling that institutional-grade capital is now comfortable using Base for complex lending strategies.\\n\\n![Solana on Base Wash Trading Analysis Dashboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1768269231/veldt/gjm3tfzbcfpy3c1c6kiz.jpg)\\n\\nCross-chain mobility is the other major theme, with **Chainlink CCIP** facilitating the movement of high-TVL tokens between Base and other EVM chains. While **Aerodrome** continues to dominate DEX volume (reporting $333B all-time), independent analysis has flagged significant **\\\"LP churning\\\"** (wash trading) on bridged SOL assets, suggesting that while the volume is high, market participants must distinguish between organic growth and automated churn.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Institutional adoption has ceased being a \"future\" narrative; it's the current execution layer. Across Ethereum, Solana, and Base, the shift is moving from speculative experimentation to hardened, production-grade infrastructure. Ethereum is ossifying its core for institutional safety, Solana is building a private-fiber-backed \"agentic\" economy, and Base is rapidly becoming the primary hub for BTC liquidity onchain (BTCFi).\n\n### Ethereum: The ZK-Led Institutional Settlement Layer\nEthereum’s technical roadmap is now explicitly oriented around the **\"walkaway test\"**—the ability for users to retain trustless functionality without vendor dependence. This drive toward ossification includes native ZK-EVM validation and quantum resistance.\n\n![Artemis Weekly Fundamentals Dashboard - January 9, 2026](https://res.cloudinary.com/dgjriemfd/image/upload/v1768067691/veldt/tt1ow9iumm2jmrgju3pc.jpg)\n\nInstitutional capture is accelerating through **staked ETH ETFs** and corporate treasury allocations, which are tightening the liquid float. Settlement is shifting entirely to Layer 2s, where **blob parameter increases (BPO2)** are significantly lowering data costs. Projects like **ZKsync** are launching \"Prividium,\" a private institutional L2 designed for atomic, compliant settlements for global banks.\n\n### Solana: Execution Gravity and Agentic Rails\nSolana has moved beyond the memecoin era, positioning itself as the high-frequency execution engine of crypto. **Solana DEX volume hit $1.6T in 2025**, capturing ~12% of global spot market share. The focus has pivoted to **agentic commerce**, with x402 payment rails and reputation layers like **FairScore** enabling autonomous AI agents to transact without human friction.\n\nThe infrastructure is also physical; networks like **DoubleZero** are deploying private fiber to bypass public internet bottlenecks, targeting sub-ms latency. However, launch risks remain high. The recent **NYC Token** liquidity drain (~$3.4M) serves as a sharp reminder of the centralization risks inherent in new launches, forcing a shift toward more rigorous onchain due diligence.\n\n### Base: The Hub for BTCFi and Cross-Chain Velocity\nBase is aggressively eating the **BTC liquidity** market. Through in-wallet swaps and deep liquidity incentives for assets like **uniBTC and cbBTC**, it has positioned itself as the primary destination for BTC-restaking. **Morpho** on Base recently surpassed **$1B in active loans**, signaling that institutional-grade capital is now comfortable using Base for complex lending strategies.\n\n![Solana on Base Wash Trading Analysis Dashboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1768269231/veldt/gjm3tfzbcfpy3c1c6kiz.jpg)\n\nCross-chain mobility is the other major theme, with **Chainlink CCIP** facilitating the movement of high-TVL tokens between Base and other EVM chains. While **Aerodrome** continues to dominate DEX volume (reporting $333B all-time), independent analysis has flagged significant **\"LP churning\"** (wash trading) on bridged SOL assets, suggesting that while the volume is high, market participants must distinguish between organic growth and automated churn.",
+    "executionTimeMs": 18141,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            15071,
+            4694
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "limit": 30,
+          "days_back": 7,
+          "sort_by": "relevance",
+          "ecosystem_ids": [
+            4694,
+            15071,
+            11943
+          ]
+        }
+      }
+    ],
+    "totalTokens": 138431
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

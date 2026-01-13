@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "yC2pJu8i",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yC2pJu8i",
+    "query": "what have been the top projects to raise over the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": [
+      "fundraising"
+    ],
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR\nNo specific crypto projects raising over $1M+ in VC or traditional funding were identified in the last 30 days (Dec 14, 2025–Jan 13, 2026) from available web search results. VC fundraising activity has been low overall, dominated by large VC firms like Andreessen Horowitz ($15B across new funds) rather than individual crypto startups. GeeFi ($GEE) reported ~$900K in presale inflows by Dec 19, 2025, but this falls below \"over\" thresholds and is presale, not VC.\n\n───\n\nOverview of Recent Funding Landscape\nWeb search results highlight a sluggish VC market in late 2025–early 2026, with U.S. firms raising just $66.1B in 2025 (down from $101.3B in 2024), per preliminary PitchBook/NVCA data Axios. Crypto-specific raises for projects were not prominently featured, with coverage focusing on VC firms securing capital (e.g., a16z's $6.75B growth fund) or broader fintech trends.\n\nNotable Mentions\n- GeeFi ($GEE): Secured nearly $900K in token presale inflows over two weeks by Dec 19, 2025 (~24M tokens sold), signaling DeFi interest but not VC funding Business Insider.\n- Coinbax: Recent fintech funding round (amount unspecified) from industry leaders in banking/payments/digital assets, aimed at engineering expansion FinTech Futures.\n- Onsetto: $2.2M seed led by EJF Ventures (builds on prior $550K seed), but primarily fintech-focused FinTech Futures.\n\nData Limitations\nNo comprehensive lists or trackers (e.g., from CryptoRank, Messari) appeared in top results for high-value crypto project raises in the queried period. Activity may be underreported, shifted to presales/ICOs, or overshadowed by IPO momentum (e.g., Bullish, Circle) and macro VC trends PitchBook. For real-time tracking, platforms like PitchBook or Elfa AI's mindshare tools could provide indirect signals via social buzz on funding announcements.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

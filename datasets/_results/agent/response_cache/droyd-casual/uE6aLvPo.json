@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "uE6aLvPo",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "uE6aLvPo",
+    "query": "what assets (over $50k in 30d revenue) have had the highest growth in revenue in the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"eJhD4ehKYwwoZ2HP\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Find protocols with over $50k in 30-day revenue and rank them by the highest 30-day revenue growth percentage. Provide the revenue and growth metrics for each.\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EsEGCr4GAXLI2nxgTntyR8voTd+kMWRm4U1+kENoTAXRURjgPukBARuc5DNvvEXUGDge9qdDnu0jvbfcbhxePd0v1m663+gdWBzicFtn3ua8KYZ04SCWP9pwkSc0NGA92lhQrz1822AMpEcH23utp/JoAXH9vjX74rJGqKhogc/xOMX532YerjaatQjKqb19bv4wLdmwiy5Hky/9EIWkK933uOu2rEbJhfU/TdVwD460k4/RAYsbKtYfICC0UOYvOraq8QGY8lMZ4n5pWOy99TpxNK8KAKKurF+EvRk57DU+PI/7FOZQHfHxHyIPunV53c8zyjc/3vVwKwYLVESvgWxp70DytAWG288HlPe5xwAzCO198rXUQ+uN2qx6cD90NioaWMscg6WsositjsieEd6AK51BiWYsF/1qYvvM3BCeWIE/0yG6h3Jwb90ooarCc8qiT97CIhzdqsV8ck8kVspkvpqvgRx4TSv7oN2bDYjbahGMSUHgQ2m9vfzwq5In3NrUu/0CrEhn0zGwLIOQe00yBFKc6Z4e48UUjNeMZK+T7Kl667gqMdbAFwhvwmfe5vYNYTKlfoWs00xXXRASqyi7wTPMlGnUQ+yBLq+jVPKho8ihaHuV6Vx+3sv3YfzoRb6UV4KfAzzdd07j/x1X2suY+NcdU9XTZf0HrRppnq10SHq0rNZGwHGVwto1a325nJl+PJ9M5RABrol2dDGUPeEy3IlBstamDNSH4dkRN5uzlhdol1vFajUh2Gku3X7Bx+QbDdPI9wwZ//28XyDuGBIxG/FRKqqBQ2RvEx+dGi9IH+TgmDZN7jXYt2Nx0FlcEQLPdDXRqnaFXHMvN3jga44wYCaIjJUNn0RcmS0z6fiNTwYo/v7DBRdEcYc/8c1u2sy3jyBn7DVoOcj2ZedD917TOYNKjBoepJ37AH6b8FHVCLkbVXeWOV9B5c/VLOWF+GN/OBYEp6Z2Xr0rwn7LX6hBGyNSEqwGSXHZSminKcY/Kno3PO2GgDZl8y8FypIyOw1KzlnJxtpTUV9WzdYZaMZNUyrUHW1lHsPHxl7zxIFjR4Q8JqKurq2aMR9FMcELWxYXAbKYgbcJwwmiRUuZqpaxF4s=\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"9mF7Kor1KlftZXsj\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"project_ids\": [\n        15117,\n        6490,\n        3067,\n        32775,\n        4705\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EtgICtUIAXLI2nzGMR2Tlc7das6hAw9hmSozrkG56WZtTPDMfwTDPt2u8S7xtn9GzN1aA4HG8PyyN59oBS+aOdy+fX6KlYC9+KnZRkEeTrt9Pif5jPwmCf9JBXf913edV5r/sIrdCL4UMdHWih9bdf3aEWibG7Rzc/Ul049+5z2sh+TVV4X4MlhbKJWnY7QDmvqYbhjjfO/gdCMcaNpSWuUn6P75yMbs2PZUZxcOlEuO7iXISgePi8lVVG5bub/MjcC7dX8Gi+56GAoC5Sj5GcZAmfhVrt10MJdDpUKRgmthu9grhzR7pDt0F+WOhys/IfyD50vMXChjpm7Us0NMszvxFgHXwjkBpEkTJqjhi1aRwiXSdaw6Gpp5RaeHcqdKG+N7iYwAWuGmZFGcJ8j1MP3eHGGN8e2bkhcxpBADjFW1vs/Dtantgwoe0JwfH+J+GEPHt9MPXHaJzA8rDXvubfqIBGLGxpF15KQWUCfSGk+mGfJ5fWD6la97NRRedSTOJ1xSYNcaaFlSC94+puIdcIYVRiGIEXXIP1eVg9kG2EfTwqStO0+MfNVY13cpDJEl3XrHP7S7Q9maimH9RbADIkcrh2Zu2lvc62MpRcyHKPfMwQhdTk5lXixxfSFY5X16tVIAr+V6GlZmWImcJwdrE6672Dsz+6ztCcLTX5TjGKU64JFieALxpuC7AqJJjCv68KMn/OXLWtgjNW5d43lcwCWCR8NtWMWcR8kkqSV32ejBxwGU8xnSJx5a9XzZe1oKDo3vncTNTFqOT/QtSPUg19FQOu55x4GtgxNe0tDNu/hry5Igeh5UsAi9fP1vqrjmQr5Ku6E6O2vQTs17Yt+E21SiE+8l7BK23FsRf2CL1ttZ09fPWt2/K3Iy1aAk1RZ6/MTDN4o+wczcL0sEV6RXtB5sg8HzgfdFw/hHM/XlZQHaIs3NT7NWbgN8GlXCjGlyQ1FUDvBiNrrQtyGHMhaJFa9UKUv+PsOKRuDOWxLKCmddbrzCFs7luPNMM2Nr8PRIPEmmSCIUJsoKdFeeKxMgbG3Ukihdk0NeTdd9Nb4AAAH9ChcGDXqrejlkpKUN8A0FsmBv15IBZtiE/I9//EoMYVE4fR1KqE9E1w0Pbtj+fSZOW+Urjj1uI9zHfVoYWW7pSH2E9LPkZE496wxq/IfPSMgeLisH2cQmfOio1Y2RVOjJOdtGhI5pjqL8gq80MDScLIcorMjPbpdpYTMl2Ju09tUMJ9M985GZITSD3IIc3+tlRjLwhyFq7WQm5cmn0KrZ9O8IppaEdakQIDVzWo7tyOnxCKnnrdpK4/8Yk75LyweGBWhioRibBYMcHR8vHayP0KABgqKK4BBFSDQr6tNtwh2g/P3wEWJA1HZkndSEKJX62Zbsxq3dKf47D93M3k0TLfWtCI2aaNPF8ZJF3/ed0hc8U9BuHjnCBp1c9cpRHRrx2QUPiDQjNveWUcbS00sEbhsA71HcfPdDq/U=\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"q3OieWJsmrnOck9H\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"15117\",\n        \"6490\",\n        \"3067\",\n        \"32775\",\n        \"4705\"\n      ],\n      \"search_type\": \"project_id\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Lombard and Impermax lead the pack in revenue growth among protocols generating at least $50k monthly. While the broader market remains focused on absolute numbers, the growth rates for Bitcoin liquid staking and decentralized lending indicate where capital is migrating.\\n\\n### Top Revenue Growth Leaders (30d)\\n\\n1.  **Lombard (BARD)**: **14.51% growth** ($58.9k revenue)\\n    Lombard’s revenue surge follows its aggressive consolidation of the Bitcoin liquid staking market. By acquiring Avalanche’s BTC.b and transitioning it to the LBTC architecture, Lombard now controls approximately 57% of BTC liquid staking. The protocol reached $1B in TVL within just 92 days, making it the fastest yield-bearing token to hit that milestone.\\n2.  **Impermax (IBEX)**: **14.15% growth** ($164.2k revenue)\\n    Despite a historical security incident in late 2025, Impermax has seen a significant rebound in revenue. The protocol focuses on leveraged yield farming, benefiting from increased volatility and trading demand across the EVM chains it supports.\\n3.  **Compound (COMP)**: **4.62% growth** ($1.07M revenue)\\n    Compound continues to dominate the lending sector, recently unpausing USDC and USDS markets. Its revenue growth is supported by its expansion into the Base and Ronin ecosystems, alongside a consistent 89% share of onchain protocol lending volume when combined with Aave.\\n\\n![Lombard LBTC Performance and Growth Metrics](https://res.cloudinary.com/dgjriemfd/image/upload/v1768031305/veldt/n1xsztpshgdberqttheg.jpg)\\n\\n### High-Volume Growth Assets\\n\\nWhile growth percentages are lower for larger protocols, their absolute revenue increases are massive. **Meteora** on Solana maintains **3.01% growth** on a massive **$11.98M** 30-day revenue base, driven by its DLMM (Dynamic Liquidity Market Maker) pools which capture significant fees during high-volatility Solana trading sessions.\\n\\n**Ethereum Name Service (ENS)** sits at **3.10% growth** ($119k revenue), fueled by the rollout of Namechain—a based rollup using the Surge framework—and the launch of the ENS App for streamlined registration.\\n\\n![Artemis Weekly Fundamentals Dashboard - January 9, 2026](https://res.cloudinary.com/dgjriemfd/image/upload/v1768067691/veldt/tt1ow9iumm2jmrgju3pc.jpg)\\n\\n**Pump.fun** remains the largest revenue generator in the entire ecosystem at **$34.8M** over the last 30 days. Though its growth has flattened to **0.07%**, it maintains a dominant lead in the memecoin issuance space, significantly outperforming traditional DeFi protocols in fee generation.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Lombard and Impermax lead the pack in revenue growth among protocols generating at least $50k monthly. While the broader market remains focused on absolute numbers, the growth rates for Bitcoin liquid staking and decentralized lending indicate where capital is migrating.\n\n### Top Revenue Growth Leaders (30d)\n\n1.  **Lombard (BARD)**: **14.51% growth** ($58.9k revenue)\n    Lombard’s revenue surge follows its aggressive consolidation of the Bitcoin liquid staking market. By acquiring Avalanche’s BTC.b and transitioning it to the LBTC architecture, Lombard now controls approximately 57% of BTC liquid staking. The protocol reached $1B in TVL within just 92 days, making it the fastest yield-bearing token to hit that milestone.\n2.  **Impermax (IBEX)**: **14.15% growth** ($164.2k revenue)\n    Despite a historical security incident in late 2025, Impermax has seen a significant rebound in revenue. The protocol focuses on leveraged yield farming, benefiting from increased volatility and trading demand across the EVM chains it supports.\n3.  **Compound (COMP)**: **4.62% growth** ($1.07M revenue)\n    Compound continues to dominate the lending sector, recently unpausing USDC and USDS markets. Its revenue growth is supported by its expansion into the Base and Ronin ecosystems, alongside a consistent 89% share of onchain protocol lending volume when combined with Aave.\n\n![Lombard LBTC Performance and Growth Metrics](https://res.cloudinary.com/dgjriemfd/image/upload/v1768031305/veldt/n1xsztpshgdberqttheg.jpg)\n\n### High-Volume Growth Assets\n\nWhile growth percentages are lower for larger protocols, their absolute revenue increases are massive. **Meteora** on Solana maintains **3.01% growth** on a massive **$11.98M** 30-day revenue base, driven by its DLMM (Dynamic Liquidity Market Maker) pools which capture significant fees during high-volatility Solana trading sessions.\n\n**Ethereum Name Service (ENS)** sits at **3.10% growth** ($119k revenue), fueled by the rollout of Namechain—a based rollup using the Surge framework—and the launch of the ENS App for streamlined registration.\n\n![Artemis Weekly Fundamentals Dashboard - January 9, 2026](https://res.cloudinary.com/dgjriemfd/image/upload/v1768067691/veldt/tt1ow9iumm2jmrgju3pc.jpg)\n\n**Pump.fun** remains the largest revenue generator in the entire ecosystem at **$34.8M** over the last 30 days. Though its growth has flattened to **0.07%**, it maintains a dominant lead in the memecoin issuance space, significantly outperforming traditional DeFi protocols in fee generation.",
+    "executionTimeMs": 82535,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Find protocols with over $50k in 30-day revenue and rank them by the highest 30-day revenue growth percentage. Provide the revenue and growth metrics for each."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "project_ids": [
+            15117,
+            6490,
+            3067,
+            32775,
+            4705
+          ]
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "15117",
+            "6490",
+            "3067",
+            "32775",
+            "4705"
+          ],
+          "search_type": "project_id"
+        }
+      }
+    ],
+    "totalTokens": 55805
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

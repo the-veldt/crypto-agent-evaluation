@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "mZ5aNo7w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mZ5aNo7w",
+    "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_TlmaFmpZW9aHVfwMYqR5Sn3C\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"sector revenue growth last 30 days key protocols catalysts\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0091e90bd0e7df5f006966ba15d72081a1af77f8301172e1af\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![](https://res.cloudinary.com/dgjriemfd/image/upload/v1768213362/veldt/zqkvkb52y9yygwcccmu8.jpg)\\n\\n**30d revenue growth is concentrated in three “transactional” sectors** where users are paying real fees: **Perps venues**, **memecoin/launch infrastructure + trading tooling**, and **DePIN/AI-data supply chains**. **Stablecoin issuers** still print the most absolute revenue, but the *growth* impulse is coming from activity spikes and new monetization surfaces, not incremental T-bill yield.\\n\\n## Sectors with the strongest 30d revenue growth\\n\\n- **Derivatives / Perps**\\n  - **Hyperliquid:** **+309.7% MoM** in daily app revenue (monthly average **~$1.74M/day**). This is pure throughput + venue consolidation: more volume, more fees, and less leakage to competitors.\\n  - **Jupiter (Solana):** **+399.2% MoM** in daily app revenue. The “aggregator tax” works when onchain volume compresses onto a few rails and routing gets stickier.\\n\\n- **Launchpads + memecoin execution (and adjacent trading apps/bots)**\\n  - **Pump.fun:** **+93.3% MoM** in daily app revenue; **~$33M–$36M 30d revenue** depending on the snapshot. Catalyst is straightforward: memecoin issuance + churn is a fee machine.\\n  - **GMGN (Telegram bot):** **+1645% MoM** in daily app revenue. This is the cleanest signal that *retail execution UX* is monetizing faster than most “protocol” narratives.\\n  - **Axiom Pro / trading apps** (seen in the revenue tables): monetization tracks volatility + Solana retail flow, not “DeFi TVL.”\\n\\n- **DePIN (wireless/data/compute)**\\n  - **Helium:** sustained revenue ramp driven by **Helium Mobile subscriber growth** and carrier-like unit economics.\\n  - **Grass / AI-data:** growth tied to **increasing demand for web data for model training**; monetization improves as buyers show up and incentives normalize.\\n  - **Livepeer:** AI workloads now dominate fees (reported **70%+ of protocol revenue** coming from AI), meaning demand is increasingly external to crypto.\\n\\n## Catalysts actually driving the growth (not vibes)\\n\\n- **Venue consolidation + “perps arms race” mechanics**: best execution + deepest liquidity wins, and fee capture scales non-linearly once a venue becomes default.\\n- **Retail throughput on Solana rails**: memecoin issuance, bots, and trading apps monetize immediately because **fees are the product**.\\n- **AI pull-through demand**: DePIN projects with real buyers (compute, video inference, data) are converting usage into fees.\\n- **Value-capture meta (buybacks/burns/rev share)**: protocols routing fees back to token value (explicitly like Hyperliquid’s buyback design) sustain activity and reflexivity better than “points” campaigns.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0091e90bd0e7df5f006966ba309bf881a1afefba51f64ab2de\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![](https://res.cloudinary.com/dgjriemfd/image/upload/v1768213362/veldt/zqkvkb52y9yygwcccmu8.jpg)\n\n**30d revenue growth is concentrated in three “transactional” sectors** where users are paying real fees: **Perps venues**, **memecoin/launch infrastructure + trading tooling**, and **DePIN/AI-data supply chains**. **Stablecoin issuers** still print the most absolute revenue, but the *growth* impulse is coming from activity spikes and new monetization surfaces, not incremental T-bill yield.\n\n## Sectors with the strongest 30d revenue growth\n\n- **Derivatives / Perps**\n  - **Hyperliquid:** **+309.7% MoM** in daily app revenue (monthly average **~$1.74M/day**). This is pure throughput + venue consolidation: more volume, more fees, and less leakage to competitors.\n  - **Jupiter (Solana):** **+399.2% MoM** in daily app revenue. The “aggregator tax” works when onchain volume compresses onto a few rails and routing gets stickier.\n\n- **Launchpads + memecoin execution (and adjacent trading apps/bots)**\n  - **Pump.fun:** **+93.3% MoM** in daily app revenue; **~$33M–$36M 30d revenue** depending on the snapshot. Catalyst is straightforward: memecoin issuance + churn is a fee machine.\n  - **GMGN (Telegram bot):** **+1645% MoM** in daily app revenue. This is the cleanest signal that *retail execution UX* is monetizing faster than most “protocol” narratives.\n  - **Axiom Pro / trading apps** (seen in the revenue tables): monetization tracks volatility + Solana retail flow, not “DeFi TVL.”\n\n- **DePIN (wireless/data/compute)**\n  - **Helium:** sustained revenue ramp driven by **Helium Mobile subscriber growth** and carrier-like unit economics.\n  - **Grass / AI-data:** growth tied to **increasing demand for web data for model training**; monetization improves as buyers show up and incentives normalize.\n  - **Livepeer:** AI workloads now dominate fees (reported **70%+ of protocol revenue** coming from AI), meaning demand is increasingly external to crypto.\n\n## Catalysts actually driving the growth (not vibes)\n\n- **Venue consolidation + “perps arms race” mechanics**: best execution + deepest liquidity wins, and fee capture scales non-linearly once a venue becomes default.\n- **Retail throughput on Solana rails**: memecoin issuance, bots, and trading apps monetize immediately because **fees are the product**.\n- **AI pull-through demand**: DePIN projects with real buyers (compute, video inference, data) are converting usage into fees.\n- **Value-capture meta (buybacks/burns/rev share)**: protocols routing fees back to token value (explicitly like Hyperliquid’s buyback design) sustain activity and reflexivity better than “points” campaigns.",
+    "executionTimeMs": 46277,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "sector revenue growth last 30 days key protocols catalysts",
+          "content_types": [
+            "posts",
+            "news",
+            "developments"
+          ],
+          "limit": 20,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 42736
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

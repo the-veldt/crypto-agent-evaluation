@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "2kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "2kC3mP2v",
+    "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ai"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"fIw8wPCkcWgdKQeI\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"category_ids\": [\n        517\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EucJCuQJAXLI2nyQ49ENZ9hNBOUYj2zfs9EXCNXvngBo28DoaKvPeG3CLh2Ad3T4bJ/x4P6vho7lZSM6BZA6Xi4sk6o83vz8oENmolzVA8SkNYZ/pLgtnG8zMmGKhWHSZiFBC/whEcRWy6Yd3GqAAjbaCeOOX24q+Dt+3Icy/B7ZhJUv8yAqU9YA8d+2aA9FD+sJzwkwfNTKjZvxBzsWl4P64JTjFyOVA6swaGgwyGzNQE3Hwbica/q6UZxM7sXe059yNMEtYMKwsTxIa0IDQkWLk86A5ISWqnbWuvvR/3BYDKUDoBb/ntxjU3Jd6/6NZdKYdd4fViu+dPdoEYzTkatx01qbLONSAccxvdmXJzw6wObr9HX42EleMqxIhreDkLQHd/Wtr7k5NLIMRJEhjNB+goyqH+AXfH/XZCE5/sCVvJlsnypCNj+HYYy4l7gfJeEMCTvWmUU5jXWMCOpEv5v9R1qyQ8GIqEeSN2qrcFsN9SLLxrx5pYUhOp9hJfj7+V99hRJk7SbTw1D8Y8kuy3bXl+8b3k9H0TXo3AOmTY1uBxTIUQJytCQuJB6uazmKkJaDcWqHadZUvcUkgqxzhzA0BXR6/Ifq35ZKLjgjPLx1qqoU0kOcKR5MnnbYjXRtBKwGvXtbhia4iZSZoS5bB/CyrwRybMHfGmvXd/KbZFI4E8CCvqKcPYnnkVz76zKhXAq+EjlDr6Wg4qDmt/9NxpTguDvcrGRgGvInc1V7yYM7aZrCuTaMDdalJsQ4GsD7XCfSesUpgu8f0BSh5mgk90WWkxP5TzBOwnm15l9mL6vuIrwfefXTOUIRRiUqSC8qBqGleEnvmAuvUaS66+OiKv7rwiIWD1uZm6IrX9gTKK0X/0e+EFuspsd0bdYpLNe9q+rJdReYJ/YRjkenimoBw14Hm8occxrMXsdwULYPoTmiSpXn+to0cQY3AF8xmc3Tcla3R3JuU+/weL/8447AppFjEmvY07BpxR1Jz9Guz5j0vW3/JWmOAxsOG8rvsGNMyNcu6sW95aeeS5TkL++pyYwROUbofKVNzN5ss0dINd9X2zDE83TBiP5nTvRMamc011n8+8RdAvHwcXEWr35HbylaJfGKasiqUVYjorRp2oewRmMFX3dUzpIuxgiSH+tfJ7ILJ919x5Ng8NqQAdoZEQmO3UVE2m454VDmRqjsNuHhJ//rHiSag0WUb9LiWNqxcksoJ57I503QoNWfchWQ/j/AmXTU1JgQl0D7PT5nRjjy80Z41i2aLK2ILBm+o2UVtPJGUKzoIqD+k9FNVYzW8mIV+6dlnxKg2Rj6Qx4v7naEt3K1DmZfFosqf6oa9Xot5LWO2UJA2jdRUDpOQheZFlZ01W5cScWsHuZvxC+pA21ZgQcADoXvaBx5gEKfY2c58mHwvK4h+fuLa2wmYt+lfwp2qaAyyuO/7mi/d8xcUc2fTeLh6f5uvMR2wUci4vYumvUYHVscTLDRUaM54y9rJ9FtDtpsp75RmqnwYvybB90XD5UsvyBpK7VGy5A/PLpwZWL/vqMXP/hcTrf729s5zu1jMDFH1pnA6Js6o444cFaj3rb69PGU3rXaheOrDqteZOjx10oLzBJNRNLbk0ShD2mywdhoaN7vBpQQTslh2g8Rk9bTZ8eenymW3+5C+IAtWIQq6XRLXlDsrQ==\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"2PDhgLIBzWvdiwO1\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare the top 10 AI agent protocols by 30-day volume, mindshare growth, and revenue. Identify which ones are gaining the most traction.\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"S1yy1B3l2plg5o2u\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find AI agent projects on Solana and Base with the highest trader growth and social mentions change over the last 7 days. Focus on projects with at least $1M market cap.\",\n      \"sort_by\": \"traders_change\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"ZN0sAyV2EhWorZT0\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"days_back\": 14,\n      \"category_ids\": [\n        517\n      ]\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The crypto agent market is shifting from \\\"AI-themed memecoins\\\" to functional **agentic commerce** and **autonomous finance**. The move is driven by the maturation of three layers: payment rails (x402), verifiable intelligence (TEEs/FHE), and standardized commerce protocols (UCP).\\n\\n### The Payment Layer: x402 and Micropayments\\nAgents cannot use traditional banking; they need HTTP-native micropayments. **Coinbase** and **PayAI** (on **SKALE**) are the current leaders in the **x402** standard, which enables pay-per-call USDC settlement. PayAI recently reported over **28 million transactions** and **$7 million in settled volume**, proving that machine-to-machine economies are moving beyond prototypes. While speculative \\\"gamed\\\" volume exists—Artemis data shows up to 60% gamed volume on some servers—organic service volume for data and AI API calls now accounts for roughly **86% of total dollar value**.\\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767821482/veldt/lkou9va0irrysoamd4be.jpg\\n\\n### The Intelligence Layer: Bittensor and Allora\\nFor agents to execute high-stakes financial tasks, their \\\"thinking\\\" must be verifiable. **Bittensor (TAO)** remains the dominant decentralized compute protocol, recently buoyed by **Grayscale’s ETF filing** and the launch of specialized subnets like **Loosh (SN78)**, which provides a cognition layer with \\\"moral evaluators.\\\" **Allora** is gaining traction by launching its mainnet on **Monad**, providing predictive inferences specifically for pro-active DeFi and agent apps. Unlike generic LLMs, these protocols focus on **verifiable inference** through Trusted Execution Environments (TEEs) and Zero-Knowledge proofs, which are mandatory for agents managing funded wallets.\\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767821483/veldt/w2qux9a93dbnfgafgogh.jpg\\n\\n### The Application Layer: Virtuals and Agentic Finance\\n**Virtuals Protocol** is the current standard for agent-native finance, facilitating the launch of agents with autonomous trading missions. We are seeing a structural shift toward **agentic finance** where agents trade prediction markets (e.g., **Polymarket** tools like PolyBro) or manage stablecoin yields (e.g., **Fraction AI’s** Signature Agents on **Base**). On **Solana**, projects like **PsyopAnime** and **Claude-Mem** are seeing massive **trader growth (+579%)**, though these remain higher-beta, narrative-driven plays. The real traction is in **UCP (Universal Commerce Protocol)**, co-developed by **Google and Shopify**, which allows agents to execute full commerce lifecycles—discovery to checkout—using onchain rails.\\n\\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767199455/veldt/x3fmugxz1356v8mqmomg.jpg\\n\\n### Infrastructure Pivots: The \\\"AI Factory\\\" Meta\\nA major tailwind for the sector is the pivot of Bitcoin miners like **Hut 8**, **Riot**, and **Bitfarms** toward **AI/HPC infrastructure**. Hut 8’s **$7 billion deal** with Fluidstack and AlphaTON’s **$46 million purchase** of NVIDIA B300 chips for the **Cocoon AI** network on **TON** show that the bottleneck is no longer just code, but the raw compute needed to power these agents. Expect the most durable protocols to be those that successfully bridge the **GPU scarcity** with onchain coordination.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The crypto agent market is shifting from \"AI-themed memecoins\" to functional **agentic commerce** and **autonomous finance**. The move is driven by the maturation of three layers: payment rails (x402), verifiable intelligence (TEEs/FHE), and standardized commerce protocols (UCP).\n\n### The Payment Layer: x402 and Micropayments\nAgents cannot use traditional banking; they need HTTP-native micropayments. **Coinbase** and **PayAI** (on **SKALE**) are the current leaders in the **x402** standard, which enables pay-per-call USDC settlement. PayAI recently reported over **28 million transactions** and **$7 million in settled volume**, proving that machine-to-machine economies are moving beyond prototypes. While speculative \"gamed\" volume exists—Artemis data shows up to 60% gamed volume on some servers—organic service volume for data and AI API calls now accounts for roughly **86% of total dollar value**.\n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767821482/veldt/lkou9va0irrysoamd4be.jpg\n\n### The Intelligence Layer: Bittensor and Allora\nFor agents to execute high-stakes financial tasks, their \"thinking\" must be verifiable. **Bittensor (TAO)** remains the dominant decentralized compute protocol, recently buoyed by **Grayscale’s ETF filing** and the launch of specialized subnets like **Loosh (SN78)**, which provides a cognition layer with \"moral evaluators.\" **Allora** is gaining traction by launching its mainnet on **Monad**, providing predictive inferences specifically for pro-active DeFi and agent apps. Unlike generic LLMs, these protocols focus on **verifiable inference** through Trusted Execution Environments (TEEs) and Zero-Knowledge proofs, which are mandatory for agents managing funded wallets.\n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767821483/veldt/w2qux9a93dbnfgafgogh.jpg\n\n### The Application Layer: Virtuals and Agentic Finance\n**Virtuals Protocol** is the current standard for agent-native finance, facilitating the launch of agents with autonomous trading missions. We are seeing a structural shift toward **agentic finance** where agents trade prediction markets (e.g., **Polymarket** tools like PolyBro) or manage stablecoin yields (e.g., **Fraction AI’s** Signature Agents on **Base**). On **Solana**, projects like **PsyopAnime** and **Claude-Mem** are seeing massive **trader growth (+579%)**, though these remain higher-beta, narrative-driven plays. The real traction is in **UCP (Universal Commerce Protocol)**, co-developed by **Google and Shopify**, which allows agents to execute full commerce lifecycles—discovery to checkout—using onchain rails.\n\nhttps://res.cloudinary.com/dgjriemfd/image/upload/v1767199455/veldt/x3fmugxz1356v8mqmomg.jpg\n\n### Infrastructure Pivots: The \"AI Factory\" Meta\nA major tailwind for the sector is the pivot of Bitcoin miners like **Hut 8**, **Riot**, and **Bitfarms** toward **AI/HPC infrastructure**. Hut 8’s **$7 billion deal** with Fluidstack and AlphaTON’s **$46 million purchase** of NVIDIA B300 chips for the **Cocoon AI** network on **TON** show that the bottleneck is no longer just code, but the raw compute needed to power these agents. Expect the most durable protocols to be those that successfully bridge the **GPU scarcity** with onchain coordination.",
+    "executionTimeMs": 60298,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "category_ids": [
+            517
+          ],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare the top 10 AI agent protocols by 30-day volume, mindshare growth, and revenue. Identify which ones are gaining the most traction."
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find AI agent projects on Solana and Base with the highest trader growth and social mentions change over the last 7 days. Focus on projects with at least $1M market cap.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "days_back": 14,
+          "category_ids": [
+            517
+          ]
+        }
+      }
+    ],
+    "totalTokens": 142641
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

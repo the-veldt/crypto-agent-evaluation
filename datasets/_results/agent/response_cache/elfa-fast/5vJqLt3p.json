@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "5vJqLt3p",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "5vJqLt3p",
+    "query": "analyze the tokenomics, moats, and market landscape of token launchpads - which projects are poised for market share growth and why",
+    "level": 3,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "launchpad"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nLimited specific data on tokenomics, moats, and market share for token launchpads; general 2026 trends highlight ICO and meme launchpads as top narratives per CoinGecko, with emerging projects like HuddlePad (Arbitrum-native CCA model reducing sniping) and Virtual Protocol ($VIRTUAL AI launchpad with 16k+ launches) showing buzz for growth via fair mechanisms and AI integration—watch these for potential share gains amid narrative revival.\n\n───\n\nMarket Landscape\nToken launchpads are resurfacing as a key 2026 narrative, listed by CoinGecko among the top 9 crypto trends alongside memes, prediction markets, and RWAs, signaling a shift back to ICO-style launches but with improved mechanics. Tweets from smart accounts emphasize a crowded, fragmented space where launchpads dominate memecoin and AI project deployments on chains like Solana (e.g., Pump.fun's influence) and Arbitrum. Criticism exists around over-reliance on launchpads diluting focus from narratives and teams, yet demand persists for fairer models amid sniping issues.\n\nKey Projects and Tokenomics\nData lacks detailed tokenomics breakdowns (supply, vesting, emissions) for most launchpads. Emerging ones include:\n- HuddlePad (@huddle01com): Arbitrum-native using Uniswap's Continuous Clearing Auctions (CCA) for transparent pricing, instant liquidity, and reduced front-running/sniping; smart accounts praise it as a \"healthy ICO revival.\"\n- Virtual Protocol ($VIRTUAL, Base chain, price ~$1.00): AI-focused launchpad with 16,000+ launches; 2026 roadmap emphasizes robotics and new models (Pegasus, Unicorn, Titan); ranks #8 on Elfa DeFi leaderboard with 3.17% mindshare.\n- Others like $SERV (permissionless launches upcoming), PimpFun ($PIMP, Solana with dividends/buybacks/burns), and AOL (USD1-focused) gain mentions but without tokenomics specifics.\n\nNo comprehensive moats data; inferred strengths are chain-native integration (e.g., HuddlePad on Arbitrum), AI/niche focus (Virtual), and anti-bot features (CCA).\n\nProjects Poised for Growth\nHuddlePad and Virtual Protocol stand out for market share potential:\n- HuddlePad: Fair launch mechanics address core pain points (bots, fake demand), backed by Arbitrum ecosystem promo; could capture ICO narrative share.\n- Virtual Protocol: Proven volume (16k launches), AI agent synergy ($70M+ stablecoins managed), and roadmap momentum position it for AI/crypto hype.\n\nGrowth drivers include narrative tailwinds (CoinGecko rankings), technical innovations (CCA), and chain-specific adoption (Solana/Base/Arbitrum). Limited data prevents deeper quantitative assessment; monitor social mindshare for shifts.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

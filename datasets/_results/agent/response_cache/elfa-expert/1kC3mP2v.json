@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe most discussed crypto assets on Twitter right now are Solana-based tokens like NYC Token, x402wall (WALL), PsyopAnime, PSYOPANIME, and Crypto Girls, with a strong focus on meme coins and new launches. There's also notable buzz around the Slab Cash Pokémon card packs launch on ApeChain. Refer below for more details.\n\n───\n\nTop Trending Tokens on Twitter (Solana):\n\n- NYC Token (3u6u769qdeXf9jk7mw1HQDD7miLxRTCa22S6Y3iJpump): Price $0.000296, 24h volume $5.43M.\n- x402wall (WALL) (3E7LWnvBjKiauBJfbSFe86A1i5Rnzzs853bbjTmApump): Price $0.000628, 24h volume $251K.\n- PsyopAnime (2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump): Price $0.0163, 24h volume $44.58M.\n- PSYOPANIME (9ZrSs25JaXup1sm8SEVAjwXCgMB5GXBfNq5TPQZcpump): Price $0.0000238, 24h volume $64K.\n- Crypto Girls (CG) (9tqLggTCMQVwkFEuPp5Y1RJcdVS9MhaCLJtLy9Hipump): Price $0.000129, 24h volume $683K.\n\nThese tokens are seeing high tweet volumes, indicating strong community and trader interest in meme and experimental tokens on Solana.\n\nNarratives & Projects:\n\n- Slab Cash Pokémon Card Packs on ApeChain: A lot of discussion about the launch of Slab Cash, where users can buy and reveal real, PSA-graded Pokémon cards on-chain. The project integrates RWAs (real-world assets) and NFTs, and is generating excitement for blending collectibles with blockchain tech. See examples from ApeCoin and OxSimpleFarmer.\n\nOther Notable Mentions (DEX/Community):\n\n- The Whale Guru (Twitter): Trending on DEXes, meme/community-driven.\n- America's Oil Reserve (USOR) (Twitter): A meme token referencing oil reserves for the digital age.\n- PRIME WHALE, DYLDO, CLITORY: All meme tokens with active Twitter and Telegram communities.\n\nSummary:\nTwitter crypto chatter is currently dominated by Solana meme coins and the intersection of collectibles with blockchain, especially via the Slab Cash launch on ApeChain. If you're looking for social momentum, these assets and narratives are leading the conversation.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

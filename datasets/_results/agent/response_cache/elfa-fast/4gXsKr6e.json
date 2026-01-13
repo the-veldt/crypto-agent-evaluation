@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "4gXsKr6e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "4gXsKr6e",
+    "query": "using quant metrics, find the most promising small cap to middle cap projects with the best technical setup, catalysts, and narrative sustainability potential",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nLighter (LIT) and Pump (PUMP) stand out as the most promising small-to-mid cap projects based on quant metrics from Elfa AI leaderboards, showing top mindshare (4.16% and 2.13%), explosive growth (+55.90% and +59.18%), smart mentions, and bullish calls with favorable technical reversal setups noted in recent smart account analysis.\n\n───\n\nQuant Metrics Overview\nAnalysis draws from Elfa AI token leaderboards (top mindshare and mindshare change, excluding majors, past 24h as of 2026-01-13). Focus is on small-to-mid cap proxies: market caps implied by prices (~$2-900 range, excluding microcaps <0.01 with low liquidity) and tokens with smart account engagement, bullish sentiment >50%, long calls, and mindshare momentum. Top candidates filter for these plus cross-referenced smart calls and technical notes.\n\nLighter (LIT): 0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2 (ETH, $2.17 price). #1 mindshare at 4.16% (+55.90%), 385 total mentions (56 smart), bullish sentiment dominant (93/385). 10 long calls (1 smart), indicating growing conviction.\n\nPump (PUMP): pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn (Solana, $0.002617). 2.13% mindshare (+59.18%), 199 mentions (42 smart), bullish/neutral tilt. 11 long calls (2 smart, +120%), strong reversal signal from CryptoGodJohn at potential bottom post-reclaim of $0.0027.\n\nHyperliquid (HYPE): 0x0d01dc56dcaaca66ad901c959b4011ec (Hyperliquid, $24.7). #2 mindshare 4.09% (+13.45%), 368 mentions (52 smart), highly bullish (118/368). 16 long calls (6 smart), bottom call from trader1sz.\n\nTechnical Setups\nLimited chart data available, but smart tweets highlight reversal/accumulation:\n- $PUMP: Bottomed with Alan return; reclaim $0.0027 targets bounce CryptoGodJohn.\n- $HYPE: Bottom confirmed, poised for upside trader1sz.\n- Broader alts like $PIN show relative strength breakout from 5-month downtrend (small cap AI/DeFi/RWA) CryptoBullet1, but lacks leaderboard quant backing.\n\nNo direct chart access for these; setups inferred from calls and sentiment.\n\nCatalysts and Narrative Sustainability\n- LIT: High smart engagement suggests emerging narrative (trading/infra?); +56% mindshare growth indicates early momentum with sustainability via 93 bullish mentions vs 82 bearish.\n- PUMP: Pump.fun ecosystem ties to Solana launchpads; narrative sustained by 42 smart mentions and call surge, low price enables viral potential.\n- HYPE: Hyperliquid chain activity; strong bullish skew (low bearish 22/368) supports persistence amid L1 competition.\n- $FLUID (0x6f40d4a6237c257fff2db00fa0510deeecd303eb, $3.26): Explosive +524% mindshare change, #2 DEX on ETH, v2 launch mid-Feb, Jup Lend/VenusX catalysts litocoen; sustainable DeFi narrative.\n- $BNB: Chain fees overtook Solana ($1.2M/24h), PancakeSwap activity NekozTek; mid-cap L1 kingpin.\n\nRecommendation\nPrioritize LIT for balanced quant strength (mindshare + calls) and PUMP for momentum/reversal upside. Research on-chain volume, liquidity next. Risk: High volatility in alts; BTC dominance may cap gains. NFA/DYOR.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

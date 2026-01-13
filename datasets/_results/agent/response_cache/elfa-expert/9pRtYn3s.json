@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nOn Solana, meme coins and fair-launch platforms like Pump.fun ($PUMP), privacy/neobank projects like $KREDO, and tokens such as Whale Guru and Shitcoin Terminal are trending. On Base, meme tokens like Holi-Daze ($HOLI) and experimental projects (e.g., blockchain speed tests) are seeing notable activity. Refer below for more details.\n\n───\n\nTrending Projects on Solana\n\n1. Pump.fun ($PUMP)  \nA fair launch platform for meme tokens, consistently highlighted as a \"Project of the Day\" and scoring well on project fundamentals and social metrics. It's central to Solana’s current meme coin narrative chain_broker.\n\n2. $KREDO (KredoPay)  \nA project combining privacy, neobanking, and self-custody, gaining attention for being unique in offering all three features on Solana AlphaSeeker21.\n\n3. Whale Guru  \nA meme token with active Twitter and Telegram communities, reflecting Solana’s ongoing meme coin momentum.  \n- Website | Twitter | Telegram\n\n4. Shitcoin Terminal  \nA project with a humorous branding angle, but notable for high Telegram engagement.  \n- Website | Twitter | Telegram\n\n5. Other Notable Mentions  \n- America’s Oil Reserve: Utility token for digital commodities USORProject.\n- PRIME WHALE, DYLDO, CLITORY, Monero Whale: Various meme and privacy tokens with active DEX and social presence.\n\n6. Capital Formation  \nSolana projects are drawing significant capital, with some recent launches being oversubscribed by a wide margin nickducoff.\n\nTrending Projects on Base\n\n1. Holi-Daze ($HOLI)  \nA culture-driven meme token focused on holiday hype and community engagement, with active Telegram and Twitter discussions.  \n- Website | Twitter | DEX Screener\n\n2. Meme Coin Season  \nThere’s renewed interest in meme coins on Base, with community members actively sharing and discussing new launches Only1Gkash.\n\n3. Experimental and Infrastructure Projects  \nProjects focusing on blockchain performance (speed tests, TPS/QPS dashboards) and developer tooling are gaining traction Param_eth.\n\n4. Community Initiatives  \nRegular Twitter Spaces and project showcases (e.g., BASE CAST, Based Space) highlight new and emerging projects weekly hemedmagolola_, MedusaOnchain.\n\n5. Other Mentions  \n- $FCWEED: A risky but discussed meme project lBullBearl.\n- B on Every Chain: A cross-chain meme token variant with a presence on Base.\n\nSummary\n\nSolana’s trends are dominated by meme coins, privacy/utility projects, and platforms for launching new tokens, with strong community and capital inflows. Base is seeing a meme coin resurgence and experimentation in infrastructure and community engagement, though with fewer standout tokens compared to Solana at the moment. For both chains, meme coins and community-driven projects remain the primary narrative.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "2kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "2kC3mP2v",
+    "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ai"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe crypto agent market is rapidly gaining traction with protocols like ZyFAI, AgentLayer, AgentFi, and Warden Protocol leading the charge. Growth is driven by the adoption of on-chain autonomous AI agents for DeFi yield optimization, verifiable reputation (ERC-8004), agent-to-agent payments (x402), and the rise of agent marketplaces, all supported by real use cases, strong infrastructure, and increasing developer activity.  \n───\n\nThe current wave of crypto agent protocols is centered on AI-powered autonomous agents that can execute on-chain tasks, manage portfolios, and interact directly with DeFi protocols and users. The most notable protocols gaining traction are:\n\n1. ZyFAI  \nZyFAI has emerged as a leading DeFi agent protocol, with over $10M TVL and robust fee/revenue growth in 2026. Its agents automate yield optimization across multiple chains (Base, Arbitrum, Plasma, Sonic), leveraging real-time data. ZyFAI is among the first to implement the ERC-8004 standard, which introduces verifiable on-chain agent identity and reputation, making agent actions transparent and trustworthy. Its Rebalancer Agent uses zero-knowledge proofs for privacy-preserving portfolio management, and ZyFAI is now ranked #1 on 8004scan, the agent registry and reputation explorer. The protocol is supported by the Ethereum Foundation and is seeing strong community and developer engagement, with mainnet launch and ERC-8004 integration set for January 16, 2026 tweet tweet.\n\n2. AgentLayer  \nAgentLayer positions itself as the first decentralized network for autonomous AI agents, focusing on secure, permissionless coordination and collaboration between agents and humans. While its token ($AGENT) has seen volatility, the project has a sizable community and is building infrastructure for agent-native applications, including agent-to-agent workflows and marketplaces AgentLayer.\n\n3. AgentFi  \nBuilt on Blast, AgentFi enables users to create, customize, and share on-chain agents. The protocol is audited, backed by credible partners, and is focused on simplifying user experience through AI agents for on-chain tasks AgentFi.\n\n4. Warden Protocol  \nWarden Protocol is gaining attention for its multi-chain support and user-friendly agent wallet, enabling millions of users to coordinate with multiple AI agents for DeFi management, trading, and automation. Its tools allow developers to launch agents quickly, and the protocol emphasizes verifiable on-chain AI agents and agent economy enablement tweet.\n\n5. X Agent ($XAG)  \nX Agent is gaining traction for its suite of AI-powered tools: tweet generation, trading arena, legal research, and a pay-per-use model. It is active on BSC and offers utility-focused agent services telegram.\n\nKey Reasons for Traction:  \n- On-chain Identity & Reputation: ERC-8004 is a major catalyst, enabling agents to prove identity, track record, and validation on-chain, which is critical for trust and composability tweet.\n- Agent-to-Agent Payments: Protocols like x402 facilitate seamless microtransactions between agents, unlocking new commerce and automation models tweet.\n- Real Use Cases: Agents are now actively managing DeFi strategies, executing trades, and optimizing portfolios, with measurable volume, revenue, and user adoption (e.g., ZyFAI's 50,000+ jobs and $200M+ volume).\n- Developer Ecosystem: SDKs and standards (e.g., Lucid Agents Commerce SDK, ERC-8004) are attracting builders to create new agent applications and marketplaces.\n- Market Narrative: The shift from \"hype\" to \"shipping code\" is evident, with protocols delivering tangible results and attracting both users and VC funding.\n\nOther Notable Mentions:  \n- Virtuals Protocol and Wasabot: Among the first agent-native DeFi protocols on Base, unlocking leverage and yield for agentic economies.\n- Numbers Protocol x 4AI: Focused on verifiable data and provenance for AI agent ecosystems tweet.\n\nSummary  \nThe crypto agent market is moving from experimentation to early adoption, with ZyFAI, AgentLayer, AgentFi, and Warden Protocol as key players. The combination of composable agent standards (ERC-8004), on-chain reputation, and real economic activity is driving the sector's growth. Expect further acceleration as agent marketplaces, payment rails, and cross-chain support mature.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

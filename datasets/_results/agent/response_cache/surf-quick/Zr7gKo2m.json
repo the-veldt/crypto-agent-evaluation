@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "Zr7gKo2m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Zr7gKo2m",
+    "query": "give a breakdown of the tokenomics of Jito",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market",
+      "tokenomics"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Jito (JTO) Tokenomics Breakdown\n\n**Total Supply**: 1,000,000,000 JTO (fixed).  \n**Current Market Cap**: $189M (at $0.446/JTO).  \n**Estimated Circulating Supply**: ~424M JTO (inferred from MC/price; ~42% unlocked as of Jan 2026).  \n**ATH**: $6.01 (Dec 2023, -92.6% from peak).  \n**Token Contract (Solana)**: jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL.  \n**Utility**: Governance via Realms DAO; captures MEV rewards in Jito ecosystem (liquid staking via JitoSOL).\n\nJTO launched late 2023 via airdrop/community distribution. Core allocations emphasize community/DAO control (34%) with linear vesting for team/investors. No major unlocks scheduled post-2023 (per on-chain analysis to Jan 2026). Full vesting completes ~2026-2027.\n\n### Allocation Breakdown\n\n| Category          | Amount (JTO) | % of Total | Vesting/Lockup Details |\n|-------------------|--------------|------------|------------------------|\n| **Community Growth** | 342,857,143 | 34.3%     | - 90M immediate at TGE (Dec 2023).<br>- 10M unlocked over 1 year post-TGE.<br>- Remainder (~243M) DAO-governed via Realms. |\n| **Core Contributors** | 245,000,000 | 24.5%    | 3-year vest + 1-year lockup (fully vested ~2027). |\n| **Investors**     | 162,142,857 | 16.2%     | 3-year vest + 1-year lockup (fully vested ~2027). |\n| **Other/Unspecified** | ~250M     | 25.0%     | Likely airdrops, liquidity, ecosystem (inferred from total supply gap; details in official docs). |\n\n**Sources**: Official Jito blog (announcing JTO, airdrop details); unlocks.app references.\n\n### Key Implications\n- **Decentralized Tilt**: High community/DAO allocation reduces centralization risk vs. VC-heavy projects.\n- **Sell Pressure**: Team/investor cliffs largely passed (1-year lockups ended ~2024); monitor DAO emissions for inflation.\n- **FDV**: ~$446M (mildly undervalued vs. peak; compare to LSD peers like JUP at higher multiples).\n- **Monitor**: JIP-31 (BAM subsidies, Jan 2026 call) may boost JTO demand via validator incentives.\n\n**Bottom Line**: Balanced tokenomics favoring long-term governance; low near-term unlock risk supports stability. Track DAO proposals (@jito_sol) for emissions. Official docs: [jito.network/blog/announcing-jto](https://www.jito.network/blog/announcing-jto-the-jito-governance-token/).",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

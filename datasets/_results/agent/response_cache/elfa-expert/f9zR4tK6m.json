@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "f9zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "f9zR4tK6m",
+    "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\n\nThe top 5 crypto projects by revenue growth are Binance, Aave V3, Lido, OKX, and Bitfinex. Their growth is driven by factors like derivatives volume, product expansion, protocol innovation, and broader market activity—refer below for a breakdown of specific catalysts for each project.\n\n───\n\n1. Binance  \nBinance remains the largest crypto exchange by trading volume and assets. While its spot trading growth (+0.8% YoY) lagged behind the industry average, its derivatives volume and user base continue to drive substantial revenue. Key catalysts include:\n- Expansion of derivatives offerings and perpetuals.\n- Launch of new trading products and features.\n- Regulatory clarity in multiple jurisdictions.\n- Integration with emerging L2s and blockchains, broadening its multi-chain reach.\n- Institutional and retail adoption during bull market cycles.\n2025 CEX Annual Report\n\n2. Aave V3  \nAave is the leading decentralized lending protocol, with strong year-over-year revenue growth (over $105M in the past year). Catalysts for its growth include:\n- Multi-chain deployment (Ethereum, Base, Arbitrum, etc.) and aggressive expansion to new L2s.\n- Introduction of GHO stablecoin, which increased protocol usage.\n- New revenue streams, such as proposals to engage in Bitcoin mining to boost treasury returns.\n- Ongoing protocol upgrades and risk management improvements.\nAave considers Bitcoin mining for revenue\n\n3. Lido  \nLido dominates the liquid staking sector, with $83M+ annualized protocol revenue. Its growth is catalyzed by:\n- Ethereum and Solana staking demand, especially post-ETH withdrawal activation.\n- Continued growth in ETH and SOL staking as DeFi and institutional participation rise.\n- Integration with DeFi protocols, allowing stETH and stSOL as collateral.\n- No major fee changes, but protocol upgrades and network effects reinforce its leading position.\n\n4. OKX  \nOKX is a major centralized exchange, seeing robust growth in both spot and derivatives markets. Key drivers include:\n- Aggressive listing of trending tokens and perpetuals.\n- Expansion into DeFi (OKX Wallet, DEX aggregator).\n- Improved user experience and global marketing campaigns.\n- Regulatory expansion, especially in Asia and Latin America.\n\n5. Bitfinex  \nBitfinex remains a top-tier exchange by volume, with growth supported by:\n- New product launches (margin trading, derivatives).\n- Focus on institutional services and advanced trading tools.\n- Expansion into new markets and increased liquidity.\n- Integration with the Tether ecosystem, driving stablecoin-related activity.\n\nSummary Table:\n\n| Project   | Revenue Growth (YoY) | Key Catalysts |\n|-----------|----------------------|--------------|\n| Binance   | Spot +0.8%, Deriv. +36.7% | Derivatives, product expansion, global reach |\n| Aave V3   | $105M+ (past year)   | Multi-chain, GHO, BTC mining, upgrades |\n| Lido      | $83M+ (past year)    | ETH/SOL staking, DeFi integrations |\n| OKX       | Strong, above CEX avg| Token listings, DeFi, global push |\n| Bitfinex  | Steady, top tier     | Product launches, institutional focus |\n\nIf you want deeper details on any specific protocol or more granular revenue figures, let me know!",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

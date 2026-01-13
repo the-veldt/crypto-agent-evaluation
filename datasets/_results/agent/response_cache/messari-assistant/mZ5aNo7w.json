@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "mZ5aNo7w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mZ5aNo7w",
+    "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Sector Revenue Growth and Key Catalysts (Last 30 Days)\n\nThe sectors that experienced the highest revenue growth over the last 30 days, based on the percentage increase in total volume, are led by **Research**, **Tax Services**, and **Card Games** [^1].\n\n## Top 10 Sectors by Revenue Growth (Last 30 Days)\n\nThe following table details the top sectors by volume growth percentage over the last 30 days [^1]:\n\n| Sector | Current Volume (USD) | Volume 30 Days Ago (USD) | Volume Growth Percentage |\n| :--- | ---: | ---: | ---: |\n| Research | $156,610,309.90 | $8,916,119.42 | 1656.49% |\n| Tax Services | $1,252.56 | $122.53 | 922.23% |\n| Card Games | $4,691,131.29 | $512,955.63 | 814.53% |\n| Application Specific Chain | $360,303,249.04 | $41,213,917.54 | 774.23% |\n| Other AI | $113,164,440.67 | $13,551,395.12 | 735.08% |\n| Centralized Liquid Staking Tokens | $60,480,469.74 | $7,262,663.59 | 732.76% |\n| Centralized Liquid Staking | $60,480,469.74 | $7,262,663.59 | 732.76% |\n| Access Control | $25,750,410.40 | $3,418,245.37 | 653.32% |\n| InfoFi | $143,221,310.48 | $26,316,415.27 | 444.23% |\n| Commodity-Backed Stablecoins | $475,720,919.24 | $95,652,199.00 | 397.34% |\n\n## Key Protocols and Catalysts Driving Growth\n\nRecent trends and developments suggest that growth is being driven by a shift toward sustainable revenue models, Real-World Assets (RWAs), and the integration of AI and decentralized infrastructure [^2][^3].\n\n### 1. Focus on Sustainable Revenue and Token Economics\nA major catalyst across the industry is the shift from speculative capital to a focus on real businesses and sustainable revenue generation [^3][^4].\n\n*   **Revenue Sharing and Buybacks:** Protocols are increasingly implementing revenue-sharing frameworks to align community and product growth, tying token value directly to platform income [^5]. For example, Aave Labs announced plans to share non-protocol revenue with AAVE token holders to ease governance tensions [^6][^7]. SQD Network launched \"Revenue Pools\" where enterprise customer payments for blockchain data infrastructure are shared with token holders who lock their tokens, linking token economics to network usage [^8][^9].\n*   **Established Protocols:** Leading protocols like **Aave** (lending), **Sky/MakerDAO** (stablecoins/RWAs), **Lido** (liquid staking), **Uniswap** (DEX), and **Hyperliquid** (derivatives) are emphasizing sustainable revenue and resilience as they form the core financial stack [^10].\n\n### 2. Real-World Assets (RWAs) and Stablecoins\nThe tokenization of Real-World Assets (RWAs) has become a significant growth driver, making it the fifth-largest sector in DeFi by Total Value Locked (TVL), surpassing Decentralized Exchanges (DEXs) [^11].\n\n*   **RWA Growth:** RWAs now hold over $17 billion in TVL [^11]. Key performers contributing to this growth include Keeta Network (+1,794.9%), Zebec (+217.3%), and Maple Finance (+123%) [^11]. Maple Finance is also pivoting its focus from Assets Under Management (AUM) growth to revenue generation in 2026, including new products focused on crypto-native yield across stablecoins and other liquid assets [^12].\n*   **Commodity-Backed Stablecoins:** The **Commodity-Backed Stablecoins** sector saw a volume growth of 397.34% [^1]. This growth is dominated by assets like Tether Gold, Paxos Gold, Circle’s USYC, and Securitize [^11]. Stablecoins are also increasingly used for real-world commerce, driving a 283% surge in Gross Merchandise Volume (GMV) for physical products [^13].\n\n### 3. Decentralized Finance (DeFi) and Derivatives\nThe decentralized derivatives market is seeing intense competition, often referred to as the \"perps wars\" [^14].\n\n*   **Perpetuals Growth:** Protocols like **Hyperliquid** and **Lighter** are key players in the perpetuals category [^10][^14]. Lighter's LIT token launch drove perps trading volume to over $200 billion in the 30 days leading up to December 30, 2025, although Hyperliquid remained the revenue leader during that period [^15].\n*   **Interest Rate Swaps:** **Pendle**, through its Boros product, is positioned as a significant growth vector by enabling on-chain trading of interest rate swaps [^15].\n\n### 4. AI and Decentralized Infrastructure\nThe integration of AI and decentralized infrastructure is driving growth in sectors like **Other AI** (735.08% growth) [^1] and is expected to be a major focus for 2026 [^2][^16].\n\n*   **Decentralized AI (DeAI):** There is an increasing need for on-chain verification due to AI adoption [^16]. Revenue-generating protocols like **AUKI** and **GEODNET** have shown resilience [^16].\n*   **Infrastructure and Compute:** Companies like Beam are pivoting to focus on AI, Finance, and RWA, highlighting the success of emerging areas like AI and compute infrastructure, mentioning **Aethir** and the launch of Tactical Compute [^17]. The tokenization of Real World Assets like GPUs is also forecasted to grow significantly [^16].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

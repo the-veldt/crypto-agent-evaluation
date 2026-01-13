@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "2kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "2kC3mP2v",
+    "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ai"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_z7H0qPZ03zD1hUKQjbIrPEC8\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        517\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_033cff5274d44ad5006966bce1d95c8197a40c1eb1f4e6ca72\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_rCq5uA6XJpiNeoW0P2s5WvNR\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"13926\",\n        \"1790\",\n        \"6636\",\n        \"10963\",\n        \"11773\",\n        \"21768\",\n        \"38759\"\n      ],\n      \"search_type\": \"project_id\",\n      \"limit\": 10\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_033cff5274d44ad5006966bce44630819789d26008ef147ff7\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_DOYmL61XjN5KLqJ6mETYz8pH\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"crypto AI agents market which protocols are gaining traction agentic commerce x402 UCP ERC-8004 verifiable inference\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        517\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_033cff5274d44ad5006966bce45f208197b0c04eda21915cf5\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Agentic Commerce diagram](https://res.cloudinary.com/dgjriemfd/image/upload/v1761595309/veldt/uqvexqai4fow9a1aulyi.jpg)\\n\\n## What’s actually gaining traction in “crypto agents” (and why)\\n\\n**The agent market is consolidating around a 3-part stack: _Pay → Prove → Route_**. Protocols winning are the ones that reduce integration count, make settlement atomic, and let agents build a track record that can be queried onchain.\\n\\n- **Pay (micropayment rails): x402 + facilitators**\\n- **Prove (identity/reputation + verifiable inference): ERC‑8004 + TEEs/FHE proofs**\\n- **Route (discovery + standardized commerce surfaces): UCP / MCP / A2A catalogs**\\n\\n## Protocols with real pull right now\\n\\n![Network health: gamed tx ratio falling while volume stabilizes](https://res.cloudinary.com/dgjriemfd/image/upload/v1768311801/veldt/vmq0gnum0yvr4r2nzzkt.jpg)\\n\\n### **x402 (payments standard)**\\n**Why it’s winning:** it turns payment into a native web primitive (HTTP 402), which collapses onboarding friction for agents buying APIs/data/services. The key inflection is **network health improving**: reported **“gamed” activity dropped from ~90% to ~20%** while **daily volume stabilized ~2M**. That’s the shift from token-mint noise to actual A2A commerce.\\n\\n**Who’s capturing flow:** facilitators, not the base spec. **PayAI** is reporting **~28M transactions** and **~$7M settled**, positioning as a top facilitator alongside Coinbase. This is where revenue + distribution moats form (routing, gas abstraction, compliance, risk).\\n\\n### **Google UCP (commerce semantics + distribution)**\\n**Why it matters:** UCP standardizes discovery → cart → checkout via manifests and SDKs, collapsing merchant integration from N×N to **one integration point**. It’s a distribution wedge because it plugs into consumer surfaces (Search/Gemini) while remaining payment-rail agnostic—explicitly compatible with onchain settlement paths.\\n\\n### **ERC‑8004 (agent identity + reputation loop)**\\n**Why it’s gaining mindshare:** payments alone don’t let agents transact repeatedly with escalating limits. **ERC‑8004’s identity + reputation registries** are the missing primitive for “good agents compound trust, bad agents get filtered.” It pairs naturally with x402 because **proof-of-payment can become proof-of-work/behavior**.\\n\\n## “Agent tokens” vs “agent infrastructure”: who benefits\\n\\n- **Virtuals Protocol (VIRTUAL)** is the cleanest “agent assetization” play. Its traction is ecosystem density (agents, markets, launch framework) and composability with payment rails.\\n- **Bittensor (TAO)** is the dominant “AI production network” proxy. The market is rewarding subnets that translate into **measurable inference/training output** rather than narrative.\\n- **Compute networks (io.net, Render)** benefit when agent commerce increases paid inference/calls. They’re more cyclical, but they monetize real demand.\\n\\n**The why across all winners is the same:** the market is paying for **lower integration friction**, **atomic settlement**, and **auditable agent behavior**—everything else is cosmetic.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_033cff5274d44ad5006966bcfa812481979975f4a447682cec\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Agentic Commerce diagram](https://res.cloudinary.com/dgjriemfd/image/upload/v1761595309/veldt/uqvexqai4fow9a1aulyi.jpg)\n\n## What’s actually gaining traction in “crypto agents” (and why)\n\n**The agent market is consolidating around a 3-part stack: _Pay → Prove → Route_**. Protocols winning are the ones that reduce integration count, make settlement atomic, and let agents build a track record that can be queried onchain.\n\n- **Pay (micropayment rails): x402 + facilitators**\n- **Prove (identity/reputation + verifiable inference): ERC‑8004 + TEEs/FHE proofs**\n- **Route (discovery + standardized commerce surfaces): UCP / MCP / A2A catalogs**\n\n## Protocols with real pull right now\n\n![Network health: gamed tx ratio falling while volume stabilizes](https://res.cloudinary.com/dgjriemfd/image/upload/v1768311801/veldt/vmq0gnum0yvr4r2nzzkt.jpg)\n\n### **x402 (payments standard)**\n**Why it’s winning:** it turns payment into a native web primitive (HTTP 402), which collapses onboarding friction for agents buying APIs/data/services. The key inflection is **network health improving**: reported **“gamed” activity dropped from ~90% to ~20%** while **daily volume stabilized ~2M**. That’s the shift from token-mint noise to actual A2A commerce.\n\n**Who’s capturing flow:** facilitators, not the base spec. **PayAI** is reporting **~28M transactions** and **~$7M settled**, positioning as a top facilitator alongside Coinbase. This is where revenue + distribution moats form (routing, gas abstraction, compliance, risk).\n\n### **Google UCP (commerce semantics + distribution)**\n**Why it matters:** UCP standardizes discovery → cart → checkout via manifests and SDKs, collapsing merchant integration from N×N to **one integration point**. It’s a distribution wedge because it plugs into consumer surfaces (Search/Gemini) while remaining payment-rail agnostic—explicitly compatible with onchain settlement paths.\n\n### **ERC‑8004 (agent identity + reputation loop)**\n**Why it’s gaining mindshare:** payments alone don’t let agents transact repeatedly with escalating limits. **ERC‑8004’s identity + reputation registries** are the missing primitive for “good agents compound trust, bad agents get filtered.” It pairs naturally with x402 because **proof-of-payment can become proof-of-work/behavior**.\n\n## “Agent tokens” vs “agent infrastructure”: who benefits\n\n- **Virtuals Protocol (VIRTUAL)** is the cleanest “agent assetization” play. Its traction is ecosystem density (agents, markets, launch framework) and composability with payment rails.\n- **Bittensor (TAO)** is the dominant “AI production network” proxy. The market is rewarding subnets that translate into **measurable inference/training output** rather than narrative.\n- **Compute networks (io.net, Render)** benefit when agent commerce increases paid inference/calls. They’re more cyclical, but they monetize real demand.\n\n**The why across all winners is the same:** the market is paying for **lower integration friction**, **atomic settlement**, and **auditable agent behavior**—everything else is cosmetic.",
+    "executionTimeMs": 41948,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [],
+          "category_ids": [
+            517
+          ],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "13926",
+            "1790",
+            "6636",
+            "10963",
+            "11773",
+            "21768",
+            "38759"
+          ],
+          "search_type": "project_id",
+          "limit": 10
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "crypto AI agents market which protocols are gaining traction agentic commerce x402 UCP ERC-8004 verifiable inference",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            517
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 64853
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

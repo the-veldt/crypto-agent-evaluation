@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "uE6aLvPo",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "uE6aLvPo",
+    "query": "what assets (over $50k in 30d revenue) have had the highest growth in revenue in the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Revenue Growth for High-Revenue Assets\n\nInformation regarding the assets with over $50,000 in 30-day revenue that have experienced the highest growth in revenue over the last 30 days was not available.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

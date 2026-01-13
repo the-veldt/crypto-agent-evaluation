@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "V7kXm2Lq",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "V7kXm2Lq",
+    "query": "create a valuation analysis for Pendle",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Pendle Valuation and Protocol Analysis\n\nPendle is a protocol that provides a market for the yields of supported yield-bearing tokens, initially deployed on Ethereum [^1][^2]. It facilitates this market by splitting yield-bearing tokens into Principal Tokens (PT) and Yield Tokens (YT) and offering liquidity pools for trading these tokens [^1][^2]. This mechanism allows users to earn fixed yield, long yield (speculate on increasing yield), or provide liquidity [^1][^2].\n\n## Funding and Valuation History\n\nPendle has completed several funding rounds, raising a total of $3.7 million in its Seed round [^3][^4].\n\n| Deal Type | Date | Amount | Raised to Date | Status | Stage |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Seed Round | 01-Apr-2021 | $3.7M | $3.7M | Completed | Generating Revenue |\n| Buyout/LBO | 24-Aug-2023 | | | Completed | Generating Revenue |\n| Early Stage VC | 01-Feb-2024 | | | Completed | Generating Revenue |\n\nThe Seed round was completed on April 1, 2021, raising $3.7 million [^3]. Investors in Pendle Finance include Spartan Group, Binance Labs, Alliance, MNNC Group, and Crypto.com Capital, among others [^4].\n\nIn addition to the funding rounds, Pendle conducted a liquidity drop bootstrapping (LDB) event on Balancer in April 2021, raising approximately 4,338 ETH, which was valued at about $11.83 million at the time [^5]. During this event, approximately 16.58 million ERC-20 PENDLE tokens, representing about 6.42% of the total token supply, were sold [^5].\n\n## Protocol Mechanics and Tokenization\n\nPendle's core function is **yield tokenization**, which involves wrapping a supported yield-bearing token into its SY version (a token standard written by the Pendle team) [^6][^2]. Users can then deposit the underlying or SY token to mint an equivalent amount of both PT and YT [^6][^2].\n\n*   **Principal Token (PT)**: Can be redeemed at a 1:1 ratio for the underlying asset upon maturity [^6][^2].\n*   **Yield Token (YT)**: Grants the holder the yield of the underlying token, which is distributed as SY and can be unwrapped back into the underlying token [^6][^2].\n\nEach market has a Maturity date, after which PT is fully redeemable and YT stops accruing yield [^6][^2]. PT and YT can be traded via their corresponding PT-SY liquidity pool [^6][^2].\n\nPendle V2 markets are available on multiple chains, including Ethereum, Arbitrum, Optimism, BNB Smart Chain, and Mantle [^2]. As of April 8, 2024, the supported yield-bearing tokens are permissioned and fully controlled by the Pendle project team [^6][^2].\n\n## Risk Considerations\n\nWhen using Pendle's tokens as collateral in a money market, several risks are noted in the documentation:\n\n*   **Smart contract vulnerability** in Pendle contracts [^7][^8].\n*   **Smart contract vulnerability** in underlying protocols [^7][^8].\n*   **Oracle exploit** [^7].\n\nThe use of PT as collateral allows users who are bullish on an asset to leverage long assets while earning a fixed yield [^8]. For example, a long-term ETH holder could use PT-stETH as collateral to borrow stablecoins to buy more PT-stETH, effectively earning a fixed Annual Percentage Yield (APY) on top of their leveraged long position on ETH [^8].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

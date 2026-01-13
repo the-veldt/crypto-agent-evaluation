@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "6vGjYc2o",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "6vGjYc2o",
+    "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe top 24h gainers (min $20M cap) are dominated by AI and privacy coins, with AI infrastructure/agent platforms (AI Rig Complex, UnifAI Network, Story) and privacy networks (Dash, Pirate Chain, Railgun) leading. The surge is driven by renewed AI narrative momentum, new product launches, and a strong privacy narrative fueled by regulatory news and global events. Privacy and AI are the clear central themes—refer below for more details.\n\n───\n\nTop Gainers (24h, $20M+ cap):\n- Dash (+43%)\n- AI Rig Complex (+36%)\n- Pirate Chain (+36%)\n- UnifAI Network (+34%)\n- Story (+27%)\n- Railgun (+24%)\n\nCommon Themes & Narratives:\n\n1. Privacy Coins/Protocols\n- Dash, Pirate Chain, and Railgun are all privacy-focused, with Dash and Pirate Chain seeing surges tied to renewed interest in anonymous transactions.\n- Catalysts include: \n    - Regulatory scrutiny and bans on privacy tokens in some regions, paradoxically increasing demand elsewhere as users seek alternatives (cryptorank analytics Telegram).\n    - News of a criminal probe into a major US political figure (Powell) has driven a rush to privacy coins as users hedge against surveillance and asset freezes (alpha Telegram).\n    - Social chatter highlights privacy coins as a \"catch up\" trade to Monero/Zcash, with Railgun and Pirate Chain specifically mentioned as trending (KonradsKrypto).\n    - Railgun is also benefiting from the narrative around on-chain, permissionless governance and new integrations for private ETH transactions (RAILGUN_Project, hulknobanner).\n\n2. AI Infrastructure & Autonomous Agents\n- AI Rig Complex, UnifAI Network, and Story are all deeply tied to the AI narrative:\n    - AI Rig Complex and UnifAI Network are infrastructure and framework projects for deploying autonomous AI agents and simplifying DeFi with AI (UnifaiNetwork).\n    - Story is a Layer 1 chain focused on making intellectual property programmable, with a strong AI and content creation angle.\n- Catalysts:\n    - Ongoing hype and adoption of AI tools in both crypto and traditional sectors (e.g., Cowork AI launch, Sui Network's AI stack).\n    - AI agent platforms are seen as the next wave for DeFi and Web3, with social and technical momentum building from product releases and developer engagement (0thTachi).\n    - The AI sector is also buoyed by broader tech news (Anthropic's Cowork, Sui’s verifiable AI stack), which spills over into token prices.\n\n3. Macro & Regulatory Catalysts\n- The privacy narrative is being amplified by ongoing regulatory uncertainty and new bills (Digital Asset Market Clarity Act progress), making privacy and autonomy major investment theses.\n- The SEC Chair signaling a \"big week for crypto\" has led to increased speculation and trading activity across narratives, especially in sectors with perceived regulatory tailwinds or hedges (WatcherGuru).\n\nConclusion:\nThe current 24h rally is concentrated in privacy and AI/agent infrastructure sectors. Privacy coins are riding a wave of demand triggered by geopolitical and regulatory catalysts, while AI tokens are benefiting from both sectoral hype and tangible ecosystem/product news. These themes are likely to remain in focus as long as regulatory uncertainty and AI innovation continue to drive headlines and user interest.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

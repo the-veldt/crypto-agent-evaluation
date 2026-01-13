@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "Lv7tMn3h",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Lv7tMn3h",
+    "query": "what are the most trending crypto consumer products and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "consumer"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_4SRNQk2xit7LxwNQKcxoisFw\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        528\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_01f8009a5ccf0912006966b46f5490819f847a3f4648db6bf9\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_2a6deOeSCoyfQ8Wy6FwAyv60\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Privy\",\n        \"Trojan\",\n        \"edgeX\",\n        \"Rain\",\n        \"Avici\",\n        \"x402\",\n        \"thirdweb\",\n        \"AllDomains\",\n        \"Poly\"\n      ],\n      \"search_type\": \"name\",\n      \"limit\": 5\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_01f8009a5ccf0912006966b4716154819f8dc7696bf38ed862\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_yk4wdazMzcq3mATqT5U8YXNd\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"posts\",\n        \"developments\",\n        \"news\",\n        \"tweets\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        528\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_01f8009a5ccf0912006966b472920c819f82171130308e2935\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Polygon Open Money Stack Architecture](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320755/veldt/daca4tnqb3qtz9gwodh5.jpg)\\n\\n## The most trending consumer crypto products (right now) are “consumer UX wrappers” around payments, trading, and entertainment\\n\\n**1) Crypto cards + stablecoin spending rails (Rain-led ecosystem)**\\n- The breakout consumer product is **“spend stablecoins like fiat”**: Visa/Mastercard-compatible cards + embedded wallets + cheap settlement.\\n- Hard data point from the onchain card tracking: **monthly transaction volume topped ~$120M** and **MAU hit ~40k by Oct 2025**, with **stablecoins (USDT/USDC) = nearly all deposits**.\\n- Why it trends: **instant utility + no narrative dependency**. Consumers don’t care about chains; they care about spending and settlement reliability. The competition shifts from “who issues” to **who controls flows + interchange economics**.\\n\\n**2) Agentic checkout standards + “walletless” onboarding**\\n- The highest-velocity consumer shift is **agent-enabled commerce**, where discovery→checkout happens inside AI surfaces (Search/Gemini/Copilot).\\n- UCP is the current standardization focal point: it collapses merchant integrations and bakes in **tokenized payments + verifiable consent**.\\n- Why it trends: **distribution** (Google/Shopify) + **friction deletion** (embedded wallets, passkeys, simplified KYC). This is the first time “crypto payments” is getting pulled by mainstream commerce UX instead of pushed by crypto apps.\\n\\n## Consumer products actually pulling users onchain\\n\\n**3) Mobile-first trading “consumerized” into games (Trojan Arena, edgeX)**\\n- Trojan’s Arena launch is explicitly a consumer growth play: **$5M in SOL rewards**, quests, jackpots, and aggressive referrals (up to **50% rev share**).\\n- edgeX is trending because it combines **CEX-like execution + mobile-native UX** and wraps it in seasons/XP ahead of distribution events (pre-TGE).\\n- Why it trends: **retail behavior prefers events** (rewards, TGEs, seasons) over “better infra.” These products manufacture bursts of onboarding and volume.\\n\\n**4) In-app creator payments (Rumble Wallet + Tether)**\\n- Embedded, non-custodial wallets inside an existing consumer platform enabling **tips in BTC/USDT/XAUT**.\\n- Why it trends: creator monetization is a clean wedge: **microtransactions + global audiences + low ticket size**.\\n\\n**5) Onchain micropayments for APIs/agents (x402)**\\n- x402 is trending because it turns payments into an API primitive. Real usage exists: one tracked server showed **522,779 real txns / ~$32.7k volume in 24h**, with **~$0.06 avg tx size**.\\n- Why it trends: it enables **pay-per-request monetization** without subscriptions, which fits agents and automated workflows.\\n\\nhttps://x.com/0xPolygon/status/2011076681302446556\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_01f8009a5ccf0912006966b476bf74819fbea2fa9b8342c7a6\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Polygon Open Money Stack Architecture](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320755/veldt/daca4tnqb3qtz9gwodh5.jpg)\n\n## The most trending consumer crypto products (right now) are “consumer UX wrappers” around payments, trading, and entertainment\n\n**1) Crypto cards + stablecoin spending rails (Rain-led ecosystem)**\n- The breakout consumer product is **“spend stablecoins like fiat”**: Visa/Mastercard-compatible cards + embedded wallets + cheap settlement.\n- Hard data point from the onchain card tracking: **monthly transaction volume topped ~$120M** and **MAU hit ~40k by Oct 2025**, with **stablecoins (USDT/USDC) = nearly all deposits**.\n- Why it trends: **instant utility + no narrative dependency**. Consumers don’t care about chains; they care about spending and settlement reliability. The competition shifts from “who issues” to **who controls flows + interchange economics**.\n\n**2) Agentic checkout standards + “walletless” onboarding**\n- The highest-velocity consumer shift is **agent-enabled commerce**, where discovery→checkout happens inside AI surfaces (Search/Gemini/Copilot).\n- UCP is the current standardization focal point: it collapses merchant integrations and bakes in **tokenized payments + verifiable consent**.\n- Why it trends: **distribution** (Google/Shopify) + **friction deletion** (embedded wallets, passkeys, simplified KYC). This is the first time “crypto payments” is getting pulled by mainstream commerce UX instead of pushed by crypto apps.\n\n## Consumer products actually pulling users onchain\n\n**3) Mobile-first trading “consumerized” into games (Trojan Arena, edgeX)**\n- Trojan’s Arena launch is explicitly a consumer growth play: **$5M in SOL rewards**, quests, jackpots, and aggressive referrals (up to **50% rev share**).\n- edgeX is trending because it combines **CEX-like execution + mobile-native UX** and wraps it in seasons/XP ahead of distribution events (pre-TGE).\n- Why it trends: **retail behavior prefers events** (rewards, TGEs, seasons) over “better infra.” These products manufacture bursts of onboarding and volume.\n\n**4) In-app creator payments (Rumble Wallet + Tether)**\n- Embedded, non-custodial wallets inside an existing consumer platform enabling **tips in BTC/USDT/XAUT**.\n- Why it trends: creator monetization is a clean wedge: **microtransactions + global audiences + low ticket size**.\n\n**5) Onchain micropayments for APIs/agents (x402)**\n- x402 is trending because it turns payments into an API primitive. Real usage exists: one tracked server showed **522,779 real txns / ~$32.7k volume in 24h**, with **~$0.06 avg tx size**.\n- Why it trends: it enables **pay-per-request monetization** without subscriptions, which fits agents and automated workflows.\n\nhttps://x.com/0xPolygon/status/2011076681302446556",
+    "executionTimeMs": 24697,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [],
+          "category_ids": [
+            528
+          ],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Privy",
+            "Trojan",
+            "edgeX",
+            "Rain",
+            "Avici",
+            "x402",
+            "thirdweb",
+            "AllDomains",
+            "Poly"
+          ],
+          "search_type": "name",
+          "limit": 5
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "posts",
+            "developments",
+            "news",
+            "tweets"
+          ],
+          "limit": 30,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            528
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 99153
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

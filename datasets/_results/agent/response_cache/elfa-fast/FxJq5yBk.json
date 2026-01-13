@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "FxJq5yBk",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "FxJq5yBk",
+    "query": "what are the key trends across ethereum, base, and solana",
+    "level": 1,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nEthereum shows stable mindshare with ETF momentum and large treasury holdings, Solana gains strong traction via ETF filings and regulatory clarity, while Base lacks specific trend data but benefits from broader L2 growth; stablecoins and tokenization drive altcoin narratives across these chains.\n\n───\n\nEthereum Trends  \nEthereum holds the #2 spot on Elfa AI's token leaderboard with 11.94% mindshare (up 3.91%), 2190 total mentions, and predominantly bullish sentiment (834 bullish vs 55 bearish). Key drivers include BlackRock's expansion of ETH ETFs and predictions of broader retail access in 2026 CNBC. BMNR's massive 4.16M ETH treasury (valued at ~$13B) underscores staking revenue potential if ETH reaches $5K-$7K Forbes. Search trends highlight stablecoins and tokenization on Ethereum, correlating with altcoin interest @concapdan.\n\nSolana Trends  \nSolana ranks #3 with 10.80% mindshare (up 16.78%), 2029 mentions, and bullish sentiment (890 bullish vs 61 bearish). Morgan Stanley's spot Solana ETF filing signals institutional entry CNBC. A draft \"Clarity Act\" could grant SOL non-ancillary status like BTC/ETH, easing SEC rules Decrypt. Sling Money's FCA approval leverages Solana for stablecoin payments FinTech Futures. SOL trades at $142.91, recently among top 24h gainers @thesolanapost.\n\nBase Trends  \nNo prominent mentions or leaderboard presence for Base in recent data. Broader L2 narratives like tokenization may indirectly support Base activity, but specific ecosystem trends are not evident in current sources. Planet IX launched AIX on Base, positioning it for multi-chain builds @Planetix0.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

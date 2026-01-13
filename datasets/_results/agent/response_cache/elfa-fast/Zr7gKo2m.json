@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Zr7gKo2m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Zr7gKo2m",
+    "query": "give a breakdown of the tokenomics of Jito",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market",
+      "tokenomics"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR\nJito (JTO) has a total and max supply of 1 billion tokens, with ~424 million circulating as of January 2026 (42% of total). JTO is the governance token for the Jito Network on Solana, used for voting on proposals like JIP-31/32; detailed allocation, vesting, emission, or fee-share mechanics are not available in current data.\n\n───\n\nToken Supply and Market Data  \nJTO's total supply is 1,000,000,000 tokens, which equals its max supply (no inflation). Circulating supply stands at 423,766,015 JTO. Current price is ~$0.45 USD, yielding a market cap of ~$189M and fully diluted valuation (FDV) of ~$447M (MC/FDV ratio: 0.42). Jito has $2.07B TVL, giving an MC/TVL ratio of 0.09. Token contract on Solana: jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL (Jito Network).\n\nUtility and Governance  \nJTO serves as the governance token for Jito Network, a Solana liquid staking and MEV infrastructure protocol. Holders vote on Jito Improvement Proposals (JIPs), such as JIP-31 (activates BAM Early-Adopter Subsidy, directing 100% protocol revenue to the BAM staking pool) and JIP-32 (launches Season Two of Community subDAO for expansion), both recently passed unanimously (@jito_sol). No specific staking rewards, fee-sharing, or burn mechanics for JTO are detailed in available data.\n\nLimitations on Allocation and Vesting  \nCurrent research yields no specifics on initial allocation breakdown (e.g., team, investors, community), vesting schedules, or emission curves. Web searches and recent tweets focus on market performance, governance votes, and integrations rather than tokenomics origins. For comprehensive details, refer to Jito's official docs at jito.network or on-chain explorers like Solscan.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

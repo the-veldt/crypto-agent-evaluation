@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Bp8eUi9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Bp8eUi9n",
+    "query": "analyze the projects with the greatest mindshare growth over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe top mindshare growth tokens over the last 24h are dominated by meme coins on Solana and emerging DeFi/utility plays across chains, with no single sector fully unifying them but strong meme-driven narratives (celebrity, animal, pop culture themes) leading the surge; catalysts include viral social mentions and smart account activity, though low call volumes suggest hype over sustained trading interest.\n\n───\n\nTop Projects by 24h Mindshare Growth\nBased on Elfa AI's token leaderboard sorted by mindshare change (1d timeframe), here are the top 10 tokens with the largest increases. Mindshare reflects social mentions across monitored platforms like Crypto Twitter and Telegram.\n\n- PRIME (+1377.88%): 16 total mentions (2 smart, 12 bullish); Ethereum-based.\n- 2Z/DoubleZero (+929.52%): 11 mentions (3 smart, 6 bullish); Solana-based.\n- MAMO (+862.62%): 10 mentions (3 smart, 2 bullish); Base-based.\n- XDOG (+811.69%): 10 mentions (2 smart, 8 bullish); X-Layer-based.\n- ZEREBRO (+798.71%): 18 mentions (2 smart, 13 bullish), 12 long calls (2 smart); Solana-based.\n- TETSUO/Tetsuo Coin (+647.92%): 9 mentions (5 bullish); Solana-based.\n- BNKR/BankrCoin (+647.92%): 8 mentions (1 smart, 3 bullish); Base-based.\n- WHALEQUEEN/The Whale Queen (+573.76%): 13 mentions (2 smart, 6 bullish); Solana-based.\n- MELANIA/Melania Meme (+565.44%): 35 mentions (2 smart, 5 bullish); Solana-based.\n- FLUID (+548.07%): 7 mentions (2 smart, 4 bullish), 1 long call (1 smart); Ethereum-based.\n\nAll exhibit predominantly bullish or neutral sentiment, with minimal bearish mentions. Call activity remains low across the board (mostly zero change), except ZEREBRO (12 longs).\n\nCommon Themes and Narratives\nThese tokens lack a singular central sector but cluster around meme coin hype and niche utility plays:\n- Meme dominance (60% of top 10): Tokens like XDOG (dog-themed), TETSUO (pop culture/Akira reference), WHALEQUEEN (whale trader meme), and MELANIA (celebrity/political figure tie-in) drive viral, community-fueled narratives typical of Solana's fast-pumping memes.\n- Solana concentration: 5/10 tokens on Solana, leveraging its low-fee ecosystem for rapid memecoin launches and social pumps.\n- Emerging DeFi/utility: PRIME, 2Z/DoubleZero, MAMO, BNKR, and FLUID suggest early buzz around lending, staking, or liquidity protocols (e.g., BankrCoin implies banking/DeFi, Fluid hints at fluid liquidity mechanics), but with limited calls to confirm traction.\n- Overall narrative: Short-lived hype cycles fueled by FOMO mentions rather than fundamentals, as evidenced by high % changes from low mention bases (e.g., PRIME jumped from negligible to 0.10%).\n\nCentral Sector and Catalysts\nNo strict central sector, but memecoins emerge as the loose theme, amplified by Solana's ecosystem. Catalysts include:\n- Smart account mentions: 1-3 per token (e.g., 3 for 2Z and MAMO), signaling early influencer attention without widespread calls.\n- Viral sentiment spread: Bullish mentions dominate (e.g., 13/18 for ZEREBRO), likely from CT/Telegram pumps, but low absolutes (7-35 mentions) indicate nascent trends prone to quick fades.\n- Chain-specific momentum: Solana memes benefit from platform liquidity and bot-driven trading; cross-chain diversity (ETH, Base, X-Layer) shows broader retail experimentation.\n- Price context: Mixed performance (e.g., MELANIA at $0.19, FLUID at $3.35), with mindshare not yet translating to uniform pumps—suggesting speculative rather than conviction-driven moves.\n\nThese trends appear tradable for short-term scalps on momentum, but low call volume and small mention counts signal high risk of reversion. Monitor for sustained smart calls or volume spikes.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

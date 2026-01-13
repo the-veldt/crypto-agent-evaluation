@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 950
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 13554
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 16975
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 17181
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 21548
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "Here’s a quick snapshot of what’s trending right now on Base and Solana. Note that “trending” shifts fast; this is based on recent volume, headlines, and social chatter over the past couple of weeks.\n\nBase\n- Aerodrome (AERO): Still the top DEX on Base and expanding its footprint; remains a liquidity hub on the chain, including big cbBTC activity. Source: The Block reported Aerodrome’s upgrade/expansion push in Nov 2025 (the trend has carried into 2026).\n  - https://www.theblock.co/post/378634/aerodrome-upgrades-evm-extensions-circles-arc-metadex\n- Base memecoins: BRETT, TOSHI, SPX6900, RIBBITA/TIBBIR, NPC, NEIRO, REKT are among the bigger names that keep cycling through the “most watched” lists.\n  - Overview lists: https://99bitcoins.com/analysis/best-base-chain-meme-coins/\n  - Ranked Base meme caps (snapshot): https://coinranking.com/coins/base-meme\n  - Toshi saw a major pump when Coinbase added it to its listing roadmap (signal of sustained interest): https://www.theblock.co/post/334650/base-memecoin-toshi-surges-coinbase-listing-roadmap-addition\n- Creator/“social” coins on Base via Zora: Coinbase’s push into creator coins on Base has drawn attention (and some criticism) after high-profile launches spiked then slumped—still a hot topic on Base. Source:\n  - https://cointelegraph.com/news/base-creator-coin-experiment-meets-resistance\n\nSolana\n- Memecoins leading flows: BONK and other SOL memes (WIF, POPCAT, BOME) have kicked off 2026 strong, with SOL meme trading volumes spiking to new highs.\n  - Coindesk on record memecoin volumes: https://www.coindesk.com/markets/2026/01/06/solana-memecoin-frenzy-sends-pumpswap-trading-volume-to-record-usd1-2-billion\n  - Sector-wide memecoin rally (BONK mentioned): https://www.coindesk.com/markets/2026/01/05/memecoin-comeback-talk-builds-as-doge-shib-bonk-rally-in-early-2026\n  - Context on 2025’s Solana token-launch boom (fueling today’s meme churn): https://cryptoslate.com/solana-applications-generated-2-4-billion-proving-the-network-is-finally-decoupling-from-this-volatile-metric/\n- Core trading/DeFi venues seeing steady usage:\n  - Aggregation/DEX: Jupiter, Raydium\n  - Perps: Drift\n  - Lending/yield: Kamino, Meteora; liquid staking via Marinade; MEV staking via Jito\n  These aren’t “memes,” but they consistently rank among Solana’s highest-usage apps by volume/TVL and benefit from the meme cycle spillover. (Cross-checks: Blockworks Analytics/DeFi dashboards and recent Solana ecosystem coverage.)\n  - Blockworks Solana analytics hub: https://blockworks.co/analytics/solana\n\nWant me to pull live “trending” pairs (top volume or most-viewed) for the last hour/day on Base and Solana from DEX trackers right now? If you tell me the timeframe (1h/24h/7d) and whether you want tokens or protocols, I’ll fetch a real-time list.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 26759
+        }
+      }
+    ],
+    "finalAnswer": "Here’s a quick snapshot of what’s trending right now on Base and Solana. Note that “trending” shifts fast; this is based on recent volume, headlines, and social chatter over the past couple of weeks.\n\nBase\n- Aerodrome (AERO): Still the top DEX on Base and expanding its footprint; remains a liquidity hub on the chain, including big cbBTC activity. Source: The Block reported Aerodrome’s upgrade/expansion push in Nov 2025 (the trend has carried into 2026).\n  - https://www.theblock.co/post/378634/aerodrome-upgrades-evm-extensions-circles-arc-metadex\n- Base memecoins: BRETT, TOSHI, SPX6900, RIBBITA/TIBBIR, NPC, NEIRO, REKT are among the bigger names that keep cycling through the “most watched” lists.\n  - Overview lists: https://99bitcoins.com/analysis/best-base-chain-meme-coins/\n  - Ranked Base meme caps (snapshot): https://coinranking.com/coins/base-meme\n  - Toshi saw a major pump when Coinbase added it to its listing roadmap (signal of sustained interest): https://www.theblock.co/post/334650/base-memecoin-toshi-surges-coinbase-listing-roadmap-addition\n- Creator/“social” coins on Base via Zora: Coinbase’s push into creator coins on Base has drawn attention (and some criticism) after high-profile launches spiked then slumped—still a hot topic on Base. Source:\n  - https://cointelegraph.com/news/base-creator-coin-experiment-meets-resistance\n\nSolana\n- Memecoins leading flows: BONK and other SOL memes (WIF, POPCAT, BOME) have kicked off 2026 strong, with SOL meme trading volumes spiking to new highs.\n  - Coindesk on record memecoin volumes: https://www.coindesk.com/markets/2026/01/06/solana-memecoin-frenzy-sends-pumpswap-trading-volume-to-record-usd1-2-billion\n  - Sector-wide memecoin rally (BONK mentioned): https://www.coindesk.com/markets/2026/01/05/memecoin-comeback-talk-builds-as-doge-shib-bonk-rally-in-early-2026\n  - Context on 2025’s Solana token-launch boom (fueling today’s meme churn): https://cryptoslate.com/solana-applications-generated-2-4-billion-proving-the-network-is-finally-decoupling-from-this-volatile-metric/\n- Core trading/DeFi venues seeing steady usage:\n  - Aggregation/DEX: Jupiter, Raydium\n  - Perps: Drift\n  - Lending/yield: Kamino, Meteora; liquid staking via Marinade; MEV staking via Jito\n  These aren’t “memes,” but they consistently rank among Solana’s highest-usage apps by volume/TVL and benefit from the meme cycle spillover. (Cross-checks: Blockworks Analytics/DeFi dashboards and recent Solana ecosystem coverage.)\n  - Blockworks Solana analytics hub: https://blockworks.co/analytics/solana\n\nWant me to pull live “trending” pairs (top volume or most-viewed) for the last hour/day on Base and Solana from DEX trackers right now? If you tell me the timeframe (1h/24h/7d) and whether you want tokens or protocols, I’ll fetch a real-time list.",
+    "executionTimeMs": 101803,
+    "totalTokens": 96967,
+    "stepCount": 6,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:dexscreener.com Base trending pairs 2026",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:birdeye.so trending Solana tokens 2026",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "trending projects on Base 2026 January",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "trending Solana projects January 2026",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Base chain top tokens 2026 Brett Toshi Aerodrome news",
+          "numResults": 5,
+          "startPublishedDate": "2025-09-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Aerodrome Base AERO token trending 2026 Base ecosystem",
+          "numResults": 5,
+          "startPublishedDate": "2025-10-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cointelegraph.com",
+            "theblock.co",
+            "blockworks.co",
+            "defillama.com",
+            "dune.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DeFiLlama Solana top protocols TVL 2026 drift kamino jupiter tensor meteora marinade raydium",
+          "numResults": 5,
+          "startPublishedDate": "2025-11-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "January 2026 Solana memecoins BONK WIF POPCAT BOME trending news",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cointelegraph.com",
+            "decrypt.co",
+            "theblock.co",
+            "cryptoslate.com",
+            "coindesk.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "BRETT Base memecoin 2025 2026 news Base chain",
+          "numResults": 5,
+          "startPublishedDate": "2025-06-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cointelegraph.com",
+            "decrypt.co",
+            "coindesk.com",
+            "theblock.co"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

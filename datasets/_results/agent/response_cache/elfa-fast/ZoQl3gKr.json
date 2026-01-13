@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "ZoQl3gKr",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "ZoQl3gKr",
+    "query": "pull recent crypto content and research over the last 7 days -- what are the most intersting assets being discussed and why",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nOver the last 7 days, Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Zcash (ZEC), and Hyperliquid (HYPE) lead Elfa AI's mindshare leaderboard, driven by high mention volumes, smart account activity, and narratives around BTC strength, privacy coins, altcoin rotation amid falling BTC dominance, and resilient L1s like SOL.\n\n───\n\nTop Assets by Mindshare (Elfa AI Leaderboard, 7d)\nThe Elfa AI token leaderboard ranks assets by mindshare, reflecting social buzz across Crypto Twitter and Telegram. Here are the standout tokens:\n\n- Bitcoin (BTC): 20.85% mindshare (34,180 total mentions, 4,701 smart); bullish sentiment dominates at 43% of mentions. Long calls total 1,333 (284 smart), signaling sustained interest despite a 5.68% mindshare dip.\n- Ethereum (ETH): 11.61% mindshare (14,874 mentions); steady but down 2.87%, with 271 long calls amid rotation talks.\n- Solana (SOL): 9.96% mindshare, up sharply 20.27% (12,981 mentions); RWA tokenization and ETF narratives boost bullish chatter (53% positive sentiment).\n- Zcash (ZEC): 3.92% mindshare, exploding +159.79% (4,664 mentions); privacy plays gain traction, with 201 long calls (up 67.50%) from influencers like gainzy222.\n- Hyperliquid (HYPE): 2.21% mindshare; institutional and retail interest persists as a crash outlier, with calls like trader1sz spotting bottoms.\n\nLower ranks include XRP (1.76%), BNB (1.65%), LIT (1.53%, +323% mindshare surge), PUMP (1.19%), and ARB (1.17%).\n\nKey Narratives Driving Discussion\nAltcoin rotation: Multiple sources highlight altcoins capturing ~50% of trading volume (vs BTC 27%, ETH 23%), with BTC dominance breaking down—echoing 2021 patterns. NekozTek, coinbureau.\n\nMemecoins and hype: PEPE, BONK, FARTCOIN, PENGU, and emerging plays like BAOBAO trend via community pumps; TheChartArtist, AltcoinSherpa calls FARTCOIN bottoming.\n\nPrivacy and niche: ZEC rises in LunarCrush AltRank; strategy tokens and BTC-native assets like DOG also noted as \"interesting.\" LunarCrush.\n\nExchange hotspots: WEEX promotes PIPPIN, IP, WLFI, ZKP as daily hot coins, reflecting short-term pumps.\n\nInfluencer Calls (Top Smart Accounts, Recent)\nSmart accounts push longs on BTC (BobLoukas), ZEC, HYPE, FARTCOIN (AltcoinSherpa), FLUID, and memes like PENGU (CryptoKaleo). Sentiment leans bullish on dips, with caution on ETH retests.\n\nThese assets show strongest social momentum; monitor for call hit rates and volume shifts on Elfa AI.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

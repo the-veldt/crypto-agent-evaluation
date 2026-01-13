@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "5vJqLt3p",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "5vJqLt3p",
+    "query": "analyze the tokenomics, moats, and market landscape of token launchpads - which projects are poised for market share growth and why",
+    "level": 3,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "launchpad"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"2JMc0IYwhZCih0bH\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"category_ids\": [\n        513,\n        522,\n        528\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EqcJCqQJAXLI2nzd7K+Tu9qxNyKgYHiJnJRRCRHxXE15/MkcbqOg7VZ13F/alcr+QPCe6s96TePJ3dxJlBWak4PAoyo/OTcm/l10F0vUraZ5Z76UUW5e7QYds/MgJPFGrE0M3yOR/2whr3QKQ22zTQzk1PcyUJ1N9w2752e6sImoDL9t69I13JrWPwRgdUrwuwCn2BOP4/8cDt7XvQyIlAzHH6whJPEl9dcsUkCZizxR7nYZ/oRbIZJbVxrOQq8fuzQViKRFUjrguafHyywbZ1DMFcJnaEkda7NoKxmloqY7Jg/C1VZKpOWsayxebWIt2ax/O3yH1LD7kQX2dXhuGNun0cvWfykZIUoqONiHOTSZRAbwrWZ/ewB7amCbu92R15br3A5slGztucghwPdYBkkvRLHpY+lxDWp9b9CGf1LjM/0tVXOUu1b0ej37D2PFvsWMoQtPN5JeTUW/jNPTH1cDzSD4RBFcfV8zYmEQE0SrItyVzfI/Y1lvsPb91VeqCdtiBGjmF37l3yZyj88XWZRaMgej+2kU6MZ5WjOCiARab/cBw8yTq2kmwsqrEQMylwaJFielEwykSlhT1RoIQE/n1jQLhWSQ/IAw9HH1JfL5q1Pd9hyq8YKZ+vYKlwoafXwV9Ju1+j/PCuCJacuC+jJNMyfRe2YwkE1sbv88uKuED1wuy1qlJCBDBCRwXZ+YUJuvQztkW34qP6lFxQhLDZDBjA1zXm6J1nf2Yizlz+epl2qQN/PAd74whFeM3a9gTnAi+SVwYS9ecm4GsXic3OPDDbFAwveIyTzbISIoxOWblJF3HCvW+XJFOzNRs13mSlC4UUbT5xxlldFmBw+uihsu1MJI9S/U2GdfGUbgIng4xv0Nyfo8+wQgSsPduYlulIWjo0inIk4i0z/GDkbO8GVNZEBkcW6qnYZYrqL/JpP54fQhoV0c+YyxD3dk7E9WoTU5UHIaTLa0JX7sPnUm8gOZrcsMtRBcW/VO9NI0EgVkivW9AI52XVQ+3qh275dB9PWa4Op4O4cUziJQd47D5WGCI3PAvo31BaW8t3hn5MFPwP34eoQCrcZV7YQmNl24l9CfG8OqdVsYxdIo6vXu98YBu4IxWmvIHkO1SOzXO/QgVNm3kRiPmuS19e56sAkKHRgBicA+QcQpEt+97XUBlN2tkL9QOAm17xACEC/cmDpW8xIWl6asb6+1VA7JHMJz1d8FnJzJLGaSgn17yYrHewcioPBypqZLatZM0MSXPaSFykCe/PJQGbVaGp4qas/luc3NXXZ2SBpbnEOcli6VHgre1q2YP0c+RjwJcCW2qdeGPeFdQcyOLtOIrqEvx820FjAnnsTLMfRvL2s7beSerp2pBq/TisutnbmgEQfmw2/79yVjpXuEwj8phhYk53V1Ic5R1qZDf5d2euR/IlhhRgRJPnJ/g7D8JOK3Jitj2wc6dGuIhB/DrlfQxvsccP5oTwe9mRdvL1fZEKTlShO7CXHdfjlHehElRpLYSOGGRVdFW5dTSo/0xDVoGvcy+bHmr38A7xKMi4KLpB8IMroMXwiFBEVAitZvGSE7HwE0eiGdltNIh1ziuntt\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"qyM3QSe5j7PhPDGu\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"token launchpad market share trends and top performing platforms 2025 2026\",\n      \"days_back\": 30\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"bRCgAi79EY8Ls2Uk\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare top token launchpads by number of launches and average ROI in the last 6 months. Include projects like DAO Maker, Seedify, and Jupiter LFG.\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"trxj8MXRAVRxT2u0\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"tokenomics analysis and value accrual of launchpad tokens MET DAO SFUND Echo Legion\",\n      \"days_back\": 60\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"5T8HEYcvoOjy0Bm5\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Meteora\",\n        \"DAO Maker\",\n        \"Seedify.fund\",\n        \"Echo\",\n        \"LEGION\",\n        \"Jupiter\",\n        \"Pump.fun\"\n      ],\n      \"search_type\": \"name\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"9NhCDS0U67EFPA5O\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Continuous Clearing Auctions CCA protocol and token launch innovations 2026\",\n      \"days_back\": 30\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The token launchpad sector has structurally bifurcated. The 2024 \\\"hype-and-dump\\\" meta is dead, replaced by a battle between **high-velocity fair launches** and **institutional-grade ownership models**.\\n\\n### Market Landscape: The Great Bifurcation\\nThe market is now split into three distinct tracks: \\n1.  **High-Volume Trenches**: Dominated by Solana (Pump.fun, Meteora DBC), focusing on memecoins and immediate retail liquidity.\\n2.  **Institutional IDOs**: Led by exchange-integrated platforms (Echo, Legion) and established gatekeepers (CoinList), utilizing merit-based scoring and compliance rails.\\n3.  **Ownership Coins**: A new category pioneered by MetaDAO, where the token represents a legal and onchain claim on the project's treasury and IP.\\n\\nSolana remains the primary engine, capturing over **89% of all new token deployments** as of Q4 2025. However, volume is shifting from \\\"pure pump\\\" platforms to those providing sustainable liquidity. **Meteora DBC** has aggressively gained share, capturing ~45.9% of Solana launch volume by December 2025, largely due to its **98% \\\"bonding rate\\\"**—ensuring tokens graduate with deep liquidity rather than immediate failure.\\n\\n### Tokenomics and Moats\\nThe most successful 2026 platforms have abandoned the \\\"low-float/high-FDV\\\" model for mechanisms that accrue direct value to the launchpad token.\\n\\n*   **Meteora ($MET)**: Operates a \\\"picks and shovels\\\" moat. It captures a **20% take rate** on all trading fees generated by tokens launched via its Dynamic Bonding Curve (DBC) infrastructure. By launching with a **48% circulating supply**, it avoided the \\\"unlock ambush\\\" stigma, positioning $MET as a pure-play on Solana’s liquidity velocity.\\n*   **MetaDAO ($META)**: Utilizes a **Futarchy governance** moat. Its tokenomics are backed by a treasury-linked NAV (Net Asset Value) floor. If $META trades below its treasury backing, holders can vote to liquidate. This \\\"unruggable\\\" design attracts high-quality founders who want to signal long-term alignment. MetaDAO generates revenue via a **0.50% fee** on its Futarchy AMM, which reached **$2.4M in total revenue** by late 2025.\\n*   **Uniswap CCA**: The **Continuous Clearing Auction (CCA)** has become the technical moat for EVM launches. By clearing bids block-by-block over several days, it eliminates gas wars and sniping. Crucially, the auction proceeds automatically seed a **Uniswap v4 pool** at the discovered price, making separate market-making deals obsolete.\\n\\n### Projects Poised for Market Share Growth\\n\\n#### **1. Meteora (Solana Infrastructure)**\\nMeteora is poised for continued growth because it is the **utility layer** for other launchpads. Even when \\\"competitors\\\" like *Believe* or *Time.fun* launch tokens, they utilize Meteora’s DBC tech. Its moat is the **20% recurring fee capture** from secondary trading—a massive revenue multiplier compared to the one-time fees of traditional IDO platforms.\\n\\n#### **2. MetaDAO (Institutional Standard)**\\nMetaDAO is the only platform solving the **\\\"broken token\\\"** problem (the equity-token split). By using the **STAMP contract**, it ensures 100% of value flows to the token, not a separate equity entity. As regulatory pressure increases in 2026, institutional capital will gravitate toward these \\\"onchain corporations\\\" with enforceable rights.\\n\\n#### **3. HuddlePad (Arbitrum/EVM)**\\nAs the first major implementation of the **Uniswap CCA model**, HuddlePad is the primary contender for EVM launch dominance. The success of the **$AZTEC** launch ($59M raised, 16.6k bidders) proved that retail participants prefer the \\\"smooth\\\" price discovery of CCA over the bot-dominated lotteries of previous cycles.\\n\\nThe clear winners are those moving away from being \\\"casinos\\\" and toward being **liquidity providers** (Meteora) and **governance lawyers** (MetaDAO).\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EvMPCvAPAXLI2nzoS/YqEJ+fY3Ndr5+e71SHkB7+3RrEbdoXmr31cw9ZF7fhkPZJkVzIJIWoQ55Dym8vT8FPBOf4Adc2IGBLbjkxWjswY2Giq2t+0Jteos4mgYkYweGFdwLWl5jGxuplduArl6xYKPeOHxa7IkQeVbBi8nuCNYJRXqW/rBisTLZBIfj4jYN9kPccyxXojYIiYbRh+dR45yp6CgI/Z5AZWuGHzugpa74PDLqtuyMoMru0cy00QJjmyA5xXrvoV02r2gFkgnprwPTBvEZuYUdkap1mwDsidBqDjF+/u7ChPphgXr3fO4qKXkxQ63lp4HyYsUrVyxH6SGAo/YQi9JWapXqDaKC25RdZJwSjXAG2XJ1BhKztdIH0/Tr6ctJBo+c1yIDJWqtWG9E0n0542PU9l54bpcEvSimX2SVYI/UPsDqrXZ7Was4pp7TAvcWvrRB1T5S0yQJ8gHS+WRz7TBthgTJwBRvnGj0z0nd167PW/ajC0UI5F8EuxNjQdc2p1OiiehSK0oQxA0Na0UQ6chk8llszdmA6Owq3ejNpuguxpeIWaJ6TJhIH20KbolB6NiIODWpl7wOud6ihLU1s8iS21N6r24fgjlosLzzz1VNDbb5hPHbaq4+CuXbJGtqKvAhrS2jtpIgauqoE8eI03UcCetZnFld0hCy8JR7tMZF6/7HlC4FImDtpgEl9y+ABl9FB7cdAEIxlfXiqURnJNr7Vrw2HKlwPVbF1jp/jvVJpC+U57hULhcegjdaz3HrCVeN3zCji/kO1Z6akDrx2EAWCVvfL6RoNz52sRnykpM5+8Z2Ozds3R4tpj4JQnerVAL/UbITTwqDpgpsbK6dd/iy66tT8xkj45ejA53CXJ/88A6X9blS0DHI6t1KPR0QjdgpdKpzCp1RHXnjUIjBzZssVeh7pEx0ZEXgAWeaUsEVmonxSKYL0fNAFd/rV+KkJv5H/4SUzZ5d2T60ZstdhPmcrxEG7DlJhekY9LviTIoJ1N894eRHE6IkEzsbnadhbduFC7tPFVUypR/U3rCYrf4G8V1+FrfipZT+Gera4edvptXq7qbGBNJnVuNnzoyEuQbzKhteS5/1ZF3Sd1UKd3LhUlu2dzXIP0sKZlpvZMtvhFBkGmRFIoLh0K8xShEu7FhDqydOBZhbOLTye+AIrvQCELXv3XC8l6UNgrSmqd+HX2ZI/YGVlGBkhvz1JG1dddGzISRuep/aTSgBPCUEZwoc7+REwdfq0UP2o0887NFwwB6HL4e2QcWtcD8HpdIFsdJkdualDwgtyJ3PZVwXdE61AyhG7jjM6fFuN/L5gBUWmVvDXEjckPl3TDSNjGpsADReRRV/3WzCe+7Fo649iynB1zmjc0ekg+Mpk+qXSckeXo0Ah8UCgzlJtCjzHW7tjz8auNR2GIp74bisjQyIslVFIB0bHJBl/ZIoXONSmHlqeSPmIDq921aGJTRJU1F65ci2RFqfmZpUO4U95TbezRLoJLKxdq3i8JRtWF9DZzk19JbMPiq3lfJSng7AaRvqj68q7c3t/9XtqqD7SNqodh9L0UULQ+Og80SEnTi5bIml4oNBXIdrSUqSLrAkBdSTNMuHe+uVO4Oh65irAq+Bcg4Rtm0Welt798hEfOfDWxUvdV3/alhX1eummXZpT+QZv+Hn9A7t02SZCmB3Ls5lzWBqNORXYb+YIaQI7G8U3USC2voUC6KNQ2yRtv+Rv3q8TT+MowwtkMfO6ixTaiUrwKvudbVi1QgValhr3jMF9Rd2n9G8rAklkdlxEYVlMCZeL4V5GMGam1qBqZ1RPZiGOgZEWbcPV/BwrCq5aEeFL7OJWziAxf/63STb8zzHz2NdTXy/OgC2eIoYUVF+8nm2osk4LxLEK3LICuuiFRNTMT/6CSOuXlkvA8Rgu8oHH8ZwvCkRKkPONCc9PUQFMA2oN9GGQFM0bsJTDz3+0qL9ZmtYc+o8e4lPWZDIkyJBQ7lwx64HvfLAkehBuZwikxDeXiAHWXBE46IkotXH53vibxYbgvi9V0RQJO3EDGqXSwagcE3lkJWyn3oMSY624OpntSk/g66RXiuAJYMLG6mQC31oUmsffMfl38/5xtUuzMwmNIHNmm/ILZq46EEwOfVPnLzVF9TGkid3JTGSIBnsxoR7h//6BwF7uKXISkQMBRs8FCT4cGQAYDREjHr0fC1sFqtPtcEttKYX10dkhiYU4jzV+DL7QLcv/oDVeFyZpMT9tE/+WQYyJcZJPYirfYaZ5KE/OaSdwTywLByD7rm3gc1sKfOU/C7dkamDh5OQFSRNWikkAM2/pAJJzr/4FTCsox0sfBIJWf3qMg8ClrhZU01tYCgeGd4UJTKmRyEUgdxiZ/OdMvQIGH2RlaMQ/tE2FcocHYBfA7ph02Co8M9LdYTFzOExbhvkLJK/6R1xkjBV9DlSSYZqHDupltDrJnYMhL29Zy2lZCbTJX8YExy0+85VJXDsF/NNKm7aKZk1d7A7Shal+x+rnezzMbgCCpJ95jTjyYArcjt+O6zFpYJ4nQq8ju/fKjixNSN0xZ99I2D1iXsEPYJTUvpK7Xd7HZ3Sd8aYB/JSAz7GEPhI0WnqYoBGHIXytDTk5GN8HIAS/E8w6OKu/aDwJg7zFXtXkRy9OGrni0DdN/2D/J8l8OR2qJoojLWX5Hao7sZjcMtSu0BmY7M/VZeD3stRUh75cdOojHw==\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The token launchpad sector has structurally bifurcated. The 2024 \"hype-and-dump\" meta is dead, replaced by a battle between **high-velocity fair launches** and **institutional-grade ownership models**.\n\n### Market Landscape: The Great Bifurcation\nThe market is now split into three distinct tracks: \n1.  **High-Volume Trenches**: Dominated by Solana (Pump.fun, Meteora DBC), focusing on memecoins and immediate retail liquidity.\n2.  **Institutional IDOs**: Led by exchange-integrated platforms (Echo, Legion) and established gatekeepers (CoinList), utilizing merit-based scoring and compliance rails.\n3.  **Ownership Coins**: A new category pioneered by MetaDAO, where the token represents a legal and onchain claim on the project's treasury and IP.\n\nSolana remains the primary engine, capturing over **89% of all new token deployments** as of Q4 2025. However, volume is shifting from \"pure pump\" platforms to those providing sustainable liquidity. **Meteora DBC** has aggressively gained share, capturing ~45.9% of Solana launch volume by December 2025, largely due to its **98% \"bonding rate\"**—ensuring tokens graduate with deep liquidity rather than immediate failure.\n\n### Tokenomics and Moats\nThe most successful 2026 platforms have abandoned the \"low-float/high-FDV\" model for mechanisms that accrue direct value to the launchpad token.\n\n*   **Meteora ($MET)**: Operates a \"picks and shovels\" moat. It captures a **20% take rate** on all trading fees generated by tokens launched via its Dynamic Bonding Curve (DBC) infrastructure. By launching with a **48% circulating supply**, it avoided the \"unlock ambush\" stigma, positioning $MET as a pure-play on Solana’s liquidity velocity.\n*   **MetaDAO ($META)**: Utilizes a **Futarchy governance** moat. Its tokenomics are backed by a treasury-linked NAV (Net Asset Value) floor. If $META trades below its treasury backing, holders can vote to liquidate. This \"unruggable\" design attracts high-quality founders who want to signal long-term alignment. MetaDAO generates revenue via a **0.50% fee** on its Futarchy AMM, which reached **$2.4M in total revenue** by late 2025.\n*   **Uniswap CCA**: The **Continuous Clearing Auction (CCA)** has become the technical moat for EVM launches. By clearing bids block-by-block over several days, it eliminates gas wars and sniping. Crucially, the auction proceeds automatically seed a **Uniswap v4 pool** at the discovered price, making separate market-making deals obsolete.\n\n### Projects Poised for Market Share Growth\n\n#### **1. Meteora (Solana Infrastructure)**\nMeteora is poised for continued growth because it is the **utility layer** for other launchpads. Even when \"competitors\" like *Believe* or *Time.fun* launch tokens, they utilize Meteora’s DBC tech. Its moat is the **20% recurring fee capture** from secondary trading—a massive revenue multiplier compared to the one-time fees of traditional IDO platforms.\n\n#### **2. MetaDAO (Institutional Standard)**\nMetaDAO is the only platform solving the **\"broken token\"** problem (the equity-token split). By using the **STAMP contract**, it ensures 100% of value flows to the token, not a separate equity entity. As regulatory pressure increases in 2026, institutional capital will gravitate toward these \"onchain corporations\" with enforceable rights.\n\n#### **3. HuddlePad (Arbitrum/EVM)**\nAs the first major implementation of the **Uniswap CCA model**, HuddlePad is the primary contender for EVM launch dominance. The success of the **$AZTEC** launch ($59M raised, 16.6k bidders) proved that retail participants prefer the \"smooth\" price discovery of CCA over the bot-dominated lotteries of previous cycles.\n\nThe clear winners are those moving away from being \"casinos\" and toward being **liquidity providers** (Meteora) and **governance lawyers** (MetaDAO).",
+    "executionTimeMs": 115064,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "category_ids": [
+            513,
+            522,
+            528
+          ]
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "token launchpad market share trends and top performing platforms 2025 2026",
+          "days_back": 30
+        }
+      },
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare top token launchpads by number of launches and average ROI in the last 6 months. Include projects like DAO Maker, Seedify, and Jupiter LFG."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "tokenomics analysis and value accrual of launchpad tokens MET DAO SFUND Echo Legion",
+          "days_back": 60
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Meteora",
+            "DAO Maker",
+            "Seedify.fund",
+            "Echo",
+            "LEGION",
+            "Jupiter",
+            "Pump.fun"
+          ],
+          "search_type": "name"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Continuous Clearing Auctions CCA protocol and token launch innovations 2026",
+          "days_back": 30
+        }
+      }
+    ],
+    "totalTokens": 120457
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

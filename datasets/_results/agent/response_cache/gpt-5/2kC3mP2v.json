@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "2kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "2kC3mP2v",
+    "query": "analyze the crypto agent market - which protocols are gaining traction and why",
+    "level": 1,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "ai"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 466
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 3887
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9456
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 13894
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 17806
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 23582
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 28507
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 34949
+        }
+      },
+      {
+        "stepNumber": 9,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 41253
+        }
+      },
+      {
+        "stepNumber": 10,
+        "text": "Here’s a concise, current view of the crypto “agent” market—autonomous software with wallets that transact and coordinate onchain—plus who’s gaining traction and why.\n\nWhat “agent” means in crypto\n- Crypto‑native agents: autonomous onchain actors doing DeFi (execution, rebalancing, liquidation), prediction markets, social/influencer ops, etc.\n- AI→onchain bridges: consumer/enterprise AI agents that can hold wallets, pay APIs and services, and coordinate with other agents via open standards and marketplaces.\n\nProtocols gaining real traction\n\n1) Olas (OLAS) – crypto‑native, onchain agent network\n- Evidence of traction:\n  - 700k+ agent transactions/month and 3.5M+ cumulative by Feb 2025; >4M by late Feb; 5.25M by Mar 31, 2025 with 599 daily active agents across 9 chains; >3.4M agent‑to‑agent Mech requests in Q1 (Olas blog Q1 roundup; Mech Marketplace launch; fundraise note).\n  - Core contributor raised $13.8M led by 1kx; launched “Pearl” (agent app store) and Mech Marketplace (agent‑to‑agent services) (olas.network).\n- Why it’s working:\n  - Full‑stack for agents: build/operate (Olas Stack), coordinate/stake (Proof of Active Agent), distribution (Pearl app), and an agent‑to‑agent marketplace (Mech) (docs.olas.network; olas.network/blog).\n  - Clear onchain usage and agent‑to‑agent economies (prediction, DeFAI, social).\n\nSources: olas.network/blog/olas-announces-the-agent-app-store-after-core-contributor-raises-13-8m-led-by-1kx; olas.network/blog/olas-launches-the-mech-marketplace-the-ai-agent-bazaar; olas.network/blog/q-1; docs.olas.network\n\n2) Fetch.ai / ASI Alliance – agent discovery/orchestration and marketplace\n- Evidence of traction:\n  - “Agentverse” directory hosting 2M+ agents; ASI:One orchestration platform and business portal launched (VentureBeat; docs.asi1.ai; docs.agentverse.ai).\n  - Institutional custody support for ASI (FET) by BitGo; positioned as micro‑payment rail for agents (BitGo blog).\n- Why it’s working:\n  - A discovery and distribution layer (Agentverse) connected to an orchestration stack (ASI:One) and uAgents framework—gives developers and brands a way to ship agents quickly across chat/marketplaces (docs.asi1.ai; uagents.fetch.ai; docs.agentverse.ai).\n  - Strong mindshare from ASI merger (FET/AGIX/OCEAN) and enterprise‑facing narrative (VentureBeat).\n\nSources: venturebeat.com/.../fetch-launches-asi-one-and-business-tier; docs.asi1.ai; docs.agentverse.ai; uagents.fetch.ai; bitgo.com/resources/blog/bitgo-adds-support-for-fetch-ai-fet\n\n3) x402 + Coinbase Payments MCP (Base/USDC) – agentic payments standard\n- Evidence of traction:\n  - x402 Foundation launched with Cloudflare; stats page shows meaningful 30‑day volumes and transaction counts (x402.org; Cloudflare blog). Coinbase’s Payments MCP lets agents (Claude, Gemini, etc.) create wallets, on‑ramp, and send stablecoin payments from prompts (TradingView/The Block; Decrypt/Yahoo).\n- Why it’s working:\n  - Agents need low‑friction, programmable payments; HTTP‑native x402 + stablecoins on a cheap L2 (Base) is compelling for per‑request micro‑payments and API gating (x402 whitepaper; Coinbase/Cloudflare).\n  - Early infra partner momentum and clean DX will likely pull more web services into agentic paywalls.\n\nSources: x402.org; x402 whitepaper (x402.org/x402-whitepaper.pdf); blog.cloudflare.com/x402; tradingview.com/news/the_block:...-coinbase-unveils-tool-for-ai-agents; decrypt.co/.../coinbase-ai-crypto-payments-new-protocol\n\n4) NEAR Shade Agents – verifiable, non‑custodial multi‑chain agents\n- Evidence of traction:\n  - Formal framework launched with docs and examples; integrates TEEs and NEAR Chain Signatures to keep agents verifiable, non‑custodial, and able to sign on any chain (NEAR docs/blog).\n- Why it’s working:\n  - Solves a real blocker for serious agent use: custody + verification with privacy. Attractive for finance and enterprise agents needing attestable behavior and multi‑chain signing.\n\nSources: docs.near.org/ai/shade-agents/introduction; pages.near.org/blog/shade-agents-the-first-truly-autonomous-ai-agents\n\n5) GaiaNet (GAIA) – decentralized agent hosting/inference infra\n- Evidence of traction:\n  - $20M raised (seed + Series A); partnerships (e.g., io.net GPUs); claims of large node installs and revenue via exchange/marketing materials (Gaia blog; Chainwire; Bitget Academy).\n- Why it’s working:\n  - Agents need cheap, distributed inference and hosting. A DePIN‑style network + token incentives is a natural fit as agent volumes grow.\n\nSources: gaianet.ai/blog/gaia-labs-raises-20m-series-a; chainwire.org/.../io-net-and-gaia-partner-to-streamline-ai-agent-network-inferencing; bitget.com/academy/what-is-gaia-and-how-does-it-work\n\n6) AgentFi – onchain DeFi agents as tradable NFTs (early but interesting)\n- Evidence of traction:\n  - Backed by Generative Ventures/Spartan Labs; live strategies on Blast; NFT‑native agent packaging and marketplace plans (agentfi.io; docs).\n- Why it’s working:\n  - Meets existing crypto demand (packaged strategies, memetics, secondary trading of “agents with track record”). Early but aligns with DeFi user behavior.\n\nSources: agentfi.io; docs.agentfi.io\n\nAlso relevant “execution substrate” for agents\n- CoW Protocol (intents/solvers) is widely used by bots/agents to execute programmatic orders with MEV‑aware routing and hooks (docs.cow.fi). It’s not an “agent network,” but a mature layer many agents already rely on.\n\nWhy these are winning\n- Distribution and UX: App stores/marketplaces for agents (Olas Pearl; Mech; Agentverse) reduce friction for both developers and users.\n- Verifiable autonomy: Security/custody primitives (NEAR TEEs + Chain Signatures; Olas Proof of Active Agent) make it viable to let agents hold funds and act without humans.\n- Payments that fit agents: x402 + stablecoins on L2s give sub‑$1, sub‑second payments that agents can trigger natively.\n- Clear onchain usage: Olas publicly reports agent transactions/DAAs and agent‑to‑agent activity, which builds credibility; Fetch/ASI highlights massive agent directories and enterprise‑oriented orchestration.\n- Institutional/equity tailwinds: Funding (Olas core contributor, Gaia $20M) and custody (BitGo for ASI) de‑risk adoption.\n\nHow to track this market (practical KPIs)\n- Agent activity: agent transactions/day, daily active agents, share of agent‑to‑agent requests (Olas reports these).\n- Payments rails: x402 monthly transactions, unique buyers/sellers, USDC/Base flows tied to agent endpoints (x402.org).\n- Discovery/distribution: Agentverse listings and active agents, usage of ASI:One endpoints, uAgents SDK adoption.\n- Security/verification: deployments using Shade Agents (TEEs/Chain Signatures), audits/attestations.\n- Economic outcomes: agent marketplace GMV (Mech; AgentFi), realized PnL for DeFAI agents, stablecoin volumes attributable to agent commerce.\n\nRisks and open questions\n- Real vs promotional usage: Some stats (e.g., directory counts, node installs) can be inflated; prioritize verifiable onchain metrics and third‑party dashboards.\n- Security/governance: Rogue agents, key management, and model‑induced errors; frameworks with verifiability and constraints should fare better.\n- Standard fragmentation: ASI:One vs other agent protocols, x402 vs alternatives; watch where developers converge.\n\nBottom line\n- Today’s clear leader in onchain usage is Olas (measurable multi‑chain agent and agent‑to‑agent activity, plus a working marketplace and app store).\n- For AI→onchain orchestration and enterprise reach, Fetch.ai/ASI:One + Agentverse looks strongest.\n- For payments, x402/Payments MCP is the early default, thanks to stablecoins and a light‑touch, HTTP‑native integration.\n- NEAR’s Shade Agents is the most credible bet on verifiable, non‑custodial agents operating across chains.\n- DePIN‑style infra (GaiaNet) and DeFi‑packaged agents (AgentFi) are emerging complements that could scale as agent commerce grows.\n\nIf you want, tell me the sub‑segment you care about (DeFi agents, consumer AI payments, or enterprise orchestration), and I’ll draft a shortlist with metrics to monitor and teams to contact.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 47928
+        }
+      }
+    ],
+    "finalAnswer": "Here’s a concise, current view of the crypto “agent” market—autonomous software with wallets that transact and coordinate onchain—plus who’s gaining traction and why.\n\nWhat “agent” means in crypto\n- Crypto‑native agents: autonomous onchain actors doing DeFi (execution, rebalancing, liquidation), prediction markets, social/influencer ops, etc.\n- AI→onchain bridges: consumer/enterprise AI agents that can hold wallets, pay APIs and services, and coordinate with other agents via open standards and marketplaces.\n\nProtocols gaining real traction\n\n1) Olas (OLAS) – crypto‑native, onchain agent network\n- Evidence of traction:\n  - 700k+ agent transactions/month and 3.5M+ cumulative by Feb 2025; >4M by late Feb; 5.25M by Mar 31, 2025 with 599 daily active agents across 9 chains; >3.4M agent‑to‑agent Mech requests in Q1 (Olas blog Q1 roundup; Mech Marketplace launch; fundraise note).\n  - Core contributor raised $13.8M led by 1kx; launched “Pearl” (agent app store) and Mech Marketplace (agent‑to‑agent services) (olas.network).\n- Why it’s working:\n  - Full‑stack for agents: build/operate (Olas Stack), coordinate/stake (Proof of Active Agent), distribution (Pearl app), and an agent‑to‑agent marketplace (Mech) (docs.olas.network; olas.network/blog).\n  - Clear onchain usage and agent‑to‑agent economies (prediction, DeFAI, social).\n\nSources: olas.network/blog/olas-announces-the-agent-app-store-after-core-contributor-raises-13-8m-led-by-1kx; olas.network/blog/olas-launches-the-mech-marketplace-the-ai-agent-bazaar; olas.network/blog/q-1; docs.olas.network\n\n2) Fetch.ai / ASI Alliance – agent discovery/orchestration and marketplace\n- Evidence of traction:\n  - “Agentverse” directory hosting 2M+ agents; ASI:One orchestration platform and business portal launched (VentureBeat; docs.asi1.ai; docs.agentverse.ai).\n  - Institutional custody support for ASI (FET) by BitGo; positioned as micro‑payment rail for agents (BitGo blog).\n- Why it’s working:\n  - A discovery and distribution layer (Agentverse) connected to an orchestration stack (ASI:One) and uAgents framework—gives developers and brands a way to ship agents quickly across chat/marketplaces (docs.asi1.ai; uagents.fetch.ai; docs.agentverse.ai).\n  - Strong mindshare from ASI merger (FET/AGIX/OCEAN) and enterprise‑facing narrative (VentureBeat).\n\nSources: venturebeat.com/.../fetch-launches-asi-one-and-business-tier; docs.asi1.ai; docs.agentverse.ai; uagents.fetch.ai; bitgo.com/resources/blog/bitgo-adds-support-for-fetch-ai-fet\n\n3) x402 + Coinbase Payments MCP (Base/USDC) – agentic payments standard\n- Evidence of traction:\n  - x402 Foundation launched with Cloudflare; stats page shows meaningful 30‑day volumes and transaction counts (x402.org; Cloudflare blog). Coinbase’s Payments MCP lets agents (Claude, Gemini, etc.) create wallets, on‑ramp, and send stablecoin payments from prompts (TradingView/The Block; Decrypt/Yahoo).\n- Why it’s working:\n  - Agents need low‑friction, programmable payments; HTTP‑native x402 + stablecoins on a cheap L2 (Base) is compelling for per‑request micro‑payments and API gating (x402 whitepaper; Coinbase/Cloudflare).\n  - Early infra partner momentum and clean DX will likely pull more web services into agentic paywalls.\n\nSources: x402.org; x402 whitepaper (x402.org/x402-whitepaper.pdf); blog.cloudflare.com/x402; tradingview.com/news/the_block:...-coinbase-unveils-tool-for-ai-agents; decrypt.co/.../coinbase-ai-crypto-payments-new-protocol\n\n4) NEAR Shade Agents – verifiable, non‑custodial multi‑chain agents\n- Evidence of traction:\n  - Formal framework launched with docs and examples; integrates TEEs and NEAR Chain Signatures to keep agents verifiable, non‑custodial, and able to sign on any chain (NEAR docs/blog).\n- Why it’s working:\n  - Solves a real blocker for serious agent use: custody + verification with privacy. Attractive for finance and enterprise agents needing attestable behavior and multi‑chain signing.\n\nSources: docs.near.org/ai/shade-agents/introduction; pages.near.org/blog/shade-agents-the-first-truly-autonomous-ai-agents\n\n5) GaiaNet (GAIA) – decentralized agent hosting/inference infra\n- Evidence of traction:\n  - $20M raised (seed + Series A); partnerships (e.g., io.net GPUs); claims of large node installs and revenue via exchange/marketing materials (Gaia blog; Chainwire; Bitget Academy).\n- Why it’s working:\n  - Agents need cheap, distributed inference and hosting. A DePIN‑style network + token incentives is a natural fit as agent volumes grow.\n\nSources: gaianet.ai/blog/gaia-labs-raises-20m-series-a; chainwire.org/.../io-net-and-gaia-partner-to-streamline-ai-agent-network-inferencing; bitget.com/academy/what-is-gaia-and-how-does-it-work\n\n6) AgentFi – onchain DeFi agents as tradable NFTs (early but interesting)\n- Evidence of traction:\n  - Backed by Generative Ventures/Spartan Labs; live strategies on Blast; NFT‑native agent packaging and marketplace plans (agentfi.io; docs).\n- Why it’s working:\n  - Meets existing crypto demand (packaged strategies, memetics, secondary trading of “agents with track record”). Early but aligns with DeFi user behavior.\n\nSources: agentfi.io; docs.agentfi.io\n\nAlso relevant “execution substrate” for agents\n- CoW Protocol (intents/solvers) is widely used by bots/agents to execute programmatic orders with MEV‑aware routing and hooks (docs.cow.fi). It’s not an “agent network,” but a mature layer many agents already rely on.\n\nWhy these are winning\n- Distribution and UX: App stores/marketplaces for agents (Olas Pearl; Mech; Agentverse) reduce friction for both developers and users.\n- Verifiable autonomy: Security/custody primitives (NEAR TEEs + Chain Signatures; Olas Proof of Active Agent) make it viable to let agents hold funds and act without humans.\n- Payments that fit agents: x402 + stablecoins on L2s give sub‑$1, sub‑second payments that agents can trigger natively.\n- Clear onchain usage: Olas publicly reports agent transactions/DAAs and agent‑to‑agent activity, which builds credibility; Fetch/ASI highlights massive agent directories and enterprise‑oriented orchestration.\n- Institutional/equity tailwinds: Funding (Olas core contributor, Gaia $20M) and custody (BitGo for ASI) de‑risk adoption.\n\nHow to track this market (practical KPIs)\n- Agent activity: agent transactions/day, daily active agents, share of agent‑to‑agent requests (Olas reports these).\n- Payments rails: x402 monthly transactions, unique buyers/sellers, USDC/Base flows tied to agent endpoints (x402.org).\n- Discovery/distribution: Agentverse listings and active agents, usage of ASI:One endpoints, uAgents SDK adoption.\n- Security/verification: deployments using Shade Agents (TEEs/Chain Signatures), audits/attestations.\n- Economic outcomes: agent marketplace GMV (Mech; AgentFi), realized PnL for DeFAI agents, stablecoin volumes attributable to agent commerce.\n\nRisks and open questions\n- Real vs promotional usage: Some stats (e.g., directory counts, node installs) can be inflated; prioritize verifiable onchain metrics and third‑party dashboards.\n- Security/governance: Rogue agents, key management, and model‑induced errors; frameworks with verifiability and constraints should fare better.\n- Standard fragmentation: ASI:One vs other agent protocols, x402 vs alternatives; watch where developers converge.\n\nBottom line\n- Today’s clear leader in onchain usage is Olas (measurable multi‑chain agent and agent‑to‑agent activity, plus a working marketplace and app store).\n- For AI→onchain orchestration and enterprise reach, Fetch.ai/ASI:One + Agentverse looks strongest.\n- For payments, x402/Payments MCP is the early default, thanks to stablecoins and a light‑touch, HTTP‑native integration.\n- NEAR’s Shade Agents is the most credible bet on verifiable, non‑custodial agents operating across chains.\n- DePIN‑style infra (GaiaNet) and DeFi‑packaged agents (AgentFi) are emerging complements that could scale as agent commerce grows.\n\nIf you want, tell me the sub‑segment you care about (DeFi agents, consumer AI payments, or enterprise orchestration), and I’ll draft a shortlist with metrics to monitor and teams to contact.",
+    "executionTimeMs": 144499,
+    "totalTokens": 221728,
+    "stepCount": 10,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto agent protocols gaining traction 2025 onchain AI agents Autonolas Fetch.ai AgentFi SuperAgent RAILGUN agentic crypto market analysis 2024 2025",
+          "numResults": 5,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Autonomous AI agents crypto protocols Autonolas OLAS traction 2025 adoption Fetch.ai agents framework ASI merger 2024 2025 Coinbase Ventures onchain AI agents portfolio Autonolas Morpho agent intents Uniswap XO AgentKit",
+          "numResults": 10,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Fetch.ai agent framework adoption 2025 agents marketplace Agentverse Autonomous Economic Agents use cases 2025 news ASI alliance adoption metrics 2025",
+          "numResults": 8,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "intent-based protocols agents solvers crypto 2025 CoW Protocol solver adoption daily volume 2025 intents Uniswap X solvers Paymasters agents ERC-4337",
+          "numResults": 8,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "ASI:One standard uAgents Fetch.ai adoption 2025 'uAgents' GitHub stars 'agentverse users' Fetch.ai partnerships 2025 'ASI Alliance' brands agents",
+          "numResults": 10,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Gaianet AI agents decentralized network 2025 token traction partnerships 'agent network' 'Gaianet' funding 2025 'onchain'",
+          "numResults": 8,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "AgentFi crypto AGENT token 'agent economy' 2025 'agent-based' 'onchain agents' 'AGENT token' traction",
+          "numResults": 10,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "x402 Foundation AI payments standard crypto 2025 'Coinbase' Cloudflare 'Model Context Protocol' MCP payments standard 'AI wallets' 'onchain agents'",
+          "numResults": 8,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "NEAR AI agents 2025 onchain 'agent framework' 'Near' 'autonomous agents' 'Bos' 'Open Web Foundry AI agents'",
+          "numResults": 6,
+          "startPublishedDate": "2024-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

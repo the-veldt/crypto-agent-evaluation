@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "Dw4kSv6j",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Dw4kSv6j",
+    "query": "Compare the top trends, narratives, and 'metas' in crypto - Analyze the TAM, sustainability, and moat-like characteristics of the narrative. Which trends have the most investiability (liquid and private market)?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe top crypto trends in early 2026 are privacy coins, real-world assets (RWAs), prediction markets, perpetual DEXs, meme and social tokens, and regulatory clarity. Narratives with the largest total addressable markets (TAM) and strongest investability are RWAs, privacy infrastructure, and perpetual DEXs, with privacy coins showing renewed strength and moat potential due to regulation and tech advances. Meme/social coins and NFT IP chains remain highly liquid but are less sustainable. For private markets, infra and RWA projects offer the best risk/reward. Refer below for a detailed breakdown.\n\n───\n\n1. Top Trends, Narratives, and \"Metas\" in 2026\n\nA. Privacy Coins & Infrastructure\n- Monero (XMR), Zcash (ZEC), and Dash are trending, with privacy as a core moat (a16zcrypto).  \n- Privacy is now seen as essential infrastructure: \"secrets-as-a-service\" and privacy-preserving messaging/apps are in focus.\n- Regulatory pressure and surveillance have driven demand for privacy, making this meta both resilient and investable.\n\nB. Real-World Assets (RWAs)\n- Tokenization of assets (securities, real estate, commodities) is expanding, with institutional adoption growing.\n- RWAs have a massive TAM (trillions), are attracting both public and private capital, and benefit from regulatory clarity (cryptorank.io).\n- Sustainability is strong if legal frameworks mature; moat depends on integration with real-world legal systems.\n\nC. Prediction Markets\n- Platforms like Polymarket are seeing broader use beyond politics—covering product launches, culture, and macro events (a16zcrypto).\n- TAM is significant (global betting/forecasting markets), and these platforms are sticky if they maintain regulatory compliance and liquidity.\n\nD. Perpetual DEXs & Derivatives\n- On-chain derivatives and perpetuals (Perp DEXs) are trending due to permissionless access and innovation in trading primitives.\n- TAM is large (derivatives markets are orders of magnitude larger than spot), and sustainability hinges on liquidity and UX.\n- Moat comes from network effects, composability, and regulatory arbitrage.\n\nE. Meme/Social Tokens & NFT IP Chains\n- Meme coins (e.g., Pudgy Penguins, $PENGU) and programmable IP chains (e.g., Story Protocol) are highly liquid and trend-driven.\n- NFT projects with strong communities (Pudgy Penguins, Doodles) remain culturally relevant and investable for short-term momentum.\n- Sustainability is low—these are highly cyclical, with weak moats outside of brand/community.\n\nF. Regulatory Clarity & Institutional Adoption\n- U.S. Senate’s Digital Asset Market Clarity Act and MSCI’s inclusion of crypto treasuries signal a shift toward institutional acceptance (Sen. Lummis).\n- This meta underpins RWAs, stablecoins, and blue-chip infrastructure, driving investability for compliant projects.\n\nG. AI & Crypto Convergence\n- AI-driven protocols and productivity tools (Cowork, Claude AI launches) are increasingly integrated with crypto primitives.\n- Still early, but potential TAM is massive; moat depends on proprietary data/models.\n\n2. TAM, Sustainability, and Moat Analysis\n\n| Narrative/Meta         | TAM               | Sustainability      | Moat/Defensibility              | Investability (Liquid) | Investability (Private) |\n|------------------------|-------------------|--------------------|----------------------------------|------------------------|------------------------|\n| Privacy Coins/Infra    | High (payments, infra) | High               | Tech edge, regulatory arbitrage  | High (XMR, ZEC, Dash)  | High (infra startups)  |\n| RWAs                   | Very High (trillions)  | High (if regulated)| Legal partnerships, compliance   | Growing (e.g., Ondo)   | Very High              |\n| Prediction Markets     | High (betting, info)   | Medium-High        | Network effect, liquidity pools  | Moderate               | High                   |\n| Perp DEXs/Derivatives  | Very High              | High               | Liquidity, composability         | High                   | High                   |\n| Meme/Social Tokens     | Low-Medium             | Low                | Brand/community                  | Very High              | Low                    |\n| NFT IP Chains          | Medium                 | Medium             | Network, partnerships            | Growing                | Moderate               |\n| AI + Crypto            | Very High (future)     | TBD                | Data/model edge                  | Early                  | High (infra, SaaS)     |\n\n3. Most Investable Trends\n\nPublic/Liquid Markets:\n- Privacy coins (XMR, ZEC, Dash) and meme/social coins (PENGU, Story) are highly liquid, but privacy coins offer better sustainability.\n- Perp DEX tokens and RWA tokens (where available) are strong bets if liquidity is sufficient.\n\nPrivate Markets:\n- RWA infrastructure, privacy infra, and AI/crypto convergence projects offer the best risk/reward due to large TAM and defensibility.\n- Early-stage prediction market and NFT/IP projects are also attractive for high-growth potential.\n\n4. Notable Risks\n\n- Meme/social coins are prone to pump-and-dump cycles (see recent NYC mayor coin rug).\n- Regulatory risk remains for privacy and derivatives, but U.S./global clarity is improving.\n- RWAs depend on legal enforceability and off-chain integration.\n\n5. Key Takeaways\n\n- For sustainable, defensible exposure, focus on privacy infrastructure, RWA platforms, and perp DEXs.\n- For high-beta, short-term plays, meme/social coins and NFT IP chains are most liquid.\n- Private investors should target infrastructure and compliance-driven projects poised for institutional adoption.\n- The \"meta\" is shifting from pure narrative to real revenue, compliance, and utility—projects that combine these will command premium valuations.\n\nFor more on these trends, see a16zcrypto's 2026 outlook, cryptorank.io’s 2025/2026 playbook, and ongoing regulatory updates (Sen. Lummis).",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

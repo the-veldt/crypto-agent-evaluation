@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.337Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "Qw8zKjHc",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Qw8zKjHc",
+    "query": "what projects have had the most mindshare gain over the last 24 hours",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"p0JUnVc7YujT3ufA\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find projects with the highest mindshare gain over the last 24 hours. Focus on Solana and Ethereum ecosystems. High trader growth and liquidity preferred.\",\n      \"sort_by\": \"mentions_change_24h\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"Es8GCswGAXLI2nwxZhipcMfjofnetDYdjvkXX8+ztFPWJOQRwd73hQVXaaUnyKhfwN7p4Pw0d9WRs267viBFPHgv2o7V4qm6GNXFWmVpa7JmcSZoQIUgpovqngkl5THbLiug11E+2vbGXXAGemceIhnR1nc2rfz7nwuavUCngyQ+tqh97NSom0hvnj92WcBa8+N7byXE0ex5HmpTsHt42UY0IdhBZVTx5bReUNdwLc/PPY2YT09J2rtkq8fKQGox2HHa0AxYCcnFLiIPSQn9RNBssVckb7eWnkVhVmRqPH82GQzwobTkttXnjKQF57xLvUOIiNp8kZlfCevbexTmsqeWwoJ81JTVMxhm9T2miLIqhACkpHDIO8G8VJoy3o86JyAHPbSQZtmGNKFL0DlA9NzF4QoN13ZxlsZvcma6Vvj7ERzlTCQPh7XQ4dOUFFdA/GVQflDCOOBWmSQIZq1fsspRyAu0EHRP0gKIRdiLKeESRt/Emzgo2jJh7HsX9peyQmYoB9lAlZ8Y2rmFRu3rzDyHQvS8InBOZ+MlFgOb1n3VWe3x/KqWshcP3/hFNjqvZ2hK/XkE7c5l9lCCk6EEYEVBfUOBIHbnsype73XTDVBTaJrkWk8lcnyHJURo8x/kBOodZze+LAqsKDIrbsqlej/kqZ+gtxa3e3yBZGrG9xXlwrDEufBeNoY5yKuGGejFrTptUOysKwE7vx1opFnxmJyhzA6+gBWh3bw+/74m03G3pHFElDWfNK0PD5PIc8tGcXhFPm3aj4o8t6zVBWWltWXDuZ+PVMrOks9HaMjn9p8PmkRuhboyTuvF5ecp2RYbqtFoQN8Tq7gKqK2QeI6SLl6mTKrRpi8LkjrG0ZItGGKsIkM/vzdn92UvMKt1cwfZmKYHnl6DFN9TQOk0bG1zGx798qMl+oq6a8NXDQQ/9l9e3ZUWFYNd69SSM+NwWYi45VNc1wmwMjEf+MFtHavs+YYdvwBokxUMcxN4ircLIjWC4rTY7p293NOE/eaLDs9xi3hUqylXCNVVhK0mQeDIJsiJQ01mOtm+xu19ORz/VkZKNlqW46Z3uQ/YD7PNZZMxozyl21DLkFFwkxJ2XrB+qRGlXj9vSch1fng1asjl3fWWJg==\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"WM7WQ6zJZgjnDftj\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"include_global\": true\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EpgJCpUJAXLI2nzjTfJTJI690KlssoOq/jl2KtqpTdNebGs3/P0IgEBI2be82FA6coJpTm1FN0H2OLj6lpErRr6oZjoUzmxVV2fZL4mXS5YYOOkI/lTDLMCVCgEC1dk2yeSygNhRpTsrS8WqpT9atfIjAyLwqQC8SV+zu/QyBx6MZ0ws6G6YViQU18ZWmitkMXRlCOHnxRG4fvVbt5+pdi2nY7fT8mozNLjNgbTbBHpARBVkHOMUdqWeQp5G4lxIkKURpuuvit5IaeeESc0jw17AbVCNJJITAKF07BisHx+95CknxuC1rLWc9X/sEOCpBNpsaC0vHb1SaXaOmW63YvZNe9SU74/jUfGZpj0LwruQhABwZeI2Q05q9wuAzXykonCuk1iNNxUs7i0aiLuxFLDZ+Vl3Cr9Spf2yhLvZZjyT97bQ5+BJqSSJhmRPQjJu1gGew5uoNtZOByFkuM7YRIWsxJNLGBrAMLO0rBMJNVCW9uzvRB+EAgpDEsD8z/DlmQX4WRKK52CWA4LOJAgNr+ldFoDo7AwYwo59LeqrBOX9G3PZRO/CUC1bUPQcT0lqgW+eNqBvbX7nWyyS/nYzThMEWLDGcL2dH2tmUp4PpAwleGsMHRIAkRzcZqdHOmBaLcPgA6kSjjVz3l/1euuZPscoK5uLevdqsM1mxEp24IhjJ3Sa8tiWczhH4jRFIgVEha8te8yFklI5W253ddCB8BbPT8OV/UTXGoHn11bX2EbQD5yqr0D76nyrVXN2H0212jDJsjmFUqx88qCsWhFu87Y8AUgGs5UJffd0EIkM+TFPzGpVErDxR8X5I708latrnN1vRIOQ0I0T7057ohVCio/x+ZNLP6soDGMPF+cBEi2DQQgzA5L5s3vbmhMHKjQnqenScOJBunpkQ5XlzlEZ2Z5QodKVPhJjfjnGSsITw9yLwdrQaqm2luXT1F1hIQwjveTsxVrwwqIBuhsh092z5GU6PcTHsloUZZKyXyEconE5Ik+rFEa8cDv/FFmdPcTziXc9FnkTUVBjfzYnB5UxMO6zpdPlz13QNOZggmi2w99Cnat6UJ1K9NVPZzrxnbezBViDzNzyPXPZ2fxoxe4emjNEf3WR1tSexBtCnoEqo8PitgLuJaOp1lHn9lqHMjeKnEbt7G9GkgLSy2EJaZrhPoaAyZz2LdjGPGef3LPVW8gthlcKYbgDMvUCoej0JFXh0KNbs+djZ2QJrHxJD6sSxl1HE/jIaHss6FXc3orXC8f+urARwCPY2NcZwtFfjcnbQ2VsXYoyiZbFcwr1S1WUDYVol+UicwJzbxR61KtfCBKWRIqEEMj4XHW6rQMjMjOSjMlR4JbhdjHroVxtlpm7bTFeyDZFeZDMZFPUQ+8S88VnduXKCKfKwNlew3XTrM4yKvlLk7wqe6XLLIS1qjf4usUW5QF//oBSrkHZkCNJaH1hZ8JJjZng4aOrT7otQYX7QOWfdsge+BXSluNK5BWV9EO10Ov92aNZVHD3kfyYXM+V3zK0Pnmk6Dfxes80lyafuvyYtenDX2Cf45h9VARLaEqHyc38/4XQgSBK\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"zanJf5foUV0bG6m0\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending projects with high trader growth and volume spikes in the last 24 hours. Focus on Solana.\",\n      \"sort_by\": \"traders_change\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"BZNM0RRKZaSCFp8W\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"projects with most mindshare gain and social momentum in the last 24 hours\",\n      \"days_back\": 1\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Mindshare gain over the last 24 hours has been dominated by a shift toward **institutional-grade infrastructure** and **agentic commerce** catalysts. While memecoin volatility persists on Solana, the substantive mindshare is currently concentrated in massive structural announcements from Polygon, Celestia, and Hyperliquid.\\n\\n### Top Mindshare Gainers by Catalyst\\n\\n1.  **Polygon (10322)**: Gained massive attention following a **$250 million acquisition** of **Coinme** and **Sequence**. This move aims to build the \\\"Polygon Open Money Stack,\\\" integrating regulated U.S. fiat on/off-ramps (48 states) with embedded wallet infrastructure. The market is pricing this as a major play for the stablecoin settlement and neobanking verticals.\\n\\n2.  **Celestia (2651)**: Captured the technical narrative with the announcement of **Fibre**, a ZODA-based data availability (DA) encoding system. Celestia claims this enables **1 Tb/s blockspace**, which is approximately **881x faster** than current KZG-based encoding. This \\\"post-throughput\\\" era positioning targets high-frequency applications like onchain orderbooks and AI-agent micropayments.\\n\\n![Celestia Blockspace Throughput Iceberg](https://res.cloudinary.com/dgjriemfd/image/upload/v1768326493/veldt/zttsqeqirmgyunq6q5rf.jpg)\\n\\n### Onchain Momentum & Trading Spikes\\n\\nOn Solana, **U.S Oil ($USOR)** and **Lyn ($LYN)** have seen the most aggressive trader growth. **U.S Oil** is gaining traction as an RWA play for physical oil reserves, seeing a **888% increase in traders** and generating over **$2.1M in 24h volume**. **Lyn** remains a high-velocity memecoin play with a **1,888% spike in trader count** over the same period.\\n\\n| Project | Symbol | Trader Growth (24h) | Volume (24h) |\\n| :--- | :--- | :--- | :--- |\\n| **Lyn** | LYN | +1,888% | $797K |\\n| **U.S Oil** | USOR | +888% | $2.19M |\\n| **Tetsuo Coin** | TETSUO | +518% | $701K |\\n| **Orynth** | ORY | +260% | $966K |\\n\\n**Hyperliquid (6373)** maintains a persistent lead in derivatives mindshare. Despite having no active incentives, the protocol is generating **$2M in daily fees**. The recent **$910M buyback** by the Assistance Fund has reinforced a floor for the **HYPE** token, while the rollout of **HIP‑3** (native markets) is expected to further reduce USDC value leakage and drive open interest toward new all-time highs in 2026.\\n\\n### Institutional Pivot: Pyth and ZKsync\\n\\n**Pyth Network (10656)** is trending due to the introduction of the **Pyth Reserve**. The protocol now routes **33% of its revenue** (from Pyth Pro and Entropy) into DAO-managed open-market buybacks of **PYTH**. This aligns tokenomics with its growing institutional ARR, which surpassed **$1M in its first month**.\\n\\n**ZKsync (15022)** released its **2026 Roadmap**, which shifts focus heavily toward \\\"Real-World Adoption.\\\" The strategy prioritizes **Prividium** (a privacy platform for enterprises) and the **Airbender zkVM** for settlement. This has re-engaged the institutional narrative for Ethereum L2s, specifically targeting regulated financial entities.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Mindshare gain over the last 24 hours has been dominated by a shift toward **institutional-grade infrastructure** and **agentic commerce** catalysts. While memecoin volatility persists on Solana, the substantive mindshare is currently concentrated in massive structural announcements from Polygon, Celestia, and Hyperliquid.\n\n### Top Mindshare Gainers by Catalyst\n\n1.  **Polygon (10322)**: Gained massive attention following a **$250 million acquisition** of **Coinme** and **Sequence**. This move aims to build the \"Polygon Open Money Stack,\" integrating regulated U.S. fiat on/off-ramps (48 states) with embedded wallet infrastructure. The market is pricing this as a major play for the stablecoin settlement and neobanking verticals.\n\n2.  **Celestia (2651)**: Captured the technical narrative with the announcement of **Fibre**, a ZODA-based data availability (DA) encoding system. Celestia claims this enables **1 Tb/s blockspace**, which is approximately **881x faster** than current KZG-based encoding. This \"post-throughput\" era positioning targets high-frequency applications like onchain orderbooks and AI-agent micropayments.\n\n![Celestia Blockspace Throughput Iceberg](https://res.cloudinary.com/dgjriemfd/image/upload/v1768326493/veldt/zttsqeqirmgyunq6q5rf.jpg)\n\n### Onchain Momentum & Trading Spikes\n\nOn Solana, **U.S Oil ($USOR)** and **Lyn ($LYN)** have seen the most aggressive trader growth. **U.S Oil** is gaining traction as an RWA play for physical oil reserves, seeing a **888% increase in traders** and generating over **$2.1M in 24h volume**. **Lyn** remains a high-velocity memecoin play with a **1,888% spike in trader count** over the same period.\n\n| Project | Symbol | Trader Growth (24h) | Volume (24h) |\n| :--- | :--- | :--- | :--- |\n| **Lyn** | LYN | +1,888% | $797K |\n| **U.S Oil** | USOR | +888% | $2.19M |\n| **Tetsuo Coin** | TETSUO | +518% | $701K |\n| **Orynth** | ORY | +260% | $966K |\n\n**Hyperliquid (6373)** maintains a persistent lead in derivatives mindshare. Despite having no active incentives, the protocol is generating **$2M in daily fees**. The recent **$910M buyback** by the Assistance Fund has reinforced a floor for the **HYPE** token, while the rollout of **HIP‑3** (native markets) is expected to further reduce USDC value leakage and drive open interest toward new all-time highs in 2026.\n\n### Institutional Pivot: Pyth and ZKsync\n\n**Pyth Network (10656)** is trending due to the introduction of the **Pyth Reserve**. The protocol now routes **33% of its revenue** (from Pyth Pro and Entropy) into DAO-managed open-market buybacks of **PYTH**. This aligns tokenomics with its growing institutional ARR, which surpassed **$1M in its first month**.\n\n**ZKsync (15022)** released its **2026 Roadmap**, which shifts focus heavily toward \"Real-World Adoption.\" The strategy prioritizes **Prividium** (a privacy platform for enterprises) and the **Airbender zkVM** for settlement. This has re-engaged the institutional narrative for Ethereum L2s, specifically targeting regulated financial entities.",
+    "executionTimeMs": 27272,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find projects with the highest mindshare gain over the last 24 hours. Focus on Solana and Ethereum ecosystems. High trader growth and liquidity preferred.",
+          "sort_by": "mentions_change_24h"
+        }
+      },
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "include_global": true
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending projects with high trader growth and volume spikes in the last 24 hours. Focus on Solana.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "projects with most mindshare gain and social momentum in the last 24 hours",
+          "days_back": 1
+        }
+      }
+    ],
+    "totalTokens": 129576
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

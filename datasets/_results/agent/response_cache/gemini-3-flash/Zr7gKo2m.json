@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gemini-3-flash",
+    "qid": "Zr7gKo2m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Zr7gKo2m",
+    "query": "give a breakdown of the tokenomics of Jito",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market",
+      "tokenomics"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "gemini-3-flash",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 453
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 4188
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 8620
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "Jito ($JTO) is the governance token for the Jito Network, a major liquid staking and MEV (Maximum Extractable Value) protocol on Solana. Its tokenomics are designed to balance community ownership with long-term incentives for investors and core contributors.\n\n### **1. General Token Supply & Information**\n*   **Token Ticker:** $JTO\n*   **Total Supply:** 1,000,000,000 (1 Billion) tokens.\n*   **Blockchain:** Solana (SPL Token).\n*   **TGE Date:** December 7, 2023.\n\n---\n\n### **2. Token Allocation Breakdown**\nThe supply is divided into five main buckets:\n\n| Category | Allocation | Total Tokens | Description |\n| :--- | :--- | :--- | :--- |\n| **Ecosystem Development** | 25.0% | 250,000,000 | Managed by the Jito Foundation to fund growth and grants. |\n| **Core Contributors** | 24.5% | 245,000,000 | For the founders and team at Jito Labs. |\n| **Community Growth** | 24.3% | 243,000,000 | Controlled by the DAO for future incentives and initiatives. |\n| **Investors** | 16.2% | 162,000,000 | For early institutional backers (e.g., Multicoin Capital, Framework). |\n| **Community Airdrop** | 10.0% | 100,000,000 | Retroactive reward for early users, validators, and searchers. |\n\n---\n\n### **3. Vesting and Unlocks (The \"Cliff\")**\nJito's vesting schedule is critical for understanding current and future sell pressure:\n*   **Airdrop (10%):** Was almost entirely liquid at launch (Dec 2023). Unclaimed tokens after 18 months return to the DAO treasury.\n*   **Core Contributors & Investors:** These groups had a **1-year cliff** that ended on **December 7, 2024**. \n    *   Following the cliff, their tokens began vesting **linearly over 24 months**.\n    *   This means the \"team and VC\" supply is currently in the middle of a steady monthly unlock period that will finish in late 2026.\n*   **Ecosystem Development:** Vests linearly over **4 years** (48 months) from the TGE date.\n\n---\n\n### **4. Token Utility**\nThe JTO token is primarily a **governance token**, but it governs a protocol that generates significant real revenue:\n*   **Fee Setting:** Token holders vote on the management fees for the JitoSOL stake pool (currently ~4%).\n*   **Delegation Strategies:** Governance controls how the Jito stake pool distributes its SOL to various validators.\n*   **Treasury Management:** The DAO manages a treasury that earns revenue from:\n    *   **4% fee** on JitoSOL staking rewards.\n    *   **5.7% fee** on Jito \"Tips\" (MEV revenue sent by searchers to validators).\n*   **Protocol Expansion:** Governance decides on future products, such as the recently launched Jito Restaking.\n\n### **5. Summary for Investors**\n*   **The Flywheel:** Jito captures a portion of Solana’s MEV and liquid staking market. As Solana activity grows, protocol revenue (tips and staking fees) increases, which the DAO manages.\n*   **Inflation/Unlocks:** Since December 2024, the circulating supply has been increasing more rapidly as investor and team tokens began their 2-year linear unlock.\n*   **Market Position:** JitoSOL is one of the largest liquid staking tokens (LST) on Solana, giving JTO high strategic value in the Solana DeFi ecosystem.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 12992
+        }
+      }
+    ],
+    "finalAnswer": "Jito ($JTO) is the governance token for the Jito Network, a major liquid staking and MEV (Maximum Extractable Value) protocol on Solana. Its tokenomics are designed to balance community ownership with long-term incentives for investors and core contributors.\n\n### **1. General Token Supply & Information**\n*   **Token Ticker:** $JTO\n*   **Total Supply:** 1,000,000,000 (1 Billion) tokens.\n*   **Blockchain:** Solana (SPL Token).\n*   **TGE Date:** December 7, 2023.\n\n---\n\n### **2. Token Allocation Breakdown**\nThe supply is divided into five main buckets:\n\n| Category | Allocation | Total Tokens | Description |\n| :--- | :--- | :--- | :--- |\n| **Ecosystem Development** | 25.0% | 250,000,000 | Managed by the Jito Foundation to fund growth and grants. |\n| **Core Contributors** | 24.5% | 245,000,000 | For the founders and team at Jito Labs. |\n| **Community Growth** | 24.3% | 243,000,000 | Controlled by the DAO for future incentives and initiatives. |\n| **Investors** | 16.2% | 162,000,000 | For early institutional backers (e.g., Multicoin Capital, Framework). |\n| **Community Airdrop** | 10.0% | 100,000,000 | Retroactive reward for early users, validators, and searchers. |\n\n---\n\n### **3. Vesting and Unlocks (The \"Cliff\")**\nJito's vesting schedule is critical for understanding current and future sell pressure:\n*   **Airdrop (10%):** Was almost entirely liquid at launch (Dec 2023). Unclaimed tokens after 18 months return to the DAO treasury.\n*   **Core Contributors & Investors:** These groups had a **1-year cliff** that ended on **December 7, 2024**. \n    *   Following the cliff, their tokens began vesting **linearly over 24 months**.\n    *   This means the \"team and VC\" supply is currently in the middle of a steady monthly unlock period that will finish in late 2026.\n*   **Ecosystem Development:** Vests linearly over **4 years** (48 months) from the TGE date.\n\n---\n\n### **4. Token Utility**\nThe JTO token is primarily a **governance token**, but it governs a protocol that generates significant real revenue:\n*   **Fee Setting:** Token holders vote on the management fees for the JitoSOL stake pool (currently ~4%).\n*   **Delegation Strategies:** Governance controls how the Jito stake pool distributes its SOL to various validators.\n*   **Treasury Management:** The DAO manages a treasury that earns revenue from:\n    *   **4% fee** on JitoSOL staking rewards.\n    *   **5.7% fee** on Jito \"Tips\" (MEV revenue sent by searchers to validators).\n*   **Protocol Expansion:** Governance decides on future products, such as the recently launched Jito Restaking.\n\n### **5. Summary for Investors**\n*   **The Flywheel:** Jito captures a portion of Solana’s MEV and liquid staking market. As Solana activity grows, protocol revenue (tips and staking fees) increases, which the DAO manages.\n*   **Inflation/Unlocks:** Since December 2024, the circulating supply has been increasing more rapidly as investor and team tokens began their 2-year linear unlock.\n*   **Market Position:** JitoSOL is one of the largest liquid staking tokens (LST) on Solana, giving JTO high strategic value in the Solana DeFi ecosystem.",
+    "executionTimeMs": 21348,
+    "totalTokens": 26253,
+    "stepCount": 4,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Jito JTO tokenomics distribution vesting utility"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Jito JTO token airdrop distribution details community growth treasury"
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Jito JTO airdrop 10% vesting 12 months details"
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

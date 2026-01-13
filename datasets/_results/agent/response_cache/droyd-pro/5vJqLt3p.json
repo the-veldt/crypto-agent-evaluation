@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "5vJqLt3p",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "5vJqLt3p",
+    "query": "analyze the tokenomics, moats, and market landscape of token launchpads - which projects are poised for market share growth and why",
+    "level": 3,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market"
+    ],
+    "sectors": [
+      "launchpad"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_VcSHWUrpAfMOxpU6z3CtIYJY\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"token launchpad tokenomics revenue model fee capture staking buybacks ve(3,3) points airdrops allocations vesting FDV valuation\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0306545faef5a8c9006966b805753c81a3adeb0102cac7bf2b\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_Hyob8EVW5k1Zxpxa4jJhK8M2\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"market landscape for crypto token launchpads launch platforms IDO IEO fair launch LBP auction launchpools Binance Launchpad Bybit Gate OKX Coinlist Fjord Foundry Legion Echo Binance Megadrop launchpool trends 2025 2026\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0306545faef5a8c9006966b807308881a39170fe6f60a890ae\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_P5zP4fiXsxGxVfRHLl229UVw\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Legion\",\n        \"Fjord Foundry\",\n        \"Polkastarter\",\n        \"DAO Maker\",\n        \"Seedify\",\n        \"Impossible Finance\",\n        \"Pinksale\",\n        \"Bounce\",\n        \"CoinList\",\n        \"Binance Launchpad\",\n        \"Bybit Launchpad\",\n        \"OKX Jumpstart\"\n      ],\n      \"search_type\": \"name\",\n      \"limit\": 5\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0306545faef5a8c9006966b80a018c81a3accecc80e48703af\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Crypto Launchpad Market Share Leaderboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1767448051/veldt/xcbcmdlfx1i66du3b8ah.jpg)\\n\\n## Token launchpads: what actually matters (tokenomics + moat)\\nLaunchpads are now two different businesses: **(1) capital formation rails** (ICO 2.0) and **(2) high-velocity issuance for memes/ICM**. Tokenomics only works when it’s tied to the right business.\\n\\n**Tokenomics models that clear in 2026**\\n- **Distribution moat → takes-rate** (Echo/Coinbase, Binance, Kraken/Legion): the “token” is usually offchain equity or exchange monetization; the moat is users + compliance + listings. If there’s a token, it’s often weakly coupled.\\n- **Reputation-gated allocation** (Legion-style): replaces FCFS/whales with **score-based access** (onchain history + merit signals). Moat is **identity + scoring graph + distribution partners**. This is the closest thing to “network effects” in capital formation.\\n- **Creator-economics + fee rails** (Flaunch, FEY-like): token value comes from **persistent trading fees** and standardizing **creator revenue splits**. Moat is composability + UX + anti-bot design, not “curation.”\\n- **Mechanism moat** (MetaDAO futarchy): launch is bundled with **treasury policy** (buy/sell bands, constrained spending). Moat is *not* dealflow; it’s the governance market primitive.\\n\\nThe 2025–26 reset is brutal: **84.7% of 2025 launches traded below issue price**, so “points → airdrop → dump” is dead weight. Platforms that *reduce TGE execution risk* win.\\n\\n## Market landscape + who’s poised to take share\\n**Capital formation (largest new TAM growth)**  \\n- **Legion**: posted **$300M through contracts in 2025**, **20+ teams**, **100k+ applicants**, **250k Legion Scores**, plus **Kraken distribution**. This is the cleanest wedge: if allocations are decided by **reputation, not wallet size**, you get better holders and repeat participation. Market share growth comes from being the default for “retail-first, compliant, oversubscribed” raises.  \\n- **Echo / Coinbase stack (Sonar)**: the “gold standard” path for teams that want **exchange-grade compliance + distribution**. The moat is Coinbase itself; share gains come from bundling sales → listing → liquidity under one roof.\\n\\n**Onchain issuance (memes/ICM): incumbents defend, challengers steal edges**  \\n- **Pump-style factories** dominate raw volume (one dataset shows **~56% share** for Pump in a 24h window), but the vulnerability is creator extraction + low bonding quality.  \\n- **Meteora** is the credible share-taker: the table highlights **~96% bonded** (conversion) versus Pump’s tiny bonded rate. If creators/users care about *graduation reliability* and deeper liquidity structures, this keeps compounding.\\n\\n**Tokenized fee-capture launchpads (higher beta, higher upside if they hit PMF)**  \\n- **Flaunch**: fixed-price fair launch + **creator-selectable revenue share** + Uniswap v4 hook mechanics (Progressive Bid Wall) is a real mechanism moat. If Base keeps growing and creators want “tokenized royalties” (Memestream NFTs), Flaunch can siphon launches away from generic bonding-curve clones.  \\n- **NeuralAI-style “5% rule + buyback split”** models are directionally correct (hard coupling to volume), but they’re fragile: you need sustained dealflow *and* enough real trading to make buybacks meaningful.\\n\\n**The projects most poised for market share growth**: **Legion (reputation + compliance + distribution), Echo/Coinbase (full-stack rail), Meteora (higher-quality bonding/LP path), and Flaunch (creator-economics + mechanism differentiation)**.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0306545faef5a8c9006966b823413881a3a6ced08fcb7065f4\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Crypto Launchpad Market Share Leaderboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1767448051/veldt/xcbcmdlfx1i66du3b8ah.jpg)\n\n## Token launchpads: what actually matters (tokenomics + moat)\nLaunchpads are now two different businesses: **(1) capital formation rails** (ICO 2.0) and **(2) high-velocity issuance for memes/ICM**. Tokenomics only works when it’s tied to the right business.\n\n**Tokenomics models that clear in 2026**\n- **Distribution moat → takes-rate** (Echo/Coinbase, Binance, Kraken/Legion): the “token” is usually offchain equity or exchange monetization; the moat is users + compliance + listings. If there’s a token, it’s often weakly coupled.\n- **Reputation-gated allocation** (Legion-style): replaces FCFS/whales with **score-based access** (onchain history + merit signals). Moat is **identity + scoring graph + distribution partners**. This is the closest thing to “network effects” in capital formation.\n- **Creator-economics + fee rails** (Flaunch, FEY-like): token value comes from **persistent trading fees** and standardizing **creator revenue splits**. Moat is composability + UX + anti-bot design, not “curation.”\n- **Mechanism moat** (MetaDAO futarchy): launch is bundled with **treasury policy** (buy/sell bands, constrained spending). Moat is *not* dealflow; it’s the governance market primitive.\n\nThe 2025–26 reset is brutal: **84.7% of 2025 launches traded below issue price**, so “points → airdrop → dump” is dead weight. Platforms that *reduce TGE execution risk* win.\n\n## Market landscape + who’s poised to take share\n**Capital formation (largest new TAM growth)**  \n- **Legion**: posted **$300M through contracts in 2025**, **20+ teams**, **100k+ applicants**, **250k Legion Scores**, plus **Kraken distribution**. This is the cleanest wedge: if allocations are decided by **reputation, not wallet size**, you get better holders and repeat participation. Market share growth comes from being the default for “retail-first, compliant, oversubscribed” raises.  \n- **Echo / Coinbase stack (Sonar)**: the “gold standard” path for teams that want **exchange-grade compliance + distribution**. The moat is Coinbase itself; share gains come from bundling sales → listing → liquidity under one roof.\n\n**Onchain issuance (memes/ICM): incumbents defend, challengers steal edges**  \n- **Pump-style factories** dominate raw volume (one dataset shows **~56% share** for Pump in a 24h window), but the vulnerability is creator extraction + low bonding quality.  \n- **Meteora** is the credible share-taker: the table highlights **~96% bonded** (conversion) versus Pump’s tiny bonded rate. If creators/users care about *graduation reliability* and deeper liquidity structures, this keeps compounding.\n\n**Tokenized fee-capture launchpads (higher beta, higher upside if they hit PMF)**  \n- **Flaunch**: fixed-price fair launch + **creator-selectable revenue share** + Uniswap v4 hook mechanics (Progressive Bid Wall) is a real mechanism moat. If Base keeps growing and creators want “tokenized royalties” (Memestream NFTs), Flaunch can siphon launches away from generic bonding-curve clones.  \n- **NeuralAI-style “5% rule + buyback split”** models are directionally correct (hard coupling to volume), but they’re fragile: you need sustained dealflow *and* enough real trading to make buybacks meaningful.\n\n**The projects most poised for market share growth**: **Legion (reputation + compliance + distribution), Echo/Coinbase (full-stack rail), Meteora (higher-quality bonding/LP path), and Flaunch (creator-economics + mechanism differentiation)**.",
+    "executionTimeMs": 51361,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "token launchpad tokenomics revenue model fee capture staking buybacks ve(3,3) points airdrops allocations vesting FDV valuation",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "market landscape for crypto token launchpads launch platforms IDO IEO fair launch LBP auction launchpools Binance Launchpad Bybit Gate OKX Coinlist Fjord Foundry Legion Echo Binance Megadrop launchpool trends 2025 2026",
+          "content_types": [
+            "posts",
+            "news",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Legion",
+            "Fjord Foundry",
+            "Polkastarter",
+            "DAO Maker",
+            "Seedify",
+            "Impossible Finance",
+            "Pinksale",
+            "Bounce",
+            "CoinList",
+            "Binance Launchpad",
+            "Bybit Launchpad",
+            "OKX Jumpstart"
+          ],
+          "search_type": "name",
+          "limit": 5
+        }
+      }
+    ],
+    "totalTokens": 49926
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

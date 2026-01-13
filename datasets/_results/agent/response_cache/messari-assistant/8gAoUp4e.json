@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "8gAoUp4e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8gAoUp4e",
+    "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "defi",
+      "derivatives"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Hyperliquid's Position in the Perpetual DEX Landscape\n\nHyperliquid is a Layer 1 (L1) blockchain built specifically for on-chain financial applications, featuring the Hyperliquid DEX as its flagship product—a decentralized perpetuals exchange with a fully on-chain order book [^1][^2]. This architecture, which uses a custom HyperBFT consensus for sub-second block times, is designed to support high-throughput performance for complex financial operations [^1][^3].\n\n## Market Landscape and Competitive Comparison\n\nHyperliquid has rapidly gained a dominant position in the decentralized perpetuals market, although it faces increasing competition from new entrants [^4].\n\n### Market Dominance and Volume\n\n*   **Perp DEX Volume:** Hyperliquid's perpetual trading volume has surged relative to its competitors, consistently leading the field, especially after February 2024 [^5]. As of early 2026, Hyperliquid holds approximately 70% of the decentralized perpetuals trading volume [^6].\n*   **Total Value Locked (TVL):** Hyperliquid's Perpetual DEX TVL grew steadily, exceeding $400 million by July 2024, significantly outpacing competitors like the Sei Network [^7][^8]. By late 2025, Hyperliquid's TVL reached $4.2 billion [^9], and peaked at $6 billion in 2025 [^10].\n*   **Centralized Exchange (CEX) Comparison:** Hyperliquid's perpetual volume represented about 6% of Binance's total exchange volume in June 2024 [^8][^11]. By early 2026, Hyperliquid captured 13.6% of Binance’s monthly perpetual futures volume [^6].\n*   **Emerging Competition:** While Hyperliquid remains a dominant player, its market share has faced pressure. By November 2025, Hyperliquid held a 54.8% market share of open interest among perp DEXs, a 45% decrease from its peak earlier that year [^12]. Newer competitors like Aster, Lighter, and edgeX are capturing market share [^12][^13]. Aster, in particular, has surpassed Hyperliquid's seven-day trading volume and generated more fees than any other protocol in a 24-hour period [^14].\n\n### Efficiency and User Base\n\n*   **Volume-to-TVL Ratio:** Hyperliquid exhibits a lower volume-to-TVL ratio (2.2 as of October 2025) compared to competitors like Aster (25.6), Lighter (7.9), and edgeX (14.6) [^15]. This suggests that Hyperliquid has a relatively lower efficiency in utilizing its TVL to generate trading volume [^15].\n*   **User Growth:** Hyperliquid's user count grew fourfold in 2025, climbing from 300,000 to 1.4 million [^10]. The platform has attracted 665,000 traders with high per-capita volume [^6].\n\n## Key Moats and Differentiators\n\nHyperliquid's competitive advantages stem from its vertically integrated architecture and focus on high-performance trading [^16].\n\n| Moat/Differentiator | Description | Citation |\n| :--- | :--- | :--- |\n| **Fully On-Chain Order Book** | Unlike competitors like dYdX v4, Hyperliquid's order book and matching engine are entirely on-chain, offering greater transparency and a meaningful long-term alternative to CEXs [^8]. | [^8] |\n| **Dedicated L1 and Performance** | Hyperliquid is a performant L1 optimized for high-frequency trading (HFT), offering gasless trading (except for state-bloating transactions) and sub-second block latency (median 0.2 seconds) [^8][^3]. The network supports approximately 100,000 orders per second [^3]. | [^8][^3] |\n| **Hyperliquid Flywheel** | The platform benefits from a network effect where superior liquidity and execution attract increased order flow, which in turn attracts market makers, further enhancing liquidity and execution [^16]. The composable order book attracts third-party applications, which drive more order flow, strengthening the order book [^17]. | [^16][^17] |\n| **Ecosystem Expansion (HyperEVM)** | The launch of HyperEVM, an open EVM-compatible environment, allows Hyperliquid to evolve from a perp DEX to a full-fledged L1 ecosystem [^8][^18]. This enables third-party applications to be built with EVM tooling, encouraging greater interoperability [^8]. | [^8][^18] |\n| **Transparency and User Protection** | Hyperliquid's on-chain order book is described as the most transparent open-source Central Limit Order Book (CLOB) perp DEX at scale, built to protect the end user [^8]. | [^8] |\n\n## Key Catalysts and Future Growth\n\nHyperliquid's future growth is centered on expanding its L1 ecosystem and decentralizing market creation.\n\n### Ecosystem and Infrastructure Catalysts\n\n*   **HyperEVM and Composability:** The integration of HyperEVM allows builders direct access to HyperCore, the high-performance perp DEX engine [^10][^18]. This composability is expected to attract a host of innovative native DeFi applications, such as Ethena-like protocols that can hedge exposure using the native perp DEX [^8]. Over 35 teams have announced plans to launch on or integrate with the planned HyperEVM [^16][^19].\n*   **Builder-Deployed Perpetuals (HIP-3):** The implementation of HIP-3 enables permissionless market creation, allowing anyone who meets the staking requirement (500,000 HYPE) to deploy a perp DEX with independent margining and order books [^20][^21]. This shifts the platform toward an asset provider role [^6].\n    *   To boost new market activity, Hyperliquid is launching \"growth mode\" for HIP-3 markets, slashing all-in fees by at least 90% [^9][^22].\n*   **Simplified Bridging:** Integrations like Avail Nexus and Stargate direct deposits simplify the process of moving assets onto Hyperliquid from other chains, which previously required users to hold USDC or USDT on Arbitrum [^23][^24].\n\n### Valuation and Financial Projections\n\nHyperliquid's valuation is increasingly viewed through a sum-of-the-parts framework, accounting for both the leading perp DEX and the underlying L1 network [^16].\n\n*   **Projected Fully Diluted Valuation (FDV):** Based on 2027 revenue estimates, Hyperliquid's implied FDV ranges from a Bear case of **$2.75 billion** to a Bull case of **$33.5 billion** [^16].\n*   **Revenue Growth:** Protocol revenue reached as high as $20 million per day in 2025, up from about $3.5 million per day in 2024 [^10]. By early 2026, Hyperliquid was generating $116 million in monthly revenue, with 97% redistributed to ecosystem participants [^6].\n\n### Risks\n\nA significant structural risk for Hyperliquid is the large HYPE token unlock scheduled to begin at the end of 2025 [^6][^10]. This unlock phase, which could equate to $17 million per day in sell pressure, greatly exceeds current buyback capacity and could lead to a projected 60–80% drawdown during the 2025–2027 period [^6].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

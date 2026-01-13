@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "8zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8zR4tK6m",
+    "query": "what are the latest catalysts for solana",
+    "level": 1,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Latest Catalysts for Solana\n\nSolana (SOL) is a Layer-1 blockchain network designed to provide high throughput and low transaction costs for decentralized applications [^1]. Recent catalysts for the network span market sentiment, infrastructure improvements, and significant DeFi integrations.\n\n## Market and Sentiment Catalysts\n\nRecent market activity suggests that Solana's price action is increasingly influenced by macro factors and specific news events:\n\n*   **ETF Filings:** Solana's sentiment saw an increase following a Reuters report that Morgan Stanley had filed for Bitcoin and Solana-linked Exchange-Traded Funds (ETFs) with the SEC [^2].\n*   **Macro Sensitivity:** Crypto markets, including Solana, are currently trading as macro-sensitive assets, closely tracking global risk appetite, interest rates, and currency movements [^3].\n*   **Price Performance:** Since the start of January 2026, Solana has seen an 8.6% increase in price [^3]. In a specific trading session in December 2025, Solana rose 4.51% to $131.03 [^4].\n\n## Infrastructure and Ecosystem Development\n\nSolana is undergoing significant innovation aimed at improving its market microstructure and expanding its utility:\n\n*   **DeFi Maturation:** The maturation of Solana's DeFi ecosystem, supported by substantial stablecoin liquidity, is creating resilience in yield-bearing protocols, suggesting the capital base is becoming \"stickier,\" similar to Ethereum's post-2021 retention [^5].\n*   **PropAMMs and Price Discovery:** Protocol-owned Automated Market Makers (PropAMMs) have radically shifted Solana's Decentralized Exchange (DEX) volume, now accounting for over 60% of trading [^5]. There is a strong directional push for Solana to become the on-chain venue for price discovery for any asset [^5].\n*   **New Open-Source Tools:** The Solana Foundation introduced new open-source tools in October 2025, including [^6]:\n    *   **Launch:** A hub for product primitives from Solana Foundation engineering and research.\n    *   **Kora:** A signing RPC that abstracts transaction fees from users.\n    *   **CommerceKit:** A new commerce Software Development Kit (SDK).\n*   **Bridge Replacement:** Plans were revealed in November 2025 to replace the existing Wormhole bridge with a LayerZero bridge for Sky-issued assets on Solana. This new bridge will serve as a template for future bridges deployed by the Sky Ecosystem across other blockchains [^7].\n\n## Key Integrations and Partnerships\n\nSeveral major integrations are expanding Solana's cross-chain capabilities and DeFi offerings:\n\n*   **Coinbase DEX Trading:** Coinbase expanded its DEX Trading integration to support Solana tokens, with the integration powered by Jupiter [^8].\n*   **Pendle Integration (Citadel):** The Pendle team confirmed the expansion of Principal Tokens (PTs) to Solana via Chainlink CCIP and Kamino, representing the first non-EVM \"Citadel\" outlined in the 2025 Roadmap [^9]. Kamino plans to add support for PT-sUSDe on Solana, allowing users to access Pendle’s principal token for sUSDe directly without interacting with Ethereum bridges [^9].\n*   **Allora Network Integration:** Solana is now integrated with Allora’s intelligence layer, enabling developers to access decentralized predictive inference feeds for asset prices, volatility, liquidity, and yield [^10].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

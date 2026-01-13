@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Trending Projects on Base and Solana (as of Jan 13, 2026)\n\n**Base ecosystem** leads with $5B TVL (+6.43% 24h), $1.08B DEX volume (24h), driven by DeFi, AI agents, prediction markets, and memes. **Solana** shows strong meme token buzz alongside infrastructure plays like DEX aggregators and wallets.\n\n### Base Trending Projects\nHigh-engagement Twitter lists highlight DeFi/gaming/AI leaders; memes dominate by market cap.\n\n| Rank/Category | Project | Key Metrics | Type |\n|---------------|---------|-------------|------|\n| 1 | Aerodrome (@AerodromeFi) | TVL $1B+, $200M revenue (past year), recent $661K buyback | DeFi (DEX) |\n| 2 | Limitless (@trylimitless) | $760M cum. volume, 50K DAU, $50K buyback | Prediction Market |\n| 3 | HeyElsa (@HeyElsaAI) | $377M lifetime volume | AI Agents |\n| 4 | Virtuals (@virtuals_io) | $400M Agentic GDP, 500K tasks | AI/Robotics |\n| 5 | Toshi (TOSHI) | $174M mcap, leading meme | Meme |\n| - | Brett (BRETT) | $171M mcap | Meme |\n| - | Degen (DEGEN) | $50M mcap | Meme |\n| Others | Uptopia, Fraction AI, Hydrex, PredictBase | TVL/vol growth (e.g., PredictBase $140K ATH) | Gaming/AI/DEX/Prediction |\n\n**Signals**: Revenue machines like Aerodrome and consumer apps (Limitless) drive activity; memes like Toshi show retail hype but high risk.\n\n### Solana Trending Projects\nShort-term memes top 24h trends; infrastructure sustains long-term.\n\n| Category | Project/Token | Key Notes |\n|----------|---------------|-----------|\n| 24h Trending Memes | $NOBODY (@nobodysausage), $WOJAK (@WojakOnX), $TESTICLE (@testicletoken), $WHITEFISH (@WhiteFishMeme), $HACHI (@HachikoS0L) | Top Twitter buzz (12K+ views on list) |\n| Infrastructure | Jupiter, Phantom, Magic Eden, Metaplex, Orca | Liquidity/wallets/NFTs/DeFi; essential for scaling |\n| Notable | Pump.fun (PUMP) | DeFi launchpad, price prediction hype to 2030 |\n\n**Signals**: Memes volatile (24h focus); Jupiter/Phantom anchor TVL/user growth.\n\n## Conclusions\n**Bottom line**: Base favors DeFi/AI (Aerodrome, Limitless) + memes (Toshi); Solana mixes memes ($NOBODY etc.) with staples (Jupiter). Monitor DEX volumes/TVL for sustainability; memes risky amid hype. Data from Twitter (high-fave lists), DeFiLlama, CoinMarketCap.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "mZ5aNo7w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mZ5aNo7w",
+    "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe sectors with the highest revenue growth over the last 30 days are decentralized perpetuals/derivatives (notably Hyperliquid), yield/points protocols (Pendle), and Solana-based revenue-sharing protocols (such as ZENT). Key catalysts include surging trading volumes, new product launches and integrations, institutional interest, and innovative tokenomics (like buybacks and real-yield sharing). Refer below for more details.\n\n───\n\nTop Sectors & Protocols Driving Revenue Growth\n\n1. Decentralized Perpetuals & Derivatives\n- Key Protocol: Hyperliquid\n  - Hyperliquid has recorded consistent ~$2M daily revenue, driven by high trading volumes in both crypto and new commodity markets (e.g., $86M 24h volume in silver perps), strong user engagement, and the launch of on-platform NFTs and equities integration (supporting tweet).\n  - Major catalysts: \n    - Aggressive airdrops (25% supply), record bug bounties, and buyback mechanics reducing circulating supply.\n    - Institutional attention, with Grayscale considering HYPE for future investment products (news).\n    - New product verticals: NFTs, upcoming equities trading, and increased commodity market adoption.\n\n2. Yield/Points & Fixed Income Protocols\n- Key Protocol: Pendle\n  - Pendle’s revenue surged by over 200% month-on-month, driven by new pool launches (e.g., PT-sNUSD loopable on Morpho), high fixed yields (up to 47% APY boosted by Penpie), and improved UX for mass adoption (source).\n  - Catalysts:\n    - Elevated yields from new integrations (Strata, Lista, Morpho) and external borrowing demand.\n    - Product upgrades (scale orders, UI improvements) that reduce friction and attract new users.\n    - Grayscale listing consideration, boosting institutional credibility (tweet).\n\n3. Solana Revenue-Sharing & Real-Yield Protocols\n- Key Protocol: ZENT\n  - ZENT, a revenue-sharing protocol on Solana, has gained traction with its transparent model (70% of revenue to holders, 30% for buybacks and growth) and public dashboard for live metrics (protocol info).\n  - Catalysts:\n    - First revenue distributions and high transparency have attracted both traders and long-term holders.\n    - The broader Solana ecosystem has shown strong revenue growth, with Solana emerging as a top revenue earner among L1s (telegram mention).\n\nHonorable Mentions\n- Aave: While still a top protocol by TVL, Aave’s revenue declined over the past month, reflecting more modest performance compared to the leaders above.\n- Lido: Revenue has been relatively flat or slightly declining, in contrast to surging sectors like perpetuals and yield protocols.\n\nKey Catalysts Across Sectors\n- Institutional Flows: Grayscale and other funds evaluating new products around high-growth protocols.\n- Product Innovation: New features (NFTs, equities, fixed income abstractions) and improved user experience.\n- Tokenomics: Buybacks, real-yield distribution, and aggressive airdrops drive user participation and support price action.\n- Ecosystem Expansion: Cross-chain integrations (Pendle, Hyperliquid) and broadening of supported assets (commodities, equities).\n\nSummary Table\n\n| Sector                | Leading Protocol   | 30D Revenue Growth | Key Catalysts                                              |\n|-----------------------|-------------------|--------------------|------------------------------------------------------------|\n| Perpetuals/Derivatives| Hyperliquid       | ~$2M/day, up MoM   | Volume surge, NFTs, equities, buybacks, Grayscale interest |\n| Yield/Fixed Income    | Pendle            | +200% MoM          | High APY, new pools, UX, Penpie boosts, Grayscale          |\n| Revenue-Sharing/SoL   | ZENT (Solana)     | Strong, new launch | Transparent rev-share, Solana ecosystem growth             |\n| Lending               | Aave              | -20% MoM           | Flat/declining revenue, new governance moves               |\n| Liquid Staking        | Lido              | Slightly down      | Flat/declining, less competitive yields                    |\n\nAdditional Context & Sources\n- Hyperliquid revenue and catalysts, Grayscale HYPE news\n- Pendle revenue, Penpie APY, Pendle Grayscale news\n- ZENT protocol details\n- Solana revenue leadership\n\nIf you want a deeper dive into a specific protocol or sector, let me know.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

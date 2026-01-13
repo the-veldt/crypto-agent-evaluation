@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "mZ5aNo7w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mZ5aNo7w",
+    "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data, here's what I can confidently tell you about revenue growth sectors and key protocols over the last 30 days:\n\n## TL;DR\n\n**RWA (Real World Assets) protocols** show the strongest momentum with **200%+ year-to-date growth** and have overtaken DEXs to become the fifth-largest DeFi category by TVL at $17 billion. However, the available data lacks specific 30-day revenue growth metrics needed for a comprehensive sector-by-sector comparison.\n\n## What I Can Answer Confidently\n\nHere's what the data shows:\n\n- **RWA sector dominance**: Tokenized RWAs grew over 200% in value year-to-date, now ranking as a top 5 DeFi category by TVL [x.com](https://x.com/OndoFinance/status/2005674410070696366)\n- **Category shift**: RWA protocols surpassed DEXs to become the fifth-largest DeFi category, growing from $12B to $17B TVL in Q4 2024 [x.com](https://x.com/CoinMarketCap/status/2005897665326813617)\n- **Leading protocols**: Tether and USDC dominate revenue generation with $585.21M and $213.77M annual revenue respectively [defillama.com](https://defillama.com/revenue)\n\n| Item | Evidence Source | Confidence Level |\n|------|----------------|------------------|\n| RWA sector 200%+ YTD growth | Ondo Finance Twitter | High |\n| RWA TVL $17B (5th largest category) | CoinMarketCap Twitter | High |\n| Tether annual revenue $585.21M | DefiLlama revenue data | High |\n\n## Analysis of Available Information\n\n### Confirmed Details\n\n**RWA Sector Leadership**: Real World Asset protocols are experiencing explosive growth, driven by institutional adoption of tokenized Treasurys, private credit, and commodities moving onchain. This represents a structural shift from speculative assets to cash-flow generating real-world assets [x.com](https://x.com/metafyed/status/2004606356515684455).\n\n**Revenue Leaders**: Stablecoin protocols (Tether, USDC) continue to generate the highest absolute revenue due to their Treasury bill investments, but this represents mature, established revenue rather than growth.\n\n### What's Missing\n\nTo give you a complete picture of sector revenue growth over the last 30 days, I'd need:\n\n- **Specific 30-day revenue growth rates** by sector category (DEXs, lending, RWA, etc.)\n- **Protocol-level monthly revenue comparisons** showing percentage changes\n- **Recent catalyst information** tied to specific revenue spikes\n- **Sector categorization** with revenue attribution\n\nThe available data shows sector TVL growth and annual revenue totals, but lacks the specific 30-day revenue growth metrics and protocol-level breakdowns needed for your request.\n\n## Recommendation\n\n**For deeper insight into 30-day revenue growth by sector**, use Deep Research to gather:\n\n- **Daily revenue data** for all major protocols across sectors\n- **Sector categorization** with revenue attribution \n- **Recent catalyst events** tied to revenue spikes\n- **Protocol-specific growth metrics** with percentage changes\n\nThis will provide the comprehensive sector revenue growth analysis you're looking for, including the specific protocols and catalysts driving recent performance.\n\n**Next step**: Start a new conversation and select **Deep Research** mode (ASK can't launch Deep Research directly from here).",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

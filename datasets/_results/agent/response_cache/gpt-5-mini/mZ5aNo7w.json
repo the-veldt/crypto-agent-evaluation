@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "mZ5aNo7w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mZ5aNo7w",
+    "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 386
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 3579
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9582
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11088
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 18194
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 26549
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 34135
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "Short answer (30-day window = ~Dec 14, 2025 → Jan 13, 2026): the biggest recent revenue growth has been concentrated in (1) derivatives / perpetuals & centralized-style trading venues, (2) Layer‑2 rollups / L2 ecosystems, (3) liquid‑staking / staking services, and (4) bridge / infra activity — with NFT/gaming pockets on some chains. Below I summarize the top sectors, the protocols that drove the move, the proximate catalysts and the data sources I used.\n\n1) Derivatives / Perps & centralized-style DEXs\n- Key protocols: Hyperliquid (combined/perps), Lighter (perp/derivatives platforms), dYdX / similar venues.\n- Evidence: DefiLlama revenue snapshot (early Jan) shows Hyperliquid ~ $51.0M revenue (30d) and Lighter ~ $6.45M (30d) (Hyperliquid is by far the biggest 30d revenue generator among trading/perps). Source: DefiLlama protocol pages (Hyperliquid, Lighter).  \n- Catalysts: renewed volatility and macro flow → higher perp volumes/fees; product launches/feature upgrades and aggressive liquidity incentives for market‑making; concentration of orderflow on high‑performance orderbook/perp venues (higher fee capture).\n- Why it matters: perps concentrate lots of volume into a few protocol treasuries — spikes in volume quickly show up as revenue growth.\n\n2) Layer‑2 rollups / L2 ecosystems\n- Key protocols/apps: Base (and apps on Base), Arbitrum ecosystem, Optimism/Linea and high‑usage L2 apps; also chain-level revenue leaders like Solana in other contexts.  \n- Evidence & numbers: multiple data / reporting threads in December showed Base and other L2s posting big revenue gains in 2025 and high recent activity (Messari/PANews/Blockworks reporting; DefiLlama chain/app earnings pages show large 30d fees for Base apps and for chains with big app ecosystems). TradingView/Cointelegraph also reported increased transactions on several chains in late Dec.  \n- Catalysts: distribution/on‑ramps (Coinbase ↔ Base), large app launches (gaming, tokenization, social apps), cheaper gas and better UX leading to higher retention, concentrated airdrops/marketing pushing user acquisition. L2 scalability improvements → more application-level activity and revenue capture.  \n- Why it matters: L2s with good distribution or a “super‑app” (or a big DEX/perp) can quickly scale revenue as users migrate to lower fees and high throughput.\n\n3) Liquid staking / staking services\n- Key protocols: Lido, Jito (Solana‑side staking/MEV capture), Rocket Pool and other staking services.  \n- Evidence: DefiLlama shows Lido fees/revenue 30d in the mid‑single millions ($6.2M fees 30d / revenue 30d ~ $6.22M on Lido snapshot) and Jito shows material fees (Jito fees 30d ~$15.2M, revenue 30d smaller but notable).  \n- Catalysts: continued inflows into staking products (ETH staking demand), staking yield products being adopted by institutions and DeFi users, MEV/validator‑level activity growth on Solana boosting validator revenues (Jito). ETH price/staking narrative and protocol improvements increase TVL → recurring revenue growth.\n\n4) Bridges & cross‑chain infra\n- Key protocols: major bridges (Optimism bridge, Base bridge, “Portal”/Wormhole components and other canonical bridges).  \n- Evidence: DefiLlama shows large 30d bridge volumes on many bridge protocols and some upticks in bridge inflows for certain chains; bridge fees/revenue rise when cross‑chain flows pick up.  \n- Catalysts: portfolio rebalancing between chains, large token migrations, airdrop/bridging campaigns, and traders moving liquidity ahead of app launches or tokenomics events. Bridges are often sensitive to single large flows, so short windows show large % swings.\n\n5) NFT / Gaming marketplaces & onchain consumer apps (pockets)\n- Key protocols: Magic Eden (Solana), Immutable, Base‑gaming apps, and selected marketplace/creator platforms.  \n- Evidence: ecosystem reporting that Base apps and certain NFT marketplaces had outsized revenue growth in late 2025; DefiLlama/app‑level pages register spikes in 30d fees for marketplaces on active chains.  \n- Catalysts: game launches, seasonal drops, NFT projects with renewed secondary market volume, and integrations with L2s that dramatically lower fees for trading.\n\nCaveats / methodology notes\n- Sources I used: DefiLlama protocol/earnings pages for 30d revenue/fees snapshots (protocol pages for Hyperliquid, Lighter, Lido, Jito, Base/chain/app pages), industry writeups (Blockworks/PANews/Messari reporting on Base and L2 revenue), and a TradingView/Cointelegraph piece noting transaction increases across chains (Dec 29, 2025). Links: DefiLlama protocol pages (e.g., Hyperliquid, Lighter, Lido, Jito) and the TradingView/Cointelegraph onchain summary. I can paste the exact links if you want them.  \n- “Revenue growth” here is based on 30d revenue/fees snapshots (absolute 30d revenue) and recent reporting — I did not compute protocol‑level % change vs the prior 30d for every protocol. Absolute 30d revenue is useful to identify which sectors/protocols currently collect the most onchain fees; measuring growth rates requires time‑series comparisons (30d vs previous 30d) which I can run if you want.  \n- Onchain revenue is volatile and concentrated: single events (large perp flow, airdrop, bridging wave, or NFT drop) can create big temporary spikes. Be careful extrapolating short‑window growth to long‑term trends.\n\nIf you want:\n- I can run a quick 30d vs prior‑30d growth ranking (top sectors and top protocols by % change and absolute change) and deliver a table with numbers and links.  \n- Or focus on one sector (e.g., perps or L2s) and give a deeper breakdown of which protocols and exact drivers (product launches, incentives, volumes, fees) moved the needle.\n\nWhich follow‑up would you prefer?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 42805
+        }
+      }
+    ],
+    "finalAnswer": "Short answer (30-day window = ~Dec 14, 2025 → Jan 13, 2026): the biggest recent revenue growth has been concentrated in (1) derivatives / perpetuals & centralized-style trading venues, (2) Layer‑2 rollups / L2 ecosystems, (3) liquid‑staking / staking services, and (4) bridge / infra activity — with NFT/gaming pockets on some chains. Below I summarize the top sectors, the protocols that drove the move, the proximate catalysts and the data sources I used.\n\n1) Derivatives / Perps & centralized-style DEXs\n- Key protocols: Hyperliquid (combined/perps), Lighter (perp/derivatives platforms), dYdX / similar venues.\n- Evidence: DefiLlama revenue snapshot (early Jan) shows Hyperliquid ~ $51.0M revenue (30d) and Lighter ~ $6.45M (30d) (Hyperliquid is by far the biggest 30d revenue generator among trading/perps). Source: DefiLlama protocol pages (Hyperliquid, Lighter).  \n- Catalysts: renewed volatility and macro flow → higher perp volumes/fees; product launches/feature upgrades and aggressive liquidity incentives for market‑making; concentration of orderflow on high‑performance orderbook/perp venues (higher fee capture).\n- Why it matters: perps concentrate lots of volume into a few protocol treasuries — spikes in volume quickly show up as revenue growth.\n\n2) Layer‑2 rollups / L2 ecosystems\n- Key protocols/apps: Base (and apps on Base), Arbitrum ecosystem, Optimism/Linea and high‑usage L2 apps; also chain-level revenue leaders like Solana in other contexts.  \n- Evidence & numbers: multiple data / reporting threads in December showed Base and other L2s posting big revenue gains in 2025 and high recent activity (Messari/PANews/Blockworks reporting; DefiLlama chain/app earnings pages show large 30d fees for Base apps and for chains with big app ecosystems). TradingView/Cointelegraph also reported increased transactions on several chains in late Dec.  \n- Catalysts: distribution/on‑ramps (Coinbase ↔ Base), large app launches (gaming, tokenization, social apps), cheaper gas and better UX leading to higher retention, concentrated airdrops/marketing pushing user acquisition. L2 scalability improvements → more application-level activity and revenue capture.  \n- Why it matters: L2s with good distribution or a “super‑app” (or a big DEX/perp) can quickly scale revenue as users migrate to lower fees and high throughput.\n\n3) Liquid staking / staking services\n- Key protocols: Lido, Jito (Solana‑side staking/MEV capture), Rocket Pool and other staking services.  \n- Evidence: DefiLlama shows Lido fees/revenue 30d in the mid‑single millions ($6.2M fees 30d / revenue 30d ~ $6.22M on Lido snapshot) and Jito shows material fees (Jito fees 30d ~$15.2M, revenue 30d smaller but notable).  \n- Catalysts: continued inflows into staking products (ETH staking demand), staking yield products being adopted by institutions and DeFi users, MEV/validator‑level activity growth on Solana boosting validator revenues (Jito). ETH price/staking narrative and protocol improvements increase TVL → recurring revenue growth.\n\n4) Bridges & cross‑chain infra\n- Key protocols: major bridges (Optimism bridge, Base bridge, “Portal”/Wormhole components and other canonical bridges).  \n- Evidence: DefiLlama shows large 30d bridge volumes on many bridge protocols and some upticks in bridge inflows for certain chains; bridge fees/revenue rise when cross‑chain flows pick up.  \n- Catalysts: portfolio rebalancing between chains, large token migrations, airdrop/bridging campaigns, and traders moving liquidity ahead of app launches or tokenomics events. Bridges are often sensitive to single large flows, so short windows show large % swings.\n\n5) NFT / Gaming marketplaces & onchain consumer apps (pockets)\n- Key protocols: Magic Eden (Solana), Immutable, Base‑gaming apps, and selected marketplace/creator platforms.  \n- Evidence: ecosystem reporting that Base apps and certain NFT marketplaces had outsized revenue growth in late 2025; DefiLlama/app‑level pages register spikes in 30d fees for marketplaces on active chains.  \n- Catalysts: game launches, seasonal drops, NFT projects with renewed secondary market volume, and integrations with L2s that dramatically lower fees for trading.\n\nCaveats / methodology notes\n- Sources I used: DefiLlama protocol/earnings pages for 30d revenue/fees snapshots (protocol pages for Hyperliquid, Lighter, Lido, Jito, Base/chain/app pages), industry writeups (Blockworks/PANews/Messari reporting on Base and L2 revenue), and a TradingView/Cointelegraph piece noting transaction increases across chains (Dec 29, 2025). Links: DefiLlama protocol pages (e.g., Hyperliquid, Lighter, Lido, Jito) and the TradingView/Cointelegraph onchain summary. I can paste the exact links if you want them.  \n- “Revenue growth” here is based on 30d revenue/fees snapshots (absolute 30d revenue) and recent reporting — I did not compute protocol‑level % change vs the prior 30d for every protocol. Absolute 30d revenue is useful to identify which sectors/protocols currently collect the most onchain fees; measuring growth rates requires time‑series comparisons (30d vs previous 30d) which I can run if you want.  \n- Onchain revenue is volatile and concentrated: single events (large perp flow, airdrop, bridging wave, or NFT drop) can create big temporary spikes. Be careful extrapolating short‑window growth to long‑term trends.\n\nIf you want:\n- I can run a quick 30d vs prior‑30d growth ranking (top sectors and top protocols by % change and absolute change) and deliver a table with numbers and links.  \n- Or focus on one sector (e.g., perps or L2s) and give a deeper breakdown of which protocols and exact drivers (product launches, incentives, volumes, fees) moved the needle.\n\nWhich follow‑up would you prefer?",
+    "executionTimeMs": 62890,
+    "totalTokens": 146318,
+    "stepCount": 8,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "crypto protocol revenue growth last 30 days sectors \"revenue\" \"last 30 days\"",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "onchain revenue last 30 days December 2025 January 2026 \"last 30 days\" sectors revenue crypto 'revenue growth' 'last 30 days'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Token Terminal 'last 30 days' revenue growth sectors crypto 'revenue growth last 30 days'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "tokenterminal.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"last 30 days\" crypto revenue 'revenue growth' 'NFT' 'gaming' 'L2' 'DeFi' January 2026 'onchain revenue'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DefiLlama earnings last 30 days 'earnings' 'last 30 days' 'protocol earnings' 'earnings by protocol' preview.dl.llama.fi earnings 'last 30 days'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "preview.dl.llama.fi",
+            "dl.llama.fi",
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DefiLlama Base fees 30d 'Fees 30d' 'revenue 30d' Base chain 'earnings' DefiLlama 'Base' 'fees 30d'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-14",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "preview.dl.llama.fi",
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DefiLlama Magic Eden fees 30d 'Magic Eden' 'Fees 30d' 'Revenue 30d' DefiLlama 'Magic Eden' preview.dl.llama.fi protocol magic-eden 'fees 30d'",
+          "numResults": 10,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "preview.dl.llama.fi",
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

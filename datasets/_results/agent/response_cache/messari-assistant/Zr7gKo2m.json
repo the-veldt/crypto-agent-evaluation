@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "Zr7gKo2m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Zr7gKo2m",
+    "query": "give a breakdown of the tokenomics of Jito",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "middle_market",
+      "tokenomics"
+    ],
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# Jito Governance Token (JTO) Tokenomics Breakdown\n\nThe Jito Governance Token (JTO) is an SPL token on Solana with a total supply of 1 billion [^1]. It serves as the governance token for the Jito DAO, which oversees and governs the Jito protocol [^1].\n\n## Token Supply and Circulation\n\nThe **total token supply** for JTO is 1 billion [^1].\n\nAs of the latest data, the **circulating supply** of the Jito Governance Token is approximately 422,010,299.65 JTO [^2].\n\n## Token Utility and Governance\n\nJTO tokenholders govern the Jito DAO through the Realms onchain governance portal [^1]. This governance power extends to protocol parameters such as treasury management, fee splits, and stake pool fees [^3][^1].\n\n### Proposal and Voting Mechanics\n*   **Proposal Submission**: Any user holding at least 250,000 JTO, which is approximately 0.03% of the total token supply, can submit an onchain governance proposal [^1]. Tokenholders can also delegate their JTO to other users to help them meet this proposal threshold [^1].\n*   **Voting Process**: The governance process involves an initial discussion on the governance forum, followed by a three-day vote on Jito's Realms governance portal, and then a two-day delay before implementation [^1].\n*   **Proposal Passage**: For an onchain governance proposal to pass, it must meet two criteria [^1]:\n    1.  Receive at least 30 million JTO (3.00% of the total token supply) with a \"Yes\" vote [^1].\n    2.  The number of \"Yes\" votes must outweigh the number of \"No\" votes [^1].\n*   **Veto Power**: The Security Council, composed of five members appointed by the Jito Foundation, reserves the right to veto proposals based on criteria such as violating applicable law, being detrimental to the interests of the Foundation or DAO, or violating governing documents [^1].\n\n## Jito Protocol and JitoSOL\n\nJito is a liquid staking solution for Solana, where users stake SOL to receive the liquid staking derivative token, JitoSOL [^4].\n\n*   **JitoSOL Mechanics**: JitoSOL is a rebasing SPL token that represents staked SOL at a 1:1 ratio [^1]. It accumulates daily SOL rewards from Solana validators participating in Jito’s liquid staking pool, which are derived from block rewards, transaction fees, and MEV rewards [^1]. The yield accrues in the token's price, meaning JitoSOL appreciates against SOL as rewards are accrued [^4][^1].\n*   **Protocol Fees**: Jito charges an annual management fee of 4.00% of total annual rewards and a 0.10% withdrawal fee [^1]. These fees are calculated after the direct validator commissions have already been charged, and rewards are distributed every epoch (one to two days) [^1].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

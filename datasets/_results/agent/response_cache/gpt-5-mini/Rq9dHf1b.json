@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "gpt-5-mini",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "gpt-5-mini",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 430
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 4628
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 10669
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 19019
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 26245
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "Summary (snapshot of on-chain data + headlines through late‑2025)\n- Sources: DefiLlama, Messari, CoinGecko, The Block, Cointelegraph (data points below come from DefiLlama protocol pages and market data; Uniswap governance updates from news).\n- Date context: figures reflect the latest public protocol snapshots and reporting through late‑2025 / early‑Jan‑2026.\n\nKey numbers (rounded)\n- Uniswap (aggregate across versions)\n  - TVL: ≈ $5.0–5.1B\n  - Fees (annualized, total collected on protocol): ≈ $648M\n  - Protocol revenue to treasury (historical): effectively $0 on many trackers (Uniswap historically routed fees to LPs; protocol fee was off). Governance passed token‑friendly proposals / a fee‑switch and burn in late‑2025 that materially changes future revenue capture.\n  - Market cap (UNI): ≈ $3.5–6.0B (different data sources vary; DefiLlama showed ≈ $6.0B)\n- Aerodrome (AERO; Base)\n  - TVL: ≈ $485M\n  - Fees (annualized): ≈ $72.8M\n  - Revenue (annualized, holders revenue on DefiLlama): ≈ $72.8M (Aerodrome’s token/holders capture is explicit in current design)\n  - Incentives (annualized): ≈ $89.8M → Earnings (revenue − incentives) ≈ −$17M (i.e., net negative after subsidies)\n  - Market cap (AERO): ≈ $0.31–0.50B depending on source (DefiLlama listed ≈ $496M; CoinGecko/Messari give other snapshots)\n\nSimple unit economics / valuation ratios\n- Fee yield (annualized fees / TVL)\n  - Uniswap ≈ $648M / $5.09B ≈ 12.7% p.a.\n  - Aerodrome ≈ $72.8M / $0.485B ≈ 15.0% p.a.\n  - Interpretation: Aerodrome shows slightly higher gross fee yield per unit TVL (reflects high volume/turnover on Base & fee structure).\n- Market cap / TVL\n  - Uniswap ≈ 1.19 (using DefiLlama mcap $6.04B and TVL $5.09B)\n  - Aerodrome ≈ 1.02 (mcap ≈ $496M / TVL ≈ $485M)\n  - Interpretation: both trade around ~1× TVL, Aerodrome slightly cheaper by this metric (but see risks below).\n- Market cap / (token holder) revenue\n  - Aerodrome ≈ $496M / $72.8M ≈ 6.8× revenue (price / annual revenue)\n  - Uniswap: historical protocol revenue ≈ $0 (so this metric is not meaningful historically). With late‑2025 governance changes (fee switch / burn proposals) Uniswap’s revenue capture profile is changing — this is a key catalyst.\n\nQualitative comparison (what drives value to tokenholders)\n- Uniswap\n  - Scale & distribution: market leader in DEX volume across multiple chains (Ethereum + many L2s), deep liquidity, broad ecosystem integrations.\n  - Revenue capture historically limited: most trading fees go to LPs; protocol (UNI) historically captured little revenue. That changed in late‑2025 governance moves (fee switch / burning 100M UNI and fee-sharing proposals) — this creates a path to direct token economic upside.\n  - Durability: multi‑chain presence, high developer activity, strong network effects; less concentrated on any single chain.\n  - Risks: execution of new tokenomics (fee switching, burns, auctions) matters — failing to deliver could limit UNI upside. Competition on L2s and migration of liquidity to alternative AMMs/hooks also a risk. Regulatory / governance complexity.\n- Aerodrome\n  - Clear revenue capture today: protocol design sends revenue to holders (visible in trackers), so token holders see an economic link to on‑chain activity now.\n  - Rapid growth & product-market fit on Base: high DEX volume and TVL growth were driven by Base adoption and aggressive incentive programs / listings (CEX listings, e.g., eToro reported).\n  - Incentive intensity: Aerodrome is spending substantial incentives (annualized incentives > revenue), producing negative net earnings that dilute/pressure token economics while bootstrapping liquidity and volume.\n  - Concentration: heavily concentrated on Base (single-chain risk). Competitive threat from Uniswap V4/hook-enabled AMMs on Base that may capture liquidity over time.\n  - Smart-contract / MEV / audit risk like any DEX fork.\n\nHow to interpret the numbers from an investor POV\n- Gross fee yield (fees/TVL) is useful for comparing how much economic activity a vault/DEX generates per locked capital. Aerodrome shows a slightly higher raw yield (≈15% vs ≈13%), meaning LPs/protocol see more turnover per dollar of TVL.\n- Who captures those fees matters more:\n  - Aerodrome: holders/token economy already capture revenue (but net earnings negative due to subsidies).\n  - Uniswap: historically tokenholders didn’t capture protocol fees (fees went to LPs); that made UNI behave more like a governance token than a revenue token. Late‑2025 governance moves are changing this — if implemented and sustained, UNI could convert some of the large platform fees into tokenholder returns (burns/fee‑share), which is a material upside given Uniswap’s scale.\n- Valuation: Aerodrome’s current market cap roughly equals its TVL (≈1×) and implies a relatively high revenue multiple (~6.8× on current tokenholder revenue). Uniswap’s market cap / TVL also ~1× but future revenue capture could compress multiples if fee flows are directed to UNI.\n\nCatalysts\n- Uniswap\n  - Successful implementation of the fee switch / fee burn and any subsequent protocol revenue auction/buyback mechanics.\n  - Continued migration/adoption of Uniswap V4 hooks and L2 Superchain liquidity expansion.\n  - Any governance actions that reduce token supply (burns) or increase UNI utility.\n- Aerodrome\n  - Continued Base chain growth and new token listings/partnerships.\n  - Successful conversion of incentive-driven activity into organic, incentive‑free trading volume (i.e., earnings turn positive).\n  - Wider CEX distribution and sustained TVL retention after incentive tapering.\n\nRisks / red flags\n- Uniswap\n  - Governance failure or community backlash around fee changes; regulatory scrutiny as protocols monetize.\n  - Liquidity migration to other AMMs or centralized liquidity venues.\n- Aerodrome\n  - Incentive-driven growth that reverses when subsidies stop → TVL and volume may fall.\n  - Single‑chain concentration (Base) increases protocol/chain risk.\n  - Token dilution from continued incentives, and potential overvaluation if incentives stop and volume collapses.\n\nPractical investor takeaways / suggested positions\n- Conservative / long‑term (lower risk): prefer Uniswap\n  - Why: scale, multi‑chain diversification, massive existing fee base that can be monetized for UNI holders if governance proposals are executed. UNI is closer to a “blue‑chip” DeFi exposure.\n- Growth / higher‑risk (seeking higher yield and faster upside): consider Aerodrome with position sizing discipline\n  - Why: higher immediate fee capture to holders and higher fee yields per TVL; but requires close monitoring of incentive tapering and retention of liquidity.\n- Portfolio sizing idea (illustrative, not financial advice):\n  - Risk‑off allocator: 75% Uniswap / 25% Aerodrome\n  - Risk‑seeking allocator: 50% Uniswap / 50% Aerodrome (or overweight Aerodrome smaller sizes due to higher idiosyncratic risk)\n- Due diligence checklist before buying either token:\n  - Verify the latest on‑chain fee share mechanics / treasury flows (post‑fee‑switch for Uniswap).\n  - Check incentive schedules and upcoming unlocks for Aerodrome (token emission/incentives timeline).\n  - Monitor volume & TVL trends for 30–90 days after any planned incentive taper.\n  - Review governance proposals, safeties, audits, and CEX listings.\n\nBottom line\n- Uniswap = scale + optionality. It is the safer, larger protocol with the biggest potential upside if governance successfully redirects some of the protocol’s large fee base to tokenholders (this is an actionable catalyst starting late‑2025).\n- Aerodrome = higher immediate revenue capture and yield per TVL but materially higher execution/dilution risk because growth has been subsidy‑driven and is more concentrated on Base.\n\nIf you want, I can:\n- Pull live/dated DefiLlama & Messari snapshots (TVL / fees / incentives / market cap) to a specific timestamp and produce a one‑page comparison table with exact source links; or\n- Build a sensitivity model showing token valuation under different fee‑capture scenarios (e.g., what UNI’s token value could look like if X% of fees are allocated to token buybacks/burns). Which would you prefer?",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 36004
+        }
+      }
+    ],
+    "finalAnswer": "Summary (snapshot of on-chain data + headlines through late‑2025)\n- Sources: DefiLlama, Messari, CoinGecko, The Block, Cointelegraph (data points below come from DefiLlama protocol pages and market data; Uniswap governance updates from news).\n- Date context: figures reflect the latest public protocol snapshots and reporting through late‑2025 / early‑Jan‑2026.\n\nKey numbers (rounded)\n- Uniswap (aggregate across versions)\n  - TVL: ≈ $5.0–5.1B\n  - Fees (annualized, total collected on protocol): ≈ $648M\n  - Protocol revenue to treasury (historical): effectively $0 on many trackers (Uniswap historically routed fees to LPs; protocol fee was off). Governance passed token‑friendly proposals / a fee‑switch and burn in late‑2025 that materially changes future revenue capture.\n  - Market cap (UNI): ≈ $3.5–6.0B (different data sources vary; DefiLlama showed ≈ $6.0B)\n- Aerodrome (AERO; Base)\n  - TVL: ≈ $485M\n  - Fees (annualized): ≈ $72.8M\n  - Revenue (annualized, holders revenue on DefiLlama): ≈ $72.8M (Aerodrome’s token/holders capture is explicit in current design)\n  - Incentives (annualized): ≈ $89.8M → Earnings (revenue − incentives) ≈ −$17M (i.e., net negative after subsidies)\n  - Market cap (AERO): ≈ $0.31–0.50B depending on source (DefiLlama listed ≈ $496M; CoinGecko/Messari give other snapshots)\n\nSimple unit economics / valuation ratios\n- Fee yield (annualized fees / TVL)\n  - Uniswap ≈ $648M / $5.09B ≈ 12.7% p.a.\n  - Aerodrome ≈ $72.8M / $0.485B ≈ 15.0% p.a.\n  - Interpretation: Aerodrome shows slightly higher gross fee yield per unit TVL (reflects high volume/turnover on Base & fee structure).\n- Market cap / TVL\n  - Uniswap ≈ 1.19 (using DefiLlama mcap $6.04B and TVL $5.09B)\n  - Aerodrome ≈ 1.02 (mcap ≈ $496M / TVL ≈ $485M)\n  - Interpretation: both trade around ~1× TVL, Aerodrome slightly cheaper by this metric (but see risks below).\n- Market cap / (token holder) revenue\n  - Aerodrome ≈ $496M / $72.8M ≈ 6.8× revenue (price / annual revenue)\n  - Uniswap: historical protocol revenue ≈ $0 (so this metric is not meaningful historically). With late‑2025 governance changes (fee switch / burn proposals) Uniswap’s revenue capture profile is changing — this is a key catalyst.\n\nQualitative comparison (what drives value to tokenholders)\n- Uniswap\n  - Scale & distribution: market leader in DEX volume across multiple chains (Ethereum + many L2s), deep liquidity, broad ecosystem integrations.\n  - Revenue capture historically limited: most trading fees go to LPs; protocol (UNI) historically captured little revenue. That changed in late‑2025 governance moves (fee switch / burning 100M UNI and fee-sharing proposals) — this creates a path to direct token economic upside.\n  - Durability: multi‑chain presence, high developer activity, strong network effects; less concentrated on any single chain.\n  - Risks: execution of new tokenomics (fee switching, burns, auctions) matters — failing to deliver could limit UNI upside. Competition on L2s and migration of liquidity to alternative AMMs/hooks also a risk. Regulatory / governance complexity.\n- Aerodrome\n  - Clear revenue capture today: protocol design sends revenue to holders (visible in trackers), so token holders see an economic link to on‑chain activity now.\n  - Rapid growth & product-market fit on Base: high DEX volume and TVL growth were driven by Base adoption and aggressive incentive programs / listings (CEX listings, e.g., eToro reported).\n  - Incentive intensity: Aerodrome is spending substantial incentives (annualized incentives > revenue), producing negative net earnings that dilute/pressure token economics while bootstrapping liquidity and volume.\n  - Concentration: heavily concentrated on Base (single-chain risk). Competitive threat from Uniswap V4/hook-enabled AMMs on Base that may capture liquidity over time.\n  - Smart-contract / MEV / audit risk like any DEX fork.\n\nHow to interpret the numbers from an investor POV\n- Gross fee yield (fees/TVL) is useful for comparing how much economic activity a vault/DEX generates per locked capital. Aerodrome shows a slightly higher raw yield (≈15% vs ≈13%), meaning LPs/protocol see more turnover per dollar of TVL.\n- Who captures those fees matters more:\n  - Aerodrome: holders/token economy already capture revenue (but net earnings negative due to subsidies).\n  - Uniswap: historically tokenholders didn’t capture protocol fees (fees went to LPs); that made UNI behave more like a governance token than a revenue token. Late‑2025 governance moves are changing this — if implemented and sustained, UNI could convert some of the large platform fees into tokenholder returns (burns/fee‑share), which is a material upside given Uniswap’s scale.\n- Valuation: Aerodrome’s current market cap roughly equals its TVL (≈1×) and implies a relatively high revenue multiple (~6.8× on current tokenholder revenue). Uniswap’s market cap / TVL also ~1× but future revenue capture could compress multiples if fee flows are directed to UNI.\n\nCatalysts\n- Uniswap\n  - Successful implementation of the fee switch / fee burn and any subsequent protocol revenue auction/buyback mechanics.\n  - Continued migration/adoption of Uniswap V4 hooks and L2 Superchain liquidity expansion.\n  - Any governance actions that reduce token supply (burns) or increase UNI utility.\n- Aerodrome\n  - Continued Base chain growth and new token listings/partnerships.\n  - Successful conversion of incentive-driven activity into organic, incentive‑free trading volume (i.e., earnings turn positive).\n  - Wider CEX distribution and sustained TVL retention after incentive tapering.\n\nRisks / red flags\n- Uniswap\n  - Governance failure or community backlash around fee changes; regulatory scrutiny as protocols monetize.\n  - Liquidity migration to other AMMs or centralized liquidity venues.\n- Aerodrome\n  - Incentive-driven growth that reverses when subsidies stop → TVL and volume may fall.\n  - Single‑chain concentration (Base) increases protocol/chain risk.\n  - Token dilution from continued incentives, and potential overvaluation if incentives stop and volume collapses.\n\nPractical investor takeaways / suggested positions\n- Conservative / long‑term (lower risk): prefer Uniswap\n  - Why: scale, multi‑chain diversification, massive existing fee base that can be monetized for UNI holders if governance proposals are executed. UNI is closer to a “blue‑chip” DeFi exposure.\n- Growth / higher‑risk (seeking higher yield and faster upside): consider Aerodrome with position sizing discipline\n  - Why: higher immediate fee capture to holders and higher fee yields per TVL; but requires close monitoring of incentive tapering and retention of liquidity.\n- Portfolio sizing idea (illustrative, not financial advice):\n  - Risk‑off allocator: 75% Uniswap / 25% Aerodrome\n  - Risk‑seeking allocator: 50% Uniswap / 50% Aerodrome (or overweight Aerodrome smaller sizes due to higher idiosyncratic risk)\n- Due diligence checklist before buying either token:\n  - Verify the latest on‑chain fee share mechanics / treasury flows (post‑fee‑switch for Uniswap).\n  - Check incentive schedules and upcoming unlocks for Aerodrome (token emission/incentives timeline).\n  - Monitor volume & TVL trends for 30–90 days after any planned incentive taper.\n  - Review governance proposals, safeties, audits, and CEX listings.\n\nBottom line\n- Uniswap = scale + optionality. It is the safer, larger protocol with the biggest potential upside if governance successfully redirects some of the protocol’s large fee base to tokenholders (this is an actionable catalyst starting late‑2025).\n- Aerodrome = higher immediate revenue capture and yield per TVL but materially higher execution/dilution risk because growth has been subsidy‑driven and is more concentrated on Base.\n\nIf you want, I can:\n- Pull live/dated DefiLlama & Messari snapshots (TVL / fees / incentives / market cap) to a specific timestamp and produce a one‑page comparison table with exact source links; or\n- Build a sensitivity model showing token valuation under different fee‑capture scenarios (e.g., what UNI’s token value could look like if X% of fees are allocated to token buybacks/burns). Which would you prefer?",
+    "executionTimeMs": 97098,
+    "totalTokens": 96995,
+    "stepCount": 6,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Uniswap TVL revenue 2024 2025 Uniswap revenue figures TVL growth Uniswap analytics",
+          "numResults": 5,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "dune.com",
+            "coingecko.com",
+            "coinmarketcap.com",
+            "messari.io",
+            "theblock.co",
+            "decrypt.co",
+            "uniswap.org",
+            "defipulse.com",
+            "cointelegraph.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Aerodrome TVL revenue Aerodrome finance TVL Aerodrome protocol 'Aerodrome' TVL 'Aerodrome Finance' 'Aero' 'ARDR' 'ARDM' 'AER'",
+          "numResults": 10,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "solana.fm",
+            "coingecko.com",
+            "dexscreener.com",
+            "solscan.io",
+            "messari.io",
+            "twitter.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DefiLlama Uniswap TVL fees revenue 'Uniswap' 'Fees (annualized)' 'Revenue (annualized)' 'TVL' 'DefiLlama Uniswap fees annualized'",
+          "numResults": 10,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "dune.com",
+            "messari.io",
+            "coingecko.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Uniswap TVL 30d change 'Uniswap TVL change' 'Uniswap TVL growth' 'TVL trend' 'DefiLlama Uniswap TVL chart 30d change'",
+          "numResults": 10,
+          "startPublishedDate": "2023-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "dune.com",
+            "coingecko.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Uniswap incentives liquidity mining incentives 'incentives (annualized)' 'Uniswap incentives' 'UNI incentives' 'Uniswap liquidity incentives' 'Uniswap treasury' 'protocol fee switch'",
+          "numResults": 10,
+          "startPublishedDate": "2022-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "uniswap.org",
+            "defillama.com",
+            "theblock.co",
+            "cointelegraph.com",
+            "messari.io"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "YjS6mHt2",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "YjS6mHt2",
+    "query": "of the memecoins with the highest mindshare growth, which assets have the best catalysts and narrative sustainability potential?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nAmong memecoins with the fastest mindshare growth, $FAPCOIN and $ROGERS stand out for strong catalysts (utility, lore, doxxed teams, and media tie-ins) and narrative sustainability, while $KABUTO and $PARABALLIC show hype but less evidence of lasting drivers; $MEMECOIN has mindshare but lacks clear catalysts. Refer below for more details.\n\n───\n\nKey Memecoins with High Mindshare Growth & Sustainable Narratives\n\n1. $FAPCOIN  \n$FAPCOIN is consistently highlighted for its unique blend of meme culture and actual utility. It boasts:\n- A doxxed team and community, with over 80% of supply controlled and locked/staked, indicating strong holder commitment.\n- Transparent supply updates and a registered LLC, with real-world products in development.\n- Persistent lore rooted in 4chan/fartcoin culture and a cult-like community that keeps the narrative fresh and viral.\n- Revenue streams and staking utility, reducing reliance on speculative hype for sustainability.\n- Regular buybacks and locked LPs, reinforcing long-term value and trust in the project.\n- Despite its humorous theme, the focus on business fundamentals and transparency positions $FAPCOIN as a rare meme with genuine staying power and evolving catalysts. See recent discussions for more: tweet, tweet.\n\n2. $ROGERS  \n$ROGERS is gaining rapid traction due to:\n- Direct integration into the popular @PsyopAnime series, giving it a media-driven narrative that can reach mainstream audiences.\n- The wallet that funded $PsyopAnime is also a $ROGERS holder, tying the coin’s fate to a broader entertainment ecosystem.\n- The narrative beta to $PSYOPANIME, with ongoing shills and community engagement, offers ongoing catalysts as the anime series develops further.\n- Multiple calls emphasize narrative expansion and the potential for viral growth as more viewers discover the tie-in: tweet, tweet.\n\n3. $KABUTO  \n$KABUTO is repeatedly mentioned as a “once in a lifetime” narrative play and has seen treasury accumulation and active community engagement. However, the sustainability of its narrative depends on continued community-driven hype and potential utility tie-ins (such as with collectible cards), which are still speculative: tweet, tweet.\n\n4. $PARABALLIC  \n$PARABALLIC has shown explosive growth and community formation, but its narrative is currently more meme-driven and lacks the deeper catalysts (utility, lore, or media tie-ins) observed in $FAPCOIN and $ROGERS. It’s worth monitoring for further developments: tweet.\n\n5. $MEMECOIN  \nWhile $MEMECOIN has a strong brand and some social buzz, it lacks the clear, evolving catalysts or utility layers present in the above tokens. Its narrative is primarily driven by meme appeal and speculative trading, with less evidence of sustainability or unique value-add (coin info).\n\nGeneral Observations  \n- The most sustainable memecoin narratives combine viral meme appeal with real utility, transparency, or integration into broader media/cultural ecosystems (Forbes, openPR).\n- Purely speculative or hype-driven coins can pump hard but risk fizzling without deeper catalysts.\n\nConclusion  \n$FAPCOIN and $ROGERS currently offer the strongest mix of catalysts and narrative durability among high mindshare growth memecoins, thanks to their unique integrations, utility, and transparent teams. $KABUTO and $PARABALLIC are also notable, but their long-term sustainability is less established. Always DYOR and monitor for evolving catalysts.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

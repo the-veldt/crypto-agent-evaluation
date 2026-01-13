@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "yB8iWa9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yB8iWa9n",
+    "query": "build and compare the investment case for Solana versus Ethereum",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_oWntl23QL4dFZVC9j4FxvP1p\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        4694\n      ],\n      \"category_ids\": [],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_04522894dfd31189006966b7bd05e88194ba1f40967fadc96c\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_fQGNdLwKI4jTWD63bnxAkpfu\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Solana vs Ethereum investment case 2025 2026: adoption, fees, MEV, L2s, DeFi, stablecoins, consumer apps, dev activity, institutional\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943,\n        4694\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_04522894dfd31189006966b7bd1a508194bae6a503737685ff\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_Spjm0gEjyQCOBWF16RHd8idk\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Ethereum roadmap 2025 2026: rollups, blobs, danksharding, PBS, account abstraction, restaking, L2 economics impact on ETH value accrual\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        4694\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_04522894dfd31189006966b7be84208194b2591978e91bffbe\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_cOzM3FsZNRsiThnD7pj0VZkF\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Solana roadmap 2025 2026: Firedancer, runtime improvements, SIMD proposals, fee markets, local fee markets, state compression, stablecoin adoption\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [\n        11943\n      ],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_04522894dfd31189006966b7c095d881949d1f7632d53f3f67\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Blockchain Total Revenue Comparison 2025](https://res.cloudinary.com/dgjriemfd/image/upload/v1767716010/veldt/bqogcgkol3qnskmstbkv.jpg)\\n\\n## Solana (SOL) vs Ethereum (ETH): two different businesses now\\n\\n**Solana is underwriting execution + consumer throughput. Ethereum is underwriting settlement + DA for an L2 economy.** The mistake is treating them as the same “L1 trade.”\\n\\n- **Solana’s 2025 reality:** **~$1.41B onchain revenue**, **~$1.57T DEX volume**, **~33.1B transactions**, **~1,100 TPS average**, **~10,753 active devs**, **~1.01B new wallets**. That’s a usage-monster with real demand for blockspace.  \\n- **Ethereum’s 2025 reality:** execution migrated to L2s; L1 monetization is structurally suppressed while blobs are over-provisioned. The bet shifts to **DA price discovery** + **institutional ETH balance sheet demand**.\\n\\n## Value accrual mechanics (what actually makes the token worth more)\\n\\n**SOL value accrual** (direct, but cyclical):\\n- **Fee + MEV driven**. Solana has become a high-velocity venue (DEX, memecoins, perps terminals, tokenized equities experiments).  \\n- Key protocol catalyst: **SIMD‑123 (Q1 2026)** targets routing priority fees to stakers, reducing “validator-only” leakage and improving the staking proposition.\\n\\n**ETH value accrual** (indirect, but durable):\\n- Ethereum is now a **wholesale DA + settlement layer**. With **BPO forks** (blob parameter only), capacity can be increased without heavy upgrades; the current regime (target **14 blobs**, max 21) is explicitly designed to keep rollup costs low until demand catches up.  \\n- ETH upside needs **blob utilization to tighten** (not L1 gas spikes) and continued **institutional productization** (staking wrappers, treasuries, custody rails).\\n\\nhttps://defidevcorp.beehiiv.com/p/solana-2025\\n\\n## The clean underwriting framework\\n\\n**Buy SOL if you believe:**\\n- Onchain activity remains dominated by **high-frequency finance + consumer** (payments, trading, “internet capital markets”).  \\n- Solana’s roadmap (multi-client via Firedancer/Frankendancer, consensus upgrades like **Alpenglow**) keeps pushing latency/finality toward TradFi/cex-like UX, sustaining volume and fees.\\n\\n**Buy ETH if you believe:**\\n- The world converges on Ethereum as the **credible-neutral settlement layer** for RWAs, stablecoins, privacy/zk stacks, and institutional-grade infrastructure.  \\n- L2 sprawl consolidates into standards that keep the economic center of gravity anchored to Ethereum’s DA and settlement (less fragmentation rent paid to bridges/alt DA).\\n\\n## Biggest risks (the ones that actually matter)\\n\\n- **Solana:** revenue concentration in trading/meme loops + reputational “launch risk” cycles; also the “fat app” reality means apps can capture value faster than SOL captures it.  \\n- **Ethereum:** L2s keep most margin; if blob fees don’t enter real price discovery (because capacity stays ahead of demand), ETH’s fundamental cashflow narrative stays weak and the asset leans harder on monetary premium.\\n\\nIf you want one sentence: **SOL is a growth bet on execution gravity; ETH is a value/sovereign settlement bet on institutional permanence.**\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_04522894dfd31189006966b7dff1988194a2df9dec40ac14e5\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Blockchain Total Revenue Comparison 2025](https://res.cloudinary.com/dgjriemfd/image/upload/v1767716010/veldt/bqogcgkol3qnskmstbkv.jpg)\n\n## Solana (SOL) vs Ethereum (ETH): two different businesses now\n\n**Solana is underwriting execution + consumer throughput. Ethereum is underwriting settlement + DA for an L2 economy.** The mistake is treating them as the same “L1 trade.”\n\n- **Solana’s 2025 reality:** **~$1.41B onchain revenue**, **~$1.57T DEX volume**, **~33.1B transactions**, **~1,100 TPS average**, **~10,753 active devs**, **~1.01B new wallets**. That’s a usage-monster with real demand for blockspace.  \n- **Ethereum’s 2025 reality:** execution migrated to L2s; L1 monetization is structurally suppressed while blobs are over-provisioned. The bet shifts to **DA price discovery** + **institutional ETH balance sheet demand**.\n\n## Value accrual mechanics (what actually makes the token worth more)\n\n**SOL value accrual** (direct, but cyclical):\n- **Fee + MEV driven**. Solana has become a high-velocity venue (DEX, memecoins, perps terminals, tokenized equities experiments).  \n- Key protocol catalyst: **SIMD‑123 (Q1 2026)** targets routing priority fees to stakers, reducing “validator-only” leakage and improving the staking proposition.\n\n**ETH value accrual** (indirect, but durable):\n- Ethereum is now a **wholesale DA + settlement layer**. With **BPO forks** (blob parameter only), capacity can be increased without heavy upgrades; the current regime (target **14 blobs**, max 21) is explicitly designed to keep rollup costs low until demand catches up.  \n- ETH upside needs **blob utilization to tighten** (not L1 gas spikes) and continued **institutional productization** (staking wrappers, treasuries, custody rails).\n\nhttps://defidevcorp.beehiiv.com/p/solana-2025\n\n## The clean underwriting framework\n\n**Buy SOL if you believe:**\n- Onchain activity remains dominated by **high-frequency finance + consumer** (payments, trading, “internet capital markets”).  \n- Solana’s roadmap (multi-client via Firedancer/Frankendancer, consensus upgrades like **Alpenglow**) keeps pushing latency/finality toward TradFi/cex-like UX, sustaining volume and fees.\n\n**Buy ETH if you believe:**\n- The world converges on Ethereum as the **credible-neutral settlement layer** for RWAs, stablecoins, privacy/zk stacks, and institutional-grade infrastructure.  \n- L2 sprawl consolidates into standards that keep the economic center of gravity anchored to Ethereum’s DA and settlement (less fragmentation rent paid to bridges/alt DA).\n\n## Biggest risks (the ones that actually matter)\n\n- **Solana:** revenue concentration in trading/meme loops + reputational “launch risk” cycles; also the “fat app” reality means apps can capture value faster than SOL captures it.  \n- **Ethereum:** L2s keep most margin; if blob fees don’t enter real price discovery (because capacity stays ahead of demand), ETH’s fundamental cashflow narrative stays weak and the asset leans harder on monetary premium.\n\nIf you want one sentence: **SOL is a growth bet on execution gravity; ETH is a value/sovereign settlement bet on institutional permanence.**",
+    "executionTimeMs": 56065,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            4694
+          ],
+          "category_ids": [],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Solana vs Ethereum investment case 2025 2026: adoption, fees, MEV, L2s, DeFi, stablecoins, consumer apps, dev activity, institutional",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943,
+            4694
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Ethereum roadmap 2025 2026: rollups, blobs, danksharding, PBS, account abstraction, restaking, L2 economics impact on ETH value accrual",
+          "content_types": [
+            "posts",
+            "news",
+            "developments"
+          ],
+          "limit": 20,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            4694
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Solana roadmap 2025 2026: Firedancer, runtime improvements, SIMD proposals, fee markets, local fee markets, state compression, stablecoin adoption",
+          "content_types": [
+            "posts",
+            "news",
+            "developments"
+          ],
+          "limit": 20,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [
+            11943
+          ],
+          "category_ids": [],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 56182
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

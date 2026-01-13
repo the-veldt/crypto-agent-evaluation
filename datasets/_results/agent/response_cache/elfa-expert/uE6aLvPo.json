@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "uE6aLvPo",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "uE6aLvPo",
+    "query": "what assets (over $50k in 30d revenue) have had the highest growth in revenue in the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nAmong crypto assets generating over $50,000 in revenue in the past 30 days, EigenCloud (formerly EigenLayer) has shown the highest revenue growth, with a 9.36% increase in 30-day fees. In contrast, Aave V3, Lido, and Binance staked ETH all experienced a decline in revenue over the same period. \n\n───\n\nTo break down the numbers:\n\n- EigenCloud: 30-day fees totaled $3,893,209, with a 9.36% increase compared to the previous 30 days. However, note that EigenCloud's reported protocol revenue is $0, as all rewards are distributed to suppliers/stakers, not retained by the protocol itself. Still, fee growth is a strong indicator of increased platform activity and usage. For more details, see the EigenCloud docs here.\n\n- Aave V3: 30-day revenue was $7,106,321, but this represents a -20.86% decline compared to the previous 30 days. Activity and protocol earnings have slowed recently. Details at Aave.\n\n- Lido: 30-day revenue was $6,189,370, with a -1.23% decrease from the prior 30-day period. Lido remains a top earner, but revenue growth is slightly negative. More info at Lido.\n\n- Binance staked ETH (WBETH): 30-day revenue was $2,452,545, down -4.61% from the previous 30 days. See WBETH for details.\n\nIn summary, if you're looking for assets with both significant revenue and positive recent growth, EigenCloud stands out among large protocols, while other major players have seen modest declines in 30-day revenue growth.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

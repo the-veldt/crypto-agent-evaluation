@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## TL;DR\n\n**Uniswap dominates in scale but faces profitability challenges, while Aerodrome shows explosive growth with superior capital efficiency but operates at a loss due to high incentives.** Uniswap's $3.54B market cap and established position contrast with Aerodrome's $521M market cap and 430% APY incentives driving rapid adoption. The investment case boils down to stability vs. growth potential.\n\n## Core Analysis\n\n### TVL Comparison\n**Uniswap maintains massive scale** with significantly higher total value locked, representing the established market leader in decentralized exchanges. However, **Aerodrome demonstrates remarkable capital efficiency** - generating $10.67B in 30-day volume with only $473.83M TVL compared to Uniswap's broader but less efficient deployment.\n\n| Metric | Uniswap | Aerodrome | Advantage |\n|--------|---------|-----------|-----------|\n| **TVL** | Not specified (market leader) | $473.83M | Uniswap |\n| **30D Volume** | Not specified | $10.67B | Aerodrome (efficiency) |\n| **Volume/TVL Ratio** | Lower efficiency | ~22.5x | Aerodrome |\n\n### Revenue Performance\n**Aerodrome shows stronger recent revenue momentum** with $73.88M annualized revenue vs. Uniswap's inconsistent quarterly performance. However, **Uniswap has historical revenue dominance** with quarters exceeding $300M, while Aerodrome's revenue growth is more recent but accelerating.\n\n**Q1 2026 Revenue Snapshot**:\n- **Aerodrome**: $2.62M (growing)\n- **Uniswap**: $17.72M (but with $17.12M cost of revenue)\n\n### Profitability Analysis\n**Critical divergence**: Uniswap shows minimal earnings ($593K in Q1 2026) while **Aerodrome operates at a strategic loss** (-$1.04M in Q1 2026) to drive growth through massive incentives.\n\n| Profitability Metric | Uniswap | Aerodrome |\n|----------------------|---------|-----------|\n| **Q1 2026 Earnings** | $593,867 | -$1.04M |\n| **Incentives Cost** | $0 | $3.66M |\n| **Strategy** | Profit-focused | Growth-focused |\n\n### Growth Trajectory\n**Aerodrome demonstrates explosive growth patterns**:\n- 430.82% average APY driving liquidity mining\n- $10.67B 30-day volume showing strong adoption\n- Base ecosystem backing with recent funding\n\n**Uniswap growth is more mature**:\n- Established market position\n- Broader multi-chain presence\n- More stable but slower growth profile\n\n## Market Data Analysis\n\n| Metric | Uniswap | Aerodrome | Signal |\n|--------|---------|-----------|---------|\n| **Market Cap** | $3.54B | $521.34M | Uniswap 6.8x larger |\n| **Price** | $5.57 | $0.58 | Different valuation tiers |\n| **FDV** | Not specified | $1.041B | Aerodrome has growth premium |\n| **24h Volume** | Not specified | $22.32M | Aerodrome active trading |\n\n## Investment Case Comparison\n\n### Uniswap Investment Thesis\n**Strengths**: Market leadership, established brand, multi-chain presence, revenue scale\n**Risks**: Stagnant growth, high cost structure, minimal token holder benefits\n**Verdict**: **Blue chip stability** - suitable for conservative investors seeking DEX exposure without aggressive growth bets\n\n### Aerodrome Investment Thesis  \n**Strengths**: Explosive growth, capital efficiency, Base ecosystem support, high yields driving adoption\n**Risks**: Operating losses, incentive-dependent model, newer protocol risk\n**Verdict**: **Growth accelerator** - for investors seeking high-risk, high-reward exposure to emerging DEX models\n\n## Conclusions\n\n**Bottom line**: Uniswap offers stability and scale while Aerodrome provides growth potential and innovation. Choose Uniswap for defensive positioning in established DeFi, or Aerodrome for aggressive growth exposure with higher risk. Monitor Aerodrome's path to profitability and Uniswap's cost management for future inflection points.\n\n**Key watch items**: \n- Aerodrome's incentive reduction timeline\n- Uniswap's cost structure improvements  \n- Base ecosystem growth supporting Aerodrome\n- Volume sustainability for both protocols\n\n*Data sources: DefiLlama, TokenTerminal, CoinGecko - current as of January 2026*",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

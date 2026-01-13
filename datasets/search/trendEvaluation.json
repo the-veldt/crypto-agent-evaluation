@@ -1,0 +1,42 @@
+[
+  {
+    "qid": "vR3mK7wP",
+    "query": "what is driving the crypto AI agent narrative",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["ai"]
+  },
+  {
+    "qid": "bT8jN4fL",
+    "query": "what catalysts are driving the DeFi revival trend",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["defi"]
+  },
+  {
+    "qid": "qW5xL9hM",
+    "query": "how sustainable is the memecoin trend on Solana",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["memecoins", "ecosystems"]
+  },
+  {
+    "qid": "mP7sK2cQ",
+    "query": "what factors are contributing to Base ecosystem growth",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["ecosystems"]
+  },
+  {
+    "qid": "fN6tR8vC",
+    "query": "what is the investment thesis behind the RWA tokenization trend",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["rwa"]
+  }
+]

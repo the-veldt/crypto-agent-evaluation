@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "1kC3mP2v",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1kC3mP2v",
+    "query": "what assets are being discussed on twitter",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_2GsiIQuO23j6MxxDIMi37Vu9\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"\",\n      \"content_types\": [\n        \"tweets\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 3,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_0e0481c1ded0e01b006966b152dda081949790fc4a8a6c6cde\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Polygon Open Money Stack Architecture](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320755/veldt/daca4tnqb3qtz9gwodh5.jpg)\\n\\nTwitter chatter (last ~3 days in Droyd’s feed) clusters around a few **large-cap majors**, **infra tokens**, and a couple **event-driven outliers**:\\n\\n- **Ethereum (ETH)**: heavy protocol-level discourse driven by Vitalik’s “walkaway test” framing (ossification, quantum resistance, ZK scaling, state architecture, censorship resistance). This reads like **core roadmap narrative control**, not a short-term catalyst trade.\\n\\n- **Polygon (POL/MATIC)**: the dominant headline is **Polygon acquiring Coinme + Sequence** and positioning a **U.S.-regulated payments stack** (on/off ramps in **48 states**, embedded wallets, “1-click” crosschain via Trails). Expect **ecosystem adjacency tokens** to get pulled into the conversation too (wallet infra, ramps, stablecoin orchestration).\\n\\n- **Celestia (TIA)**: attention spikes around **Fibre** and the “**1Tb/s blockspace**” claim, plus benchmarks comparing **ZODA vs KZG** encoding throughput. This is classic **throughput narrative**—high engagement, but you’ll want to sanity-check what’s productized vs research.\\n\\n- **Hyperliquid (HYPE ecosystem)**: discussion centers on **HIP-3 markets**, with metrics like **~$14.7B cumulative executed volume** and **~$340M open interest** aggregated across HIP-3 DEXs (trade.xyz leading). This is **real usage data** and tends to propagate into adjacent perps/DEX infra conversations.\\n\\n- **Pyth Network (PYTH)**: circulating because of **Pyth Reserve** mechanics—**33% of treasury funds deployed monthly** to buy PYTH and move it into a reserve. That’s a clean, memeable **value-accrual loop** that Twitter latches onto.\\n\\n- **Solana (SOL) + Base**: notable thread alleges **bridged SOL on Base** volume inflation via LP-churning / wash-style behavior tied to incentives, referencing Aerodrome mechanics. This is more **credibility/signal quality** discourse than “SOL is pumping” discourse.\\n\\n- **Prediction markets**: **Polymarket** and **Kalshi** show up due to record sports-driven volume prints.\\n\\n- **Privacy coins**: **Zcash (ZEC)** discussed negatively (governance dispute / dev resignations), while **Monero (XMR)** is mentioned as the relative strength comparison. **Toncoin (TON)** appears in the context of distribution pressure.\\n\\nIf you want this narrowed to “**tokens that are trending specifically inside crypto Twitter**” (excluding macro assets like gold/silver/CPI), say the word and I’ll filter to only posts that explicitly tag crypto assets.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_0e0481c1ded0e01b006966b1552e008194873a6d883c483c1f\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Polygon Open Money Stack Architecture](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320755/veldt/daca4tnqb3qtz9gwodh5.jpg)\n\nTwitter chatter (last ~3 days in Droyd’s feed) clusters around a few **large-cap majors**, **infra tokens**, and a couple **event-driven outliers**:\n\n- **Ethereum (ETH)**: heavy protocol-level discourse driven by Vitalik’s “walkaway test” framing (ossification, quantum resistance, ZK scaling, state architecture, censorship resistance). This reads like **core roadmap narrative control**, not a short-term catalyst trade.\n\n- **Polygon (POL/MATIC)**: the dominant headline is **Polygon acquiring Coinme + Sequence** and positioning a **U.S.-regulated payments stack** (on/off ramps in **48 states**, embedded wallets, “1-click” crosschain via Trails). Expect **ecosystem adjacency tokens** to get pulled into the conversation too (wallet infra, ramps, stablecoin orchestration).\n\n- **Celestia (TIA)**: attention spikes around **Fibre** and the “**1Tb/s blockspace**” claim, plus benchmarks comparing **ZODA vs KZG** encoding throughput. This is classic **throughput narrative**—high engagement, but you’ll want to sanity-check what’s productized vs research.\n\n- **Hyperliquid (HYPE ecosystem)**: discussion centers on **HIP-3 markets**, with metrics like **~$14.7B cumulative executed volume** and **~$340M open interest** aggregated across HIP-3 DEXs (trade.xyz leading). This is **real usage data** and tends to propagate into adjacent perps/DEX infra conversations.\n\n- **Pyth Network (PYTH)**: circulating because of **Pyth Reserve** mechanics—**33% of treasury funds deployed monthly** to buy PYTH and move it into a reserve. That’s a clean, memeable **value-accrual loop** that Twitter latches onto.\n\n- **Solana (SOL) + Base**: notable thread alleges **bridged SOL on Base** volume inflation via LP-churning / wash-style behavior tied to incentives, referencing Aerodrome mechanics. This is more **credibility/signal quality** discourse than “SOL is pumping” discourse.\n\n- **Prediction markets**: **Polymarket** and **Kalshi** show up due to record sports-driven volume prints.\n\n- **Privacy coins**: **Zcash (ZEC)** discussed negatively (governance dispute / dev resignations), while **Monero (XMR)** is mentioned as the relative strength comparison. **Toncoin (TON)** appears in the context of distribution pressure.\n\nIf you want this narrowed to “**tokens that are trending specifically inside crypto Twitter**” (excluding macro assets like gold/silver/CPI), say the word and I’ll filter to only posts that explicitly tag crypto assets.",
+    "executionTimeMs": 18903,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "",
+          "content_types": [
+            "tweets"
+          ],
+          "limit": 30,
+          "days_back": 3,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 41391
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "8gAoUp4e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8gAoUp4e",
+    "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "defi",
+      "derivatives"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Market Landscape\n\nHyperliquid dominates the perp DEX sector with **~69% of daily active users** (per recent on-chain data) and leads in trading volume and open interest (OI). Total perp DEX 24h volume: **$26.6B**; Hyperliquid: **$6.83B vol, $8.77B OI** (#1 on CoinGecko). Monthly derivatives volume hit **$140B-$300B**, with **$550M-$616M annualized revenue** run-rate.\n\n| Rank | DEX | 24h OI | 24h Volume | Markets | Notes |\n|------|-----|--------|------------|---------|-------|\n| 1 | Hyperliquid | $8.77B | $6.83B | 238 | L1 leader; 69% DAU share |\n| 2 | (Likely dYdX/GMX) | $2.64B | $5.02B | 225 | - |\n| 3 | - | $1.37B | $3.87B | 123 | - |\n| 4 | - | $1.14B | $3.13B | 155 | - |\n| Others (GMX, Aevo, Drift, Aster, Lighter) | Varies $0.4B-$1.8B OI | <$2B vol each | <100 | Challengers fading post-TGE |\n\nFragmented beyond top 5; many new entrants (20+ farming perps like Lighter, Paradex, Aster) struggle post-airdrop, e.g., Lighter vol down to $1.72B vs Hyperliquid's $2.97B.\n\n## Key Competitors Comparison\n\n| DEX | Chain/Arch | Max Lev | Fees/Gas | Speed/UX | Key Strength | Weakness | Token/Mkt Cap |\n|-----|------------|---------|----------|----------|--------------|----------|---------------|\n| **Hyperliquid** | Custom L1 (HyperBFT, 100k TPS) | 50x | Zero gas; 0.045% maker/taker | Sub-sec finality; full on-chain OB | Liquidity moat; 130+ pairs | Recent $322M HYPE unlock | HYPE ~$40B FDV |\n| **dYdX** | Cosmos app-chain | 20x | Gasless relayer | 1-2s blocks; CEX-like | Points/airdrops; established | Slower; fewer pairs (~40) | DYDX $175M cap |\n| **GMX** | Arb/Avax L2s | 50x | L2 gas | Hybrid AMM; simple | LP revenue share | L2 limits (~2k ops/s); basic orders | GMX Varies |\n| **Aevo** | Optimism L2 | 20x | ETH gas | Rollup latency | Options + perps | ETH-tied speed/cost | - |\n| **Others (Aster, Lighter)** | L2s/Hyperliquid forks | 50-1000x | Varies | Variable | High lev/incentives | Low sustained vol post-TGE |\n\nHyperliquid 5x volume lead vs nearest rivals (e.g., $160B Dec 2024).\n\n## Hyperliquid Catalysts\n\n- **Performance Edge**: Custom L1 enables CEX-like execution (100k+ orders/s, zero gas), attracting pros from Binance/CEXs.\n- **Liquidity Flywheel**: 60%+ market share creates deepest books; integrations (e.g., Phantom wallet) add $15-30M annual rev potential.\n- **Tokenomics**: HYPE enables governance/staking/vaults; daily buybacks from fees (no VC dilution); HiHYPE LST launched.\n- **Ecosystem**: HyperEVM for composability; HIP-3 for easy deploys; institutional custody (Credo).\n- **Growth**: $300B+ monthly vol; public cos (Eyenovia) buying HYPE treasury.\n\n## Hyperliquid Moats\n\n- **Tech Superiority**: Purpose-built chain avoids L2 congestion; full on-chain OB/liquidations (no hybrids/oracles).\n- **Network Effects**: Liquidity begets liquidity; rivals can't match depth/speed.\n- **Economics**: Revenue-funded buybacks (72x rev multiple vs Uniswap/Coinbase); fair launch rewards users (31% airdrop).\n- **Execution**: HIP auctions for fast listings (e.g., memecoins); API for algos.\n\n## Conclusions\n\n**Bottom line**: Hyperliquid is the clear perp DEX leader (60-70% share), outpacing dYdX/GMX via superior L1 tech and liquidity—closest to \"Binance on-chain.\" Catalysts like integrations/revenue growth sustain dominance; moats (speed, depth) deter copycats. **Risks**: Unlock overhang, competition from 20+ farmers (most fade). **Monitor**: OI trends, HYPE buybacks, new L1 rivals (Aster). Bullish for high-freq trading shift to DeFi.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "yC2pJu8i",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yC2pJu8i",
+    "query": "what have been the top projects to raise over the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": [
+      "fundraising"
+    ],
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "Based on the available data from the past 30 days (December 14, 2025 to January 13, 2026), here are the top crypto fundraising rounds:\n\n## Top Fundraising Rounds (Last 30 Days)\n\n| Project | Amount Raised | Round Type | Date | Valuation |\n|---------|---------------|------------|------|-----------|\n| RedotPay | $107M | Series B | Dec 16, 2025 | ~$1.07B |\n| Fuse Energy | $70M | Series B | Dec 18, 2025 | $5.00B |\n| Dawn | $13M | Series B | Dec 18, 2025 | ~$130M |\n| Olea | $30M | Series A | Dec 16, 2025 | ~$300M |\n| ETH Gas | $12M | Seed Round | Dec 17, 2025 | ~$120M |\n| Harbor 2 | $4.2M | Seed Round | Dec 17, 2025 | ~$42M |\n| DeepBook AI | $2M | Funding Round | Dec 17, 2025 | ~$20M |\n\n## Key Highlights\n\n**Largest Round**: RedotPay's $107M Series B round led the pack, with participation from Pantera Capital, Blockchain Capital, HongShan (ex-Sequoia China), and Circle Ventures. The company is developing digital asset payment infrastructure. [x.com](https://x.com/CryptoRank_VCs/status/2000937397291458870)\n\n**Notable Valuation**: Fuse Energy achieved a remarkable $5B valuation in their $70M Series B round, making it one of the highest-valued fundraising events in the period.\n\n**Sector Diversity**: The top rounds span various crypto sectors including payment infrastructure (RedotPay), DePIN/energy (Fuse Energy), DeFi (Harbor 2), and AI/blockchain services (DeepBook AI, ETH Gas).\n\nThe data shows continued strong venture capital interest in crypto infrastructure projects, with Series B rounds dominating the largest raises. Payment solutions and energy/DePIN projects appear to be particularly attractive to investors during this period. [coingape.com](https://coingape.com/funding/)",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

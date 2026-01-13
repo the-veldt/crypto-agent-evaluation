@@ -10,6 +10,9 @@ An evaluation framework for testing and comparing crypto-focused search systems 
 - **Agent Evaluation**: Compare AI agent performance on crypto tasks
   - Standard model agents (GPT-5, Gemini-3-flash) with webSearch tool
   - Droyd Agent (specialized crypto agent)
+    - droyd: Default Droyd agent
+    - droyd-casual: Droyd casual tier
+    - droyd-pro: Droyd pro tier
 - **LLM-based Judging**: Automated evaluation using Claude, GPT, or Gemini models
 - **Multi-dimensional Scoring**:
   - Search: Evaluates on relevance, quality, information density, and completeness
@@ -30,7 +33,10 @@ An evaluation framework for testing and comparing crypto-focused search systems 
     - `DROYD_API_KEY` - For Droyd crypto search
     - `EXA_API_KEY` - For Exa web search
   - **Agent Systems:**
-    - `DROYD_API_KEY` - For Droyd agent
+    - `DROYD_API_KEY` - For Droyd agent (required for all Droyd tiers)
+    - `DROYD_USER_ID` - For default Droyd agent (optional)
+    - `DROYD_CASUAL_USER` - User ID for Droyd casual tier (required when using droyd-casual)
+    - `DROYD_PRO_USER` - User ID for Droyd pro tier (required when using droyd-pro)
     - `OPENAI_API_KEY` - For GPT-5 agent
     - `GOOGLE_GENERATIVE_AI_API_KEY` - For Gemini agent
 
@@ -54,9 +60,15 @@ ANTHROPIC_API_KEY=sk-ant-...
 GOOGLE_GENERATIVE_AI_API_KEY=...
 OPENAI_API_KEY=sk-...
 
-# Search Systems (required for evaluation)
+# Search Systems (required for search evaluation)
 DROYD_API_KEY=...
 EXA_API_KEY=...
+
+# Agent Systems (required for agent evaluation)
+DROYD_API_KEY=...
+DROYD_USER_ID=1                # Optional: default Droyd user
+DROYD_CASUAL_USER=1            # Required for droyd-casual
+DROYD_PRO_USER=2               # Required for droyd-pro
 ```
 
 ## Running Search Evaluations
@@ -139,6 +151,10 @@ npm run eval:agent -- --dataset all
 npm run eval:agent -- --systems gpt-5,droyd
 npm run eval:agent -- --systems gemini-3-flash
 
+# Test Droyd subscription tiers
+npm run eval:agent -- --systems droyd-casual,droyd-pro
+npm run eval:agent -- --systems droyd,droyd-casual,droyd-pro
+
 # Customize agent parameters
 npm run eval:agent -- --max-steps 5
 
@@ -151,7 +167,7 @@ npm run eval:agent -- --help
 | Option | Description | Default |
 |--------|-------------|---------|
 | `--dataset <name>` | Dataset file(s): single, multiple (comma-separated), or `all` | `all` |
-| `--systems <systems>` | Agent systems to test (comma-separated): `gpt-5`, `gemini-3-flash`, `droyd` | All three |
+| `--systems <systems>` | Agent systems to test (comma-separated): `gpt-5`, `gpt-5-mini`, `claude-4.5-sonnet`, `gemini-3-flash`, `droyd`, `droyd-casual`, `droyd-pro` | All systems |
 | `--max-steps <number>` | Max steps for standard agents (GPT/Gemini) | `10` |
 | `--output-dir <path>` | Results output directory | `datasets/_results/agent` |
 | `--help, -h` | Show help message | - |
@@ -315,11 +331,16 @@ Default configuration is in [lib/evaluation/search/defaultConfig.ts](lib/evaluat
 
 Default configuration is in [lib/evaluation/agent/defaultConfig.ts](lib/evaluation/agent/defaultConfig.ts). You can modify:
 
-- Agent systems to test (GPT-5, Gemini-3-flash, Droyd)
+- Agent systems to test (GPT-5, GPT-5-mini, Claude-4.5-sonnet, Gemini-3-flash, Droyd, Droyd-casual, Droyd-pro)
 - Dataset files to load
 - Judge model (Claude, GPT, Gemini)
 - Agent parameters (tools, max steps, instructions)
 - Output directory
+
+**Droyd Subscription Tiers:**
+- `droyd`: Default Droyd agent (uses `DROYD_USER_ID` or no user ID)
+- `droyd-casual`: Droyd casual tier (requires `DROYD_CASUAL_USER` env var)
+- `droyd-pro`: Droyd pro tier (requires `DROYD_PRO_USER` env var)
 
 ## Development
 

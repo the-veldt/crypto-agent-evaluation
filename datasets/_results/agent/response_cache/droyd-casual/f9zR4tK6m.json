@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "f9zR4tK6m",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "f9zR4tK6m",
+    "query": "what are the top 5 projects by revenue growth and what are the key catalysts for each",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"iBSo3dsFbz9gPwai\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Identify the top 10 protocols by 30-day revenue growth and research the key catalysts or drivers behind this growth for each.\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EqsHCqgHAXLI2nzFM06prtnBc53DCFdBwXqym0LFz2hluoUNHw575pjFKXBNvGSxO4qYGOxo3bT/yQGNYGMY+aCWj1BkQ50rr8gTyiuM30vNCfnGXU53A9lHI6LeDMlkdjoFSlYzN9wR5RkMeBfjfyhEtjs5ZEGjx/7r92pAh0agbIs66Y15mXqDTTxlEHVM7LJ4GtuJYU9Tf4QMmLXZt7J5GD012GCFcYnqsvc8vl08BXZpO+AieQ3dBDKVMkuAF0rXxORs7Lme+yNXBBA7hhudDImMLDChmc7QH71ybnrPYdsysdFpt/Z+HsUBgZKeIkxbNXm/cCWBgi808nbLZOkSXhJCGeyQ3bzBJrutli/l8R5WCEM2/0wAcyKSA/qCqcuYGX4sX6J/gpNPayNVWowHNLQegusmDzPaI/wPi57wUwmw7qyV+lr+BGjWDl93SbzotAHZ0ipWxK10tvLWEuvRY2OmNDbRzxtNdR+GZjaqNXzQ1tNW94CBoGFdQaHaTQttojtxgjQVGVuKRnW+WP74D6GJZX9hoC6SCkcTK5Rb9ruf1cgCmvocBJq65dWrtnjLvz6AedDxZ37q17fNOwWAilP4HI/9clZVWdXMEfZSoRZagRGz/HoHgUBLdeKhVRorsvBwKrtMErpd2CiANivTQ8WJMkZDS/RoGDuELA2JDK/lxS5E5dqpQhkEvr6lbt5wyz9d+2C0i4heCR1tKPgs66Z7x51IjoeHp6WgQzmCAlPxxYAWsJO/rfg61rNWAdFqamZG+39+SBomljK84Cuh+sO/WcBWFA+jdztdie1T4ukK9UVhRMDE70DQGgiFqcABeN+sojpMPUh6M9MFy0PKKhe0hcR++gNnzTH2dcsVn4lJg8pJ9jrGBqTcLRG0kXPoz4ir7sLl+f0nWwXoImysGvSce9w06n6Fcf83OsHokBcc2qv53pdB/3cf+TYQ9qihryAxatAhdq25Qi0a73c2PUyJUOme9QlzKUGgU6kDSljLE3C2TMnSjouRa9pxixzJAN+Rx8qU9ldRu039/J6U9nYt1HAcMuEhz9p2tn1+r7guZT4+R8vz/sb2qf6x4HWzq+LurJzVyfyOk6H65zq7C/VZuBCsd7DoZipKrwbSzdwTkHPqp1P2CX3mZbZhjYm/rViVuIpowrbEIIKdg5ng4vlIX4DG+i+/cT1GBRjcPZwLUA6Ya/G6ZkHoq6qXxOCK/B7Vrh6bq/pCbDjEeJsxZ1g4lFM67xGgBcx9\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"DuCqZNgQmIO2UVGC\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"days_back\": 30,\n      \"project_ids\": [\n        15117,\n        36850,\n        6067,\n        26304,\n        29911\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Lombard is currently leading the market in percentage revenue growth, driven by its aggressive consolidation of the Bitcoin liquid staking market. By acquiring Avalanche’s **BTC.b** from Ava Labs, Lombard effectively secured ~57% of total BTC liquid staking market share. This infrastructure pivot allowed **LBTC** to reach $1B in TVL within 92 days, making it the fastest yield-bearing token to hit that milestone.\\n\\n![Lombard LBTC Performance and Growth Metrics](https://res.cloudinary.com/dgjriemfd/image/upload/v1768031305/veldt/n1xsztpshgdberqttheg.jpg)\\n\\n**Neverland** (+14.38%) and **Hanji Protocol** (+3.99%) represent a surge in activity on the **Monad** ecosystem. Neverland’s growth is tied to its mainnet launch of self-repaying loans and veTokenomics, while Hanji capitalized on a \\\"stealth\\\" deployment that quickly captured top-2 weekly volume on the chain. Both protocols are benefiting from high taker volumes and vault-based liquidity models that convert early ecosystem hype into immediate fee revenue.\\n\\n**Impermax** (+14.15%) technically ranks as a top growth project, but this is likely an outlier driven by a recent **$400k security exploit**. Revenue spikes following such incidents typically reflect emergency onchain flows and remediation transactions rather than organic adoption. Similarly, **Yieldnest** (+13.43%) shows high percentage growth but remains on a small absolute base of just ~$5.2k in 30-day revenue.\\n\\n**Synthetix Network** (+9.69%) is executing a major comeback by relaunching its perpetuals infrastructure on Ethereum mainnet. The protocol's hybrid onchain-offchain **CLOB architecture** successfully processed $11B in trading volume during its private beta competitions. By enabling high-leverage markets for assets like PEPE, XRP, and DOGE directly on mainnet, Synthetix is recapturing fees that had migrated to L2s.\\n\\n![Synthetix Mainnet Trading Competition Leaderboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1765813988/veldt/g79c5am0xievotuidqvc.jpg)\\n\\nWhile **Compound** (+4.62%) has a lower growth rate, its absolute revenue of **$1.07M** is the most significant in the group. Growth is being driven by the resumption of paused stablecoin markets and new integrations with yield aggregators like Sail. The protocol is also benefiting from institutional demand for onchain lending, recently highlighted in major industry reports on stablecoin utility.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Lombard is currently leading the market in percentage revenue growth, driven by its aggressive consolidation of the Bitcoin liquid staking market. By acquiring Avalanche’s **BTC.b** from Ava Labs, Lombard effectively secured ~57% of total BTC liquid staking market share. This infrastructure pivot allowed **LBTC** to reach $1B in TVL within 92 days, making it the fastest yield-bearing token to hit that milestone.\n\n![Lombard LBTC Performance and Growth Metrics](https://res.cloudinary.com/dgjriemfd/image/upload/v1768031305/veldt/n1xsztpshgdberqttheg.jpg)\n\n**Neverland** (+14.38%) and **Hanji Protocol** (+3.99%) represent a surge in activity on the **Monad** ecosystem. Neverland’s growth is tied to its mainnet launch of self-repaying loans and veTokenomics, while Hanji capitalized on a \"stealth\" deployment that quickly captured top-2 weekly volume on the chain. Both protocols are benefiting from high taker volumes and vault-based liquidity models that convert early ecosystem hype into immediate fee revenue.\n\n**Impermax** (+14.15%) technically ranks as a top growth project, but this is likely an outlier driven by a recent **$400k security exploit**. Revenue spikes following such incidents typically reflect emergency onchain flows and remediation transactions rather than organic adoption. Similarly, **Yieldnest** (+13.43%) shows high percentage growth but remains on a small absolute base of just ~$5.2k in 30-day revenue.\n\n**Synthetix Network** (+9.69%) is executing a major comeback by relaunching its perpetuals infrastructure on Ethereum mainnet. The protocol's hybrid onchain-offchain **CLOB architecture** successfully processed $11B in trading volume during its private beta competitions. By enabling high-leverage markets for assets like PEPE, XRP, and DOGE directly on mainnet, Synthetix is recapturing fees that had migrated to L2s.\n\n![Synthetix Mainnet Trading Competition Leaderboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1765813988/veldt/g79c5am0xievotuidqvc.jpg)\n\nWhile **Compound** (+4.62%) has a lower growth rate, its absolute revenue of **$1.07M** is the most significant in the group. Growth is being driven by the resumption of paused stablecoin markets and new integrations with yield aggregators like Sail. The protocol is also benefiting from institutional demand for onchain lending, recently highlighted in major industry reports on stablecoin utility.",
+    "executionTimeMs": 78200,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Identify the top 10 protocols by 30-day revenue growth and research the key catalysts or drivers behind this growth for each."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "days_back": 30,
+          "project_ids": [
+            15117,
+            36850,
+            6067,
+            26304,
+            29911
+          ]
+        }
+      }
+    ],
+    "totalTokens": 57289
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

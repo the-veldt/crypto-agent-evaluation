@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "yB8iWa9n",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yB8iWa9n",
+    "query": "build and compare the investment case for Solana versus Ethereum",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 1205
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 5100
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 8185
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11402
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 15110
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 17252
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 19487
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 21756
+        }
+      },
+      {
+        "stepNumber": 9,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 23416
+        }
+      },
+      {
+        "stepNumber": 10,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 26369
+        }
+      }
+    ],
+    "finalAnswer": "",
+    "executionTimeMs": 63827,
+    "totalTokens": 149282,
+    "stepCount": 10,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "January 2026 Ethereum spot ETF inflows update",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana spot ETF approval 2025 2026 SEC",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Firedancer mainnet 2025 2026 Solana client launch status January 2026",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Ethereum Pectra upgrade timeline 2025 2026 EIP list SSF EVM Object Format 2025",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DeFi Llama TVL January 2026 Ethereum Solana TVL",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "defillama.com/news",
+            "coindesk.com",
+            "theblock.co"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana TVL January 2026 DeFi Llama total value locked",
+          "numResults": 5,
+          "startPublishedDate": "2025-10-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "blockworks.co",
+            "coindesk.com",
+            "theblock.co"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Artemis Solana vs Ethereum active addresses fees 2025 2026 report",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "artemis.xyz",
+            "blog.artemis.xyz",
+            "twitter.com",
+            "x.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "cryptofees.info Ethereum fees Solana fees 2025 average",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "cryptofees.info",
+            "tokenterminal.com",
+            "messari.io",
+            "data.messari.io"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana inflation schedule 1.5% long-term staking rewards inflation rate",
+          "numResults": 5,
+          "startPublishedDate": "2020-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "docs.solana.com",
+            "solana.com",
+            "solana.org",
+            "messari.io"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "EigenLayer 2025 2026 restaking adoption AVS revenue risks update January 2026",
+          "numResults": 5,
+          "startPublishedDate": "2025-01-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "coindesk.com",
+            "blockworks.co",
+            "eigenlayer.xyz",
+            "messari.io"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

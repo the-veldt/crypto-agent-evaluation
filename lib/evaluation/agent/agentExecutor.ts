@@ -12,13 +12,14 @@ import type {
   ToolCall,
   AgentEvaluationConfig,
 } from './types';
+import { loadCachedResponse, validateCacheVersion, isCacheEnabled, getCacheDir } from './cacheLoader';
 
 /**
  * Execute a standard model agent (GPT-5, Gemini, etc) using agentFactory
  */
 export async function executeStandardAgent(
   query: string,
-  modelName: 'gpt-5' | 'gpt-5-mini' | 'claude-4.5-sonnet' | 'gemini-3-flash',
+  modelName: 'gpt-5' | 'gpt-5-mini' | 'claude-4.5-sonnet' | 'gemini-3-flash' | 'gemini-3-pro',
   config: AgentEvaluationConfig
 ): Promise<AgentSystemResult> {
   const startTime = Date.now();
@@ -130,21 +131,38 @@ export async function executeStandardAgent(
  */
 export async function executeDroydAgent(
   query: string,
+  system: 'droyd' | 'droyd-casual' | 'droyd-pro',
   config: AgentEvaluationConfig
 ): Promise<AgentSystemResult> {
   const startTime = Date.now();
 
   try {
-    console.log(`[executeDroydAgent] Starting Droyd agent for query: "${query}"`);
+    console.log(`[executeDroydAgent] Starting ${system} agent for query: "${query}"`);
 
     const droydConfig = config.droydAgentConfig || {
       agentType: 'agent',
     };
 
+    // Determine which user ID to use based on system tier
+    let userId: string | undefined;
+    if (system === 'droyd-casual') {
+      userId = process.env.DROYD_CASUAL_USER;
+      if (!userId) {
+        throw new Error('DROYD_CASUAL_USER environment variable is not set');
+      }
+    } else if (system === 'droyd-pro') {
+      userId = process.env.DROYD_PRO_USER;
+      if (!userId) {
+        throw new Error('DROYD_PRO_USER environment variable is not set');
+      }
+    }
+    // For 'droyd', userId remains undefined and will use DROYD_USER_ID from env
+
     // Execute Droyd task
     const result = await droydTask({
       taskInstructions: query,
       agentType: droydConfig.agentType || 'agent',
+      userId,
     });
 
     const executionTimeMs = Date.now() - startTime;
@@ -210,7 +228,7 @@ export async function executeDroydAgent(
     }
 
     const agentResult: AgentSystemResult = {
-      system: 'droyd',
+      system,
       steps,
       finalAnswer,
       executionTimeMs,
@@ -220,16 +238,16 @@ export async function executeDroydAgent(
       totalTokens: result.data?.totalUsage?.totalTokens ?? 0,
     };
 
-    console.log(`[executeDroydAgent] Droyd completed in ${executionTimeMs}ms`);
+    console.log(`[executeDroydAgent] ${system} completed in ${executionTimeMs}ms`);
 
     return agentResult;
   } catch (error) {
     const executionTimeMs = Date.now() - startTime;
 
-    console.error('[executeDroydAgent] Droyd failed:', error);
+    console.error(`[executeDroydAgent] ${system} failed:`, error);
 
     return {
-      system: 'droyd',
+      system,
       steps: [],
       finalAnswer: '',
       executionTimeMs,
@@ -242,15 +260,54 @@ export async function executeDroydAgent(
 }
 
 /**
- * Execute agent based on system type
+ * Execute agent based on system type, with optional cache support
  */
 export async function executeAgent(
   query: string,
-  system: 'gpt-5' | 'gpt-5-mini' | 'claude-4.5-sonnet' | 'gemini-3-flash' | 'droyd',
-  config: AgentEvaluationConfig
+  system: 'gpt-5' | 'gpt-5-mini' | 'claude-4.5-sonnet' | 'gemini-3-flash' | 'gemini-3-pro' | 'droyd' | 'droyd-casual' | 'droyd-pro' | 'surf-quick' | 'elfa-fast' | 'elfa-expert' | 'messari-assistant',
+  config: AgentEvaluationConfig,
+  qid?: string // Optional question ID for cache lookup
 ): Promise<AgentSystemResult> {
-  if (system === 'droyd') {
-    return executeDroydAgent(query, config);
+  // Check cache first if enabled
+  if (isCacheEnabled(config) && qid) {
+    const cacheDir = getCacheDir(config);
+    const cached = await loadCachedResponse(system, qid, cacheDir);
+
+    if (cached) {
+      // Validate version compatibility (v2 for AgentEvaluationConfigV2)
+      const expectedVersion = 'rankingMethod' in config ? 'v2' : 'v1';
+
+      if (validateCacheVersion(cached, expectedVersion)) {
+        console.log(`  [Cache HIT] ${system} (qid: ${qid})`);
+
+        // Return cached agentResult with cache flag
+        return {
+          ...cached.agentResult,
+          _fromCache: true,
+        } as AgentSystemResult;
+      }
+    }
+  }
+
+  // Cache miss or disabled - execute normally
+  // Third-party systems (surf-quick, elfa-fast, elfa-expert, messari-assistant) can only be used with cache
+  if (system === 'surf-quick' || system === 'elfa-fast' || system === 'elfa-expert' || system === 'messari-assistant') {
+    const errorMsg = `${system} is a third-party system and can only be used with --use-cache. No cached response found for qid: ${qid}`;
+    console.error(`  ✗ ${errorMsg}`);
+    return {
+      system,
+      steps: [],
+      finalAnswer: '',
+      executionTimeMs: 0,
+      stepCount: 0,
+      rawResponse: null,
+      toolCalls: [],
+      error: errorMsg,
+    };
+  }
+
+  if (system === 'droyd' || system === 'droyd-casual' || system === 'droyd-pro') {
+    return executeDroydAgent(query, system, config);
   } else {
     return executeStandardAgent(query, system, config);
   }

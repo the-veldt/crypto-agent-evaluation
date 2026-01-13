@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "WcY3oXz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcY3oXz8",
+    "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+    "level": 2,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"EBYRLQfblRFABIDb\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"category_ids\": [\n        513\n      ],\n      \"include_global\": true\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EswMCskMAXLI2nx3MVmApkGGzzLGW0v0pTCErLQBIzsPI52bxP41Bcuvafyh4WBWa2Z391a0QVrjuduiQ0mx6fIzRZiF1LW/DTX+BwWyn61b0cOCM+USC03tdZ1cCw6nC1m3+e9E0bToZrPgyZi7XjHRBKgI8kcu/BKE5aBEpVX06PRBFOc0TQw4cBFc5T2mjL8s7uEIXZU6ZCClZ9SeHRBN+rN4FfoOLk+pQwHBByP1W7UZIeYbDld3D2qGDGU8a3WqhAPyNrqaOqznko9r46JRfic4/HNL0E7KdXmDHWxD0GmUdfK0HuDWEkBLLK0W/4XzWDw3bU0HBfPzBpoMj2/jcUtxg/fFk5Y7KGGko+oX5iUR8UxJYu2siiEQjgdTNV0nq2Z1qmfHWLq4+eTUAVlnbenIuZjWlXuBzH99yhq7QgBXGKJoQRVYq+ukB3kQ59eQrG/Iou4eN2v4BxGkZUyEo+ZYIY2D2BBzvB2H3ek/i70N3oFDKc3yCLXOg198jz6JmwqbvhRR+LTIPc8A8H2oLvt5mzPWbzh5bZFtaKtQeiei/NeD+fTYz6O+RpXf8SKYBye3RYO5QpxAmzdUmlTzM0RaAcQoheui4/9hsTkKAp1Nr1VkfFqNcHc0okFo4dcINaZJgWXHEy1TmXtaNEMofqpVVQlf7xNSQ3MfCv08nz7OvzDzAAnXGy2WKMpyvtJDTcSeG1AzvuT+/NlP9xJh828xpKkHWKFv+JKofwYiPIjukhRkZfVDQ5Wy0JC/sedO5cr9bCPHFHV1bGezPVVGafdgQCOnlN9C7OSKy7N+3fSoX2n6oFxMXVJkXt8YXY7w02Ug5/jDhPSfTx/jHuRliRSOr+LKJgogBJYcXDR06asJxRiJf0soFlA64nBIwnkGLfZLy+VDiLPsBR15rUIhBoFCvom1tkGmEmOuGPkPX26fySHe5FuJAaMOA5TTw3b7L7mcI/J1njsor8nfikQnnkF54MpGeVaHLwVJnjCz4/gi8PIfy5EnGGHJKKcBUTDeiziUQyCGvyMVXolrVsrAc4tfzDwCeeiV7qCf1PBmJuE2kZK0lmHT+Oiy6E/e9/6v4/jUdvl4+6p3AHIut+cM1JdS+Lcbj9bqkYLTaQfq5IMxfOxEgU5wjF8bCMdbvzbD8wX9aCG59cSqXJxzSu6Ph9LPas5ZOS8eyJi0Tr6qfC4UTeR/CTIx2TIBCtuFr5yQVyyU55EyJxDidk1cqdPcRjqIhLMsuz6TrJSNkYcfRe6fS12AG4+SigMpipU65JtwliWi3KgbLuOT1zAWucHu3wZ0fOdSDuWoii4vnFjviqH00Ucg17BTU3VUukfFTY5Oe6QhM5QaHd8jXy27BtQvesWrzwDOj85tP3Sg+GeN7GDmadCKXdXuWWYrqdXnOyJXBbQnBRhM5issHQ3UVj26cNjmStrxnmZWDekZmsh7SaLP3uNe5Ch/+x0B3I/bDF3UJur7Jc6A9T2x0ihnK7X5h92F68+b2W3w6/gxhuiqDfom+E3W3bC8ktZ3KyBv4Vus+d4MyE4ps812W9ilq8gFU1EDtKwRXuZ7WJOFXsedXFifttw3YyfHiV5vXYmONUO1Djbay0DbrMM+Kuw6ECxmEFqYwOF+CkKb2uFLvYwFLCt0wUr/OAqm03cASaSMFz+aNas9ngXJasd/437Ginf5NvJG2CQeSNtf5e0mjZF7VRE0uRvoHKRbX1WTlpihkV0h22cDqisXYsKlOBRnzOHWgtUAt1qSbQFJaZOefTocDKv+QTpLcsAWbGI0Yb3XNAVnYGeP2m1wZlS09yUzxc7i7ISYVPZRj1hfdBwPpmF2LNWJHPqNQoRbxt7G0/3msfFoyjlusRVZGk5INCbR4VupZfAti1+SMwbJuzAcFqTpgJkmEwkIu/ICJIXrGYWDg7JfCYI+AqjZtHVlc3KlrMLLiVVpEq/v1qyjPWbSjGT6VoD3OuitCWsF7IATlIlnX7B+8030THj0268lKuPH9hk+G6VS3tFUc0gYSG/P1n6rEni0EG3uHqjqfKwYdZHOMGFvOFn/LABCZ1I3KuD9W822ZodJ5xRmCNsi36LWb5FOaSOSYQteSVf5fYUQ7nc7MPLcTeK3fJnCxAS3O1XCvB/i2use1nog3Dq/J0COCg==\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"Oj6Li7jyu1PWSavn\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find DeFi protocols with high social mindshare growth and trader activity. Focus on leading sectors like AI agents, perp DEXs, and yield optimizers on Solana and Base.\",\n      \"sort_by\": \"mentions_change_24h\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"e7u3UPOUrU973izF\",\n    \"toolName\": \"searchData\",\n    \"input\": {\n      \"query\": \"Compare top 10 DeFi protocols by 30-day revenue growth and mindshare gain. Include TVL trends for Solana and Base ecosystems.\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"2KgbTE56twhsd1xg\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Why is Lombard gaining traction in BTC restaking? What is the narrative behind Usual and its revenue growth? How are AI agents like Dexter shifting DeFi trading?\",\n      \"days_back\": 30\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The DeFi market is transitioning from purely incentive-driven \\\"farming\\\" to institutional-grade rails and an agentic economy where AI handles execution. Mindshare is concentrating in protocols that provide real revenue capture, BTC yield, and autonomous trading.\\n\\n### The Agentic Economy: AI-First DeFi\\nThe most aggressive mindshare shift is toward \\\"Agentic DeFi,\\\" where AI agents like **Dexter** are replacing manual UI interactions. Dexter has become the largest facilitator for **x402 payments** on Solana, with transactions rising **700% WoW** and annualizing toward $600M in volume. This isn't just a gimmick; it’s the commercialization of AI-led onchain commerce.\\n\\n{chart_id:353}\\n\\nProtocols are shifting to support this by enabling \\\"Prompt-to-DeFi\\\" infrastructure. For instance, **Infinit Labs** and **Virtuals (Butler)** allow users to execute complex strategies via natural language, which settled $3.72M in volume through Dexter's facilitator recently. The \\\"why\\\" is simple: agents can manage risk and optimize yield 24/7 with zero latency compared to human traders.\\n\\n### BTCFi: Unlocking the Prime Collateral\\nBitcoin is no longer idle. **Lombard** has seized the BTCFi narrative, commanding a **57% market share** in Bitcoin liquid staking. Its LBTC token achieved $1 billion in TVL in just 92 days—the fastest of any yield-bearing asset in history. By acquiring the **BTC.b infrastructure** from Ava Labs, Lombard has consolidated the rails for Bitcoin across 13 chains.\\n\\n{image_id:447872}\\n\\nThe utilization rate for LBTC stands at **82%**, meaning the capital isn't just sitting; it’s being cycled through Aave, Morpho, and Pendle for stacked yield. This shift turns BTC into \\\"prime collateral\\\" comparable to ETH, but with a larger total addressable market. **Meteora** is also capturing this trend on Solana, seeing a **3.01% revenue growth** over the last 30 days as a primary liquidity hub.\\n\\n### The Stablecoin Revenue Meta\\nThe stablecoin narrative has shifted from \\\"safe haven\\\" to \\\"productive asset.\\\" **Usual** and the **Stable L1** (backed by Bitfinex and Franklin Templeton) are leading this \\\"Revenue Meta.\\\" They utilize **USDT0** as native gas, capturing yield from Real World Assets (RWAs) and redistributing it via buybacks or revenue sharing.\\n\\n*   **Usual**: +2.06% revenue growth over 30 days, positioning as a \\\"DeFi Mullet\\\" (institutional backend, retail frontend).\\n*   **Hyperliquid**: Executed a **$910M HYPE buyback**, proving that fee-capture derivatives are the new valuation benchmark.\\n*   **Lombard**: Chosen as the canonical BTC partner for the Stable L1, further bridging BTC liquidity into the revenue-sharing ecosystem.\\n\\nBase is showing the healthiest growth in this category, with a **5.88% monthly TVL increase**, driven by lending protocols like **Morpho** which now holds **$2.235B in TVL**. The narrative is clear: if a protocol doesn't have a sustainable revenue-sharing or buyback model, it’s losing mindshare to the yield-bearing \\\"productive\\\" cohort.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The DeFi market is transitioning from purely incentive-driven \"farming\" to institutional-grade rails and an agentic economy where AI handles execution. Mindshare is concentrating in protocols that provide real revenue capture, BTC yield, and autonomous trading.\n\n### The Agentic Economy: AI-First DeFi\nThe most aggressive mindshare shift is toward \"Agentic DeFi,\" where AI agents like **Dexter** are replacing manual UI interactions. Dexter has become the largest facilitator for **x402 payments** on Solana, with transactions rising **700% WoW** and annualizing toward $600M in volume. This isn't just a gimmick; it’s the commercialization of AI-led onchain commerce.\n\n{chart_id:353}\n\nProtocols are shifting to support this by enabling \"Prompt-to-DeFi\" infrastructure. For instance, **Infinit Labs** and **Virtuals (Butler)** allow users to execute complex strategies via natural language, which settled $3.72M in volume through Dexter's facilitator recently. The \"why\" is simple: agents can manage risk and optimize yield 24/7 with zero latency compared to human traders.\n\n### BTCFi: Unlocking the Prime Collateral\nBitcoin is no longer idle. **Lombard** has seized the BTCFi narrative, commanding a **57% market share** in Bitcoin liquid staking. Its LBTC token achieved $1 billion in TVL in just 92 days—the fastest of any yield-bearing asset in history. By acquiring the **BTC.b infrastructure** from Ava Labs, Lombard has consolidated the rails for Bitcoin across 13 chains.\n\n{image_id:447872}\n\nThe utilization rate for LBTC stands at **82%**, meaning the capital isn't just sitting; it’s being cycled through Aave, Morpho, and Pendle for stacked yield. This shift turns BTC into \"prime collateral\" comparable to ETH, but with a larger total addressable market. **Meteora** is also capturing this trend on Solana, seeing a **3.01% revenue growth** over the last 30 days as a primary liquidity hub.\n\n### The Stablecoin Revenue Meta\nThe stablecoin narrative has shifted from \"safe haven\" to \"productive asset.\" **Usual** and the **Stable L1** (backed by Bitfinex and Franklin Templeton) are leading this \"Revenue Meta.\" They utilize **USDT0** as native gas, capturing yield from Real World Assets (RWAs) and redistributing it via buybacks or revenue sharing.\n\n*   **Usual**: +2.06% revenue growth over 30 days, positioning as a \"DeFi Mullet\" (institutional backend, retail frontend).\n*   **Hyperliquid**: Executed a **$910M HYPE buyback**, proving that fee-capture derivatives are the new valuation benchmark.\n*   **Lombard**: Chosen as the canonical BTC partner for the Stable L1, further bridging BTC liquidity into the revenue-sharing ecosystem.\n\nBase is showing the healthiest growth in this category, with a **5.88% monthly TVL increase**, driven by lending protocols like **Morpho** which now holds **$2.235B in TVL**. The narrative is clear: if a protocol doesn't have a sustainable revenue-sharing or buyback model, it’s losing mindshare to the yield-bearing \"productive\" cohort.",
+    "executionTimeMs": 133581,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "category_ids": [
+            513
+          ],
+          "include_global": true
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find DeFi protocols with high social mindshare growth and trader activity. Focus on leading sectors like AI agents, perp DEXs, and yield optimizers on Solana and Base.",
+          "sort_by": "mentions_change_24h"
+        }
+      },
+      {
+        "toolName": "searchData",
+        "parameters": {
+          "query": "Compare top 10 DeFi protocols by 30-day revenue growth and mindshare gain. Include TVL trends for Solana and Base ecosystems."
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Why is Lombard gaining traction in BTC restaking? What is the narrative behind Usual and its revenue growth? How are AI agents like Dexter shifting DeFi trading?",
+          "days_back": 30
+        }
+      }
+    ],
+    "totalTokens": 91586
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

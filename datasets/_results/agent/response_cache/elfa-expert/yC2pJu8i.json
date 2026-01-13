@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "yC2pJu8i",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "yC2pJu8i",
+    "query": "what have been the top projects to raise over the last 30 days",
+    "level": 2,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": [
+      "fundraising"
+    ],
+    "sectors": null,
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\n\nThe top crypto fundraising projects in the last 30 days include GeeFi (GEE), which raised nearly $1.5 million in its presale, and several high-profile token sales and rounds such as Aztec, Huddle01, and Leveraged Prediction Market. For a more detailed breakdown and additional notable raises, refer below.\n\n───\n\nGeeFi (GEE) has been a standout, raising close to $1.5 million in its token presale over a few weeks, signaling strong investor interest in its DeFi ecosystem and upcoming product launches markets.businessinsider.com.\n\nAztec Network also made headlines with its onchain token sale, notable for being accessible to U.S. users and for its innovative fundraising approach Aztec tweet.\n\nHuddle01 conducted a token sale similar to Aztec’s, with expectations of further significant raises in the ongoing “token sale fest” CryptoTeluguO tweet.\n\nLeveraged Prediction Market (@intodotspace) launched a public token sale round starting December 17, with a floor raise of $2.5 million at a $50M FDV, and a ceiling at $99M FDV ICO Analytics tweet.\n\nMetaDAO Launchpad has also seen strong fundraising momentum, with average commitments around $50 million per launch, though recent launches have delivered more modest returns cryptorank analytics.\n\nIn addition, the overall crypto fundraising environment remains strong, with 2025 seeing late-stage rounds and VC investments concentrating into narrative leaders. Notably, Klarna announced plans to raise funding denominated in USDC, indicating growing adoption of stablecoins in institutional fundraising Finextra.\n\nFor more granular, up-to-date data or a comprehensive list of all recent fundraising rounds, platforms like CryptoRank and Decrypt regularly publish analytics and summaries (CryptoRank funding analytics). \n\nIf you need a more exhaustive list or specific details about a particular project, let me know!",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

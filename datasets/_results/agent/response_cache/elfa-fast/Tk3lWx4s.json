@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "Tk3lWx4s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Tk3lWx4s",
+    "query": "pull the top latest tweets in crypto - what are the key discussions, projects, and narratives? Assess the sentiment and importance of each",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nTop crypto Twitter discussions focus on altcoin rallies ($SOL, $ETH, $BTC, $XRP leading mindshare), 2026 predictions (consumer DeFi, regulation, tokenization), and regulatory developments (DeFi protections, ETF delays). Sentiment is predominantly bullish on altcoins and institutional adoption, with high importance for traders monitoring ETF flows and macro trends.\n\n───\n\nKey Projects and Tokens\nRecent tweets highlight several projects gaining traction:\n\n- Solana ($SOL): Tops social discussions due to network upgrades, ETF filings by Morgan Stanley, and ecosystem growth in tokenization. Santimentfeed\n- Ethereum ($ETH): Institutional interest via ETF filings and DeFi utility; strong correlation with rising stablecoin/tokenization searches. Santimentfeed, concapdan\n- Bitcoin ($BTC): Holding firm amid ETF inflows and whale accumulation; volatility around $91-93K. Santimentfeed, coinbureau\n- XRP ($XRP): Record ETF inflows, regulatory clarity post-SEC, and cross-border use cases; dubbed \"hottest trade of 2026\". Santimentfeed\n- Altcoins like $PEPE, $PENGU, $SUI: Featured in smart account analyses for potential breakouts. rektcapital\n- AI/DeFi plays: Virtuals Protocol, Bittensor, and consumer DeFi trends emerging. Sincitycrypto, TheDeFinvestor\n\nDominant Narratives\n- 2026 Market Outlook: Shift to consumer DeFi, payments, prediction markets, and tokenization; altcoin season potential via cup-and-handle patterns. mvellank, Bitcoinsensus, concapdan\n- Regulation: US Senate crypto bill vote nearing Jan 15, Lummis' DeFi developer protections, state reserves (e.g., Florida), and global trends. AppBreadcrumbs, coinbureau, elliptic\n- ETFs and Institutional Flows: Delays on $PENGU and others, but strong BTC/ETH/XRP inflows; altcoin volume now ~50% of total market. AskFocal, JA_Maartun\n- Market Structure: BTC sideways action favors alts; cooling Death Cross but rebounding privacy coins like $ZEC, $LTC. DecryptMedia, XForceGlobal\n\nSentiment and Importance Assessment\n| Narrative/Project | Sentiment | Importance | Rationale |\n|-------------------|-----------|------------|-----------|\n| Altcoin Rallies ($SOL, $ETH, $XRP) | Bullish | High | Smart accounts like @rektcapital and @coinbureau highlight upside; social volume spikes signal momentum for traders. rektcapital |\n| Regulation (DeFi protections, ETFs) | Mixed-Positive | High | Progress boosts adoption but delays add uncertainty; critical for institutional entry. coinbureau |\n| 2026 Predictions (Consumer DeFi, Tokenization) | Optimistic | Medium-High | Aligns with search trends and institutional focus; positions alts for gains. TheDeFinvestor |\n| BTC Stability | Neutral | Medium | Sideways range mature, potential retrace; supports alt outperformance. BCBacker |\n\nOverall, sentiment leans bullish on alts and regulation, driven by smart accounts (e.g., @rektcapital, @coinbureau). Traders should watch ETF decisions and BTC range for alpha opportunities.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

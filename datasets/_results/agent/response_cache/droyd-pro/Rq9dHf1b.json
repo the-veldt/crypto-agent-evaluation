@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "Rq9dHf1b",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Rq9dHf1b",
+    "query": "Using TVL and revenue figures and growth, build the investment case comparison of Uniswap vs. Aerodrome",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_GOfGCjLeQjDoNlOF3zNA7MAB\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Uniswap vs Aerodrome TVL revenue fees growth comparison\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\"\n      ],\n      \"limit\": 20,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        513\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_022dcff9e04d596e006966b9bcbb8481938a137710c747440b\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_RETlEzifsRnPvCxSB7bQrhoZ\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Uniswap\",\n        \"Aerodrome\"\n      ],\n      \"search_type\": \"name\",\n      \"limit\": 5\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_022dcff9e04d596e006966b9d7a7808193868b108eee5f8b3d\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_YGZtIN6kXoDLaBvTLEZOcb54\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"13595\",\n        \"327\"\n      ],\n      \"search_type\": \"project_id\",\n      \"limit\": 1\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_022dcff9e04d596e006966b9db01b881938afd419d66db3464\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 4,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_3eP4mgvXRozLJozsTdlbPpdZ\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Uniswap TVL fees revenue 30d change token revenue fee switch burn Firepit Unichain sequencer fees\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 120,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        513\n      ],\n      \"project_ids\": [\n        13595\n      ]\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_022dcff9e04d596e006966b9dc8b9c8193a7765f6890222a17\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 5,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Fees Generated per $1M TVL on Base: Uniswap V3 vs. Aerodrome Slipstream](https://res.cloudinary.com/dgjriemfd/image/upload/v1762473344/veldt/jxbnpkj8dnzu3jq7i07o.jpg)\\n\\n## Uniswap vs. Aerodrome: TVL + revenue + growth investment case (what you’re really underwriting)\\n\\n### 1) Scale: **global liquidity moat** (UNI) vs **Base-native control point** (AERO)\\n- **Uniswap**: **~$4.163B TVL** (multichain footprint: **~40+ chains** referenced in Droyd content). This is the “default DEX rail” across EVM, with sticky integrations and organic flow.\\n- **Aerodrome**: Base liquidity hub. Reported snapshots cluster around **~$451M–$485M TVL** in the referenced period, and it’s repeatedly framed as **~50–53% of Base DeFi TVL**.\\n\\n**Underwrite**: UNI is the broader market beta on onchain spot; AERO is a concentrated bet on Base staying a top-2 consumer L2 and Aerodrome staying its canonical DEX.\\n\\n---\\n\\n### 2) Fees vs token revenue: **gross engine** vs **holder-captured engine**\\nUniswap prints the most *gross* fees; Aerodrome captures more *token* revenue today.\\n\\n**Uniswap (protocol-level)**\\n- Dashboard snapshot: **$526.56M annualized fees**, **~$3M annualized “revenue/earnings/holder revenue”** at that time.\\n- Post-UNIfication (late Dec 2025): protocol fees turned on for v2 + selected v3 pools; revenue routed into **TokenJar → Firepit** to burn UNI; Unichain sequencer fees also flow into burns.\\n\\n**Aerodrome (holder-level)**\\n- Multiple sources show **daily “revenue” spikes ~ $120k → $340k** (late Dec–Jan 1), with peaks around **~$370k**; the key is that **100% of trading fees** are paid to **veAERO** lockers (token revenue and protocol economics are basically unified).\\n\\n**Critical adjustment**: Aerodrome’s “revenue” optics are repeatedly challenged because emissions subsidize LP returns. A referenced dataset shows **~$799M incentives vs ~$434M fees** historically for Aerodrome, versus **~$36M incentives vs ~$2.5B fees** for Uniswap. That’s the cleanest single framing of “AERO = higher payout, higher dilution risk.”\\n\\n---\\n\\n### 3) Growth + efficiency: where the next turn of the flywheel comes from\\n- **Aerodrome**: ve(3,3) bribe + vote-directed emissions produces a strong local flywheel. Content claims **~45% of supply locked** with multi-year average lock durations, and pool-level efficiency examples on Base showing Aerodrome out-earning Uniswap per unit TVL on specific pairs.\\n- **Uniswap**: UNIfication + Unichain turns UNI into a cashflow-linked scarcity asset (burn). The risk is **LP elasticity**—fee take reduces LP share (v2 0.30% → 0.25% LP + 0.05% protocol). Gauntlet modeling (older but directionally relevant) estimated **~4–15% TVL loss** under a 10% fee setting in tested scenarios.\\n\\n**What wins on numbers alone**\\n- If you want **immediate, large holder-captured revenue** tied to one ecosystem: **AERO**.\\n- If you want **largest TVL base + organic fee engine** and an improving capture mechanism: **UNI**, with the key KPI being whether TVL/volume stay resilient as fee capture expands.\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_022dcff9e04d596e006966b9f5881481938e4ca0fa51cd0cb4\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Fees Generated per $1M TVL on Base: Uniswap V3 vs. Aerodrome Slipstream](https://res.cloudinary.com/dgjriemfd/image/upload/v1762473344/veldt/jxbnpkj8dnzu3jq7i07o.jpg)\n\n## Uniswap vs. Aerodrome: TVL + revenue + growth investment case (what you’re really underwriting)\n\n### 1) Scale: **global liquidity moat** (UNI) vs **Base-native control point** (AERO)\n- **Uniswap**: **~$4.163B TVL** (multichain footprint: **~40+ chains** referenced in Droyd content). This is the “default DEX rail” across EVM, with sticky integrations and organic flow.\n- **Aerodrome**: Base liquidity hub. Reported snapshots cluster around **~$451M–$485M TVL** in the referenced period, and it’s repeatedly framed as **~50–53% of Base DeFi TVL**.\n\n**Underwrite**: UNI is the broader market beta on onchain spot; AERO is a concentrated bet on Base staying a top-2 consumer L2 and Aerodrome staying its canonical DEX.\n\n---\n\n### 2) Fees vs token revenue: **gross engine** vs **holder-captured engine**\nUniswap prints the most *gross* fees; Aerodrome captures more *token* revenue today.\n\n**Uniswap (protocol-level)**\n- Dashboard snapshot: **$526.56M annualized fees**, **~$3M annualized “revenue/earnings/holder revenue”** at that time.\n- Post-UNIfication (late Dec 2025): protocol fees turned on for v2 + selected v3 pools; revenue routed into **TokenJar → Firepit** to burn UNI; Unichain sequencer fees also flow into burns.\n\n**Aerodrome (holder-level)**\n- Multiple sources show **daily “revenue” spikes ~ $120k → $340k** (late Dec–Jan 1), with peaks around **~$370k**; the key is that **100% of trading fees** are paid to **veAERO** lockers (token revenue and protocol economics are basically unified).\n\n**Critical adjustment**: Aerodrome’s “revenue” optics are repeatedly challenged because emissions subsidize LP returns. A referenced dataset shows **~$799M incentives vs ~$434M fees** historically for Aerodrome, versus **~$36M incentives vs ~$2.5B fees** for Uniswap. That’s the cleanest single framing of “AERO = higher payout, higher dilution risk.”\n\n---\n\n### 3) Growth + efficiency: where the next turn of the flywheel comes from\n- **Aerodrome**: ve(3,3) bribe + vote-directed emissions produces a strong local flywheel. Content claims **~45% of supply locked** with multi-year average lock durations, and pool-level efficiency examples on Base showing Aerodrome out-earning Uniswap per unit TVL on specific pairs.\n- **Uniswap**: UNIfication + Unichain turns UNI into a cashflow-linked scarcity asset (burn). The risk is **LP elasticity**—fee take reduces LP share (v2 0.30% → 0.25% LP + 0.05% protocol). Gauntlet modeling (older but directionally relevant) estimated **~4–15% TVL loss** under a 10% fee setting in tested scenarios.\n\n**What wins on numbers alone**\n- If you want **immediate, large holder-captured revenue** tied to one ecosystem: **AERO**.\n- If you want **largest TVL base + organic fee engine** and an improving capture mechanism: **UNI**, with the key KPI being whether TVL/volume stay resilient as fee capture expands.",
+    "executionTimeMs": 79823,
+    "stepCount": 5,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Uniswap vs Aerodrome TVL revenue fees growth comparison",
+          "content_types": [
+            "posts",
+            "news",
+            "developments"
+          ],
+          "limit": 20,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [
+            513
+          ],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Uniswap",
+            "Aerodrome"
+          ],
+          "search_type": "name",
+          "limit": 5
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "13595",
+            "327"
+          ],
+          "search_type": "project_id",
+          "limit": 1
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Uniswap TVL fees revenue 30d change token revenue fee switch burn Firepit Unichain sequencer fees",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 120,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            513
+          ],
+          "project_ids": [
+            13595
+          ]
+        }
+      }
+    ],
+    "totalTokens": 126963
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

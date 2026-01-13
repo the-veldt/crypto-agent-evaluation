@@ -1,0 +1,378 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "gpt-5",
+    "qid": "mZ5aNo7w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mZ5aNo7w",
+    "query": "what sectors have had the most revenue growth over the last 30 days and what are the key protocols and catalysts driving it",
+    "level": 2,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "gpt-5",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          },
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 979
+        }
+      },
+      {
+        "stepNumber": 2,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 9914
+        }
+      },
+      {
+        "stepNumber": 3,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 10752
+        }
+      },
+      {
+        "stepNumber": 4,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 11866
+        }
+      },
+      {
+        "stepNumber": 5,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 12771
+        }
+      },
+      {
+        "stepNumber": 6,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 13599
+        }
+      },
+      {
+        "stepNumber": 7,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 17673
+        }
+      },
+      {
+        "stepNumber": 8,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 22116
+        }
+      },
+      {
+        "stepNumber": 9,
+        "text": "",
+        "toolCalls": [
+          {
+            "toolName": "webSearch"
+          }
+        ],
+        "finishReason": "tool-calls",
+        "usage": {
+          "totalTokens": 24578
+        }
+      },
+      {
+        "stepNumber": 10,
+        "text": "Short answer first: Over the past 30 days, revenue growth has been strongest in onchain derivatives (perp DEXs), Solana-centric spot DEX/aggregation, L2 sequencers (rollup “blockspace” revenue), and cross-chain bridging/messaging. The spike was driven by renewed memecoin trading, higher volatility/liquidity, new-token incentives/airdrops, and some governance/product catalysts.\n\nDetails, with key protocols and catalysts\n\n1) Onchain derivatives (Perp DEXs)\n- Who’s driving it: Hyperliquid, Lighter, dYdX v4, GMX v2, Aevo, Vertex.\n- What changed:\n  - Volatility and renewed retail flow pushed perp volumes/fees up. Industry-wide, onchain perps growth accelerated into late 2025 and has continued into early 2026, with Hyperliquid and newer rivals like Lighter competing for share.\n  - Token and incentive catalysts (e.g., Lighter’s airdrop and launch incentives) concentrated flow.\n  - New product pairs (memecoin perps) and higher open interest support fee capture.\n- References:\n  - Perp DEXs almost tripled volume in 2025 as onchain derivatives matured, with Hyperliquid’s lead and growing competition from Lighter/Aster (Cointelegraph, Dec 31, 2025): https://cointelegraph.com/news/perpetuals-dex-volume-2025-onchain-derivatives-growth\n  - Lighter token airdrop/launch (DL News, Dec 31, 2025): https://www.dlnews.com/articles/defi/lighter-airdrop-pushes-value-of-hyperliquid-rival-past-2bn/\n  - Messari newsflow shows renewed interest in memecoin-focused perp venues in early 2026 (Newsfeed): https://messari.io/news\n\n2) Solana spot DEX and aggregation\n- Who’s driving it: Jupiter (aggregator), Raydium, Orca, Phoenix; plus Base/other chains’ DEXs picking up.\n- What changed:\n  - Memecoin rotation and long-tail trading revived swap volumes and aggregator routing, lifting fee take.\n  - CeFi-to-DeFi integration (e.g., Coinbase surfacing Solana DEX liquidity) improves access funnels.\n  - Some protocols added routing/MEV protection features that don’t cut fee capture.\n- References:\n  - Coinbase plugged Solana DEX trading rails (Cointelegraph, Dec 11, 2025): https://cointelegraph.com/news/coinbase-joins-the-cex-dex-convergence-with-solana-integration\n  - Token Terminal has project-level 30D fee/revenue views (e.g., Jupiter): https://tokenterminal.com/explorer/projects/jupiter\n\n3) L2 sequencer/blockspace revenue (rollups)\n- Who’s driving it: Base, Blast, Arbitrum, Optimism, Scroll, Linea.\n- What changed:\n  - Onchain activity (social, memecoins, games, perps on L2) lifted gas usage and sequencer margins.\n  - Chain-level incentive seasons and app launches concentrated flow on a few rollups, boosting 30D fee sums.\n  - Even as Ethereum L1 fees compressed into late 2025, usage shifted to L2s where sequencers capture revenue.\n- References:\n  - Token Terminal market overview shows 30D sums across sectors/projects: https://tokenterminal.com/explorer\n  - Context: Late-2025 data showed L1 fees softening while activity stayed high, implying L2s taking the slack (Cointelegraph, Dec 29, 2025): https://cointelegraph.com/news/higher-activity-lower-fees-december-onchain-data\n\n4) Cross-chain bridges and messaging\n- Who’s driving it: Across, Stargate (LayerZero’s Stargate), Wormhole routers, Synapse.\n- What changed:\n  - Rotations into new L2s and app-chains spiked bridging volumes and fee capture.\n  - Airdrop and points campaigns (and fresh token launches) pushed transactional flow across chains.\n- References:\n  - Project-level fees on TT (e.g., Stargate, Synapse): https://tokenterminal.com/explorer/projects/layerzero/stargate/metrics/fees and https://tokenterminal.com/explorer/projects/synapse/metrics/fees\n\n5) MEV/validator-side capture on Solana and high-throughput chains\n- Who’s driving it: Jito (Solana MEV auctions) and validators capturing priority fees during peak memecoin/DEX activity.\n- What changed:\n  - Bursts of retail flow and priority bidding lift MEV auction revenues and validator fee income, which flow through to protocol-level revenue metrics depending on the tracker’s methodology.\n- Note: Some dashboards classify this under “chain revenue” rather than a DeFi “sector.”\n\n6) Uniswap-specific catalyst inside spot DEX sector\n- Who: Uniswap (Ethereum + L2s).\n- What changed:\n  - UNI governance activated the protocol fee switch in late Dec 2025, redirecting a portion of pool fees to protocol revenue/buybacks. That structurally increases “protocol revenue” (vs. pure trading fees paid) in 30D views rolling into January.\n- Reference:\n  - DL News on the Uniswap fee switch activation: https://www.dlnews.com/articles/defi/uniswap-dao-to-activate-fee-switch-and-burn-100m-uni-tokens/\n\nHow I’m defining “revenue” and what to use to verify numbers\n- Token Terminal’s market overview and sectors pages show 30-day sums and change vs prior periods for “fees” and “protocol revenue” by project and by sector: https://tokenterminal.com/explorer\n- DeFiLlama’s Fees/Revenue dashboards also capture 30D fees and revenue, but are more protocol-level than sector-aggregated via a single link. You can drill in by category and sort on 30D.\n- Important: “Fees” are what users pay; “protocol revenue” is what accrues to the protocol/treasury/token after paying out incentives/LPs. Growth rankings can differ depending on which you want.\n\nWant me to pull exact 30D growth percentages and rank sectors by Token Terminal vs DeFiLlama definitions? If you tell me:\n- whether you want “total fees” or “protocol revenue,” and\n- your preferred source (Token Terminal or DeFiLlama),\nI’ll fetch a ranked list with the top sectors, top protocols in each, and the 30D change vs. prior 30D.",
+        "toolCalls": [],
+        "finishReason": "stop",
+        "usage": {
+          "totalTokens": 30159
+        }
+      }
+    ],
+    "finalAnswer": "Short answer first: Over the past 30 days, revenue growth has been strongest in onchain derivatives (perp DEXs), Solana-centric spot DEX/aggregation, L2 sequencers (rollup “blockspace” revenue), and cross-chain bridging/messaging. The spike was driven by renewed memecoin trading, higher volatility/liquidity, new-token incentives/airdrops, and some governance/product catalysts.\n\nDetails, with key protocols and catalysts\n\n1) Onchain derivatives (Perp DEXs)\n- Who’s driving it: Hyperliquid, Lighter, dYdX v4, GMX v2, Aevo, Vertex.\n- What changed:\n  - Volatility and renewed retail flow pushed perp volumes/fees up. Industry-wide, onchain perps growth accelerated into late 2025 and has continued into early 2026, with Hyperliquid and newer rivals like Lighter competing for share.\n  - Token and incentive catalysts (e.g., Lighter’s airdrop and launch incentives) concentrated flow.\n  - New product pairs (memecoin perps) and higher open interest support fee capture.\n- References:\n  - Perp DEXs almost tripled volume in 2025 as onchain derivatives matured, with Hyperliquid’s lead and growing competition from Lighter/Aster (Cointelegraph, Dec 31, 2025): https://cointelegraph.com/news/perpetuals-dex-volume-2025-onchain-derivatives-growth\n  - Lighter token airdrop/launch (DL News, Dec 31, 2025): https://www.dlnews.com/articles/defi/lighter-airdrop-pushes-value-of-hyperliquid-rival-past-2bn/\n  - Messari newsflow shows renewed interest in memecoin-focused perp venues in early 2026 (Newsfeed): https://messari.io/news\n\n2) Solana spot DEX and aggregation\n- Who’s driving it: Jupiter (aggregator), Raydium, Orca, Phoenix; plus Base/other chains’ DEXs picking up.\n- What changed:\n  - Memecoin rotation and long-tail trading revived swap volumes and aggregator routing, lifting fee take.\n  - CeFi-to-DeFi integration (e.g., Coinbase surfacing Solana DEX liquidity) improves access funnels.\n  - Some protocols added routing/MEV protection features that don’t cut fee capture.\n- References:\n  - Coinbase plugged Solana DEX trading rails (Cointelegraph, Dec 11, 2025): https://cointelegraph.com/news/coinbase-joins-the-cex-dex-convergence-with-solana-integration\n  - Token Terminal has project-level 30D fee/revenue views (e.g., Jupiter): https://tokenterminal.com/explorer/projects/jupiter\n\n3) L2 sequencer/blockspace revenue (rollups)\n- Who’s driving it: Base, Blast, Arbitrum, Optimism, Scroll, Linea.\n- What changed:\n  - Onchain activity (social, memecoins, games, perps on L2) lifted gas usage and sequencer margins.\n  - Chain-level incentive seasons and app launches concentrated flow on a few rollups, boosting 30D fee sums.\n  - Even as Ethereum L1 fees compressed into late 2025, usage shifted to L2s where sequencers capture revenue.\n- References:\n  - Token Terminal market overview shows 30D sums across sectors/projects: https://tokenterminal.com/explorer\n  - Context: Late-2025 data showed L1 fees softening while activity stayed high, implying L2s taking the slack (Cointelegraph, Dec 29, 2025): https://cointelegraph.com/news/higher-activity-lower-fees-december-onchain-data\n\n4) Cross-chain bridges and messaging\n- Who’s driving it: Across, Stargate (LayerZero’s Stargate), Wormhole routers, Synapse.\n- What changed:\n  - Rotations into new L2s and app-chains spiked bridging volumes and fee capture.\n  - Airdrop and points campaigns (and fresh token launches) pushed transactional flow across chains.\n- References:\n  - Project-level fees on TT (e.g., Stargate, Synapse): https://tokenterminal.com/explorer/projects/layerzero/stargate/metrics/fees and https://tokenterminal.com/explorer/projects/synapse/metrics/fees\n\n5) MEV/validator-side capture on Solana and high-throughput chains\n- Who’s driving it: Jito (Solana MEV auctions) and validators capturing priority fees during peak memecoin/DEX activity.\n- What changed:\n  - Bursts of retail flow and priority bidding lift MEV auction revenues and validator fee income, which flow through to protocol-level revenue metrics depending on the tracker’s methodology.\n- Note: Some dashboards classify this under “chain revenue” rather than a DeFi “sector.”\n\n6) Uniswap-specific catalyst inside spot DEX sector\n- Who: Uniswap (Ethereum + L2s).\n- What changed:\n  - UNI governance activated the protocol fee switch in late Dec 2025, redirecting a portion of pool fees to protocol revenue/buybacks. That structurally increases “protocol revenue” (vs. pure trading fees paid) in 30D views rolling into January.\n- Reference:\n  - DL News on the Uniswap fee switch activation: https://www.dlnews.com/articles/defi/uniswap-dao-to-activate-fee-switch-and-burn-100m-uni-tokens/\n\nHow I’m defining “revenue” and what to use to verify numbers\n- Token Terminal’s market overview and sectors pages show 30-day sums and change vs prior periods for “fees” and “protocol revenue” by project and by sector: https://tokenterminal.com/explorer\n- DeFiLlama’s Fees/Revenue dashboards also capture 30D fees and revenue, but are more protocol-level than sector-aggregated via a single link. You can drill in by category and sort on 30D.\n- Important: “Fees” are what users pay; “protocol revenue” is what accrues to the protocol/treasury/token after paying out incentives/LPs. Growth rankings can differ depending on which you want.\n\nWant me to pull exact 30D growth percentages and rank sectors by Token Terminal vs DeFiLlama definitions? If you tell me:\n- whether you want “total fees” or “protocol revenue,” and\n- your preferred source (Token Terminal or DeFiLlama),\nI’ll fetch a ranked list with the top sectors, top protocols in each, and the 30D change vs. prior 30D.",
+    "executionTimeMs": 133372,
+    "totalTokens": 154407,
+    "stepCount": 10,
+    "toolCalls": [
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:tokenterminal.com 30d revenue sector crypto last 30 days",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "tokenterminal.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DeFiLlama fees and revenue categories 30d change",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "twitter.com",
+            "x.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Artemis crypto sector revenue 30d dashboard",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "artemis.xyz",
+            "blog.artemis.xyz"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Messari sector revenue last 30 days crypto",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "messari.io",
+            "messari.substack.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:defillama.com fees categories 30d",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:defillama.com fees 30d categories",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "site:tokenterminal.com \"Market sectors\" fees 30d",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "tokenterminal.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DefiLlama fees last 30 days Hyperliquid fees 30d",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"30d fees\" crypto perps DEX Token Terminal",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "tokenterminal.com",
+            "defillama.com",
+            "cryptofees.info",
+            "dlnews.com",
+            "dl-research.com",
+            "dl_research.substack.com",
+            "x.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "DL Research fees revenue roundup sectors last 30 days",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "x.com",
+            "dlnews.com",
+            "defillama.com",
+            "dl-research.com",
+            "mirror.xyz"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Hyperliquid 30d volume January 2026 fees revenue",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "hyperliquid.xyz",
+            "defillama.com",
+            "dlnews.com",
+            "coingecko.com",
+            "cointelegraph.com"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "Solana DEX volume January 2026 Jupiter Raydium Orca fees revenue 30d",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "dlnews.com",
+            "cointelegraph.com",
+            "tokenterminal.com",
+            "theblock.co"
+          ],
+          "maxCharacters": 2000
+        }
+      },
+      {
+        "toolName": "webSearch",
+        "parameters": {
+          "query": "\"30d fees\" DefiLlama sectors top gainers 30d fees revenue",
+          "numResults": 5,
+          "startPublishedDate": "2025-12-01",
+          "endPublishedDate": "2026-01-13",
+          "includeDomains": [
+            "defillama.com",
+            "dlnews.com",
+            "theblock.co",
+            "cointelegraph.com"
+          ],
+          "maxCharacters": 2000
+        }
+      }
+    ]
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

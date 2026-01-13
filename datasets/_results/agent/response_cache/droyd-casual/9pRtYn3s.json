@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "9pRtYn3s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "9pRtYn3s",
+    "query": "what projects are trending on base and solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"GMbaijnmfhUPDHbQ\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        11943,\n        15071\n      ]\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EsoHCscHAXLI2nxKKRH1cmmc9iVcrdk/X0IxWn6JAH1yU7BOLAgvmda8dmgPPSEb94VCv6DFYLC4WV91wljr/1LJZp9gUcv3xld4BrRgNCOhUaAXGNf5dXzxfmMJVsJOFwBXDDYNYNghMncs+uvgx6GtXyTD6tjlAavjkOFpUd+OHnz77lY7TkEivr5LhTXGBJfrIqCKSB8q+6dTWeGjcziye9zbyQw3+3sxgZVVlVCExptoG7kbIuB3hc51LPKsFZjlWLh2A9TYmPTtS4PFBQtrd/FVVceEJ3iSInwKQRCVU9lrT2hmo5sa4lw9RxBzPQLU3FtMvKyyGKihYFEV9ZQfRNzHDuvozmbLVHmjd/ybTYNmd7pNExC06Q19ulQPsBerigVEtFLKosYXRJuy9jYeTaOPZw7QIcdn5/NrWAaPhbTIhXasxOns0MOMnPV8McCbnaZ4R01FYT71JuqX65WJMerrw7if1F/4la5LneLhTvTd23gCjFdFlWa06VQm6VpDfI937mkt8zoEMyUy8qPXl1828k8Vzt27UGPDFnrwj3uJhfkHB4NTnt4lInz5rNfhtmZDBpYm5/t8Wf0ztUitF6nEaPE5m+4L/3KWZwD19kSGI/vJ1XLmQRUpj5Uo3ZNvYe0onMJkHEjOETuFrGSdWy4Y+uOEu3UGvb4aUad17kpDPLEWsb9AI+z09MKZ0ugfbSZhmSBSrEqf2r2U7OE0RtqOGMa5NqvaqCRU2VhVLs8yLXdeZVHTGUrYTdY+8+Kw+Cu2AjCrgYQgYMmhkH6ac4ecPc0H2Vpv+RWlTdgIWnsE+XXnlQEkWohAtqOrP+11HMOLbawJv5wpkguOo02dqnZ82e9L7ICxlsyM9FQyz1QlMcq/ik2+mzJpCQ6fBid4xuCbMpj4yDQrKi6T52gbxUyPvlx6wn2tSrMpdrFEamB2iHg8mJq0boD9VYpPgneppnLWMpS27lxFuAQvymDnPbCVUeG+9B2x3GKB7jqGhKh1h/SeXIkuhgb6OsHGzdpgWciglSt1U7IIAdaQuAhtrkBPkz5s1KlKOKT+0Dhk1anY18JhGzRbSWOc82FxuSCz6NhEOLVqftvUwG3/+wk8+8SB28h7Zmmb52TP7/fMqvpYnzm6vr2Gy2iywiA0IkO28+ojm/XIc2Ze/ht1/4mkyz0ob10K6P6XHkKn+DXl/BAYRQSj3WHfRXIJycrxEHB0OxYnMvsps3ladAHkHtICG7U7x2UCOaDFvd1rMDWqcI+zBbD0G5X2VvXqT1xOePiQKgzCVmX9J8Rc5g==\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"OVp3s3OdK8Jfsnse\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending projects on Solana with high trader growth, volume, and momentum.\",\n      \"sort_by\": \"traders_change\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"k1TRzdBqhNyLRxe1\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending projects on Base with high trader growth, volume, and momentum.\",\n      \"sort_by\": \"traders_change\"\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"nkbN8AGlQE0AQq9G\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"semantic_query\": \"trending projects and tokens on Solana and Base ecosystem\",\n      \"limit\": 20,\n      \"ecosystem_ids\": [\n        11943,\n        15071\n      ]\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"jRfumCUcOzXuaqq1\",\n    \"toolName\": \"filterProjects\",\n    \"input\": {\n      \"instructions\": \"Find trending projects on Base with high trader activity, volume spikes, or mindshare growth.\",\n      \"sort_by\": \"volume_change\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"PuBUh0xFU34dTkki\",\n    \"toolName\": \"compactTools\",\n    \"input\": {\n      \"compact_jobs\": [\n        {\n          \"tool_call_id\": \"GMbaijnmfhUPDHbQ\",\n          \"instructions\": \"Focus on trending projects for Solana (Jito, Jupiter, Trojan, AI Rig Complex, melania) and Base (Aerodrome, Morpho, Resolv, SUMR). Preserve all metrics, recent developments, and project IDs for these. Remove less relevant news and broad macro content. Keep specific onchain metrics like trader growth and volume.\"\n        },\n        {\n          \"tool_call_id\": \"OVp3s3OdK8Jfsnse\",\n          \"instructions\": \"Keep only the top 10 projects by trader growth (Lyn, USOR, U.S Oil, PsyopAnime, Tetsuo, ORYNTH, Melania, Shit Piss Skin Can, Jelly-My-Jelly, VVM). Preserve project_id, symbol, and 24h metrics. Remove technical analysis summaries and other metadata.\"\n        },\n        {\n          \"tool_call_id\": \"nkbN8AGlQE0AQq9G\",\n          \"instructions\": \"Keep only the most relevant posts about Solana agents (Trojan, FairScale), Base BTC liquidity (uniBTC, Morpho), and major launch events (Ranger Finance, NYC Token rug). Preserve post_id, source, and summary points. Remove broad market recaps and general fintech comparisons.\"\n        }\n      ],\n      \"reason\": \"Synthesizing specific trending project data while removing broad noise to stay under context limits for the final analysis.\"\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 3,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"Solana and Base are diverging into two distinct market metas. **Solana** is currently the playground for high-frequency execution and agentic reputation layers, while **Base** is solidifying its position as the primary hub for BTC liquidity and institutional DeFi rails.\\n\\n### Solana: The Agent & Execution Era\\nThe \\\"Agent\\\" narrative is evolving from simple chat bots to reputation-gated execution. **Trojan on Solana (project_id: 26424)** recently launched its 'Arena' trading terminal, incentivizing users with $5M in SOL rewards and a aggressive 5-tier referral system to capture the high-velocity trading market. \\n\\n[post_id: 184512]\\n\\nIn the high-growth memecoin and AI sector, **PsyopAnime (project_id: 45655)** is seeing explosive momentum, with a **1,000% price surge** and $55M in 24h volume. Other projects gaining significant trader mindshare include **Lyn (project_id: 30218)**, which saw an **1,888% spike in trader growth**, and **Tetsuo Coin (project_id: 18623)**, which is building out a decentralized agent infrastructure with its TITS transformer series.\\n\\n[chart_id: 45655]\\n\\nInfrastructure-wise, **Ranger Finance (project_id: 22544)** just completed a massive public ICO on MetaDAO, committing **$86.3M** with a capped initial price of $0.80. This highlights a shift toward high-conviction, decentralized launch models over traditional pump-and-dump mechanics. However, risk remains high; the **NYC Token (project_id: 45681)** recently rug-pulled for ~$3.4M USDC minutes after launch, serving as a reminder of the centralized reserve risks in the ecosystem.\\n\\n### Base: BTC Liquidity & Professional DeFi\\nBase is currently dominated by **Aerodrome Finance (project_id: 327)**, which rebranded to **Arrow** and reported over **$333B in all-time volume**. Despite scrutiny regarding \\\"LP churning\\\"—where wash-trading on bridged SOL pools inflated metrics—Aerodrome remains the liquidity gravity well for the chain, with plans to expand to Ethereum mainnet next quarter.\\n\\n[post_id: 346495]\\n\\nThe primary narrative on Base is the expansion of **BTC liquidity**. **Morpho (project_id: 8733)** has seen its active loans surpass **$1.25B**, driven largely by institutional demand for cbBTC collateral. Incentives are also flowing into the **uniBTC/cbBTC** pools via **Bedrock (project_id: 22039)**, offering 60k $OP in rewards to deepen Bitcoin's presence on the network.\\n\\n[chart_id: 8733]\\n\\nPrivacy and stablecoin mechanics are also trending on Base. **Hinkal (project_id: 15568)** is now live with zk-shielded private payments, while **Resolv (project_id: 26291)** is restructuring its yield split to offer a more sustainable base rate for its USR stablecoin. Keep an eye on the **SUMR TGE (project_id: 20043)** scheduled for Jan 21, which is expected to drive significant voting volume toward Aerodrome.\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EtMICtAIAXLI2nwASnkrmjbrI0yqDl1ovT0X/QiHPf9qY8+Qol8W0tcR1JckD5YXfdCC0hllae+Ei7+gaWH1CyHSs76l0tvenWGZm8deLkD78MM64jM+glLEJLgHOsxNppYCdSuYb4WxL67Xl71Ke9iS/D1UQCJofTmqO4ntkNWsbc7uplYGdzV3lTZWbn1tb7QZd1+gAdRxsST7ZGDgbDNQUaQ48VyRCDDtcCA+CGfZU5lK2TBTRwSNjW81F1nlg9bHrpPkwkr8EPgTn9Gv5xiAq+wU52IjRnmHT4XYDf4p1IvNPw2+6XX3KeRAyfpX/Ntjs6sz27Dg9kEssMbrqE4GuP9sM4eeJtfCNp+a5DFKCqIh3GKUbKHceq1bw5tgu6b+xPRhZ81xmDqXzrmIW6RJH4voPcBpaXb/qrtAJv1Sjbl6w2AfHnNgLMEQBIrTsBnYnEeX1IcCA1PXCZffGt8k9WJfxoPzmCQ5ftpixpuaPmrbYNvF8ng5iohmNC5KdOc3CS+VTYY6QCmKPIrNpP39+7SWnty+o0FW8uk04c2hr9McL/i8aXKNU2g4HCiy6G3IIbyGXAx60Ks57o/8qDsLtalT3mb1hTYufAmXC58ZSLm08MY3Kir9u5xsi1O/358Y7aLWA1hDWBFVdoUMun5HBY3JwgoPvcES5Q1TFRuFMNr/+r6okQGBrlnhCNkmnuGBLrEhkC9Vk84lOSzUQ8YnIfBLby8fFvclN/qFbmiZVWMQAeVJG7V+0k5gqqKoqdL7xuWXhR3bCRDzkXeGEUFeDCKSZfwIQbpre5ZqNitSgYnFHeThBI8bU9y3odjrG7o0jtnl5DRqcFcWhAzmt1EDrA/5ZJWhRdWxDO0PzSVF4rVb9VhnNbk7UtKRFF/1tIu5YZBexfUSy/ku8omG832eHf5cXWNzOXEzCxFlbztEpJPp9A4zgiGrr6UrefHgScBa5aCKv4b2JjugaFpHct7Q8InoQipP6me9SId9+qTtp/ZQPM8LSn++DYWjKAH6BdgPnyf3nChBWF+j1DqLSWS66kTTW1mhHFpNovMbSdwV/g/bCEjKOWstJNApJLdbSFcoy9mmUithJmBhI0ko0fb4MwcK9GYAF3yQA0j8VvPzP24hkZ0/x9h5KnyuNq1NRMXIOiBfecZii8Q6Jb3/BPIO9fD/68K63b7FOvmhCUbNOdub8k/mCq0kmPb1BfttGEu8tBQx1Q2OHRVax+YyuFHmnPJfp3x8/zf0bae978pFsx0qcs0M3In5U+fh8LY1ryHErA+9/laPz/usz3Ls2gyyKxRwy2WCMBvHbe/pZCbWBKJ6WEJBZEStJRZBAtqiE25AfCQ6+vaWCve+2fZhjI/+uhzQGXHM88smcOnWosjGcaZxdX3goPLz+jqyU+FgpgviQBDJMqSgOvFHHwzv6IYKYkpy6znMAZ+CZh4pMKxaYb4TsoeMHcdTErvRp+x82M79iLwi\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "Solana and Base are diverging into two distinct market metas. **Solana** is currently the playground for high-frequency execution and agentic reputation layers, while **Base** is solidifying its position as the primary hub for BTC liquidity and institutional DeFi rails.\n\n### Solana: The Agent & Execution Era\nThe \"Agent\" narrative is evolving from simple chat bots to reputation-gated execution. **Trojan on Solana (project_id: 26424)** recently launched its 'Arena' trading terminal, incentivizing users with $5M in SOL rewards and a aggressive 5-tier referral system to capture the high-velocity trading market. \n\n[post_id: 184512]\n\nIn the high-growth memecoin and AI sector, **PsyopAnime (project_id: 45655)** is seeing explosive momentum, with a **1,000% price surge** and $55M in 24h volume. Other projects gaining significant trader mindshare include **Lyn (project_id: 30218)**, which saw an **1,888% spike in trader growth**, and **Tetsuo Coin (project_id: 18623)**, which is building out a decentralized agent infrastructure with its TITS transformer series.\n\n[chart_id: 45655]\n\nInfrastructure-wise, **Ranger Finance (project_id: 22544)** just completed a massive public ICO on MetaDAO, committing **$86.3M** with a capped initial price of $0.80. This highlights a shift toward high-conviction, decentralized launch models over traditional pump-and-dump mechanics. However, risk remains high; the **NYC Token (project_id: 45681)** recently rug-pulled for ~$3.4M USDC minutes after launch, serving as a reminder of the centralized reserve risks in the ecosystem.\n\n### Base: BTC Liquidity & Professional DeFi\nBase is currently dominated by **Aerodrome Finance (project_id: 327)**, which rebranded to **Arrow** and reported over **$333B in all-time volume**. Despite scrutiny regarding \"LP churning\"—where wash-trading on bridged SOL pools inflated metrics—Aerodrome remains the liquidity gravity well for the chain, with plans to expand to Ethereum mainnet next quarter.\n\n[post_id: 346495]\n\nThe primary narrative on Base is the expansion of **BTC liquidity**. **Morpho (project_id: 8733)** has seen its active loans surpass **$1.25B**, driven largely by institutional demand for cbBTC collateral. Incentives are also flowing into the **uniBTC/cbBTC** pools via **Bedrock (project_id: 22039)**, offering 60k $OP in rewards to deepen Bitcoin's presence on the network.\n\n[chart_id: 8733]\n\nPrivacy and stablecoin mechanics are also trending on Base. **Hinkal (project_id: 15568)** is now live with zk-shielded private payments, while **Resolv (project_id: 26291)** is restructuring its yield split to offer a more sustainable base rate for its USR stablecoin. Keep an eye on the **SUMR TGE (project_id: 20043)** scheduled for Jan 21, which is expected to drive significant voting volume toward Aerodrome.",
+    "executionTimeMs": 64611,
+    "stepCount": 3,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            11943,
+            15071
+          ]
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending projects on Solana with high trader growth, volume, and momentum.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending projects on Base with high trader growth, volume, and momentum.",
+          "sort_by": "traders_change"
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "semantic_query": "trending projects and tokens on Solana and Base ecosystem",
+          "limit": 20,
+          "ecosystem_ids": [
+            11943,
+            15071
+          ]
+        }
+      },
+      {
+        "toolName": "filterProjects",
+        "parameters": {
+          "instructions": "Find trending projects on Base with high trader activity, volume spikes, or mindshare growth.",
+          "sort_by": "volume_change"
+        }
+      },
+      {
+        "toolName": "compactTools",
+        "parameters": {
+          "compact_jobs": [
+            {
+              "tool_call_id": "GMbaijnmfhUPDHbQ",
+              "instructions": "Focus on trending projects for Solana (Jito, Jupiter, Trojan, AI Rig Complex, melania) and Base (Aerodrome, Morpho, Resolv, SUMR). Preserve all metrics, recent developments, and project IDs for these. Remove less relevant news and broad macro content. Keep specific onchain metrics like trader growth and volume."
+            },
+            {
+              "tool_call_id": "OVp3s3OdK8Jfsnse",
+              "instructions": "Keep only the top 10 projects by trader growth (Lyn, USOR, U.S Oil, PsyopAnime, Tetsuo, ORYNTH, Melania, Shit Piss Skin Can, Jelly-My-Jelly, VVM). Preserve project_id, symbol, and 24h metrics. Remove technical analysis summaries and other metadata."
+            },
+            {
+              "tool_call_id": "nkbN8AGlQE0AQq9G",
+              "instructions": "Keep only the most relevant posts about Solana agents (Trojan, FairScale), Base BTC liquidity (uniBTC, Morpho), and major launch events (Ranger Finance, NYC Token rug). Preserve post_id, source, and summary points. Remove broad market recaps and general fintech comparisons."
+            }
+          ],
+          "reason": "Synthesizing specific trending project data while removing broad noise to stay under context limits for the final analysis."
+        }
+      }
+    ],
+    "totalTokens": 153821
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

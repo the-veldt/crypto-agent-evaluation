@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T19:31:02.338Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T18-32-33-v2.json",
+    "runId": "2026-01-13T18:32:33.196Z",
+    "system": "droyd-casual",
+    "qid": "Tk3lWx4s",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Tk3lWx4s",
+    "query": "pull the top latest tweets in crypto - what are the key discussions, projects, and narratives? Assess the sentiment and importance of each",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "droyd-casual",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"bJP34rsYni2528XO\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"recent\",\n      \"content_types\": [\n        \"tweets\"\n      ],\n      \"limit\": 30,\n      \"days_back\": 2,\n      \"sort_by\": \"relevance\"\n    },\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"EtIFCs8FAXLI2nwGJFJi07N50qsk0wkplOCV2n4jrRnWJ4YbrV1TNK19j6+cSrZcOZRAikIEh7tJLhqJCFv8OsjEBh0gli+o972cNX/p/uzv3pVPMK6u7XqiAfSn3V/E6acsOYfWO2yJ+qvV75BsTEYS1hlL2pcHar26Blhn/M9WH7wY9h94supsOcFtr/PVWb1t4T39qMz4m+Awr9UXHDhMYVIdUZEDqfqcCxd0qihywdVRnm5D7zjlUt6fFq+r40X4aOu9n4yBC14fLPdS1cgxLpNhYBgtyfBycP0TUJNNkpfqdoXfo6dvTdTeBZAY0O6istE6xass7hVIyi/bHar/VxtajsyAPMV6lf+ei9/e7yKA5jsNHMdEu7pJFmzUp7VSnuQp2G19h4ahJunjy9wa1b8DvRM/1W7ssWi0rB8wQ0eIQmvvljtJ0NKG3QdjdcTdDmtBQbCR6KPKO9ZiQ+FHXVkAnyOMXQdgbu6THS3lMYYpd2l8CFXBGWEbmbp3jB10Bf2zFnXeGOacj/lqBbLVdZTIUrqYW/5oJDLVHsQTJl8a9QmMeieMUybLbop0lUM2qoToKOisiUW7vRgZEWx7hnvJkHj6ZOLvyFt1mwfrFoFbSXHghfVyKjzYN7SW2Ogr+Xi6poWu2MDNHCDVEO2STYRAbHHmTu9JTaGs/yVEoyRSQv8ub4XF0lsmLKlb8LUqeDNFs08r7T4nvjK5ouJfpwxmzYhW2S+uUAVajCjdxtBMux+WIBI6+PhnK6d8nEi2s+ekHWc2mjykzU5tnvvgCWjYky87hg6K8NJl5Rx9YmsIcsaK+KlSxivXhEmzauCqdt8m0oFqg8v3tt4AfmGlPTTW7BhZ6xO6HmyvBnMKtfnyHkXTPhkFFXiJflaWfTJgSieITSS8eSnocVMyG6E/nYCxcCgbo14UAkzN5kr+L+sLEQyqTDFxrI6bm09W0P/gXls=\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"LUWfdQ2EcIwYb9ka\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"include_global\": true\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"The market is currently digesting a heavy macro print and several structural shifts in protocol architecture. December’s **Core CPI (0.2% vs. 0.3% expected)** sparked an immediate risk-on reaction, with futures jumping as inflation softens more than anticipated. This cooling coincides with a parabolic surge in commodities, with **Gold hitting all-time highs near $4,600** and **Silver vertical at $85/oz**, signaling deep structural bullishness for hard assets and risk-on proxies.\\n\\n### The Ethereum \\\"Walkaway\\\" Benchmark\\nVitalik Buterin has introduced a new North Star for protocol maturity: the **Walkaway Test**. The thesis is that Ethereum must ossify to a point where users can retain trustless application functionality even if core developers or vendors disappear. The checklist includes **Full Quantum Resistance**, **ZK-EVM scalability via PeerDAS**, and **Account Abstraction**. Keone Hon from **Monad** immediately mapped these requirements to Monad's own roadmap, highlighting that while they've hit the TPS and state architecture goals, they—and the rest of the industry—still lag on decentralized block building and PQC.\\n\\n### Vertical Integration: Polygon’s $250M+ Power Move\\n**Polygon** is pivotally shifting into a regulated payments powerhouse with the acquisitions of **Coinme** and **Sequence**. By integrating licensed U.S. fiat ramps (48 states) with Sequence's embedded wallet and **Trails orchestration**, Polygon is building a \\\"vertical money stack.\\\" This effectively bypasses traditional correspondent banking hurdles, positioning **Polygon** as the primary rail for institutional stablecoin settlement and PayFi.\\n\\n![Polygon Open Money Stack Architecture](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320755/veldt/daca4tnqb3qtz9gwodh5.jpg)\\n\\n### Prediction Markets and Institutional Validation\\nPrediction markets are no longer a niche crypto experiment; they are becoming primary data sources for macro sentiment. **Kalshi recorded an $837M weekend volume peak** during the NFL Playoffs, while **Polymarket** continues to dominate the decentralized side with over **$238M in daily volume** on Jan 10th. The sentiment here is overwhelmingly bullish, bolstered by reports of the **Senate Banking Committee** considering amendments to allow stablecoin rewards—a move that would disproportionately benefit **Coinbase** and further institutionalize onchain yields.\\n\\n![Spot Volume Comparison: Kalshi vs. Polymarket](https://res.cloudinary.com/dgjriemfd/image/upload/v1768239897/veldt/yxwblulivdl7zxdcuojg.jpg)\\n\\n### Key Narratives and Sentiment Assessment\\n\\n| Discussion | Sentiment | Importance | Key Catalyst |\\n|------------|-----------|------------|--------------|\\n| **Macro/CPI** | Bullish | High | Core CPI undershoot (0.2%) |\\n| **PayFi / Ramps** | Aggressive | High | Polygon $250M acquisitions |\\n| **Prediction Mkts** | Euphoric | High | Record NFL weekend volumes |\\n| **ZK / L2 Scaling** | Technical | Mid | Celestia Fibre (1 Tb/s) |\\n| **Privacy Coins** | Bearish | Mid | Zcash core dev resignations |\\n\\n### Infrastructure and Risk Signals\\n**Hyperliquid** continues its dominance in the onchain derivatives space, with cumulative **HIP-3 volumes hitting $14.7B**. However, the \\\"froth\\\" is visible; **Chainalysis** reports a staggering **$17B stolen in 2025**, with AI-enabled scams proving 4.5x more efficient than traditional methods. Meanwhile, **Solana-on-Base** is facing scrutiny as onchain analysis reveals massive **LP churning (wash trading)**, where the top two addresses moved ~$4.8B in SOL volume with near-zero net profit, likely to inflate adoption metrics.\\n\\n![Solana on Base Wash Trading Analysis Dashboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1768269231/veldt/gjm3tfzbcfpy3c1c6kiz.jpg)\",\n    \"providerMetadata\": {\n      \"google\": {\n        \"thoughtSignature\": \"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\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "The market is currently digesting a heavy macro print and several structural shifts in protocol architecture. December’s **Core CPI (0.2% vs. 0.3% expected)** sparked an immediate risk-on reaction, with futures jumping as inflation softens more than anticipated. This cooling coincides with a parabolic surge in commodities, with **Gold hitting all-time highs near $4,600** and **Silver vertical at $85/oz**, signaling deep structural bullishness for hard assets and risk-on proxies.\n\n### The Ethereum \"Walkaway\" Benchmark\nVitalik Buterin has introduced a new North Star for protocol maturity: the **Walkaway Test**. The thesis is that Ethereum must ossify to a point where users can retain trustless application functionality even if core developers or vendors disappear. The checklist includes **Full Quantum Resistance**, **ZK-EVM scalability via PeerDAS**, and **Account Abstraction**. Keone Hon from **Monad** immediately mapped these requirements to Monad's own roadmap, highlighting that while they've hit the TPS and state architecture goals, they—and the rest of the industry—still lag on decentralized block building and PQC.\n\n### Vertical Integration: Polygon’s $250M+ Power Move\n**Polygon** is pivotally shifting into a regulated payments powerhouse with the acquisitions of **Coinme** and **Sequence**. By integrating licensed U.S. fiat ramps (48 states) with Sequence's embedded wallet and **Trails orchestration**, Polygon is building a \"vertical money stack.\" This effectively bypasses traditional correspondent banking hurdles, positioning **Polygon** as the primary rail for institutional stablecoin settlement and PayFi.\n\n![Polygon Open Money Stack Architecture](https://res.cloudinary.com/dgjriemfd/image/upload/v1768320755/veldt/daca4tnqb3qtz9gwodh5.jpg)\n\n### Prediction Markets and Institutional Validation\nPrediction markets are no longer a niche crypto experiment; they are becoming primary data sources for macro sentiment. **Kalshi recorded an $837M weekend volume peak** during the NFL Playoffs, while **Polymarket** continues to dominate the decentralized side with over **$238M in daily volume** on Jan 10th. The sentiment here is overwhelmingly bullish, bolstered by reports of the **Senate Banking Committee** considering amendments to allow stablecoin rewards—a move that would disproportionately benefit **Coinbase** and further institutionalize onchain yields.\n\n![Spot Volume Comparison: Kalshi vs. Polymarket](https://res.cloudinary.com/dgjriemfd/image/upload/v1768239897/veldt/yxwblulivdl7zxdcuojg.jpg)\n\n### Key Narratives and Sentiment Assessment\n\n| Discussion | Sentiment | Importance | Key Catalyst |\n|------------|-----------|------------|--------------|\n| **Macro/CPI** | Bullish | High | Core CPI undershoot (0.2%) |\n| **PayFi / Ramps** | Aggressive | High | Polygon $250M acquisitions |\n| **Prediction Mkts** | Euphoric | High | Record NFL weekend volumes |\n| **ZK / L2 Scaling** | Technical | Mid | Celestia Fibre (1 Tb/s) |\n| **Privacy Coins** | Bearish | Mid | Zcash core dev resignations |\n\n### Infrastructure and Risk Signals\n**Hyperliquid** continues its dominance in the onchain derivatives space, with cumulative **HIP-3 volumes hitting $14.7B**. However, the \"froth\" is visible; **Chainalysis** reports a staggering **$17B stolen in 2025**, with AI-enabled scams proving 4.5x more efficient than traditional methods. Meanwhile, **Solana-on-Base** is facing scrutiny as onchain analysis reveals massive **LP churning (wash trading)**, where the top two addresses moved ~$4.8B in SOL volume with near-zero net profit, likely to inflate adoption metrics.\n\n![Solana on Base Wash Trading Analysis Dashboard](https://res.cloudinary.com/dgjriemfd/image/upload/v1768269231/veldt/gjm3tfzbcfpy3c1c6kiz.jpg)",
+    "executionTimeMs": 14423,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "recent",
+          "content_types": [
+            "tweets"
+          ],
+          "limit": 30,
+          "days_back": 2,
+          "sort_by": "relevance"
+        }
+      },
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "include_global": true
+        }
+      }
+    ],
+    "totalTokens": 51499
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T22:04:54.451Z",
+    "sourceFile": "agent-eval-assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution-2026-01-13T20-55-44-v2.json",
+    "runId": "2026-01-13T20:55:44.476Z",
+    "system": "droyd-pro",
+    "qid": "8gAoUp4e",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "8gAoUp4e",
+    "query": "Compare Hyperliquid to other perp DEXs -- what are the key catalyst, moats, and market landscape?",
+    "level": 2,
+    "categories": [
+      "asset_analysis"
+    ],
+    "tags": [
+      "large_cap"
+    ],
+    "sectors": [
+      "defi",
+      "derivatives"
+    ],
+    "dataset": "assetEvaluation"
+  },
+  "agentResult": {
+    "system": "droyd-pro",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "text": "[\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_299ywk2yRRRSPMptMNFrcuYd\",\n    \"toolName\": \"getTrendReports\",\n    \"input\": {\n      \"ecosystem_ids\": [\n        6373\n      ],\n      \"category_ids\": [\n        514\n      ],\n      \"include_global\": false\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_006074543de4adfc006966b6a40d9081938fe359d33d996529\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_43FJ8lZxWciXWv2kJYBJaUuT\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"Hyperliquid vs perp DEXs comparison catalysts moats competition dYdX GMX Vertex Aevo Drift Jupiter Perps onchain orderbook intent RFQ\",\n      \"content_types\": [\n        \"posts\",\n        \"news\",\n        \"developments\",\n        \"tweets\"\n      ],\n      \"limit\": 25,\n      \"days_back\": 30,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.25,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        514\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_006074543de4adfc006966b6a4e41c81939d3222629d8fb01b\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_FJtaeHC6KyIl5g4UmrJcKG42\",\n    \"toolName\": \"searchProjects\",\n    \"input\": {\n      \"queries\": [\n        \"Hyperliquid\",\n        \"dYdX\",\n        \"GMX\",\n        \"Vertex\",\n        \"Aevo\",\n        \"Drift\",\n        \"Jupiter\",\n        \"Perpetual Protocol\",\n        \"Synthetix\",\n        \"Gains Network\"\n      ],\n      \"search_type\": \"name\",\n      \"limit\": 5\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_006074543de4adfc006966b6a6b2788193bd0084aec9f82339\"\n      }\n    }\n  },\n  {\n    \"type\": \"tool-call\",\n    \"toolCallId\": \"call_v3OxThpSc3NxzGonMfKGc5U1\",\n    \"toolName\": \"searchContent\",\n    \"input\": {\n      \"search_mode\": \"semantic\",\n      \"semantic_query\": \"perp DEX market share volumes fees user growth 2025 2026 hyperliquid\",\n      \"content_types\": [\n        \"posts\",\n        \"news\"\n      ],\n      \"limit\": 15,\n      \"days_back\": 90,\n      \"sort_by\": \"relevance\",\n      \"minimum_relevance_score\": 0.2,\n      \"ecosystem_ids\": [],\n      \"category_ids\": [\n        514\n      ],\n      \"project_ids\": []\n    },\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"fc_006074543de4adfc006966b6a7d1488193987bd210dcd1629f\"\n      }\n    }\n  }\n]",
+        "finishReason": "tool-calls"
+      },
+      {
+        "stepNumber": 2,
+        "text": "[\n  {\n    \"type\": \"text\",\n    \"text\": \"![Open Interest market share across perp DEXs](https://res.cloudinary.com/dgjriemfd/image/upload/v1760177105/veldt/v4q9ksoyspsalap7u6cx.jpg)\\n\\n## Hyperliquid vs the field: what actually matters (catalysts + moats)\\n**Hyperliquid’s core edge is not “DEX perps” — it’s owning the full stack (chain + matching + margin + liquidation) and then turning that into a distribution platform via builders.** Even after volume-share fragmentation, Hyperliquid still anchors the highest-quality liquidity because it holds the **stickiest open interest** relative to competitors that are clearly juicing volume with incentives.\\n\\n**Near-term catalysts**\\n- **HIP-3 (permissionless perps)**: this is the biggest structural catalyst. It converts Hyperliquid from a single venue into **a liquidity backend** where third-party frontends can deploy markets and route flow. HIP‑3 open interest recently hit **$387.48M ATH**, with heavy concentration in a single deployer/frontend (**trade.xyz $308.9M**), which shows both traction and concentration risk.\\n- **Non-crypto perps (equities/FX indices) via deployers**: “US500” going live and doing meaningful early volume/OI is the wedge. If Hyperliquid becomes the default “24/7 risk engine” for these products, it expands TAM without fighting every crypto perp venue head-on.\\n- **Balance-sheet buybacks**: the Assistance Fund buyback of **~38.56M HYPE (~$910M)** is a direct float-reduction/capital-structure catalyst that most perp DEX tokens can’t replicate.\\n\\n## Competitive landscape: archetypes, not logos\\n- **Hyperliquid (monolithic CLOB L1)**: wins on **latency + depth + integrated risk**, and now on **builder distribution**. Loses on perceived decentralization (validator concentration) and composability vs Ethereum-native settlement.\\n- **ZK/L2 CLOB challengers (e.g., Lighter, Paradex-style)**: win on **credible exit/settlement guarantees** and a cleaner “DeFi purity” story; compete by **fee compression (even zero-fee)** and better economics for integrators. The real attack vector is stealing Hyperliquid’s **builder flow** with better rev-share and cheaper execution.\\n- **Pool / vault-counterparty perps (e.g., Jupiter-style, GMX-style)**: strong retail UX and simple liquidity sourcing, but structurally capped because **OI scales with vault TVL** and adverse selection sits on the pool. These systems don’t dominate global price discovery in majors.\\n- **Institutional UX + mobile distribution (edgeX-like)**: credible niche if they keep pro execution + risk controls, but they still need durable OI, not just campaign volume.\\n\\n## Hyperliquid’s moats (and where they’re weaker than they look)\\n**Moats**\\n- **Liquidity + OI network effects**: OI is the real moat because it attracts market makers and tightens spreads; volume can be bought.\\n- **Vertical integration**: owning chain + matching avoids external gas/sequencer constraints and makes UX CEX-like.\\n- **Builder Codes / third-party frontends**: distribution moat; a material portion of flow routing through builders turns Hyperliquid into infrastructure.\\n\\n**Weak points**\\n- **Builder concentration risk**: if a few frontends/deployers drive most incremental OI (as HIP‑3 data suggests), they gain bargaining power and can multi-home to competitors.\\n- **Security/decentralization narrative**: ZK appchains will keep attacking here, especially for institutions that care about credible neutrality and force-withdraw guarantees.\\n- **Event-risk mechanics (ADL/liquidation behavior)**: the market remembers stress tests; if competitors prove “cleaner” loss waterfalls, they’ll siphon high-quality OI.\\n\\n[The Perp Architecture Endgame](https://cyber.fund/content/perps)\",\n    \"providerMetadata\": {\n      \"openai\": {\n        \"itemId\": \"msg_006074543de4adfc006966b6c439248193b62b91c96bb2dcf7\"\n      }\n    }\n  }\n]",
+        "finishReason": "stop"
+      }
+    ],
+    "finalAnswer": "![Open Interest market share across perp DEXs](https://res.cloudinary.com/dgjriemfd/image/upload/v1760177105/veldt/v4q9ksoyspsalap7u6cx.jpg)\n\n## Hyperliquid vs the field: what actually matters (catalysts + moats)\n**Hyperliquid’s core edge is not “DEX perps” — it’s owning the full stack (chain + matching + margin + liquidation) and then turning that into a distribution platform via builders.** Even after volume-share fragmentation, Hyperliquid still anchors the highest-quality liquidity because it holds the **stickiest open interest** relative to competitors that are clearly juicing volume with incentives.\n\n**Near-term catalysts**\n- **HIP-3 (permissionless perps)**: this is the biggest structural catalyst. It converts Hyperliquid from a single venue into **a liquidity backend** where third-party frontends can deploy markets and route flow. HIP‑3 open interest recently hit **$387.48M ATH**, with heavy concentration in a single deployer/frontend (**trade.xyz $308.9M**), which shows both traction and concentration risk.\n- **Non-crypto perps (equities/FX indices) via deployers**: “US500” going live and doing meaningful early volume/OI is the wedge. If Hyperliquid becomes the default “24/7 risk engine” for these products, it expands TAM without fighting every crypto perp venue head-on.\n- **Balance-sheet buybacks**: the Assistance Fund buyback of **~38.56M HYPE (~$910M)** is a direct float-reduction/capital-structure catalyst that most perp DEX tokens can’t replicate.\n\n## Competitive landscape: archetypes, not logos\n- **Hyperliquid (monolithic CLOB L1)**: wins on **latency + depth + integrated risk**, and now on **builder distribution**. Loses on perceived decentralization (validator concentration) and composability vs Ethereum-native settlement.\n- **ZK/L2 CLOB challengers (e.g., Lighter, Paradex-style)**: win on **credible exit/settlement guarantees** and a cleaner “DeFi purity” story; compete by **fee compression (even zero-fee)** and better economics for integrators. The real attack vector is stealing Hyperliquid’s **builder flow** with better rev-share and cheaper execution.\n- **Pool / vault-counterparty perps (e.g., Jupiter-style, GMX-style)**: strong retail UX and simple liquidity sourcing, but structurally capped because **OI scales with vault TVL** and adverse selection sits on the pool. These systems don’t dominate global price discovery in majors.\n- **Institutional UX + mobile distribution (edgeX-like)**: credible niche if they keep pro execution + risk controls, but they still need durable OI, not just campaign volume.\n\n## Hyperliquid’s moats (and where they’re weaker than they look)\n**Moats**\n- **Liquidity + OI network effects**: OI is the real moat because it attracts market makers and tightens spreads; volume can be bought.\n- **Vertical integration**: owning chain + matching avoids external gas/sequencer constraints and makes UX CEX-like.\n- **Builder Codes / third-party frontends**: distribution moat; a material portion of flow routing through builders turns Hyperliquid into infrastructure.\n\n**Weak points**\n- **Builder concentration risk**: if a few frontends/deployers drive most incremental OI (as HIP‑3 data suggests), they gain bargaining power and can multi-home to competitors.\n- **Security/decentralization narrative**: ZK appchains will keep attacking here, especially for institutions that care about credible neutrality and force-withdraw guarantees.\n- **Event-risk mechanics (ADL/liquidation behavior)**: the market remembers stress tests; if competitors prove “cleaner” loss waterfalls, they’ll siphon high-quality OI.\n\n[The Perp Architecture Endgame](https://cyber.fund/content/perps)",
+    "executionTimeMs": 53370,
+    "stepCount": 2,
+    "toolCalls": [
+      {
+        "toolName": "getTrendReports",
+        "parameters": {
+          "ecosystem_ids": [
+            6373
+          ],
+          "category_ids": [
+            514
+          ],
+          "include_global": false
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "Hyperliquid vs perp DEXs comparison catalysts moats competition dYdX GMX Vertex Aevo Drift Jupiter Perps onchain orderbook intent RFQ",
+          "content_types": [
+            "posts",
+            "news",
+            "developments",
+            "tweets"
+          ],
+          "limit": 25,
+          "days_back": 30,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.25,
+          "ecosystem_ids": [],
+          "category_ids": [
+            514
+          ],
+          "project_ids": []
+        }
+      },
+      {
+        "toolName": "searchProjects",
+        "parameters": {
+          "queries": [
+            "Hyperliquid",
+            "dYdX",
+            "GMX",
+            "Vertex",
+            "Aevo",
+            "Drift",
+            "Jupiter",
+            "Perpetual Protocol",
+            "Synthetix",
+            "Gains Network"
+          ],
+          "search_type": "name",
+          "limit": 5
+        }
+      },
+      {
+        "toolName": "searchContent",
+        "parameters": {
+          "search_mode": "semantic",
+          "semantic_query": "perp DEX market share volumes fees user growth 2025 2026 hyperliquid",
+          "content_types": [
+            "posts",
+            "news"
+          ],
+          "limit": 15,
+          "days_back": 90,
+          "sort_by": "relevance",
+          "minimum_relevance_score": 0.2,
+          "ecosystem_ids": [],
+          "category_ids": [
+            514
+          ],
+          "project_ids": []
+        }
+      }
+    ],
+    "totalTokens": 57902
+  },
+  "config": {
+    "judgeModel": "claude-4.5-sonnet",
+    "rankingMethod": "elo",
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    }
+  }
+}

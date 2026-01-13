@@ -1,0 +1,42 @@
+{
+  "runId": "2026-01-13T19:45:46.729Z",
+  "timestamp": "2026-01-13T19:45:46.729Z",
+  "config": {
+    "agentSystems": [
+      "droyd-casual"
+    ],
+    "datasets": "all",
+    "judgeModel": "claude-4.5-sonnet",
+    "outputDir": "datasets/_results/agent",
+    "rankingMethod": "elo",
+    "keepRawResponse": false,
+    "standardAgentConfig": {
+      "tools": [
+        "webSearch"
+      ],
+      "maxSteps": 10,
+      "instructions": "Role: crypto research assistant\n\n        Tools: 'webSearch'\n\n        Utilize web search capabilities to find accurate, current information about crypto projects, trends, and markets.\n\n        Your objective is to be a user's crypto research assistant. Answer the user's question as best as you can\n        "
+    },
+    "droydAgentConfig": {
+      "agentType": "agent"
+    },
+    "useCache": true
+  },
+  "dataset": "assetDiscovery+assetEvaluation+projectFundamentals+trendDiscovery+trendEvalution",
+  "judgeModel": "claude-4.5-sonnet",
+  "results": [],
+  "summary": {
+    "totalQuestions": 0,
+    "successfulEvaluations": 0,
+    "failedEvaluations": 0,
+    "totalComparisons": 0,
+    "winRateMatrix": {},
+    "averageExecutionTime": {},
+    "averageSteps": {},
+    "cacheStatistics": {
+      "hits": 0,
+      "misses": 0,
+      "hitRate": 0
+    }
+  }
+}

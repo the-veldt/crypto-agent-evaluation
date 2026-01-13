@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "1hLtAm5q",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1hLtAm5q",
+    "query": "Looking at the top perps protocols, what are the key trends and catalysts? Is narrative momentum accelerating, decelerating, or stable?",
+    "level": 3,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "derivatives"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## Core Analysis\n\n### Top Perps Protocols Overview\nHyperliquid dominates with **$8.77B open interest** and **$6.83B 24h volume** (Jan 13, 2026), capturing ~25% of total perp DEX market share. Total sector 24h volume: **$26.6B (+36.65% 24h)**. DefiLlama shows derivatives TVL at **$3.66B**, 7d perp volume **$212B**, fees **$45M**, revenue **$24M**.\n\nTop protocols by 24h metrics (CoinGecko/DefiLlama inferred leaders):\n| Rank | Protocol (Likely) | 24h OI | 24h Volume | Notes |\n|------|-------------------|--------|------------|-------|\n| 1    | Hyperliquid      | $8.77B | $6.83B    | Massive lead; HYPE token #32 MC ($5.85B, +4.94% 24h) |\n| 2    | Aevo/RBX         | $2.64B | $5.02B    | High volume |\n| 3    | dYdX             | $1.37B | $3.87B    | Established |\n| 4    | GMX/Gains        | ~$1.1B| ~$3.1B    | Arbitrum/others |\n| -    | Sector Total     | -      | $26.6B    | +36% 24h growth |\n\n### Key Trends\n- **Volume Explosion**: 24h surge (+36%) amid bull market; 7d perp vol $212B signals institutional/high-freq trading shift to on-chain.\n- **Hyperliquid Supremacy**: 30%+ OI share; HyperEVM integration boosts activity (daily/weekly/monthly addresses tracked).\n- **Airdrop Proliferation**: 21+ new perp DEXs (e.g., 01exchange, Axiome, Backpack, Cascade) gaining traction for points farming; delta-neutral strategies popular to mitigate liqs.\n- **TVL Stable Amid Vol Boom**: $3.66B TVL flat vs. vol growth → efficient capital use.\n\n### Catalysts\n- **Token Momentum**: HYPE breakout (top 35 MC) fuels ecosystem; potential airdrops from new DEXs (VestX, Paradex, etc.).\n- **Infra Upgrades**: Sub-second L1s (Hyperliquid), multi-chain expansion.\n- **Macro Tailwinds**: Crypto rally (BTC +2.2%, ETH +2.6% 24h) drives leverage demand.\n\n## Narrative Momentum\n**Accelerating**. 24h vol +36%, new protocol lists for 2026 farming, Hyperliquid token surge outweigh low tweet volume (1 high-engagement post on farming). Watch 7d OI/volume for confirmation vs. CEX perps competition.\n\n**Bottom line**: Perps sector thriving on Hyperliquid dominance and airdrop hype; position for vol leaders, hedge new farms. Monitor DefiLlama perps page for real-time shifts.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

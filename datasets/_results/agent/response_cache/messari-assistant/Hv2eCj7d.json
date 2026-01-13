@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "messari-assistant",
+    "qid": "Hv2eCj7d",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "Hv2eCj7d",
+    "query": "What defi protocols have the best valuation (P/S)?",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "messari-assistant",
+    "steps": [],
+    "finalAnswer": "# DeFi Protocols with the Lowest Price-to-Sales (P/S) Ratio\n\nThe Price-to-Sales (P/S) ratio is a valuation metric calculated by dividing the fully diluted market capitalization by the total transaction fees (used as a proxy for sales) [^1]. A lower P/S ratio generally indicates a better valuation.\n\nBased on the latest available data, the following DeFi protocol has the lowest P/S ratio:\n\n| Protocol Name | Price-to-Sales Ratio |\n| :--- | :--- |\n| StakeStone ETH | 0 |\n\nThe query results show that **StakeStone ETH** has a Price-to-Sales ratio of 0 [^1]. This result is repeated across the top 10 entries [^1].",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

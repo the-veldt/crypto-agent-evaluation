@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-fast",
+    "qid": "mT3dZi9w",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "mT3dZi9w",
+    "query": "what is the leading narrative or 'meta' in crypto, what assets are driving it, and why? Analyze the TAM, sustainability, and moat-like characteristics of the narrative",
+    "level": 2,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-fast",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nBitcoin remains the leading crypto narrative/meta as the maturing macro asset amid institutional adoption and policy shifts, driving 24% mindshare with strong smart account bullish sentiment (BTC at $93k); key assets are BTC, ETH, SOL; emerging rotations into privacy (ZEC, XMR) and payments (XRP) show momentum, but majors dominate leaderboards and calls. TAM is multi-trillion via global finance integration; sustainability hinges on macro liquidity; moat lies in network effects and liquidity.\n\n───\n\nLeading Narrative/Meta: Bitcoin as Maturing Macro Asset\nBitcoin leads with 23.97% mindshare (5,074 mentions, 805 smart), down 10% but still dominant per Elfa AI leaderboard (timeframe: 1d). Smart sentiment skews bullish (2,294 vs. 133 bearish), with 225 long calls (58 smart) vs. 30 shorts. Influencers like Ansem push $100k targets via buy pressure, while Bob Loukas eyes $107k despite weakness. Fidelity frames BTC as maturing into a macro asset shaped by liquidity, institutions, and policy—absorbing shocks but risk-off vulnerable.\n\nETH (11.94% mindshare, up 3.91%) and SOL (10.80%, up 16.78%) trail as L1 plays, with bullish sentiment but fewer calls. Tweets highlight narrative fragmentation: privacy (XMR ATH $680), payments (XRP +20% rotation), stablecoins, RWAs, perps—but no unified alt meta overtakes BTC dominance.\n\nAssets Driving the Narrative\n- BTC: Core driver; top long calls from smart accounts like Ansem, Bob Loukas, CryptoKaleo.\n- ETH/SOL: Ecosystem plays; SOL up 17% mindshare on momentum.\n- Emerging: XRP (payments rally per CNBC); ZEC (1.82% mindshare, privacy push); HYPE/LIT (perps/DEX, 2%+ mindshare with smart longs like TraderSZ); memes (FARTCOIN, PENGU calls).\n\nTop influence calls reinforce majors: 60%+ BTC-focused longs.\n\nTAM Analysis\nBTC macro narrative taps multi-trillion TAM via institutional replatforming: ETFs/DATCos, nation-state reserves (Gemini trends), payments (Stripe/Visa expansions, $38B illegal casino hint per Forbes). Privacy/RWAs add $1T+ via surveillance resistance and tokenization. Perps/stablecoins target $100T+ derivatives/FX. 2025 IPO wave (Circle, Kraken) signals pro maturation (PitchBook).\n\nSustainability\nModerate-high: BTC's deep liquidity weathers risk-off (Fidelity bull/bear cases), but alts/memes vulnerable to BTC correlation. Policy tailwinds (SEC deprioritizes crypto, bipartisan US per tweets) aid, but volatility risks 401ks (CNBC Warren). Privacy/payments sustainable if regulation tightens surveillance; memes low sustainability.\n\nMoat Characteristics\nBTC/ETH/SOL: Unrivaled network effects, liquidity, institutional flows—first-mover + HODL culture. Privacy (ZEC/XMR): Tech moat in ZK/proofs amid rising surveillance. Payments (XRP): Cross-border speed/cost vs. TradFi rails. Perps (HYPE): Onchain CEX-like execution. Weak moats in memes (hype-dependent). Overall, majors' embedded finance integration (ETFs, cards) creates defensible scale vs. fragmented alts.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

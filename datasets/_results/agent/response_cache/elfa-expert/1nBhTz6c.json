@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "1nBhTz6c",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "1nBhTz6c",
+    "query": "give me the top 3 memecoin plays on solana",
+    "level": 1,
+    "categories": [
+      "asset_discovery"
+    ],
+    "tags": null,
+    "sectors": [
+      "memecoins"
+    ],
+    "dataset": "assetDiscovery"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nThe current top 3 memecoin plays on Solana are Pudgy Penguins ($PENGU), Fartcoin ($FARTCOIN), and Bonk ($BONK), based on mindshare, social buzz, and market cap in January 2026. All three are widely discussed and actively traded, making them the leading memecoin opportunities on Solana right now.\n\n───\n\n1. Pudgy Penguins ($PENGU)  \nPudgy Penguins is the top Solana memecoin in terms of mindshare, with significant bullish sentiment and strong trading volume. Its current price is about $0.0126, with a market cap of approximately $791 million. The project is well-known for its NFT origins and broad community engagement, maintaining a high profile across Solana and other chains. More details can be found on their official site and Solscan.\n\n2. Fartcoin ($FARTCOIN)  \nFartcoin is a meme-driven coin that has rapidly gained traction, ranking high in both mindshare and market cap. It trades at around $0.399 with a market cap near $399 million. Fartcoin leverages meme culture and user-generated content, making it a popular play among traders seeking volatility and hype. See more on Solscan.\n\n3. Bonk ($BONK)  \nBonk remains a staple in the Solana memecoin scene. At a price of about $0.00001076 and a market cap just under $950 million, it commands significant liquidity and attention. Despite some recent downtrends, it continues to be seen as undervalued and is frequently mentioned as a top Solana meme play. Check out their official site and Solscan.\n\nSupporting Social Buzz:  \n- All three coins are consistently listed in top Solana memecoin and market cap discussions, as seen in recent tweets (ChargedVentures).\n- $BONK is described as \"the most undervalued solana token\" (crypturco).\n- Fartcoin is called \"the bitcoin of solana memecoins\" (MisterNameless).\n\nSummary:  \nIf you're looking for the most prominent memecoin plays on Solana right now, $PENGU, $FARTCOIN, and $BONK are leading in both social momentum and market activity. Always do your own research and manage risk appropriately, as memecoin volatility remains high.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

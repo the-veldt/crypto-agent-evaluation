@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "WcY3oXz8",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "WcY3oXz8",
+    "query": "analyze the defi market - which protocols are leading the narrative shift, gaining mindshare, and why",
+    "level": 2,
+    "categories": [
+      "trend_analysis"
+    ],
+    "tags": null,
+    "sectors": [
+      "defi"
+    ],
+    "dataset": "trendEvalution"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## DeFi Market Analysis (as of 2026-01-13 UTC)\n\n**Market Overview**: DeFi TVL remains dominated by Ethereum ecosystem protocols, with total Ethereum DeFi TVL exceeding **$99B** (9x next largest chain per recent sentiment). Liquid staking, lending, and DEXes anchor liquidity, while perps and RWAs signal narrative shifts toward derivatives and real-world integration. Top protocols by TVL: Lido (~$13.9B), Sky/MakerDAO ($4.9B), Aave ($4.5B), Uniswap ($3.2B).\n\n### Leading Protocols & TVL Leaders\n| Protocol     | Category       | TVL (2026 est.) | Key Token MC Rank | 24h Price Chg |\n|--------------|----------------|-----------------|-------------------|---------------|\n| **Lido**    | Liquid Staking| $13.9B         | wstETH #13 ($12.7B) | +2.54%       |\n| **Sky (MakerDAO)** | CDP/Stables  | $4.9B          | USDS #20 ($9.6B)  | -0.01%       |\n| **Aave**    | Lending       | $4.5B          | -                 | -            |\n| **Uniswap** | DEX           | $3.2B          | -                 | -            |\n| **Hyperliquid** | Perp DEX    | N/A (vol focus)| HYPE #32 ($5.85B) | +4.94%       |\n\n**Sources**: DefiLlama/TVL rankings (mid-2026), CoinGecko top tokens, TokenTerminal metrics.\n\n### Protocols Leading Narrative Shift & Gaining Mindshare\n1. **Lido (Liquid Staking Dominance)**  \n   - **Why Leading**: #1 TVL ($13.9B across ETH/Polygon/Solana); stETH/wstETH enables staking yields (3-4%) without lockups, fueling composability in lending/DEXes. Institutional staking push counters centralization concerns.  \n   - **Mindshare Gain**: Backbone of ETH DeFi ($99B+ TVL); Twitter highlights Ethereum's DeFi base layer role. **Implication**: Shift to \"staking as infrastructure\" amid ETF/treasury adoption ($35B+ ETH held onchain).\n\n2. **Hyperliquid (Perps & High-Vol Trading)**  \n   - **Why Leading**: $140B monthly derivs volume, **$616M annualized revenue**; HiHYPE LST launch, $322M token unlock navigated smoothly, institutional custody (Credo). HYPE token up 4.94% 24h.  \n   - **Mindshare Gain**: Trending #8 (social); perps narrative exploding as DeFi matures beyond spot DEXes. **Implication**: Captures retail/institutional derivs flows, rivaling CEXes with onchain execution.\n\n3. **Aave (Lending Evolution)**  \n   - **Why Leading**: Multi-chain (9+), flash loans, V4 upgrade incoming for efficiency/GHO stablecoin growth. Revenue from deposits/borrows resilient in volatility.  \n   - **Mindshare Gain**: Core liquidity hub; XT analysis flags as \"2026 anchor\" for leverage strategies. **Implication**: Shift to risk-controlled lending amid deleveraging cycles.\n\n4. **Sky/MakerDAO (Stablecoin & RWA)**  \n   - **Why Leading**: USDS/DAI supply ($9.6B+ MC), Endgame rollout, RWA collateral expansion ($12B+ distributed). Peg stability key for DeFi rails.  \n   - **Mindshare Gain**: $18.8T stablecoin vol on ETH (2025); regulatory clarity boosts neobanks/stocks onchain. **Implication**: RWAs as next growth layer, hedging volatility.\n\n5. **Uniswap (DEX Infrastructure)**  \n   - **Why Leading**: v4 hooks/Unichain L2 for custom liquidity; strong dev activity (commits, contracts deployed per TokenTerminal).  \n   - **Mindshare Gain**: Default DEX; Ethereum tweetstorm reinforces L1/L2 fee drops (<$0.01). **Implication**: Hooks enable narrative like prediction markets ($20B vol).\n\n### Social Sentiment & Trends (Twitter, min 100 faves since 2026-01-01)\n- **Ethereum/DeFi Base Layer**: High buzz on low fees, stablecoins ($18.8T vol), institutional rails (Robinhood/Gemini stocks on L2s).\n- **Shifts**: Perps (Hyperliquid), RWAs, smart wallets post-Pectra. No major bearish noise; focus on resilience/scalability.\n\n## Conclusions\n**Bottom Line**: **Lido and Hyperliquid lead mindshare gains**—Lido via staking ubiquity, Hyperliquid via perp volume/revenue explosion. Narrative shift from speculative yields to **sustainable primitives** (perps, RWAs, efficient lending) amid institutional inflows.  \n**Key Opportunity**: Monitor Hyperliquid ecosystem (HyperEVM) and Aave V4 for alpha; Ethereum L2s amplify all.  \n**Risks**: Peg breaks (stETH/USDS), regulation (stables/RWAs), chain-specific vol. Watch TVL flows and Q1 unlocks.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

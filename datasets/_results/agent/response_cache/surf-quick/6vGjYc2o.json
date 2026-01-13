@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "surf-quick",
+    "qid": "6vGjYc2o",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "6vGjYc2o",
+    "query": "pull the tokens (min $20m market cap) with the greatest growth in price over the last 24h - what are the common themes and narratives driving it? Is there a central sector or them among them, and if so, analyze what catalysts are driving it",
+    "level": 3,
+    "categories": [
+      "trend_discovery"
+    ],
+    "tags": null,
+    "sectors": null,
+    "dataset": "trendDiscovery"
+  },
+  "agentResult": {
+    "system": "surf-quick",
+    "steps": [],
+    "finalAnswer": "## TL;DR\n\nThe top gainers with market caps over $20M are dominated by **privacy coins and infrastructure tokens**, with **Monero (XMR)** leading at **+14.29%** ($665.48) and a $12.3B market cap. Key themes include:\n\n- **Privacy narrative resurgence**: XMR, Zcash (ZEC), and Dash are outperforming due to regulatory shifts and institutional accumulation\n- **Infrastructure plays**: Story Protocol ($IP) and MYX Finance gaining on protocol-specific catalysts\n- **Market rotation**: Traders shifting from large caps (BTC/ETH flat) to narrative-driven alts\n\nThe privacy sector is being driven by ZCash fallout diverting funds to Monero, Hyperliquid whale accumulation ($1M XMR purchase), and strong technical breakouts. [coingecko](https://www.coingecko.com/en/crypto-gainers-losers)\n\n## Top Gainers Analysis (Market Cap >$20M)\n\n| Rank | Token | Price | 24h Change | Market Cap | Volume (24h) | Category |\n|------|-------|-------|------------|------------|--------------|----------|\n| 15 | Monero (XMR) | $665.48 | +14.29% | $12.3B | $496.7M | Privacy |\n| 12 | Cardano (ADA) | $0.4069 | +3.29% | $14.9B | $366.4M | Infrastructure |\n| 30 | Avalanche (AVAX) | $14.52 | +5.78% | $6.2B | $209.4M | L1 |\n| 43 | Polkadot (DOT) | $2.25 | +8.83% | $3.7B | $105.8M | Interoperability |\n| 45 | Uniswap (UNI) | $5.57 | +4.15% | $3.5B | $63.0M | DeFi |\n\n*Data sourced from top 50 tokens by market cap. [coingecko](https://www.coingecko.com/en/crypto-gainers-losers)*\n\n## Privacy Coin Dominance\n\n**Monero (XMR)** is the clear leader with 14.29% gains, driven by:\n\n1. **ZCash fallout**: -20% drop in ZEC diverted funds to XMR as primary privacy alternative [x.com](https://x.com/vespamatic96/status/2010567492863942848)\n2. **Whale accumulation**: $1M XMR purchase via Hyperliquid on January 9, 2026\n3. **Technical breakout**: Cleared key resistance at $420, now trading at all-time highs\n4. **Regulatory narrative**: Growing privacy demand amid increased surveillance concerns\n\nOther privacy coins like Zcash (-2.57%) are underperforming, creating a clear rotation into Monero as the privacy sector leader.\n\n## Infrastructure & Protocol Gains\n\n**Story Protocol ($IP)** and **MYX Finance** are showing strength in specific verticals:\n\n- **Story Protocol**: +15.25% on technical breakout above $2.66 resistance, targeting $3.5 [coinpedia](https://coinpedia.org/price-analysis/top-crypto-gainers-today-dash-story-and-monero-lead-as-myx-finance-and-chiliz-follow/amp/)\n- **MYX Finance**: Derivatives protocol benefiting from BNB Chain ecosystem growth\n- **Polkadot**: +8.83% on interoperability narrative and parachain activity\n\n## Market Context\n\nThe gains are occurring while major cryptos are range-bound:\n- **Bitcoin**: +2.51% at $93,311\n- **Ethereum**: +2.93% at $3,179.59\n- **Total market cap**: $3.2T (+2.05% 24h)\n\nThis suggests **sector rotation** rather than broad market momentum, with traders focusing on specific narratives like privacy and infrastructure while majors consolidate.\n\n## Key Catalysts\n\n1. **Privacy regulatory shifts**: ZCash foundation issues driving migration to Monero\n2. **Technical breakouts**: XMR cleared $420, Story Protocol above $2.66\n3. **Whale activity**: $1M+ XMR accumulation on Hyperliquid\n4. **Narrative rotation**: Traders moving from saturated majors to thematic alts\n\n## Risk Assessment\n\n- **Privacy coins**: High volatility due to regulatory sensitivity\n- **Low float tokens**: MYX Finance has concentration risks despite gains\n- **Market dependence**: Gains reliant on continued BTC/ETH stability\n\nThe privacy narrative shows strongest momentum with institutional accumulation patterns, while infrastructure gains appear more technically driven.\n\n**Bottom line**: Privacy coins (particularly XMR) are leading this rotation cycle with fundamental catalysts, while infrastructure tokens are benefiting from technical breakouts and protocol-specific developments.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

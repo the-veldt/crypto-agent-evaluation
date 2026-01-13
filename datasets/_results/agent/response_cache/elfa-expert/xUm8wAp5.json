@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "cachedAt": "2026-01-13T00:00:00.000Z",
+    "sourceFile": "third-party-conversion",
+    "runId": "2026-01-13T00:00:00.000Z",
+    "system": "elfa-expert",
+    "qid": "xUm8wAp5",
+    "evaluationVersion": "v2"
+  },
+  "question": {
+    "qid": "xUm8wAp5",
+    "query": "Compare the top revenue generating projects on solana -- what are the key catalysts for each driving revenue growth",
+    "level": 1,
+    "categories": [
+      "project_fundamentals"
+    ],
+    "tags": null,
+    "sectors": [
+      "ecosystems"
+    ],
+    "dataset": "projectFundamentals"
+  },
+  "agentResult": {
+    "system": "elfa-expert",
+    "steps": [],
+    "finalAnswer": "TL;DR:\nRaydium, Orca, and Mango Markets are leading Solana’s revenue-generating protocols, each driven by distinct catalysts: Raydium’s dominance in liquidity and token launches, Orca’s focus on user-friendly swaps and capital efficiency, and Mango’s innovation in DeFi trading and derivatives. Raydium’s integration with real-world assets and stablecoins, Orca’s capital-efficient pools, and Mango’s advanced trading products are the main engines behind their revenue growth. Refer below for more details.\n\n───\n\nRaydium  \nRaydium is the top revenue generator on Solana, recently surpassing $1 trillion in cumulative trading volume and $160 million in annual revenue. Key catalysts include:\n- Becoming the default liquidity venue for new token launches and major listings on Solana, especially through LaunchLab, which incentivizes both creators and traders.\n- Programmatic token buybacks, aligning protocol and token holder incentives.\n- Dominance in stablecoin and tokenized asset trading (accounting for over 70% of all tokenized asset volume on Solana).\n- Official AMM partner for major stablecoins (e.g., WLFI’s USD1), driving billions in transfer volume.\n- Expansion into perps and full-spectrum trading infrastructure, making Raydium the “home of liquidity” for both spot and derivatives trading.\n- Integration with real-world assets (RWAs), attracting new market participants and increasing fee generation.\n- Continuous product innovation (concentrated liquidity pools, cross-chain assets, NFT integrations) to capture new market segments and trading activity.\nThese catalysts are reflected in their strong fee and revenue growth, with recent weeks showing surges in both trading volume and protocol revenue Raydium on X.\n\nOrca  \nOrca is recognized as Solana’s premier user-focused AMM, generating substantial revenue through:\n- Highly accessible and efficient trading interface, capturing mainstream and retail user flow.\n- Capital-efficient pools and concentrated liquidity solutions, boosting yield and trading fees for LPs and protocol.\n- Integration with price aggregators and external data sources, ensuring best execution and attracting sophisticated traders.\n- Focus on simplicity and onboarding, making it the go-to platform for new users and smaller tokens.\n- Strategic partnerships and cross-chain liquidity expansion (notably with Eclipse), broadening its reach and volume base.\nOrca’s revenue growth is tied to its ability to maintain deep liquidity and capture both retail and institutional flow, as well as its ongoing upgrades to pool efficiency and user experience Slashdot comparison.\n\nMango Markets  \nMango Markets leads in on-chain derivatives and margin trading on Solana. Its revenue drivers are:\n- Offering advanced trading products (perps, margin, lending) with low fees and deep liquidity, attracting high-volume traders.\n- Unique fee structure (negative maker fees, competitive taker fees) incentivizes liquidity provision and high-frequency trading.\n- DAO-controlled treasury accumulates all protocol fees, aligning incentives for governance token holders.\n- Integration with leading oracle providers (Pyth, Switchboard) for robust pricing and risk management.\n- Continuous rollout of new trading pairs and innovative DeFi primitives, keeping the platform competitive for power users and professional traders.\nWhile Mango’s TVL is modest, its focus on derivatives and leveraged trading means it can generate outsized revenue relative to its size, especially during periods of high market volatility Binance Square.\n\nSerum  \nSerum was historically a key player as Solana’s order book DEX, but after the FTX/Alameda collapse, its activity and revenue have been eclipsed by Raydium and Orca. Its main catalyst had been its central limit order book model, but it no longer drives significant revenue growth compared to its peers.\n\nSummary Table (Recent 24h Revenue, Jan 2026):\n- Raydium: ~$62,000\n- Orca: ~$25,000\n- Mango Markets: Data not updated for 24h, but annual revenue remains meaningful for derivatives\n- Serum: Minimal new revenue\n\nConclusion  \nRaydium’s broad liquidity, new asset launches, and stablecoin/RWA integrations are the primary catalysts for its revenue dominance. Orca’s accessible trading and capital efficiency drive its growth, while Mango Markets’ derivatives innovation powers its niche. All benefit from Solana’s low fees, fast settlement, and a rapidly expanding user base, but Raydium’s multi-pronged approach positions it as the clear leader in protocol revenue growth on Solana.",
+    "executionTimeMs": 0,
+    "stepCount": 0,
+    "toolCalls": [],
+    "totalTokens": 0
+  },
+  "config": {
+    "judgeModel": "gemini-3-flash",
+    "rankingMethod": "elo"
+  }
+}

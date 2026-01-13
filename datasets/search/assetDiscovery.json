@@ -16,11 +16,27 @@
     "sectors": null
   },
   {
-    "qid": "9zR4tK6m",
-    "query": "what Base assets are trending on twitter",
+    "qid": "pR8mK4vL",
+    "query": "what projects have recently raised funding",
+    "level": 1,
+    "categories": ["asset_discovery"],
+    "tags": ["fundraising"],
+    "sectors": null
+  },
+  {
+    "qid": "qW9tN5zC",
+    "query": "what are the current trends being discussed and what assets are fueling them",
     "level": 2,
     "categories": ["asset_discovery"],
     "tags": null,
-    "sectors": ["ecosystems"]
+    "sectors": null
+  },
+  {
+    "qid": "mK7xB2hJ",
+    "query": "what new DeFi protocols are gaining attention",
+    "level": 1,
+    "categories": ["asset_discovery"],
+    "tags": null,
+    "sectors": ["defi"]
   }
 ]
