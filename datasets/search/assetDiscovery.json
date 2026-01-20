@@ -9,7 +9,7 @@
   },
   {
     "qid": "3nQ8wL5x",
-    "query": "what assets are being discussed on twitter",
+    "query": "what crypto assets are being discussed on twitter",
     "level": 1,
     "categories": ["asset_discovery"],
     "tags": null,
@@ -17,7 +17,7 @@
   },
   {
     "qid": "pR8mK4vL",
-    "query": "what projects have recently raised funding",
+    "query": "what crypto projects have recently raised funding",
     "level": 1,
     "categories": ["asset_discovery"],
     "tags": ["fundraising"],
@@ -25,7 +25,7 @@
   },
   {
     "qid": "qW9tN5zC",
-    "query": "what are the current trends being discussed and what assets are fueling them",
+    "query": "what are the current crypto trends being discussed on twitter and what assets are fueling them",
     "level": 2,
     "categories": ["asset_discovery"],
     "tags": null,
@@ -38,5 +38,13 @@
     "categories": ["asset_discovery"],
     "tags": null,
     "sectors": ["defi"]
+  },
+  {
+    "qid": "jN9tH8vU",
+    "query": "analyze the last 48 hours of news, tweets, and research - what are the key trends and assets and what developments are driving them?",
+    "level": 2,
+    "categories": ["asset_discovery"],
+    "tags": null,
+    "sectors": null
   }
 ]

@@ -38,5 +38,13 @@
     "categories": ["asset_evaluation"],
     "tags": ["middle_market"],
     "sectors": ["defi"]
+  },
+  {
+    "qid": "sT8sN6wK",
+    "query": "explain MetaDAO, its recent launches, and core thesis",
+    "level": 2,
+    "categories": ["asset_evaluation"],
+    "tags": ["middle_market"],
+    "sectors": ["launchpad"]
   }
 ]

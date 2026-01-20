@@ -23,6 +23,16 @@ function parseArgs(): Partial<SearchEvaluationConfig> {
       process.exit(0);
     }
 
+    if (arg === '--test') {
+      overrides.useTestDatasets = true;
+      continue;
+    }
+
+    if (arg === '--keep-contents') {
+      overrides.keepFormattedContents = true;
+      continue;
+    }
+
     if (arg.startsWith('--')) {
       const value = args[i + 1];
 
@@ -121,6 +131,8 @@ function showHelp(): void {
 Usage: npm run eval:search -- [options]
 
 Options:
+  --test                   Use test datasets (datasets/search/test/)
+  --keep-contents          Keep formattedSearchContents in output (default: stripped)
   --dataset <name>         Dataset file(s):
                              - Single: assetDiscovery
                              - Multiple: file1,file2,file3
@@ -135,6 +147,7 @@ Options:
 
 Examples:
   npm run eval:search
+  npm run eval:search -- --test
   npm run eval:search -- --dataset all
   npm run eval:search -- --dataset assetDiscovery
   npm run eval:search -- --dataset assetDiscovery,otherDataset
@@ -147,11 +160,11 @@ Examples:
  */
 function displayBanner(config: SearchEvaluationConfig): void {
   console.log('========================================');
-  console.log('Search Evaluation Runner');
+  console.log(`Search Evaluation Runner${config.useTestDatasets ? ' (TEST MODE)' : ''}`);
   console.log('========================================');
   console.log('Configuration:');
   console.log(`  Systems: ${config.searchSystems.join(', ')}`);
-  console.log(`  Datasets: ${typeof config.datasets === 'string' ? config.datasets : config.datasets.join(', ')}`);
+  console.log(`  Datasets: ${typeof config.datasets === 'string' ? config.datasets : config.datasets.join(', ')}${config.useTestDatasets ? ' (test)' : ''}`);
   console.log(`  Judge Model: ${config.judgeModel}`);
   console.log(`  Output: ${config.outputDir}`);
 
@@ -186,7 +199,8 @@ function displaySummary(result: any): void {
 
   console.log('\nAverage Scores:');
   for (const [system, scores] of Object.entries(result.summary.averageScores)) {
-    console.log(`  ${system}:`);
+    const avgTokens = result.summary.averageTokenCount?.[system] || 'N/A';
+    console.log(`  ${system}: (avg tokens: ${avgTokens})`);
     console.log(`    Overall: ${(scores as any).overall.toFixed(1)}/10`);
     console.log(`    Query Relevance: ${(scores as any).queryRelevance.toFixed(1)}/10`);
     console.log(`    Quality: ${(scores as any).quality.toFixed(1)}/10`);

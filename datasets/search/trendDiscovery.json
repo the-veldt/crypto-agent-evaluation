@@ -33,10 +33,26 @@
   },
   {
     "qid": "pK8sN2fC",
-    "query": "what themes are being discussed around AI crypto projects",
+    "query": "what themes are being discussed in recent news/twitter/research around AI crypto projects",
     "level": 2,
     "categories": ["trend_discovery"],
     "tags": null,
     "sectors": ["ai"]
+  },
+  {
+    "qid": "xF6tL8vV",
+    "query": "what are the leading crypto agent payment protocols and what is their traction?",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["ai"]
+  },
+  {
+    "qid": "fN6tH8vC",
+    "query": "latest stablecoin research and analysis",
+    "level": 2,
+    "categories": ["asset_discovery"],
+    "tags": null,
+    "sectors": ["stablecoins"]
   }
 ]

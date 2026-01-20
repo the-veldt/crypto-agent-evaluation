@@ -1,29 +1,41 @@
 import { readFile, mkdir, writeFile, readdir } from 'fs/promises';
 import { join, basename } from 'path';
+import { encode } from 'gpt-tokenizer';
 import { modelMap } from '../../agents/agentFactory/models';
-import { executeDroydSearch, executeExaSearch } from './searchExecutor';
+import {
+  executeDroydSearch,
+  executeExaSearch,
+  executeParallelSearch,
+  executeValyuSearch,
+} from './searchExecutor';
 import { formatSearchResultsForEvaluation } from './searchResultFormatter';
 import { evaluateSearchResult } from './evaluateSearchResult';
+import { pairwiseCompareSearchResults } from './pairwiseCompareSearch';
+import { calculateEloRatings, calculateBradleyTerryRatings } from './rankings';
 import type { EvalQuestion } from '../../../datasets/types/evalQuestion';
 import type {
   SearchEvaluationConfig,
   EvaluationRunResult,
   QuestionEvaluationResult,
   SearchSystemResult,
+  SearchPairwiseComparison,
 } from './types';
 
 /**
  * Load dataset files and combine questions
  */
-async function loadDatasets(datasets: string | string[] | 'all'): Promise<{
+async function loadDatasets(
+  datasets: string | string[] | 'all',
+  useTestDatasets: boolean = false
+): Promise<{
   questions: EvalQuestion[];
   datasetNames: string[];
 }> {
-  const DATASETS_DIR = 'datasets/search';
+  const DATASETS_DIR = useTestDatasets ? 'datasets/search/test' : 'datasets/search';
   let filePaths: string[] = [];
 
   if (datasets === 'all') {
-    // Load all .json files from datasets/search/
+    // Load all .json files from datasets directory
     const files = await readdir(DATASETS_DIR);
     filePaths = files
       .filter((f) => f.endsWith('.json'))
@@ -72,6 +84,14 @@ function validateApiKeys(config: SearchEvaluationConfig): void {
     errors.push('EXA_API_KEY is required when testing Exa search');
   }
 
+  if (config.searchSystems.includes('parallel') && !process.env.PARALLEL_API_KEY) {
+    errors.push('PARALLEL_API_KEY is required when testing Parallel search');
+  }
+
+  if (config.searchSystems.includes('valyu') && !process.env.VALYU_API_KEY) {
+    errors.push('VALYU_API_KEY is required when testing Valyu search');
+  }
+
   if (errors.length > 0) {
     throw new Error(`Missing required API keys:\n${errors.join('\n')}`);
   }
@@ -80,20 +100,15 @@ function validateApiKeys(config: SearchEvaluationConfig): void {
 /**
  * Calculate summary statistics from evaluation results
  */
-function calculateSummary(results: QuestionEvaluationResult[]) {
-  const summary = {
+function calculateSummary(
+  results: QuestionEvaluationResult[],
+  config: SearchEvaluationConfig
+): EvaluationRunResult['summary'] {
+  const summary: EvaluationRunResult['summary'] = {
     totalQuestions: results.length,
     successfulEvaluations: 0,
     failedEvaluations: 0,
-    averageScores: {} as {
-      [system: string]: {
-        overall: number;
-        queryRelevance: number;
-        quality: number;
-        informationDensity: number;
-        completeness: number;
-      };
-    },
+    averageScores: {},
   };
 
   const systemScores: {
@@ -103,8 +118,12 @@ function calculateSummary(results: QuestionEvaluationResult[]) {
       quality: number[];
       informationDensity: number[];
       completeness: number[];
+      tokenCounts: number[];
     };
   } = {};
+
+  // Collect all comparisons for pairwise summary
+  const allComparisons: SearchPairwiseComparison[] = [];
 
   // Collect all scores by system
   for (const result of results) {
@@ -118,6 +137,7 @@ function calculateSummary(results: QuestionEvaluationResult[]) {
           quality: [],
           informationDensity: [],
           completeness: [],
+          tokenCounts: [],
         };
       }
 
@@ -128,6 +148,7 @@ function calculateSummary(results: QuestionEvaluationResult[]) {
         evalData.relevant_information_density_score
       );
       systemScores[system].completeness.push(evalData.completeness_score);
+      systemScores[system].tokenCounts.push(evaluation.tokenCount);
 
       summary.successfulEvaluations++;
     }
@@ -135,12 +156,17 @@ function calculateSummary(results: QuestionEvaluationResult[]) {
     if (result.error || result.evaluations.length === 0) {
       summary.failedEvaluations++;
     }
+
+    // Collect pairwise comparisons
+    if (result.pairwiseComparisons) {
+      allComparisons.push(...result.pairwiseComparisons);
+    }
   }
 
   // Calculate averages
-  for (const [system, scores] of Object.entries(systemScores)) {
-    const avg = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / arr.length;
+  const avg = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / arr.length;
 
+  for (const [system, scores] of Object.entries(systemScores)) {
     summary.averageScores[system] = {
       overall: avg(scores.overall),
       queryRelevance: avg(scores.queryRelevance),
@@ -150,7 +176,118 @@ function calculateSummary(results: QuestionEvaluationResult[]) {
     };
   }
 
+  // Calculate average token counts per system
+  summary.averageTokenCount = {};
+  for (const [system, scores] of Object.entries(systemScores)) {
+    summary.averageTokenCount[system] = Math.round(avg(scores.tokenCounts));
+  }
+
+  // Add pairwise comparison summary if enabled
+  if (config.enablePairwiseComparison && allComparisons.length > 0) {
+    const systems = config.searchSystems;
+
+    summary.totalComparisons = allComparisons.length;
+    summary.winRateMatrix = calculateWinRateMatrix(allComparisons);
+
+    if (config.rankingMethod === 'elo') {
+      summary.eloRankings = calculateEloRatings(allComparisons, systems);
+    } else {
+      summary.bradleyTerryRankings = calculateBradleyTerryRatings(allComparisons, systems);
+    }
+  }
+
   return summary;
+}
+
+/**
+ * Get result count from a search result based on the system type
+ */
+function getResultCount(result: SearchSystemResult): number {
+  switch (result.system) {
+    case 'droyd':
+      return (result.rawResponse as any).content?.length || 0;
+    case 'exa':
+      return (result.rawResponse as any[]).length;
+    case 'parallel':
+      return (result.rawResponse as any).results?.length || 0;
+    case 'valyu':
+      return (result.rawResponse as any).results?.length || 0;
+    default:
+      return 0;
+  }
+}
+
+/**
+ * Generate all unique pairs from a list of systems
+ * For N systems, generates N*(N-1)/2 pairs
+ */
+function generateAllPairs(systems: string[]): Array<[string, string]> {
+  const pairs: Array<[string, string]> = [];
+
+  for (let i = 0; i < systems.length; i++) {
+    for (let j = i + 1; j < systems.length; j++) {
+      pairs.push([systems[i], systems[j]]);
+    }
+  }
+
+  return pairs;
+}
+
+/**
+ * Calculate win rate matrix from comparisons
+ */
+function calculateWinRateMatrix(comparisons: SearchPairwiseComparison[]): {
+  [systemPair: string]: {
+    system1: string;
+    system2: string;
+    system1Wins: number;
+    system2Wins: number;
+    ties: number;
+    system1WinRate: number;
+  };
+} {
+  const matrix: {
+    [systemPair: string]: {
+      system1: string;
+      system2: string;
+      system1Wins: number;
+      system2Wins: number;
+      ties: number;
+      system1WinRate: number;
+    };
+  } = {};
+
+  for (const comparison of comparisons) {
+    const key = `${comparison.systemA}_vs_${comparison.systemB}`;
+
+    if (!matrix[key]) {
+      matrix[key] = {
+        system1: comparison.systemA,
+        system2: comparison.systemB,
+        system1Wins: 0,
+        system2Wins: 0,
+        ties: 0,
+        system1WinRate: 0,
+      };
+    }
+
+    if (comparison.winner === 'A') {
+      matrix[key].system1Wins++;
+    } else if (comparison.winner === 'B') {
+      matrix[key].system2Wins++;
+    } else {
+      matrix[key].ties++;
+    }
+  }
+
+  // Calculate win rates
+  for (const key in matrix) {
+    const data = matrix[key];
+    const total = data.system1Wins + data.system2Wins + data.ties;
+    data.system1WinRate = total > 0 ? data.system1Wins / total : 0;
+  }
+
+  return matrix;
 }
 
 /**
@@ -168,8 +305,10 @@ export async function runSearchEvaluation(
 
   // 2. Load datasets
   console.log('Loading datasets...');
-  const { questions, datasetNames } = await loadDatasets(config.datasets);
-  console.log(`Loaded ${questions.length} questions from ${datasetNames.length} dataset(s): ${datasetNames.join(', ')}\n`);
+  const { questions, datasetNames } = await loadDatasets(config.datasets, config.useTestDatasets);
+  console.log(
+    `Loaded ${questions.length} questions from ${datasetNames.length} dataset(s): ${datasetNames.join(', ')}${config.useTestDatasets ? ' (TEST MODE)' : ''}\n`
+  );
 
   // 3. Get judge model
   const modelInfo = modelMap[config.judgeModel as keyof typeof modelMap];
@@ -226,6 +365,10 @@ export async function runSearchEvaluation(
           searchPromises.push(executeDroydSearch(question.query, config.droydConfig));
         } else if (system === 'exa') {
           searchPromises.push(executeExaSearch(question.query, config.exaConfig));
+        } else if (system === 'parallel') {
+          searchPromises.push(executeParallelSearch(question.query, config.parallelConfig));
+        } else if (system === 'valyu') {
+          searchPromises.push(executeValyuSearch(question.query, config.valyuConfig));
         }
       }
 
@@ -237,10 +380,7 @@ export async function runSearchEvaluation(
         if (result.error) {
           console.log(`  Running ${result.system} search... ✗ (${result.error})`);
         } else {
-          const resultCount =
-            result.system === 'droyd'
-              ? (result.rawResponse as any).content?.length || 0
-              : (result.rawResponse as any[]).length;
+          const resultCount = getResultCount(result);
           console.log(
             `  Running ${result.system} search... ✓ (${(result.executionTimeMs / 1000).toFixed(1)}s, ${resultCount} results)`
           );
@@ -265,18 +405,80 @@ export async function runSearchEvaluation(
             searchContents: formattedContents,
           });
 
+          const tokenCount = encode(formattedContents).length;
+
           questionResult.evaluations.push({
             system: searchResult.system,
             evaluation,
             formattedSearchContents: formattedContents,
+            tokenCount,
           });
 
           console.log(
-            `  Evaluating ${searchResult.system} results... ✓ (score: ${evaluation.overall_score.toFixed(1)}/10)`
+            `  Evaluating ${searchResult.system} results... ✓ (score: ${evaluation.overall_score.toFixed(1)}/10, tokens: ${tokenCount})`
           );
         } catch (error) {
           console.log(
             `  Evaluating ${searchResult.system} results... ✗ (${error instanceof Error ? error.message : 'Unknown error'})`
+          );
+        }
+      }
+
+      // Pairwise comparisons (if enabled)
+      if (config.enablePairwiseComparison) {
+        const successfulResults = searchResults.filter((r) => !r.error);
+        const successfulSystems = successfulResults.map((r) => r.system);
+
+        if (successfulResults.length >= 2) {
+          const pairs = generateAllPairs(successfulSystems);
+          console.log(`  Running ${pairs.length} pairwise comparisons...`);
+
+          const comparisonPromises = pairs.map(([systemA, systemB]) => {
+            const resultA = successfulResults.find((r) => r.system === systemA)!;
+            const resultB = successfulResults.find((r) => r.system === systemB)!;
+
+            return pairwiseCompareSearchResults({
+              model: judgeModel,
+              question: question.query,
+              systemAResult: resultA,
+              systemBResult: resultB,
+              systemAName: systemA,
+              systemBName: systemB,
+            }).then((comparison) => ({
+              ...comparison,
+              questionId: question.qid,
+            }));
+          });
+
+          const comparisons = await Promise.all(comparisonPromises);
+          questionResult.pairwiseComparisons = comparisons;
+
+          // Log comparisons
+          for (const comparison of comparisons) {
+            const winnerLabel =
+              comparison.winner === 'tie'
+                ? 'TIE'
+                : comparison.winner === 'A'
+                  ? comparison.systemA
+                  : comparison.systemB;
+            console.log(
+              `    ${comparison.systemA} vs ${comparison.systemB}: ${winnerLabel} (${comparison.confidence})`
+            );
+          }
+
+          // Calculate rankings for this question
+          if (config.rankingMethod === 'elo') {
+            questionResult.rankings = {
+              elo: calculateEloRatings(comparisons, successfulSystems),
+            };
+          } else {
+            questionResult.rankings = {
+              bradleyTerry: calculateBradleyTerryRatings(comparisons, successfulSystems),
+            };
+          }
+        } else {
+          console.log(
+            `  ⚠ Only ${successfulResults.length} successful search(es), skipping pairwise comparisons`
           );
         }
       }
@@ -291,9 +493,19 @@ export async function runSearchEvaluation(
   }
 
   // 7. Calculate summary statistics
-  evaluationResult.summary = calculateSummary(evaluationResult.results);
+  evaluationResult.summary = calculateSummary(evaluationResult.results, config);
 
-  // 8. Save results
+  // 8. Strip formattedSearchContents if not keeping (default: strip to reduce file size)
+  if (!config.keepFormattedContents) {
+    for (const result of evaluationResult.results) {
+      for (const evaluation of result.evaluations) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        delete (evaluation as any).formattedSearchContents;
+      }
+    }
+  }
+
+  // 9. Save results
   const timestamp = runId.replace(/:/g, '-').replace(/\..+/, '');
   const outputFileName = `search-eval-${dataset}-${timestamp}.json`;
   const outputPath = join(config.outputDir, outputFileName);

@@ -1,4 +1,4 @@
-const DROYD_API_BASE_URL = 'https://api.droyd.ai';
+const DROYD_API_BASE_URL = 'http://localhost:3001' //'https://api.droyd.ai';
 
 export type SearchMode = 'recent' | 'semantic' | 'auto';
 export type ContentType = 'posts' | 'news' | 'developments' | 'tweets' | 'youtube' | 'memories' | 'concepts';
@@ -17,11 +17,18 @@ export interface DroydSearchOptions {
   projectIds?: number[];
   imageLimit?: number;
   includeAnalysis?: boolean;
+  snippetLimit?: number;
 }
 
 export interface DroydProject {
   project_id: number;
   project_name: string;
+}
+
+export interface DroydImage {
+  url: string;
+  title: string;
+  description: string;
 }
 
 export interface DroydSearchResult {
@@ -33,6 +40,8 @@ export interface DroydSearchResult {
   source_name?: string;
   projects?: DroydProject[];
   relevance_score?: number;
+  images?: DroydImage[] | null;
+  snippets?: string[] | null;
 }
 
 export interface DroydSearchResponse {
@@ -73,6 +82,7 @@ export async function droydSearch(options: DroydSearchOptions): Promise<DroydSea
     projectIds,
     imageLimit,
     includeAnalysis = false,
+    snippetLimit,
   } = options;
 
   // Validate semantic search requires a query
@@ -116,6 +126,10 @@ export async function droydSearch(options: DroydSearchOptions): Promise<DroydSea
 
     if (imageLimit !== undefined) {
       requestBody.image_limit = imageLimit;
+    }
+
+    if (snippetLimit !== undefined) {
+      requestBody.snippet_limit = snippetLimit;
     }
 
 

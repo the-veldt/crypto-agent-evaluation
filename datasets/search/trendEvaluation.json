@@ -1,7 +1,7 @@
 [
   {
     "qid": "vR3mK7wP",
-    "query": "what is driving the crypto AI agent narrative",
+    "query": "crypto x AI: what is the key thesis and key drivers of the narrative?",
     "level": 2,
     "categories": ["trend_evaluation"],
     "tags": null,
@@ -17,11 +17,11 @@
   },
   {
     "qid": "qW5xL9hM",
-    "query": "how sustainable is the memecoin trend on Solana",
+    "query": "Solana revenue analysis and trends",
     "level": 2,
     "categories": ["trend_evaluation"],
     "tags": null,
-    "sectors": ["memecoins", "ecosystems"]
+    "sectors": ["ecosystems"]
   },
   {
     "qid": "mP7sK2cQ",
@@ -38,5 +38,13 @@
     "categories": ["trend_evaluation"],
     "tags": null,
     "sectors": ["rwa"]
+  },
+  {
+    "qid": "zN6tL8vU",
+    "query": "what is the difference between x402 and ERC-8004?",
+    "level": 2,
+    "categories": ["trend_evaluation"],
+    "tags": null,
+    "sectors": ["ai"]
   }
 ]

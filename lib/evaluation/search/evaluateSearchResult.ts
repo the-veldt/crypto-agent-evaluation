@@ -76,7 +76,7 @@ Please evaluate the search contents based on the following criteria:
 
 1. **Query Relevance** (0-10): How well do the search contents match what the query is asking for?
 
-2. **Search Contents Quality** (0-10): Are the contents accurate, clear, well-structured, and useful?
+2. **Search Contents Quality** (0-10): Are the contents accurate, clear, well-structured, and useful? Favor niche, primary sources with genuine expertise (project docs, research papers, specialized crypto publications, onchain analysts) over generic coverage from mainstream outlets (Forbes, Business Insider, etc.). 
 
 3. **Relevant Information Density** (0-10): What percentage of the search contents is directly relevant to answering the query? Higher scores mean less filler, redundancy, or off-topic information. This measures token efficiency.
 
